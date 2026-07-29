@@ -1,0 +1,324 @@
+{
+  "type": "Place",
+  "runTime": "2026-07-19T18:10:05.9728009Z",
+  "period": "20241216-20241222",
+  "numProcessedItems": 716,
+  "numModifiedItems": 1,
+  "numNewItems": 33,
+  "numReviewItems": 0,
+  "numFailedItems": 0,
+  "modifiedSummary": [
+    {
+      "item": {
+        "recordId": "987007582048305171"
+      },
+      "result": "Success",
+      "messages": [
+        "updatePlaceRecord: variants +2: Ein Siniya (West Bank)[la] | En Sinya (West Bank)[la]"
+      ]
+    }
+  ],
+  "newSummary": [
+    {
+      "item": {
+        "recordId": "987013170283505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013170283505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013170285605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013170285605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013170285805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013170285805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013170286905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013170286905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013170287905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013170287905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013170289605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013170289605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013170289705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013170289705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013170290605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013170290605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013170282405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013170282405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013170282505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013170282505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013170283205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013170283205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013170283305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013170283305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013170284105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013170284105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013170284205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013170284205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013170284405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013170284405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013170285705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013170285705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013170285905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013170285905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013170286705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013170286705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013170287705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013170287705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013170288105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013170288105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013170290205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013170290205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013170282705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013170282705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013170283805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013170283805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013170284305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013170284305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013170286205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013170286205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013170287105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013170287105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013170287405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013170287405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013170288905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013170288905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013170289205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013170289205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013170289805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013170289805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013170290705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013170290705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013170290805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013170290805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013170291205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013170291205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    }
+  ],
+  "requireReviewSummary": [],
+  "failedSummary": [],
+  "requireReviewItems": [],
+  "failedItems": []
+}

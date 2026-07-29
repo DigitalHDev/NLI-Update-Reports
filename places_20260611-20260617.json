@@ -1,0 +1,2028 @@
+{
+  "type": "Place",
+  "runTime": "2026-07-20T20:27:49.7505756Z",
+  "period": "20260611-20260617",
+  "numProcessedItems": 3831,
+  "numModifiedItems": 38,
+  "numNewItems": 143,
+  "numReviewItems": 16,
+  "numFailedItems": 1,
+  "modifiedSummary": [
+    {
+      "item": {
+        "recordId": "987007467853505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007467853505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007531276505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007531276505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007558319205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007558319205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007559207505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007559207505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007294880405171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 283.2 km. Manual review required. Kima Id:1931 Name:אלטיפלאנו",
+        "Updated PrimaryArabFull from 'null' to 'ألتيبلانو'",
+        "updatePlaceRecord: variants +1: Altiplano (Bolivia and Peru)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007430663905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007430663905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007507582505171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 43.4 km. Manual review required. Kima Id:23954 Name:רוקא מברא (צרפת)",
+        "Updated PrimaryArabFull from 'null' to 'روكيمور (فرنسا)'",
+        "Updated Wd from 'Q1726996' to 'Q322376'. Manual review required. Kima Id:23954"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007529585505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007529585505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007410846705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007410846705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007532081705171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'سلسلة جبال سانتا مارتا (كولومبيا)'",
+        "updatePlaceRecord: variants +1: Sierra Nevada de Santa Marta (Colombia)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007546699305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007546699305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007548188705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007548188705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007533594605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007533594605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007535735105171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 39.7 km. Manual review required. Kima Id:86381 Name:אגם היערות (וירג'יניה)",
+        "Updated PrimaryArabFull from 'null' to 'بحيرة أوف ذا وودز (فيرجينيا)'",
+        "Updated Wd from 'Q845876' to 'Q5969581'. Manual review required. Kima Id:86381",
+        "Updated ViafId from 'null' to '157284006'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007541630205171"
+      },
+      "result": "Success",
+      "messages": [
+        "Coordinates added: Lat=54.583333333333336, Lon=8.583333333333334",
+        "Updated PrimaryArabFull from 'null' to 'جزر هاليج (ألمانيا)'",
+        "Updated Wd from 'null' to 'Q21161'",
+        "updatePlaceRecord: variants +1: Halligen (Germany)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007539246005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007539246005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007584242905171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated Wd from 'Q33503729' to 'Q12217787'. Manual review required. Kima Id:76175"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007584243005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007584243005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007584320005171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated Wd from 'Q35707291' to 'Q6445466'. Manual review required. Kima Id:78927"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007584320305171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated Wd from 'Q97326250' to 'Q35706970'. Manual review required. Kima Id:88754"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007567520005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007567520005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007584239605171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated Wd from 'Q47005863' to 'Q35724998'. Manual review required. Kima Id:75564"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007487171005171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Coordinates added: Lat=-12.083333333333334, Lon=-77.1",
+        "Updated PrimaryArabFull from 'null' to 'مارانجا (بيرو)'",
+        "Updated Wd from '130376220' to 'Q5995252'. Manual review required. Kima Id:83568",
+        "Updated ViafId from 'null' to '130376220'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007489688505171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 83.1 km. Manual review required. Kima Id:74300 Name:ינדז'יוב (מחוז שוויינטוקז'יסקיה, פולין)",
+        "Updated PrimaryRomFull from 'Jędrzejów (Województwo Świetokrzyskie, Poland)' to 'Jędrzejów (Województwo Świętokrzyskie, Poland)'",
+        "Updated PrimaryArabFull from 'null' to 'يودرزيوف (منطقة سويتوكرزيسكي فويفودشيب، بولندا)'",
+        "Updated ViafId from 'null' to '126877896'",
+        "updatePlaceRecord: variants +3: Andreyev (Województwo Świetokrzyskie, Poland)[la] | Yendzheyev (Województwo Świetokrzyskie, Poland)[la] | יענדזשעוו (מחוז שוויינטוקז'יסקיה, פולין)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007546801705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007546801705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007542189605171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'تيفولي (ليوبليانا، سلوفينيا)'",
+        "Updated Wd from 'Q159605' to 'Q2428528'. Manual review required. Kima Id:71976"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007560642705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007560642705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007588162505171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated Wd from 'Q2778092' to 'Q6969403'. Manual review required. Kima Id:23241"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007568669505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007568669505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007584245405171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated Wd from 'Q55615071' to 'Q49355738'. Manual review required. Kima Id:78578"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007584322705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007584322705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007532613405171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'פר-סופדו (עיר עתיקה)' to 'פר-סופדו (עיר קדומה)'",
+        "Updated PrimaryArabFull from 'null' to 'بير سوبدو (مدينة قديمة)'",
+        "Updated Wd from 'null' to 'Q2211546'",
+        "updatePlaceRecord: variants +6: Persopt (Extinct city)[la] | Pharcusa (Extinct city)[la] | Ṣaf̣t al-Ḥinnah (Egypt)[la] | Saft el-Henna (Egypt)[la] | Saft el-Hina (Egypt)[la] | Saft el-Hinna (Egypt)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007543196905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007543196905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007582044105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007582044105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007582512705171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated Wd from 'Q33526344' to 'Q2898722'. Manual review required. Kima Id:87282",
+        "updatePlaceRecord: variants +1: Za'atara (West Bank)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007584236805171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated Wd from 'Q33522082' to 'Q16126364'. Manual review required. Kima Id:78679"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007584240205171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated Wd from 'Q35725804' to 'Q16123873'. Manual review required. Kima Id:78676"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007584240505171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated Wd from 'Q33510362' to 'Q6827263'. Manual review required. Kima Id:70952"
+      ]
+    }
+  ],
+  "newSummary": [
+    {
+      "item": {
+        "recordId": "987007565185205171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007565185205171 (לילינג שי (סין))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007552764805171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007552764805171 (וורמינסטר (פנסילבניה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007538174205171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007538174205171 (דואווילה (איטליה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014635776105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014635776105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014635682105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014635682105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014635776305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014635776305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007547801605171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007547801605171 (טרוי (מישיגן))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014635776205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014635776205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014635682205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014635682205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014635775905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014635775905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007545199005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007545199005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007412495505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007412495505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007537280605171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007537280605171 (נמל מטרני (פרו))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007548463005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007548463005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007551413905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007551413905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007551985305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007551985305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007555247605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007555247605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007532764205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007532764205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007533256005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007533256005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007536625705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007536625705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007560019005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007560019005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007532564705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007532564705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007536804005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007536804005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007570326905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007570326905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012815276405171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987012815276405171 (אליגטור (מיסיסיפי))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012858525105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012858525105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012859155505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012859155505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012859157205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012859157205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012859163505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012859163505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012859163605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012859163605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012859173205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012859173205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012878374005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012878374005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012882059505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012882059505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012922274105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012922274105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013010589005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013010589005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013177965605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013177965605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013291165105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013291165105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013291167505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013291167505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013294745005171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987013294745005171 (סטנפורדוויל (ניו יורק))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013320717005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013320717005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013399761105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013399761105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014197239805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014197239805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014202535605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014202535605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014202539305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014202539305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014202537205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014202537205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014352662605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014352662605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014352710105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014352710105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014406482605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014406482605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014363783905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014363783905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014402692005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014402692005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014406482405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014406482405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014407074905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014407074905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014407077705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014407077705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014407579105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014407579105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014407581005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014407581005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014408070505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014408070505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014408075305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014408075305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014408077105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014408077105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014459722705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014459722705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014459828405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014459828405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014459828805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014459828805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014459834205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014459834205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014417580005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014417580005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014611959805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014611959805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014612166605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014612166605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014613377005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014613377005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014613381205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014613381205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007291055305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007291055305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007291775405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007291775405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007534846605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007534846605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007544643405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007544643405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007487051705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007487051705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007546334205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007546334205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007491847605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007491847605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007531161705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007531161705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007539280805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007539280805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007529106105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007529106105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007546975805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007546975805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007475716905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007475716905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007491699805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007491699805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007541022405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007541022405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007551588605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007551588605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007542721705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007542721705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007546528105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007546528105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007558495605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007558495605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007561272105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007561272105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007561819705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007561819705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007564356605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007564356605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007565100005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007565100005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007566658505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007566658505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007567261705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007567261705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007567487705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007567487705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007574973405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007574973405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007541776505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007541776505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007557328405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007557328405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007559388805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007559388805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007562313905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007562313905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007563318505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007563318505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007564615205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007564615205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007567339505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007567339505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012403586605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012403586605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012859173305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012859173305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012859174305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012859174305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012878374105171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987012878374105171 (תל אבראק (עיר קדומה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012881575105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012881575105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012881575205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012881575205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012965167305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012965167305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012978076505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012978076505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012859173405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012859173405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012859174105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012859174105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012859174605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012859174605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013126060805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013126060805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013177966005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013177966005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013325226005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013325226005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013501957505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013501957505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013587238905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013587238905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013624644405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013624644405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014202535805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014202535805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014202536105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014202536105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014202538205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014202538205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014202539605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014202539605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014228451405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014228451405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014228849705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014228849705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014406482805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014406482805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014407076205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014407076205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014407077805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014407077805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014407580205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014407580205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014407580705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014407580705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014408070805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014408070805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014459722805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014459722805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014459834305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014459834305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014406482905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014406482905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014407074105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014407074105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014407578905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014407578905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014408070005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014408070005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014459722905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014459722905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014612174705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014612174705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014613378505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014613378505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014613374805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014613374805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014613375005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014613375005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007538013105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007538013105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007564713105171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007564713105171 (וילה ריאל דה סנטו אנטוניו (פורטוגל))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012124367905171"
+      },
+      "result": "Failure",
+      "messages": [
+        "Failed to fetch MARC XML for place RecordId 987012124367905171. Error: RecordId does not exist in repository"
+      ]
+    }
+  ],
+  "requireReviewSummary": [
+    {
+      "item": {
+        "recordId": "987007294880405171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 283.2 km. Manual review required. Kima Id:1931 Name:אלטיפלאנו",
+        "Updated PrimaryArabFull from 'null' to 'ألتيبلانو'",
+        "updatePlaceRecord: variants +1: Altiplano (Bolivia and Peru)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007507582505171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 43.4 km. Manual review required. Kima Id:23954 Name:רוקא מברא (צרפת)",
+        "Updated PrimaryArabFull from 'null' to 'روكيمور (فرنسا)'",
+        "Updated Wd from 'Q1726996' to 'Q322376'. Manual review required. Kima Id:23954"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007535735105171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 39.7 km. Manual review required. Kima Id:86381 Name:אגם היערות (וירג'יניה)",
+        "Updated PrimaryArabFull from 'null' to 'بحيرة أوف ذا وودز (فيرجينيا)'",
+        "Updated Wd from 'Q845876' to 'Q5969581'. Manual review required. Kima Id:86381",
+        "Updated ViafId from 'null' to '157284006'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007584242905171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated Wd from 'Q33503729' to 'Q12217787'. Manual review required. Kima Id:76175"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007584320005171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated Wd from 'Q35707291' to 'Q6445466'. Manual review required. Kima Id:78927"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007584320305171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated Wd from 'Q97326250' to 'Q35706970'. Manual review required. Kima Id:88754"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007584239605171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated Wd from 'Q47005863' to 'Q35724998'. Manual review required. Kima Id:75564"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007487171005171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Coordinates added: Lat=-12.083333333333334, Lon=-77.1",
+        "Updated PrimaryArabFull from 'null' to 'مارانجا (بيرو)'",
+        "Updated Wd from '130376220' to 'Q5995252'. Manual review required. Kima Id:83568",
+        "Updated ViafId from 'null' to '130376220'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007489688505171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 83.1 km. Manual review required. Kima Id:74300 Name:ינדז'יוב (מחוז שוויינטוקז'יסקיה, פולין)",
+        "Updated PrimaryRomFull from 'Jędrzejów (Województwo Świetokrzyskie, Poland)' to 'Jędrzejów (Województwo Świętokrzyskie, Poland)'",
+        "Updated PrimaryArabFull from 'null' to 'يودرزيوف (منطقة سويتوكرزيسكي فويفودشيب، بولندا)'",
+        "Updated ViafId from 'null' to '126877896'",
+        "updatePlaceRecord: variants +3: Andreyev (Województwo Świetokrzyskie, Poland)[la] | Yendzheyev (Województwo Świetokrzyskie, Poland)[la] | יענדזשעוו (מחוז שוויינטוקז'יסקיה, פולין)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007542189605171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'تيفولي (ليوبليانا، سلوفينيا)'",
+        "Updated Wd from 'Q159605' to 'Q2428528'. Manual review required. Kima Id:71976"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007588162505171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated Wd from 'Q2778092' to 'Q6969403'. Manual review required. Kima Id:23241"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007584245405171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated Wd from 'Q55615071' to 'Q49355738'. Manual review required. Kima Id:78578"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007582512705171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated Wd from 'Q33526344' to 'Q2898722'. Manual review required. Kima Id:87282",
+        "updatePlaceRecord: variants +1: Za'atara (West Bank)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007584236805171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated Wd from 'Q33522082' to 'Q16126364'. Manual review required. Kima Id:78679"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007584240205171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated Wd from 'Q35725804' to 'Q16123873'. Manual review required. Kima Id:78676"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007584240505171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated Wd from 'Q33510362' to 'Q6827263'. Manual review required. Kima Id:70952"
+      ]
+    }
+  ],
+  "failedSummary": [
+    {
+      "item": {
+        "recordId": "987012124367905171"
+      },
+      "result": "Failure",
+      "messages": [
+        "Failed to fetch MARC XML for place RecordId 987012124367905171. Error: RecordId does not exist in repository"
+      ]
+    }
+  ],
+  "requireReviewItems": [
+    {
+      "item": {
+        "recordId": "987007294880405171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 283.2 km. Manual review required. Kima Id:1931 Name:אלטיפלאנו",
+        "Updated PrimaryArabFull from 'null' to 'ألتيبلانو'",
+        "updatePlaceRecord: variants +1: Altiplano (Bolivia and Peru)[la]"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01301cz  a2200337n  4500</leader><controlfield tag=\"005\">20260615093638.0</controlfield><controlfield tag=\"008\">860211|||anannbabn          |a ana      </controlfield><controlfield tag=\"001\">987007294880405171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">sh 85003929</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q118574</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">W0680000</subfield><subfield code=\"e\">W0680000</subfield><subfield code=\"f\">S0180000</subfield><subfield code=\"g\">S0180000</subfield><subfield code=\"2\">gnis</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000642617</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Altiplano</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">אלטיפלאנו</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">ألتيبلانو</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Altiplano Sudamericano de Bolivia</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"w\">nne</subfield><subfield code=\"a\">Altiplano (Bolivia and Peru)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">La Puna</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Meseta del Collao</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Meseta del Titicaca</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Plateau de Bolivia</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Puna</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"550\" ind1=\" \" ind2=\" \"><subfield code=\"w\">g</subfield><subfield code=\"a\">Plateaus</subfield><subfield code=\"z\">Argentina</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"550\" ind1=\" \" ind2=\" \"><subfield code=\"w\">g</subfield><subfield code=\"a\">Plateaus</subfield><subfield code=\"z\">Bolivia</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"550\" ind1=\" \" ind2=\" \"><subfield code=\"w\">g</subfield><subfield code=\"a\">Plateaus</subfield><subfield code=\"z\">Peru</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 034 imported from LCNA/LCSH sh85003929 on: 20260219</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Work cat.: Thust, H. Altiplano, mystisches Hochland der Anden, c1983.</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Lippincott</subfield><subfield code=\"b\">(Altiplano)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">BGN</subfield><subfield code=\"b\">(Altiplano in Bolivia, Peru and Argentina, 18⁰00ʹS, 68⁰00ʹW)</subfield></datafield><datafield tag=\"781\" ind1=\" \" ind2=\"0\"><subfield code=\"z\">Altiplano</subfield></datafield></record>\n"
+    },
+    {
+      "item": {
+        "recordId": "987007507582505171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 43.4 km. Manual review required. Kima Id:23954 Name:רוקא מברא (צרפת)",
+        "Updated PrimaryArabFull from 'null' to 'روكيمور (فرنسا)'",
+        "Updated Wd from 'Q1726996' to 'Q322376'. Manual review required. Kima Id:23954"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>00724nz  a2200157n  4500</leader><controlfield tag=\"005\">20260615093637.0</controlfield><controlfield tag=\"008\">191115|||a|z||babn|||||||||| | a|||||||d</controlfield><controlfield tag=\"001\">987007507582505171</controlfield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q322376</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">004.7118360</subfield><subfield code=\"e\">004.8077640</subfield><subfield code=\"f\">044.750900</subfield><subfield code=\"g\">044.133449</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-001747639</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Roquemaure (France)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">רוקא מברא (צרפת)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">روكيمور (فرنسا)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">NLI authority record created automatically.</subfield></datafield><datafield tag=\"955\" ind1=\" \" ind2=\" \"><subfield code=\"a\">רוקא מברא ROQUEMAURE</subfield></datafield></record>\n"
+    },
+    {
+      "item": {
+        "recordId": "987007535735105171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 39.7 km. Manual review required. Kima Id:86381 Name:אגם היערות (וירג'יניה)",
+        "Updated PrimaryArabFull from 'null' to 'بحيرة أوف ذا وودز (فيرجينيا)'",
+        "Updated Wd from 'Q845876' to 'Q5969581'. Manual review required. Kima Id:86381",
+        "Updated ViafId from 'null' to '157284006'"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01118nz  a2200241n  4500</leader><controlfield tag=\"005\">20260615094643.0</controlfield><controlfield tag=\"008\">980407n||acannaab|          |n ana    ||</controlfield><controlfield tag=\"001\">987007535735105171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 98032604</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q5969581</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">157284006</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">-94.75083333</subfield><subfield code=\"e\">-94.75083333</subfield><subfield code=\"f\">49.24972222</subfield><subfield code=\"g\">49.24972222</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-001051151</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Lake of the Woods (Va.)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">אגם היערות (וירג'יניה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">بحيرة أوف ذا وودز (فيرجينيا)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">United States</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Hart Enterprises. Maps of Culpeper ... Lake of the Woods, Virginia, c1989.</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Rand McNally comm. atlas, 1997</subfield><subfield code=\"b\">(Lake of the Woods, Orange County)</subfield></datafield><datafield tag=\"675\" ind1=\" \" ind2=\" \"><subfield code=\"a\">GNIS</subfield></datafield></record>\n"
+    },
+    {
+      "item": {
+        "recordId": "987007584242905171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated Wd from 'Q33503729' to 'Q12217787'. Manual review required. Kima Id:76175"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>00722nz  a2200157n  4500</leader><controlfield tag=\"005\">20260615094642.0</controlfield><controlfield tag=\"008\">191115|||a|z||babn|||||||||| | a|||||||d</controlfield><controlfield tag=\"001\">987007584242905171</controlfield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q12217787</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">35.29134</subfield><subfield code=\"e\">35.29134</subfield><subfield code=\"f\">32.32828</subfield><subfield code=\"g\">32.32828</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-001910130</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"b\">mul</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Siris (West Bank)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">סיריס (יהודה ושומרון)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">سيريس (الضفة الغربية)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">NLI authority record created automatically.</subfield></datafield></record>\n"
+    },
+    {
+      "item": {
+        "recordId": "987007584320005171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated Wd from 'Q35707291' to 'Q6445466'. Manual review required. Kima Id:78927"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>00687nz  a2200157n  4500</leader><controlfield tag=\"005\">20260615094643.0</controlfield><controlfield tag=\"008\">191115|||a|z||babn|||||||||| | a|||||||d</controlfield><controlfield tag=\"001\">987007584320005171</controlfield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q6445466</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">35.09753</subfield><subfield code=\"e\">35.09753</subfield><subfield code=\"f\">32.23544</subfield><subfield code=\"g\">32.23544</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-001910067</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"b\">mul</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Kur (West Bank)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">כור (יהודה ושומרון)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">كور (الضفة الغربية)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">NLI authority record created automatically.</subfield></datafield></record>\n"
+    },
+    {
+      "item": {
+        "recordId": "987007584320305171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated Wd from 'Q97326250' to 'Q35706970'. Manual review required. Kima Id:88754"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>00730nz  a2200157n  4500</leader><controlfield tag=\"005\">20260615094642.0</controlfield><controlfield tag=\"008\">191115|||a|z||babn|||||||||| | a|||||||d</controlfield><controlfield tag=\"001\">987007584320305171</controlfield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q35706970</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">35.2244873</subfield><subfield code=\"e\">35.2244873</subfield><subfield code=\"f\">31.6110618</subfield><subfield code=\"g\">31.6110618</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-001910064</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"b\">mul</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Kisan (West Bank)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">כיסאן (יהודה ושומרון)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">كيسان (الضفة الغربية)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">NLI authority record created automatically.</subfield></datafield></record>\n"
+    },
+    {
+      "item": {
+        "recordId": "987007584239605171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated Wd from 'Q47005863' to 'Q35724998'. Manual review required. Kima Id:75564"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>00812nz  a2200157n  4500</leader><controlfield tag=\"005\">20260615094642.0</controlfield><controlfield tag=\"008\">191115|||a|z||babn|||||||||| | a|||||||d</controlfield><controlfield tag=\"001\">987007584239605171</controlfield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q35724998</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">35.52666667</subfield><subfield code=\"e\">35.52666667</subfield><subfield code=\"f\">32.16722222</subfield><subfield code=\"g\">32.16722222</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-001910083</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"b\">mul</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Marj al-Ghazal (West Bank)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">מרג' אל-ר'זאל (יהודה ושומרון)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">مرج الغزال (الضفة الغربية)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">NLI authority record created automatically.</subfield></datafield></record>\n"
+    },
+    {
+      "item": {
+        "recordId": "987007487171005171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Coordinates added: Lat=-12.083333333333334, Lon=-77.1",
+        "Updated PrimaryArabFull from 'null' to 'مارانجا (بيرو)'",
+        "Updated Wd from '130376220' to 'Q5995252'. Manual review required. Kima Id:83568",
+        "Updated ViafId from 'null' to '130376220'"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01012nz  a2200241n  4500</leader><controlfield tag=\"005\">20260615093635.0</controlfield><controlfield tag=\"008\">010406n||acannaabn          |n ana    ||</controlfield><controlfield tag=\"001\">987007487171005171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 2001100499</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q5995252</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">130376220</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">W0770600</subfield><subfield code=\"e\">W0770600</subfield><subfield code=\"f\">S0120500</subfield><subfield code=\"g\">S0120500</subfield><subfield code=\"2\">other</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-001060151</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Maranga (Peru)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">מרנגה (פרו)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">مارانجا (بيرو)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Peru</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 034 imported from LCNA/LCSH n2001100499 on: 20260219</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Historia prehispánica de Lima, 2000:</subfield><subfield code=\"b\">p. 10, etc. (la ciudad de Maranga)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">WWW, GeoNet, 04-06-01:</subfield><subfield code=\"b\">(BGN Gaz. of Peru, 1995: Maranga, PPL, 12p0s05ʹS, 77p0s06ʹW)</subfield></datafield></record>\n"
+    },
+    {
+      "item": {
+        "recordId": "987007489688505171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 83.1 km. Manual review required. Kima Id:74300 Name:ינדז'יוב (מחוז שוויינטוקז'יסקיה, פולין)",
+        "Updated PrimaryRomFull from 'Jędrzejów (Województwo Świetokrzyskie, Poland)' to 'Jędrzejów (Województwo Świętokrzyskie, Poland)'",
+        "Updated PrimaryArabFull from 'null' to 'يودرزيوف (منطقة سويتوكرزيسكي فويفودشيب، بولندا)'",
+        "Updated ViafId from 'null' to '126877896'",
+        "updatePlaceRecord: variants +3: Andreyev (Województwo Świetokrzyskie, Poland)[la] | Yendzheyev (Województwo Świetokrzyskie, Poland)[la] | יענדזשעוו (מחוז שוויינטוקז'יסקיה, פולין)[he]"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>02178nz  a2200277n  4500</leader><controlfield tag=\"005\">20260615094643.0</controlfield><controlfield tag=\"008\">050609n| acannaabn          |a ana      </controlfield><controlfield tag=\"001\">987007489688505171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 2005042415</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">126877896</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">E0201800</subfield><subfield code=\"e\">E0201800</subfield><subfield code=\"f\">N0503800</subfield><subfield code=\"g\">N0503800</subfield><subfield code=\"2\">geonet</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-001073640</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Jędrzejów (Województwo Świętokrzyskie, Poland)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">ינדז'יוב (מחוז שוויינטוקז'יסקיה, פולין)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">يودرزيوف (منطقة سويتوكرزيسكي فويفودشيب، بولندا)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Poland</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Andreyev (Województwo Świetokrzyskie, Poland)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Yendzheyev (Województwo Świetokrzyskie, Poland)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">יענדזשעוו (מחוז שוויינטוקז'יסקיה, פולין)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 034 imported from LCNA/LCSH n2005042415 on: 20260219</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Demart Sp. z O.O. Kielce plus 6, plan miasta 1:18 000, c2003-2004:</subfield><subfield code=\"b\">map recto (Jędrzejów)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">GEOnet, 9 June 2005</subfield><subfield code=\"b\">(Jędrzejów, PPL, 50⁰38ʹ00ʺN 20⁰18ʹ00ʺE, Poland; variant: Yendzheyev; cites others)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Col. gaz. world, 1998</subfield><subfield code=\"b\">(Jedrzejow, Pol. Jedrzejów, town, Kielce prov., Poland, in Rus. Poland 1815-1919 called Andreyev)</subfield></datafield></record>\n"
+    },
+    {
+      "item": {
+        "recordId": "987007542189605171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'تيفولي (ليوبليانا، سلوفينيا)'",
+        "Updated Wd from 'Q159605' to 'Q2428528'. Manual review required. Kima Id:71976"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>00915nz  a2200181n  4500</leader><controlfield tag=\"005\">20260615094646.0</controlfield><controlfield tag=\"008\">961126|||anannbab|          |a ana      </controlfield><controlfield tag=\"001\">987007542189605171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">sh 96011217</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q2428528</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">12.8</subfield><subfield code=\"e\">12.8</subfield><subfield code=\"f\">41.96666667</subfield><subfield code=\"g\">41.96666667</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000845864</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Tivoli (Ljubljana, Slovenia)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">טיבולי (לובליאנה' סלובניה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">تيفولي (ليوبليانا، سلوفينيا)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"550\" ind1=\" \" ind2=\" \"><subfield code=\"w\">g</subfield><subfield code=\"a\">Parks</subfield><subfield code=\"z\">Slovenia</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Work cat.: 95-125639: Tivoli : Stadtpark von Ljubljana, 1994.</subfield></datafield></record>\n"
+    },
+    {
+      "item": {
+        "recordId": "987007588162505171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated Wd from 'Q2778092' to 'Q6969403'. Manual review required. Kima Id:23241"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>00649nz  a2200157n  4500</leader><controlfield tag=\"005\">20260615094643.0</controlfield><controlfield tag=\"008\">191115|||a|z||babn|||||||||| | a|||||||d</controlfield><controlfield tag=\"001\">987007588162505171</controlfield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q6969403</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">35.09516944</subfield><subfield code=\"e\">35.09516944</subfield><subfield code=\"f\">31.7789</subfield><subfield code=\"g\">31.7789</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-001793635</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Etanim (Israel)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">איתנים (ישראל)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">إيتنيم (إسرائيل)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Israel</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">NLI authority record created automatically.</subfield></datafield></record>\n"
+    },
+    {
+      "item": {
+        "recordId": "987007584245405171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated Wd from 'Q55615071' to 'Q49355738'. Manual review required. Kima Id:78578"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>00728nz  a2200157n  4500</leader><controlfield tag=\"005\">20260615094645.0</controlfield><controlfield tag=\"008\">191115|||a|z||babn|||||||||| | a|||||||d</controlfield><controlfield tag=\"001\">987007584245405171</controlfield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q49355738</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">35.16111111</subfield><subfield code=\"e\">35.16111111</subfield><subfield code=\"f\">31.99722222</subfield><subfield code=\"g\">31.99722222</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-001910000</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"b\">mul</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Jibiya (West Bank)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">ג'יביה (יהודה ושומרון)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">جبيا (الضفة الغربية)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">NLI authority record created automatically.</subfield></datafield></record>\n"
+    },
+    {
+      "item": {
+        "recordId": "987007582512705171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated Wd from 'Q33526344' to 'Q2898722'. Manual review required. Kima Id:87282",
+        "updatePlaceRecord: variants +1: Za'atara (West Bank)[la]"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>00744nz  a2200169n  4500</leader><controlfield tag=\"005\">20260615094643.0</controlfield><controlfield tag=\"008\">160515|||a|z||babn|||||||||| | a|||||||d</controlfield><controlfield tag=\"001\">987007582512705171</controlfield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q2898722</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">35.25662</subfield><subfield code=\"e\">35.25662</subfield><subfield code=\"f\">31.67361</subfield><subfield code=\"g\">31.67361</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-002012752</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"b\">mul</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Za'tara (West Bank)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">זעתרה (יהודה ושומרון)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">زعترة (الضفة الغربية)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Za'atara (West Bank)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Heading created by NLI</subfield></datafield></record>\n"
+    },
+    {
+      "item": {
+        "recordId": "987007584236805171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated Wd from 'Q33522082' to 'Q16126364'. Manual review required. Kima Id:78679"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>00796nz  a2200157n  4500</leader><controlfield tag=\"005\">20260615094643.0</controlfield><controlfield tag=\"008\">191115|||a|z||babn|||||||||| | a|||||||d</controlfield><controlfield tag=\"001\">987007584236805171</controlfield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q16126364</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">35.16152</subfield><subfield code=\"e\">35.16152</subfield><subfield code=\"f\">31.65387</subfield><subfield code=\"g\">31.65387</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-001910160</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"b\">mul</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Wadi an-Nis (West Bank)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">ואדי אל-ניס' (יהודה ושומרון)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">وادي النيص (الضفة الغربية)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">NLI authority record created automatically.</subfield></datafield></record>\n"
+    },
+    {
+      "item": {
+        "recordId": "987007584240205171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated Wd from 'Q35725804' to 'Q16123873'. Manual review required. Kima Id:78676"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>00779nz  a2200157n  4500</leader><controlfield tag=\"005\">20260615094643.0</controlfield><controlfield tag=\"008\">191115|||a|z||babn|||||||||| | a|||||||d</controlfield><controlfield tag=\"001\">987007584240205171</controlfield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q16123873</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">35.17478</subfield><subfield code=\"e\">35.17478</subfield><subfield code=\"f\">31.64925</subfield><subfield code=\"g\">31.64925</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-001910078</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"b\">mul</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Marah M'alla (West Bank)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">מראח מעלא (יהודה ושומרון)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">مراح معلا (الضفة الغربية)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">NLI authority record created automatically.</subfield></datafield></record>\n"
+    },
+    {
+      "item": {
+        "recordId": "987007584240505171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated Wd from 'Q33510362' to 'Q6827263'. Manual review required. Kima Id:70952"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>00731nz  a2200157n  4500</leader><controlfield tag=\"005\">20260615094642.0</controlfield><controlfield tag=\"008\">191115|||a|z||babn|||||||||| | a|||||||d</controlfield><controlfield tag=\"001\">987007584240505171</controlfield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q6827263</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">35.13661</subfield><subfield code=\"e\">35.13661</subfield><subfield code=\"f\">32.4571</subfield><subfield code=\"g\">32.4571</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-001910147</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"b\">mul</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Umm Dar (West Bank)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">אום דאר (יהודה ושומרון)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">أم دار (الضفة الغربية)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">NLI authority record created automatically.</subfield></datafield></record>\n"
+    }
+  ],
+  "failedItems": [
+    {
+      "item": {
+        "recordId": "987012124367905171"
+      },
+      "result": "Failure",
+      "messages": [
+        "Failed to fetch MARC XML for place RecordId 987012124367905171. Error: RecordId does not exist in repository"
+      ]
+    }
+  ]
+}

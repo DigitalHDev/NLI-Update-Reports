@@ -1,0 +1,2182 @@
+{
+  "type": "Place",
+  "runTime": "2026-07-20T18:58:45.3082616Z",
+  "period": "20260409-20260415",
+  "numProcessedItems": 3661,
+  "numModifiedItems": 94,
+  "numNewItems": 102,
+  "numReviewItems": 7,
+  "numFailedItems": 1,
+  "modifiedSummary": [
+    {
+      "item": {
+        "recordId": "987007467975205171"
+      },
+      "result": "Success",
+      "messages": [
+        "updatePlaceRecord: variants +1: Mizraʻ (Israel)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007417467605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007417467605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007465732005171"
+      },
+      "result": "Success",
+      "messages": [
+        "updatePlaceRecord: variants +1: ʻAmir (Israel)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007467856105171"
+      },
+      "result": "Success",
+      "messages": [
+        "updatePlaceRecord: variants +1: Harel (Israel)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007465861505171"
+      },
+      "result": "Success",
+      "messages": [
+        "updatePlaceRecord: variants +2: ʻEn Yahav (Israel)[la] | Ein Yahav (Israel)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007467847805171"
+      },
+      "result": "Success",
+      "messages": [
+        "updatePlaceRecord: variants +1: Nir ʻAm (Israel)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007559554205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007559554205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007284961605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007284961605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007283354105171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'כף התקווה הטובה (דרום אפריקה : קייפטאון)' to 'כף התקווה הטובה (דרום אפריקה : קייפ)'",
+        "Updated PrimaryArabFull from 'null' to 'الرجاء الصالح، كيب أوف هوب (جنوب أفريقيا : كيب)'",
+        "updatePlaceRecord: variants +8: Cabo da Boa Esperança (South Africa : Cape)[la] | Cabo Tormentoso (South Africa)[la] | Cape of Good Hope (South Africa : Cape)[la] | Cape of Storms (South Africa)[la] | Goeie Hoop, Kaap die (South Africa : Cape)[la] | Good Hope (South Africa : Cape)[la] | Kaap die Goeie Hoop (South Africa : Cape)[la] | Storms, Cape of (South Africa)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007549444705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007549444705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007357435405171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'מאלין (אוקראינה)' to 'מאלין (מחוז רובנו, אוקראינה)'",
+        "Updated PrimaryArabFull from 'null' to 'مالين (ريفننسكا أوبلاست، أوكرانيا)'",
+        "updatePlaceRecord: variants +1: Malin (Rivnensʹka oblastʹ, Ukraine)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007469859005171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'סטשלנו (מחוז קויאוויה-פומרניה)' to 'סטשלנו (מחוז קויאבסקו-פומורסקי, פולין)'",
+        "Updated PrimaryRomFull from 'Strzelno (Wojewodztwo Kujawsko-Pomorskie, Poland)' to 'Strzelno (Województwo Kujawsko-Pomorskie, Poland)'",
+        "Updated PrimaryArabFull from 'null' to 'سترزيلنو (محافظة كويافيا-بوميرانيا، بولندا)'",
+        "updatePlaceRecord: variants +1: Strelno ((Wojewodztwo Kujawsko-Pomorskie, Poland)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007491937105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007491937105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007552600005171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'סאלו (טררגונה, ספרד)' to 'סאלו (טרגונה, ספרד)'",
+        "Updated PrimaryArabFull from 'null' to 'سالو (تاراغونا، إسبانيا)'",
+        "Updated ViafId from 'null' to '143066151'",
+        "updatePlaceRecord: variants +1: Salou, Spain (Tarragona)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007409242505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'טיירה (טריניץ, צ'כיה)' to 'טיירה (טר'ינץ, צ'כיה)'",
+        "Updated PrimaryRomFull from 'Tyra (Třinec, Czech Republic)' to 'Tyra (Třinec, Czech Republic)'",
+        "Updated PrimaryArabFull from 'null' to 'تايرا (ترينيتش، جمهورية التشيك)'",
+        "updatePlaceRecord: variants +1: טורא (צ'כיה)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007477961105171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'טאכוב (מחוז פלזנסקי, צ'כיה)' to 'טאכוב (מחוז פלזן, צ'כיה)'",
+        "Updated PrimaryRomFull from 'Tachov (Plzeňský kraj, Czech Republic)' to 'Tachov (Plzeňský kraj, Czech Republic)'",
+        "Updated PrimaryArabFull from 'null' to 'تاتشوف (بلزينسكي كراج، جمهورية التشيك)'",
+        "updatePlaceRecord: variants +3: Reichental (Czech Republic)[la] | Tachau (Plzeňský kraj, Czech Republic)[la] | טאכוי (מחוז פלזנסקי, צ'כיה)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007531959505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'לאנגנבורג (ולברט, גרמניה:רובע)' to 'לנגנברג (וולברט, גרמניה)'",
+        "Updated PrimaryArabFull from 'null' to 'لانغنبرغ (فيلبرت، ألمانيا)'",
+        "Updated Wd from 'null' to 'Q1476033'",
+        "Updated ViafId from 'null' to '159457426'",
+        "updatePlaceRecord: variants +1: Langenberg, (Ger. (Düsseldorf-Mettmann)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007536496905171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 77.5 km. Manual review required. Kima Id:13751 Name:רוגוזנו (פילה, פולין)",
+        "Updated PrimaryHebFull from 'רוגוזנו (פילה, פולין)' to 'רוגוזנו (פולין)'",
+        "Updated PrimaryRomFull from 'Rogoźno (Piła, Poland)' to 'Rogoźno (Piła, Poland)'",
+        "Updated PrimaryArabFull from 'null' to 'روغوزنو (بيلا، بولندا)'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007494221205171"
+      },
+      "result": "Success",
+      "messages": [
+        "Coordinates added: Lat=34.34666666666667, Lon=109.18361111111112",
+        "Updated PrimaryHebFull from 'לינטונג קו (שיאן שי, סין)' to 'לינטונג קו (שי'אן שי, סין)'",
+        "Updated PrimaryArabFull from 'null' to 'لينتونغ تشو (شيان شي، الصين)'",
+        "Updated ViafId from 'null' to '155241389'",
+        "updatePlaceRecord: variants +1: Lintong Qu (Xi'an, Shaanxi Sheng, China)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007555440105171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'מוגילנן (פולין)' to 'מוגילנן (מחוז קויאבסקו-פומורסקי, פולין)'",
+        "Updated PrimaryRomFull from 'Mogilno (Bydgoszcz, Poland)' to 'Mogilno (Województwo Kujawsko-Pomorskie, Poland)'",
+        "Updated PrimaryArabFull from 'null' to 'موغيلنو (محافظة كويافيا-بوميرانيا، بولندا)'",
+        "Updated Wd from 'null' to 'Q325627'",
+        "updatePlaceRecord: variants +1: Mogilno (Bydgoszcz, Poland)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007389899005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007389899005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007397826805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007397826805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007465615705171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'אוק פארק (מחוז ונטורה, אילינוי)' to 'אוק פארק (מחוז ונטורה, קליפורניה)'",
+        "Updated PrimaryArabFull from 'null' to 'أوك بارك (مقاطعة فينتورا، كاليفورنيا)'",
+        "updatePlaceRecord: variants +1: Oak Valley (Ventura County, Calif.)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007469890305171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 59.9 km. Manual review required. Kima Id:19256 Name:טלוסטה (אוקראינה)",
+        "Updated PrimaryHebFull from 'טלוסטה (אוקראינה)' to 'טלוסטה (מחוז טרנופול, אוקראינה)'",
+        "Updated PrimaryArabFull from 'null' to 'توفستي (ترنوبلسكا أوبلاست، أوكرانيا)'",
+        "updatePlaceRecord: variants +6: Ṭlusṭah (Ternopilʹsʹka oblastʹ, Ukraine)[la] | Tluste (Ternopilʹsʹka oblastʹ, Ukraine)[la] | Tolstoye (Ternopilʹsʹka oblastʹ, Ukraine)[la] | Tolstoe (Ternopilʹsʹka oblastʹ, Ukraine)[la] | Tluste Ves' (Ternopilʹsʹka oblastʹ, Ukraine)[la] | טליסט (אוקראינה)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007477964305171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'אלדג'סן (שפינגה, גרמניה)' to 'אלדג'סן (שפרינגה, גרמניה)'",
+        "Updated PrimaryArabFull from 'null' to 'إلداغسن (سبرينغه، ألمانيا)'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007550543905171"
+      },
+      "result": "Failure",
+      "messages": [
+        "An error occurred while saving the entity changes. See the inner exception for details. --> Cannot insert duplicate key row in object 'dbo.Variants' with unique index 'IX_Variants_primary_heb_full_variant'. The duplicate key value is (ריו דה לה פלטה (מלכות משנה), Virreinato del Río de la Plata)."
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007557333805171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'ווייפאנג (שנדונג שנג, סין)' to 'ווייפאנג (שאנדונג שנג, סין)'",
+        "Updated PrimaryArabFull from 'null' to 'ويفانغ (شاندونغ شنغ، الصين)'",
+        "Updated ViafId from 'null' to '123156338'",
+        "updatePlaceRecord: variants +2: Wei-fang, China (Shantung)[la] | Wei-fang (Shandong Sheng, China)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007560058905171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'בלומנדל (הולנד הצפוני, הולנד)' to 'בלומנדל (צפון הולנד, הולנד)'",
+        "Updated PrimaryArabFull from 'null' to 'بلوميندال (شمال هولندا، هولندا)'",
+        "Updated Wd from 'null' to 'Q33425149'",
+        "updatePlaceRecord: variants +1: Bloemendaal, Netherlands[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007592249605171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'אוזריאני (מחוז טרנופיל, אוקראינה)' to 'אוזריאני (מחוז טרנופול, אוקראינה)'",
+        "Updated PrimaryArabFull from 'null' to 'أوزيرياني (ترنوبلسكا أوبلاست، أوكرانيا)'",
+        "Updated Wd from 'null' to 'Q4332186'",
+        "updatePlaceRecord: variants +4: Ozeryany (Ternopilʹsʹka oblastʹ, Ukraine)[la] | Jezierzany (Ternopilʹsʹka oblastʹ, Ukraine)[la] | Yezerzhany (Ternopilʹsʹka oblastʹ, Ukraine)[la] | Yezezhany (Ternopilʹsʹka oblastʹ, Ukraine)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987009674690405171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'חורושיב (מחוז ז'יטומיר, אוקראינה)' to 'חורושיב (מחוז זיטומיר, אוקראינה)'",
+        "Updated PrimaryArabFull from 'null' to 'خوروشيف (زهيتوميرسكا أوبلاست، أوكرانيا)'",
+        "updatePlaceRecord: variants +12: Volodarsk-Volynskyi (Ukraine)[la] | Goroshki (Ukraine)[la] | Horoschki (Ukraine)[la] | Horoshki (Ukraine)[la] | Kotozovo (Ukraine)[la] | Kutuzov Volodarsk (Ukraine)[la] | Kutuzowe Volodarskoe (Ukraine)[la] | Volodarsk (Ukraine)[la] | Volodarsk Vohlinskii (Ukraine)[la] | Choroschiw (Ukraine)[la] | Horoszów (Ukraine)[la] | Horoșiv (Ukraine)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007559891505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Coordinates added: Lat=54.35, Lon=16.683333333333334",
+        "Updated PrimaryHebFull from 'סלבנו (סלופסק, פולין)' to 'סלבנו (פומרניה המערבית, פולין)'",
+        "Updated PrimaryRomFull from 'Sławno (Słupsk, Poland)' to 'Sławno (Województwo Zachodniopomorskie, Poland)'",
+        "Updated PrimaryArabFull from 'null' to 'سلاونو (محافظة غرب بوميرانيا، بولندا)'",
+        "updatePlaceRecord: variants +2: Sławno (Słupsk, Poland)[la] | Sławno, Poland[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007564434405171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'טקירדג אילי (טורקיה)' to 'טקירדא אילי (טורקיה)'",
+        "Updated PrimaryRomFull from 'Tekirdağ İli (Turkey)' to 'Tekirdağ İli (Turkey)'",
+        "Updated PrimaryArabFull from 'null' to 'منطقة تكيرداغ (تركيا)'",
+        "Updated ViafId from 'null' to '154812461'",
+        "updatePlaceRecord: variants +1: Tekirdağ, Turkey (Province)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007565136005171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'ברניבקה (מחוז ז'יטומיר, אוקראינה)' to 'ברניבקה (מחוז זיטומיר, אוקראינה)'",
+        "Updated PrimaryArabFull from 'null' to 'بارانيفكا (زهيتوميرسكا أوبلاست، أوكرانيا)'",
+        "Updated Wd from 'null' to 'Q4077805'",
+        "updatePlaceRecord: variants +2: Baranówka (Ukraine)[la] | Baranovka (Z︠H︡ytomyrsʹka oblastʹ, Ukraine)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007567385305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007567385305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007581532505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Coordinates added: Lat=49.5566055, Lon=15.07262935",
+        "Updated PrimaryHebFull from 'לוקבץ' (ויסוצ'ינה)' to 'לוקבץ' (ויסוצ'ינה, צ'כיה)'",
+        "Updated PrimaryRomFull from 'Lukavec (Vysočina, Czech Republic)' to 'Lukavec (Vysočina, Czech Republic)'",
+        "Updated PrimaryArabFull from 'null' to 'لوكافيك (فيسوتشينا، جمهورية التشيك)'",
+        "updatePlaceRecord: variants +1: לוקאוויש (צ'כיה)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987009674685905171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'אושצ'ייצ'קו (מחוז טרנופול, אוקראינה)' to 'אוסטצ'קו (מחוז טרנופול, אוקראינה)'",
+        "Updated PrimaryArabFull from 'null' to 'أوستشكو (ترنوبلسكا أوبلاست، أوكرانيا)'",
+        "updatePlaceRecord: variants +4: Uścieczko (Ukraine)[la] | Ustetschko (Ukraine)[la] | Usteciko (Ukraine)[la] | איסטעטשקע (אוקראינה)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007511460305171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'טרזין (מחוז אוסטי נד לבם, צ'כיה)' to 'טרזין (מחוז אוסטי, צ'כיה)'",
+        "Updated PrimaryRomFull from 'Terezín (Ústecký kraj, Czech Republic)' to 'Terezín (Ústecký kraj, Czech Republic)'",
+        "Updated PrimaryArabFull from 'null' to 'تيريزين (أوستيكي كراج، جمهورية التشيك)'",
+        "Updated Wd from 'null' to 'Q523489'",
+        "updatePlaceRecord: variants +5: Theresienstadt (Czech Republic)[la] | Terezín (Severočeský kraj, Czechoslovakia)[la] | Terezín (Severočeský kraj, Czech Republic)[la] | טריזנשטאט (מחוז אוסטי נד לבם, צ'כיה)[he] | טריזנשטט (מחוז אוסטי נד לבם, צ'כיה)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007552833705171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'הרבורג (שוואביה, גרמניה)' to 'הרבורג (שוואבן, גרמניה)'",
+        "Updated PrimaryArabFull from 'null' to 'هاربورغ (شوابيا، ألمانيا)'",
+        "updatePlaceRecord: variants +1: Harburg, Ger. (Schwaben)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007553081605171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'מיצ'ורינסק (מחוז טמבוב, רוסיה)' to 'מחוז טמבוב (מחוז טמבוב, רוסיה)'",
+        "Updated PrimaryArabFull from 'null' to 'ميتشورينسك (تامبوفسكايا أوبلاست، روسيا)'",
+        "Updated Wd from 'null' to 'Q159124'",
+        "Updated ViafId from 'null' to '126705500'",
+        "updatePlaceRecord: variants +5: Michurinsk, Russia[la] | Kozlov (Tambovskai︠a︡ oblastʹ, Russia)[la] | Mitschurinsk (Tambovskai︠a︡ oblastʹ, Russia)[la] | Mitschurnisk (Tambovskai︠a︡ oblastʹ, Russia)[la] | Michurinsk (R.S.F.S.R.)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007562360305171"
+      },
+      "result": "Success",
+      "messages": [
+        "Coordinates added: Lat=48.916666666666664, Lon=21.466666666666665",
+        "Updated PrimaryHebFull from 'דובניק (סלובקיה)' to 'דובניק (ויכודוסלובנסקי קראי, סלובקיה)'",
+        "Updated PrimaryRomFull from 'Dubník (Východoslovenský kraj, Slovakia)' to 'Dubník (Východoslovenský kraj, Slovakia)'",
+        "Updated PrimaryArabFull from 'null' to 'دوبنيك (فيشودوسلوفنسكي كراج، سلوفاكيا)'",
+        "updatePlaceRecord: variants +4: Dubník (Východoslovenský kraj, Czechoslovakia)[la] | Csuz (Východoslovenský kraj, Slovakia)[la] | Cuz (Východoslovenský kraj, Slovakia)[la] | טשוס (סלובקיה)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007565041705171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'טאיאן (שנדונג שנג, סין)' to 'טאיאן (שאנדונג שנג, סין)'",
+        "Updated PrimaryArabFull from 'null' to 'تايان (شاندونغ شنغ، الصين)'",
+        "Updated ViafId from 'null' to '132095646'",
+        "updatePlaceRecord: variants +8: Tʻai-an hsien (Shandong Sheng, China)[la] | Tʻai-an shih (China)[la] | Tai'an Shi (China)[la] | Tʻai-an (Shandong Sheng, China)[la] | Tʻai-an fu (China)[la] | Tai'an Fu (China)[la] | Taianfu (China)[la] | Tai'an Xian (Shandong Sheng, China)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007529799705171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'לאונטופוליס (מצרים : עיר קדומה)' to 'לאונטופוליס (קאליוביה, מצרים : עיר קדומה)'",
+        "Updated PrimaryRomFull from 'Leontopolis (Qalyūbīyah, Egypt : Extinct city)' to 'Leontopolis (Qalyūbīyah, Egypt : Extinct city)'",
+        "Updated PrimaryArabFull from 'ليونتوپوليس (القليوبية، مصر: مدينة مندثرة)' to 'ليونتوپوليس (القليوبية، مصر : مدينة مندثرة)'",
+        "updatePlaceRecord: variants +13: Leontopolis (Extinct city)[la] | Leontopolis (Egypt)[la] | Nay-ta-hut (Extinct city)[la] | Tall al-Yahudiya (Egypt)[la] | Tall al-Yahudiyah (Egypt)[la] | Tell el-Yahudiyeh (Egypt)[la] | Yahudiya, Tall al- (Egypt)[la] | Yahūdīyah, Tall al- (Egypt)[la] | Yahudiyeh, Tell el- (Egypt)[la] | Yehudiyye (Tel el-)[la] | תל אל-יהודיה (מצרים : עיר קדומה)[he] | יהודיה (תל)[he] | טָרִמוּ (מצרים : עיר קדומה)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007542721205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007542721205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007559873505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'ברדפורד (יורקשייר המערבית, אנגליה)' to 'ברדפורד (מערב יורקשייר, אנגליה)'",
+        "Updated PrimaryArabFull from 'null' to 'برادفورد (غرب يوركشاير، إنجلترا)'",
+        "updatePlaceRecord: variants +7: Bradford (West Yorkshire, England : District)[la] | Bradford, Eng. (West Yorkshire)[la] | Bradford (West Yorkshire)[la] | City and Borough of Bradford (England)[la] | Bradford Metropolitan District (England)[la] | Bradford Metropolitan Borough (England)[la] | Bradford District (England)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007564626105171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'קרופט (ורינגטון, אנגליה)' to 'קרופט (וורינגטון, אנגליה)'",
+        "Updated PrimaryArabFull from 'null' to 'كروفت (وارينغتون، إنجلترا)'",
+        "Updated ViafId from 'null' to '152503755'",
+        "updatePlaceRecord: variants +2: Croft (Cheshire, England)[la] | Croft (Cheshire)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007565106505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'נוינקירכן (חבל הסאר, גרמניה)' to 'נוינקירכן (סארלנד, גרמניה)'",
+        "Updated PrimaryArabFull from 'null' to 'نيونكيرشن (سارلاند، ألمانيا)'",
+        "updatePlaceRecord: variants +1: Neunkirchen/Saar (Germany)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007567078905171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryHebFull from 'סמבור (אוקראינה)' to 'סמבור (מחוז סמבירסקי, אוקראינה)'",
+        "Updated PrimaryRomFull from 'Sambir (Sambirsʹkyĭ raĭon, Ukraine)' to 'Sambir (Sambirsʹkyĭ raĭon, Ukraine)'",
+        "Updated PrimaryArabFull from 'null' to 'سامبير (سامبيرسكي راون، أوكرانيا)'",
+        "Updated Wd from 'null' to 'Q156593'",
+        "Updated ViafId from '136069836' to '247789422'. Manual review required. Kima Id:12414",
+        "updatePlaceRecord: variants +9: Sambor, Galicia (City)[la] | Samborz (Ukraine)[la] | Samboria (Ukraine)[la] | Novi-Sambor (Ukraine)[la] | Novyĭ Sambir (Ukraine)[la] | Nove Misto (Ukraine)[la] | Sambor (Sambirsʹkyĭ raĭon, Ukraine)[la] | סמביר (אוקראינה)[he] | סאמבור (אוקראינה)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007599980805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007599980805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987009674690505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'קוזליב (מחוז טרנופיל, אוקראינה)' to 'קוזליב (מחוז טרנופול, אוקראינה)'",
+        "Updated PrimaryArabFull from 'null' to 'كوزليف (ترنوبلسكا أوبلاست، أوكرانيا)'",
+        "updatePlaceRecord: variants +4: Kozłów (Ukraine)[la] | Kosliw (Ukraine)[la] | Kozlov (Ukraine)[la] | Kozlev (Ukraine)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987011060727905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987011060727905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987011912076005171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'غارليافا (ليتوانيا)'",
+        "updatePlaceRecord: variants +4: Godlewo (Lithuania)[la] | Goddlau (Lithuania)[la] | גודלאווה (ליטא)[he] | גודלבו (ליטא)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007293784405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007293784405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007333993305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007333993305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007477937705171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'ז'אטץ (מחוז אוטצקי, צ'כיה)' to 'ז'אטץ (מחוז אוסטי, צ'כיה)'",
+        "Updated PrimaryRomFull from 'Žatec (Ústecký kraj, Czech Republic)' to 'Žatec (Ústecký kraj, Czech Republic)'",
+        "Updated PrimaryArabFull from 'null' to 'زاتيك (أوستيكي كراج، جمهورية التشيك)'",
+        "updatePlaceRecord: variants +1: Saaz (Ústecký kraj, Czech Republic)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007557199905171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'לה פונטה (וקלוז, צרפת)' to 'לה פונטה (ווקלוז, צרפת)'",
+        "Updated PrimaryArabFull from 'null' to 'لو بونتيه (فوكلوز، فرنسا)'",
+        "updatePlaceRecord: variants +2: Le Pontet, France (Vaucluse)[la] | Pontet, Le (Vaucluse, France)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007555026205171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'סלוביצה (וויבודספו לובוסקיה, פולין)' to 'סלוביצה (מחוז לובוסקי, פולין)'",
+        "Updated PrimaryArabFull from 'null' to 'سلوبيس (لوبوسكي فويفودشيب، بولندا)'",
+        "Updated ViafId from 'null' to '126326655'",
+        "updatePlaceRecord: variants +2: Słubice (Zielona Góra, Poland)[la] | Damm-Vorstadt (Poland)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007494367305171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'המסוורת' (יורקשייר המערבית, אנגליה)' to 'המסוורת' (מערב יורקשייר, אנגליה)'",
+        "Updated PrimaryArabFull from 'null' to 'هيمسورث (غرب يوركشاير، إنجلترا)'",
+        "Updated ViafId from 'null' to '152646163'",
+        "updatePlaceRecord: variants +1: Hemsworth (England)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007550339305171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'בדפורד (ווצ'סטר, ניו יורק)' to 'בדפורד (מחוז וסטצ'סטר, ניו יורק)'",
+        "Updated PrimaryArabFull from 'null' to 'بيدفورد (مقاطعة ويستشستر، نيويورك)'",
+        "Updated ViafId from 'null' to '237436915'",
+        "updatePlaceRecord: variants +2: Bedford Village (N.Y.)[la] | Bedford, N.Y. (Westchester Co.)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007557209705171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'ג'ינאן (מחוז שאנדונג, סין)' to 'ג'ינאן (שאנדונג שנג, סין)'",
+        "Updated PrimaryArabFull from 'null' to 'جينان (شاندونغ شنغ، الصين)'",
+        "updatePlaceRecord: variants +10: Chi-nan shih jen min cheng fu (China)[la] | Sainan (China)[la] | Chi-nan (China)[la] | Tsinan (Shandong Sheng, China)[la] | Chi-nan shih (China)[la] | Chʻüan-chʻeng (Shandong Sheng, China)[la] | Ji nan shi (China)[la] | Ji nan (China)[la] | Li-chʻeng (Shandong Sheng, China)[la] | Tsinah (China)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007475866505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'צ'שניקי (בלארוס)' to 'צ'שניקי (מחוז ויטבסק, בלארוס)'",
+        "Updated PrimaryRomFull from 'Chashniki (Belarus)' to 'Chashniki (Vitsebskai︠a︡ voblastsʹ, Belarus)'",
+        "Updated PrimaryArabFull from 'null' to 'تشاشنيكي (فيتسبسكايا فوبلاست، بيلاروسيا)'",
+        "updatePlaceRecord: variants +3: Chashniki (Belarus)[la] | Chasniki (Belarus)[la] | צאשניק (בלארוס)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007494247505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'ג'ינינג שי (שנדונג שנג, סין)' to 'ג'ינינג (שאנדונג שנג, סין)'",
+        "Updated PrimaryArabFull from 'null' to 'جينينغ شي (شاندونغ شنغ، الصين)'",
+        "Updated ViafId from 'null' to '138563964'",
+        "updatePlaceRecord: variants +1: Jining (Shandong Sheng, China)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007534699705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007534699705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007539554205171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'נהר קולורדו (ארגנטינה)' to 'נהר קולורדו (מנדוזה ונאוקן-בואנוס איירס, ארגנטינה)'",
+        "Updated PrimaryRomFull from 'Colorado River (Mendoza and Neuquén-Buenos Aires, Argentina)' to 'Colorado River (Mendoza and Neuquén-Buenos Aires, Argentina)'",
+        "Updated PrimaryArabFull from 'null' to 'نهر كولورادو (ميندوزا ونيوكوين بوينس آيرس، الأرجنتين)'",
+        "Updated Wd from 'null' to 'Q270627'",
+        "updatePlaceRecord: variants +1: Colorado River (Río Negro Province, Argentina)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007487063805171"
+      },
+      "result": "Success",
+      "messages": [
+        "Coordinates added: Lat=47.266666666666666, Lon=31.316666666666666",
+        "Updated PrimaryHebFull from 'סטאוויסק (אוקראינה)' to 'סטאוויסק (מחוז וסליניבסקי, אוקראינה)'",
+        "Updated PrimaryRomFull from 'Stavky (Veselynivsʹkyĭ raĭon, Ukraine)' to 'Stavky (Veselynivsʹkyĭ raĭon, Ukraine)'",
+        "Updated PrimaryArabFull from 'null' to 'ستافكي (تيريبوفليانسكيون، أوكرانيا)'",
+        "updatePlaceRecord: variants +3: Stavki (Veselynivsʹkyĭ raĭon, Ukraine)[la] | Waterloo (Veselynivsʹkyĭ raĭon, Ukraine)[la] | Stawky (Veselynivsʹkyĭ raĭon, Ukraine)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007473737305171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'בזר (מחוז ז'יטומיר, אוקראינה)' to 'בזר (מחוז זיטומיר, אוקראינה)'",
+        "Updated PrimaryArabFull from 'null' to 'بازار (زهيتوميرسكا أوبلاست، أوكرانيا)'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007475726805171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 36.0 km. Manual review required. Kima Id:19333 Name:בורשניב (טרנופיל, אוקראינה)",
+        "Updated PrimaryHebFull from 'בורשניב (טרנופיל, אוקראינה)' to 'בורשניב (מחוז טרנופול, אוקראינה)'",
+        "Updated PrimaryArabFull from 'null' to 'بورشيف (ترنوبلسكا أوبلاست، أوكرانيا)'",
+        "Updated Wd from 'null' to 'Q148923'",
+        "updatePlaceRecord: variants +14: Borščiv (Ternopilʹsʹka oblastʹ, Ukraine)[la] | Borshṭshiṿ (Ternopilʹsʹka oblastʹ, Ukraine)[la] | Borszczów (Ternopilʹsʹka oblastʹ, Ukraine)[la] | Borshts'ov (Ternopilʹsʹka oblastʹ, Ukraine)[la] | Borstchoff (Ternopilʹsʹka oblastʹ, Ukraine)[la] | Borshchov (Ternopilʹsʹka oblast, Ukraine)[la] | Borshchuv (Ternopilʹsʹka oblast, Ukraine)[la] | Borshchev (Ternopilʹsʹka oblast, Ukraine)[la] | Borščev (Ternopilʹsʹka oblastʹ, Ukraine)[la] | Borshchuv (Ternopilʹsʹka oblastʹ, Ukraine)[la] | בארשיטשוב (טרנופול, אוקראינה)[he] | בארשטשיוו (טרנופול, אוקראינה)[he] | בארשיטשוב (טרנופיל, אוקראינה)[he] | בורשצ'וב (טרנופיל, אוקראינה)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007540454505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'דזאוג'ואנג (שנדונג שנג, סין)' to 'דזאוג'ואנג (שאנדונג שנג, סין)'",
+        "Updated PrimaryArabFull from 'null' to 'زاوزهوانغ (شاندونغ شنغ، الصين)'",
+        "Updated ViafId from 'null' to '135315114'",
+        "updatePlaceRecord: variants +5: Zaozhuang Shi (China)[la] | Tsao-chuang shih (China)[la] | Tssaochwang (Shandong Sheng, China)[la] | Tsaochwang (Shandong Sheng, China)[la] | Tsao-chuang (Shandong Sheng, China)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007560013405171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 83.1 km. Manual review required. Kima Id:15072 Name:וילוויז' (פולין)",
+        "Updated PrimaryHebFull from 'וילוויז' (פולין)' to 'וילוויז' (לגניצה, פולין)'",
+        "Updated PrimaryRomFull from 'Wielowieś (Legnica, Poland)' to 'Wielowieś (Legnica, Poland)'",
+        "Updated PrimaryArabFull from 'null' to 'فيلويز (ليجنيكا، بولندا)'",
+        "updatePlaceRecord: variants +1: ויעלויש (פולין)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007564469905171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 224.1 km. Manual review required. Kima Id:329 Name:הומבורג (חבל הסאר, גרמניה)",
+        "Updated PrimaryHebFull from 'הומבורג (חבל הסאר, גרמניה)' to 'הומבורג (סארלנד, גרמניה)'",
+        "Updated PrimaryArabFull from 'null' to 'هومبورغ (سارلاند، ألمانيا)'",
+        "Updated Wd from ' Q22635714' to 'Q7040'. Manual review required. Kima Id:329",
+        "updatePlaceRecord: variants +2: Homburg, Ger. (City)[la] | Homburg-Saar (Germany)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007566993605171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'לאר (גרמניה)' to 'לאר (אורטנאוקרייז, גרמניה)'",
+        "Updated PrimaryArabFull from 'null' to 'لاهر (أورتيناوكريس، ألمانيا)'",
+        "updatePlaceRecord: variants +4: Lahr im Schwarzwald (Germany)[la] | Lehr (Ortenaukreis, Germany)[la] | Lahr, Ger.[la] | לעהר (גרמניה)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007593039005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007593039005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987010399940705171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'סן אספרי (פירנה-אטלנטיק, צרפת)' to 'סן אספרי (פיראניים-אטלנטיים, צרפת)'",
+        "Updated PrimaryRomFull from 'Saint-Esprit (Pyrénées-Atlantiques, France)' to 'Saint-Esprit (Pyrénées-Atlantiques, France)'",
+        "Updated PrimaryArabFull from 'null' to 'سان إسبريت (بيرينيه - أتلانتيك، فرنسا)'",
+        "updatePlaceRecord: variants +1: Saint-Esprit-lès-Bayonne (France)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007564626705171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'זאבריו (סלובקיה)' to 'זאבריו (ויכודוסלובנסקי קראי, סלובקיה)'",
+        "Updated PrimaryRomFull from 'Zborov (Východoslovenský kraj, Slovakia)' to 'Zborov (Východoslovenský kraj, Slovakia)'",
+        "Updated PrimaryArabFull from 'null' to 'زبوروف (فيشودوسلوفنسكي كراج، سلوفاكيا)'",
+        "Updated ViafId from 'null' to '315942866'",
+        "updatePlaceRecord: variants +1: Zborov (Východoslovenský kraj, Czechoslovakia)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007567044605171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'ינטאי (שנדונג שנג, סין)' to 'ינטאי (שאנדונג שנג, סין)'",
+        "Updated PrimaryArabFull from 'null' to 'يانتاي (شاندونغ شنغ، الصين)'",
+        "Updated ViafId from 'null' to '261549658'",
+        "updatePlaceRecord: variants +18: Yantai Shi (China)[la] | Yen-tʻai shih (China)[la] | Zhifu (China)[la] | Zhifou (China)[la] | Zhifu Shi (China)[la] | Yantai Shi ren min zheng fu (China)[la] | Yen-tʻai (Shandong Sheng, China)[la] | Chefoo (China)[la] | Chifu, China[la] | Chifu (China)[la] | Chih-fu (China)[la] | Chih-fou (China)[la] | Chih-fu shih (China)[la] | Yen-tʻai shih jen min cheng fu (China)[la] | People's Government of Yantai (China)[la] | Chiifū (China)[la] | Chee-foo (China)[la] | Cheefoo (China)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007572932305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007572932305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987009647786505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'טארנורודה (מחוז טרנופול, אוקראינה)' to 'טרנורודה (מחוז טרנופול, אוקראינה)'",
+        "Updated PrimaryArabFull from 'null' to 'تارنورودا (ترنوبلسكا أوبلاست، أوكرانيا)'",
+        "updatePlaceRecord: variants +2: Tarnorudka (Ukraine)[la] | טאַרנערודע (מחוז טרנופול, אוקראינה)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007566792405171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'פרטואי (וקלוז, צרפת)' to 'פרטואי (ווקלוז, צרפת)'",
+        "Updated PrimaryArabFull from 'null' to 'بيرتوي (فوكلوز، فرنسا)'",
+        "updatePlaceRecord: variants +2: Pertuis, France[la] | פירטוש (וקלוז, צרפת)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007567360405171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'קוסצין (וויבודספו לובוסקיה, פולין)' to 'קוסצין (מחוז לובוסקי, פולין)'",
+        "Updated PrimaryRomFull from 'Kostrzyn (Województwo Lubuskie, Poland)' to 'Kostrzyn (Województwo Lubuskie, Poland)'",
+        "Updated PrimaryArabFull from 'null' to 'كوسترزين (لوبوسكي فويفودشيب، بولندا)'",
+        "updatePlaceRecord: variants +3: Kostrzyn (Zielona Góra, Poland)[la] | Kostrzyn nad Odrą (Województwo Lubuskie, Poland)[la] | קיסטרין (וויבודספו לובוסקיה, פולין)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007597766805171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'סיפדן (סבה, אינדונזיה : אי)' to 'סיפדן (אי) (סבאח, מלזיה)'",
+        "Updated PrimaryArabFull from 'null' to 'جزيرة سيبادان (صباح، ماليزيا)'",
+        "Updated Wd from 'null' to 'Q1412482'",
+        "updatePlaceRecord: variants +4: Pulau Sipadan (Sabah, Malaysia)[la] | Pulau Sipidan (Sabah, Malaysia)[la] | Sipadan Island (Sabah)[la] | Sipidan Island (Sabah, Malaysia)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007564294505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'קדנה (וקלוז, צרפת)' to 'קדנה (ווקלוז, צרפת)'",
+        "Updated PrimaryArabFull from 'null' to 'كادينيه (فوكلوز، فرنسا)'",
+        "Updated ViafId from 'null' to '132527039'",
+        "updatePlaceRecord: variants +1: Cadenet, France (Vaucluse)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007567278005171"
+      },
+      "result": "Success",
+      "messages": [
+        "Coordinates added: Lat=37.36666666666667, Lon=118.01666666666667",
+        "Updated PrimaryHebFull from 'בינג'ואו (שנדונג שנג, סין)' to 'בינג'ואו (שאנדונג שנג, סין)'",
+        "Updated PrimaryArabFull from 'null' to 'بينزهو (شاندونغ شنغ، الصين)'",
+        "Updated ViafId from 'null' to '154844375'",
+        "updatePlaceRecord: variants +5: Pin-chou (Shandong Sheng, China)[la] | Binzhou Shi (China)[la] | Pei-chen (Shandong Sheng, China)[la] | Beizhen (Shandong Sheng, China)[la] | Shandong Sheng Binzhou Shi ren min zhen fu[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007567448105171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'קואלה טרנגאנו (טרנגאנו, מלזיה)' to 'קואלה טרנגאנו (טרנגנו, מלזיה)'",
+        "Updated PrimaryArabFull from 'null' to 'كوالا تيرينجانو (تيرينجانو، ماليزيا)'",
+        "Updated ViafId from 'null' to '240954277'",
+        "updatePlaceRecord: variants +2: Kuala Terengganu (Terengganu)[la] | Kuala Terengganu (Malaysia)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987008758981005171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'איליאנדה (רומניה)' to 'איליאנדה (סילג', רומניה)'",
+        "Updated PrimaryRomFull from 'Ileanda (Sălaj, Romania)' to 'Ileanda (Sălaj, Romania)'",
+        "Updated PrimaryArabFull from 'null' to 'إيلاندا (سالاج، رومانيا)'",
+        "updatePlaceRecord: variants +2: Ileanda (Romania)[la] | Nagyilonda (Romania)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987009960924505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987009960924505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007415792005171"
+      },
+      "result": "Success",
+      "messages": [
+        "Coordinates added: Lat=49.893453, Lon=16.028555",
+        "Updated PrimaryRomFull from 'Luže (Czech Republic)' to 'Luže (Czech Republic)'",
+        "Updated PrimaryArabFull from 'null' to 'لوز (جمهورية التشيك)'",
+        "Updated Wd from 'null' to 'Q1020927'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987009440887605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987009440887605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007555555305171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'فين (الدنمارك)'",
+        "updatePlaceRecord: variants +4: Fionia (Denmark)[la] | Fionie (Denmark)[la] | Fünen (Denmark)[la] | Fyen (Denmark)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007567632005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007567632005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007575144605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007575144605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007465499005171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'تامورث (نيوهامبشير)'",
+        "Updated ViafId from 'null' to '129191937'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007543575605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007543575605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007559906505171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryRomFull from 'Nūristān (Afghanistan)' to 'Nūristān (Afghanistan)'",
+        "Updated PrimaryArabFull from 'null' to 'نورستان (أفغانستان)'",
+        "Updated Wd from 'Q21792860' to 'Q167485'. Manual review required. Kima Id:14475",
+        "updatePlaceRecord: variants +1: Nūrestān (Afghanistan)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007564320205171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryRomFull from 'Mezőcsát (Hungary)' to 'Mezőcsát (Hungary)'",
+        "Updated PrimaryArabFull from 'null' to 'ميزوكسات (المجر)'",
+        "Updated ViafId from 'null' to '148919293'",
+        "updatePlaceRecord: variants +2: Mezőcsát, Hungary[la] | מעזחט (הונגריה)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007563581405171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'ويندرمير، البحيرة، مستجمعات المياه (إنجلترا)'"
+      ]
+    }
+  ],
+  "newSummary": [
+    {
+      "item": {
+        "recordId": "987007596450305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007596450305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007535628105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007535628105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007560240105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007560240105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007564826405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007564826405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007484877105171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007484877105171 (פראגה (לרידה, ספרד))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007489687905171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007489687905171 (טוצ'נו (מחוז לובוסקי, פולין))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007547842905171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007547842905171 (הואנגלינג כסיאן (שאאנשי שנג, סין))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007494273705171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007494273705171 (יאנג'ואו (שאנדונג שנג, סין))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007548166605171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007548166605171 (הורסט (גלזנקירכן, גרמניה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007542983705171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007542983705171 (קושצ'יילנה וייש (ולוצלאווק, פולין))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987009444688505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987009444688505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007566956605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007566956605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007559735005171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007559735005171 (טוכולה (מחוז קויאבסקו-פומורסקי, פולין))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987008917467605171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987008917467605171 (אוסטיה (מחוז טרנופול, אוקראינה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987011875259805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987011875259805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012805851205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012805851205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012858543305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012858543305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012938575105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012938575105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013178049505171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987013178049505171 (פוינט (דורבן, דרום אפריקה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013291169005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013291169005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013331812005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013331812005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013435250605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013435250605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013470921105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013470921105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013472830005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013472830005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013552769605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013552769605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013711802705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013711802705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013787181305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013787181305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013806289705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013806289705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013961622505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013961622505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007475981705171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007475981705171 (גורזנו (מחוז קויאבסקו-פומורסקי, פולין))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007473761505171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007473761505171 (קורצ'ב (שדליץ, פולין))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007535407405171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007535407405171 (בייטיגהיים (ראסטט, גרמניה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007469752705171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007469752705171 (קוניוכי (מחוז טרנופול, אוקראינה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007539554105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007539554105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007547843805171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007547843805171 (פקוש (מחוז קויאבסקו-פומורסקי, פולין))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007562285705171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007562285705171 (טוצ'נו (פולין))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987009349746305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987009349746305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987011060420405171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987011060420405171 (קרסנה (סילג', רומניה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012124343205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012124343205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012858532405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012858532405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013156316305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013156316305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013219696005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013219696005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013290983905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013290983905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013294733605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013294733605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013294747705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013294747705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013304376205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013304376205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013304468905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013304468905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013324832305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013324832305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013331810105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013331810105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013505327105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013505327105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013787173605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013787173605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013800314205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013800314205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013910714405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013910714405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013918941105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013918941105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012876375305171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987012876375305171 (כיכר סן לואיס (מונטריאול, קוויבק))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007549300605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007549300605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007564778405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007564778405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007294755105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007294755105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007543901405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007543901405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007535641605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007535641605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007552822605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007552822605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007475698105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007475698105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007536503405171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007536503405171 (אנג'לס (פיליפינים))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007538089405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007538089405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007542760705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007542760705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007549261105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007549261105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007549680105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007549680105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007558937705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007558937705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007563929305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007563929305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007557577305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007557577305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007559622905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007559622905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007561912805171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007561912805171 (טונוואנדה (ניו יורק))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007563700105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007563700105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007570437705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007570437705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007561912705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007561912705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012403938005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012403938005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013331819005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013331819005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013893939905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013893939905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014198343405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014198343405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014403958405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014403958405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007291782505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007291782505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007290793805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007290793805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007291750005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007291750005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007405761905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007405761905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007534668305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007534668305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007534877405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007534877405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007530134505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007530134505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007535291705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007535291705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007549261005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007549261005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007538074605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007538074605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007542250605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007542250605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007547361305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007547361305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007531278605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007531278605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007530096205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007530096205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007559768905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007559768905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007564347505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007564347505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007566844605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007566844605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013320729005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013320729005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013587239405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013587239405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014352659705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014352659705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014352717205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014352717205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014403958605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014403958605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    }
+  ],
+  "requireReviewSummary": [
+    {
+      "item": {
+        "recordId": "987007536496905171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 77.5 km. Manual review required. Kima Id:13751 Name:רוגוזנו (פילה, פולין)",
+        "Updated PrimaryHebFull from 'רוגוזנו (פילה, פולין)' to 'רוגוזנו (פולין)'",
+        "Updated PrimaryRomFull from 'Rogoźno (Piła, Poland)' to 'Rogoźno (Piła, Poland)'",
+        "Updated PrimaryArabFull from 'null' to 'روغوزنو (بيلا، بولندا)'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007469890305171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 59.9 km. Manual review required. Kima Id:19256 Name:טלוסטה (אוקראינה)",
+        "Updated PrimaryHebFull from 'טלוסטה (אוקראינה)' to 'טלוסטה (מחוז טרנופול, אוקראינה)'",
+        "Updated PrimaryArabFull from 'null' to 'توفستي (ترنوبلسكا أوبلاست، أوكرانيا)'",
+        "updatePlaceRecord: variants +6: Ṭlusṭah (Ternopilʹsʹka oblastʹ, Ukraine)[la] | Tluste (Ternopilʹsʹka oblastʹ, Ukraine)[la] | Tolstoye (Ternopilʹsʹka oblastʹ, Ukraine)[la] | Tolstoe (Ternopilʹsʹka oblastʹ, Ukraine)[la] | Tluste Ves' (Ternopilʹsʹka oblastʹ, Ukraine)[la] | טליסט (אוקראינה)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007567078905171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryHebFull from 'סמבור (אוקראינה)' to 'סמבור (מחוז סמבירסקי, אוקראינה)'",
+        "Updated PrimaryRomFull from 'Sambir (Sambirsʹkyĭ raĭon, Ukraine)' to 'Sambir (Sambirsʹkyĭ raĭon, Ukraine)'",
+        "Updated PrimaryArabFull from 'null' to 'سامبير (سامبيرسكي راون، أوكرانيا)'",
+        "Updated Wd from 'null' to 'Q156593'",
+        "Updated ViafId from '136069836' to '247789422'. Manual review required. Kima Id:12414",
+        "updatePlaceRecord: variants +9: Sambor, Galicia (City)[la] | Samborz (Ukraine)[la] | Samboria (Ukraine)[la] | Novi-Sambor (Ukraine)[la] | Novyĭ Sambir (Ukraine)[la] | Nove Misto (Ukraine)[la] | Sambor (Sambirsʹkyĭ raĭon, Ukraine)[la] | סמביר (אוקראינה)[he] | סאמבור (אוקראינה)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007475726805171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 36.0 km. Manual review required. Kima Id:19333 Name:בורשניב (טרנופיל, אוקראינה)",
+        "Updated PrimaryHebFull from 'בורשניב (טרנופיל, אוקראינה)' to 'בורשניב (מחוז טרנופול, אוקראינה)'",
+        "Updated PrimaryArabFull from 'null' to 'بورشيف (ترنوبلسكا أوبلاست، أوكرانيا)'",
+        "Updated Wd from 'null' to 'Q148923'",
+        "updatePlaceRecord: variants +14: Borščiv (Ternopilʹsʹka oblastʹ, Ukraine)[la] | Borshṭshiṿ (Ternopilʹsʹka oblastʹ, Ukraine)[la] | Borszczów (Ternopilʹsʹka oblastʹ, Ukraine)[la] | Borshts'ov (Ternopilʹsʹka oblastʹ, Ukraine)[la] | Borstchoff (Ternopilʹsʹka oblastʹ, Ukraine)[la] | Borshchov (Ternopilʹsʹka oblast, Ukraine)[la] | Borshchuv (Ternopilʹsʹka oblast, Ukraine)[la] | Borshchev (Ternopilʹsʹka oblast, Ukraine)[la] | Borščev (Ternopilʹsʹka oblastʹ, Ukraine)[la] | Borshchuv (Ternopilʹsʹka oblastʹ, Ukraine)[la] | בארשיטשוב (טרנופול, אוקראינה)[he] | בארשטשיוו (טרנופול, אוקראינה)[he] | בארשיטשוב (טרנופיל, אוקראינה)[he] | בורשצ'וב (טרנופיל, אוקראינה)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007560013405171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 83.1 km. Manual review required. Kima Id:15072 Name:וילוויז' (פולין)",
+        "Updated PrimaryHebFull from 'וילוויז' (פולין)' to 'וילוויז' (לגניצה, פולין)'",
+        "Updated PrimaryRomFull from 'Wielowieś (Legnica, Poland)' to 'Wielowieś (Legnica, Poland)'",
+        "Updated PrimaryArabFull from 'null' to 'فيلويز (ليجنيكا، بولندا)'",
+        "updatePlaceRecord: variants +1: ויעלויש (פולין)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007564469905171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 224.1 km. Manual review required. Kima Id:329 Name:הומבורג (חבל הסאר, גרמניה)",
+        "Updated PrimaryHebFull from 'הומבורג (חבל הסאר, גרמניה)' to 'הומבורג (סארלנד, גרמניה)'",
+        "Updated PrimaryArabFull from 'null' to 'هومبورغ (سارلاند، ألمانيا)'",
+        "Updated Wd from ' Q22635714' to 'Q7040'. Manual review required. Kima Id:329",
+        "updatePlaceRecord: variants +2: Homburg, Ger. (City)[la] | Homburg-Saar (Germany)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007559906505171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryRomFull from 'Nūristān (Afghanistan)' to 'Nūristān (Afghanistan)'",
+        "Updated PrimaryArabFull from 'null' to 'نورستان (أفغانستان)'",
+        "Updated Wd from 'Q21792860' to 'Q167485'. Manual review required. Kima Id:14475",
+        "updatePlaceRecord: variants +1: Nūrestān (Afghanistan)[la]"
+      ]
+    }
+  ],
+  "failedSummary": [
+    {
+      "item": {
+        "recordId": "987007550543905171"
+      },
+      "result": "Failure",
+      "messages": [
+        "An error occurred while saving the entity changes. See the inner exception for details. --> Cannot insert duplicate key row in object 'dbo.Variants' with unique index 'IX_Variants_primary_heb_full_variant'. The duplicate key value is (ריו דה לה פלטה (מלכות משנה), Virreinato del Río de la Plata)."
+      ]
+    }
+  ],
+  "requireReviewItems": [
+    {
+      "item": {
+        "recordId": "987007536496905171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 77.5 km. Manual review required. Kima Id:13751 Name:רוגוזנו (פילה, פולין)",
+        "Updated PrimaryHebFull from 'רוגוזנו (פילה, פולין)' to 'רוגוזנו (פולין)'",
+        "Updated PrimaryRomFull from 'Rogoźno (Piła, Poland)' to 'Rogoźno (Piła, Poland)'",
+        "Updated PrimaryArabFull from 'null' to 'روغوزنو (بيلا، بولندا)'"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01538nz  a2200301n  4500</leader><controlfield tag=\"005\">20260410054054.0</controlfield><controlfield tag=\"008\">830331n||acannbab|          |n ana    ||</controlfield><controlfield tag=\"001\">987007536496905171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 83039257</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q987193</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">133366474</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">016.6622777</subfield><subfield code=\"e\">016.8570003</subfield><subfield code=\"f\">053.2033910</subfield><subfield code=\"g\">053.659480</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000999026</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Rogoźno (Piła, Poland)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">רוגוזנו (פולין)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">روغوزنو (بيلا، بولندا)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Poland</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">ראגאזון</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">ראגשני</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record enhanced with cross references from NNL13-000002136</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Anders, P. Nad dolną Wełną, 1981 (subj.)</subfield><subfield code=\"b\">t.p. (Rogoźno)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">BGN phone call, 3/2/83</subfield><subfield code=\"b\">(Rogoźno, ppl., 52p0s45ʹN, 17p0s01ʹE)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Spis miejsc. PRL, 1968:</subfield><subfield code=\"b\">p. 969 (records 6 places called Rogoźno)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Enc. powsz. PWN, 1973-1976:</subfield><subfield code=\"b\">v. 4, p. 47 (Rogoźno in voivodeship of Piła)</subfield></datafield><datafield tag=\"955\" ind1=\" \" ind2=\" \"><subfield code=\"a\">ראגאזון ROGOZNO</subfield></datafield></record>\n"
+    },
+    {
+      "item": {
+        "recordId": "987007469890305171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 59.9 km. Manual review required. Kima Id:19256 Name:טלוסטה (אוקראינה)",
+        "Updated PrimaryHebFull from 'טלוסטה (אוקראינה)' to 'טלוסטה (מחוז טרנופול, אוקראינה)'",
+        "Updated PrimaryArabFull from 'null' to 'توفستي (ترنوبلسكا أوبلاست، أوكرانيا)'",
+        "updatePlaceRecord: variants +6: Ṭlusṭah (Ternopilʹsʹka oblastʹ, Ukraine)[la] | Tluste (Ternopilʹsʹka oblastʹ, Ukraine)[la] | Tolstoye (Ternopilʹsʹka oblastʹ, Ukraine)[la] | Tolstoe (Ternopilʹsʹka oblastʹ, Ukraine)[la] | Tluste Ves' (Ternopilʹsʹka oblastʹ, Ukraine)[la] | טליסט (אוקראינה)[he]"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>02962cz  a2200397n  4500</leader><controlfield tag=\"005\">20260410053807.0</controlfield><controlfield tag=\"008\">000307n||acannbabn          |a ana    ||</controlfield><controlfield tag=\"001\">987007469890305171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 00093682</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q2919316</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">141858818</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">026.844900</subfield><subfield code=\"e\">026.991069</subfield><subfield code=\"f\">049.2835890</subfield><subfield code=\"g\">049.2631910</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-001056993</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Tovste (Ternopilʹsʹka oblastʹ, Ukraine)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">טלוסטה (מחוז טרנופול, אוקראינה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">توفستي (ترنوبلسكا أوبلاست، أوكرانيا)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Ukraine</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Ṭlusṭah (Ternopilʹsʹka oblastʹ, Ukraine)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Tluste (Ternopilʹsʹka oblastʹ, Ukraine)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Tolstoye (Ternopilʹsʹka oblastʹ, Ukraine)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Tolstoe (Ternopilʹsʹka oblastʹ, Ukraine)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Tluste Ves' (Ternopilʹsʹka oblastʹ, Ukraine)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">טליסט (אוקראינה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record enhanced with cross references from NNL13-000001008</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Sefer Ṭlusṭah, 1965:</subfield><subfield code=\"b\">added t.p. (Sefer Tluste)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">LC Marc file, 03-07-2000:</subfield><subfield code=\"b\">(hdg.: Tolstoe (Ukraine))</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Atlas avtomobilʹnykh shli︠a︡khiv Ukraïny, 1997:</subfield><subfield code=\"b\">p. 61 (Tovste in Ternopilʹsʹka oblastʹ) p. 157 (lists 2 other Tovste in different oblasts of Ukraine)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Ternopilʹsʹka oblastʹ: 1973:</subfield><subfield code=\"b\">p. 262 (Tovste; a town in the Zalishchyt︠s︡ʹkyĭ raĭon first mentioned in historical sources of 1449 as Tovste or Tluste)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">GEOnet, 03-07-00:</subfield><subfield code=\"b\">(Tovste, ppl.: 48p0s 50ʹ 55\" N., 25p0s 43ʹ 41\" E; variants: Tolstoye, Tluste; list 5 Tolstoye)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Jewish shtetl seeker:</subfield><subfield code=\"b\">(Tlustah; variants: Tluste, Tolstoye, Tluste Ves'; 240.7 WSW of Kiev)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Ukr. rad. ent︠s︡ykl.:</subfield><subfield code=\"b\">v. 11, pt. 1, p. 281 (Tovste, a town in the Zalishchyt︠s︡ʹkyĭ raĭon in Ternop. oblastʹ; known since 1449)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">SSSR, admin.-territ. delenie, 1983:</subfield><subfield code=\"b\">p. 327 (Tolstoe; in Ternopolʹskai︠a︡ oblast)</subfield></datafield><datafield tag=\"955\" ind1=\" \" ind2=\" \"><subfield code=\"a\">טליסט TOLSTOYE</subfield></datafield></record>\n"
+    },
+    {
+      "item": {
+        "recordId": "987007567078905171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryHebFull from 'סמבור (אוקראינה)' to 'סמבור (מחוז סמבירסקי, אוקראינה)'",
+        "Updated PrimaryRomFull from 'Sambir (Sambirsʹkyĭ raĭon, Ukraine)' to 'Sambir (Sambirsʹkyĭ raĭon, Ukraine)'",
+        "Updated PrimaryArabFull from 'null' to 'سامبير (سامبيرسكي راون، أوكرانيا)'",
+        "Updated Wd from 'null' to 'Q156593'",
+        "Updated ViafId from '136069836' to '247789422'. Manual review required. Kima Id:12414",
+        "updatePlaceRecord: variants +9: Sambor, Galicia (City)[la] | Samborz (Ukraine)[la] | Samboria (Ukraine)[la] | Novi-Sambor (Ukraine)[la] | Novyĭ Sambir (Ukraine)[la] | Nove Misto (Ukraine)[la] | Sambor (Sambirsʹkyĭ raĭon, Ukraine)[la] | סמביר (אוקראינה)[he] | סאמבור (אוקראינה)[he]"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>04089cz  a2200481n  4500</leader><controlfield tag=\"005\">20260410053806.0</controlfield><controlfield tag=\"008\">830302n| acannbab|          |a ana      </controlfield><controlfield tag=\"001\">987007567078905171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 82156958</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q156593</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">247789422</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">23.2</subfield><subfield code=\"e\">23.2</subfield><subfield code=\"f\">49.51666667</subfield><subfield code=\"g\">49.51666667</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000996062</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Sambir (Sambirsʹkyĭ raĭon, Ukraine)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">סמבור (מחוז סמבירסקי, אוקראינה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">سامبير (سامبيرسكي راون، أوكرانيا)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Ukraine</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"w\">nnaa</subfield><subfield code=\"a\">Sambor, Galicia (City)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Samborz (Ukraine)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Samboria (Ukraine)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Novi-Sambor (Ukraine)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Novyĭ Sambir (Ukraine)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Nove Misto (Ukraine)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Sambor (Sambirsʹkyĭ raĭon, Ukraine)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">סמביר (אוקראינה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">סאמבור (אוקראינה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Not the same as Staryĭ Sambir (Ukraine)</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record enhanced with cross references from NNL13-000001499</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Kuczera, A. Samborszczyzna, 1935-37.</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Sefer Stambor-Sṭari-Sambor, 1980:</subfield><subfield code=\"b\">t.p. (Sambor) added t.p. (Sambor [in rom.]) p. ii (called by 2 names: Sambor or Novi-Sambor; formerly Pohonicz [no publs. in LC], a village 12 km. from Stary-Sambor)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Russ. Brockhaus:</subfield><subfield code=\"b\">v. 28, p. 193 (Sambor, a city in the Austrian province of Galicia on the left bank of the Dniester River. Its population is predominantly Polish)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Ukraïna [MAP], 1992:</subfield><subfield code=\"b\">Sambir, a city in Lʹvivsʹka oblastʹ NE of Staryĭ Sambir)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Shtetl seeker WWW, 04-29-97</subfield><subfield code=\"b\">(Sambor; a city in Sambir County, Ukraine: 49⁰ 31ʹ N., 23⁰ 12ʹ E.)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Encykl. Powszechna:</subfield><subfield code=\"b\">v. 13, p. 283 (Sambor or Samborz (Samboria), a city in Galicia in Obwod Samborski on the Dniester)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">SSSR, admin.-territ. delenie, 1983:</subfield><subfield code=\"b\">p. 307 (Sambor, a city in Samborskiĭ raĭon, Lʹvovskai︠a︡ oblastʹ, Ukraine; established in 1241)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Podr. enc. powsz., 1954:</subfield><subfield code=\"b\">p. 752 (Sambor, in voivodeship of Lvov)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Encyc. of Ukraine:</subfield><subfield code=\"b\">v. 4, p. 523 (Sambir, a city on the Dniester River and a raion center in Lviv oblast. When Staryi Sambir was destroyed by the Tatars in 1241, the survivors settled in the fortified settlement of Pohonych [no publs. in LC data base] and renamed it Sambir, Novyi [New] Sambir, Nove Misto [New Town], although the name Pohonych was used until the mid-15th century. Sambir became part of the Galicia-Volhynia Principality until 1349, the Polish Commonwealth from 1387-1772, and the Austrian Empire from 1772-1918. It reverted to Polish rule from 1919 to 1939 and finally became part of the Ukrainian SSR in Sept. 1939)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Lʹvivsʹka oblastʹ, 1968:</subfield><subfield code=\"b\">p. 640 (Sambir, a city in Sambirsʹkyĭ raĭon. Settlement of Pohonych [no publs. in LC data base] Sambir was also known as Novyĭ Sambir or Nove Misto, to distinguish it from the original Sambir, which was also named Stare Misto)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">BGN phone call, 7/9/82</subfield><subfield code=\"b\">(Sambor, ppl., 49⁰31ʹN, 23⁰12ʹE)</subfield></datafield><datafield tag=\"955\" ind1=\" \" ind2=\" \"><subfield code=\"a\">סאמבור SAMBOR</subfield></datafield></record>\n"
+    },
+    {
+      "item": {
+        "recordId": "987007475726805171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 36.0 km. Manual review required. Kima Id:19333 Name:בורשניב (טרנופיל, אוקראינה)",
+        "Updated PrimaryHebFull from 'בורשניב (טרנופיל, אוקראינה)' to 'בורשניב (מחוז טרנופול, אוקראינה)'",
+        "Updated PrimaryArabFull from 'null' to 'بورشيف (ترنوبلسكا أوبلاست، أوكرانيا)'",
+        "Updated Wd from 'null' to 'Q148923'",
+        "updatePlaceRecord: variants +14: Borščiv (Ternopilʹsʹka oblastʹ, Ukraine)[la] | Borshṭshiṿ (Ternopilʹsʹka oblastʹ, Ukraine)[la] | Borszczów (Ternopilʹsʹka oblastʹ, Ukraine)[la] | Borshts'ov (Ternopilʹsʹka oblastʹ, Ukraine)[la] | Borstchoff (Ternopilʹsʹka oblastʹ, Ukraine)[la] | Borshchov (Ternopilʹsʹka oblast, Ukraine)[la] | Borshchuv (Ternopilʹsʹka oblast, Ukraine)[la] | Borshchev (Ternopilʹsʹka oblast, Ukraine)[la] | Borščev (Ternopilʹsʹka oblastʹ, Ukraine)[la] | Borshchuv (Ternopilʹsʹka oblastʹ, Ukraine)[la] | בארשיטשוב (טרנופול, אוקראינה)[he] | בארשטשיוו (טרנופול, אוקראינה)[he] | בארשיטשוב (טרנופיל, אוקראינה)[he] | בורשצ'וב (טרנופיל, אוקראינה)[he]"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>04218cz  a2200493n  4500</leader><controlfield tag=\"005\">20260410054029.0</controlfield><controlfield tag=\"008\">000816n||acannbabn          |a ana    ||</controlfield><controlfield tag=\"001\">987007475726805171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 00100666</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q148923</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">151235828</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">026.139084</subfield><subfield code=\"e\">026.924435</subfield><subfield code=\"f\">048.8233104</subfield><subfield code=\"g\">048.7749432</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-001058179</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Borshchiv (Ternopilʹsʹka oblastʹ, Ukraine)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">בורשניב (מחוז טרנופול, אוקראינה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">بورشيف (ترنوبلسكا أوبلاست، أوكرانيا)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Ukraine</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Borščiv (Ternopilʹsʹka oblastʹ, Ukraine)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Borshṭshiṿ (Ternopilʹsʹka oblastʹ, Ukraine)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Borszczów (Ternopilʹsʹka oblastʹ, Ukraine)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Borshts'ov (Ternopilʹsʹka oblastʹ, Ukraine)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Borstchoff (Ternopilʹsʹka oblastʹ, Ukraine)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Borshchov (Ternopilʹsʹka oblast, Ukraine)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Borshchuv (Ternopilʹsʹka oblast, Ukraine)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Borshchev (Ternopilʹsʹka oblast, Ukraine)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Borščev (Ternopilʹsʹka oblastʹ, Ukraine)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Borshchuv (Ternopilʹsʹka oblastʹ, Ukraine)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">בארשיטשוב (טרנופול, אוקראינה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">בארשטשיוו (טרנופול, אוקראינה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">בארשיטשוב (טרנופיל, אוקראינה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">בורשצ'וב (טרנופיל, אוקראינה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record enhanced with cross references from NNL13-000000398</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Sefer Borshṭshiṿ, 1960. (Borshṭshiṿ, Borszczów, Borshts'ov, Borstchoff)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Heohrafichna ent︠s︡ykl. Ukraïny, 1989, v. 1, p. 121:</subfield><subfield code=\"b\">(Borshchiv, town in Ternopilʹsʹka oblastʹ on the Nichlava river)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Encyc. of Ukraine: v. 1:</subfield><subfield code=\"b\">(Borshchiv, Borščiv)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Atlas avtomobilʹnykh shli︠a︡khiv Ukraïny, 1997, p. 59:</subfield><subfield code=\"b\">(Borshchiv in Ternopilʹsʹka oblastʹ, lists two others in Ukraine)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">BGN: (Borshchëv, popl., 49p0s 40ʹ N., 24p0s 36ʹ E., lists two others in Ukraine)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Ukraïna, masshtab 1:500 000, 1993:</subfield><subfield code=\"b\">(Borshchiv)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">GEOnet, 08-23-00</subfield><subfield code=\"b\">(Borshchov, ppl.; 49p0s 40ʹ 00\" N., 24p0s 36 00\"E.; variants: Borshchuv, Borshchiv, Borshchev)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">רציתי לחיות: יומנה של אירקה, 2000:</subfield><subfield code=\"b\">עמוד 8 (בורשצ'וב)</subfield></datafield><datafield tag=\"955\" ind1=\" \" ind2=\" \"><subfield code=\"a\">בארשיטשוב BORSHCHUV</subfield></datafield></record>\n"
+    },
+    {
+      "item": {
+        "recordId": "987007560013405171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 83.1 km. Manual review required. Kima Id:15072 Name:וילוויז' (פולין)",
+        "Updated PrimaryHebFull from 'וילוויז' (פולין)' to 'וילוויז' (לגניצה, פולין)'",
+        "Updated PrimaryRomFull from 'Wielowieś (Legnica, Poland)' to 'Wielowieś (Legnica, Poland)'",
+        "Updated PrimaryArabFull from 'null' to 'فيلويز (ليجنيكا، بولندا)'",
+        "updatePlaceRecord: variants +1: ויעלויש (פולין)[he]"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01704nz  a2200277n  4500</leader><controlfield tag=\"005\">20260410053807.0</controlfield><controlfield tag=\"008\">870601n||acannbab|          |n ana    ||</controlfield><controlfield tag=\"001\">987007560013405171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 86073685</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q7999090</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">123237874</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">016.3359489</subfield><subfield code=\"e\">016.3999785</subfield><subfield code=\"f\">051.3499172</subfield><subfield code=\"g\">051.3220333</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-001015154</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Wielowieś (Legnica, Poland)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">וילוויז' (לגניצה, פולין)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">فيلويز (ليجنيكا، بولندا)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Poland</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">ויעלויש (פולין)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Müller, M. Beiträge zu einem Heimat- und Volksbuch des Dorfes Bielwiese, Kreis Wohlau, Niederschlesien, 1985:</subfield><subfield code=\"b\">t.p. (Bielwiese) p. 3 (located 23 km. from Legnica)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Rospond, S. Słownik nazw geogr. Polski Zachodniej ... 1951:</subfield><subfield code=\"b\">v. 2, p. 439 (Wielowieś)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Spis miejsc. PRL, 1968:</subfield><subfield code=\"b\">p. 1214 (records 11 places named Wielowieś)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">BGN phone call, 5-15-87</subfield><subfield code=\"b\">(Wielowieś, ppl., in voivodeship of Legnica, 51p0s46ʹN, 17p0s21ʹE; earlier name: Bielwiese [no publs. in LC data base])</subfield></datafield><datafield tag=\"955\" ind1=\" \" ind2=\" \"><subfield code=\"a\">ויעלויש WIELOWIES</subfield></datafield></record>\n"
+    },
+    {
+      "item": {
+        "recordId": "987007564469905171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 224.1 km. Manual review required. Kima Id:329 Name:הומבורג (חבל הסאר, גרמניה)",
+        "Updated PrimaryHebFull from 'הומבורג (חבל הסאר, גרמניה)' to 'הומבורג (סארלנד, גרמניה)'",
+        "Updated PrimaryArabFull from 'null' to 'هومبورغ (سارلاند، ألمانيا)'",
+        "Updated Wd from ' Q22635714' to 'Q7040'. Manual review required. Kima Id:329",
+        "updatePlaceRecord: variants +2: Homburg, Ger. (City)[la] | Homburg-Saar (Germany)[la]"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01183cz  a2200253n  4500</leader><controlfield tag=\"005\">20260410054054.0</controlfield><controlfield tag=\"008\">820520n||acannaab|          |a ana    ||</controlfield><controlfield tag=\"001\">987007564469905171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 82047467</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q7040</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">312805163</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">7.333333333</subfield><subfield code=\"e\">7.333333333</subfield><subfield code=\"f\">49.31666667</subfield><subfield code=\"g\">49.31666667</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000992040</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Homburg (Saarland, Germany)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">הומבורג (סארלנד, גרמניה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">هومبورغ (سارلاند، ألمانيا)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Germany</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"w\">nnaa</subfield><subfield code=\"a\">Homburg, Ger. (City)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Homburg-Saar (Germany)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Müllers 82/83</subfield><subfield code=\"b\">(Homburg Saar-Pfalz-Kreis, St, Saarl; cites others)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">BGN 1/11/91</subfield><subfield code=\"b\">(Homburg, ppl, 49p0s19'N, 7p0s20'E)</subfield></datafield></record>\n"
+    },
+    {
+      "item": {
+        "recordId": "987007559906505171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryRomFull from 'Nūristān (Afghanistan)' to 'Nūristān (Afghanistan)'",
+        "Updated PrimaryArabFull from 'null' to 'نورستان (أفغانستان)'",
+        "Updated Wd from 'Q21792860' to 'Q167485'. Manual review required. Kima Id:14475",
+        "updatePlaceRecord: variants +1: Nūrestān (Afghanistan)[la]"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01037cz  a2200229n  4500</leader><controlfield tag=\"005\">20260415104636.0</controlfield><controlfield tag=\"008\">850530n||acannaab|          |a ana    ||</controlfield><controlfield tag=\"001\">987007559906505171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 85101922</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q167485</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">141957831</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">70.16527778</subfield><subfield code=\"e\">70.16527778</subfield><subfield code=\"f\">35.26222222</subfield><subfield code=\"g\">35.26222222</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-001008725</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Nūristān (Afghanistan)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">נוריסטן (אפגניסטן)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">نورستان (أفغانستان)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Afghanistan</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Nūrestān (Afghanistan)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">GEOnet, Jan. 8, 2002</subfield><subfield code=\"b\">(Nūrestān--PPL, 34p0s57'N 70p0s24'E, Laghmān)</subfield></datafield></record>\n"
+    }
+  ],
+  "failedItems": [
+    {
+      "item": {
+        "recordId": "987007550543905171"
+      },
+      "result": "Failure",
+      "messages": [
+        "An error occurred while saving the entity changes. See the inner exception for details. --> Cannot insert duplicate key row in object 'dbo.Variants' with unique index 'IX_Variants_primary_heb_full_variant'. The duplicate key value is (ריו דה לה פלטה (מלכות משנה), Virreinato del Río de la Plata)."
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01721cz  a2200337n  4500</leader><controlfield tag=\"005\">20260410053807.0</controlfield><controlfield tag=\"008\">810326n||acannaab|          |a ana    ||</controlfield><controlfield tag=\"001\">987007550543905171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 81018825</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q210551</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">9029155708708422580003</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">-58.4</subfield><subfield code=\"e\">-58.4</subfield><subfield code=\"f\">-34.666667</subfield><subfield code=\"g\">-34.666667</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000983505</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Río de la Plata (Viceroyalty)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">ריו דה לה פלטה (מלכות משנה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">ريو دي لا بلاتا (ولاية)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Argentina</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Bolivia</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Paraguay</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Uruguay</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Buenos Aires (Viceroyalty)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Virreinato Rioplatense</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Virreinato del Río de la Plata</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Viceroyalty of La Plata</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"551\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Provincias Unidas del Río de la Plata</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Márquez de la Plata, J. El Virreinato Rioplatense en las vistas fiscales de José Márquez de la Plata, 1988.</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Mariluz Urquijo, J.M. El Virreinato del Río de la Plata en la época del marqués de Avilés (1799-1801), c1987.</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">LC F classification, p. 560</subfield><subfield code=\"b\">(in 1776, Viceroyalty of La Plata was formed including Argentina, Uruguay, Paraguay, and Bolivia)</subfield></datafield></record>\n"
+    }
+  ]
+}

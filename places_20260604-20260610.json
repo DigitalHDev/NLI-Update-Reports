@@ -1,0 +1,205 @@
+{
+  "type": "Place",
+  "runTime": "2026-07-20T20:25:47.7012924Z",
+  "period": "20260604-20260610",
+  "numProcessedItems": 2135,
+  "numModifiedItems": 6,
+  "numNewItems": 11,
+  "numReviewItems": 1,
+  "numFailedItems": 0,
+  "modifiedSummary": [
+    {
+      "item": {
+        "recordId": "987007283269605171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'جسر بيرينغ البري'",
+        "Updated Wd from 'null' to 'Q190927'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007566052605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007566052605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007570942605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007570942605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007524605405171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 34.7 km. Manual review required. Kima Id:23728 Name:קסטיליטו (גנואה, איטליה)",
+        "Updated PrimaryHebFull from 'קסטיליטו (גנואה, איטליה)' to 'קסטיליטו (ג'נובה, איטליה)'",
+        "Updated PrimaryArabFull from 'null' to 'كاستيليتو (جنوة، إيطاليا)'",
+        "Updated Wd from 'Q17336' to 'Q33429356'. Manual review required. Kima Id:23728",
+        "updatePlaceRecord: variants +1: קאשטיליטו (גנואה, איטליה)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012689066905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012689066905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007499043205171"
+      },
+      "result": "Success",
+      "messages": [
+        "updatePlaceRecord: variants +5: Er-Rashīd (Egypt)[la] | Rashīd (Egypt)[la] | Rosette (Egypt)[la] | רשיד (מצרים)[he] | ראשיד (מצרים)[he]"
+      ]
+    }
+  ],
+  "newSummary": [
+    {
+      "item": {
+        "recordId": "987014635771105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014635771105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007567331505171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007567331505171 (וייט סטון (וירג'יניה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007560172205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007560172205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007562577805171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007562577805171 (וסט ראטלנד (ורמונט))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012882070005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012882070005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014630178905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014630178905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007484736205171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007484736205171 (רץ' (פומרניה המערבית, פולין))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007552691305171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007552691305171 (אבינגדון (מרילנד))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007555458405171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007555458405171 (דייטון (אלבמה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007531181005171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007531181005171 (הדון (אנגליה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014613366705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014613366705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    }
+  ],
+  "requireReviewSummary": [
+    {
+      "item": {
+        "recordId": "987007524605405171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 34.7 km. Manual review required. Kima Id:23728 Name:קסטיליטו (גנואה, איטליה)",
+        "Updated PrimaryHebFull from 'קסטיליטו (גנואה, איטליה)' to 'קסטיליטו (ג'נובה, איטליה)'",
+        "Updated PrimaryArabFull from 'null' to 'كاستيليتو (جنوة، إيطاليا)'",
+        "Updated Wd from 'Q17336' to 'Q33429356'. Manual review required. Kima Id:23728",
+        "updatePlaceRecord: variants +1: קאשטיליטו (גנואה, איטליה)[he]"
+      ]
+    }
+  ],
+  "failedSummary": [],
+  "requireReviewItems": [
+    {
+      "item": {
+        "recordId": "987007524605405171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 34.7 km. Manual review required. Kima Id:23728 Name:קסטיליטו (גנואה, איטליה)",
+        "Updated PrimaryHebFull from 'קסטיליטו (גנואה, איטליה)' to 'קסטיליטו (ג'נובה, איטליה)'",
+        "Updated PrimaryArabFull from 'null' to 'كاستيليتو (جنوة، إيطاليا)'",
+        "Updated Wd from 'Q17336' to 'Q33429356'. Manual review required. Kima Id:23728",
+        "updatePlaceRecord: variants +1: קאשטיליטו (גנואה, איטליה)[he]"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01150nz  a2200181n  4500</leader><controlfield tag=\"005\">20260605054956.0</controlfield><controlfield tag=\"008\">191115|||a|z||babn|||||||||| | a|||||||d</controlfield><controlfield tag=\"001\">987007524605405171</controlfield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q33429356</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">008.9247394</subfield><subfield code=\"e\">008.9489491</subfield><subfield code=\"f\">044.4321672</subfield><subfield code=\"g\">044.4098131</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-001728988</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Castelletto (Genoa, Italy)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">קסטיליטו (ג'נובה, איטליה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">كاستيليتو (جنوة، إيطاليا)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">קאשטיליטו (גנואה, איטליה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">NLI authority record created automatically for MSS place.</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record enhanced with cross references from NNL13-000001953</subfield></datafield><datafield tag=\"955\" ind1=\" \" ind2=\" \"><subfield code=\"a\">קאשטיליטו CASTELLETTO</subfield></datafield></record>\n"
+    }
+  ],
+  "failedItems": []
+}

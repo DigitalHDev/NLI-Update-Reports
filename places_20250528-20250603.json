@@ -1,0 +1,2759 @@
+{
+  "type": "Place",
+  "runTime": "2026-07-20T00:26:21.1121721Z",
+  "period": "20250528-20250603",
+  "numProcessedItems": 12523,
+  "numModifiedItems": 197,
+  "numNewItems": 82,
+  "numReviewItems": 4,
+  "numFailedItems": 0,
+  "modifiedSummary": [
+    {
+      "item": {
+        "recordId": "987007270706605171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'دينزلينجن (ألمانيا)'",
+        "Updated ViafId from 'null' to '158456254'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007412734005171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'جبل منتار (الضفة الغربية)'",
+        "updatePlaceRecord: variants +4: Har Muntar (West Bank)[la] | Jabel Muntar (West Bank)[la] | ג'בל מונטר (יהודה ושומרון)[he] | הר העזעזל (יהודה ושומרון)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007419652005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007419652005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007498746605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007498746605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007416089605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007416089605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007415494705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007415494705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007469872805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007469872805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007484778005171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'أنكروم (اسكتلندا)'",
+        "Updated ViafId from 'null' to '154066360'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007475834805171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'ليسينس (بلجيكا)'",
+        "Updated ViafId from 'null' to '124529827'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007496512205171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'بلاوستاين (ألمانيا)'",
+        "Updated ViafId from 'null' to '143253518'",
+        "updatePlaceRecord: variants +1: בלאושטין (גרמניה)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007473840605171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'وادي يعلون (إسرائيل)'",
+        "updatePlaceRecord: variants +9: Nahal Ye'elon (Israel)[la] | Nahal Yeelon (Israel)[la] | Nahal Yeelon[la] | Nahal Yaalon (Israel)[la] | Nahal Yaalon[la] | Yaalon River[la] | Nahal Ye'elon Watershed (Israel)[la] | Ye'elon River (Israel)[la] | Ye'elon Watershed (Israel)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007480365205171"
+      },
+      "result": "Success",
+      "messages": [
+        "Coordinates added: Lat=49.57527777777778, Lon=6.5744444444444445",
+        "Updated PrimaryArabFull from 'null' to 'سيريغ (ألمانيا)'",
+        "Updated ViafId from 'null' to '130392757'",
+        "updatePlaceRecord: variants +2: Serrig an der Saar (Germany)[la] | שריג (גרמניה)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007482537805171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'نوفيلارا (إيطاليا)'",
+        "Updated ViafId from 'null' to '159652515'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007555235105171"
+      },
+      "result": "Success",
+      "messages": [
+        "Coordinates added: Lat=52.06666666666667, Lon=0.55",
+        "Updated PrimaryHebFull from 'סטוק ביי קלייר (סופוק)' to 'סטוק ביי קלייר (אנגליה)'",
+        "Updated PrimaryArabFull from 'null' to 'ستوك باي كلير (إنجلترا)'",
+        "Updated ViafId from 'null' to '153642514'",
+        "updatePlaceRecord: variants +1: Stoke by Clare (Suffolk)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007540304805171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'بونتيبا (إيطاليا)'",
+        "Updated ViafId from 'null' to '129998041'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007535409305171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'فلاويل (سويسرا)'",
+        "Updated ViafId from 'null' to '135023707'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007550340105171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'הארסטאד (נורבגיה)' to 'הארסטאד (נורווגיה)'",
+        "Updated PrimaryArabFull from 'null' to 'هارستاد (النرويج)'",
+        "Updated ViafId from 'null' to '150733361'",
+        "updatePlaceRecord: variants +1: Harstad, Norway[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007556914605171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'جسر تاكوما ناروز (تاكوما، واشنطن : 1950 - )'",
+        "updatePlaceRecord: variants +12: 1950 Narrows Bridge (Tacoma, Wash.)[la] | 1950 Tacoma Narrows Bridge (Tacoma, Wash.)[la] | 2007 Narrows Bridge (Tacoma, Wash.)[la] | 2007 Tacoma Narrows Bridge (Tacoma, Wash.)[la] | Narrows Bridge (Tacoma, Wash. : 1950- )[la] | New Narrows Bridge (Tacoma, Wash. : 1950- )[la] | New Tacoma Narrows Bridge (Tacoma, Wash. : 1950- )[la] | Second Narrows Bridge (Tacoma, Wash.)[la] | Second Tacoma Narrows Bridge (Tacoma, Wash.)[la] | Sturdy Gertie (Tacoma, Wash.)[la] | Third Narrows Bridge (Tacoma, Wash.)[la] | Third Tacoma Narrows Bridge (Tacoma, Wash.)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007524034305171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'חירבת דווארה (לבנון)' to 'חירבת א-דווארה (יהודה ושומרון)'",
+        "Updated PrimaryRomFull from 'Khirbet Douwara (Lebanon)' to 'Khirbet Douwara (West Bank)'",
+        "Updated PrimaryArabFull from 'null' to 'خربة دوارة (الضفة الغربية)'",
+        "Updated Wd from 'null' to 'Q102210746'",
+        "updatePlaceRecord: variants +8: Khirbat Douwara (West Bank)[la] | Douwara Site (West Bank)[la] | Khirbat Dawwara (West Bank)[la] | Khirbet ed-Dawwara (West Bank)[la] | Hovrat Douwara (Israel)[la] | Douwara (Khirbet ed-)[la] | חורבת דווארה (יהודה ושומרון)[he] | חורבת דוארה (ישראל)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007549223205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007549223205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007540203505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'نوفي بيوغراد (صربيا)'",
+        "Updated ViafId from 'null' to '156104255'",
+        "updatePlaceRecord: variants +2: New Belgrade (Serbia)[la] | בלגרד החדשה (סרביה)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007555172905171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'لودي (كاليفورنيا)'",
+        "Updated ViafId from 'null' to '143145542417496641416'",
+        "updatePlaceRecord: variants +1: Lodi, Calif.[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007535875405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007535875405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007535555005171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'لاوشا (ألمانيا)'",
+        "Updated ViafId from 'null' to '147902434'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007567552305171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'دوكوم (هولندا)'",
+        "Updated ViafId from 'null' to '136163031'",
+        "updatePlaceRecord: variants +1: Dokkum, Netherlands[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007557585905171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'وريكسهام (ويلز)'",
+        "Updated ViafId from 'null' to '234188018'",
+        "updatePlaceRecord: variants +4: Wrexham, Wales[la] | Wrecsam (Wales)[la] | Wrexham (Clwyd)[la] | Wrexham (Denbighshire)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007562054705171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'غموندن (النمسا : منطقة سياسية)'",
+        "Updated ViafId from 'null' to '159450504'",
+        "updatePlaceRecord: variants +1: Gmunden, Austria (Politischer Bezirk)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007567335205171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'تربوفليي (سلوفينيا)'",
+        "Updated ViafId from 'null' to '147854641'",
+        "updatePlaceRecord: variants +1: טרבוולז' (סלובניה)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007564400905171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'أوسونيا (إيطاليا)'",
+        "Updated ViafId from 'null' to '124701196'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007564532605171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'بوموري (بلغاريا)'",
+        "Updated ViafId from 'null' to '134887513'",
+        "updatePlaceRecord: variants +3: Pomorie, Bulgaria[la] | Pomoriye (Bulgaria)[la] | Pomorye (Bulgaria)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007564456705171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'أوبرندورف أم نيكار (ألمانيا)'",
+        "Updated ViafId from 'null' to '244974160'",
+        "updatePlaceRecord: variants +2: Oberndorf, Ger.[la] | Oberndorf (Rottweil, Germany)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007566838305171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'קורומה (יפן)' to 'קורומה-שי (יפן)'",
+        "Updated PrimaryArabFull from 'null' to 'كوروم شي (اليابان)'",
+        "Updated ViafId from 'null' to '251734728'",
+        "updatePlaceRecord: variants +1: Kurume, Japan (Fukuoka Prefecture)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007559806305171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'تيرني (إيطاليا : مقاطعة)'",
+        "Updated ViafId from 'null' to '40144647632437152114'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007590567005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007590567005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007557523505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'جيزلينجن أن دير ستيج (ألمانيا)'",
+        "Updated ViafId from 'null' to '127880412'",
+        "updatePlaceRecord: variants +1: Geislingen an der Steige[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007561801905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007561801905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007565262305171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'كورن (بلجيكا)'",
+        "Updated ViafId from 'null' to '133824916'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007564203505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007564203505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007584246005171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'جلقموس (الضفة الغربية)' to 'جالقاموس (الضفة الغربية)'",
+        "updatePlaceRecord: variants +1: Jalkamus (West Bank)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007564494905171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'יוביק (נורבגיה)' to 'יוביק (נורווגיה)'",
+        "Updated PrimaryArabFull from 'null' to 'جوفيك (النرويج)'",
+        "Updated ViafId from 'null' to '246776889'",
+        "updatePlaceRecord: variants +1: Gjøvik, Norway[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987009343681305171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'إيلار (الضفة الغربية)'",
+        "updatePlaceRecord: variants +2: Kafar Ilar (West Bank)[la] | כפר עילאר (יהודה ושומרון)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987008877590405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987008877590405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987008917481805171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'نوفيغراد (زادار، كرواتيا)'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987008917577105171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'זאטון (קרואטיה)' to 'זאטון (דוברובניק, קרואטיה)'",
+        "Updated PrimaryArabFull from 'null' to 'زاتون (دوبروفنيك، كرواتيا)'",
+        "updatePlaceRecord: variants +1: Malfi (Croatia)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987010400063405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987010400063405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987009343681205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987009343681205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987009450882705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987009450882705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987008763689205171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'شلهفيت (مصر)'",
+        "updatePlaceRecord: variants +2: Shalhevet (Sinai, Egypt)[la] | שלהבת (סיני, מצרים)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987008816878505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987008816878505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987010400036205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987010400036205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987008918590305171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'بيجيلا (الجبل الأسود)'",
+        "updatePlaceRecord: variants +1: Bijele (Montenegro)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987009343681005171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'قوصين (الضفة الغربية)' to 'قوسين (الضفة الغربية)'",
+        "updatePlaceRecord: variants +2: Kusin (West Bank)[la] | קוס'ין (יהודה ושומרון)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987010356368605171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'خان السلطان (القدس، إسرائيل)'",
+        "updatePlaceRecord: variants +1: חאן א-סולטן (ירושלים, ישראל)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987010356369205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987010356369205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987010400064205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987010400064205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987008876989005171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'أبلح (لبنان)' to 'أبلاح (لبنان)'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987010266370905171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'طريق إسحق شامير (القدس، إسرائيل)'",
+        "updatePlaceRecord: variants +3: Yitzhak Shamir Road (Jerusalem, Israel)[la] | כביש 9 (ירושלים, ישראל)[he] | כביש מספר 9, עירוני (ירושלים, ישראל)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987010831714405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987010831714405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987010857526405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987010857526405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987010929275905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987010929275905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987011220409305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987011220409305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987011416650505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'ساحل جوفرا (إسرائيل)'",
+        "updatePlaceRecord: variants +9: 'En Gafra (Israel)[la] | Hof Gofra (Israel)[la] | Hof Gofrah (Israel)[la] | Hof Gafra[la] | 'En Gofra (Israel)[la] | 'Ein Gofra[la] | Gafra Coast[la] | עין גפרה (ישראל)[he] | עין גופרה (ישראל)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987011433728005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987011433728005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987011902276105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987011902276105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987011900468405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987011900468405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987011875967205171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'جسر الشيخ حسين (إسرائيل والأردن)'",
+        "updatePlaceRecord: variants +4: Jordan River Crossing (Israel and Jordan)[la] | גשר שייח' חוסיין (ישראל וירדן)[he] | גשר מעוז (נהר הירדן)[he] | מעבר נהר הירדן (ישראל וירדן)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987011875975305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987011875975305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012092773505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012092773505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012125049305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012125049305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012182776605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012182776605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012182773405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012182773405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012280034405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012280034405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012288961705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012288961705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012292465505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012292465505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012292465605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012292465605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012292465805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012292465805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012301775205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012301775205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012182774805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012182774805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012301769405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012301769405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012301775305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012301775305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012331757105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012331757105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012331767405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012331767405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012340967005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012340967005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012655566305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012655566305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012655566505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012655566505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012735571505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012735571505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012751075705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012751075705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012752870505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012752870505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012752871005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012752871005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007396846505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'وادي شيبان (الضفة الغربية)'",
+        "updatePlaceRecord: variants +6: Shiban, Wadi (West Bank)[la] | Shiban River (West Bank)[la] | Wadi Shiban (Israel)[la] | ואדי שיבן (ישראל)[he] | שיבן, ואדי (יהודה ושומרון)[he] | וואדי שיבן (יהודה ושומרון)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007396738805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007396738805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007400664705171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'وادي ياغور (إسرائيل)'",
+        "updatePlaceRecord: variants +2: Yagur, River (Israel)[la] | ואדי שומריה (ישראל)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007404294805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007404294805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007396751005171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'وادي مافجار (الضفة الغربية)'",
+        "updatePlaceRecord: variants +9: Wadi al-Mafjar (West Bank)[la] | ʼAviʼur Cave (West Bank)[la] | Meʻarat ʼAviʼur (West Bank)[la] | Hasandal Cave (West Bank)[la] | Meʻarat ha-Sandal (West Bank)[la] | וואדי אל-מפג'ר (יהודה ושומרון)[he] | אל-מפג'ר, ואדי (יהודה ושומרון)[he] | מערת אביאור (יהודה ושומרון)[he] | מערת הסנדל (יהודה ושומרון)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007404302305171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'تل الحماة (الضفة الغربية)'",
+        "updatePlaceRecord: variants +5: Tel el-Hammeh (West Bank)[la] | El-Hammah Site (West Bank)[la] | Hammah (Tel al-)[la] | אל-חמה, תל (יהודה ושומרון)[he] | אתר אל-חמה (יהודה ושומרון)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007398746805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007398746805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007405807705171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'غابة ريهان (الضفة الغربية)'",
+        "updatePlaceRecord: variants +6: Raihan Forest (West Bank)[la] | Rayhan Forest (West Bank)[la] | Raichan Forest (West Bank)[la] | Ya'ar Rihan (West Bank)[la] | יער ריחאן (יהודה ושומרון)[he] | יער אום ריחאן (ישראל)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007409363905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007409363905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007414192105171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'ميغرون (الضفة الغربية)'",
+        "updatePlaceRecord: variants +5: Migron (Mateh Binyamin, West Bank)[la] | Migron (Israel)[la] | מגרון (ישראל)[he] | מיגרון (יהודה ושומרון)[he] | גבעת היקב (יהודה ושומרון)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007407696605171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'تلليوت باتاش (إسرائيل)'",
+        "updatePlaceRecord: variants +5: Teluliyot Batashi (Israel)[la] | Tluliyot Batash (Israel)[la] | Batash (Teluliyot)[la] | תלילאת אל-בטאשי (ישראל)[he] | בטש, תלוליות (ישראל)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007412734905171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'وادي ناحال عمال (إسرائيل)'",
+        "updatePlaceRecord: variants +2: 'Amal River (Israel)[la] | נחל העסי (ישראל)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007408030105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007408030105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007413164605171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Failed to fetch MARC XML for place RecordId 987007413164605171 although it is in the Kima database. Possibly deleted. Error: RecordId does not exist in repository. Manual review required."
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007420839605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007420839605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007487161505171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'غمي (إيطاليا)'",
+        "Updated Wd from 'Q30026064' to 'Q22458'. Manual review required. Kima Id:75755",
+        "Updated ViafId from 'null' to '132715284'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007480104005171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'بورتسموث (دومينيكا)'",
+        "Updated ViafId from 'null' to '125685170'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007469890405171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'הורוכוב (אוקראינה)' to 'הורוכיב (אוקראינה)'",
+        "Updated PrimaryArabFull from 'null' to 'هوروخيف (أوكرانيا)'",
+        "updatePlaceRecord: variants +6: Gorokhov (Ukraine)[la] | Horokhov (Ukraine)[la] | Horchiv (Ukraine)[la] | Horoxiv (Ukraine)[la] | Horochow (Ukraine)[la] | הארחוב (אוקראינה)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007467985305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007467985305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007473844605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007473844605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007482421305171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'ريكولفر (إنجلترا)'",
+        "Updated ViafId from 'null' to '130436007'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007473845705171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'وادي جيدورا (إسرائيل)'",
+        "updatePlaceRecord: variants +4: Nahal Gedorah (Israel)[la] | Nahal Gedora[la] | Nahal Gedora (Israel)[la] | Nahal Gedorah[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007465877205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007465877205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007482439505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'رودوزيم (بلغاريا)'",
+        "Updated ViafId from 'null' to '132728013'",
+        "updatePlaceRecord: variants +2: Rudosem (Bulgaria)[la] | Roodozem (Bulgaria)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007478089205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007478089205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007555487005171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'וילון (בלגיה)' to 'בוילון (בלגיה)'",
+        "Updated PrimaryArabFull from 'null' to 'بويون (بلجيكا)'",
+        "Updated ViafId from 'null' to '130239492'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007552956105171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'مونفورتي دي ليموس (إسبانيا)'",
+        "Updated ViafId from 'null' to '235694713'",
+        "updatePlaceRecord: variants +3: Monforte del Lemos (Spain)[la] | Monforte (Lugo, Spain)[la] | מונפורט דה למוס (ספרד)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007529760105171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'أورسا ماجور'",
+        "updatePlaceRecord: variants +4: Big Dipper (Constellation)[la] | Dipper (Constellation)[la] | Great Bear (Constellation)[la] | Great Dipper (Constellation)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007537993405171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'إيسين (إيطاليا)'",
+        "Updated ViafId from 'null' to '168304825'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007548031005171"
+      },
+      "result": "Success",
+      "messages": [
+        "Coordinates added: Lat=51.25, Lon=6.383333333333334",
+        "Updated PrimaryHebFull from 'וירסן (גרמניה)' to 'פירסן (גרמניה)'",
+        "Updated PrimaryArabFull from 'null' to 'فيرسن (ألمانيا)'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007555388105171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'טאפרס (שוויץ)' to 'טאפרס (שווייץ)'",
+        "Updated PrimaryArabFull from 'null' to 'تافرز (سويسرا)'",
+        "Updated ViafId from 'null' to '138419233'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007530815705171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 329.6 km. Manual review required. Kima Id:70405 Name:לנגנפלד (סקסוניה, גרמניה)",
+        "Updated PrimaryArabFull from 'null' to 'لينجينفيلد (ساكسونيا، ألمانيا)'",
+        "Updated ViafId from 'null' to '123296526'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007547860105171"
+      },
+      "result": "Success",
+      "messages": [
+        "Coordinates added: Lat=43.266666666666666, Lon=24.1",
+        "Updated PrimaryArabFull from 'null' to 'شيرفين برياج (بلغاريا)'",
+        "Updated ViafId from 'null' to '124315177'",
+        "updatePlaceRecord: variants +2: Cherven bri︠a︡g (Bulgaria)[la] | Cherven bryag, Bulgaria[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007548215105171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'هامبتون رودز (فيرجينيا : هاربور)'",
+        "updatePlaceRecord: variants +1: Hampton Roads (Va.)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007541989105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007541989105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007553163805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007553163805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007533137405171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'بيلموثهاوزن (ألمانيا)'",
+        "Updated ViafId from 'null' to '132672399'",
+        "updatePlaceRecord: variants +1: Billmuthhausen (Germany)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007547855905171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'טוגן (שוויץ)' to 'טוגן (שווייץ)'",
+        "Updated PrimaryArabFull from 'null' to 'توجين (سويسرا)'",
+        "Updated ViafId from 'null' to '136022419'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007552509005171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'عجمان (الإمارات العربية المتحدة)'",
+        "updatePlaceRecord: variants +3: Ujman (United Arab Emirates)[la] | ʻAjmān (United Arab Emirates)[la] | Al Ajman (United Arab Emirates)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007531043905171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'بورغاي (الإكوادور)'",
+        "Updated ViafId from 'null' to '150256710'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007542782205171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 89.2 km. Manual review required. Kima Id:79876 Name:מידנאפור (הודו)",
+        "Updated PrimaryArabFull from 'null' to 'ميدينيبور (الهند)'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007555448905171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'سيلا (إيطاليا)'",
+        "Updated ViafId from 'null' to '139622209'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007560385705171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'وودلاند هيلز (كنتاكي)'",
+        "Updated ViafId from 'null' to '140827879'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007562565705171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'ميرشتيم (بلجيكا)'",
+        "Updated ViafId from 'null' to '159544420'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007564770805171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'كاركسا (المجر)'",
+        "Updated ViafId from 'null' to '126718413'",
+        "updatePlaceRecord: variants +1: Karcsa[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007584243305171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'سيلة الحارثية (الضفة الغربية)' to 'سيلات الحارثية (الضفة الغربية)'",
+        "updatePlaceRecord: variants +4: Silat el Harthiya (West Bank)[la] | Silat al Haritiya (West Bank)[la] | סילאט אל חארטיה (ישראל)[he] | السيلة الحارثية (الضفة الغربية)[ar]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007584244505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'قفين (الضفة الغربية)' to 'قافين (الضفة الغربية)'",
+        "updatePlaceRecord: variants +3: Kaffin (West Bank)[la] | Qaffin (West Bank)[la] | Kafin (West Bank)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007588749405171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'תל ציון (כוכב יעקב, יהודה ושומרון)' to 'תל ציון (יהודה ושומרון)'",
+        "Updated PrimaryRomFull from 'Tel Tsiyyon (Kokhav Ya'akov, West Bank)' to 'Tel Tsiyyon (West Bank)'",
+        "Updated PrimaryArabFull from 'null' to 'تل صيون (الضفة الغربية)'",
+        "updatePlaceRecord: variants +7: Tel Tsiyyon (Kokhav Ya'akov, West Bank)[la] | Tel Tsiyyon (Israel)[la] | Tel Zion (Kokhav Ya'akov, West Bank)[la] | Tel Tsiyon (Kokhav Ya'akov, West Bank)[la] | Tel Ziyon (Kokhav Ya'akov, West Bank)[la] | תל ציון (כוכב יעקב, יהודה ושומרון)[he] | תל ציון (ישראל)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007597772305171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'أوتوبان أ 9 (ألمانيا)'",
+        "updatePlaceRecord: variants +3: A 9 Expressway (Germany)[la] | BAB 9 (Germany)[la] | Bundesautobahn Berlin-Hirschberg/Hof (Germany)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007566567005171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'بيبيل بلاتز (برلين، ألمانيا)'",
+        "updatePlaceRecord: variants +1: Bebel Square (Berlin, Germany)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007557887705171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'موسكرون (بلجيكا)'",
+        "Updated ViafId from 'null' to '135998831'",
+        "updatePlaceRecord: variants +2: Mouscron, Belgium[la] | Moeskroen (Belgium)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007599792905171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'مويكا (سانت بطرسبرغ، روسيا)'",
+        "updatePlaceRecord: variants +1: Moĭka (Saint Petersburg, Russia)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007558988105171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'بحيرة سيفير (يوتا)'",
+        "updatePlaceRecord: variants +2: Ashley Lake (Utah)[la] | Sevier Dry Lake (Utah)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007560244205171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'أركاديا (بولندا)'",
+        "Updated ViafId from 'null' to '153715277'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007561796205171"
+      },
+      "result": "Success",
+      "messages": [
+        "Coordinates added: Lat=40.321111111111115, Lon=9.329722222222221",
+        "Updated PrimaryArabFull from 'null' to 'نوورو (إيطاليا)'",
+        "Updated ViafId from 'null' to '148910271'",
+        "updatePlaceRecord: variants +2: Nuoro, Sardinia[la] | Nuoro (Sardinia)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007557696105171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'ثوين (بلجيكا)'",
+        "Updated ViafId from 'null' to '137298235'",
+        "updatePlaceRecord: variants +1: Thuin, Belgium (City)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007564413205171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'بويرتو باريوس (غواتيمالا)'",
+        "Updated ViafId from 'null' to '157132826'",
+        "updatePlaceRecord: variants +1: Puerto Barrios, Guatemala[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987009277484505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987009277484505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987010650810105171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'راموت غولدا مائير (نوف هغاليل، إسرائيل)'",
+        "updatePlaceRecord: variants +12: Ramot Golda Meir (Nof Hagalil, Israel)[la] | Ramot Golda Meir (Natsrat Illit, Israel)[la] | Har Yonah Alef (Nof Hagalil, Israel)[la] | Har Yonah Bet (Nof Hagalil, Israel)[la] | Har Yonah Alef (Natsrat Illit, Israel)[la] | Har Yonah Bet (Natsrat Illit, Israel)[la] | Shekhunat Ramot Golda Meir (Nof Hagalil, Israel)[la] | Ramot Golda Meir Neighbourhood (Yavne, Israel)[la] | רמות גולדה מאיר (נצרת עילית, ישראל)[he] | הר יונה ב' (נוף הגליל, ישראל)[he] | הר יונה א' (נוף הגליל, ישראל)[he] | שכונת רמות גולדה מאיר (נוף הגליל, ישראל)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987008370869905171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'بوروت لوتز (إسرائيل)'",
+        "updatePlaceRecord: variants +4: Borot Loz (Israel)[la] | Borot Lots (Israel)[la] | Lotz Cisterns (Israel)[la] | Borot Lotz (Negev, Israel)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987010305081905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987010305081905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987010266371105171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'طريق القدس 21 (القدس، إسرائيل)'",
+        "updatePlaceRecord: variants +3: Kevish 21 (Jerusalem, Israel)[la] | כביש מספר 21, עירוני (ירושלים, ישראל)[he] | כביש עירוני מספר עשרים ואחד (ירושלים, ישראל)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987008917381605171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'بيترانيك (كرواتيا)'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987010266369705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987010266369705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987009349143005171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'الكفير (الضفة الغربية)' to 'كوفريت (الضفة الغربية)'",
+        "updatePlaceRecord: variants +2: Al Kufayr (West Bank)[la] | كفير (الضفة الغربية)[ar]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987010266896205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987010266896205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987008917380105171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'سوسيك (صربيا)'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987010305082105171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'تلفت (الضفة الغربية)'",
+        "updatePlaceRecord: variants +5: Khirbet Telfit (West Bank)[la] | Telfit (West Bank)[la] | תילפית (יהודה ושומרון)[he] | תלפית (נפת ג'נין, יהודה ושומרון)[he] | ח'רבת טלפית (יהודה ושומרון)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987010857523805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987010857523805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987010857524005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987010857524005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987010857524105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987010857524105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987010857524405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987010857524405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987010857524505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987010857524505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987010857524905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987010857524905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987010857525105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987010857525105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987010857526205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987010857526205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987010857526305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987010857526305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987010929275005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987010929275005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987010929275205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987010929275205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987010929289305171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'قرية خان الأحمر (الضفة الغربية)'",
+        "updatePlaceRecord: variants +5: Khan al-Ahmar (Israel)[la] | Khan al-Ahmar school community (West Bank)[la] | ח'אן אל-אחמר (ישראל)[he] | אלח'אן אלאחמר (יהודה ושומרון)[he] | כפר אח'אן אל-אחמר (יהודה ושומרון)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987011051869605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987011051869605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987011051869705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987011051869705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987011097764505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987011097764505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987011252614105171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'جيزاكس (أوزبكستان)'",
+        "Updated ViafId from 'null' to '299985921'",
+        "updatePlaceRecord: variants +6: Dishsak (Uzbekistan)[la] | Dzhizak (Uzbekistan)[la] | Jizak (Uzbekistan)[la] | Jizzakh (Uzbekistan)[la] | Jizzax Shahri (Uzbekistan)[la] | Zhizzakh (Uzbekistan)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987011295516905171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'سيده بوعز (الضفة الغربية)'",
+        "updatePlaceRecord: variants +2: Sdeh Boaz (Israel)[la] | Sde Boaz (Israel)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987011295517205171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'بني كدم (الضفة الغربية)'",
+        "updatePlaceRecord: variants +5: Asfar Bet (Israel)[la] | Pnei Kedem (Israel)[la] | Peney Kedem (Jordan)[la] | Pney Kedem (West Bank)[la] | פני קדם (גוש עציון)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987011295517305171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'ميتسبيه كراميم (الضفة الغربية)'",
+        "updatePlaceRecord: variants +3: Mitspe Keramim (Israel)[la] | Mitspeh Kramim (Jordan)[la] | Mitzpe Kramim (West Bank)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987011416646705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987011416646705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987011901771805171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'خربة قيس (الضفة الغربية)'",
+        "updatePlaceRecord: variants +3: Khirbet Keis (West Bank)[la] | חורבת קיס (יהודה ושומרון)[he] | קיס, חירבת (יהודה ושומרון)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987011900468505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'خربثة المسبح (الضفة الغربية)'",
+        "updatePlaceRecord: variants +3: Khirbet al-Misbah (West Bank)[la] | Khurbetha ibn es Seba (West Bank)[la] | חרבתא אלמסבאח (יהודה ושומרון)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987011900468305171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'نيعلين (الضفة الغربية)'",
+        "updatePlaceRecord: variants +5: Na'alin (West Bank)[la] | Ni'ilin (West Bank)[la] | ניעלין (יהודה ושומרון)[he] | ניעילין (יהודה ושומרון)[he] | נילין (יהודה ושומרון)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012092773805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012092773805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987011911475805171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'رفات، سلفيت (الضفة الغربية)'",
+        "updatePlaceRecord: variants +1: ראפת, סלפית (יהודה ושומרון)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012125049405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012125049405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012182773505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012182773505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012182775205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012182775205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012238947305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012238947305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012292465305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012292465305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012301768805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012301768805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012314267205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012314267205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012328377005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012328377005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012292464405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012292464405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012314266805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012314266805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012326973205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012326973205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012331761005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012331761005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012340575805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012340575805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012353076605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012353076605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012655564105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012655564105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    }
+  ],
+  "newSummary": [
+    {
+      "item": {
+        "recordId": "987007496494005171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007496494005171 (רונבורג (תורינגיה, גרמניה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007539480005171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007539480005171 (מפרץ אפלאצ'ה (פלורידה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007478048905171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007478048905171 (ליוביניה (בוסניה והרצגובינה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007539172805171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007539172805171 (מפרה (פורטוגל))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007552946005171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007552946005171 (מטה (קולומביה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007533280005171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007533280005171 (וויימאנה (ניו זילנד))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007535747805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007535747805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007535139505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007535139505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007533229005171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007533229005171 (קירכהיים (צרפת))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007554934505171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007554934505171 (פריסקו (קולורדו))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007542857005171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007542857005171 (וויישאן שי (סין))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007537722905171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007537722905171 (בוסטו ארסיציו (איטליה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007533122505171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007533122505171 (רדרידג' (מישיגן))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007586185705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007586185705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007562216705171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007562216705171 (קמפן (פירסן, גרמניה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007567475705171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007567475705171 (וייאביסנסיו (מטה, קולומביה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007562274305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007562274305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007564667505171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007564667505171 (פומרול (צרפת))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007562215805171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007562215805171 (פולה (איטליה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007574865005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007574865005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007557484305171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007557484305171 (שווארצאך אם מיין (גרמניה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987010791310105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987010791310105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012781273405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012781273405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012781273805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012781273805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012789571105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012789571105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012800275805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012800275805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012800275905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012800275905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012781273705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012781273705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012874075905171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987012874075905171 (תל שכם (יהודה ושומרון))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012922458505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012922458505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012994976405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012994976405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013053176705171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987013053176705171 (מאהרס (תוניסיה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013121275905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013121275905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013185183805171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987013185183805171 (ברוכין (יהודה ושומרון))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013427246805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013427246805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013427247005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013427247005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013427246705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013427246705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013427758005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013427758005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013427758105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013427758105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013437615505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013437615505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013437215305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013437215305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013437615305171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987013437615305171 (שויי שיאן (ג'יאנגסו שנג, סין))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013437615605171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987013437615605171 (הורינגר שיאן (סין))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007494115805171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007494115805171 (בלוסקו (איטליה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007494259705171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007494259705171 (לויסטון (ניו יורק : עיירה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007491969405171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007491969405171 (ג'פרסון הילס (פנסילבניה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007535749105171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007535749105171 (גרימסטאנד (נורווגיה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007542888305171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007542888305171 (ליגניט (דקוטה הצפונית))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007530910005171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007530910005171 (פרנדה (אלג'יריה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007532104205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007532104205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007532581605171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007532581605171 (אגם ג'וזף (אונטריו))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007547810905171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007547810905171 (טונדלה (פורטוגל))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007602198005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007602198005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007559775905171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007559775905171 (נמל גרין (ניופאונדלנד ולברדור))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007567036505171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007567036505171 (בוגנור רג'יס (אנגליה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007562467905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007562467905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007558930105171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007558930105171 (נהר מין (סצ'ואן שנג, סין))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012788958305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012788958305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012799074605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012799074605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012976361405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012976361405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012994970905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012994970905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012994977105171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987012994977105171 (סנה (יהודה ושומרון))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013291167205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013291167205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013399761705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013399761705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013309675205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013309675205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013400927105171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987013400927105171 (ברכט (פירסן, גרמניה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013425655005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013425655005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013427146805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013427146805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013427246905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013427246905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013427758505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013427758505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013437213105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013437213105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013435610705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013435610705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013435610905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013435610905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013435615005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013435615005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013435615505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013435615505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013437207705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013437207705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013437211705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013437211705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013437212905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013437212905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013437217205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013437217205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013437610205171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987013437610205171 (ג'ינאן שי (סין))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013435615305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013435615305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013437615405171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987013437615405171 (ואנצ'ואו קו (צ'ונגצ'ינג, סין))"
+      ]
+    }
+  ],
+  "requireReviewSummary": [
+    {
+      "item": {
+        "recordId": "987007413164605171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Failed to fetch MARC XML for place RecordId 987007413164605171 although it is in the Kima database. Possibly deleted. Error: RecordId does not exist in repository. Manual review required."
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007487161505171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'غمي (إيطاليا)'",
+        "Updated Wd from 'Q30026064' to 'Q22458'. Manual review required. Kima Id:75755",
+        "Updated ViafId from 'null' to '132715284'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007530815705171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 329.6 km. Manual review required. Kima Id:70405 Name:לנגנפלד (סקסוניה, גרמניה)",
+        "Updated PrimaryArabFull from 'null' to 'لينجينفيلد (ساكسونيا، ألمانيا)'",
+        "Updated ViafId from 'null' to '123296526'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007542782205171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 89.2 km. Manual review required. Kima Id:79876 Name:מידנאפור (הודו)",
+        "Updated PrimaryArabFull from 'null' to 'ميدينيبور (الهند)'"
+      ]
+    }
+  ],
+  "failedSummary": [],
+  "requireReviewItems": [
+    {
+      "item": {
+        "recordId": "987007413164605171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Failed to fetch MARC XML for place RecordId 987007413164605171 although it is in the Kima database. Possibly deleted. Error: RecordId does not exist in repository. Manual review required."
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007487161505171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'غمي (إيطاليا)'",
+        "Updated Wd from 'Q30026064' to 'Q22458'. Manual review required. Kima Id:75755",
+        "Updated ViafId from 'null' to '132715284'"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01077cz  a2200265n  4500</leader><controlfield tag=\"005\">20250530095535.0</controlfield><controlfield tag=\"008\">010410n||acannaabn          |n ana    ||</controlfield><controlfield tag=\"001\">987007487161505171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 2001031245</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q22458</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">132715284</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">8.42013</subfield><subfield code=\"e\">8.42013</subfield><subfield code=\"f\">45.59863</subfield><subfield code=\"g\">45.59863</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">E0082518</subfield><subfield code=\"e\">E0082518</subfield><subfield code=\"f\">N0453558</subfield><subfield code=\"g\">N0453558</subfield><subfield code=\"2\">geonames</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-001060191</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield></datafield><datafield tag=\"053\" ind1=\" \" ind2=\"0\"><subfield code=\"a\">NA1123.A56</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Ghemme (Italy)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">ג'מה (איטליה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">غمي (إيطاليا)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Italy</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Alessandro Antonelli, 1998?:</subfield><subfield code=\"b\">cover t.p. (Ghemme) p. 3 (... questi due paesi, Ghemme e Maggiora)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Nuovo diz. dei comuni e frazioni di comune, 1984</subfield><subfield code=\"b\">(hdg.: Ghemme; located in the prov. of Novara)</subfield></datafield><datafield tag=\"675\" ind1=\" \" ind2=\" \"><subfield code=\"a\">BGN Italy, 1956.</subfield></datafield></record>\n"
+    },
+    {
+      "item": {
+        "recordId": "987007530815705171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 329.6 km. Manual review required. Kima Id:70405 Name:לנגנפלד (סקסוניה, גרמניה)",
+        "Updated PrimaryArabFull from 'null' to 'لينجينفيلد (ساكسونيا، ألمانيا)'",
+        "Updated ViafId from 'null' to '123296526'"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01342nz  a2200241n  4500</leader><controlfield tag=\"005\">20250530095459.0</controlfield><controlfield tag=\"008\">920612n||acannaab|          |n ana    ||</controlfield><controlfield tag=\"001\">987007530815705171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 92062594</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q32093011</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">123296526</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">15.58333333</subfield><subfield code=\"e\">15.58333333</subfield><subfield code=\"f\">48.46666667</subfield><subfield code=\"g\">48.46666667</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-001030745</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Lengenfeld (Saxony, Germany)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">לנגנפלד (סקסוניה, גרמניה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">لينجينفيلد (ساكسونيا، ألمانيا)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Germany</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Verwaltungs-Verlag. Faltplan Lengenfeld, 1991?:</subfield><subfield code=\"b\">map verso (Lengenfeld/Vogtl.)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">BGN 4-13-92</subfield><subfield code=\"b\">(Lengenfeld, ppl, 50p0s34ʹN, 12p0s22ʹE; cites 10 others)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">BGN gaz., E. Ger., 1983</subfield><subfield code=\"b\">(Lengenfeld, ppl, 50p0s34ʹN, 12p0s22ʹE, Karl-Marx-Stadt [now in Saxony]; cites another in Erfurt [now in Thuringia])</subfield></datafield></record>\n"
+    },
+    {
+      "item": {
+        "recordId": "987007542782205171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 89.2 km. Manual review required. Kima Id:79876 Name:מידנאפור (הודו)",
+        "Updated PrimaryArabFull from 'null' to 'ميدينيبور (الهند)'"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01027cz  a2200217n  4500</leader><controlfield tag=\"005\">20250530095521.0</controlfield><controlfield tag=\"008\">970227n||acannaab|          |n ana    ||</controlfield><controlfield tag=\"001\">987007542782205171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 89199489</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q12447537</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">87.51049</subfield><subfield code=\"e\">87.51049</subfield><subfield code=\"f\">21.64807</subfield><subfield code=\"g\">21.64807</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-001046597</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Medinipur (India)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">מידנאפור (הודו)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">ميدينيبور (الهند)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">India</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Medinipur, 1992:</subfield><subfield code=\"b\">p. 3 (Medinipur town is situated on the north bank of river Kasi; 87p0s19'E meridian of longitude and 22p0s25'N parallel of latitude; 135 km. fr. Calcutta)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Where is it, 1976:</subfield><subfield code=\"b\">p. 14 (Medinīpur, 22p0s.4'N, 87p0s.3'E)</subfield></datafield></record>\n"
+    }
+  ],
+  "failedItems": []
+}

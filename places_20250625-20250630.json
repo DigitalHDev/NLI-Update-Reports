@@ -1,0 +1,1065 @@
+{
+  "type": "Place",
+  "runTime": "2026-07-20T00:43:12.1152037Z",
+  "period": "20250625-20250630",
+  "numProcessedItems": 21370,
+  "numModifiedItems": 58,
+  "numNewItems": 40,
+  "numReviewItems": 4,
+  "numFailedItems": 2,
+  "modifiedSummary": [
+    {
+      "item": {
+        "recordId": "987007550318005171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'سوموغيزيل (المجر)'",
+        "Updated ViafId from 'null' to '137203964'",
+        "updatePlaceRecord: variants +2: Somogyszil, Hungary[la] | סיל (הונגריה)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007539654305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007539654305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007465331605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007465331605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007410460205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007410460205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007467844105171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'רמת חובב (ישראל)' to 'נאות חובב (ישראל)'",
+        "Updated PrimaryRomFull from 'Ramat Hovav (Israel)' to 'Ne'ot Hovav (Israel)'",
+        "Updated PrimaryArabFull from 'رمات حوفاف (إسرائيل)' to 'نيوت هوفاف (إسرائيل)'",
+        "updatePlaceRecord: variants +3: Ramat Hovav (Israel)[la] | רמת חובב (ישראל)[he] | رمات حوفاف (إسرائيل)[ar]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007285546805171"
+      },
+      "result": "Success",
+      "messages": [
+        "updatePlaceRecord: variants +9: Ein Tzur (Zikhron Ya'akov, Israel)[la] | Ein Tsur (Zikhron Ya'akov, Israel)[la] | Ramat ha-Nadiv[la] | Ramat Hanadiv (Israel : Region)[la] | Hanadiv Heights (Israel)[la] | Ramat Hanadiv (Israel)[la] | Ramat ha-Nadiv (Israel : Region)[la] | פארק רמת הנדיב (זכרון יעקב, ישראל)[he] | עין צור (זכרון יעקב, ישראל)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007293966705171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'بحر إيجه'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007295055005171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'אוקיינוס האטלנטי' to 'האוקיינוס האטלנטי'",
+        "Updated PrimaryArabFull from 'null' to 'المحيط الأطلسي'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007295553405171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'אוקיינוס הארקטי' to 'האוקיינוס הארקטי'",
+        "Updated PrimaryArabFull from 'null' to 'المحيط المتجمد الشمالي'",
+        "updatePlaceRecord: variants +1: האוקינוס הארקטי[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007398544305171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'מערת המולד (בית לחם)' to 'מערת המולד (בית לחם, יהודה ושומרון)'",
+        "Updated PrimaryRomFull from 'Grotto of the Nativity (Bethlehem)' to 'Grotto of the Nativity (Bethlehem, West Bank)'",
+        "Updated PrimaryArabFull from 'null' to 'مغارة المهد (بيت لحم، الضفة الغربية)'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007463864605171"
+      },
+      "result": "Success",
+      "messages": [
+        "updatePlaceRecord: variants +6: East Jerusalem (Israel)[la] | Jerusalem (East : Israel)[la] | Jerusalem (East) (Israel)[la] | East Jerusalem[la] | ירושלים, מזרח העיר (ישראל)[he] | ירושלים המזרחית (ישראל)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007467985105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007467985105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007467853105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007467853105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007531509505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'جاوة (إندونيسيا)'",
+        "updatePlaceRecord: variants +3: Djawa (Indonesia)[la] | Jawa (Indonesia)[la] | Pulau Jawa (Indonesia)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007533972105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "updatePlaceRecord: no changes for place 987007533972105171"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007536919505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'אולורו/סלע איירס (אוסטרליה)' to 'אולורו/סלע איירס (טריטוריה צפונית)'",
+        "Updated PrimaryArabFull from 'null' to 'أولورو/آيرز روك (الإقليم الشمالي)'",
+        "Updated Wd from 'null' to 'Q33910'",
+        "updatePlaceRecord: variants +4: Ayers Rock (N.T.)[la] | Ayers Rock/Uluru (N.T.)[la] | Oolooroo (N.T.)[la] | Red Rock (N.T.)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007543533805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007543533805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007567867205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007567867205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007554265105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007554265105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007564733005171"
+      },
+      "result": "Success",
+      "messages": [
+        "updatePlaceRecord: variants +6: Dayr Yasin (Israel)[la] | Dir Yasin (Israel)[la] | Dayr Yasin (Palestine)[la] | Deir Giasin (Palestine)[la] | Deir Yassin (Palestine)[la] | Dir Yassin (Palestine)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007558021405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007558021405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007564537805171"
+      },
+      "result": "Success",
+      "messages": [
+        "updatePlaceRecord: variants +3: Aden (City)[la] | Crater (Yemen)[la] | ʻAdan (Yemen)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007559635305171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'ويلز'",
+        "Updated ViafId from '311114459' to '82145424563986831429'. Manual review required. Kima Id:8580"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007559657005171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'ريجيو إميليا (إيطاليا)'",
+        "updatePlaceRecord: variants +10: Reggio nell'Emilia (Italy)[la] | Reggio d'Emilia (Italy)[la] | Regium Lepidi (Italy)[la] | Regium Lepidum (Italy)[la] | Reginensis (Italy)[la] | Rhegium Aemiliae (Italy)[la] | ריגייו אמיליא (איטליה)[he] | רג'יו אמיליה (איטליה)[he] | ארייו (איטליה)[he] | רייו (איטליה)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007563017105171"
+      },
+      "result": "Success",
+      "messages": [
+        "updatePlaceRecord: variants +1: Mare Nostrum[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007564616305171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'دراما (اليونان)'",
+        "updatePlaceRecord: variants +1: Dhrama (Greece)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007567863705171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'אסיה המזרחית' to 'מזרח אסיה'",
+        "updatePlaceRecord: variants +3: Asia, East[la] | Asia, Eastern[la] | East (Far East)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012337274205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012337274205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007295598005171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 4313.9 km. Manual review required. Kima Id:1893 Name:אוקיינוס האנטרקטי",
+        "Updated PrimaryHebFull from 'אוקיינוס האנטרקטי' to 'האוקיינוס האנטרקטי'",
+        "Updated PrimaryArabFull from 'null' to 'المحيط المتجمد الجنوبي'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007402039805171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'سور الصين العظيم (الصين)'",
+        "updatePlaceRecord: variants +3: China, Great Wall of (China)[la] | Chinese Wall (China)[la] | Wall of China (China)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007498792105171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryRomFull from 'Mahaneh Yehudah (Petah Tikva, Israel)' to 'Mahane Yehuda (Petah Tikva, Israel)'",
+        "updatePlaceRecord: variants +6: Mahaneh Yehudah (Petah Tiqwa, Israel)[la] | Mahane Yehuda (Petah Tiqwa, Israel)[la] | Mahane Yehuda (Petah Tiqwa)[la] | Mahane Yehuda (Petah Tikvah, Israel)[la] | Mahane Yehuda (Petah Tikva)[la] | Mahaneh Yehudah (Moshav, Israel)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007536813605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007536813605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007548039705171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'هارلو (إنجلترا)'",
+        "Updated Wd from 'null' to 'Q852729'",
+        "updatePlaceRecord: variants +2: Harlow, Eng.[la] | Harlow (Essex)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007553669605171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'تروي (مدينة قديمة)'",
+        "updatePlaceRecord: variants +7: Ilion (Extinct city)[la] | Ilium (Extinct city)[la] | Troy (Ancient city)[la] | Troia (Extinct city)[la] | Troja (Extinct city)[la] | Troy (Turkey)[la] | Trovaharabesi (Extinct city)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007537557005171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'سان جورجونيو باس (كاليفورنيا)'",
+        "Updated Wd from 'null' to 'Q3897453'",
+        "updatePlaceRecord: variants +2: Pass Saint Gorgonie (Calif.)[la] | Saint Gorgonie, Pass (Calif.)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007529654405171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'أور (مدينة قديمة)'",
+        "Updated Wd from 'null' to 'Q5699'",
+        "updatePlaceRecord: variants +7: Muqayyar, Tall al- (Iraq)[la] | Tall al-Muqayyar (Iraq)[la] | Tell el-Mukayyar (Iraq)[la] | Tell el-Muqayyar (Iraq)[la] | Ur (Ancient city)[la] | Ur of the Chaldees (Extinct city)[la] | Urim (Extinct city)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007543293105171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'אוקינוס ההודי' to 'האוקיינוס ההודי'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007549585905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007549585905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007543389805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007543389805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007544927105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007544927105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007555852505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'האוקינוס השקט' to 'האוקיינוס השקט'",
+        "Updated PrimaryArabFull from 'null' to 'المحيط الهادئ'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007560744705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007560744705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007542722205171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'حارة الأرمن (أورشلِيم-القدس، اسرائيل)' to 'الحي الأرمني (القدس، إسرائيل)'",
+        "Updated ViafId from 'null' to '130357246'",
+        "updatePlaceRecord: variants +2: Rovaʻ Armeni (Jerusalem)[la] | Armenian Quarter (Jerusalem)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007561476505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007561476505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007526901805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007526901805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007554812905171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'برشلونة (إسبانيا)'",
+        "Updated ViafId from '159421578' to '126653871'. Manual review required. Kima Id:582",
+        "updatePlaceRecord: variants +26: Barcino (Spain)[la] | Barcellona (Spain)[la] | Barchinone (Spain)[la] | Barcinona (Spain)[la] | Barcenona (Spain)[la] | Barchillona (Spain)[la] | Barchino (Spain)[la] | Barcinonia Civitas (Spain)[la] | Barcinonis Civitas (Spain)[la] | Barcollona (Spain)[la] | Barschaluna (Spain)[la] | Barchinona (Spain)[la] | Barchinonia (Spain)[la] | Barcillona (Spain)[la] | Barzalum (Spain)[la] | Barzellona (Spain)[la] | Colonia Barcino (Spain)[la] | Colonia Barcino Faventia (Spain)[la] | Colonia Faventia (Spain)[la] | Colonia Faventia Iulia Augusta Pia Barcino (Spain)[la] | Colonia Flaventia (Spain)[la] | Faventia (Spain)[la] | Iulia Augusta Barcino (Spain)[la] | Pia Barcino (Spain)[la] | ברגילונה (ספרד)[he] | ברגלונה (ספרד)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007557363105171"
+      },
+      "result": "Success",
+      "messages": [
+        "updatePlaceRecord: variants +6: Dimashq (Syria)[la] | Damesek (Syria)[la] | Damas (Syria)[la] | Sam (Syria)[la] | ash-Sham (Syria)[la] | א-שאם (סוריה)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007563000605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007563000605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007592892005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007592892005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007600064705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007600064705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007572881505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'ميناء أشدود (إسرائيل)'",
+        "updatePlaceRecord: variants +2: Ashdod Harbor (Israel)[la] | Namal Ashdod (Israel)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007565862505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007565862505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007602290105171"
+      },
+      "result": "Failure",
+      "messages": [
+        "An error occurred while saving the entity changes. See the inner exception for details. --> Cannot insert duplicate key row in object 'dbo.Variants' with unique index 'IX_Variants_primary_heb_full_variant'. The duplicate key value is (מפרץ אילת, Khalīj al-ʻAqabah)."
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007559549905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007559549905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007557354605171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'براتو (إيطاليا)'",
+        "Updated ViafId from '147739732' to '133069191'. Manual review required. Kima Id:8608"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007565903705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007565903705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007582160105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "updatePlaceRecord: no changes for place 987007582160105171"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007569065205171"
+      },
+      "result": "Success",
+      "messages": [
+        "updatePlaceRecord: variants +1: Uzeir (Israel)[la]"
+      ]
+    }
+  ],
+  "newSummary": [
+    {
+      "item": {
+        "recordId": "987007410802405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007410802405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007480116905171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007480116905171 (סן אילר לה קרואה (צרפת))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007545178105171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007545178105171 (זטריך (באסוויילר, גרמניה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007548078805171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007548078805171 (פיירוס-לה-רוק (צרפת))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007558595605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007558595605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007564786405171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007564786405171 (פובדים (סלובקיה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013475760605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013475760605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013476146805171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987013476146805171 (סוקולובסקו (פולין))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013475759505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013475759505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013475761105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013475761105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013475863605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013475863605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013501958905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013501958905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013501959105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013501959105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013501961505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013501961505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013504262705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013504262705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007292537005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007292537005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007553356005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007553356005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007537996505171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007537996505171 (לוס סנטוס (פנמה : פרובינציה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007544216805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007544216805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007562426805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007562426805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007565045105171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007565045105171 (דיבדן (אנגליה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012857475305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012857475305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013501958805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013501958805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013501960605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013501960605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013501962905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013501962905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013435604805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013435604805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013475760505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013475760505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013475760905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013475760905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013475863705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013475863705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013501958505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013501958505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013501959705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013501959705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013501962105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013501962105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013501962705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013501962705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013475760405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013475760405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013475863505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013475863505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013501956505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013501956505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007553823705171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007553823705171 (שפלה (ישראל))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012302474205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012302474205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012403718305171"
+      },
+      "result": "Failure",
+      "messages": [
+        "Failed to fetch MARC XML for place RecordId 987012403718305171. Error: RecordId does not exist in repository"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013294731505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013294731505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    }
+  ],
+  "requireReviewSummary": [
+    {
+      "item": {
+        "recordId": "987007559635305171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'ويلز'",
+        "Updated ViafId from '311114459' to '82145424563986831429'. Manual review required. Kima Id:8580"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007295598005171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 4313.9 km. Manual review required. Kima Id:1893 Name:אוקיינוס האנטרקטי",
+        "Updated PrimaryHebFull from 'אוקיינוס האנטרקטי' to 'האוקיינוס האנטרקטי'",
+        "Updated PrimaryArabFull from 'null' to 'المحيط المتجمد الجنوبي'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007554812905171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'برشلونة (إسبانيا)'",
+        "Updated ViafId from '159421578' to '126653871'. Manual review required. Kima Id:582",
+        "updatePlaceRecord: variants +26: Barcino (Spain)[la] | Barcellona (Spain)[la] | Barchinone (Spain)[la] | Barcinona (Spain)[la] | Barcenona (Spain)[la] | Barchillona (Spain)[la] | Barchino (Spain)[la] | Barcinonia Civitas (Spain)[la] | Barcinonis Civitas (Spain)[la] | Barcollona (Spain)[la] | Barschaluna (Spain)[la] | Barchinona (Spain)[la] | Barchinonia (Spain)[la] | Barcillona (Spain)[la] | Barzalum (Spain)[la] | Barzellona (Spain)[la] | Colonia Barcino (Spain)[la] | Colonia Barcino Faventia (Spain)[la] | Colonia Faventia (Spain)[la] | Colonia Faventia Iulia Augusta Pia Barcino (Spain)[la] | Colonia Flaventia (Spain)[la] | Faventia (Spain)[la] | Iulia Augusta Barcino (Spain)[la] | Pia Barcino (Spain)[la] | ברגילונה (ספרד)[he] | ברגלונה (ספרד)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007557354605171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'براتو (إيطاليا)'",
+        "Updated ViafId from '147739732' to '133069191'. Manual review required. Kima Id:8608"
+      ]
+    }
+  ],
+  "failedSummary": [
+    {
+      "item": {
+        "recordId": "987007602290105171"
+      },
+      "result": "Failure",
+      "messages": [
+        "An error occurred while saving the entity changes. See the inner exception for details. --> Cannot insert duplicate key row in object 'dbo.Variants' with unique index 'IX_Variants_primary_heb_full_variant'. The duplicate key value is (מפרץ אילת, Khalīj al-ʻAqabah)."
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012403718305171"
+      },
+      "result": "Failure",
+      "messages": [
+        "Failed to fetch MARC XML for place RecordId 987012403718305171. Error: RecordId does not exist in repository"
+      ]
+    }
+  ],
+  "requireReviewItems": [
+    {
+      "item": {
+        "recordId": "987007559635305171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'ويلز'",
+        "Updated ViafId from '311114459' to '82145424563986831429'. Manual review required. Kima Id:8580"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01632cz  a2200349n  4500</leader><controlfield tag=\"005\">20250628213208.0</controlfield><controlfield tag=\"008\">800821n| acannaabn          |a ana      </controlfield><controlfield tag=\"001\">987007559635305171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 80014574</subfield><subfield code=\"z\">sh 85144877</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q25</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">82145424563986831429</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">-91.7469</subfield><subfield code=\"e\">-91.7469</subfield><subfield code=\"f\">47.235</subfield><subfield code=\"g\">47.235</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">W0033000</subfield><subfield code=\"e\">W0033000</subfield><subfield code=\"f\">N0523000</subfield><subfield code=\"g\">N0523000</subfield><subfield code=\"2\">geonames</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">(OCoLC)oca00397035</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000978248</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">DLC</subfield><subfield code=\"d\">NIC</subfield><subfield code=\"d\">DLC</subfield><subfield code=\"d\">WaU</subfield><subfield code=\"d\">DLC</subfield><subfield code=\"d\">OCoLC</subfield></datafield><datafield tag=\"043\" ind1=\" \" ind2=\" \"><subfield code=\"a\">e-uk-wl</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Wales</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">ויילס</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">ويلز</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Great Britain</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Cambria</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Cymric</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Gwalia</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Cymru</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"551\" ind1=\" \" ind2=\" \"><subfield code=\"a\">England and Wales</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Heading for Wales valid as a jurisdiction before 1536 and after 1 July 1999 only. Between 1536 and 1 July 1999, use \"(Wales)\" as qualifier for places (23.4D) and for nongovernment bodies (24.4C2) only.</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Enc. Brit.</subfield><subfield code=\"b\">(Wales; Welsh name Cymru)</subfield></datafield><datafield tag=\"678\" ind1=\" \" ind2=\" \"><subfield code=\"a\">In 1536 Wales was united with England to form England and Wales. In 1707 Scotland was united with England and Wales to form Great Britain. Subsequent to a referendum held in 1998, devolution into an autonomous entity within the United Kingdom became effective 1 July 1999 with the state opening of the Welsh National Assembly in Cardiff by Queen Elizabeth II.</subfield></datafield><datafield tag=\"781\" ind1=\" \" ind2=\"0\"><subfield code=\"z\">Wales</subfield></datafield></record>\n"
+    },
+    {
+      "item": {
+        "recordId": "987007295598005171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 4313.9 km. Manual review required. Kima Id:1893 Name:אוקיינוס האנטרקטי",
+        "Updated PrimaryHebFull from 'אוקיינוס האנטרקטי' to 'האוקיינוס האנטרקטי'",
+        "Updated PrimaryArabFull from 'null' to 'المحيط المتجمد الجنوبي'"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01618cz  a2200253n  4500</leader><controlfield tag=\"005\">20250628212825.0</controlfield><controlfield tag=\"008\">860211|| anannbabn          |a ana      </controlfield><controlfield tag=\"001\">987007295598005171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">sh 85005488</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q7354</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">-150</subfield><subfield code=\"e\">-150</subfield><subfield code=\"f\">-70</subfield><subfield code=\"g\">-70</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000644077</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Antarctic Ocean</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">האוקיינוס האנטרקטי</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">المحيط المتجمد الجنوبي</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Southern Ocean</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">האוקיינוס הדרומי</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"550\" ind1=\" \" ind2=\" \"><subfield code=\"w\">g</subfield><subfield code=\"a\">Ocean</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">World Book:</subfield><subfield code=\"b\">v. 1, p. 461 (Antarctic Ocean: name sometimes given to the waters surrounding the Antarctic continent. Many geographers say that these waters do not form a separate ocean at all, but consist solely of the southern parts of the Atlantic, Indian, and Pacific oceans; also called Southern Ocean)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Web. geog.</subfield><subfield code=\"b\">(Antarctic Regions: Antarctica and the S waters of the Atlantic, Pacific, and Indian Oceans; in area S of Africa (sometimes inappropriately termed the Antarctic Ocean))</subfield></datafield><datafield tag=\"680\" ind1=\" \" ind2=\" \"><subfield code=\"i\">Here are entered works on the southern parts of the Atlantic, Indian, and Pacific oceans that surround Antarctica.</subfield></datafield><datafield tag=\"781\" ind1=\" \" ind2=\"0\"><subfield code=\"z\">Antarctic Ocean</subfield></datafield><datafield tag=\"933\" ind1=\" \" ind2=\" \"><subfield code=\"a\">cnr 202206</subfield></datafield></record>\n"
+    },
+    {
+      "item": {
+        "recordId": "987007554812905171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'برشلونة (إسبانيا)'",
+        "Updated ViafId from '159421578' to '126653871'. Manual review required. Kima Id:582",
+        "updatePlaceRecord: variants +26: Barcino (Spain)[la] | Barcellona (Spain)[la] | Barchinone (Spain)[la] | Barcinona (Spain)[la] | Barcenona (Spain)[la] | Barchillona (Spain)[la] | Barchino (Spain)[la] | Barcinonia Civitas (Spain)[la] | Barcinonis Civitas (Spain)[la] | Barcollona (Spain)[la] | Barschaluna (Spain)[la] | Barchinona (Spain)[la] | Barchinonia (Spain)[la] | Barcillona (Spain)[la] | Barzalum (Spain)[la] | Barzellona (Spain)[la] | Colonia Barcino (Spain)[la] | Colonia Barcino Faventia (Spain)[la] | Colonia Faventia (Spain)[la] | Colonia Faventia Iulia Augusta Pia Barcino (Spain)[la] | Colonia Flaventia (Spain)[la] | Faventia (Spain)[la] | Iulia Augusta Barcino (Spain)[la] | Pia Barcino (Spain)[la] | ברגילונה (ספרד)[he] | ברגלונה (ספרד)[he]"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>03229cz  a2200649n  4500</leader><controlfield tag=\"005\">20250628213313.0</controlfield><controlfield tag=\"008\">790411n||acannaabn          |a ana    ||</controlfield><controlfield tag=\"001\">987007554812905171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 79021052</subfield><subfield code=\"z\">sh 85011813</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q1492</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">126653871</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">E0020932</subfield><subfield code=\"e\">E0020932</subfield><subfield code=\"f\">N0412320</subfield><subfield code=\"g\">N0412320</subfield><subfield code=\"2\">geonames</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">002.695258</subfield><subfield code=\"e\">002.2280099</subfield><subfield code=\"f\">041.4695761</subfield><subfield code=\"g\">041.3200040</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">(OCoLC)oca00254853</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000974571</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">DLC</subfield><subfield code=\"d\">UPB</subfield><subfield code=\"d\">WaU</subfield></datafield><datafield tag=\"043\" ind1=\" \" ind2=\" \"><subfield code=\"a\">e-sp---</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Barcelona (Spain)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">ברצלונה (ספרד)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">برشلونة (إسبانيا)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Spain</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Barcino (Spain)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"w\">nnaa</subfield><subfield code=\"a\">Barcelona</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Barcellona (Spain)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Barchinone (Spain)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Barcinona (Spain)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Barcenona (Spain)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Barchillona (Spain)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Barchino (Spain)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Barcinonia Civitas (Spain)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Barcinonis Civitas (Spain)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Barcollona (Spain)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Barschaluna (Spain)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Barchinona (Spain)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Barchinonia (Spain)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Barcillona (Spain)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Barzalum (Spain)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Barzellona (Spain)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Colonia Barcino (Spain)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Colonia Barcino Faventia (Spain)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Colonia Faventia (Spain)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Colonia Faventia Iulia Augusta Pia Barcino (Spain)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Colonia Flaventia (Spain)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Faventia (Spain)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Iulia Augusta Barcino (Spain)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Pia Barcino (Spain)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">ברגילונה (ספרד)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">ברגלונה (ספרד)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">AACR 1 form: Barcelona, Spain.</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record enhanced with cross references from NNL13-000000581</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Congrés Hispano Luso Italià de Demografia Històrica (1st : 1987 : Barcelona, Spain). Popolazione, società e ambiente, c1990:</subfield><subfield code=\"b\">t.p. (Barcellona)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Liber examinationis notariorum civitatis Barchinone (1348-1386), 1992.</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Orbis Latinus, 1972:</subfield><subfield code=\"b\">I:218 (Barcinona, Barcellona, Barcenona, Barchillona, Barchimonensis, Barchino, Barchinona,Barchinonensis, Barchinonia, Barcillona, Barcino, Barcinonensis, Barcinonia civ., Barcinonis civ.,Barcollona, Barschaluna, Barzalum,Barzellona, Colonia Barcino, Colonia Barcino Faventia, Colonia Faventia, Colonia Faventia Iulia Augusta Pia Barcino, Colonia Flaventia, Faventia, Iulia Augusta Barcino, Pia Barcino: Barcelona, Pr.-Hst. in Katalonien, Spanien)</subfield></datafield><datafield tag=\"781\" ind1=\" \" ind2=\"0\"><subfield code=\"z\">Spain</subfield><subfield code=\"z\">Barcelona</subfield></datafield><datafield tag=\"955\" ind1=\" \" ind2=\" \"><subfield code=\"a\">ברצלונה BARCELONA</subfield></datafield></record>\n"
+    },
+    {
+      "item": {
+        "recordId": "987007557354605171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'براتو (إيطاليا)'",
+        "Updated ViafId from '147739732' to '133069191'. Manual review required. Kima Id:8608"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01117cz  a2200253n  4500</leader><controlfield tag=\"005\">20250628212931.0</controlfield><controlfield tag=\"008\">800228n||acannaab|          |a ana    ||</controlfield><controlfield tag=\"001\">987007557354605171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n  80001376</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q13377</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">133069191</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">011.202649</subfield><subfield code=\"e\">011.1474862</subfield><subfield code=\"f\">043.9252112</subfield><subfield code=\"g\">043.8314126</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000977888</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Prato (Italy)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">פראטו (איטליה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">براتو (إيطاليا)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Italy</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"w\">nnaa</subfield><subfield code=\"a\">Prato</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">6xx fields added from 2014 LCNA file</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">GEOnet, viewed July 5, 2013:</subfield><subfield code=\"b\">(Prato [approved]; in Tuscany; PPL; 43°53ʹ00ʺN 011°06ʹ00ʺE; 4 others PPLs of this name [but no others in LC database])</subfield></datafield><datafield tag=\"955\" ind1=\" \" ind2=\" \"><subfield code=\"a\">פראטו PRATO</subfield></datafield></record>\n"
+    }
+  ],
+  "failedItems": [
+    {
+      "item": {
+        "recordId": "987007602290105171"
+      },
+      "result": "Failure",
+      "messages": [
+        "An error occurred while saving the entity changes. See the inner exception for details. --> Cannot insert duplicate key row in object 'dbo.Variants' with unique index 'IX_Variants_primary_heb_full_variant'. The duplicate key value is (מפרץ אילת, Khalīj al-ʻAqabah)."
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01192cz  a2200325n  4500</leader><controlfield tag=\"005\">20250628213336.0</controlfield><controlfield tag=\"008\">860211|| anannbabn          |a ana      </controlfield><controlfield tag=\"001\">987007602290105171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">sh 85006208</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q81611</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">34.75</subfield><subfield code=\"e\">34.75</subfield><subfield code=\"f\">28.75</subfield><subfield code=\"g\">28.75</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">E0344000</subfield><subfield code=\"e\">E0344000</subfield><subfield code=\"f\">N0290000</subfield><subfield code=\"g\">N0290000</subfield><subfield code=\"2\">geonames</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-001803006</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">DLC</subfield></datafield><datafield tag=\"072\" ind1=\" \" ind2=\"7\"><subfield code=\"a\">H 1145.5</subfield><subfield code=\"2\">lcsh</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aqaba, Gulf of</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">מפרץ אילת</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">خليج العقبة</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Akaba, Gulf of</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Bahr el ʻAqaba</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Eilat, Gulf of</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Elat, Gulf of</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Gulf of Aqaba</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Khalīj al-ʻAqabah</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Sinus Aelaniticus</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"550\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Bays</subfield><subfield code=\"z\">Middle East</subfield><subfield code=\"w\">g</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"551\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Red Sea</subfield><subfield code=\"w\">g</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record loaded from LCS10 - 9/2015</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">GeoNames [algorithmically matched]</subfield><subfield code=\"b\">bay; 29°00ʹ00ʺN 034°40ʹ00ʺE</subfield></datafield><datafield tag=\"781\" ind1=\" \" ind2=\"0\"><subfield code=\"z\">Aqaba, Gulf of</subfield></datafield></record>\n"
+    },
+    {
+      "item": {
+        "recordId": "987012403718305171"
+      },
+      "result": "Failure",
+      "messages": [
+        "Failed to fetch MARC XML for place RecordId 987012403718305171. Error: RecordId does not exist in repository"
+      ]
+    }
+  ]
+}

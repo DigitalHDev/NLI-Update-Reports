@@ -1,0 +1,11 @@
+[
+  {
+    "period": "20251216-20251222",
+    "track": "Place",
+    "recordId": "987007566720805171",
+    "messages": [
+      "An error occurred while saving the entity changes. See the inner exception for details. --> Cannot insert duplicate key row in object 'dbo.Places' with unique index 'IX_Places_primary_heb_full'. The duplicate key value is (מחוז הורדנה (בלארוס)).\nThe statement has been terminated."
+    ],
+    "manualAction": null
+  }
+]

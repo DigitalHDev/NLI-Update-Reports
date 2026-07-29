@@ -1,0 +1,218 @@
+[
+  {
+    "period": "20250115-20250121",
+    "track": "Place",
+    "recordId": "987007528337405171",
+    "messages": [
+      "An error occurred while saving the entity changes. See the inner exception for details. --> Cannot insert duplicate key row in object 'dbo.Places' with unique index 'IX_Places_primary_heb_full'. The duplicate key value is (ביסטרוביץ (פולין)).\nThe statement has been terminated."
+    ],
+    "manualAction": null
+  },
+  {
+    "period": "20250115-20250121",
+    "track": "Place",
+    "recordId": "987007552593705171",
+    "messages": [
+      "addPlaceRecord: error for place 987007552593705171 after step 3: An error occurred while saving the entity changes. See the inner exception for details. --> Cannot insert duplicate key row in object 'dbo.Places' with unique index 'IX_Places_primary_heb_full'. The duplicate key value is (שטרסבורג (גרמניה)).\nThe statement has been terminated."
+    ],
+    "manualAction": null
+  },
+  {
+    "period": "20250122-20250128",
+    "track": "Place",
+    "recordId": "987011433526905171",
+    "messages": [
+      "An error occurred while saving the entity changes. See the inner exception for details. --> Cannot insert duplicate key row in object 'dbo.Variants' with unique index 'IX_Variants_primary_heb_full_variant'. The duplicate key value is (ריו גרנדה (קולורדו-מקסיקו וטקסס), Río Bravo del Norte)."
+    ],
+    "manualAction": null
+  },
+  {
+    "period": "20250129-20250204",
+    "track": "Place",
+    "recordId": "987007480110005171",
+    "messages": [
+      "An error occurred while saving the entity changes. See the inner exception for details. --> Cannot insert duplicate key row in object 'dbo.Places' with unique index 'IX_Places_primary_heb_full'. The duplicate key value is (פרדוביצה (צ'כיה : מחוז)).\nThe statement has been terminated."
+    ],
+    "manualAction": null
+  },
+  {
+    "period": "20250205-20250211",
+    "track": "Place",
+    "recordId": "987007562247105171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007562247105171. Error: RecordId does not exist in repository"
+    ],
+    "manualAction": null
+  },
+  {
+    "period": "20250205-20250211",
+    "track": "Place",
+    "recordId": "987007542727205171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007542727205171. Error: RecordId does not exist in repository"
+    ],
+    "manualAction": null
+  },
+  {
+    "period": "20250205-20250211",
+    "track": "Place",
+    "recordId": "987007560271905171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007560271905171. Error: RecordId does not exist in repository"
+    ],
+    "manualAction": null
+  },
+  {
+    "period": "20250212-20250218",
+    "track": "Place",
+    "recordId": "987008751189505171",
+    "messages": [
+      "An error occurred while saving the entity changes. See the inner exception for details. --> Cannot insert duplicate key row in object 'dbo.Variants' with unique index 'IX_Variants_primary_heb_full_variant'. The duplicate key value is (באנאט, Bánság)."
+    ],
+    "manualAction": null
+  },
+  {
+    "period": "20250219-20250225",
+    "track": "Place",
+    "recordId": "987007555460205171",
+    "messages": [
+      "addPlaceRecord: error for place 987007555460205171 after step 3: An error occurred while saving the entity changes. See the inner exception for details. --> Cannot insert duplicate key row in object 'dbo.Places' with unique index 'IX_Places_primary_heb_full'. The duplicate key value is (ברסלאו (גרמניה : מחוז)).\nThe statement has been terminated."
+    ],
+    "manualAction": null
+  },
+  {
+    "period": "20250219-20250225",
+    "track": "Place",
+    "recordId": "987007538277505171",
+    "messages": [
+      "addPlaceRecord: error for place 987007538277505171 after step 3: An error occurred while saving the entity changes. See the inner exception for details. --> Cannot insert duplicate key row in object 'dbo.Places' with unique index 'IX_Places_primary_heb_full'. The duplicate key value is (מנהיים (גרמניה)).\nThe statement has been terminated."
+    ],
+    "manualAction": null
+  },
+  {
+    "period": "20250219-20250225",
+    "track": "Place",
+    "recordId": "987007567653605171",
+    "messages": [
+      "addPlaceRecord: error for place 987007567653605171 after step 3: An error occurred while saving the entity changes. See the inner exception for details. --> Cannot insert duplicate key row in object 'dbo.Places' with unique index 'IX_Places_primary_heb_full'. The duplicate key value is (אוסטרוויק (גרמניה)).\nThe statement has been terminated."
+    ],
+    "manualAction": null
+  },
+  {
+    "period": "20250219-20250225",
+    "track": "Place",
+    "recordId": "987007559599105171",
+    "messages": [
+      "addPlaceRecord: error for place 987007559599105171 after step 3: An error occurred while saving the entity changes. See the inner exception for details. --> Cannot insert duplicate key row in object 'dbo.Places' with unique index 'IX_Places_primary_heb_full'. The duplicate key value is (מריון (פנסילבניה)).\nThe statement has been terminated."
+    ],
+    "manualAction": null
+  },
+  {
+    "period": "20250219-20250225",
+    "track": "Place",
+    "recordId": "987010489292905171",
+    "messages": [
+      "addPlaceRecord: error for place 987010489292905171 after step 3: An error occurred while saving the entity changes. See the inner exception for details. --> Cannot insert duplicate key row in object 'dbo.Places' with unique index 'IX_Places_primary_heb_full'. The duplicate key value is (פוליני (צרפת)).\nThe statement has been terminated."
+    ],
+    "manualAction": null
+  },
+  {
+    "period": "20250219-20250225",
+    "track": "Place",
+    "recordId": "987011252608705171",
+    "messages": [
+      "addPlaceRecord: error for place 987011252608705171 after step 3: An error occurred while saving the entity changes. See the inner exception for details. --> Cannot insert duplicate key row in object 'dbo.Places' with unique index 'IX_Places_primary_heb_full'. The duplicate key value is (אופנהיים (גרמניה)).\nThe statement has been terminated."
+    ],
+    "manualAction": null
+  },
+  {
+    "period": "20250219-20250225",
+    "track": "Place",
+    "recordId": "987007480368805171",
+    "messages": [
+      "An error occurred while saving the entity changes. See the inner exception for details. --> Cannot insert duplicate key row in object 'dbo.Variants' with unique index 'IX_Variants_primary_heb_full_variant'. The duplicate key value is (גאושיונג (טאיוואן), Kao-hsiung Shih)."
+    ],
+    "manualAction": null
+  },
+  {
+    "period": "20250219-20250225",
+    "track": "Place",
+    "recordId": "987007557512105171",
+    "messages": [
+      "An error occurred while saving the entity changes. See the inner exception for details. --> Cannot insert duplicate key row in object 'dbo.Places' with unique index 'IX_Places_primary_heb_full'. The duplicate key value is (אישיגאקי (יפן)).\nThe statement has been terminated."
+    ],
+    "manualAction": null
+  },
+  {
+    "period": "20250219-20250225",
+    "track": "Place",
+    "recordId": "987007562214205171",
+    "messages": [
+      "addPlaceRecord: error for place 987007562214205171 after step 3: An error occurred while saving the entity changes. See the inner exception for details. --> Cannot insert duplicate key row in object 'dbo.Places' with unique index 'IX_Places_primary_heb_full'. The duplicate key value is (קאבה (הונגריה)).\nThe statement has been terminated."
+    ],
+    "manualAction": null
+  },
+  {
+    "period": "20250319-20250325",
+    "track": "Place",
+    "recordId": "987012803472805171",
+    "messages": [
+      "addPlaceRecord: error for place 987012803472805171 after step 3: An error occurred while saving the entity changes. See the inner exception for details. --> Cannot insert duplicate key row in object 'dbo.Places' with unique index 'IX_Places_primary_heb_full'. The duplicate key value is (דרום סודאן).\nThe statement has been terminated."
+    ],
+    "manualAction": null
+  },
+  {
+    "period": "20250402-20250408",
+    "track": "Place",
+    "recordId": "987013170285005171",
+    "messages": [
+      "addPlaceRecord: error for place 987013170285005171 after step 3: An error occurred while saving the entity changes. See the inner exception for details. --> Cannot insert duplicate key row in object 'dbo.Places' with unique index 'IX_Places_primary_heb_full'. The duplicate key value is (רמת טיבט).\nThe statement has been terminated."
+    ],
+    "manualAction": null
+  },
+  {
+    "period": "20250409-20250415",
+    "track": "Place",
+    "recordId": "987007552530505171",
+    "messages": [
+      "addPlaceRecord: error for place 987007552530505171 after step 3: An error occurred while saving the entity changes. See the inner exception for details. --> Cannot insert duplicate key row in object 'dbo.Places' with unique index 'IX_Places_primary_heb_full'. The duplicate key value is (הרן (בלגיה)).\nThe statement has been terminated."
+    ],
+    "manualAction": null
+  },
+  {
+    "period": "20250409-20250415",
+    "track": "Place",
+    "recordId": "987007535400105171",
+    "messages": [
+      "addPlaceRecord: error for place 987007535400105171 after step 3: An error occurred while saving the entity changes. See the inner exception for details. --> Cannot insert duplicate key row in object 'dbo.Places' with unique index 'IX_Places_primary_heb_full'. The duplicate key value is (ביסינגן (גרמניה)).\nThe statement has been terminated."
+    ],
+    "manualAction": null
+  },
+  {
+    "period": "20250521-20250527",
+    "track": "Place",
+    "recordId": "987007567480105171",
+    "messages": [
+      "addPlaceRecord: error for place 987007567480105171 after step 3: An error occurred while saving the entity changes. See the inner exception for details. --> Cannot insert duplicate key row in object 'dbo.Places' with unique index 'IX_Places_primary_heb_full'. The duplicate key value is (ברקלי (אנגליה)).\nThe statement has been terminated."
+    ],
+    "manualAction": null
+  },
+  {
+    "period": "20250625-20250630",
+    "track": "Place",
+    "recordId": "987007602290105171",
+    "messages": [
+      "An error occurred while saving the entity changes. See the inner exception for details. --> Cannot insert duplicate key row in object 'dbo.Variants' with unique index 'IX_Variants_primary_heb_full_variant'. The duplicate key value is (מפרץ אילת, Khalīj al-ʻAqabah)."
+    ],
+    "manualAction": null
+  },
+  {
+    "period": "20250625-20250630",
+    "track": "Place",
+    "recordId": "987012403718305171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987012403718305171. Error: RecordId does not exist in repository"
+    ],
+    "manualAction": null
+  }
+]

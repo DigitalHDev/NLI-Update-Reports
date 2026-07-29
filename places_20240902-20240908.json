@@ -1,0 +1,198 @@
+{
+  "type": "Place",
+  "runTime": "2026-07-19T17:19:15.532458Z",
+  "period": "20240902-20240908",
+  "numProcessedItems": 2961,
+  "numModifiedItems": 1,
+  "numNewItems": 19,
+  "numReviewItems": 0,
+  "numFailedItems": 0,
+  "modifiedSummary": [
+    {
+      "item": {
+        "recordId": "987007285545805171"
+      },
+      "result": "Success",
+      "messages": [
+        "updatePlaceRecord: variants +4: 'Emeq Dotan (Israel)[la] | Emek Dotan (Israel)[la] | עמק דתן (יהודה ושומרון)[he] | עמק דותן (ישראל)[he]"
+      ]
+    }
+  ],
+  "newSummary": [
+    {
+      "item": {
+        "recordId": "987007533080305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007533080305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007536889005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007536889005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007540284905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007540284905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007556733205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007556733205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007570430505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007570430505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007285688305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007285688305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007285689305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007285689305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007292432205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007292432205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007529807405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007529807405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007530042405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007530042405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007532512905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007532512905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007539199205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007539199205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007542920905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007542920905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007544256205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007544256205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007544360905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007544360905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007552027205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007552027205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007561087505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007561087505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007585909605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007585909605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007586160005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007586160005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    }
+  ],
+  "requireReviewSummary": [],
+  "failedSummary": [],
+  "requireReviewItems": [],
+  "failedItems": []
+}

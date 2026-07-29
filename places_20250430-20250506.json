@@ -1,0 +1,217 @@
+{
+  "type": "Place",
+  "runTime": "2026-07-20T00:12:54.5024952Z",
+  "period": "20250430-20250506",
+  "numProcessedItems": 57812,
+  "numModifiedItems": 9,
+  "numNewItems": 13,
+  "numReviewItems": 0,
+  "numFailedItems": 0,
+  "modifiedSummary": [
+    {
+      "item": {
+        "recordId": "987007546880405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007546880405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007556382105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007556382105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007563017705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "updatePlaceRecord: no changes for place 987007563017705171"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007294021705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007294021705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007532546905171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'تلال يهودا'",
+        "updatePlaceRecord: variants +3: Judean Mountains (Israel)[la] | Judean Mountains[la] | Yehuda, Har[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007552715305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007552715305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007536485805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007536485805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007553217705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007553217705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007584241405171"
+      },
+      "result": "Success",
+      "messages": [
+        "updatePlaceRecord: variants +2: Ṭūbās[la] | טובה[he]"
+      ]
+    }
+  ],
+  "newSummary": [
+    {
+      "item": {
+        "recordId": "987007489393205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007489393205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007539244405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007539244405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007590342705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007590342705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007564477105171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007564477105171 (פיסקו (פרו))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012887445605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012887445605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013332548005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013332548005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013392233205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013392233205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013347785905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013347785905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013405240605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013405240605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013405243005171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987013405243005171 (ווילקוט (אנגליה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013405247805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013405247805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013405749305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013405749305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013426257405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013426257405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    }
+  ],
+  "requireReviewSummary": [],
+  "failedSummary": [],
+  "requireReviewItems": [],
+  "failedItems": []
+}

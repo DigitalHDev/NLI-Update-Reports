@@ -1,0 +1,143 @@
+{
+  "type": "Place",
+  "runTime": "2026-07-19T17:39:53.3650805Z",
+  "period": "20241104-20241110",
+  "numProcessedItems": 1743,
+  "numModifiedItems": 0,
+  "numNewItems": 14,
+  "numReviewItems": 0,
+  "numFailedItems": 0,
+  "modifiedSummary": [],
+  "newSummary": [
+    {
+      "item": {
+        "recordId": "987007550582105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007550582105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007552640705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007552640705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007561393605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007561393605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007567181305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007567181305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007572492705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007572492705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007291750805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007291750805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007467866905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007467866905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007539232105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007539232105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007552480105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007552480105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007537270405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007537270405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007570583305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007570583305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007537907105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007537907105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013035873505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013035873505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013035874105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013035874105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    }
+  ],
+  "requireReviewSummary": [],
+  "failedSummary": [],
+  "requireReviewItems": [],
+  "failedItems": []
+}

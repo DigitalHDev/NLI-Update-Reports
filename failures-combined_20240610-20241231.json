@@ -1,0 +1,11 @@
+[
+  {
+    "period": "20241014-20241020",
+    "track": "Place",
+    "recordId": "987013010638405171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987013010638405171. Error: RecordId does not exist in repository"
+    ],
+    "manualAction": null
+  }
+]

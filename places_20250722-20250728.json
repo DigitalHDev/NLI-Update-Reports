@@ -1,0 +1,82 @@
+{
+  "type": "Place",
+  "runTime": "2026-07-20T08:35:58.6137257Z",
+  "period": "20250722-20250728",
+  "numProcessedItems": 30467,
+  "numModifiedItems": 2,
+  "numNewItems": 5,
+  "numReviewItems": 0,
+  "numFailedItems": 0,
+  "modifiedSummary": [
+    {
+      "item": {
+        "recordId": "987009293899905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987009293899905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007565097005171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'فيتيوتا (ساموا الأمريكية)'",
+        "updatePlaceRecord: variants +1: Fitiuta, American Samoa[la]"
+      ]
+    }
+  ],
+  "newSummary": [
+    {
+      "item": {
+        "recordId": "987013400235205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013400235205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013544790705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013544790705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013545088305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013545088305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013552077305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013552077305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013552077205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013552077205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    }
+  ],
+  "requireReviewSummary": [],
+  "failedSummary": [],
+  "requireReviewItems": [],
+  "failedItems": []
+}

@@ -1,0 +1,307 @@
+{
+  "type": "Place",
+  "runTime": "2026-07-20T20:08:30.717171Z",
+  "period": "20260521-20260527",
+  "numProcessedItems": 4509,
+  "numModifiedItems": 10,
+  "numNewItems": 16,
+  "numReviewItems": 2,
+  "numFailedItems": 0,
+  "modifiedSummary": [
+    {
+      "item": {
+        "recordId": "987007293827905171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 4047.4 km. Manual review required. Kima Id:1584 Name:אפריקה הצפונית",
+        "Updated PrimaryArabFull from 'أفريقيا، شمال' to 'أفريقيا الشمالية'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007473835405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007473835405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007535546505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryRomFull from 'Tîrgoviște (Romania)' to 'Târgoviște (Romania)'",
+        "Updated PrimaryArabFull from 'null' to 'تارغوفيستي (رومانيا)'",
+        "updatePlaceRecord: variants +2: Tîrgoviște (Romania)[la] | Tîrgoviște, Romania[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007538943805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007538943805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007496686005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007496686005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007544446205171"
+      },
+      "result": "Success",
+      "messages": [
+        "updatePlaceRecord: variants +7: Dayr Mār Sābā Site (West Bank)[la] | Der Mar Saba Site (West Bank)[la] | Dir Mar Saba Site (West Bank)[la] | Mar Saba Site (West Bank)[la] | מר סבא' מנזר (יהודה ושומרון)[he] | מנזר מרסבא (יהודה ושומרון)[he] | מנזר מאר סבא (יהודה ושומרון)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007522254405171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'חרבת בית לויה (ישראל)' to 'חירבת בית לויה (ישראל)'",
+        "updatePlaceRecord: variants +5: Horvat Beit Lehi (Israel)[la] | Beit Loya (Horvat) (Israel)[la] | Horvat Beth Loya (Israel)[la] | Beit Lei (Horvat)[la] | חורבת בית לויה (ישראל)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007549259005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007549259005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007567491705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007567491705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007560287705171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'شلالات فيكتوريا (زيمبابوي)'",
+        "Updated Wd from 'null' to 'Q1393804'",
+        "Updated ViafId from '133788094' to '125503377'. Manual review required. Kima Id:16663",
+        "updatePlaceRecord: variants +1: Victoria Falls (Southern Rhodesia)[la]"
+      ]
+    }
+  ],
+  "newSummary": [
+    {
+      "item": {
+        "recordId": "987007538195605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007538195605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007533438105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007533438105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007542695005171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007542695005171 (איסקה סולו יוניו (איטליה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007562054405171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007562054405171 (אילינגן (סארלנד, גרמניה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007567260105171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007567260105171 (אילסהופן (גרמניה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987008983373805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987008983373805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013304450405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013304450405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014616961705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014616961705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007465612905171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007465612905171 (מיילנו (קושאלין, פולין))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007552619005171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007552619005171 (פולס צ'רץ' (וירג'יניה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007562056305171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007562056305171 (אמשטטן (אוסטריה : מחוז))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007564925505171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007564925505171 (ארצ'בולד (אוהיו))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014611964805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014611964805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014613881605171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987014613881605171 (מנהרות הכותל (ירושלים, ישראל))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014616961905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014616961905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007551759705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007551759705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    }
+  ],
+  "requireReviewSummary": [
+    {
+      "item": {
+        "recordId": "987007293827905171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 4047.4 km. Manual review required. Kima Id:1584 Name:אפריקה הצפונית",
+        "Updated PrimaryArabFull from 'أفريقيا، شمال' to 'أفريقيا الشمالية'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007560287705171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'شلالات فيكتوريا (زيمبابوي)'",
+        "Updated Wd from 'null' to 'Q1393804'",
+        "Updated ViafId from '133788094' to '125503377'. Manual review required. Kima Id:16663",
+        "updatePlaceRecord: variants +1: Victoria Falls (Southern Rhodesia)[la]"
+      ]
+    }
+  ],
+  "failedSummary": [],
+  "requireReviewItems": [
+    {
+      "item": {
+        "recordId": "987007293827905171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 4047.4 km. Manual review required. Kima Id:1584 Name:אפריקה הצפונית",
+        "Updated PrimaryArabFull from 'أفريقيا، شمال' to 'أفريقيا الشمالية'"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01304cz  a2200289n  4500</leader><controlfield tag=\"005\">20260523210801.0</controlfield><controlfield tag=\"008\">860211|| anannbabn          |a ana      </controlfield><controlfield tag=\"001\">987007293827905171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">sh 85001631</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q27381</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">-025.3839110</subfield><subfield code=\"e\">063.8085939</subfield><subfield code=\"f\">037.5359000</subfield><subfield code=\"g\">-047.1313489</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000640468</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Africa, North</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">אפריקה הצפונית</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">أفريقيا الشمالية</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Barbary States</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Maghreb</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Maghrib</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">North Africa</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">צפון אפריקה</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"680\" ind1=\" \" ind2=\" \"><subfield code=\"i\">Here are entered works dealing collectively with Morocco, Algeria, Tunisia, and Libya.</subfield></datafield><datafield tag=\"781\" ind1=\" \" ind2=\"0\"><subfield code=\"w\">n</subfield><subfield code=\"z\">Africa, North</subfield></datafield><datafield tag=\"952\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Africa, North</subfield></datafield><datafield tag=\"953\" ind1=\" \" ind2=\" \"><subfield code=\"a\">אפריקה הצפונית</subfield></datafield><datafield tag=\"955\" ind1=\" \" ind2=\" \"><subfield code=\"a\">North Africa</subfield></datafield><datafield tag=\"955\" ind1=\" \" ind2=\" \"><subfield code=\"a\">צפון אפריקה</subfield></datafield></record>\n"
+    },
+    {
+      "item": {
+        "recordId": "987007560287705171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'شلالات فيكتوريا (زيمبابوي)'",
+        "Updated Wd from 'null' to 'Q1393804'",
+        "Updated ViafId from '133788094' to '125503377'. Manual review required. Kima Id:16663",
+        "updatePlaceRecord: variants +1: Victoria Falls (Southern Rhodesia)[la]"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01374cz  a2200253n  4500</leader><controlfield tag=\"005\">20260523214950.0</controlfield><controlfield tag=\"008\">870810n||acannaab|          |a ana    ||</controlfield><controlfield tag=\"001\">987007560287705171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 87875171</subfield><subfield code=\"z\">n 88168572</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q1393804</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">125503377</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">25.83333333</subfield><subfield code=\"e\">25.83333333</subfield><subfield code=\"f\">-17.93333333</subfield><subfield code=\"g\">-17.93333333</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">E0255000</subfield><subfield code=\"e\">E0255000</subfield><subfield code=\"f\">S0175600</subfield><subfield code=\"g\">S0175600</subfield><subfield code=\"2\">geonames</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-001017208</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Victoria Falls (Zimbabwe)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">מפלי ויקטוריה (זימבבואה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">شلالات فيكتوريا (زيمبابوي)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Zimbabwe</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Victoria Falls (Southern Rhodesia)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Southern African Regional Workshop on Informatics for Development (1986 : Victoria Falls, Zimbabwe). Proceedings of the Southern ... 1986 or 1987:</subfield><subfield code=\"b\">t.p. (Victoria Falls)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">BGN gaz., Southern Rhodesia, 1973</subfield><subfield code=\"b\">(Victoria Falls, ppl, 17p0s65ʹS, 25p0s50ʹE)</subfield></datafield></record>\n"
+    }
+  ],
+  "failedItems": []
+}

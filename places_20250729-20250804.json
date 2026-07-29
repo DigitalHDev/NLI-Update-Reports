@@ -1,0 +1,381 @@
+{
+  "type": "Place",
+  "runTime": "2026-07-20T08:39:27.6073146Z",
+  "period": "20250729-20250804",
+  "numProcessedItems": 14115,
+  "numModifiedItems": 1,
+  "numNewItems": 36,
+  "numReviewItems": 1,
+  "numFailedItems": 0,
+  "modifiedSummary": [
+    {
+      "item": {
+        "recordId": "987007537814705171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 24.1 km. Manual review required. Kima Id:18566 Name:שטומלן (פוהיים, גרמניה)",
+        "Updated PrimaryHebFull from 'שטומלן (פוהיים, גרמניה)' to 'שטומלן (פולהיים, גרמניה)'",
+        "Updated PrimaryArabFull from 'null' to 'شتوميلن (بولهايم، ألمانيا)'",
+        "updatePlaceRecord: variants +1: שטאממעלן (פוהיים, גרמניה)[he]"
+      ]
+    }
+  ],
+  "newSummary": [
+    {
+      "item": {
+        "recordId": "987007469835105171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007469835105171 (ויריוויל (צרפת))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007480261505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007480261505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007546698105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007546698105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007552804905171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007552804905171 (וידור (טקסס))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007567007605171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007567007605171 (מרבוש (גרמניה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007537435005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007537435005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007562607305171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007562607305171 (ריכטרסוויל (שווייץ))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007560285105171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007560285105171 (וילאריקה (צ'ילה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013553572105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013553572105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013553872005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013553872005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013553872305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013553872305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013553876605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013553876605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013552769805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013552769805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013553869105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013553869105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013553870005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013553870005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013553870305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013553870305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013553872605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013553872605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007293890105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007293890105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007465603605171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007465603605171 (וייזנפלדן (גרמניה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007532995605171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007532995605171 (אפלנץ קורורט (אוסטריה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007530254905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007530254905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007535393205171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007535393205171 (הבסהיים (צרפת : קנטון))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007565146105171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007565146105171 (ראדשטט (אוסטריה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007567355205171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007567355205171 (קסטנאה (פתיוטיס, יוון))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007564331505171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007564331505171 (מרקט פייסטינג (אוסטריה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007561148205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007561148205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013553869705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013553869705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013553871605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013553871605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013553872805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013553872805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013553873005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013553873005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013553874205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013553874205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013553869305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013553869305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013553871305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013553871305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013553872705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013553872705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013553549205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013553549205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013001458905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013001458905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    }
+  ],
+  "requireReviewSummary": [
+    {
+      "item": {
+        "recordId": "987007537814705171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 24.1 km. Manual review required. Kima Id:18566 Name:שטומלן (פוהיים, גרמניה)",
+        "Updated PrimaryHebFull from 'שטומלן (פוהיים, גרמניה)' to 'שטומלן (פולהיים, גרמניה)'",
+        "Updated PrimaryArabFull from 'null' to 'شتوميلن (بولهايم، ألمانيا)'",
+        "updatePlaceRecord: variants +1: שטאממעלן (פוהיים, גרמניה)[he]"
+      ]
+    }
+  ],
+  "failedSummary": [],
+  "requireReviewItems": [
+    {
+      "item": {
+        "recordId": "987007537814705171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 24.1 km. Manual review required. Kima Id:18566 Name:שטומלן (פוהיים, גרמניה)",
+        "Updated PrimaryHebFull from 'שטומלן (פוהיים, גרמניה)' to 'שטומלן (פולהיים, גרמניה)'",
+        "Updated PrimaryArabFull from 'null' to 'شتوميلن (بولهايم، ألمانيا)'",
+        "updatePlaceRecord: variants +1: שטאממעלן (פוהיים, גרמניה)[he]"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01604nz  a2200289n  4500</leader><controlfield tag=\"005\">20250801072808.0</controlfield><controlfield tag=\"008\">960207n||acannaab|          |a ana    ||</controlfield><controlfield tag=\"001\">987007537814705171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n  96011051</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q896387</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">148400892</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">006.7437393</subfield><subfield code=\"e\">006.7721798</subfield><subfield code=\"f\">051.363185</subfield><subfield code=\"g\">051.110370</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-001037840</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Stommeln (Pulheim, Germany)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">שטומלן (פולהיים, גרמניה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">شتوميلن (بولهايم، ألمانيا)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Germany</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"410\" ind1=\"1\" ind2=\" \"><subfield code=\"a\">Pulheim (Germany).</subfield><subfield code=\"b\">Stommeln</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">שטאממעלן (פוהיים, גרמניה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">SUBJECT USAGE: This heading is not valid for use as a geographic subdivision.</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Juden in Stommeln, 1983- :</subfield><subfield code=\"b\">t.p. (Stommeln)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">BGN, 02-07-96</subfield><subfield code=\"b\">(Stommeln, ppl; coordinates: 51p0s01ʹN, 6p0s46ʹE)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Deut. Bundes-Adressb., 1994/95</subfield><subfield code=\"b\">(under Pulheim (NRW), Stadtteile: Stommeln)</subfield></datafield><datafield tag=\"955\" ind1=\" \" ind2=\" \"><subfield code=\"a\">שטאממעלן Stommeln</subfield></datafield></record>\n"
+    }
+  ],
+  "failedItems": []
+}

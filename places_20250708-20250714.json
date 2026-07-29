@@ -1,0 +1,373 @@
+{
+  "type": "Place",
+  "runTime": "2026-07-20T08:25:36.5574306Z",
+  "period": "20250708-20250714",
+  "numProcessedItems": 13705,
+  "numModifiedItems": 4,
+  "numNewItems": 32,
+  "numReviewItems": 1,
+  "numFailedItems": 0,
+  "modifiedSummary": [
+    {
+      "item": {
+        "recordId": "987010684511505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'بابراد (ليتوانيا)'",
+        "Updated ViafId from 'null' to '141134506'",
+        "updatePlaceRecord: variants +4: Maloye Podbrodze (Lithuania)[la] | Podbrodz (Lithuania)[la] | Podbrodzie (Lithuania)[la] | פודברודז' (ליטא)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007567019205171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'مويساك (تارن-إت-غارون، فرنسا)'",
+        "updatePlaceRecord: variants +1: Moissac, France (Tarn et Garonne)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007554833605171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 46.6 km. Manual review required. Kima Id:6982 Name:מונטובן (טארן וגארון, צרפת)",
+        "Updated PrimaryArabFull from 'null' to 'مونتوبان (تارن-إت-غارون، فرنسا)'",
+        "updatePlaceRecord: variants +2: Montalban (Tarn-et-Garonne, France)[la] | מונבן (טארן וגארון, צרפת)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007533098405171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'كلاينلانغهايم (ألمانيا)'",
+        "updatePlaceRecord: variants +2: גליינהלאנקהיים (גרמניה)[he] | גליינעלאנקהיים (גרמניה)[he]"
+      ]
+    }
+  ],
+  "newSummary": [
+    {
+      "item": {
+        "recordId": "987007473622805171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007473622805171 (באד אבאך (גרמניה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013437207105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013437207105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007494356105171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007494356105171 (צ'אפל-אן-לה-פרית' (אנגליה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007540564405171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007540564405171 (סיניה (איטליה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007547816105171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007547816105171 (גומפולדסקירכן (אוסטריה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007562146905171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007562146905171 (ואדודארה (הודו : מחוז))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007561287705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007561287705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007561378405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007561378405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007561583205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007561583205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013502358205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013502358205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013503864005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013503864005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013505319805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013505319805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013505320305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013505320305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013505325605171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987013505325605171 (לונגן (גרמניה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013507434405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013507434405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013508121705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013508121705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013508128105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013508128105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013508129005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013508129005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013505320605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013505320605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013508125705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013508125705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007540421905171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007540421905171 (בריד-לה-באן (צרפת))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007564809905171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007564809905171 (אדלינגטון (לנקשייר, אנגליה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007564763405171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007564763405171 (סלימניק (רומניה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013501953905171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987013501953905171 (אוקרזיה (מחוז לובלין, פולין))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013508129705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013508129705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013476361505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013476361505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013501962405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013501962405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013505318805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013505318805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013505318905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013505318905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013505319905171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987013505319905171 (עין זיק (ישראל))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013507434605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013507434605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013525877005171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987013525877005171 (עזר (ישראל))"
+      ]
+    }
+  ],
+  "requireReviewSummary": [
+    {
+      "item": {
+        "recordId": "987007554833605171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 46.6 km. Manual review required. Kima Id:6982 Name:מונטובן (טארן וגארון, צרפת)",
+        "Updated PrimaryArabFull from 'null' to 'مونتوبان (تارن-إت-غارون، فرنسا)'",
+        "updatePlaceRecord: variants +2: Montalban (Tarn-et-Garonne, France)[la] | מונבן (טארן וגארון, צרפת)[he]"
+      ]
+    }
+  ],
+  "failedSummary": [],
+  "requireReviewItems": [
+    {
+      "item": {
+        "recordId": "987007554833605171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 46.6 km. Manual review required. Kima Id:6982 Name:מונטובן (טארן וגארון, צרפת)",
+        "Updated PrimaryArabFull from 'null' to 'مونتوبان (تارن-إت-غارون، فرنسا)'",
+        "updatePlaceRecord: variants +2: Montalban (Tarn-et-Garonne, France)[la] | מונבן (טארן וגארון, צרפת)[he]"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01612cz  a2200277n  4500</leader><controlfield tag=\"005\">20250711053553.0</controlfield><controlfield tag=\"008\">800904n||acannbab|          |n ana    ||</controlfield><controlfield tag=\"001\">987007554833605171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 50005126</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q172593</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">126552114</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">001.2864690</subfield><subfield code=\"e\">001.4426410</subfield><subfield code=\"f\">044.921250</subfield><subfield code=\"g\">043.9512650</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000971516</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">DLC</subfield><subfield code=\"d\">NIC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Montauban (Tarn-et-Garonne, France)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">מונטובן (טארן וגארון, צרפת)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">مونتوبان (تارن-إت-غارون، فرنسا)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">France</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Montalban (Tarn-et-Garonne, France)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">מונבן (טארן וגארון, צרפת)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Old catalog heading: Montauban</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record enhanced with cross references from NNL13-000003445</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">BGN gaz. France, 1964</subfield><subfield code=\"b\">(Montauban; ppl, 44p0s01ʹN 1p0s21ʹE in Tarn-et-Garonne Dept.; other ppl with same name in Haute-Marne Dept., Many ppl's with name as variant)</subfield></datafield><datafield tag=\"955\" ind1=\" \" ind2=\" \"><subfield code=\"a\">מונבן MONTAUBAN</subfield></datafield></record>\n"
+    }
+  ],
+  "failedItems": []
+}

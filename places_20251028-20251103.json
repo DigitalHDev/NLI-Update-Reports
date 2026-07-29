@@ -1,0 +1,208 @@
+{
+  "type": "Place",
+  "runTime": "2026-07-20T09:25:44.0275227Z",
+  "period": "20251028-20251103",
+  "numProcessedItems": 10322,
+  "numModifiedItems": 2,
+  "numNewItems": 16,
+  "numReviewItems": 1,
+  "numFailedItems": 0,
+  "modifiedSummary": [
+    {
+      "item": {
+        "recordId": "987007562270805171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'بلوييشتي (رومانيا)'",
+        "Updated ViafId from '125521777' to '304911013'. Manual review required. Kima Id:664",
+        "updatePlaceRecord: variants +4: Ploești, Romania (City)[la] | Ploești (Romania)[la] | פלויישט (רומניה)[he] | פלואצי (רומניה)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987009165290405171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'خريف (أوكرانيا)'",
+        "updatePlaceRecord: variants +5: Khirov (Ukraine)[la] | Chyrów (Ukraine)[la] | Khyrov (Ukraine)[la] | Khyruv (Ukraine)[la] | Kolo Chyrowa (Ukraine)[la]"
+      ]
+    }
+  ],
+  "newSummary": [
+    {
+      "item": {
+        "recordId": "987013001383305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013001383305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013772281905171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987013772281905171 (זית רענן (נריה, יהודה ושומרון))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013772099305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013772099305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013778229805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013778229805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013771779405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013771779405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007551761805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007551761805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007551636205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007551636205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013771807305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013771807305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007409889005171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007409889005171 (בולוגויה (מחוז טברסקוי, רוסיה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007550313005171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007550313005171 (זינדר (ניז'ר : מחוז))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007555348205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007555348205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007560187805171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007560187805171 (רגנשטאוף (גרמניה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013772113605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013772113605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013771807505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013771807505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013771807805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013771807805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013772109605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013772109605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    }
+  ],
+  "requireReviewSummary": [
+    {
+      "item": {
+        "recordId": "987007562270805171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'بلوييشتي (رومانيا)'",
+        "Updated ViafId from '125521777' to '304911013'. Manual review required. Kima Id:664",
+        "updatePlaceRecord: variants +4: Ploești, Romania (City)[la] | Ploești (Romania)[la] | פלויישט (רומניה)[he] | פלואצי (רומניה)[he]"
+      ]
+    }
+  ],
+  "failedSummary": [],
+  "requireReviewItems": [
+    {
+      "item": {
+        "recordId": "987007562270805171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'بلوييشتي (رومانيا)'",
+        "Updated ViafId from '125521777' to '304911013'. Manual review required. Kima Id:664",
+        "updatePlaceRecord: variants +4: Ploești, Romania (City)[la] | Ploești (Romania)[la] | פלויישט (רומניה)[he] | פלואצי (רומניה)[he]"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01328nz  a2200277n  4500</leader><controlfield tag=\"005\">20251028163714.0</controlfield><controlfield tag=\"008\">830316n||acannaab|          |a ana    ||</controlfield><controlfield tag=\"001\">987007562270805171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 83002053</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q179585</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">304911013</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">26.0225</subfield><subfield code=\"e\">26.0225</subfield><subfield code=\"f\">44.94111111</subfield><subfield code=\"g\">44.94111111</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000997996</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Ploiești (Romania)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">פלוישט (רומניה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">بلوييشتي (رومانيا)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Romania</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"w\">nnaa</subfield><subfield code=\"a\">Ploești, Romania (City)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Ploești (Romania)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">פלויישט (רומניה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">פלואצי (רומניה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Air siege. [MP] 1947.</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Tel. call to BGN 12/2/82</subfield><subfield code=\"b\">(Ploiești, ppl, 44p0s51ʹN 26p0s1ʹE; variant: Ploești)</subfield></datafield></record>\n"
+    }
+  ],
+  "failedItems": []
+}

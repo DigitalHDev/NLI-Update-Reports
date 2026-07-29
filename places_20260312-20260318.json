@@ -1,0 +1,2205 @@
+{
+  "type": "Place",
+  "runTime": "2026-07-20T16:04:58.7847489Z",
+  "period": "20260312-20260318",
+  "numProcessedItems": 4867,
+  "numModifiedItems": 76,
+  "numNewItems": 139,
+  "numReviewItems": 5,
+  "numFailedItems": 2,
+  "modifiedSummary": [
+    {
+      "item": {
+        "recordId": "987007465879205171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'حي البخاريين (أورشليم-القدس، إسرائيل)' to 'حي البخاريين (القدس، إسرائيل)'",
+        "updatePlaceRecord: variants +8: Shekhunat HabukCharim (Jerusalem, Israel)[la] | Bukharim (Jerusalem, Israel)[la] | Shekhunat Rehovot (Jerusalem, Israel)[la] | Shekhunat ha-Bukharim (Jerusalem, Israel)[la] | Bate ha-Bukharim (Jerusalem, Israel)[la] | שכונת הבוכארים (ירושלים, ישראל)[he] | שכונת רחובות (ירושלים, ישראל)[he] | בתי הבוכרים (ירושלים, ישראל)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007493931805171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryRomFull from 'Nahalat Reuven (Nes Ziyyona, Israel)' to 'Nahalat Reuven (Nes Tsiyona, Israel)'",
+        "Updated PrimaryArabFull from 'نحلات رؤوفين (نس تسيونا، إسرائيل)' to 'ناهالات روفين (نس تسيونا، إسرائيل)'",
+        "updatePlaceRecord: variants +1: Nahalat Reuven (Nes Ziyyona, Israel)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007295503505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "updatePlaceRecord: no changes for place 987007295503505171"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007346305305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007346305305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007471120105171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'يد أبشلوم (أورشليم-القدس، إسرائيل)' to 'يد أبشلوم (القدس، إسرائيل)'",
+        "updatePlaceRecord: variants +4: Tomb of Absalom (Jerusalem, Israel)[la] | Yad Absalom (Jerusalem, Israel)[la] | Absalom's Shrine (Jerusalem, Israel)[la] | Absalom's Pillar (Jerusalem, Israel)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007418318705171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryRomFull from 'Petrovsk (Saratov Oblast, Russia)' to 'Petrovsk (Saratov oblast', Russia)'",
+        "Updated PrimaryArabFull from 'null' to 'بتروفسك (ساراتوف أوبلاست، روسيا)'",
+        "Updated Wd from 'null' to 'Q178857'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007473835605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007473835605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007537966505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'נוה צדק (תל אביב, ישאטל)' to 'נוה צדק (תל אביב-יפו, ישראל)'",
+        "Updated Wd from 'null' to 'Q6966107'",
+        "updatePlaceRecord: variants +20: Neve Shalom (Tel Aviv-Yafo, Israel)[la] | Neveh Shalom Neighborhood (Tel Aviv-Yafo, Israel)[la] | Neveh Tsedek Neighborhood (Tel Aviv-Yafo, Israel)[la] | Neṿeh-Tsedeḳ (Tel Aviv, Israel)[la] | Neve Zedek (Tel Aviv, Israel)[la] | Newe Ẕedek (Tel Aviv, Israel)[la] | Newe Tsedek (Tel Aviv, Israel)[la] | Neve Shalom (Tel Aviv, Israel)[la] | Nave Shalom neibourhood (Tel Aviv-Yafo, Israel)[la] | Newe Zedeq (Tel-Aviv)[la] | Newe Zedeq (Tel-Aviv, Israel)[la] | שכונת נוה צדק (תל אביב-יפו, ישראל)[he] | נווה צדק (תל אביב-יפו, ישראל)[he] | נווה שלום (תל אביב-יפו, ישראל)[he] | נוה שלום (תל אביב-יפו, ישראל)[he] | שכונת נוה שלום (תל אביב-יפו, ישראל)[he] | נוה צדק (תל אביב, ישראל)[he] | נווה צדק (תל אביב, ישראל)[he] | נווה שלום (תל אביב, ישראל)[he] | نفيه شلوم (تل أبيب-يافا، إسرائيل)[ar]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007555782205171"
+      },
+      "result": "Failure",
+      "messages": [
+        "An error occurred while saving the entity changes. See the inner exception for details. --> Cannot insert duplicate key row in object 'dbo.Variants' with unique index 'IX_Variants_primary_heb_full_variant'. The duplicate key value is (אמריקה הלטינית, Asociación Latinoamericana de Libre Comercio countries).\nThe statement has been terminated."
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007540664605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007540664605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007554822505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'هوليوود (لوس أنجلوس، كاليفورنيا)'",
+        "updatePlaceRecord: variants +2: Hollywood, Calif.[la] | Hūlīwūd (Los Angeles, Calif.)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007570980105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007570980105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007547811705171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 93.3 km. Manual review required. Kima Id:7866 Name:עיראק",
+        "updatePlaceRecord: variants +1: Rafidayn, Bilad[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007553466705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007553466705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007562941005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007562941005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007572928605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007572928605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007568665905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007568665905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007601993105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007601993105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007314508705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007314508705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007542161805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007542161805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007537242605171"
+      },
+      "result": "Success",
+      "messages": [
+        "updatePlaceRecord: variants +7: Mount Tabor (Israel)[la] | Har Taver (Israel)[la] | Har Tavor (Israel)[la] | Taver, Har (Israel)[la] | Tavor, Har (Israel)[la] | Tavor, Mount (Israel)[la] | Tavor, Mount[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007568669605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007568669605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007573053605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007573053605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007544311805171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'باتشياس (مدينة قديمة)'",
+        "updatePlaceRecord: variants +5: Bacchis (Extinct city)[la] | Bakchias (Extinct city)[la] | Tall Umm al-Athl (Egypt)[la] | Umm al-Athl, Tall (Egypt)[la] | Umm el-Qatl (Egypt)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007573040805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007573040805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007489586705171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'تاراز (كازاخستان)'",
+        "Updated ViafId from 'null' to '128042434'",
+        "updatePlaceRecord: variants +3: Taraz City (Kazakhstan)[la] | Taras (Kazakhstan)[la] | Talas (Kazakhstan)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007491962505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007491962505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007515276505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryRomFull from 'Šafov (Czech Republic)' to 'Šafov (Czech Republic)'",
+        "Updated PrimaryArabFull from 'null' to 'سافوف (جمهورية التشيك)'",
+        "updatePlaceRecord: variants +2: Schaffa (Czech Republic)[la] | שאפי (צ'כיה)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007531808305171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'كيرتش (أوكرانيا)'",
+        "updatePlaceRecord: variants +6: Kerchʹ, Russia[la] | Kertsch (Ukraine)[la] | Kertchʹ (Ukraine)[la] | Kerc (Ukraine)[la] | קערטש (אוקראינה)[he] | קערץ (אוקראינה)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007535545205171"
+      },
+      "result": "Success",
+      "messages": [
+        "Coordinates added: Lat=50, Lon=26.633333333333333",
+        "Updated PrimaryArabFull from 'null' to 'بيلوهورودكا (خميلنيت ︠س︡س︡أوبلاستكا، أوكرانيا)'",
+        "updatePlaceRecord: variants +1: Belogorodka (Khmelʹnyt︠s︡ʹka oblastʹ, Ukraine)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007537798005171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryRomFull from 'Bălți (Moldova)' to 'Bălți (Moldova)'",
+        "Updated PrimaryArabFull from 'null' to 'بالتي (مولدوفا)'",
+        "updatePlaceRecord: variants +5: Baltsi (Moldova)[la] | בעלץ (מולדובה)[he] | בלצי (מולדובה)[he] | בלצה (מולדובה)[he] | בלז (מולדובה)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007553952905171"
+      },
+      "result": "Failure",
+      "messages": [
+        "An error occurred while saving the entity changes. See the inner exception for details. --> Cannot insert duplicate key row in object 'dbo.Places' with unique index 'IX_Places_primary_heb_full'. The duplicate key value is (ביתר (עיר קדומה) (יהודה ושומרון)).\nThe statement has been terminated."
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007559702005171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'بندر (مولدوفا)'",
+        "updatePlaceRecord: variants +12: Benderi (Moldova)[la] | Bendery (Moldova)[la] | Bendery (Moldavian S.S.R.)[la] | Tishno (Moldova)[la] | Tekine (Moldova)[la] | Tigina (Moldova)[la] | Tighina (Moldova)[la] | בינדר (מולדובה)[he] | בענדר (מולדובה)[he] | בענדער (מולדובה)[he] | בנדר בינדר (מולדובה)[he] | בנדר (מולדובה)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012161176805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012161176805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007537928805171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'أنديزون فيلوياتي (أوزبكستان)'",
+        "Updated ViafId from 'null' to '129186134'",
+        "updatePlaceRecord: variants +1: Andijon wiloyati (Uzbekistan)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007559852905171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'بلاغوفيشتشينسك (أمورسكايا أوبلاست، روسيا)'",
+        "updatePlaceRecord: variants +6: Blagovyeshchensk (Amurskai︠a︡ oblastʹ, Russia)[la] | Blagowjeschtschensk (Amurskai︠a︡ oblastʹ, Russia)[la] | Blagoveshchensk (Amur oblastʹ, Russia)[la] | Blagovi︠e︡shchensk (Russia)[la] | Blagoveshchensk (Amurskai︠a︡ oblastʹ, R.S.F.S.R.)[la] | Bulageweishensike (Amurskai︠a︡ oblastʹ, Russia)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007562662905171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'فاركوفيتشي (أوكرانيا)'",
+        "updatePlaceRecord: variants +4: Warkowicze (Ukraine)[la] | Varkoviche (Ukraine)[la] | Varkovichi (Ukraine)[la] | Varkovitse (Ukraine)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007566848005171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'باتومي (جورجيا)'",
+        "updatePlaceRecord: variants +3: Batumi (Georgian S.S.R.)[la] | Batumi (City)[la] | Batum (Georgian S.S.R.)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007530958305171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'بالاكلافا (أوكرانيا)'",
+        "updatePlaceRecord: variants +1: Balaclava (Ukraine)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007533332505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'فالكي (خاركيفسكا أوبلاست، أوكرانيا)'",
+        "Updated ViafId from 'null' to '136210549'",
+        "updatePlaceRecord: variants +1: Valki (Kharkivsʹka oblastʹ, Ukraine)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007564859505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryRomFull from 'Barysaŭ (Belarus)' to 'Barysaŭ (Belarus)'",
+        "Updated PrimaryArabFull from 'null' to 'باريزاي (بيلاروس)'",
+        "updatePlaceRecord: variants +5: Borisov (Byelorussian S.S.R.)[la] | Borisov (Belarus)[la] | Borissow (Belarus)[la] | באריסעוו (בלארוס)[he] | בריאסיעיו (בלארוס)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007566856205171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'فيركنودنيبروفسك (أوكرانيا)'",
+        "updatePlaceRecord: variants +3: Verkhnedneprovsk (Ukraine)[la] | Verkhne-Dnyeprovsk (Ukraine)[la] | Verkhnedni︠e︡provsk (Ukraine)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007555017905171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'هوميلسكاي (بيلاروس)'",
+        "updatePlaceRecord: variants +6: Gomelʹ (Province)[la] | Homyelʹ (Belarus : Voblastsʹ)[la] | Homyelʹ Voblastsʹ (Belarus)[la] | Gomelʹskaya oblastʹ (Belarus)[la] | Gomelʹ (Belarus : Oblastʹ)[la] | Gomelʹskai︠a︡ oblastʹ (Byelorussian S.S.R.)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007564583405171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'هوميل دي (بيلاروس)'",
+        "updatePlaceRecord: variants +6: Gomelʹ[la] | Gomelʹ (Belarus)[la] | Homyelʹ (Belarus)[la] | Gomelʹ (Byelorussian S.S.R.)[la] | Gomel (Belarus)[la] | גומל (בלארוס)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007585904705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007585904705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007487081905171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryRomFull from 'Kamensk-Uralʹskiĭ (Russia)' to 'Kamensk-Uralʹskiĭ (Russia)'",
+        "Updated PrimaryArabFull from 'null' to 'كامينسك أورالسكي (روسيا)'",
+        "Updated ViafId from 'null' to '152628130'",
+        "updatePlaceRecord: variants +1: Kamensk-Uralʹskiy (Russia)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007491695105171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryRomFull from 'Thừa Thiên Huế (Vietnam)' to 'Thừa Thiên Huế (Vietnam)'",
+        "Updated PrimaryArabFull from 'null' to 'ثوا ثين هوي (فيتنام)'",
+        "Updated ViafId from 'null' to '85148570498924310803'",
+        "updatePlaceRecord: variants +1: Thưa Thiên Huế (Vietnam)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007533332405171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'إزيوم (أوكرانيا)'",
+        "Updated ViafId from 'null' to '132695411'",
+        "updatePlaceRecord: variants +2: Izyum (Ukraine)[la] | Izjum (Ukraine)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007537817705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007537817705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007542599505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryRomFull from 'Hậu Giang (Vietnam)' to 'Hậu Giang (Vietnam)'",
+        "Updated PrimaryArabFull from 'null' to 'هاو جيانغ (فيتنام)'",
+        "Updated ViafId from 'null' to '154942706'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007566951005171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'נהא טרנג (ויטנאם)' to 'נהא טרנג (וייטנאם)'",
+        "Updated PrimaryArabFull from 'null' to 'نها ترانج (فيتنام)'",
+        "updatePlaceRecord: variants +1: Kanh-Hoa (Vietnam)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007531017305171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'جيا لاي (فيتنام)'",
+        "Updated ViafId from 'null' to '8450148574287924430007'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007537928405171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'זינקוב (אוקראינה)' to 'זינקוב (מחוז חמלניצקי, אוקראינה)'",
+        "Updated PrimaryArabFull from 'null' to 'زينكيف (خميلنيت ︠س︡س︡أوبلاستكا، أوكرانيا)'",
+        "updatePlaceRecord: variants +3: Zenkov (Khmelʹnyt︠s︡ʹka oblastʹ, Ukraine)[la] | Zinʹkov (Khmelʹnyt︠s︡ʹka oblastʹ, Ukraine)[la] | Zinkiv (Khmelʹnyt︠s︡ʹka oblastʹ, Ukraine)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007559493105171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryRomFull from 'Góra Kalwaria (Poland)' to 'Góra Kalwaria (Poland)'",
+        "Updated PrimaryArabFull from 'null' to 'غورا كالواريا (بولندا)'",
+        "updatePlaceRecord: variants +6: Ger, Poland[la] | Gur, Poland[la] | Gura Ḳalṿarya, Poland[la] | Guer, Poland[la] | Góra Kalwarja, Poland[la] | Góra Kalwaria, Poland[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007559824505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'بيريميشلي (أوكرانيا)'",
+        "updatePlaceRecord: variants +5: Premishlan (Ukraine)[la] | Permishlan (Ukraine)[la] | Peremishlan (Ukraine)[la] | Przemysliany (Ukraine)[la] | Peremyshlyany (Ukraine)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007559931105171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryRomFull from 'Dunaïvt︠s︡i (Ukraine)' to 'Dunaïvt︠s︡i (Ukraine)'",
+        "Updated PrimaryArabFull from 'null' to 'دوناييفت (أوكرانيا)'",
+        "updatePlaceRecord: variants +9: Dunayevtsah (Ukraine)[la] | Dunovits (Ukraine)[la] | Donovits (Ukraine)[la] | Dunavets (Ukraine)[la] | Dunayevtsy (Ukraine)[la] | Dunaevt︠s︡y (Ukraine)[la] | דינוביץ (אוקראינה)[he] | דינוויץ (אוקראינה)[he] | דינאוויטש (אוקראינה)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007560165505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'إيسينتوكي (روسيا)'",
+        "Updated ViafId from 'null' to '133766865'",
+        "updatePlaceRecord: variants +2: Essentuki (R.S.F.S.R.)[la] | Yessentuki (Russia)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007585989305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007585989305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007555021005171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 23.7 km. Manual review required. Kima Id:73086 Name:מחוז דונצק (אוקראינה)",
+        "Updated PrimaryArabFull from 'null' to 'دونيت︠س︠كا أوبلاست (أوكرانيا)'",
+        "Updated ViafId from 'null' to '159459348'",
+        "updatePlaceRecord: variants +7: Donetskaya oblastʹ, Ukraine[la] | Donetsʹk Oblastʹ (Ukraine)[la] | Donetsʹk (Ukraine : Oblast)[la] | Donetske oblast (Ukraine)[la] | Donet︠s︡kai︠a︡ oblastʹ (Ukraine)[la] | Stalinsʹka oblastʹ (Ukraine)[la] | Donet︠s︡kaya oblastʹ (Ukraine)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007400225405171"
+      },
+      "result": "Success",
+      "messages": [
+        "updatePlaceRecord: variants +11: Qal'at Namrud (Israel)[la] | Kal'at Nimrod (Israel)[la] | Qal'at es-Subaiba (Israel)[la] | Qal'at al-Subeiba (Israel)[la] | Nimrod Castle (Israel)[la] | Mivtzar Nimrod (Israel)[la] | Mivtsar Nimrod (Israel)[la] | מצודת נמרוד (ישראל)[he] | מצודת נימרוד (ישראל)[he] | קלעת נמרוד (ישראל)[he] | קלעת א-צובייבה (ישראל)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007484598705171"
+      },
+      "result": "Success",
+      "messages": [
+        "Coordinates added: Lat=21.116666666666667, Lon=106.28333333333333",
+        "Updated PrimaryRomFull from 'Phả Lại (Vietnam)' to 'Phả Lại (Vietnam)'",
+        "Updated PrimaryArabFull from 'null' to 'فا لاي (فيتنام)'",
+        "Updated ViafId from 'null' to '144437971'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007487070305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007487070305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007533104705171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryRomFull from 'Hòa Bình (Vietnam : Province)' to 'Hòa Bình (Vietnam : Province)'",
+        "Updated PrimaryArabFull from 'null' to 'هوا بينه (فيتنام : مقاطعة)'",
+        "Updated ViafId from 'null' to '123306599'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007550417305171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'كابريشتي (مولدوفا)'",
+        "updatePlaceRecord: variants +9: Kapreshty (Moldavian S.S.R.)[la] | Kapreshty-Tyrg (Moldova)[la] | Kapresht (Moldova)[la] | Kapreshti (Moldova)[la] | Kapreschy (Moldova)[la] | Kapreschty (Moldova)[la] | Kaprest (Moldova)[la] | Caprești (Moldova)[la] | Capresti Colonie (Moldova)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007531021805171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 34.7 km. Manual review required. Kima Id:82471 Name:קים ליין (וייטנאם)",
+        "Updated PrimaryRomFull from 'Kim Liên (Vietnam)' to 'Kim Liên (Vietnam)'",
+        "Updated PrimaryArabFull from 'null' to 'كيم ليان (فيتنام)'",
+        "Updated ViafId from 'null' to '126829136'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007535684905171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryRomFull from 'Bełżyce (Poland)' to 'Bełżyce (Poland)'",
+        "Updated PrimaryArabFull from 'null' to 'بيلزيتشه (بولندا)'",
+        "updatePlaceRecord: variants +1: בעלזיץ (פולין)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007540399305171"
+      },
+      "result": "Success",
+      "messages": [
+        "Coordinates added: Lat=9.866666666666667, Lon=105.91666666666667",
+        "Updated PrimaryRomFull from 'Định Tường (Vietnam)' to 'Định Tường (Vietnam)'",
+        "Updated PrimaryArabFull from 'null' to 'دينه تونغ (فيتنام)'",
+        "Updated ViafId from 'null' to '129175735'",
+        "updatePlaceRecord: variants +1: Định Tương (Vietnam)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007555203305171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'צ'ו לון (ויאטנם)' to 'צ'ו לון (הו צ'י מין סיטי, וייטנאם)'",
+        "Updated PrimaryRomFull from 'Chợ Lớn (Vietnam)' to 'Chợ Lớn (Ho Chi Minh City, Vietnam)'",
+        "Updated PrimaryArabFull from 'null' to 'تشو لون (مدينة هوشي منه، فيتنام)'",
+        "updatePlaceRecord: variants +3: Chợ Lớn (Vietnam)[la] | Cholon (Vietnam)[la] | Sholon (Vietnam)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007555350605171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryRomFull from 'Bến Tre (Vietnam : Province)' to 'Bến Tre (Vietnam : Province)'",
+        "Updated PrimaryArabFull from 'null' to 'بن تري (فيتنام : مقاطعة)'",
+        "Updated ViafId from 'null' to '510145424585886831095'",
+        "updatePlaceRecord: variants +1: Bến Tre, Vietnam[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007560168905171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryRomFull from 'Moisés Ville (Argentina)' to 'Moisés Ville (Argentina)'",
+        "Updated PrimaryArabFull from 'null' to 'مويسيس فيل (الأرجنتين)'",
+        "updatePlaceRecord: variants +7: Mozesṿil (Argentina)[la] | Moisésville (Argentina)[la] | Mosésville (Argentina)[la] | מואיזסויל (ארגנטינה)[he] | מוזסויל (ארגנטינה)[he] | מויזס וויל (ארגנטינה)[he] | מויזס ויל (ארגנטינה)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007562652705171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 38.0 km. Manual review required. Kima Id:16156 Name:לונג אן (וייטנאם)",
+        "Updated PrimaryArabFull from 'null' to 'لونغ آن (فيتنام)'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007530897705171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'הוי אן (ויטנם)' to 'הוי אן (וייטנאם)'",
+        "Updated PrimaryRomFull from 'Hội An (Vietnam)' to 'Hội An (Vietnam)'",
+        "Updated PrimaryArabFull from 'null' to 'هوي آن (فيتنام)'",
+        "updatePlaceRecord: variants +2: Fai-Fo (Vietnam)[la] | Faifo (Vietnam)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007537710605171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'פטריקוב (בלארוס)' to 'פטריקאו (בלארוס)'",
+        "Updated PrimaryRomFull from 'Petrykaŭ (Belarus)' to 'Petrykaŭ (Belarus)'",
+        "Updated PrimaryArabFull from 'null' to 'بيتريكو (بيلاروس)'",
+        "Updated ViafId from 'null' to '147908096'",
+        "updatePlaceRecord: variants +8: Petrikoff (Belarus)[la] | Petrikov (Belarus)[la] | Petrikovo (Belarus)[la] | Pyetrykaw (Belarus)[la] | Pieṭrḳov (Belarus)[la] | Pietrykaw (Belarus)[la] | Petrokov (Belarus)[la] | Petrykavas (Belarus)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987009349888705171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'كيرسونسكايا غوبرنيا (روسيا)'",
+        "updatePlaceRecord: variants +4: Khersonskaya guberniya[la] | Khersons'ka huberniya[la] | Kherson governorate[la] | Government of Kherson[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987009840985805171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'زاباكالسكي كرا (روسيا)'",
+        "Updated ViafId from 'null' to '151681769'",
+        "updatePlaceRecord: variants +4: Houbeijiaer Bianjiangqu (Russia)[la] | Region Transbaikalien (Russia)[la] | Zabaykalsky Krai (Russia)[la] | Zabaykalsky Kray (Russia)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987010400068305171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Coordinates not updated for place 987010400068305171: 034 hemisphere mismatch ($d=N0355624, $e=N0355624): $d/$e must start with E or W, $f/$g with N or S. Manual review required.",
+        "Updated PrimaryRomFull from 'En Nabi Yoûchaa (Lebanon)' to 'En Nabi Yoûchaa (Lebanon)'",
+        "updatePlaceRecord: variants +7: Nabī Yūsha' (Lebanon)[la] | al-Nabī Yūsha' (Lebanon)[la] | Nabi Yoûchaa (Lebanon)[la] | נבי יושע (לבנון)[he] | אל-נבי יושע (לבנון)[he] | א-נבי יושע (לבנון)[he] | نبي يوشع (لبنان)[ar]"
+      ]
+    }
+  ],
+  "newSummary": [
+    {
+      "item": {
+        "recordId": "987007482453205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007482453205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007482577905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007482577905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007480002105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007480002105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007540128705171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007540128705171 (ג'ונספורט (מיין))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007550543705171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007550543705171 (ניובלה (צ'ילה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007553077105171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007553077105171 (קאוטין (צ'ילה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007555332005171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007555332005171 (ג'ונו (ויסקונסין))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007555361205171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007555361205171 (ריצ'מונד (מישיגן))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007559704605171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007559704605171 (ג'ונסונבורג (פנסילבניה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007562066305171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007562066305171 (טלקה (צ'ילה : פרובינציה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007567078805171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007567078805171 (האלטסוויל (טקסס))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007533589305171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007533589305171 (המפסטד (טקסס))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007550346105171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007550346105171 (איטה בנה (מיסיסיפי))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007550460505171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007550460505171 (הולדנוויל (אוקלהומה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007550477005171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007550477005171 (הנקוק (מרילנד))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007557393205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007557393205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007559512005171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007559512005171 (אילווקו (וושינגטון))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007562168105171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007562168105171 (הרצבורו (אלבמה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007566979005171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007566979005171 (איוניה (מישיגן))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007567071605171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007567071605171 (ג'ואט סיטי (קונטיקט))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007567596605171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007567596605171 (הני גרוב (טקסס))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014366902405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014366902405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014390786005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014390786005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014403957805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014403957805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014407682505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014407682505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007465490705171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007465490705171 (היינס (אלבמה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007473752605171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007473752605171 (איירונטון (מיזורי))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007553069605171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007553069605171 (הו ריבר (קרולינה הצפונית))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007557201405171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007557201405171 (איליון (ניו יורק))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007562105905171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007562105905171 (באד ליבנשטיין (גרמניה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007562775705171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007562775705171 (איירונדייל (אלבמה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007564422705171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007564422705171 (הרן (טקסס))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007566693405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007566693405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007567669005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007567669005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007567704505171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007567704505171 (אייטסקה (טקסס))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007542058705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007542058705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007550469305171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007550469305171 (ג'ינרט (לואיזיאנה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007557726305171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007557726305171 (הורטון (קנזס))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007562016805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007562016805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007564779805171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007564779805171 (איברויל (קוויבק))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987011507977005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987011507977005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012788958505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012788958505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013170286005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013170286005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007346291505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007346291505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007412395005171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007412395005171 (אמאיה (עיר קדומה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007564431805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007564431805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012978070005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012978070005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012978070305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012978070305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013144475505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013144475505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007535505905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007535505905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007491917205171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007491917205171 (הניבאן (אוקראינה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007557986705171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007557986705171 (הורליבקה (אוקראינה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007484775805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007484775805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007489302605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007489302605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007489433605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007489433605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007494261205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007494261205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007530940105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007530940105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007537817605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007537817605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007555489905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007555489905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007471785905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007471785905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007473611405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007473611405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007475739505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007475739505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007484770805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007484770805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007484770905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007484770905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007487163805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007487163805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007489293405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007489293405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007499078905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007499078905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007533343805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007533343805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007537816605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007537816605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007537817405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007537817405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007538032005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007538032005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007547455305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007547455305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007564740905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007564740905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007530793205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007530793205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007531030605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007531030605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007531133405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007531133405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007535436405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007535436405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007535550905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007535550905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007535560305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007535560305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007535592905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007535592905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007535600405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007535600405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007537635405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007537635405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007537699005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007537699005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007537901605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007537901605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007557618005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007557618005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007564447505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007564447505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007564633605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007564633605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007564904305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007564904305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007562334005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007562334005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012403942905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012403942905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013912440905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013912440905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007270824605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007270824605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007475728505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007475728505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007475728605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007475728605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007489405205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007489405205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007491856705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007491856705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007496660305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007496660305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007475724505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007475724505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007475734805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007475734805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007478070105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007478070105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007480095305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007480095305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007489309305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007489309305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007489332105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007489332105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007489433505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007489433505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007496650805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007496650805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007498931605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007498931605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007499077505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007499077505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007542890505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007542890505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007564739705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007564739705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007564740005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007564740005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007531028605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007531028605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007531028705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007531028705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007533062705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007533062705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007533371205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007533371205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007533575305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007533575305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007535692205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007535692205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007537700305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007537700305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007537718705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007537718705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007537800905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007537800905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007537807105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007537807105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007538067305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007538067305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007540209005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007540209005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007540413105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007540413105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007542645105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007542645105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007542741605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007542741605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007542753705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007542753705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007554923305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007554923305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007557609205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007557609205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007562450305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007562450305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007562619205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007562619205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007564051605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007564051605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007564712705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007564712705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007567713905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007567713905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007570587505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007570587505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007540214305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007540214305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007559722805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007559722805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007559915405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007559915405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007562334205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007562334205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013505319705171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987013505319705171 (גבעת שמן (ישראל))"
+      ]
+    }
+  ],
+  "requireReviewSummary": [
+    {
+      "item": {
+        "recordId": "987007547811705171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 93.3 km. Manual review required. Kima Id:7866 Name:עיראק",
+        "updatePlaceRecord: variants +1: Rafidayn, Bilad[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007555021005171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 23.7 km. Manual review required. Kima Id:73086 Name:מחוז דונצק (אוקראינה)",
+        "Updated PrimaryArabFull from 'null' to 'دونيت︠س︠كا أوبلاست (أوكرانيا)'",
+        "Updated ViafId from 'null' to '159459348'",
+        "updatePlaceRecord: variants +7: Donetskaya oblastʹ, Ukraine[la] | Donetsʹk Oblastʹ (Ukraine)[la] | Donetsʹk (Ukraine : Oblast)[la] | Donetske oblast (Ukraine)[la] | Donet︠s︡kai︠a︡ oblastʹ (Ukraine)[la] | Stalinsʹka oblastʹ (Ukraine)[la] | Donet︠s︡kaya oblastʹ (Ukraine)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007531021805171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 34.7 km. Manual review required. Kima Id:82471 Name:קים ליין (וייטנאם)",
+        "Updated PrimaryRomFull from 'Kim Liên (Vietnam)' to 'Kim Liên (Vietnam)'",
+        "Updated PrimaryArabFull from 'null' to 'كيم ليان (فيتنام)'",
+        "Updated ViafId from 'null' to '126829136'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007562652705171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 38.0 km. Manual review required. Kima Id:16156 Name:לונג אן (וייטנאם)",
+        "Updated PrimaryArabFull from 'null' to 'لونغ آن (فيتنام)'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987010400068305171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Coordinates not updated for place 987010400068305171: 034 hemisphere mismatch ($d=N0355624, $e=N0355624): $d/$e must start with E or W, $f/$g with N or S. Manual review required.",
+        "Updated PrimaryRomFull from 'En Nabi Yoûchaa (Lebanon)' to 'En Nabi Yoûchaa (Lebanon)'",
+        "updatePlaceRecord: variants +7: Nabī Yūsha' (Lebanon)[la] | al-Nabī Yūsha' (Lebanon)[la] | Nabi Yoûchaa (Lebanon)[la] | נבי יושע (לבנון)[he] | אל-נבי יושע (לבנון)[he] | א-נבי יושע (לבנון)[he] | نبي يوشع (لبنان)[ar]"
+      ]
+    }
+  ],
+  "failedSummary": [
+    {
+      "item": {
+        "recordId": "987007555782205171"
+      },
+      "result": "Failure",
+      "messages": [
+        "An error occurred while saving the entity changes. See the inner exception for details. --> Cannot insert duplicate key row in object 'dbo.Variants' with unique index 'IX_Variants_primary_heb_full_variant'. The duplicate key value is (אמריקה הלטינית, Asociación Latinoamericana de Libre Comercio countries).\nThe statement has been terminated."
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007553952905171"
+      },
+      "result": "Failure",
+      "messages": [
+        "An error occurred while saving the entity changes. See the inner exception for details. --> Cannot insert duplicate key row in object 'dbo.Places' with unique index 'IX_Places_primary_heb_full'. The duplicate key value is (ביתר (עיר קדומה) (יהודה ושומרון)).\nThe statement has been terminated."
+      ]
+    }
+  ],
+  "requireReviewItems": [
+    {
+      "item": {
+        "recordId": "987007547811705171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 93.3 km. Manual review required. Kima Id:7866 Name:עיראק",
+        "updatePlaceRecord: variants +1: Rafidayn, Bilad[la]"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01544cz  a2200421n  4500</leader><controlfield tag=\"005\">20260314192949.0</controlfield><controlfield tag=\"008\">800201n| acannbabn          |a ana      </controlfield><controlfield tag=\"001\">987007547811705171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 79077342</subfield><subfield code=\"z\">sh 85067935</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q796</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">8055148947783454950004</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">E0440000</subfield><subfield code=\"e\">E0440000</subfield><subfield code=\"f\">N0330000</subfield><subfield code=\"g\">N0330000</subfield><subfield code=\"2\">geonames</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">038.7936029</subfield><subfield code=\"e\">048.5759163</subfield><subfield code=\"f\">037.3806450</subfield><subfield code=\"g\">029.612079</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">(OCoLC)oca00310007</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000976044</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">DLC</subfield><subfield code=\"d\">DLC-R</subfield><subfield code=\"d\">DLC</subfield><subfield code=\"d\">WaU</subfield></datafield><datafield tag=\"043\" ind1=\" \" ind2=\" \"><subfield code=\"a\">a-iq---</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Iraq</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">עיראק</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">العراق</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Iraq</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Irak</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Rafidayn, Bilad</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Bilad al-Rafidayn</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Republic of Iraq</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Jumhuriyah al Iraqiyah</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">עירק</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record enhanced with cross references from NNL13-000001631</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Bengio, O. Mered ha-Kurdim be-Irak, l989.</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Iraq, a country study, 1990:</subfield><subfield code=\"b\">p. xiii (formal name: Republic of Iraq)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">CIA world factbook WWW home page, Feb. 14, 2001</subfield><subfield code=\"b\">(al Jumhuriyah al Iraqiyah)</subfield></datafield><datafield tag=\"781\" ind1=\" \" ind2=\"0\"><subfield code=\"z\">Iraq</subfield></datafield><datafield tag=\"952\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Iraq</subfield></datafield><datafield tag=\"953\" ind1=\" \" ind2=\" \"><subfield code=\"a\">עיראק</subfield></datafield><datafield tag=\"955\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Iraq</subfield></datafield><datafield tag=\"955\" ind1=\" \" ind2=\" \"><subfield code=\"a\">עירק</subfield></datafield></record>\n"
+    },
+    {
+      "item": {
+        "recordId": "987007555021005171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 23.7 km. Manual review required. Kima Id:73086 Name:מחוז דונצק (אוקראינה)",
+        "Updated PrimaryArabFull from 'null' to 'دونيت︠س︠كا أوبلاست (أوكرانيا)'",
+        "Updated ViafId from 'null' to '159459348'",
+        "updatePlaceRecord: variants +7: Donetskaya oblastʹ, Ukraine[la] | Donetsʹk Oblastʹ (Ukraine)[la] | Donetsʹk (Ukraine : Oblast)[la] | Donetske oblast (Ukraine)[la] | Donet︠s︡kai︠a︡ oblastʹ (Ukraine)[la] | Stalinsʹka oblastʹ (Ukraine)[la] | Donet︠s︡kaya oblastʹ (Ukraine)[la]"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>06763cz  a2200409n  4500</leader><controlfield tag=\"005\">20260318095904.0</controlfield><controlfield tag=\"008\">811123n||acannaab|          |a ana    ||</controlfield><controlfield tag=\"001\">987007555021005171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 81106987</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q2012050</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">159459348</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">37.74</subfield><subfield code=\"e\">37.74</subfield><subfield code=\"f\">48.14</subfield><subfield code=\"g\">48.14</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">E0373000</subfield><subfield code=\"e\">E0373000</subfield><subfield code=\"f\">N0480000</subfield><subfield code=\"g\">N0480000</subfield><subfield code=\"2\">geonames</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000987453</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Donet︠s︡ʹka oblastʹ (Ukraine)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">מחוז דונצק (אוקראינה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">دونيت︠س︠كا أوبلاست (أوكرانيا)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"w\">nnaa</subfield><subfield code=\"a\">Donetskaya oblastʹ, Ukraine</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Donetsʹk Oblastʹ (Ukraine)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Donetsʹk (Ukraine : Oblast)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Donetske oblast (Ukraine)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"w\">nne</subfield><subfield code=\"a\">Donet︠s︡kai︠a︡ oblastʹ (Ukraine)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Stalinsʹka oblastʹ (Ukraine)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Donet︠s︡kaya oblastʹ (Ukraine)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"551\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Voroshylovhradsʹka oblastʹ (Ukraine)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">The following heading for an earlier name is a valid AACR 2 heading: Stalinsʹka oblastʹ (Ukraine)</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Phone call to BGN, 3/30/81</subfield><subfield code=\"b\">(Donetskaya oblast, OBLT: Ukraine 48p0s 00ʹ N., 37p0s 30ʹ E.)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Rad. ent︠s︡ykl. istoriï Ukraïny:</subfield><subfield code=\"b\">v. 2, p. 64-68 (Donet︠s︡ʹka oblastʹ (until 1961 named Stalinsʹka oblastʹ) established on 06-03-1938. Part of the present-day Donet︠s︡ʹka oblastʹ once belonged to the Polovet︠s︡ʹka zemli︠a︡. During the 17th-18th centuries some of this territorywas encompassed in the Slobidsʹka Ukraïna, while the rest was divided between the Viĭsʹko Zaporizʹke and the Viĭsʹko Donsʹke. By 1708 a part of present-day Donet︠s︡ʹka oblastʹ was included in the Azovsʹka hubernii︠a︡ [no publs. in LC database], then from 1783 to 1797 it became part of the Katerynoslavsʹke namisnyt︠s︡tvo [no publs. in LC data base]. From 1797 to 1802 this land became part of the Novorossiĭsʹka hubernii︠a︡ [no publs. on LC data base], and from 1802 most of thepresent-day Donet︠s︡ʹka oblastʹ was included in the Katerynoslavsʹka hubernii︠a︡ [no publs. in LC data base] while a smaller part had been included from 1797 in the Oblastʹ Viĭsʹka Donsʹkoho [Oblastʹ Donskogo Voĭska (R.S.F.S.R.)]. During1917-1920 this territory was contested between the Red Army and the White Armies. From April to Nov. 1918 it had been occupied by Austro-Hungarian forces. In 1919 the Donet︠s︡ʹka hubernii︠a︡ [no publs. in LC data base] was established whichincluded the present-day territories of both the Donet︠s︡ʹka and Voroshylovhradsʹka [now Luhansʹka] oblasts. During 1925 there were five okruhas formed which were subsequently abolished by 1930. In 1932 the Donet︠s︡ʹka oblastʹ itself wasestablished, and at that time included the territory of present-day Voroshylovhradsʹka [now Luhansʹka] oblastʹ. On 06-03-1939 the Donet︠s︡ʹka oblastʹ was divided into the Stalinsʹka [no publs. in LC data base] and the Voroshylovhradsʹka [since1961 Donet︠s︡ʹka] oblasts.</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Donet︠s︡ʹka oblastʹ, 1970:</subfield><subfield code=\"b\">p. 44 (During 1925 the Donet︠s︡ʹka hubernii︠a︡ [no publs. in LC data base] was abolished and in its place were established the Stalinsʹka, Mariupolʹsʹka, Artemivsʹka, and Luhansʹka okruhas [no publs. in LC data base for the Mariupolʹsʹka,Artemivsʹka, and Luhansʹka okruhas]. In June 1932 the Donet︠s︡ʹka oblastʹ was formed, which also included the territory of another former okruha, the Starobilʹsʹka [no publs. in LC data base]. In June 1938 the Donet︠s︡ʹka oblastʹ was dividedinto the Stalinsʹka and the Voroshylovhradsʹka [since 1961 Luhansʹka] oblasts)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Encyc. of Ukraine:</subfield><subfield code=\"b\">v. 1, p. 739 (Donetske oblast (named Staline until 1961). Originally established on 07-02-1932. During the 17th-18th centuries the northern part of this present-day oblast had belonged to the Slobidska Ukraina [no publs. inLC data base], while the eastern part belonged to the Don Cossacks. From 1802 to 1917 the Donetske oblast was largely part of the Katerynoslav oblast [no publs. in LC data base])</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Ukraïna [MAP] 1992:</subfield><subfield code=\"b\">(Donet︠s︡ʹka oblastʹ)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Russia and newly independent nations of the former USSR [MAP] March, 1993:</subfield><subfield code=\"b\">(Ukraine: Region (Oblastʹ): Donetsʹk)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">SSSR, territ.-admin. delenie, 1977:</subfield><subfield code=\"b\">p. 281 (Donet︠s︡kai︠a︡ oblastʹ; est. 17 July 1932)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Ukr. rad. ent︠s︡ykl.:</subfield><subfield code=\"b\">v. 3, p. 444 (Donet︠s︡ʹka oblastʹ; established 1932, until 1961 named Stalinsʹka oblastʹ)</subfield></datafield><datafield tag=\"675\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Voroshilovgradskai︠a︡ oblastʹ, 1976: p. 9, etc. (on 3 June 1938 the Donet︠s︡kai︠a︡ [Donet︠s︡ʹka] oblastʹ was divided into the Stalinskai︠a︡ [Stalinsʹka] [no publs. in LC data base] and Voroshilovgradskai︠a︡ [Voroshylovhradsʹka] oblasts);</subfield><subfield code=\"a\">LC data base, 08-13-93 (hdg.: Voroshylovhradsʹka oblastʹ (Ukraine));</subfield><subfield code=\"a\">Mapa gruntiv raĭoniv kol. Stalinsʹkoï okruhy (Vel.-I︠A︡nisolʹskyĭ, Pavlivsʹkyĭ, Selydivsʹkyĭ, Stalinsʹkyĭ, Makiïvsʹskyĭ, Staro-Beshovsʹkyĭ, Chysti︠a︡kivsʹkyĭ ta Ambrosiïvsʹkyĭ), 1930;</subfield><subfield code=\"a\">LC data base, 06-27-96 (hdg.: Stalinsʹka okruha (Ukraine))</subfield></datafield></record>\n"
+    },
+    {
+      "item": {
+        "recordId": "987007531021805171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 34.7 km. Manual review required. Kima Id:82471 Name:קים ליין (וייטנאם)",
+        "Updated PrimaryRomFull from 'Kim Liên (Vietnam)' to 'Kim Liên (Vietnam)'",
+        "Updated PrimaryArabFull from 'null' to 'كيم ليان (فيتنام)'",
+        "Updated ViafId from 'null' to '126829136'"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01021nz  a2200229n  4500</leader><controlfield tag=\"005\">20260318111810.0</controlfield><controlfield tag=\"008\">950902n||acannbab|          |n ana    ||</controlfield><controlfield tag=\"001\">987007531021805171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 95087209</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q1320497</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">126829136</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">105.5627778</subfield><subfield code=\"e\">105.5627778</subfield><subfield code=\"f\">18.67611111</subfield><subfield code=\"g\">18.67611111</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-001036988</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Kim Liên (Vietnam)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">קים ליין (וייטנאם)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">كيم ليان (فيتنام)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Vietnam</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Di tích Kim Liên, quê hương Bác H'ô, 1992.</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Gaz. of Vietnam, 1986:</subfield><subfield code=\"b\">(Kim Liên, ppl, 18p0s53'N; 105p0s19'E)</subfield></datafield></record>\n"
+    },
+    {
+      "item": {
+        "recordId": "987007562652705171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 38.0 km. Manual review required. Kima Id:16156 Name:לונג אן (וייטנאם)",
+        "Updated PrimaryArabFull from 'null' to 'لونغ آن (فيتنام)'"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>00996nz  a2200229n  4500</leader><controlfield tag=\"005\">20260318111803.0</controlfield><controlfield tag=\"008\">890501n||acannbab|          |n ana    ||</controlfield><controlfield tag=\"001\">987007562652705171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 88235228</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">129116878</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">E1062000</subfield><subfield code=\"e\">E1062000</subfield><subfield code=\"f\">N0102400</subfield><subfield code=\"g\">N0102400</subfield><subfield code=\"2\">other</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-001022129</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Long An (Vietnam)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">לונג אן (וייטנאם)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">لونغ آن (فيتنام)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Vietnam</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 034 imported from LCNA/LCSH n88235228 on: 20260219</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Bông h'ô cho Êmily, 1985:</subfield><subfield code=\"b\">v. 1, t.p. (Long An)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Gaz. of Vietnam, 1986</subfield><subfield code=\"b\">(Long An, ppl, 10p0s24ʹN, 106p0s20ʹE)</subfield></datafield></record>\n"
+    },
+    {
+      "item": {
+        "recordId": "987010400068305171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Coordinates not updated for place 987010400068305171: 034 hemisphere mismatch ($d=N0355624, $e=N0355624): $d/$e must start with E or W, $f/$g with N or S. Manual review required.",
+        "Updated PrimaryRomFull from 'En Nabi Yoûchaa (Lebanon)' to 'En Nabi Yoûchaa (Lebanon)'",
+        "updatePlaceRecord: variants +7: Nabī Yūsha' (Lebanon)[la] | al-Nabī Yūsha' (Lebanon)[la] | Nabi Yoûchaa (Lebanon)[la] | נבי יושע (לבנון)[he] | אל-נבי יושע (לבנון)[he] | א-נבי יושע (לבנון)[he] | نبي يوشع (لبنان)[ar]"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01857nz  a2200241n  4500</leader><controlfield tag=\"005\">20260318111805.0</controlfield><controlfield tag=\"008\">211027|||az|nnbabn|||||||||||a||na|||| d</controlfield><controlfield tag=\"001\">987010400068305171</controlfield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">N0355624</subfield><subfield code=\"e\">N0355624</subfield><subfield code=\"f\">N0342745</subfield><subfield code=\"g\">N0342745</subfield><subfield code=\"2\">geonames</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"b\">mul</subfield><subfield code=\"e\">rda</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">En Nabi Yoûchaa (Lebanon)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">אלנבי יושע (לבנון)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">النبي يوشع (لبنان)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Nabī Yūsha' (Lebanon)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">al-Nabī Yūsha' (Lebanon)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Nabi Yoûchaa (Lebanon)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">נבי יושע (לבנון)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">אל-נבי יושע (לבנון)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">א-נבי יושע (לבנון)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">نبي يوشع (لبنان)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Viewed geoview, 27 October 2021</subfield><subfield code=\"b\">(En Nabi Yoûchaa is a populated place and is located in Liban-Nord, Lebanon. The estimate terrain elevation above seal level is 111 metres. Variant forms of spelling for En Nabi Yoûchaa or in other languages: Enn Nabi Yoûchâa, An Nabī Yūsha', En Nabi Yoûchaa, An Nabi Yusha', An Nabī Yūsha', En Nabi Youchaa, En Nabi Yoûchaa, Enn Nabi Youchaa, Enn Nabi Yoûchâa.)</subfield><subfield code=\"u\">https://lb.geoview.info/en_nabi_youchaa,278858</subfield></datafield><datafield tag=\"921\" ind1=\" \" ind2=\" \"><subfield code=\"a\">css 202110</subfield></datafield><datafield tag=\"933\" ind1=\" \" ind2=\" \"><subfield code=\"a\">aem 202110</subfield></datafield></record>\n"
+    }
+  ],
+  "failedItems": [
+    {
+      "item": {
+        "recordId": "987007555782205171"
+      },
+      "result": "Failure",
+      "messages": [
+        "An error occurred while saving the entity changes. See the inner exception for details. --> Cannot insert duplicate key row in object 'dbo.Variants' with unique index 'IX_Variants_primary_heb_full_variant'. The duplicate key value is (אמריקה הלטינית, Asociación Latinoamericana de Libre Comercio countries).\nThe statement has been terminated."
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01786cz  a2200325n  4500</leader><controlfield tag=\"005\">20260314192950.0</controlfield><controlfield tag=\"008\">041216|| anannbabn          |a ana      </controlfield><controlfield tag=\"001\">987007555782205171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">sh 85074879</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q12585</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">-68.097391</subfield><subfield code=\"e\">-68.097391</subfield><subfield code=\"f\">-1.106889</subfield><subfield code=\"g\">-1.106889</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000705996</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Latin America</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">אמריקה הלטינית</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">أمريكا اللاتينية</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"w\">nne</subfield><subfield code=\"a\">Asociación Latinoamericana de Libre Comercio countries</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Neotropical region</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Neotropics</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">New World tropics</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Spanish America</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Encarta dict.</subfield><subfield code=\"b\">(def. 1: the entire western hemisphere south of the United States; def. 2: those countries of the Americas that developed from the colonies of Spain, Portugal, and France)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Neotropical birds, c1996.</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Kricher, J.C. A neotropical companion : an introduction to the animals, plants, and ecosystems of the New World tropics, c1989.</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Nearctic avian migrants in the Neotropics, c1995.</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Web. 3</subfield><subfield code=\"b\">(Neotropics : the Neotropical region)</subfield></datafield><datafield tag=\"680\" ind1=\" \" ind2=\" \"><subfield code=\"i\">Here are entered works on the area and/or countries of the Americas south of the United States, as well as works dealing collectively with the Spanish-speaking countries of this area.</subfield></datafield><datafield tag=\"781\" ind1=\" \" ind2=\"0\"><subfield code=\"z\">Latin America</subfield></datafield><datafield tag=\"952\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Latin America</subfield></datafield><datafield tag=\"953\" ind1=\" \" ind2=\" \"><subfield code=\"a\">אמריקה הלטינית</subfield></datafield></record>\n"
+    },
+    {
+      "item": {
+        "recordId": "987007553952905171"
+      },
+      "result": "Failure",
+      "messages": [
+        "An error occurred while saving the entity changes. See the inner exception for details. --> Cannot insert duplicate key row in object 'dbo.Places' with unique index 'IX_Places_primary_heb_full'. The duplicate key value is (ביתר (עיר קדומה) (יהודה ושומרון)).\nThe statement has been terminated."
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>02927cz  a2200469n  4500</leader><controlfield tag=\"005\">20260315100150.0</controlfield><controlfield tag=\"008\">931215|| anannbabn          |a ana      </controlfield><controlfield tag=\"001\">987007553952905171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">sh 93009472</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q637954</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">35.135556</subfield><subfield code=\"e\">35.135556</subfield><subfield code=\"f\">31.73</subfield><subfield code=\"g\">31.73</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000824758</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Betar (Extinct city) (West Bank)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">ביתר (עיר קדומה) (יהודה ושומרון)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">بيطار (مدينة منقرضة) (الضفة الغربية)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Bethar (Extinct city)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Betar (Extinct city) (Israel)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Beitar (Extinct city) (Israel)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Betthar (Extinct city) (West Bank)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Bei-Ter (Extinct city)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Bet-Ter (Extinct city)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Betar (Extinct city)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Better (Extinct city)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Bitter (Extinct city)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Ḥirbat el-Yahud (West Bank)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Khirbat al-Yahūd (West Bank)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">ח'ירבת אל-יהוד (יהודה ושומרון)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"550\" ind1=\" \" ind2=\" \"><subfield code=\"w\">g</subfield><subfield code=\"a\">Extinct cities</subfield><subfield code=\"z\">West Bank</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"551\" ind1=\" \" ind2=\" \"><subfield code=\"w\">g</subfield><subfield code=\"a\">West Bank</subfield><subfield code=\"x\">Antiquities</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"551\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Battir (West Bank)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"551\" ind1=\" \" ind2=\" \"><subfield code=\"a\">בתיר (גדה מערבית)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Heading merged from record: 987007475207805171</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Changed to standard Israeli form</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Bether, die fragliche Stadt im Hadrianisch-jüdischen Kriege, 1877:</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Work cat.: 89119137: Zudḳevits, D. Betar u-Milḥemet Bar Kokhva bi-gevulot Ḥaderah, 1988</subfield><subfield code=\"b\">(site of Bar Kokhba's death; author differs from most scholars, placing Bethar in vicinity of current site of Ḥaderah, Israel)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Encyc. Judaica</subfield><subfield code=\"b\">(Bethar; Betar; Better; Bitter; Bei-Ter; Bet-Ter; \"Bar Kokhba's last stronghold ... identified with Khirbat al-Yahūd ... an area of ruins ... n.w. of the Arab village of Battīr ... and located 7 mi. s.w. of Jerusalem...\")</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Britannica Micro.:</subfield><subfield code=\"b\">v. 5, p. 872 (Bethar; Bar Kokhba's\"... stronghold, s.w. of Jerusalem.\")</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Talmi, E. Kol Erets Yiśraʼel, 1974</subfield><subfield code=\"b\">(Betar; Ḥirbat el-Yahud)</subfield></datafield><datafield tag=\"675\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Web. geog.</subfield></datafield><datafield tag=\"781\" ind1=\" \" ind2=\"0\"><subfield code=\"z\">West Bank</subfield><subfield code=\"z\">Bethar (Extinct city)</subfield></datafield><datafield tag=\"933\" ind1=\" \" ind2=\" \"><subfield code=\"a\">cnr 201804</subfield></datafield></record>\n"
+    }
+  ]
+}

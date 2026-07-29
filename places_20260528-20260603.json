@@ -1,0 +1,1555 @@
+{
+  "type": "Place",
+  "runTime": "2026-07-20T20:24:30.5458288Z",
+  "period": "20260528-20260603",
+  "numProcessedItems": 19499,
+  "numModifiedItems": 23,
+  "numNewItems": 136,
+  "numReviewItems": 3,
+  "numFailedItems": 0,
+  "modifiedSummary": [
+    {
+      "item": {
+        "recordId": "987007531469405171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'المكسيك، خليج المكسيك'",
+        "updatePlaceRecord: variants +1: America, Gulf of[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007548052505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryRomFull from 'Abidjan (Côte d'Ivoire)' to 'Abidjan (Côte d'Ivoire)'",
+        "Updated PrimaryArabFull from 'null' to 'أبيدجان (كوت ديفوار)'",
+        "Updated Wd from 'null' to 'Q1515'",
+        "updatePlaceRecord: variants +1: Abidjan, Ivory Coast[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007562612505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryRomFull from 'Korhogo (Côte d'Ivoire)' to 'Korhogo (Côte d'Ivoire)'",
+        "Updated PrimaryArabFull from 'null' to 'كورهوغو (كوت ديفوار)'",
+        "Updated ViafId from 'null' to '157221044'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007565383605171"
+      },
+      "result": "Success",
+      "messages": [
+        "updatePlaceRecord: variants +2: Ramat Ef'al (Israel)[la] | רמת אפעל (ישראל)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007562029005171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryRomFull from 'Bingerville (Côte d'Ivoire)' to 'Bingerville (Côte d'Ivoire)'",
+        "Updated PrimaryArabFull from 'null' to 'بينجيرفيل (كوت ديفوار)'",
+        "Updated ViafId from 'null' to '148937520'",
+        "updatePlaceRecord: variants +1: Bingerville, French West Africa[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007557747105171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryRomFull from 'Daloa (Côte d'Ivoire)' to 'Daloa (Côte d'Ivoire)'",
+        "Updated PrimaryArabFull from 'null' to 'دالوا (كوت ديفوار)'",
+        "Updated ViafId from 'null' to '129073797'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007565149605171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryRomFull from 'Dimbokro (Côte d'Ivoire)' to 'Dimbokro (Côte d'Ivoire)'",
+        "Updated PrimaryArabFull from 'null' to 'ديمبوكرو (كوت ديفوار)'",
+        "Updated ViafId from 'null' to '131476264'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007562418805171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryRomFull from 'Grand-Bassam (Côte d'Ivoire)' to 'Grand-Bassam (Côte d'Ivoire)'",
+        "Updated PrimaryArabFull from 'null' to 'غراند بسام (كوت ديفوار)'",
+        "Updated ViafId from 'null' to '153703333'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007589814605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007589814605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987011433527505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987011433527505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987011383045805171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 40.3 km. Manual review required. Kima Id:77231 Name:באיאנטומן סום (מונגוליה)",
+        "Updated PrimaryArabFull from 'null' to 'بايانتومين سوم (منغوليا)'",
+        "Updated ViafId from 'null' to '6412156223627805400009'",
+        "updatePlaceRecord: variants +3: Dornod Aĭmgiĭn Bai︠a︡ntu̇mėn Sum (Mongolia)[la] | Doronadu Ayimaġ-un Bayantu̇men Sumu (Mongolia)[la] | Bayantu̇men Sumu (Mongolia)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007535600005171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryRomFull from 'Saint-Joseph (Réunion)' to 'Saint-Joseph (Réunion)'",
+        "Updated PrimaryArabFull from 'null' to 'سان جوزيف (ريونيون)'",
+        "Updated ViafId from 'null' to '150611705'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007535761605171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryRomFull from 'Bonoua (Côte d'Ivoire)' to 'Bonoua (Côte d'Ivoire)'",
+        "Updated PrimaryArabFull from 'null' to 'بونوا (كوت ديفوار)'",
+        "Updated ViafId from 'null' to '154948172'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007533274405171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryRomFull from 'Bregbo (Côte d'Ivoire)' to 'Bregbo (Côte d'Ivoire)'",
+        "Updated PrimaryArabFull from 'null' to 'بريبو (كوت ديفوار)'",
+        "updatePlaceRecord: variants +1: Bregbo, Ivory Coast[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007565228305171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryRomFull from 'Saint-Paul (Réunion)' to 'Saint-Paul (Réunion)'",
+        "Updated PrimaryArabFull from 'null' to 'سان بول (ريونيون)'",
+        "Updated ViafId from 'null' to '136838080'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007560083005171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryRomFull from 'Bouaké (Côte d'Ivoire)' to 'Bouaké (Côte d'Ivoire)'",
+        "Updated PrimaryArabFull from 'null' to 'بواكيه (كوت ديفوار)'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987011000906605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987011000906605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987011410129605171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'إزادخفاست (إيران)'",
+        "Updated ViafId from 'null' to '158511843'",
+        "updatePlaceRecord: variants +5: Īzad Khast (Iran)[la] | Īzad Khvāst (Iran)[la] | Yazd-e Khāst (Iran)[la] | Yazd-e Khvāst (Iran)[la] | Yezd-i-Khast (Iran)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007467841005171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 20.4 km. Manual review required. Kima Id:77980 Name:נהר שניר (ישראל)",
+        "Updated PrimaryHebFull from 'נהר שניר (ישראל)' to 'נחל שניר (ישראל)'",
+        "updatePlaceRecord: variants +22: Snir River (Israel)[la] | Naḥal Senir (Israel)[la] | Naḥal Snir (Israel)[la] | Hasbani River[la] | Hasbani-Wazzani River[la] | Hasbany River[la] | Ḥāṣibānī River[la] | Hatsbani River[la] | Haz̲bani River[la] | Naḥal Śenir[la] | Nahal Snir[la] | Nahr al-Ḥāṣbānī[la] | Nahr al Ḥāṣibānī[la] | Nahr el Haz̲bani[la] | Nahr Hasbany[la] | Śenir River[la] | Snir River[la] | Snir Stream[la] | נחל חצבני (ישראל)[he] | חצבני (ישראל)[he] | חצבאני (ישראל)[he] | נהר אל-חאצבאני (ישראל)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007544383905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007544383905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012337274905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012337274905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007536596705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007536596705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007496496205171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 25.9 km. Manual review required. Kima Id:20580 Name:בוינקסק (רוסיה)",
+        "Updated PrimaryArabFull from 'null' to 'بويناكسك (روسيا)'",
+        "updatePlaceRecord: variants +4: Temir-Khan-Shura (Russia)[la] | Temir Khan Choura (Russia)[la] | Buĭnaksk (Russia)[la] | טעמיר חאן שורא (רוסיה)[he]"
+      ]
+    }
+  ],
+  "newSummary": [
+    {
+      "item": {
+        "recordId": "987007537119705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007537119705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007407537405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007407537405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007555273305171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007555273305171 (קילפואה (צ'ילה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007491846505171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007491846505171 (בלוקטון (וסט בלוקטון, אלבמה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007559733505171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007559733505171 (בונהם (טקסס))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007564727305171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007564727305171 (נוישטיפט אים שטובייטל (אוסטריה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007567685005171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007567685005171 (דז'וגה (אזרבייג'ן))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007557876605171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007557876605171 (סובריה מנלי (איטליה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007562023405171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007562023405171 (ביג רפידס (מישיגן))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007564493605171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007564493605171 (ג'פרסונטאון (קנטקי))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007564559205171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007564559205171 (צ'יודה-קו (טוקיו, יפן))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007566959505171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007566959505171 (הרווארד (מסצ'וסטס))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014616961805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014616961805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007284506005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007284506005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007295669505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007295669505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007402188905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007402188905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007532848505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007532848505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007540012505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007540012505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007540021105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007540021105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007541917505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007541917505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007549780605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007549780605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007559150005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007559150005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007570221605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007570221605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007570441805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007570441805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007581442405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007581442405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007585907505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007585907505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007599965805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007599965805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007465753305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007465753305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007475713405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007475713405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007477974105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007477974105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007550244405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007550244405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007533006905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007533006905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007554996405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007554996405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007542760205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007542760205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007562612105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007562612105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007533195905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007533195905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007557989305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007557989305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007557987205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007557987205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007559906205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007559906205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007557690605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007557690605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007557747305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007557747305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007557747605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007557747605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012340572605171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987012340572605171 (אואנגה סאם (מונגוליה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012851974405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012851974405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012847773305171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987012847773305171 (אגירדיר (טורקיה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012882072405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012882072405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013290983005171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987013290983005171 (כמאליה (ארזינג'אן אילי, טורקיה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013215306205171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987013215306205171 (סלאפי (סטרדוססקי קרא, צ'כיה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013290997605171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987013290997605171 (אושאק (טורקיה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013291160905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013291160905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013220196005171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987013220196005171 (אולוץ (פולין))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013294734905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013294734905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013294740305171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987013294740305171 (סאו ז'ואו דה בואה ויסטה (סאו פאולו, ברזיל))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013508125205171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987013508125205171 (לוונגו (ממלכה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013587231105171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987013587231105171 (פאפיליס (ליטא))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013801013505171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987013801013505171 (בבושקין (בוריאטיה, רוסיה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013901330505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013901330505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014011366205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014011366205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014202536305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014202536305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014336700105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014336700105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014336699205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014336699205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014336699305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014336699305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014344802805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014344802805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014344802305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014344802305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014348484605171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987014348484605171 (הריסבורג (וירג'יניה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014407363905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014407363905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014407368705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014407368705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014407364105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014407364105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014407367605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014407367605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014407074605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014407074605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014459828705171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987014459828705171 (ניולטון (לואיזיאנה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014459828905171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987014459828905171 (מונטיסלו (ג'ורג'יה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014613380305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014613380305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014636473005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014636473005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014636475005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014636475005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014636188405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014636188405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014636192605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014636192605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014636194005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014636194005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014636472305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014636472305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014636475705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014636475705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014636192105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014636192105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014636471005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014636471005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014636476005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014636476005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007555480305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007555480305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007555480405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007555480405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007547548205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007547548205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007537833805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007537833805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007531117705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007531117705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007530980105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007530980105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007537949005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007537949005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007567315105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007567315105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007531020005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007531020005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007557430505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007557430505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007567634605171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007567634605171 (קוקו (חוף השנהב))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007557990505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007557990505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007566916705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007566916705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987011507975405171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987011507975405171 (נובה הרדי (צ'כיה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012331767805171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987012331767805171 (ג'וב (אלג'יריה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012939867805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012939867805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013179014605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013179014605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013291172805171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987013291172805171 (סורגון (יוזגט אילי, טורקיה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013291157505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013291157505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013294741205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013294741205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013331816405171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987013331816405171 (סומיני (פולין))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013435614605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013435614605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013475863405171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987013475863405171 (דיאקובצה (סלובקיה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013711505105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013711505105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013771818205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013771818205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013771803805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013771803805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013893941105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013893941105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013807484505171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987013807484505171 (צ'רמחובו (מחוז אירקוטסק, רוסיה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013787265205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013787265205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013901236205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013901236205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013901330805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013901330805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014336699905171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987014336699905171 (אז זומה (סודאן))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014274077205171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987014274077205171 (אזינה (טורקיה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014407364305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014407364305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014459133805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014459133805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014636194205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014636194205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014636189405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014636189405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014636191205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014636191205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014636471205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014636471205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014636473905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014636473905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014636187805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014636187805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014636195405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014636195405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014636474205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014636474205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014636478905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014636478905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014636191505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014636191505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014636192305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014636192305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014636189605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014636189605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014636194605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014636194605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014636476905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014636476905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014636480005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014636480005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014636187505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014636187505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014636193205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014636193205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007537334805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007537334805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    }
+  ],
+  "requireReviewSummary": [
+    {
+      "item": {
+        "recordId": "987011383045805171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 40.3 km. Manual review required. Kima Id:77231 Name:באיאנטומן סום (מונגוליה)",
+        "Updated PrimaryArabFull from 'null' to 'بايانتومين سوم (منغوليا)'",
+        "Updated ViafId from 'null' to '6412156223627805400009'",
+        "updatePlaceRecord: variants +3: Dornod Aĭmgiĭn Bai︠a︡ntu̇mėn Sum (Mongolia)[la] | Doronadu Ayimaġ-un Bayantu̇men Sumu (Mongolia)[la] | Bayantu̇men Sumu (Mongolia)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007467841005171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 20.4 km. Manual review required. Kima Id:77980 Name:נהר שניר (ישראל)",
+        "Updated PrimaryHebFull from 'נהר שניר (ישראל)' to 'נחל שניר (ישראל)'",
+        "updatePlaceRecord: variants +22: Snir River (Israel)[la] | Naḥal Senir (Israel)[la] | Naḥal Snir (Israel)[la] | Hasbani River[la] | Hasbani-Wazzani River[la] | Hasbany River[la] | Ḥāṣibānī River[la] | Hatsbani River[la] | Haz̲bani River[la] | Naḥal Śenir[la] | Nahal Snir[la] | Nahr al-Ḥāṣbānī[la] | Nahr al Ḥāṣibānī[la] | Nahr el Haz̲bani[la] | Nahr Hasbany[la] | Śenir River[la] | Snir River[la] | Snir Stream[la] | נחל חצבני (ישראל)[he] | חצבני (ישראל)[he] | חצבאני (ישראל)[he] | נהר אל-חאצבאני (ישראל)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007496496205171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 25.9 km. Manual review required. Kima Id:20580 Name:בוינקסק (רוסיה)",
+        "Updated PrimaryArabFull from 'null' to 'بويناكسك (روسيا)'",
+        "updatePlaceRecord: variants +4: Temir-Khan-Shura (Russia)[la] | Temir Khan Choura (Russia)[la] | Buĭnaksk (Russia)[la] | טעמיר חאן שורא (רוסיה)[he]"
+      ]
+    }
+  ],
+  "failedSummary": [],
+  "requireReviewItems": [
+    {
+      "item": {
+        "recordId": "987011383045805171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 40.3 km. Manual review required. Kima Id:77231 Name:באיאנטומן סום (מונגוליה)",
+        "Updated PrimaryArabFull from 'null' to 'بايانتومين سوم (منغوليا)'",
+        "Updated ViafId from 'null' to '6412156223627805400009'",
+        "updatePlaceRecord: variants +3: Dornod Aĭmgiĭn Bai︠a︡ntu̇mėn Sum (Mongolia)[la] | Doronadu Ayimaġ-un Bayantu̇men Sumu (Mongolia)[la] | Bayantu̇men Sumu (Mongolia)[la]"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01944nz  a2200313n  4500</leader><controlfield tag=\"005\">20260531111137.0</controlfield><controlfield tag=\"008\">190626n| azannaabn          |a ana     c</controlfield><controlfield tag=\"001\">987011383045805171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">no2019094000</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q3404293</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">6412156223627805400009</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">E1145501</subfield><subfield code=\"e\">E1145501</subfield><subfield code=\"f\">N0480030</subfield><subfield code=\"g\">N0480030</subfield><subfield code=\"2\">geonames</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">(OCoLC)oca12206621</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">(DLC)no2019094000</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">(LIBRARY_OF_CONGRESS)9812236145900041</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">WaBeW</subfield><subfield code=\"b\">mul</subfield><subfield code=\"e\">rda</subfield><subfield code=\"c\">WaBeW</subfield></datafield><datafield tag=\"043\" ind1=\" \" ind2=\" \"><subfield code=\"a\">a-mp---</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Bai︠a︡ntu̇mėn Sum (Mongolia)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">באיאנטומן סום (מונגוליה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">بايانتومين سوم (منغوليا)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"368\" ind1=\" \" ind2=\" \"><subfield code=\"b\">Administrative and political divisions</subfield><subfield code=\"2\">lcsh</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Mongolia</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"e\">Dornod Aĭmag (Mongolia)</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Dornod Aĭmgiĭn Bai︠a︡ntu̇mėn Sum (Mongolia)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Doronadu Ayimaġ-un Bayantu̇men Sumu (Mongolia)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Bayantu̇men Sumu (Mongolia)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Mongolyn Gazarzu̇ĭn nėriĭn tovch tolʹ bichig, 2006:</subfield><subfield code=\"b\">(Dornod aĭmgiĭn Sumd: ... Bai︠a︡ntu̇mėn Sum [in romanized Mongolian script: Doronadu Ayimaġ-un Bayantu̇men Sumu]; sum center: T︠S︡agaandėrs 48°04ʹN, 112°22ʹ)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">GEOnet names server online, searched June 26, 2019</subfield><subfield code=\"b\">(Bayantümen Sum; in Dornod; ADM2; 48°00ʹ30ʺN, 114°55ʹ01ʺE)</subfield></datafield><datafield tag=\"781\" ind1=\" \" ind2=\"0\"><subfield code=\"z\">Mongolia</subfield><subfield code=\"z\">Bai︠a︡ntu̇mėn Sum</subfield></datafield></record>\n"
+    },
+    {
+      "item": {
+        "recordId": "987007467841005171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 20.4 km. Manual review required. Kima Id:77980 Name:נהר שניר (ישראל)",
+        "Updated PrimaryHebFull from 'נהר שניר (ישראל)' to 'נחל שניר (ישראל)'",
+        "updatePlaceRecord: variants +22: Snir River (Israel)[la] | Naḥal Senir (Israel)[la] | Naḥal Snir (Israel)[la] | Hasbani River[la] | Hasbani-Wazzani River[la] | Hasbany River[la] | Ḥāṣibānī River[la] | Hatsbani River[la] | Haz̲bani River[la] | Naḥal Śenir[la] | Nahal Snir[la] | Nahr al-Ḥāṣbānī[la] | Nahr al Ḥāṣibānī[la] | Nahr el Haz̲bani[la] | Nahr Hasbany[la] | Śenir River[la] | Snir River[la] | Snir Stream[la] | נחל חצבני (ישראל)[he] | חצבני (ישראל)[he] | חצבאני (ישראל)[he] | נהר אל-חאצבאני (ישראל)[he]"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>08937nz  a2200625n  4500</leader><controlfield tag=\"005\">20260601102513.0</controlfield><controlfield tag=\"008\">120420|||a|z||babn|||||||||| | a|||||||d</controlfield><controlfield tag=\"001\">987007467841005171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">sh2024001637</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q1432225</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">35.68775</subfield><subfield code=\"e\">35.68775</subfield><subfield code=\"f\">33.41411111</subfield><subfield code=\"g\">33.41411111</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-001076467</subfield></datafield><datafield tag=\"072\" ind1=\" \" ind2=\"7\"><subfield code=\"a\">H 1145.5</subfield><subfield code=\"2\">lcsh</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Senir River (Israel)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">נחל שניר (ישראל)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">نهر الحاصباني (إسرائيل)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Israel</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Snir River (Israel)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Naḥal Senir (Israel)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Naḥal Snir (Israel)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Hasbani River</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Hasbani-Wazzani River</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Hasbany River</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Ḥāṣibānī River</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Hatsbani River</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Haz̲bani River</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Naḥal Śenir</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Nahal Snir</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Nahr al-Ḥāṣbānī</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Nahr al Ḥāṣibānī</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Nahr el Haz̲bani</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Nahr Hasbany</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Śenir River</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Snir River</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Snir Stream</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">נחל חצבני (ישראל)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">חצבני (ישראל)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">חצבאני (ישראל)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">נהר אל-חאצבאני (ישראל)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"550\" ind1=\" \" ind2=\" \"><subfield code=\"w\">g</subfield><subfield code=\"a\">Rivers</subfield><subfield code=\"z\">Israel</subfield><subfield code=\"z\">Golan Heights</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"550\" ind1=\" \" ind2=\" \"><subfield code=\"w\">g</subfield><subfield code=\"a\">Rivers</subfield><subfield code=\"z\">Israel</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Heading changed by NLI</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Heading created by NLI</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">GNS, July 5, 2024</subfield><subfield code=\"b\">(Nahr al Ḩāşbānī (approved); Naẖal Senir (approved); variants: Hatsbani River; Jourdain; Nahr al Ḩāşibānī; Nahr el Haẕbani; Nahr Hasbany; נחל שניר = Naḥal Śenir; نهر الحاصباني = Nahr al-Ḥāṣbānī; stream in Israel, Lebanon, and Syria; latitude 33:11:14, longitude 35:37:07; decimal latitude 33.187303, decimal longitude 35.618724; also listing for Nahr al Wazzānī, section of stream, Lebanon, Nabatîyé Governorate; Jourdain is also a variant name for Jordan River)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Wikipedia, July 5, 2024:</subfield><subfield code=\"b\">Hasbani River (The Hasbani (Arabic: الحاصباني = al-Ḥāṣbānī; Hebrew: חצבני = Ḥatzbaní) or Snir Stream (Hebrew: נחל שניר = Naḥal Śenir), is the major tributary of the Jordan River. Native people in the mid-19th century knew the Hasbani as the Upper Jordan River; The Hasbani runs for 25 mi (40 km) through the Wadi al-Taym in Lebanon before crossing the border at Ghajar and shortly after joining with the Banias and Dan Rivers at a point in northern Israel, to form the River Jordan. For about 4 km (2.5 mi) downstream of Ghajar, the Hasbani forms the border between Lebanon and the Golan Heights; The Hasbani River derives most of its discharge from two springs in Lebanon, the Wazzani and the Haqzbieh, the latter being a group of springs on the uppermost Hasbani)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Britannica online website, July 5, 2024:</subfield><subfield code=\"b\">in article on the Jordan River (Ḥāṣbānī, river, Lebanon; the Ḥāṣbānī, which rises in Lebanon at an elevation of 1,800 feet)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Snir Stream Nature Reserve, via Israel Nature and Parks Authority website, July 5, 2024</subfield><subfield code=\"b\">(the Snir Stream (Hatsbani) is the longest of the Jordan River tributaries)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Nahal Snir (Hasbani River), via inisrael website, July 5, 2024</subfield><subfield code=\"b\">(Nahal Snir (Hasbani River); Nahal Snir (Hasbani) is the longest in the sources of the Jordan)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Hasbani-Wazzani River, the northern tributary of the shared Jordan River, map, via ResearchGate website, July 5, 2024</subfield><subfield code=\"b\">(Hasbani-Wazzani River)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Shentsis, Isabella. Assessing water withdrawals in scarce-data transboundary areas by use of dynamic precipitation-flow relationships, in Water, v. 13(11), 1440 (2021), viewed online July 8, 2024:</subfield><subfield code=\"b\">p. 2 (The Hasbani River (named Snir in Israel) is one of the major tributaries of the Upper Jordan River)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Inventory of shared water resources in Western Asia, via WWW, July 8, 2024:</subfield><subfield code=\"b\">Surface water &gt; Jordan River basin (The Jordan River headwaters (Hasbani, Banias and Dan) are fed by groundwater and seasonal surface runoff. The Lower Jordan River originally received its main inflow from the outlet of Lake Tiberias and the Yarmouk River, the largest tributary, as well as from several wadis and aquifers. The flow of the Upper Jordan River into Lake Tiberias remains nearly natural)</subfield><subfield code=\"u\">http://waterinventory.org/surface_water/jordan-river-basin</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">The Canadian Jewish news, Sept. 24, 2009, viewed via ProQuest, July 8, 2024:</subfield><subfield code=\"b\">p. 10 (Since 2002, Lebanon has been redirecting waters from the Wazzani River to villages in its south. The Wazzani runs into the Hatsbani, which in turn feeds the Jordan River, the Kinneret's largest single source. The Hatsbani provides the Jordan with 25 per cent of its water)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">ויקיפדיה, נצפה 26 ינואר 2021</subfield><subfield code=\"b\">(נַחַל שְׂנִיר [ידוע גם בשם חצבני או חצבאני כשמו הערבי] הוא אחד ממקורות הירדן, והארוך מביניהם. רובו של הנחל נמצא בתחומי לבנון, ורק חלקו התחתון, מאזור הכפר ע'ג'ר ועד לנקודת חיבורו עם נחל דן ונחל חרמון ליד קיבוץ שדה נחמיה באצבע הגליל, נמצא בתחום מדינת ישראל. בנקודת המפגש עם הנחלים האחרים הם יוצרים את נהר הירדן. חלק מהנחל בסמוך למעיין ברוך הוא שמורת טבע. הוא אחד הנחלים הארוכים במדינת ישראל.)</subfield><subfield code=\"u\">https://he.wikipedia.org/wiki/%D7%A0%D7%97%D7%9C_%D7%A9%D7%A0%D7%99%D7%A8</subfield></datafield><datafield tag=\"781\" ind1=\" \" ind2=\"0\"><subfield code=\"z\">Israel</subfield><subfield code=\"z\">Senir River</subfield></datafield><datafield tag=\"933\" ind1=\" \" ind2=\" \"><subfield code=\"a\">cnr 202101</subfield></datafield></record>\n"
+    },
+    {
+      "item": {
+        "recordId": "987007496496205171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 25.9 km. Manual review required. Kima Id:20580 Name:בוינקסק (רוסיה)",
+        "Updated PrimaryArabFull from 'null' to 'بويناكسك (روسيا)'",
+        "updatePlaceRecord: variants +4: Temir-Khan-Shura (Russia)[la] | Temir Khan Choura (Russia)[la] | Buĭnaksk (Russia)[la] | טעמיר חאן שורא (רוסיה)[he]"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01556nz  a2200313n  4500</leader><controlfield tag=\"005\">20260602103421.0</controlfield><controlfield tag=\"008\">010925n||acannaabn          |a ana    |c</controlfield><controlfield tag=\"001\">987007496496205171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">no2001076270</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q132931</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">135202283</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">047.723938</subfield><subfield code=\"e\">047.1450051</subfield><subfield code=\"f\">042.8355310</subfield><subfield code=\"g\">042.7914830</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">(OCoLC)oca05589444</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-001061663</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">NNC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">NNC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Buynaksk (Russia)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">בוינקסק (רוסיה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">بويناكسك (روسيا)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Russia (Federation)</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Temir-Khan-Shura (Russia)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Temir Khan Choura (Russia)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Buĭnaksk (Russia)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">טעמיר חאן שורא (רוסיה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Temir-Khan-Shura, 1992:</subfield><subfield code=\"b\">t.p. (Temir-Khan-Shura; Buĭnaksk)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">GEOnet, 24 Sept. 2001</subfield><subfield code=\"b\">(under Russia: Buynaksk; PPL; 42p0s49'34\"N 047p0s07'21\"E; variants: Temir-Khan-Shura; Temir Khan Choura; Buinaksk)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">About Dagestan WWW homepage, 24 Sept. 2001</subfield><subfield code=\"b\">(Buinaksk; used to be administrative center of Dagestan; former name: Temir-Khan-Shura)</subfield></datafield><datafield tag=\"933\" ind1=\" \" ind2=\" \"><subfield code=\"a\">BNR 202606</subfield></datafield></record>\n"
+    }
+  ],
+  "failedItems": []
+}

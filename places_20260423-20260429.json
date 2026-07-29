@@ -1,0 +1,305 @@
+{
+  "type": "Place",
+  "runTime": "2026-07-20T19:26:53.5161908Z",
+  "period": "20260423-20260429",
+  "numProcessedItems": 1169,
+  "numModifiedItems": 2,
+  "numNewItems": 26,
+  "numReviewItems": 1,
+  "numFailedItems": 0,
+  "modifiedSummary": [
+    {
+      "item": {
+        "recordId": "987007539171305171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 2083.6 km. Manual review required. Kima Id:14920 Name:איהול (הודו)",
+        "Updated PrimaryHebFull from 'איהול (הודו)' to 'איהול (קרנטקה, הודו)'",
+        "Updated PrimaryRomFull from 'Aihol (India)' to 'Aihole (Karnataka, India)'",
+        "Updated PrimaryArabFull from 'null' to 'أيهول (كارناتاكا، الهند)'",
+        "updatePlaceRecord: variants +2: Aihol (India)[la] | Aihoḷe (India)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007560460205171"
+      },
+      "result": "Success",
+      "messages": [
+        "Coordinates added: Lat=31.416666666666668, Lon=34.333333333333336",
+        "Updated Wd from 'null' to 'Q39760'",
+        "updatePlaceRecord: variants +3: Gaza Strip Region[la] | Qiṭāʻ Ghazzah[la] | Retsuʻat ʻAzah[la]"
+      ]
+    }
+  ],
+  "newSummary": [
+    {
+      "item": {
+        "recordId": "987007536799005171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007536799005171 (מיליקנס בנד (לואיזיאנה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007555002505171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007555002505171 (נורת' מנקטו (מינסוטה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007557499405171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007557499405171 (פנסאוקן (ניו ג'רזי))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007561919505171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007561919505171 (ווטרוויל ואלי (ניו המפשייר))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007564326205171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007564326205171 (הלמסטד (שוודיה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007467591205171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007467591205171 (מאונט ורנון (טקסס))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007496789105171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007496789105171 (קורונל דורגו (ארגנטינה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007552825805171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007552825805171 (מוברלי (מיזורי))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007567635005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007567635005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007567680805171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007567680805171 (מריאטה (אינדיאנה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014459834405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014459834405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007531143005171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007531143005171 (לה קרסנטה (קליפורניה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007534104005171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007534104005171 (מדיסון (ג'ורג'יה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007555216305171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007555216305171 (מניסטי (מישיגן))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007562246405171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007562246405171 (מיליס (מסצ'וסטס : עיירה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007567236405171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007567236405171 (מונרוויל (אינדיאנה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007489439605171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007489439605171 (סולבסבורג (שוודיה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007533548005171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007533548005171 (אקטון (מסצ'וסטס))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007540388605171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007540388605171 (מוריסטאון (מינסוטה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007557753005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007557753005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007562104005171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007562104005171 (מאונט איירי (קרולינה הצפונית))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007552508305171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007552508305171 (מיסטיק (קונטיקט))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007562538705171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007562538705171 (מרגרטוויל (ניו יורק))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007566962305171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007566962305171 (מונקס קורנר (קרולינה הדרומית))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014459833405171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987014459833405171 (זיגלסבאך (היילברון, גרמניה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014459899805171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987014459899805171 (עייתרון (לבנון))"
+      ]
+    }
+  ],
+  "requireReviewSummary": [
+    {
+      "item": {
+        "recordId": "987007539171305171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 2083.6 km. Manual review required. Kima Id:14920 Name:איהול (הודו)",
+        "Updated PrimaryHebFull from 'איהול (הודו)' to 'איהול (קרנטקה, הודו)'",
+        "Updated PrimaryRomFull from 'Aihol (India)' to 'Aihole (Karnataka, India)'",
+        "Updated PrimaryArabFull from 'null' to 'أيهول (كارناتاكا، الهند)'",
+        "updatePlaceRecord: variants +2: Aihol (India)[la] | Aihoḷe (India)[la]"
+      ]
+    }
+  ],
+  "failedSummary": [],
+  "requireReviewItems": [
+    {
+      "item": {
+        "recordId": "987007539171305171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 2083.6 km. Manual review required. Kima Id:14920 Name:איהול (הודו)",
+        "Updated PrimaryHebFull from 'איהול (הודו)' to 'איהול (קרנטקה, הודו)'",
+        "Updated PrimaryRomFull from 'Aihol (India)' to 'Aihole (Karnataka, India)'",
+        "Updated PrimaryArabFull from 'null' to 'أيهول (كارناتاكا، الهند)'",
+        "updatePlaceRecord: variants +2: Aihol (India)[la] | Aihoḷe (India)[la]"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01139cz  a2200229n  4500</leader><controlfield tag=\"005\">20260424074534.0</controlfield><controlfield tag=\"008\">841019n||acannaab|          |a ana    ||</controlfield><controlfield tag=\"001\">987007539171305171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 84144308</subfield><subfield code=\"z\">n 84207353</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">E0755255</subfield><subfield code=\"e\">E0755255</subfield><subfield code=\"f\">N0160108</subfield><subfield code=\"g\">N0160108</subfield><subfield code=\"2\">wikiped</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-001005074</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aihole (Karnataka, India)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">איהול (קרנטקה, הודו)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">أيهول (كارناتاكا، الهند)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aihol (India)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aihoḷe (India)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 034 imported from LCNA/LCSH n84144308 on: 20260219</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">1xx field changed to conform to LCNA form: 20260409</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Annigeri, A. M. Aihoḷe saṃskr̥ti mattu kale, 1974.</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">BGN, 10/16/84</subfield><subfield code=\"b\">(Aihol, ppl, 23p0s56ʹN, 93p0s59ʹE)</subfield></datafield></record>\n"
+    }
+  ],
+  "failedItems": []
+}

@@ -1,0 +1,1180 @@
+{
+  "type": "Place",
+  "runTime": "2026-07-20T14:15:51.9992071Z",
+  "period": "20260129-20260204",
+  "numProcessedItems": 6901,
+  "numModifiedItems": 27,
+  "numNewItems": 78,
+  "numReviewItems": 7,
+  "numFailedItems": 0,
+  "modifiedSummary": [
+    {
+      "item": {
+        "recordId": "987007554898705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007554898705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007283467705171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 143.4 km. Manual review required. Kima Id:1157 Name:האזור הקריבי",
+        "Updated Wd from 'null' to 'Q664609'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007295550905171"
+      },
+      "result": "Success",
+      "messages": [
+        "updatePlaceRecord: variants +1: Arctic, The[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007560966105171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'الولايات الجنوبية (الولايات المتحدة)'",
+        "updatePlaceRecord: variants +5: Southern States (U.S.)[la] | Dixie (U.S. : Region)[la] | South, The[la] | Southeast (U.S.)[la] | United States, Southern[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007554971205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007554971205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007502432005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007502432005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007475118005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007475118005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007531947905171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryRomFull from 'Vértes Mountains (Hungary)' to 'Vértes Mountains (Hungary)'",
+        "Updated PrimaryArabFull from 'null' to 'جبال فيرتس (المجر)'",
+        "updatePlaceRecord: variants +3: Vértes-hegység (Hungary)[la] | ורטש (הונגריה)[he] | וויריטש (הונגריה)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007559949605171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 56.7 km. Manual review required. Kima Id:14681 Name:קיש (גואטמלה)",
+        "Updated PrimaryRomFull from 'Quiché (Guatemala)' to 'Quiché (Guatemala)'",
+        "Updated PrimaryArabFull from 'null' to 'كيشي (غواتيمالا)'",
+        "Updated Wd from 'Q3177464' to 'Q669802'. Manual review required. Kima Id:14681"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007566696105171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryRomFull from 'Bhīlwāra (India)' to 'Bhīlwāra (India)'",
+        "Updated PrimaryArabFull from 'null' to 'بهيلوارا (الهند)'",
+        "Updated Wd from 'null' to 'Q760146'",
+        "Updated ViafId from '130200973' to '248260508'. Manual review required. Kima Id:11779",
+        "updatePlaceRecord: variants +2: Bhīlwārā, India[la] | Bhīlavārā (India)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007549506405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007549506405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007535446405171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryRomFull from 'Baltiĭsk (Russia)' to 'Baltiĭsk (Russia)'",
+        "Updated PrimaryArabFull from 'null' to 'بالتيسك (روسيا)'",
+        "Updated Wd from 'Q2294354' to 'Q5660'. Manual review required. Kima Id:83397",
+        "Updated ViafId from 'null' to '139705817'",
+        "updatePlaceRecord: variants +3: Baltijsk (Russia)[la] | Baltiĭsk (R.S.F.S.R.)[la] | Baltiysk (Russia)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007537042505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007537042505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007559726405171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryRomFull from 'Bolívar (Venezuela : State)' to 'Bolívar (Venezuela : State)'",
+        "Updated PrimaryArabFull from 'null' to 'بوليفار (فنزويلا : الولاية)'",
+        "Updated Wd from 'Q2615175' to 'Q191164'. Manual review required. Kima Id:12178",
+        "updatePlaceRecord: variants +2: Bolívar, Venezuela (State, 1881- )[la] | Guayana (Venezuela)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007561915005171"
+      },
+      "result": "Success",
+      "messages": [
+        "updatePlaceRecord: variants +7: Dumyati (Egypt)[la] | Tamiata (Egypt)[la] | Dumyāṭ (Egypt)[la] | Dimyāṭ (Egypt)[la] | Dumqat (Egypt)[la] | Dumiat (Egypt)[la] | קפוטיקה (מצרים)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007567335505171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryRomFull from 'Zenica (Bosnia and Hercegovina)' to 'Zenica (Bosnia and Herzegovina)'",
+        "Updated PrimaryArabFull from 'null' to 'زينيتشا (البوسنة والهرسك)'",
+        "Updated Wd from 'Q21722311' to 'Q184046'. Manual review required. Kima Id:16997",
+        "updatePlaceRecord: variants +1: Zenica, Yugoslavia[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987009293897505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987009293897505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007531071405171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryRomFull from 'Kawakawa (N.Z.)' to 'Kawakawa (N.Z. : Town)'",
+        "Updated PrimaryArabFull from 'null' to 'كاواكاوا (نيوزيلندا)'",
+        "Updated ViafId from 'null' to '149072865'",
+        "updatePlaceRecord: variants +2: Kawakawa (N.Z.)[la] | Kawakawa Town District (N.Z.)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007547803705171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryRomFull from 'Kolwezi (Congo)' to 'Kolwezi (Democratic Republic of the Congo)'",
+        "Updated PrimaryArabFull from 'null' to 'كولويزي (الكونغو)'",
+        "Updated ViafId from 'null' to '137823186'",
+        "updatePlaceRecord: variants +3: Kolwezi (Congo)[la] | Kolwezi (Zaire)[la] | Kolwezi, Zaire[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007556575005171"
+      },
+      "result": "Success",
+      "messages": [
+        "updatePlaceRecord: variants +5: Susiya Site (West Bank)[la] | Ḥurvat Susya (West Bank)[la] | Khirbat Susiya (West Bank)[la] | Khirbat Susiyah (West Bank)[la] | Susiyah Site (West Bank)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007557882605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007557882605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007559508405171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'ناجيباجوم (المجر)'",
+        "Updated ViafId from 'null' to '126662507'",
+        "updatePlaceRecord: variants +2: Nagybajom, Hungary[la] | באיום (הונגריה)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007489310105171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryRomFull from 'IUzhnoukrainsk (Ukraine)' to 'I︠U︡z︠h︡noukraïnsʹk (Ukraine)'",
+        "Updated PrimaryArabFull from 'null' to 'يوجنوكراينسك (أوكرانيا)'",
+        "Updated ViafId from 'null' to '131540176'",
+        "updatePlaceRecord: variants +2: IUzhnoukrainsk (Ukraine)[la] | Yuzhnoukrainsk (Ukraine)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007535845905171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryRomFull from 'Prešovský kraj (Slovakia)' to 'Prešovský Kraj (Slovakia)'",
+        "Updated PrimaryArabFull from 'null' to 'بريسوفسكي كراج (سلوفاكيا)'",
+        "Updated ViafId from 'null' to '125667021'",
+        "updatePlaceRecord: variants +1: Prešov (Slovakia : Province)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007561961605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007561961605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007597123105171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryRomFull from 'Iles-de-la-Madeleine (Québec)' to 'Les Îles-de-la-Madeleine (Québec)'",
+        "Updated PrimaryArabFull from 'null' to 'إيل دو لا مادلين (كيبيك)'",
+        "updatePlaceRecord: variants +6: Iles-de-la-Madeleine (Québec)[la] | Madeleine Islands (Québec)[la] | Magdalena Islands (Québec)[la] | Iles Madeleine (Québec)[la] | Iles-de-la-Madeleine, Québec[la] | Madeleine, Iles-de-la (Québec)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007566944405171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryRomFull from 'Botosani (Romania)' to 'Botoșani (Romania)'",
+        "Updated PrimaryArabFull from 'null' to 'بوتوساني (رومانيا)'",
+        "Updated Wd from 'Q178855' to 'Q16898131'. Manual review required. Kima Id:683",
+        "updatePlaceRecord: variants +8: Botosani, Romania[la] | Botoshan (Romania)[la] | Botosán (Romania)[la] | בוטושאן (רומניה)[he] | באטשאן (רומניה)[he] | בוטושני (רומניה)[he] | בוטישן (רומניה)[he] | באטישאן (רומניה)[he]"
+      ]
+    }
+  ],
+  "newSummary": [
+    {
+      "item": {
+        "recordId": "987007552695105171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007552695105171 (פצאמו (לפלנד, פינלנד))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007597665405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007597665405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007562641305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007562641305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013219798505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013219798505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013545088605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013545088605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013553547005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013553547005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014291479205171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987014291479205171 (סרנובה (רביץ', מחוז פולין-גדול, פולין))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007559755905171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007559755905171 (מבו (נובה סקוטיה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007564705205171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007564705205171 (רוסוויל (שווייץ))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013553558705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013553558705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013617168505171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987013617168505171 (פגיז קוב (נובה סקוטיה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987014202537505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014202537505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007405852905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007405852905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007537922105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007537922105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007538170105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007538170105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007554430505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007554430505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007540567605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007540567605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007534127505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007534127505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007555389905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007555389905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007559708205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007559708205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007542706405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007542706405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007564624505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007564624505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007565112405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007565112405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007572818805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007572818805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012272143205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012272143205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007555102705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007555102705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007487155205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007487155205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007489403405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007489403405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007533331905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007533331905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007475828505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007475828505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007544854705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007544854705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007535861605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007535861605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007537405305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007537405305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007537901005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007537901005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007540551505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007540551505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007540611505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007540611505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007542591805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007542591805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007544069605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007544069605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007544298405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007544298405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007552691205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007552691205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007557635205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007557635205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007557871505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007557871505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007559536805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007559536805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007561355405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007561355405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007561412805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007561412805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007567240205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007567240205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007572873505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007572873505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007535444605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007535444605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007542366605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007542366605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007560993305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007560993305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007562884905171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007562884905171 (קורבה (הודו))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007565145705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007565145705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007567730105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007567730105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012807076805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012807076805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013619004305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013619004305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007463748705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007463748705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007469730405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007469730405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007469883905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007469883905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007469889305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007469889305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007471617005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007471617005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007535597105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007535597105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007537909005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007537909005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007538173805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007538173805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007540192605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007540192605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007552977705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007552977705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007566702005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007566702005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007566926305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007566926305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007567749605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007567749605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007465762805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007465762805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007469748805171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007469748805171 (דוצ'ה (בולו אילי, טורקיה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007477969405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007477969405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007491843105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007491843105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007535736305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007535736305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007548090005171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007548090005171 (מלכות המשנה של גרנדה החדשה)"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007478061105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007478061105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007559679805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007559679805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007559748105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007559748105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007565275105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007565275105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    }
+  ],
+  "requireReviewSummary": [
+    {
+      "item": {
+        "recordId": "987007283467705171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 143.4 km. Manual review required. Kima Id:1157 Name:האזור הקריבי",
+        "Updated Wd from 'null' to 'Q664609'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007559949605171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 56.7 km. Manual review required. Kima Id:14681 Name:קיש (גואטמלה)",
+        "Updated PrimaryRomFull from 'Quiché (Guatemala)' to 'Quiché (Guatemala)'",
+        "Updated PrimaryArabFull from 'null' to 'كيشي (غواتيمالا)'",
+        "Updated Wd from 'Q3177464' to 'Q669802'. Manual review required. Kima Id:14681"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007566696105171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryRomFull from 'Bhīlwāra (India)' to 'Bhīlwāra (India)'",
+        "Updated PrimaryArabFull from 'null' to 'بهيلوارا (الهند)'",
+        "Updated Wd from 'null' to 'Q760146'",
+        "Updated ViafId from '130200973' to '248260508'. Manual review required. Kima Id:11779",
+        "updatePlaceRecord: variants +2: Bhīlwārā, India[la] | Bhīlavārā (India)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007535446405171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryRomFull from 'Baltiĭsk (Russia)' to 'Baltiĭsk (Russia)'",
+        "Updated PrimaryArabFull from 'null' to 'بالتيسك (روسيا)'",
+        "Updated Wd from 'Q2294354' to 'Q5660'. Manual review required. Kima Id:83397",
+        "Updated ViafId from 'null' to '139705817'",
+        "updatePlaceRecord: variants +3: Baltijsk (Russia)[la] | Baltiĭsk (R.S.F.S.R.)[la] | Baltiysk (Russia)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007559726405171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryRomFull from 'Bolívar (Venezuela : State)' to 'Bolívar (Venezuela : State)'",
+        "Updated PrimaryArabFull from 'null' to 'بوليفار (فنزويلا : الولاية)'",
+        "Updated Wd from 'Q2615175' to 'Q191164'. Manual review required. Kima Id:12178",
+        "updatePlaceRecord: variants +2: Bolívar, Venezuela (State, 1881- )[la] | Guayana (Venezuela)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007567335505171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryRomFull from 'Zenica (Bosnia and Hercegovina)' to 'Zenica (Bosnia and Herzegovina)'",
+        "Updated PrimaryArabFull from 'null' to 'زينيتشا (البوسنة والهرسك)'",
+        "Updated Wd from 'Q21722311' to 'Q184046'. Manual review required. Kima Id:16997",
+        "updatePlaceRecord: variants +1: Zenica, Yugoslavia[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007566944405171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryRomFull from 'Botosani (Romania)' to 'Botoșani (Romania)'",
+        "Updated PrimaryArabFull from 'null' to 'بوتوساني (رومانيا)'",
+        "Updated Wd from 'Q178855' to 'Q16898131'. Manual review required. Kima Id:683",
+        "updatePlaceRecord: variants +8: Botosani, Romania[la] | Botoshan (Romania)[la] | Botosán (Romania)[la] | בוטושאן (רומניה)[he] | באטשאן (רומניה)[he] | בוטושני (רומניה)[he] | בוטישן (רומניה)[he] | באטישאן (רומניה)[he]"
+      ]
+    }
+  ],
+  "failedSummary": [],
+  "requireReviewItems": [
+    {
+      "item": {
+        "recordId": "987007283467705171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 143.4 km. Manual review required. Kima Id:1157 Name:האזור הקריבי",
+        "Updated Wd from 'null' to 'Q664609'"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01219cz  a2200241n  4500</leader><controlfield tag=\"005\">20260131190145.0</controlfield><controlfield tag=\"008\">860211|| anannbabn          |b ana      </controlfield><controlfield tag=\"001\">987007283467705171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">sh 85020279</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q664609</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">-73.300833</subfield><subfield code=\"e\">-73.300833</subfield><subfield code=\"f\">16.256944</subfield><subfield code=\"g\">16.256944</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000657089</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Caribbean Area</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">האזור הקריבי</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">منطقة البحر الكاريبي</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"w\">nne</subfield><subfield code=\"a\">Caribbean Free Trade Association countries</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Caribbean Region</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Caribbean Sea Region</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">West Indies Region</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">MESH</subfield><subfield code=\"b\">(Caribbean Region)</subfield></datafield><datafield tag=\"680\" ind1=\" \" ind2=\" \"><subfield code=\"i\">Here are entered works on the region that lies between continental North and South America and consists of the archipelago of the West Indies, the Caribbean Sea and the adjacent mainland regions, including Southern Mexico, the countries of Central America, Colombia and Venezuela.</subfield></datafield><datafield tag=\"781\" ind1=\" \" ind2=\"0\"><subfield code=\"z\">Caribbean Area</subfield></datafield></record>\n"
+    },
+    {
+      "item": {
+        "recordId": "987007559949605171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 56.7 km. Manual review required. Kima Id:14681 Name:קיש (גואטמלה)",
+        "Updated PrimaryRomFull from 'Quiché (Guatemala)' to 'Quiché (Guatemala)'",
+        "Updated PrimaryArabFull from 'null' to 'كيشي (غواتيمالا)'",
+        "Updated Wd from 'Q3177464' to 'Q669802'. Manual review required. Kima Id:14681"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01233nz  a2200253n  4500</leader><controlfield tag=\"005\">20260202102406.0</controlfield><controlfield tag=\"008\">840730n||acannaab|          |n ana    ||</controlfield><controlfield tag=\"001\">987007559949605171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 84046991</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q669802</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">134914650</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">14.98333333</subfield><subfield code=\"e\">14.98333333</subfield><subfield code=\"f\">-6.283333333</subfield><subfield code=\"g\">-6.283333333</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">W0905500</subfield><subfield code=\"e\">W0905500</subfield><subfield code=\"f\">N0153000</subfield><subfield code=\"g\">N0153000</subfield><subfield code=\"2\">geonames</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-001003395</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">TxU</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Quiché (Guatemala)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">קיש (גואטמלה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">كيشي (غواتيمالا)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Guatemala</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Muñiz B., A. FUNDACED, between 1979 and 1982:</subfield><subfield code=\"b\">leaf 44 (Departament of Quiché) leaf 43 (Guatemala)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Col. Lipp. gaz.</subfield><subfield code=\"b\">(Quiché; Dept. of Guatemala; capital: Quiché)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">BGN request, 7-16-84</subfield><subfield code=\"b\">(Departamento del Quiché [Quiché=brief], 1st order admin. div.; 15p0s30ʹN, 90p0s55ʹW)</subfield></datafield></record>\n"
+    },
+    {
+      "item": {
+        "recordId": "987007566696105171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryRomFull from 'Bhīlwāra (India)' to 'Bhīlwāra (India)'",
+        "Updated PrimaryArabFull from 'null' to 'بهيلوارا (الهند)'",
+        "Updated Wd from 'null' to 'Q760146'",
+        "Updated ViafId from '130200973' to '248260508'. Manual review required. Kima Id:11779",
+        "updatePlaceRecord: variants +2: Bhīlwārā, India[la] | Bhīlavārā (India)[la]"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01242cz  a2200265n  4500</leader><controlfield tag=\"005\">20260202102406.0</controlfield><controlfield tag=\"008\">820218n| acannaabn          |a ana      </controlfield><controlfield tag=\"001\">987007566696105171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 81145798</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q760146</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">248260508</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">74.64083333</subfield><subfield code=\"e\">74.64083333</subfield><subfield code=\"f\">25.34694444</subfield><subfield code=\"g\">25.34694444</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">(OCoLC)oca00690570</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000989486</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">InU</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Bhīlwāra (India)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">בילווארה (הודו)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">بهيلوارا (الهند)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">India</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"w\">nnaa</subfield><subfield code=\"a\">Bhīlwārā, India</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Bhīlavārā (India)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">BGN, 11/14/73</subfield><subfield code=\"b\">(Bhīlwāra, district, 25⁰30ʹN., 74⁰45ʹE.)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Śrīgiradhara līlāmr̥ta, 1984-2001:</subfield><subfield code=\"b\">v. 1, t.p. verso (Bhīlavāṛā)</subfield></datafield></record>\n"
+    },
+    {
+      "item": {
+        "recordId": "987007535446405171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryRomFull from 'Baltiĭsk (Russia)' to 'Baltiĭsk (Russia)'",
+        "Updated PrimaryArabFull from 'null' to 'بالتيسك (روسيا)'",
+        "Updated Wd from 'Q2294354' to 'Q5660'. Manual review required. Kima Id:83397",
+        "Updated ViafId from 'null' to '139705817'",
+        "updatePlaceRecord: variants +3: Baltijsk (Russia)[la] | Baltiĭsk (R.S.F.S.R.)[la] | Baltiysk (Russia)[la]"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01666nz  a2200301n  4500</leader><controlfield tag=\"005\">20260202102407.0</controlfield><controlfield tag=\"008\">930910n||acannaab|          |a ana    ||</controlfield><controlfield tag=\"001\">987007535446405171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 93088626</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q5660</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">139705817</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">19.87833333</subfield><subfield code=\"e\">19.87833333</subfield><subfield code=\"f\">54.64111111</subfield><subfield code=\"g\">54.64111111</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-001033251</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Baltiĭsk (Russia)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">מצר בלטייסק (רוסיה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">بالتيسك (روسيا)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Russia (Federation)</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Baltijsk (Russia)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Baltiĭsk (R.S.F.S.R.)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Baltiysk (Russia)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Ostpreussen-Panorama, 1968:</subfield><subfield code=\"b\">t.p. (Pillau; in Ostpreussen) pref. (after 1945: Baltijsk)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Brockh. Enzyklop.</subfield><subfield code=\"b\">(Pillau; city in East Prussia; Baltic sea-port; after 1945: Baltijsk)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Ėnt︠s︡ikl. slovarʹ geogr. nazvaniĭ, 1973:</subfield><subfield code=\"b\">p. 67 (Baltiĭsk; city in Kaliningradskai︠a︡ oblastʹ, R.S.F.S.R.; until 1946 named Pillau)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Russia and newly independent nations of former USSR [MAP] March, 1993:</subfield><subfield code=\"b\">(Baltiysk)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">BGN 09-01-93</subfield><subfield code=\"b\">(Baltiysk, Russia; variants: Baltijsk; Baltiĭsk; before 1945: Pillau, Germany; Kaliningradsk. Oblast; coord.: 54p0s39ʹN 19p0s55ʹE)</subfield></datafield></record>\n"
+    },
+    {
+      "item": {
+        "recordId": "987007559726405171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryRomFull from 'Bolívar (Venezuela : State)' to 'Bolívar (Venezuela : State)'",
+        "Updated PrimaryArabFull from 'null' to 'بوليفار (فنزويلا : الولاية)'",
+        "Updated Wd from 'Q2615175' to 'Q191164'. Manual review required. Kima Id:12178",
+        "updatePlaceRecord: variants +2: Bolívar, Venezuela (State, 1881- )[la] | Guayana (Venezuela)[la]"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01209nz  a2200253n  4500</leader><controlfield tag=\"005\">20260202102406.0</controlfield><controlfield tag=\"008\">821127n||acannaab|          |a ana    ||</controlfield><controlfield tag=\"001\">987007559726405171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 82119672</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q191164</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">129030242</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">-67.42365</subfield><subfield code=\"e\">-67.42365</subfield><subfield code=\"f\">10.21302</subfield><subfield code=\"g\">10.21302</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000994857</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Bolívar (Venezuela : State)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">בוליבר (ונצואלה : מדינה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">بوليفار (فنزويلا : الولاية)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Venezuela</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"w\">nnaa</subfield><subfield code=\"a\">Bolívar, Venezuela (State, 1881- )</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Guayana (Venezuela)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"551\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Apure (Venezuela)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">BGN req. 7/9/82</subfield><subfield code=\"b\">(Estado Bolívar [Bolívar=brief], ADM1, 6p0s20ʹN 63p0s30ʹW; variant: Guayana)</subfield></datafield></record>\n"
+    },
+    {
+      "item": {
+        "recordId": "987007567335505171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryRomFull from 'Zenica (Bosnia and Hercegovina)' to 'Zenica (Bosnia and Herzegovina)'",
+        "Updated PrimaryArabFull from 'null' to 'زينيتشا (البوسنة والهرسك)'",
+        "Updated Wd from 'Q21722311' to 'Q184046'. Manual review required. Kima Id:16997",
+        "updatePlaceRecord: variants +1: Zenica, Yugoslavia[la]"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01508cz  a2200301n  4500</leader><controlfield tag=\"005\">20260202102406.0</controlfield><controlfield tag=\"008\">880906n| acannaabn          |a ana      </controlfield><controlfield tag=\"001\">987007567335505171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 88142022</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q184046</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">137312124</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">17.36472222</subfield><subfield code=\"e\">17.36472222</subfield><subfield code=\"f\">44.68666667</subfield><subfield code=\"g\">44.68666667</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">(OCoLC)oca02354763</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-001019997</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">WaU</subfield></datafield><datafield tag=\"043\" ind1=\" \" ind2=\" \"><subfield code=\"a\">e-bn---</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Zenica (Bosnia and Herzegovina)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">זניקה (בוסניה והרצגובינה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">زينيتشا (البوسنة والهرسك)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Bosnia and Herzegovina</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"w\">nnaa</subfield><subfield code=\"a\">Zenica, Yugoslavia</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Salih, J. Bibliografija radova o istoriji Zenice, 1985:</subfield><subfield code=\"b\">t.p. (... Zenice)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">LC data base, 9-1-88</subfield><subfield code=\"b\">(hdg.: Zenica, Yugoslavia)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Im. mesta u Jug., 1973</subfield><subfield code=\"b\">(Zenica, opština Zenica, BiH; lists also Zenica, opština Pljevlja, Crna Gora)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Gaz. of Yug., 1983</subfield><subfield code=\"b\">(Zenica, ppl 44⁰ 13ʹ N 17⁰ 55ʹ E Y001)</subfield></datafield><datafield tag=\"781\" ind1=\" \" ind2=\"0\"><subfield code=\"z\">Bosnia and Herzegovina</subfield><subfield code=\"z\">Zenica</subfield></datafield></record>\n"
+    },
+    {
+      "item": {
+        "recordId": "987007566944405171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryRomFull from 'Botosani (Romania)' to 'Botoșani (Romania)'",
+        "Updated PrimaryArabFull from 'null' to 'بوتوساني (رومانيا)'",
+        "Updated Wd from 'Q178855' to 'Q16898131'. Manual review required. Kima Id:683",
+        "updatePlaceRecord: variants +8: Botosani, Romania[la] | Botoshan (Romania)[la] | Botosán (Romania)[la] | בוטושאן (רומניה)[he] | באטשאן (רומניה)[he] | בוטושני (רומניה)[he] | בוטישן (רומניה)[he] | באטישאן (רומניה)[he]"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>02242cz  a2200385n  4500</leader><controlfield tag=\"005\">20260204140006.0</controlfield><controlfield tag=\"008\">830418n| acannbab|          |a ana      </controlfield><controlfield tag=\"001\">987007566944405171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 83026156</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q16898131</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">143101655</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">026.6095190</subfield><subfield code=\"e\">026.7092980</subfield><subfield code=\"f\">047.7705485</subfield><subfield code=\"g\">047.7045958</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000998531</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Botoșani (Romania)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">בוטושן (רומניה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">بوتوساني (رومانيا)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Romania</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"w\">nnaa</subfield><subfield code=\"a\">Botosani, Romania</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Botoshan (Romania)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Botosán (Romania)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">בוטושאן (רומניה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">באטשאן (רומניה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">בוטושני (רומניה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">בוטישן (רומניה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">באטישאן (רומניה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record enhanced with cross references from NNL13-000000380</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Greceanu, E. Ansamblul urban medieval Botosani, 1981:</subfield><subfield code=\"b\">t.p. (Botosani) p. vi, etc. (orasul Botosani)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">BGN 12-16-82</subfield><subfield code=\"b\">(Municipiul Botosani, 2d order adm. div. 47⁰0ʹ45N-26⁰0ʹ40E, ppl.; no variants)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Zikhronot ahavah le-ayarat neurai, 2003:</subfield><subfield code=\"b\">t.p. (Botoshan) added t.p. (Botosani [in rom.])</subfield></datafield><datafield tag=\"952\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Romania</subfield><subfield code=\"d\">Botosani</subfield></datafield><datafield tag=\"953\" ind1=\" \" ind2=\" \"><subfield code=\"a\">רומניה</subfield><subfield code=\"d\">בוטושן</subfield></datafield><datafield tag=\"955\" ind1=\" \" ind2=\" \"><subfield code=\"a\">באטשאן BOTOSANI</subfield></datafield></record>\n"
+    }
+  ],
+  "failedItems": []
+}
