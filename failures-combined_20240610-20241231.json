@@ -6,6 +6,11 @@
     "messages": [
       "Failed to fetch MARC XML for place RecordId 987013010638405171. Error: RecordId does not exist in repository"
     ],
-    "manualAction": null
+    "manualAction": {
+      "timestampUtc": "2026-07-30T15:55:34.143Z",
+      "action": "Dismiss",
+      "success": true,
+      "message": "Dismissed — not on NLI nor in Kima"
+    }
   }
 ]
