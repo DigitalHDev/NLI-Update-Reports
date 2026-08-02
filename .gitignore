@@ -1,0 +1,7 @@
+# Secrets — never commit (see Sinai/external-app-manual-fix-integration.md §0)
+Sinai/
+.env
+.env.*
+
+# OS noise
+.DS_Store
