@@ -1,0 +1,205 @@
+{
+  "type": "Place",
+  "runTime": "2026-07-19T17:21:59.2713774Z",
+  "period": "20240923-20240929",
+  "numProcessedItems": 796,
+  "numModifiedItems": 6,
+  "numNewItems": 0,
+  "numReviewItems": 6,
+  "numFailedItems": 0,
+  "modifiedSummary": [
+    {
+      "item": {
+        "recordId": "987007396452205171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Coordinates not updated for place 987007396452205171: 034 hemisphere mismatch ($d=N0433026, $e=N0433026): $d/$e must start with E or W, $f/$g with N or S. Manual review required.",
+        "updatePlaceRecord: no changes for place 987007396452205171"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007413981805171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Coordinates not updated for place 987007413981805171: 034 hemisphere mismatch ($d=N0071200, $e=N0071200): $d/$e must start with E or W, $f/$g with N or S. Manual review required.",
+        "updatePlaceRecord: no changes for place 987007413981805171"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007413982205171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Coordinates not updated for place 987007413982205171: 034 hemisphere mismatch ($d=N0040036, $e=N0040036): $d/$e must start with E or W, $f/$g with N or S. Manual review required.",
+        "Updated Wd from 'null' to 'Q28909349'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007413982305171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Coordinates not updated for place 987007413982305171: 034 hemisphere mismatch ($d=N0041948, $e=N0041948): $d/$e must start with E or W, $f/$g with N or S. Manual review required.",
+        "updatePlaceRecord: variants +1: כראנדו (מרוקו)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007316240605171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Coordinates not updated for place 987007316240605171: 034 hemisphere mismatch ($d=N0440436, $e=N0440436): $d/$e must start with E or W, $f/$g with N or S. Manual review required.",
+        "updatePlaceRecord: no changes for place 987007316240605171"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007413983005171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Coordinates not updated for place 987007413983005171: 034 hemisphere mismatch ($d=N0080900, $e=N0080900): $d/$e must start with E or W, $f/$g with N or S. Manual review required.",
+        "updatePlaceRecord: no changes for place 987007413983005171"
+      ]
+    }
+  ],
+  "newSummary": [],
+  "requireReviewSummary": [
+    {
+      "item": {
+        "recordId": "987007396452205171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Coordinates not updated for place 987007396452205171: 034 hemisphere mismatch ($d=N0433026, $e=N0433026): $d/$e must start with E or W, $f/$g with N or S. Manual review required.",
+        "updatePlaceRecord: no changes for place 987007396452205171"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007413981805171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Coordinates not updated for place 987007413981805171: 034 hemisphere mismatch ($d=N0071200, $e=N0071200): $d/$e must start with E or W, $f/$g with N or S. Manual review required.",
+        "updatePlaceRecord: no changes for place 987007413981805171"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007413982205171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Coordinates not updated for place 987007413982205171: 034 hemisphere mismatch ($d=N0040036, $e=N0040036): $d/$e must start with E or W, $f/$g with N or S. Manual review required.",
+        "Updated Wd from 'null' to 'Q28909349'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007413982305171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Coordinates not updated for place 987007413982305171: 034 hemisphere mismatch ($d=N0041948, $e=N0041948): $d/$e must start with E or W, $f/$g with N or S. Manual review required.",
+        "updatePlaceRecord: variants +1: כראנדו (מרוקו)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007316240605171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Coordinates not updated for place 987007316240605171: 034 hemisphere mismatch ($d=N0440436, $e=N0440436): $d/$e must start with E or W, $f/$g with N or S. Manual review required.",
+        "updatePlaceRecord: no changes for place 987007316240605171"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007413983005171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Coordinates not updated for place 987007413983005171: 034 hemisphere mismatch ($d=N0080900, $e=N0080900): $d/$e must start with E or W, $f/$g with N or S. Manual review required.",
+        "updatePlaceRecord: no changes for place 987007413983005171"
+      ]
+    }
+  ],
+  "failedSummary": [],
+  "requireReviewItems": [
+    {
+      "item": {
+        "recordId": "987007396452205171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Coordinates not updated for place 987007396452205171: 034 hemisphere mismatch ($d=N0433026, $e=N0433026): $d/$e must start with E or W, $f/$g with N or S. Manual review required.",
+        "updatePlaceRecord: no changes for place 987007396452205171"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01034nz  a2200181n  4500</leader><controlfield tag=\"005\">20240924143434.0</controlfield><controlfield tag=\"008\">180906nabazcnnbabn|||||||||| b |nc|||||d</controlfield><controlfield tag=\"001\">987007396452205171</controlfield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">N0433026</subfield><subfield code=\"e\">N0433026</subfield><subfield code=\"f\">N0131601</subfield><subfield code=\"g\">N0131601</subfield><subfield code=\"2\">geonames</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-005079263</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"b\">mul</subfield><subfield code=\"e\">rda</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Mawza (Yemen)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">מוזע (תימן)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">موزع (اليمن)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Heading created by NLI</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Geographical names, viewed 6 September 2018</subfield><subfield code=\"b\">(This page presents the geographical name data for Mawza' in Yemen, as supplied by the US military intelligence in electronic format, including the geographic coordinates and place name in various forms, latin, roman and native characters, and its location in its respective country's administrative division.)</subfield><subfield code=\"u\">https://geographic.org/geographic_names/name.php?uni=-4508894&amp;fid=6723&amp;c=yemen</subfield></datafield><datafield tag=\"921\" ind1=\" \" ind2=\" \"><subfield code=\"a\">css 201809</subfield></datafield><datafield tag=\"933\" ind1=\" \" ind2=\" \"><subfield code=\"a\">aem 201809</subfield></datafield></record>\n"
+    },
+    {
+      "item": {
+        "recordId": "987007413981805171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Coordinates not updated for place 987007413981805171: 034 hemisphere mismatch ($d=N0071200, $e=N0071200): $d/$e must start with E or W, $f/$g with N or S. Manual review required.",
+        "updatePlaceRecord: no changes for place 987007413981805171"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01136nz  a2200193n  4500</leader><controlfield tag=\"005\">20240924143437.0</controlfield><controlfield tag=\"008\">180607nabazcnnbabn|||||||||| b |nc|||||d</controlfield><controlfield tag=\"001\">987007413981805171</controlfield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q587068</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">N0071200</subfield><subfield code=\"e\">N0071200</subfield><subfield code=\"f\">N0303448</subfield><subfield code=\"g\">N0303448</subfield><subfield code=\"2\">geonames</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-005017006</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"b\">mul</subfield><subfield code=\"e\">rda</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Taznakht (Morocco)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">טזנכט (מרוקו)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">تازناخت (المغرب)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Heading created by NLI for CAHJP</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Temporary note</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Geographical Names, viewed 7 June 2018</subfield><subfield code=\"b\">(This page presents the geographical name data for Taznakht in Morocco, as supplied by the US military intelligence in electronic format, including the geographic coordinates and place name in various forms, latin, roman and native characters, and its location in its respective country's administrative division. )</subfield><subfield code=\"u\">https://geographic.org/geographic_names/name.php?uni=9172160&amp;fid=3925&amp;c=morocco</subfield></datafield><datafield tag=\"921\" ind1=\" \" ind2=\" \"><subfield code=\"a\">css 201806</subfield></datafield></record>\n"
+    },
+    {
+      "item": {
+        "recordId": "987007413982205171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Coordinates not updated for place 987007413982205171: 034 hemisphere mismatch ($d=N0040036, $e=N0040036): $d/$e must start with E or W, $f/$g with N or S. Manual review required.",
+        "Updated Wd from 'null' to 'Q28909349'"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01146nz  a2200205n  4500</leader><controlfield tag=\"005\">20240924143435.0</controlfield><controlfield tag=\"008\">180607nabazcnnbabn|||||||||| b |nc|||||d</controlfield><controlfield tag=\"001\">987007413982205171</controlfield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q28909349</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">N0040036</subfield><subfield code=\"e\">N0040036</subfield><subfield code=\"f\">N0330336</subfield><subfield code=\"g\">N0330336</subfield><subfield code=\"2\">geonames</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-005017002</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"b\">mul</subfield><subfield code=\"e\">rda</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Missour (Morocco)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">מיסור (מרוקו)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">ميسور (المغرب)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Heading created by NLI for CAHJP</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Temporary note</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Geographical Names, viewed 7 June 2018</subfield><subfield code=\"b\">(This page presents the geographical name data for Missour in Morocco, as supplied by the US military intelligence in electronic format, including the geographic coordinates and place name in various forms, latin, roman and native characters, and its location in its respective country's administrative division. )</subfield><subfield code=\"u\">https://geographic.org/geographic_names/name.php?uni=-64050&amp;fid=3952&amp;c=morocco</subfield></datafield><datafield tag=\"921\" ind1=\" \" ind2=\" \"><subfield code=\"a\">css 201806</subfield></datafield><datafield tag=\"933\" ind1=\" \" ind2=\" \"><subfield code=\"a\">aem 201806</subfield></datafield></record>\n"
+    },
+    {
+      "item": {
+        "recordId": "987007413982305171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Coordinates not updated for place 987007413982305171: 034 hemisphere mismatch ($d=N0041948, $e=N0041948): $d/$e must start with E or W, $f/$g with N or S. Manual review required.",
+        "updatePlaceRecord: variants +1: כראנדו (מרוקו)[he]"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01232nz  a2200205n  4500</leader><controlfield tag=\"005\">20240924143439.0</controlfield><controlfield tag=\"008\">180607nabazcnnbabn|||||||||| b |nc|||||d</controlfield><controlfield tag=\"001\">987007413982305171</controlfield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">N0041948</subfield><subfield code=\"e\">N0041948</subfield><subfield code=\"f\">N0321348</subfield><subfield code=\"g\">N0321348</subfield><subfield code=\"2\">geonames</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-005017001</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"b\">mul</subfield><subfield code=\"e\">rda</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Kerrando (Morocco)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">קרנדו (מרוקו)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">كراندو (المغرب)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">כראנדו (מרוקו)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Heading created by NLI for CAHJP</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Temporary note</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Geographical Names, viewed 7 June 2018</subfield><subfield code=\"b\">(This page presents the geographical name data for Kerrando in Morocco, as supplied by the US military intelligence in electronic format, including the geographic coordinates and place name in various forms, latin, roman and native characters, and its location in its respective country's administrative division.)</subfield><subfield code=\"u\">https://geographic.org/geographic_names/name.php?uni=-60066&amp;fid=3946&amp;c=morocco</subfield></datafield><datafield tag=\"921\" ind1=\" \" ind2=\" \"><subfield code=\"a\">css 201806</subfield></datafield><datafield tag=\"933\" ind1=\" \" ind2=\" \"><subfield code=\"a\">aem 201806</subfield></datafield></record>\n"
+    },
+    {
+      "item": {
+        "recordId": "987007316240605171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Coordinates not updated for place 987007316240605171: 034 hemisphere mismatch ($d=N0440436, $e=N0440436): $d/$e must start with E or W, $f/$g with N or S. Manual review required.",
+        "updatePlaceRecord: no changes for place 987007316240605171"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>00702nz  a2200181n  4500</leader><controlfield tag=\"005\">20240924143439.0</controlfield><controlfield tag=\"008\">170518nabazcnnbabn|||||||||| b |nc|||||d</controlfield><controlfield tag=\"001\">987007316240605171</controlfield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q20395301</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">N0440436</subfield><subfield code=\"e\">N0440436</subfield><subfield code=\"f\">N0152323</subfield><subfield code=\"g\">N0152323</subfield><subfield code=\"2\">geonames</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-004469050</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"b\">mul</subfield><subfield code=\"e\">rda</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Luluwah (Yemen)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">לולוה (תימן)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">لؤلؤة (اليمن)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Heading created by NLI</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">fallingrain (18.5.2017)</subfield><subfield code=\"u\">http://www.fallingrain.com/world/YM/16/Luluwah.html</subfield></datafield><datafield tag=\"921\" ind1=\" \" ind2=\" \"><subfield code=\"a\">css 201705</subfield></datafield></record>\n"
+    },
+    {
+      "item": {
+        "recordId": "987007413983005171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Coordinates not updated for place 987007413983005171: 034 hemisphere mismatch ($d=N0080900, $e=N0080900): $d/$e must start with E or W, $f/$g with N or S. Manual review required.",
+        "updatePlaceRecord: no changes for place 987007413983005171"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01109nz  a2200193n  4500</leader><controlfield tag=\"005\">20240924143435.0</controlfield><controlfield tag=\"008\">180607nabazcnnbabn|||||||||| b |nc|||||d</controlfield><controlfield tag=\"001\">987007413983005171</controlfield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">N0080900</subfield><subfield code=\"e\">N0080900</subfield><subfield code=\"f\">N0304200</subfield><subfield code=\"g\">N0304200</subfield><subfield code=\"2\">geonames</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-005016994</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"b\">mul</subfield><subfield code=\"e\">rda</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aoulouz (Morocco)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">אולוז (מרוקו)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">أولوز (المغرب)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Heading created by NLI for CAHJP</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Temporary note</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Geographical Names, viewed 7 June 2018</subfield><subfield code=\"b\">(This page presents the geographical name data for Aoulouz in Morocco, as supplied by the US military intelligence in electronic format, including the geographic coordinates and place name in various forms, latin, roman and native characters, and its location in its respective country's administrative division.)</subfield><subfield code=\"u\">https://geographic.org/geographic_names/name.php?uni=-37628&amp;fid=3939&amp;c=morocco</subfield></datafield><datafield tag=\"921\" ind1=\" \" ind2=\" \"><subfield code=\"a\">css 201806</subfield></datafield><datafield tag=\"933\" ind1=\" \" ind2=\" \"><subfield code=\"a\">aem 201806</subfield></datafield></record>\n"
+    }
+  ],
+  "failedItems": []
+}

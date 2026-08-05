@@ -1,8 +1,8 @@
 {
   "type": "Place",
-  "runTime": "2026-07-19T18:12:02.7858399Z",
+  "runTime": "2026-08-03T15:01:09.1059018Z",
   "period": "20241223-20241229",
-  "numProcessedItems": 5357,
+  "numProcessedItems": 5318,
   "numModifiedItems": 0,
   "numNewItems": 18,
   "numReviewItems": 0,
@@ -155,20 +155,20 @@
     },
     {
       "item": {
-        "recordId": "987013178288405171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987013178288405171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987013178288705171"
       },
       "result": "NothingToDo",
       "messages": [
         "Place 987013178288705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013178288405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013178288405171 does not satisfy IsPlaceToUse; skipping"
       ]
     }
   ],

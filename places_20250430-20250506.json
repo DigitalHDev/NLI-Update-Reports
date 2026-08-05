@@ -1,10 +1,10 @@
 {
   "type": "Place",
-  "runTime": "2026-07-20T00:12:54.5024952Z",
+  "runTime": "2026-08-03T19:56:12.2209056Z",
   "period": "20250430-20250506",
-  "numProcessedItems": 57812,
+  "numProcessedItems": 57655,
   "numModifiedItems": 9,
-  "numNewItems": 13,
+  "numNewItems": 11,
   "numReviewItems": 0,
   "numFailedItems": 0,
   "modifiedSummary": [
@@ -65,20 +65,20 @@
     },
     {
       "item": {
-        "recordId": "987007536485805171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007536485805171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007553217705171"
       },
       "result": "NothingToDo",
       "messages": [
         "Place 987007553217705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007536485805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007536485805171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -117,15 +117,6 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987007590342705171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007564477105171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007564477105171 (פיסקו (פרו))"
       ]
     },
     {
@@ -171,15 +162,6 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987013405240605171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987013405243005171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987013405243005171 (ווילקוט (אנגליה))"
       ]
     },
     {

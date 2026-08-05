@@ -1,16 +1,147 @@
 {
   "type": "Place",
-  "runTime": "2026-07-19T19:06:05.9500731Z",
+  "runTime": "2026-08-03T15:08:46.1765584Z",
   "period": "20250108-20250114",
-  "numProcessedItems": 268,
-  "numModifiedItems": 1,
+  "numProcessedItems": 5052,
+  "numModifiedItems": 9,
   "numNewItems": 0,
-  "numReviewItems": 0,
+  "numReviewItems": 2,
   "numFailedItems": 0,
-  "modifiedSummary": [],
+  "modifiedSummary": [
+    {
+      "item": {
+        "recordId": "987007584329105171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 45.3 km. Manual review required. Kima Id:76716 Name:ברוקין (יהודה ושומרון)",
+        "Updated Wd from 'Q286871' to 'Q4119463'. Manual review required. Kima Id:76716",
+        "updatePlaceRecord: variants +2: Bruqin (West Bank)[la] | בורוקין (יהודה ושומרון)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007584329305171"
+      },
+      "result": "Success",
+      "messages": [
+        "updatePlaceRecord: variants +2: Burkin (Birkin, West Bank)[la] | בורקין (יהודה ושומרון)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007292799005171"
+      },
+      "result": "Success",
+      "messages": [
+        "updatePlaceRecord: variants +3: Africa, Black[la] | Africa, Subsaharan[la] | Africa, Tropical[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007551061305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "updatePlaceRecord: no changes for place 987007551061305171"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007555730405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007555730405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007558466705171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'إسكندنافيا'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007588171605171"
+      },
+      "result": "Success",
+      "messages": [
+        "updatePlaceRecord: variants +2: Atni'el (West Bank)[la] | עותניאל (יהודה ושומרון)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007295765005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007295765005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007558086305171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 1343.3 km. Manual review required. Kima Id:75795 Name:אירופה",
+        "updatePlaceRecord: variants +1: Council of Europe countries[la]"
+      ]
+    }
+  ],
   "newSummary": [],
-  "requireReviewSummary": [],
+  "requireReviewSummary": [
+    {
+      "item": {
+        "recordId": "987007584329105171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 45.3 km. Manual review required. Kima Id:76716 Name:ברוקין (יהודה ושומרון)",
+        "Updated Wd from 'Q286871' to 'Q4119463'. Manual review required. Kima Id:76716",
+        "updatePlaceRecord: variants +2: Bruqin (West Bank)[la] | בורוקין (יהודה ושומרון)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007558086305171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 1343.3 km. Manual review required. Kima Id:75795 Name:אירופה",
+        "updatePlaceRecord: variants +1: Council of Europe countries[la]"
+      ]
+    }
+  ],
   "failedSummary": [],
-  "requireReviewItems": [],
+  "requireReviewItems": [
+    {
+      "item": {
+        "recordId": "987007584329105171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 45.3 km. Manual review required. Kima Id:76716 Name:ברוקין (יהודה ושומרון)",
+        "Updated Wd from 'Q286871' to 'Q4119463'. Manual review required. Kima Id:76716",
+        "updatePlaceRecord: variants +2: Bruqin (West Bank)[la] | בורוקין (יהודה ושומרון)[he]"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>02168nz  a2200217n  4500</leader><controlfield tag=\"005\">20250109091335.0</controlfield><controlfield tag=\"008\">191115|||a|z||babn|||||||||| | a|||||||d</controlfield><controlfield tag=\"001\">987007584329105171</controlfield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q4119463</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">35.09944444</subfield><subfield code=\"e\">35.09944444</subfield><subfield code=\"f\">32.07111111</subfield><subfield code=\"g\">32.07111111</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-001909923</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"b\">mul</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Brukin (West Bank)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">ברוקין (יהודה ושומרון)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">برقين (الضفة الغربية)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Bruqin (West Bank)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">בורוקין (יהודה ושומרון)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Heading created by NLI</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">ויקיפדיה, נצפה 6 יולי 2022</subfield><subfield code=\"b\">(בורוקין [תעתיק מדויק: ברוקין] היא עיירה פלסטינית, הממוקמת 13 ק\"מ מערבית לסלפית, שבמחוז סלפית, בצפון יהודה ושומרון. העיירה סמוכה להתנחלות ברוכין.)</subfield><subfield code=\"u\">https://he.wikipedia.org/wiki/%D7%91%D7%95%D7%A8%D7%95%D7%A7%D7%99%D7%9F</subfield></datafield><datafield tag=\"781\" ind1=\" \" ind2=\"0\"><subfield code=\"z\">West Bank</subfield><subfield code=\"z\">Brukin</subfield></datafield><datafield tag=\"933\" ind1=\" \" ind2=\" \"><subfield code=\"a\">cnr 202207</subfield></datafield></record>\n"
+    },
+    {
+      "item": {
+        "recordId": "987007558086305171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 1343.3 km. Manual review required. Kima Id:75795 Name:אירופה",
+        "updatePlaceRecord: variants +1: Council of Europe countries[la]"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>00819cz  a2200241n  4500</leader><controlfield tag=\"005\">20250111185842.0</controlfield><controlfield tag=\"008\">860211|||anannbabn          |b ana      </controlfield><controlfield tag=\"001\">987007558086305171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">sh 85045631</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q46</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">-031.4647999</subfield><subfield code=\"e\">074.3554999</subfield><subfield code=\"f\">082.1673907</subfield><subfield code=\"g\">034.5428000</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000680310</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Europe</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">אירופה</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">أوروبا</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"w\">nne</subfield><subfield code=\"a\">Council of Europe countries</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"551\" ind1=\" \" ind2=\" \"><subfield code=\"w\">g</subfield><subfield code=\"a\">Eastern Hemisphere</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"551\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Eurasia</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"781\" ind1=\" \" ind2=\"0\"><subfield code=\"z\">Europe</subfield></datafield><datafield tag=\"952\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Europe</subfield></datafield><datafield tag=\"953\" ind1=\" \" ind2=\" \"><subfield code=\"a\">אירופה</subfield></datafield><datafield tag=\"955\" ind1=\" \" ind2=\" \"><subfield code=\"a\">אירופה</subfield></datafield></record>\n"
+    }
+  ],
   "failedItems": []
 }

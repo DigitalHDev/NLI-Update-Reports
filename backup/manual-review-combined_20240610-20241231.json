@@ -1,0 +1,73 @@
+[
+  {
+    "period": "20240923-20240929",
+    "track": "Place",
+    "recordId": "987007396452205171",
+    "messages": [
+      "Coordinates not updated for place 987007396452205171: 034 hemisphere mismatch ($d=N0433026, $e=N0433026): $d/$e must start with E or W, $f/$g with N or S. Manual review required.",
+      "updatePlaceRecord: no changes for place 987007396452205171"
+    ],
+    "manualAction": null
+  },
+  {
+    "period": "20240923-20240929",
+    "track": "Place",
+    "recordId": "987007413981805171",
+    "messages": [
+      "Coordinates not updated for place 987007413981805171: 034 hemisphere mismatch ($d=N0071200, $e=N0071200): $d/$e must start with E or W, $f/$g with N or S. Manual review required.",
+      "updatePlaceRecord: no changes for place 987007413981805171"
+    ],
+    "manualAction": null
+  },
+  {
+    "period": "20240923-20240929",
+    "track": "Place",
+    "recordId": "987007413982205171",
+    "messages": [
+      "Coordinates not updated for place 987007413982205171: 034 hemisphere mismatch ($d=N0040036, $e=N0040036): $d/$e must start with E or W, $f/$g with N or S. Manual review required.",
+      "Updated Wd from 'null' to 'Q28909349'"
+    ],
+    "manualAction": null
+  },
+  {
+    "period": "20240923-20240929",
+    "track": "Place",
+    "recordId": "987007413982305171",
+    "messages": [
+      "Coordinates not updated for place 987007413982305171: 034 hemisphere mismatch ($d=N0041948, $e=N0041948): $d/$e must start with E or W, $f/$g with N or S. Manual review required.",
+      "updatePlaceRecord: variants +1: כראנדו (מרוקו)[he]"
+    ],
+    "manualAction": null
+  },
+  {
+    "period": "20240923-20240929",
+    "track": "Place",
+    "recordId": "987007316240605171",
+    "messages": [
+      "Coordinates not updated for place 987007316240605171: 034 hemisphere mismatch ($d=N0440436, $e=N0440436): $d/$e must start with E or W, $f/$g with N or S. Manual review required.",
+      "updatePlaceRecord: no changes for place 987007316240605171"
+    ],
+    "manualAction": null
+  },
+  {
+    "period": "20240923-20240929",
+    "track": "Place",
+    "recordId": "987007413983005171",
+    "messages": [
+      "Coordinates not updated for place 987007413983005171: 034 hemisphere mismatch ($d=N0080900, $e=N0080900): $d/$e must start with E or W, $f/$g with N or S. Manual review required.",
+      "updatePlaceRecord: no changes for place 987007413983005171"
+    ],
+    "manualAction": null
+  },
+  {
+    "period": "20241028-20241103",
+    "track": "Place",
+    "recordId": "987007543674705171",
+    "messages": [
+      "Location supposed to move 2797.7 km. Manual review required. Kima Id:2850 Name:אוקיאניה",
+      "Updated PrimaryArabFull from 'null' to 'أوقيانوسيا'",
+      "Updated Wd from 'Q55643' to 'Q538'. Manual review required. Kima Id:2850"
+    ],
+    "manualAction": null
+  }
+]

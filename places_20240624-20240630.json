@@ -1,14 +1,24 @@
 {
   "type": "Place",
-  "runTime": "2026-07-19T17:07:09.5870076Z",
+  "runTime": "2026-08-03T14:09:39.5532062Z",
   "period": "20240624-20240630",
-  "numProcessedItems": 812,
+  "numProcessedItems": 838,
   "numModifiedItems": 0,
   "numNewItems": 1,
   "numReviewItems": 0,
   "numFailedItems": 0,
   "modifiedSummary": [],
-  "newSummary": [],
+  "newSummary": [
+    {
+      "item": {
+        "recordId": "987007582164305171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007582164305171 (א-זעיים (יהודה ושומרון))"
+      ]
+    }
+  ],
   "requireReviewSummary": [],
   "failedSummary": [],
   "requireReviewItems": [],

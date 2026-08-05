@@ -1,12 +1,12 @@
 {
   "type": "Place",
-  "runTime": "2026-07-20T00:22:32.6638579Z",
+  "runTime": "2026-08-03T20:08:51.9425921Z",
   "period": "20250521-20250527",
-  "numProcessedItems": 18574,
+  "numProcessedItems": 18525,
   "numModifiedItems": 3,
-  "numNewItems": 77,
-  "numReviewItems": 0,
-  "numFailedItems": 1,
+  "numNewItems": 74,
+  "numReviewItems": 1,
+  "numFailedItems": 0,
   "modifiedSummary": [
     {
       "item": {
@@ -111,20 +111,11 @@
     },
     {
       "item": {
-        "recordId": "987007567581305171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007567581305171 (הרצוגנבורג (אוסטריה))"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007567480105171"
       },
-      "result": "Failure",
+      "result": "ManualReview",
       "messages": [
-        "addPlaceRecord: error for place 987007567480105171 after step 3: An error occurred while saving the entity changes. See the inner exception for details. --> Cannot insert duplicate key row in object 'dbo.Places' with unique index 'IX_Places_primary_heb_full'. The duplicate key value is (ברקלי (אנגליה)).\nThe statement has been terminated."
+        "updatePlaceRecord: place 987007567480105171 would repoint onto Kima Id 77192 (currently MAZAL_ID 987007567237905171), but NLI still returns a record for 987007567237905171; refusing to delete. Manual review required."
       ]
     },
     {
@@ -134,6 +125,15 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987013432791405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013432991005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013432991005171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -174,20 +174,11 @@
     },
     {
       "item": {
-        "recordId": "987013432991005171"
+        "recordId": "987013432789805171"
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013432991005171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987013432787105171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987013432787105171 does not satisfy IsPlaceToUse; skipping"
+        "Place 987013432789805171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -197,6 +188,15 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987013432790305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013432990605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013432990605171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -224,15 +224,6 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987013431093505171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987013432789805171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987013432789805171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -278,15 +269,6 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987013432793905171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987013432990605171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987013432990605171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -381,24 +363,6 @@
     },
     {
       "item": {
-        "recordId": "987013432788205171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987013432788205171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987013432793805171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987013432793805171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987013432787905171"
       },
       "result": "NothingToDo",
@@ -408,11 +372,29 @@
     },
     {
       "item": {
+        "recordId": "987013432788205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013432788205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987013432790505171"
       },
       "result": "NothingToDo",
       "messages": [
         "Place 987013432790505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013463818305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013463818305171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -453,20 +435,20 @@
     },
     {
       "item": {
-        "recordId": "987013463818305171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987013463818305171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987013463822105171"
       },
       "result": "NothingToDo",
       "messages": [
         "Place 987013463822105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013463824605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013463824605171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -521,15 +503,6 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987013463824305171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987013463824605171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987013463824605171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -651,6 +624,15 @@
     },
     {
       "item": {
+        "recordId": "987013463934505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013463934505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987013463820305171"
       },
       "result": "NothingToDo",
@@ -674,15 +656,6 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987013463822605171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987013463934505171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987013463934505171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -731,29 +704,29 @@
       ]
     }
   ],
-  "requireReviewSummary": [],
-  "failedSummary": [
+  "requireReviewSummary": [
     {
       "item": {
         "recordId": "987007567480105171"
       },
-      "result": "Failure",
+      "result": "ManualReview",
       "messages": [
-        "addPlaceRecord: error for place 987007567480105171 after step 3: An error occurred while saving the entity changes. See the inner exception for details. --> Cannot insert duplicate key row in object 'dbo.Places' with unique index 'IX_Places_primary_heb_full'. The duplicate key value is (ברקלי (אנגליה)).\nThe statement has been terminated."
+        "updatePlaceRecord: place 987007567480105171 would repoint onto Kima Id 77192 (currently MAZAL_ID 987007567237905171), but NLI still returns a record for 987007567237905171; refusing to delete. Manual review required."
       ]
     }
   ],
-  "requireReviewItems": [],
-  "failedItems": [
+  "failedSummary": [],
+  "requireReviewItems": [
     {
       "item": {
         "recordId": "987007567480105171"
       },
-      "result": "Failure",
+      "result": "ManualReview",
       "messages": [
-        "addPlaceRecord: error for place 987007567480105171 after step 3: An error occurred while saving the entity changes. See the inner exception for details. --> Cannot insert duplicate key row in object 'dbo.Places' with unique index 'IX_Places_primary_heb_full'. The duplicate key value is (ברקלי (אנגליה)).\nThe statement has been terminated."
+        "updatePlaceRecord: place 987007567480105171 would repoint onto Kima Id 77192 (currently MAZAL_ID 987007567237905171), but NLI still returns a record for 987007567237905171; refusing to delete. Manual review required."
       ],
       "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>00924nz  a2200229n  4500</leader><controlfield tag=\"005\">20250523073025.0</controlfield><controlfield tag=\"008\">890606n||acannaab|          |n ana    ||</controlfield><controlfield tag=\"001\">987007567480105171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 88208813</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q671557</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">159555863</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">-1.147</subfield><subfield code=\"e\">-1.147</subfield><subfield code=\"f\">52.032</subfield><subfield code=\"g\">52.032</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-001021695</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Brackley (England)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">ברקלי (אנגליה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">براكلي (إنجلترا)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Great Britain</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Clarke, J. The book of Brackley, 1987:</subfield><subfield code=\"b\">p. 1 (England)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Barth., 1986</subfield><subfield code=\"b\">(Brackley; Northants 28 B4 tn 8 mi. east of Banbury)</subfield></datafield></record>\n"
     }
-  ]
+  ],
+  "failedItems": []
 }

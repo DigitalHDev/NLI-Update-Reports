@@ -1,0 +1,144 @@
+{
+  "type": "Place",
+  "runTime": "2026-07-19T17:45:38.1289861Z",
+  "period": "20241111-20241117",
+  "numProcessedItems": 19989,
+  "numModifiedItems": 10,
+  "numNewItems": 4,
+  "numReviewItems": 0,
+  "numFailedItems": 0,
+  "modifiedSummary": [
+    {
+      "item": {
+        "recordId": "987008195982305171"
+      },
+      "result": "Success",
+      "messages": [
+        "updatePlaceRecord: variants +4: Aarsal (Lebanon)[la] | Ersal (Lebanon)[la] | 'Irsal (Lebanon)[la] | ערסאל (לבנון)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987009841775905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "updatePlaceRecord: no changes for place 987009841775905171"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987010400065305171"
+      },
+      "result": "Success",
+      "messages": [
+        "updatePlaceRecord: variants +6: Shaykh Saʻīd (Egypt)[la] | al-Shaykh Saʻīd (Egypt)[la] | Sheikh Sa'id (Egypt)[la] | שיח' סעיד (מצרים)[he] | אל-שיח' סעיד (מצרים)[he] | شيخ سعيد (مصر)[ar]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012331758705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012331758705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007506025905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007506025905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987009705960805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "updatePlaceRecord: no changes for place 987009705960805171"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987009841769505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987009841769505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987010400066305171"
+      },
+      "result": "Success",
+      "messages": [
+        "updatePlaceRecord: variants +2: Saham el-Golan (Syria)[la] | סחם אל-ג'ולאן (סוריה)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012292471905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012292471905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012398869205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012398869205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    }
+  ],
+  "newSummary": [
+    {
+      "item": {
+        "recordId": "987010685119405171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987010685119405171 (אראזאן (מרוקו))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012859156905171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987012859156905171 (אל-קריאתאין (סוריה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987008072782505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987008072782505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012494775505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012494775505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    }
+  ],
+  "requireReviewSummary": [],
+  "failedSummary": [],
+  "requireReviewItems": [],
+  "failedItems": []
+}

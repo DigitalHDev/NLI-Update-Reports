@@ -1,0 +1,27 @@
+{
+  "type": "Place",
+  "runTime": "2026-07-19T17:17:38.648163Z",
+  "period": "20240826-20240901",
+  "numProcessedItems": 826,
+  "numModifiedItems": 1,
+  "numNewItems": 0,
+  "numReviewItems": 0,
+  "numFailedItems": 0,
+  "modifiedSummary": [
+    {
+      "item": {
+        "recordId": "987007467851805171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated ViafId from 'null' to '33151715578013780769'",
+        "updatePlaceRecord: variants +3: Karmei Zur (West Bank)[la] | Karme Tsur (Israel)[la] | כרמי צור (ישראל)[he]"
+      ]
+    }
+  ],
+  "newSummary": [],
+  "requireReviewSummary": [],
+  "failedSummary": [],
+  "requireReviewItems": [],
+  "failedItems": []
+}

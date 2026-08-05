@@ -1,11 +1,11 @@
 {
   "type": "Place",
-  "runTime": "2026-07-20T00:17:41.5729824Z",
+  "runTime": "2026-08-03T20:02:15.0571711Z",
   "period": "20250514-20250520",
-  "numProcessedItems": 9935,
-  "numModifiedItems": 19,
-  "numNewItems": 125,
-  "numReviewItems": 8,
+  "numProcessedItems": 9689,
+  "numModifiedItems": 16,
+  "numNewItems": 99,
+  "numReviewItems": 6,
   "numFailedItems": 0,
   "modifiedSummary": [
     {
@@ -38,18 +38,6 @@
     },
     {
       "item": {
-        "recordId": "987007561956805171"
-      },
-      "result": "ManualReview",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'نوتولن (ألمانيا)'",
-        "Updated Wd from 'Q32195124' to 'Q14939'. Manual review required. Kima Id:81288",
-        "Updated ViafId from 'null' to '168811350'",
-        "updatePlaceRecord: variants +1: Nottuln, Ger.[la]"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007530795805171"
       },
       "result": "ManualReview",
@@ -71,25 +59,6 @@
     },
     {
       "item": {
-        "recordId": "987007566703005171"
-      },
-      "result": "ManualReview",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'كاسوغا-شي (اليابان)'",
-        "Updated Wd from 'Q49105335' to 'Q47084'. Manual review required. Kima Id:11966"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007539401505171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007539401505171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007467835905171"
       },
       "result": "ManualReview",
@@ -103,11 +72,11 @@
     },
     {
       "item": {
-        "recordId": "987007568513405171"
+        "recordId": "987007539401505171"
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007568513405171 does not satisfy IsPlaceToUse; skipping"
+        "Place 987007539401505171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -121,23 +90,21 @@
     },
     {
       "item": {
+        "recordId": "987007568513405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007568513405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007548751905171"
       },
       "result": "ManualReview",
       "messages": [
         "Updated Wd from 'Q27122496' to 'Q112164453'. Manual review required. Kima Id:3607",
         "updatePlaceRecord: variants +4: Mazar, Tell el- (Jordan)[la] | Tall al-Mazar (Jordan)[la] | Mazar (Tel el-), Jordan[la] | Tell el-Mazar (Jordan)[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007561809705171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'زوتفن (هولندا)'",
-        "Updated Wd from 'null' to 'Q109535'",
-        "updatePlaceRecord: variants +5: Zutphania (Netherlands)[la] | זיטפען (הולנד)[he] | זיטפון (הולנד)[he] | זיטפנד (הולנד)[he] | זיטפענד (הולנד)[he]"
       ]
     },
     {
@@ -206,6 +173,15 @@
   "newSummary": [
     {
       "item": {
+        "recordId": "987007467718005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007467718005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007471605405171"
       },
       "result": "NothingToDo",
@@ -242,20 +218,11 @@
     },
     {
       "item": {
-        "recordId": "987007566914205171"
+        "recordId": "987007559492505171"
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007566914205171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007467718005171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007467718005171 does not satisfy IsPlaceToUse; skipping"
+        "Place 987007559492505171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -287,15 +254,6 @@
     },
     {
       "item": {
-        "recordId": "987007559492505171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007559492505171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007559611805171"
       },
       "result": "NothingToDo",
@@ -314,38 +272,20 @@
     },
     {
       "item": {
-        "recordId": "987007561943505171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007561943505171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007562261005171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007562261005171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007567324505171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007567324505171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007532432605171"
       },
       "result": "NothingToDo",
       "messages": [
         "Place 987007532432605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007540454605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007540454605171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -359,24 +299,6 @@
     },
     {
       "item": {
-        "recordId": "987007559969205171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007559969205171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007564770505171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007564770505171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007535708905171"
       },
       "result": "NothingToDo",
@@ -386,11 +308,11 @@
     },
     {
       "item": {
-        "recordId": "987007540454605171"
+        "recordId": "987007550219705171"
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007540454605171 does not satisfy IsPlaceToUse; skipping"
+        "Place 987007550219705171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -413,65 +335,11 @@
     },
     {
       "item": {
-        "recordId": "987007564294805171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007564294805171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007550219705171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007550219705171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007559911005171"
       },
       "result": "NothingToDo",
       "messages": [
         "Place 987007559911005171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007565098805171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007565098805171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007567454605171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007567454605171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007562076205171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007562076205171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007562108405171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007562108405171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -494,24 +362,6 @@
     },
     {
       "item": {
-        "recordId": "987007567354205171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007567354205171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007463780805171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007463780805171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007547825105171"
       },
       "result": "NothingToDo",
@@ -521,38 +371,11 @@
     },
     {
       "item": {
-        "recordId": "987007564703005171"
+        "recordId": "987007463780805171"
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007564703005171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007564795205171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007564795205171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007566804705171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007566804705171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007579231205171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007579231205171 does not satisfy IsPlaceToUse; skipping"
+        "Place 987007463780805171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -593,11 +416,38 @@
     },
     {
       "item": {
-        "recordId": "987007562665905171"
+        "recordId": "987007564703005171"
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007562665905171 does not satisfy IsPlaceToUse; skipping"
+        "Place 987007564703005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007579231205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007579231205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007491932605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007491932605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007552504305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007552504305171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -611,11 +461,11 @@
     },
     {
       "item": {
-        "recordId": "987007491932605171"
+        "recordId": "987007537804605171"
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007491932605171 does not satisfy IsPlaceToUse; skipping"
+        "Place 987007537804605171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -638,51 +488,6 @@
     },
     {
       "item": {
-        "recordId": "987007552504305171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007552504305171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007537804605171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007537804605171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007553692905171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007553692905171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007562256305171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007562256305171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007567010505171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007567010505171 (מונטיחו (ספרד))"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007586009505171"
       },
       "result": "NothingToDo",
@@ -692,20 +497,20 @@
     },
     {
       "item": {
-        "recordId": "987007537694005171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007537694005171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007550550105171"
       },
       "result": "NothingToDo",
       "messages": [
         "Place 987007550550105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007553692905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007553692905171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -728,29 +533,11 @@
     },
     {
       "item": {
-        "recordId": "987007558918405171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007558918405171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007559690805171"
       },
       "result": "NothingToDo",
       "messages": [
         "Place 987007559690805171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007560278205171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007560278205171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -773,6 +560,15 @@
     },
     {
       "item": {
+        "recordId": "987007537694005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007537694005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007556143205171"
       },
       "result": "NothingToDo",
@@ -782,29 +578,20 @@
     },
     {
       "item": {
+        "recordId": "987007558918405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007558918405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007559790905171"
       },
       "result": "NothingToDo",
       "messages": [
         "Place 987007559790905171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007560079505171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007560079505171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987013290990105171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987013290990105171 (סידי סלימאן (אל-קניטרה, מרוקו))"
       ]
     },
     {
@@ -863,15 +650,6 @@
     },
     {
       "item": {
-        "recordId": "987007567764305171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007567764305171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007564483305171"
       },
       "result": "Success",
@@ -926,15 +704,6 @@
     },
     {
       "item": {
-        "recordId": "987007565254805171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007565254805171 (אריסיירה (פורטוגל))"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987013405738505171"
       },
       "result": "NothingToDo",
@@ -953,24 +722,6 @@
     },
     {
       "item": {
-        "recordId": "987013425235105171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987013425235105171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987013426256705171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987013426256705171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987013406347605171"
       },
       "result": "NothingToDo",
@@ -985,6 +736,24 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987013425159105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013425235105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013425235105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013426256705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013426256705171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -1088,24 +857,6 @@
     },
     {
       "item": {
-        "recordId": "987007567384605171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007567384605171 (הבדן ברידג' (אנגליה))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007567609105171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007567609105171 (פורט הנרי (ניו יורק))"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007560611905171"
       },
       "result": "Success",
@@ -1133,11 +884,38 @@
     },
     {
       "item": {
-        "recordId": "987013399235305171"
+        "recordId": "987013426658805171"
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013399235305171 does not satisfy IsPlaceToUse; skipping"
+        "Place 987013426658805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013426957205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013426957205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013427759005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013427759005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013427759405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013427759405171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -1169,15 +947,6 @@
     },
     {
       "item": {
-        "recordId": "987013405741505171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987013405741505171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987013406347505171"
       },
       "result": "NothingToDo",
@@ -1187,20 +956,11 @@
     },
     {
       "item": {
-        "recordId": "987013426658805171"
+        "recordId": "987013427357005171"
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013426658805171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987013426957205171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987013426957205171 does not satisfy IsPlaceToUse; skipping"
+        "Place 987013427357005171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -1250,33 +1010,6 @@
     },
     {
       "item": {
-        "recordId": "987013427759005171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987013427759005171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987013427759405171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987013427759405171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987013427357005171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987013427357005171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987013428159405171"
       },
       "result": "NothingToDo",
@@ -1295,20 +1028,20 @@
     },
     {
       "item": {
-        "recordId": "987013428558405171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987013428558405171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987013428459205171"
       },
       "result": "NothingToDo",
       "messages": [
         "Place 987013428459205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013428558405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013428558405171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -1333,34 +1066,12 @@
   "requireReviewSummary": [
     {
       "item": {
-        "recordId": "987007561956805171"
-      },
-      "result": "ManualReview",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'نوتولن (ألمانيا)'",
-        "Updated Wd from 'Q32195124' to 'Q14939'. Manual review required. Kima Id:81288",
-        "Updated ViafId from 'null' to '168811350'",
-        "updatePlaceRecord: variants +1: Nottuln, Ger.[la]"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007530795805171"
       },
       "result": "ManualReview",
       "messages": [
         "Updated PrimaryArabFull from 'null' to 'ميكسكواك (مكسيكو سيتي، المكسيك)'",
         "Updated Wd from 'Q6824627' to 'Q5845392'. Manual review required. Kima Id:17180"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007566703005171"
-      },
-      "result": "ManualReview",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'كاسوغا-شي (اليابان)'",
-        "Updated Wd from 'Q49105335' to 'Q47084'. Manual review required. Kima Id:11966"
       ]
     },
     {
@@ -1424,19 +1135,6 @@
   "requireReviewItems": [
     {
       "item": {
-        "recordId": "987007561956805171"
-      },
-      "result": "ManualReview",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'نوتولن (ألمانيا)'",
-        "Updated Wd from 'Q32195124' to 'Q14939'. Manual review required. Kima Id:81288",
-        "Updated ViafId from 'null' to '168811350'",
-        "updatePlaceRecord: variants +1: Nottuln, Ger.[la]"
-      ],
-      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01058cz  a2200265n  4500</leader><controlfield tag=\"005\">20250514085312.0</controlfield><controlfield tag=\"008\">780516n||acannaab|          |a ana    ||</controlfield><controlfield tag=\"001\">987007561956805171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 78025583</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q14939</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">168811350</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">7.35</subfield><subfield code=\"e\">7.35</subfield><subfield code=\"f\">51.93333</subfield><subfield code=\"g\">51.93333</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000972669</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Nottuln (Germany)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">נוטולן (גרמניה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">نوتولن (ألمانيا)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Germany</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"w\">nnaa</subfield><subfield code=\"a\">Nottuln, Ger.</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Nottuln in alten Ansichten, 1977 (subj.)</subfield><subfield code=\"b\">t.p. (Nottuln)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Ne 78-3</subfield><subfield code=\"b\">(Nottuln)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">BGN</subfield><subfield code=\"b\">(Nottuln, popl, 51p0s56ʹN, 7p0s21ʹE)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Müllers gr. dt. Ortsb. 1977</subfield><subfield code=\"b\">(Nottuln)</subfield></datafield></record>\n"
-    },
-    {
-      "item": {
         "recordId": "987007530795805171"
       },
       "result": "ManualReview",
@@ -1444,18 +1142,7 @@
         "Updated PrimaryArabFull from 'null' to 'ميكسكواك (مكسيكو سيتي، المكسيك)'",
         "Updated Wd from 'Q6824627' to 'Q5845392'. Manual review required. Kima Id:17180"
       ],
-      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01381nz  a2200253n  4500</leader><controlfield tag=\"005\">20250514085313.0</controlfield><controlfield tag=\"008\">920910n||acannaab|          |a ana    ||</controlfield><controlfield tag=\"001\">987007530795805171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 92090516</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q5845392</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">142041459</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">-99.187531</subfield><subfield code=\"e\">-99.187531</subfield><subfield code=\"f\">19.375891</subfield><subfield code=\"g\">19.375891</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">W0991060</subfield><subfield code=\"e\">W0991060</subfield><subfield code=\"f\">N0192260</subfield><subfield code=\"g\">N0192260</subfield><subfield code=\"2\">geonames</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-001031244</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Mixcoac (Mexico City, Mexico)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">מיקסואק (מקסיקו סיטי, מקסיקו)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">ميكسكواك (مكسيكو سيتي، المكسيك)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Mexico</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"410\" ind1=\"1\" ind2=\" \"><subfield code=\"a\">Mexico City (Mexico).</subfield><subfield code=\"b\">Mixcoac</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Culebra de nubes, 1991:</subfield><subfield code=\"b\">p. 9, etc. (Mixcoac; an indian village in colonial times situated about 3 leagues from Mexico City; around 1824 it became a municipality; today it is a barrio in Mexico City)</subfield></datafield><datafield tag=\"675\" ind1=\" \" ind2=\" \"><subfield code=\"a\">NIS gaz. Mexico, 1956;</subfield><subfield code=\"a\">Dicc. Porrúa</subfield></datafield></record>\n"
-    },
-    {
-      "item": {
-        "recordId": "987007566703005171"
-      },
-      "result": "ManualReview",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'كاسوغا-شي (اليابان)'",
-        "Updated Wd from 'Q49105335' to 'Q47084'. Manual review required. Kima Id:11966"
-      ],
-      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01115nz  a2200253n  4500</leader><controlfield tag=\"005\">20250514085307.0</controlfield><controlfield tag=\"008\">811214n||acannaab|          |n ana    ||</controlfield><controlfield tag=\"001\">987007566703005171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 81142936</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q47084</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">133706604</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">130.4563889</subfield><subfield code=\"e\">130.4563889</subfield><subfield code=\"f\">33.52416667</subfield><subfield code=\"g\">33.52416667</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">E1302800</subfield><subfield code=\"e\">E1302800</subfield><subfield code=\"f\">N0333200</subfield><subfield code=\"g\">N0333200</subfield><subfield code=\"2\">geonames</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000989335</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Kasuga-shi (Japan)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">קאסאגה שי (יפן)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">كاسوغا-شي (اليابان)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Japan</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Akaide iseki, 1980 (subj.)</subfield><subfield code=\"b\">t.p. (in subtitle: Kasuga-shi)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">BGN, 11/17/81</subfield><subfield code=\"b\">(Kasuga [brief]-shi, municipality, 33p0s32ʹN., 130p0s28ʹE.)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Nihon bunken chizu, 1978</subfield><subfield code=\"b\">(Kasuga-shi; in Fukuoka-ken)</subfield></datafield></record>\n"
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01579nz  a2200277n  4500</leader><controlfield tag=\"005\">20260803113630.0</controlfield><controlfield tag=\"008\">920910n||acannaab|          |a ana    ||</controlfield><controlfield tag=\"001\">987007530795805171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 92090516</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q5845392</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">142041459</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">-99.187531</subfield><subfield code=\"e\">-99.187531</subfield><subfield code=\"f\">19.375891</subfield><subfield code=\"g\">19.375891</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">W0991060</subfield><subfield code=\"e\">W0991060</subfield><subfield code=\"f\">N0192260</subfield><subfield code=\"g\">N0192260</subfield><subfield code=\"2\">geonames</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-001031244</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Mixcoac (Mexico City, Mexico)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">מיקסואק (מקסיקו סיטי, מקסיקו)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">ميكسكواك (مكسيكو سيتي، المكسيك)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Mexico</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"410\" ind1=\"1\" ind2=\" \"><subfield code=\"a\">Mexico City (Mexico).</subfield><subfield code=\"b\">Mixcoac</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record enriched with 670 fields from LCNA on: 20260803</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">GeoNames, algorithmically matched, 2009</subfield><subfield code=\"b\">(summit; 19°22ʹ60ʺN 099°10ʹ60ʺW)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Culebra de nubes, 1991:</subfield><subfield code=\"b\">p. 9, etc. (Mixcoac; an indian village in colonial times situated about 3 leagues from Mexico City; around 1824 it became a municipality; today it is a barrio in Mexico City)</subfield></datafield><datafield tag=\"675\" ind1=\" \" ind2=\" \"><subfield code=\"a\">NIS gaz. Mexico, 1956;</subfield><subfield code=\"a\">Dicc. Porrúa</subfield></datafield></record>\n"
     },
     {
       "item": {

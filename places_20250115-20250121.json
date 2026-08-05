@@ -1,12 +1,12 @@
 {
   "type": "Place",
-  "runTime": "2026-07-19T19:26:57.6141591Z",
+  "runTime": "2026-08-03T15:23:14.6535897Z",
   "period": "20250115-20250121",
-  "numProcessedItems": 63483,
-  "numModifiedItems": 984,
-  "numNewItems": 40,
-  "numReviewItems": 26,
-  "numFailedItems": 2,
+  "numProcessedItems": 63421,
+  "numModifiedItems": 946,
+  "numNewItems": 37,
+  "numReviewItems": 28,
+  "numFailedItems": 0,
   "modifiedSummary": [
     {
       "item": {
@@ -700,6 +700,15 @@
     },
     {
       "item": {
+        "recordId": "987007537566005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007537566005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007551638805171"
       },
       "result": "NothingToDo",
@@ -732,15 +741,6 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987007534822705171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007537566005171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007537566005171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -1212,21 +1212,21 @@
     },
     {
       "item": {
-        "recordId": "987007532690205171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007532690205171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007553498705171"
       },
       "result": "Success",
       "messages": [
         "Updated PrimaryArabFull from 'null' to 'جزر الهند الغربية'",
         "updatePlaceRecord: variants +1: האיים הקריביים[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007532690205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007532690205171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -1358,20 +1358,20 @@
     },
     {
       "item": {
-        "recordId": "987007572942305171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007572942305171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007568670205171"
       },
       "result": "NothingToDo",
       "messages": [
         "Place 987007568670205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007572942305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007572942305171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -1448,6 +1448,15 @@
     },
     {
       "item": {
+        "recordId": "987007577235605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007577235605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007577230705171"
       },
       "result": "NothingToDo",
@@ -1471,15 +1480,6 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987007577234005171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007577235605171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007577235605171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -1610,6 +1610,15 @@
     },
     {
       "item": {
+        "recordId": "987007572937805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007572937805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007572938105171"
       },
       "result": "NothingToDo",
@@ -1651,15 +1660,6 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987007572934605171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007572937805171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007572937805171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -1710,6 +1710,15 @@
     },
     {
       "item": {
+        "recordId": "987007568656005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007568656005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007570600305171"
       },
       "result": "NothingToDo",
@@ -1746,20 +1755,11 @@
     },
     {
       "item": {
-        "recordId": "987007560161805171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'داسيا'"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007568656005171"
+        "recordId": "987007568508705171"
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007568656005171 does not satisfy IsPlaceToUse; skipping"
+        "Place 987007568508705171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -1796,15 +1796,6 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987007568508405171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007568508705171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007568508705171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -2090,11 +2081,29 @@
     },
     {
       "item": {
+        "recordId": "987007575267405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007575267405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007575267805171"
       },
       "result": "NothingToDo",
       "messages": [
         "Place 987007575267805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007575268405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007575268405171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -2113,24 +2122,6 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987007575266505171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007575267405171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007575267405171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007575268405171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007575268405171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -2205,16 +2196,6 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987007565990605171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007562184505171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'تشاتام (كنت، إنجلترا)'",
-        "updatePlaceRecord: variants +4: Chatham, Eng.[la] | Chatham (Kent)[la] | צ'תהם (קנט, אנגליה)[he] | צ'טם (קנט, אנגליה)[he]"
       ]
     },
     {
@@ -2310,6 +2291,15 @@
     },
     {
       "item": {
+        "recordId": "987007568661205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007568661205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007568663905171"
       },
       "result": "NothingToDo",
@@ -2324,15 +2314,6 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987007568658605171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007568661205171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007568661205171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -2373,6 +2354,15 @@
     },
     {
       "item": {
+        "recordId": "987007570696905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007570696905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007570690705171"
       },
       "result": "NothingToDo",
@@ -2387,15 +2377,6 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987007570694005171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007570696905171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007570696905171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -2459,42 +2440,6 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987008743182105171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987009293896705171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987009293896705171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987009293907705171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987009293907705171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987009294190505171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987009294190505171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987009442028005171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987009442028005171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -3053,6 +2998,15 @@
     },
     {
       "item": {
+        "recordId": "987007479421905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007479421905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007462546705171"
       },
       "result": "NothingToDo",
@@ -3080,15 +3034,6 @@
     },
     {
       "item": {
-        "recordId": "987007479421905171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007479421905171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007462426105171"
       },
       "result": "NothingToDo",
@@ -3107,21 +3052,21 @@
     },
     {
       "item": {
-        "recordId": "987007469321105171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007469321105171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007475828105171"
       },
       "result": "Success",
       "messages": [
         "Updated PrimaryArabFull from 'null' to 'فيسيل (ألمانيا)'",
         "updatePlaceRecord: variants +1: וויזל (גרמניה)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007469321105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007469321105171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -3171,20 +3116,20 @@
     },
     {
       "item": {
-        "recordId": "987007506129205171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007506129205171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007506130205171"
       },
       "result": "NothingToDo",
       "messages": [
         "Place 987007506130205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007506129205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007506129205171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -3281,6 +3226,16 @@
     },
     {
       "item": {
+        "recordId": "987007533766905171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'صحراء غوبي (منغوليا والصين)'",
+        "updatePlaceRecord: variants +2: Gubi Shamo (Mongolia and China)[la] | Ku-pi Sha-mo (Mongolia and China)[la]"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007536570105171"
       },
       "result": "Success",
@@ -3307,16 +3262,6 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987007530226205171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007533766905171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'صحراء غوبي (منغوليا والصين)'",
-        "updatePlaceRecord: variants +2: Gubi Shamo (Mongolia and China)[la] | Ku-pi Sha-mo (Mongolia and China)[la]"
       ]
     },
     {
@@ -3523,6 +3468,15 @@
     },
     {
       "item": {
+        "recordId": "987007551310605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007551310605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007532872705171"
       },
       "result": "NothingToDo",
@@ -3553,11 +3507,12 @@
     },
     {
       "item": {
-        "recordId": "987007551310605171"
+        "recordId": "987007529812505171"
       },
-      "result": "NothingToDo",
+      "result": "Success",
       "messages": [
-        "Place 987007551310605171 does not satisfy IsPlaceToUse; skipping"
+        "Updated PrimaryArabFull from 'null' to 'بحيرة تراسيمينو (إيطاليا)'",
+        "updatePlaceRecord: variants +6: Lago Trasimeno (Italy)[la] | Lake of Perugia (Italy)[la] | Lake Trasimeno (Italy)[la] | Perugia, Lake of (Italy)[la] | Trasimene, Lake (Italy)[la] | Trasimenus Lacus (Italy)[la]"
       ]
     },
     {
@@ -3600,6 +3555,16 @@
     },
     {
       "item": {
+        "recordId": "987007550556605171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'فوجلسبيرجكرايس (ألمانيا)'",
+        "updatePlaceRecord: variants +1: Vogelsbergkreis, Ger.[la]"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007553900305171"
       },
       "result": "Success",
@@ -3617,16 +3582,6 @@
         "Updated PrimaryArabFull from 'null' to 'موقع سانشينغدوي (الصين)'",
         "Updated Wd from 'null' to 'Q929072'",
         "updatePlaceRecord: variants +1: San-hsing-tui Site (China)[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007529812505171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'بحيرة تراسيمينو (إيطاليا)'",
-        "updatePlaceRecord: variants +6: Lago Trasimeno (Italy)[la] | Lake of Perugia (Italy)[la] | Lake Trasimeno (Italy)[la] | Perugia, Lake of (Italy)[la] | Trasimene, Lake (Italy)[la] | Trasimenus Lacus (Italy)[la]"
       ]
     },
     {
@@ -3658,16 +3613,6 @@
     },
     {
       "item": {
-        "recordId": "987007550556605171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'فوجلسبيرجكرايس (ألمانيا)'",
-        "updatePlaceRecord: variants +1: Vogelsbergkreis, Ger.[la]"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007555893605171"
       },
       "result": "Success",
@@ -3689,11 +3634,30 @@
     },
     {
       "item": {
+        "recordId": "987007556153605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007556153605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007530104605171"
       },
       "result": "NothingToDo",
       "messages": [
         "Place 987007530104605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007534224905171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'نابولي، خليج (إيطاليا)'",
+        "updatePlaceRecord: variants +4: Bay of Naples (Italy)[la] | Golfo di Napoli (Italy)[la] | Gulf of Naples (Italy)[la] | Naples, Gulf of (Italy)[la]"
       ]
     },
     {
@@ -3755,30 +3719,11 @@
     },
     {
       "item": {
-        "recordId": "987007556153605171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007556153605171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007531998105171"
       },
       "result": "NothingToDo",
       "messages": [
         "Place 987007531998105171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007534224905171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'نابولي، خليج (إيطاليا)'",
-        "updatePlaceRecord: variants +4: Bay of Naples (Italy)[la] | Golfo di Napoli (Italy)[la] | Gulf of Naples (Italy)[la] | Naples, Gulf of (Italy)[la]"
       ]
     },
     {
@@ -3824,6 +3769,15 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987007551536205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007553224905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007553224905171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -3875,15 +3829,6 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987007539341405171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007553224905171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007553224905171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -4180,6 +4125,15 @@
     },
     {
       "item": {
+        "recordId": "987007555640605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007555640605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007529793705171"
       },
       "result": "Success",
@@ -4244,15 +4198,6 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987007550733705171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007555640605171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007555640605171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -4435,6 +4380,16 @@
     },
     {
       "item": {
+        "recordId": "987007538778705171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'مينيا كونكا (الصين)'",
+        "updatePlaceRecord: variants +5: Bokonka (China)[la] | Bokunka (China)[la] | Gongga Mountains (China)[la] | Kung-ka Mountains (China)[la] | Minya Gonkar (China)[la]"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007553916205171"
       },
       "result": "NothingToDo",
@@ -4449,16 +4404,6 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987007534187905171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007538778705171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'مينيا كونكا (الصين)'",
-        "updatePlaceRecord: variants +5: Bokonka (China)[la] | Bokunka (China)[la] | Gongga Mountains (China)[la] | Kung-ka Mountains (China)[la] | Minya Gonkar (China)[la]"
       ]
     },
     {
@@ -4486,6 +4431,15 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987007543190105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007543766205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007543766205171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -4546,15 +4500,6 @@
         "Updated PrimaryArabFull from 'null' to 'مونفيراتو (إيطاليا)'",
         "Updated Wd from 'null' to 'Q19868'",
         "updatePlaceRecord: variants +3: Montferrat (Italy)[la] | מונפירטו (איטליה)[he] | מונפראדו (איטליה)[he]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007543766205171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007543766205171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -4691,16 +4636,6 @@
     },
     {
       "item": {
-        "recordId": "987007562034505171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'نيسا (بولندا)'",
-        "updatePlaceRecord: variants +2: Nysa, Poland[la] | Nisa (Poland)[la]"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007575136205171"
       },
       "result": "NothingToDo",
@@ -4742,16 +4677,6 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987007575303605171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007562413105171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'هيرسفيلد-روتنبورغ (ألمانيا)'",
-        "updatePlaceRecord: variants +1: Hersfeld (Germany : Landkreis)[la]"
       ]
     },
     {
@@ -4830,16 +4755,6 @@
     },
     {
       "item": {
-        "recordId": "987007566996705171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'بيون (الهند : مقاطعة)'",
-        "Updated ViafId from 'null' to '133757220'"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007590929005171"
       },
       "result": "NothingToDo",
@@ -4858,20 +4773,20 @@
     },
     {
       "item": {
-        "recordId": "987007572925705171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007572925705171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007565891005171"
       },
       "result": "NothingToDo",
       "messages": [
         "Place 987007565891005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007572925705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007572925705171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -4967,17 +4882,6 @@
     },
     {
       "item": {
-        "recordId": "987007562307605171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'هيبو شيان (الصين)'",
-        "Updated ViafId from 'null' to '151354904'",
-        "updatePlaceRecord: variants +1: Ho-pʻu hsien (China)[la]"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007572919305171"
       },
       "result": "NothingToDo",
@@ -5016,11 +4920,29 @@
     },
     {
       "item": {
+        "recordId": "987007568508905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007568508905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007568510205171"
       },
       "result": "NothingToDo",
       "messages": [
         "Place 987007568510205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007568511505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007568511505171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -5049,24 +4971,6 @@
       "messages": [
         "Updated PrimaryArabFull from 'null' to 'إندور (الهند)'",
         "updatePlaceRecord: variants +2: Indore, India (City)[la] | Indaura (India)[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007568508905171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007568508905171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007568511505171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007568511505171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -5104,6 +5008,15 @@
       "messages": [
         "Updated PrimaryArabFull from 'null' to 'تاونوس (ألمانيا)'",
         "updatePlaceRecord: variants +2: Hochtaunus (Germany)[la] | Hoher Taunus (Germany)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007566519405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007566519405171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -5147,15 +5060,6 @@
     },
     {
       "item": {
-        "recordId": "987007566519405171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007566519405171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007575121805171"
       },
       "result": "NothingToDo",
@@ -5179,16 +5083,6 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987007560992705171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007562215505171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'وارميا (بولندا)'",
-        "updatePlaceRecord: variants +1: Warmia, Poland[la]"
       ]
     },
     {
@@ -5229,12 +5123,12 @@
     },
     {
       "item": {
-        "recordId": "987007560151505171"
+        "recordId": "987007558289405171"
       },
       "result": "Success",
       "messages": [
-        "Updated PrimaryArabFull from 'null' to 'فيلينغن شفيننينغن (ألمانيا)'",
-        "updatePlaceRecord: variants +1: Villingen-Schwenningen, Ger.[la]"
+        "Updated PrimaryArabFull from 'null' to 'ماترهورن (سويسرا وإيطاليا)'",
+        "updatePlaceRecord: variants +4: Cervin Mountain (Switzerland and Italy)[la] | Cervino Mountain (Switzerland and Italy)[la] | Mont Cervin (Switzerland and Italy)[la] | Monte Cervino (Switzerland and Italy)[la]"
       ]
     },
     {
@@ -5269,16 +5163,6 @@
     },
     {
       "item": {
-        "recordId": "987007558289405171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'ماترهورن (سويسرا وإيطاليا)'",
-        "updatePlaceRecord: variants +4: Cervin Mountain (Switzerland and Italy)[la] | Cervino Mountain (Switzerland and Italy)[la] | Mont Cervin (Switzerland and Italy)[la] | Monte Cervino (Switzerland and Italy)[la]"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007586321405171"
       },
       "result": "Success",
@@ -5294,6 +5178,15 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987007581473405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007561008005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007561008005171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -5325,30 +5218,12 @@
     },
     {
       "item": {
-        "recordId": "987007566833905171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007566833905171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007571005905171"
       },
       "result": "Success",
       "messages": [
         "Updated PrimaryArabFull from 'null' to 'آبياتي غوزوني (إيطاليا)'",
         "Updated Wd from 'null' to 'Q2296526'"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007561008005171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007561008005171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -5360,6 +5235,24 @@
         "Location supposed to move 55.0 km. Manual review required. Kima Id:11103 Name:בוואריה התחתונה (גרמניה)",
         "Updated PrimaryArabFull from 'null' to 'بافاريا السفلى (ألمانيا)'",
         "updatePlaceRecord: variants +2: Bavaria, Lower[la] | Lower Bavaria (Germany)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007566043005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007566043005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007583501305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007583501305171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -5384,29 +5277,20 @@
     },
     {
       "item": {
-        "recordId": "987007566043005171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007566043005171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007583501305171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007583501305171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007590789005171"
       },
       "result": "NothingToDo",
       "messages": [
         "Place 987007590789005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007568657805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007568657805171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -5429,15 +5313,6 @@
     },
     {
       "item": {
-        "recordId": "987007568657805171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007568657805171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007568658505171"
       },
       "result": "NothingToDo",
@@ -5447,20 +5322,20 @@
     },
     {
       "item": {
-        "recordId": "987007573240205171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007573240205171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007570945805171"
       },
       "result": "NothingToDo",
       "messages": [
         "Place 987007570945805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007573240205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007573240205171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -5497,106 +5372,6 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987009287782405171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987009293892505171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987009293892505171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987009293894205171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987009293894205171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987009293894905171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'كاسترو (ليتشي، إيطاليا)'",
-        "Updated ViafId from 'null' to '161006994'"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987009293895505171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987009293895505171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987009293908005171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987009293908005171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987009293912805171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987009293912805171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987009294040505171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987009294040505171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987009294048105171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987009294048105171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987009294183705171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987009294183705171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987009294189305171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987009294189305171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987009294190205171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987009294190205171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -5661,15 +5436,6 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987010651010705171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987010819482205171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987010819482205171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -5812,11 +5578,29 @@
     },
     {
       "item": {
+        "recordId": "987007294179005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007294179005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007283127105171"
       },
       "result": "Success",
       "messages": [
         "Updated PrimaryArabFull from 'null' to 'بيرجيش لاند (ألمانيا)'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007284770005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007284770005171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -5835,33 +5619,6 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987007285776705171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007294179005171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007294179005171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007284770005171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007284770005171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007285778005171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007285778005171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -5895,6 +5652,15 @@
         "Updated PrimaryArabFull from 'null' to 'نهر أمور (الصين وروسيا)'",
         "Updated Wd from 'null' to 'Q6862'",
         "updatePlaceRecord: variants +9: Amoor River (China and Russia)[la] | Amur River (China and R.S.F.S.R.)[la] | Hei Ho (China and Russia)[la] | Hei-lung Chiang (China and Russia)[la] | Hei-lung Kiang (China and Russia)[la] | Heilong Jiang (China and Russia)[la] | Heilung Jiang (China and Russia)[la] | Reka Amur (China and Russia)[la] | Sakhalin Ula (China and Russia)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007285778005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007285778005171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -5954,15 +5720,6 @@
     },
     {
       "item": {
-        "recordId": "987007403116705171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007403116705171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007406815405171"
       },
       "result": "NothingToDo",
@@ -5995,6 +5752,15 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987007390190305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007403116705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007403116705171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -6035,6 +5801,15 @@
     },
     {
       "item": {
+        "recordId": "987007421022705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007421022705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007430515905171"
       },
       "result": "NothingToDo",
@@ -6049,15 +5824,6 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987007430517405171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007421022705171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007421022705171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -6164,12 +5930,20 @@
     },
     {
       "item": {
-        "recordId": "987007475192505171"
+        "recordId": "987007475466805171"
       },
-      "result": "Success",
+      "result": "NothingToDo",
       "messages": [
-        "Updated PrimaryArabFull from 'null' to 'برزيغ دولني (بولندا)'",
-        "updatePlaceRecord: variants +9: Dyhernfurth (Poland)[la] | Dihrenfurt (Poland)[la] | דיהרענפורט (פולין)[he] | דירנפורט (פולין)[he] | דיהרנפורט (פולין)[he] | דיהרן פארט (פולין)[he] | דיהרן פורט (פולין)[he] | דיהרנפרט (פולין)[he] | דיהרפורט (פולין)[he]"
+        "Place 987007475466805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007475193005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007475193005171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -6179,15 +5953,6 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987007475193305171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007475466805171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007475466805171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -6210,15 +5975,6 @@
     },
     {
       "item": {
-        "recordId": "987007475193005171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007475193005171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007477241405171"
       },
       "result": "NothingToDo",
@@ -6233,24 +5989,6 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987007475198505171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007500592105171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007500592105171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007467474405171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007467474405171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -6273,11 +6011,29 @@
     },
     {
       "item": {
+        "recordId": "987007500592105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007500592105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007502563505171"
       },
       "result": "NothingToDo",
       "messages": [
         "Place 987007502563505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007467474405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007467474405171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -6309,6 +6065,15 @@
     },
     {
       "item": {
+        "recordId": "987007479427105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007479427105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007462303505171"
       },
       "result": "NothingToDo",
@@ -6327,11 +6092,11 @@
     },
     {
       "item": {
-        "recordId": "987007479427105171"
+        "recordId": "987007462425305171"
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007479427105171 does not satisfy IsPlaceToUse; skipping"
+        "Place 987007462425305171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -6372,15 +6137,6 @@
     },
     {
       "item": {
-        "recordId": "987007462425305171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007462425305171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007465413105171"
       },
       "result": "NothingToDo",
@@ -6399,20 +6155,20 @@
     },
     {
       "item": {
-        "recordId": "987007469322105171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007469322105171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007461137705171"
       },
       "result": "NothingToDo",
       "messages": [
         "Place 987007461137705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007469322105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007469322105171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -6444,17 +6200,6 @@
     },
     {
       "item": {
-        "recordId": "987007486869305171"
-      },
-      "result": "ManualReview",
-      "messages": [
-        "Location supposed to move 26.4 km. Manual review required. Kima Id:85756 Name:מיינץ (גרמניה)",
-        "Updated PrimaryArabFull from 'null' to 'ماينز (ألمانيا)'",
-        "updatePlaceRecord: variants +2: מגנצא (גרמניה)[he] | מענץ (גרמניה)[he]"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007475446805171"
       },
       "result": "NothingToDo",
@@ -6469,6 +6214,17 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987007475452105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007486869305171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 26.4 km. Manual review required. Kima Id:85756 Name:מיינץ (גרמניה)",
+        "Updated PrimaryArabFull from 'null' to 'ماينز (ألمانيا)'",
+        "updatePlaceRecord: variants +2: מגנצא (גרמניה)[he] | מענץ (גרמניה)[he]"
       ]
     },
     {
@@ -6511,15 +6267,6 @@
     },
     {
       "item": {
-        "recordId": "987007462399605171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007462399605171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007462400005171"
       },
       "result": "NothingToDo",
@@ -6529,11 +6276,11 @@
     },
     {
       "item": {
-        "recordId": "987007462202005171"
+        "recordId": "987007462399605171"
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007462202005171 does not satisfy IsPlaceToUse; skipping"
+        "Place 987007462399605171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -6556,11 +6303,11 @@
     },
     {
       "item": {
-        "recordId": "987007556285105171"
+        "recordId": "987007462202005171"
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007556285105171 does not satisfy IsPlaceToUse; skipping"
+        "Place 987007462202005171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -6570,6 +6317,33 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987007537079605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007556285105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007556285105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007529046805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007529046805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007532447105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007532447105171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -6589,24 +6363,6 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987007549648505171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007529046805171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007529046805171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007532447105171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007532447105171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -6639,11 +6395,39 @@
     },
     {
       "item": {
+        "recordId": "987007545695405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007545695405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007546466305171"
       },
       "result": "NothingToDo",
       "messages": [
         "Place 987007546466305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007547346505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'قلعة أغرا (أغرا، الهند)'",
+        "updatePlaceRecord: variants +2: Badalgarh (Agra, India)[la] | Red Fort (Agra, India)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007551609305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007551609305171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -6655,6 +6439,24 @@
         "Location supposed to move 271.9 km. Manual review required. Kima Id:85293 Name:נהר שי (סין)",
         "Updated PrimaryArabFull from 'null' to 'نهر شي (الصين)'",
         "updatePlaceRecord: variants +10: Hsi Chiang (China)[la] | Hsi-chih Chiang (China)[la] | Sai Kong (China)[la] | Si Chiang (China)[la] | Si He (China)[la] | Si Kiang (China)[la] | Sui Kiang (China)[la] | West River (China)[la] | Xi He (China)[la] | Xi Jiang (China)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007553951905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007553951905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007517152905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007517152905171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -6686,77 +6488,11 @@
     },
     {
       "item": {
-        "recordId": "987007545695405171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007545695405171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007547346505171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'قلعة أغرا (أغرا، الهند)'",
-        "updatePlaceRecord: variants +2: Badalgarh (Agra, India)[la] | Red Fort (Agra, India)[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007551609305171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007551609305171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007553951905171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007553951905171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007517152905171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007517152905171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007541334805171"
-      },
-      "result": "ManualReview",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'سترومبولي (إيطاليا)'",
-        "Updated Wd from 'Q18466563' to 'Q131148'. Manual review required. Kima Id:2496",
-        "updatePlaceRecord: variants +2: Isola di Stromboli (Italy)[la] | Strongyle (Italy)[la]"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007551966405171"
       },
       "result": "NothingToDo",
       "messages": [
         "Place 987007551966405171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007552236805171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007552236805171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -6780,12 +6516,41 @@
     },
     {
       "item": {
+        "recordId": "987007541334805171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'سترومبولي (إيطاليا)'",
+        "Updated Wd from 'Q18466563' to 'Q131148'. Manual review required. Kima Id:2496",
+        "updatePlaceRecord: variants +2: Isola di Stromboli (Italy)[la] | Strongyle (Italy)[la]"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007548166905171"
       },
       "result": "Success",
       "messages": [
         "Updated PrimaryArabFull from 'null' to 'غيلسنكيرشن (ألمانيا)'",
         "updatePlaceRecord: variants +2: Schalke (Germany)[la] | Emscherbruch (Germany)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007552236805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007552236805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007539505405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007539505405171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -6801,9 +6566,9 @@
       "item": {
         "recordId": "987007528337405171"
       },
-      "result": "Failure",
+      "result": "ManualReview",
       "messages": [
-        "An error occurred while saving the entity changes. See the inner exception for details. --> Cannot insert duplicate key row in object 'dbo.Places' with unique index 'IX_Places_primary_heb_full'. The duplicate key value is (ביסטרוביץ (פולין)).\nThe statement has been terminated."
+        "updatePlaceRecord: place 987007528337405171 cannot be updated in place — its Hebrew name already exists on Kima Id 26523 (MAZAL_ID 987007575412405171). Merge required. Discarding Kima Id:22466 Name:ביסטרוביץ (פולין)"
       ]
     },
     {
@@ -6823,15 +6588,6 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987007529693505171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007539505405171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007539505405171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -6863,66 +6619,11 @@
     },
     {
       "item": {
-        "recordId": "987007543566605171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007543566605171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007548481205171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007548481205171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007548483605171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007548483605171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007551196805171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007551196805171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007525161305171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'شمال بارافور (الهند)'",
-        "updatePlaceRecord: variants +4: Paravur (India)[la] | Parur (India)[la] | פרור (הודו)[he] | פראור (הודו)[he]"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007529114705171"
       },
       "result": "NothingToDo",
       "messages": [
         "Place 987007529114705171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007532317805171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007532317805171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -6936,12 +6637,11 @@
     },
     {
       "item": {
-        "recordId": "987007543425605171"
+        "recordId": "987007543566605171"
       },
-      "result": "Success",
+      "result": "NothingToDo",
       "messages": [
-        "Updated PrimaryArabFull from 'null' to 'قناة كيل (ألمانيا)'",
-        "updatePlaceRecord: variants +4: Kaiser Wilhelm Kanal (Germany)[la] | Kieler Kanal (Germany)[la] | Nord-Ostsee Kanal (Germany)[la] | North Sea-Baltic Canal (Germany)[la]"
+        "Place 987007543566605171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -6973,6 +6673,33 @@
     },
     {
       "item": {
+        "recordId": "987007548481205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007548481205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007548483605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007548483605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007551196805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007551196805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007551505005171"
       },
       "result": "Success",
@@ -6984,22 +6711,12 @@
     },
     {
       "item": {
-        "recordId": "987007556149305171"
+        "recordId": "987007525161305171"
       },
       "result": "Success",
       "messages": [
-        "Updated PrimaryArabFull from 'null' to 'أونتر دين ليندن (برلين، ألمانيا)'"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007556180005171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'فيلكوبولسكا (بولندا)'",
-        "Updated Wd from 'null' to 'Q211371'",
-        "updatePlaceRecord: variants +6: Wartheland (Poland)[la] | Warthegau (Poland)[la] | Great Poland (Poland)[la] | Polonia Major (Poland)[la] | Ziemia Wielkopolska (Poland)[la] | Reichsgau Wartheland (Poland)[la]"
+        "Updated PrimaryArabFull from 'null' to 'شمال بارافور (الهند)'",
+        "updatePlaceRecord: variants +4: Paravur (India)[la] | Parur (India)[la] | פרור (הודו)[he] | פראור (הודו)[he]"
       ]
     },
     {
@@ -7013,20 +6730,11 @@
     },
     {
       "item": {
-        "recordId": "987007534547405171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'محمية سان كارلوس الهندية (أريزونا)'"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007534552205171"
+        "recordId": "987007532317805171"
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007534552205171 does not satisfy IsPlaceToUse; skipping"
+        "Place 987007532317805171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -7039,6 +6747,16 @@
         "Updated PrimaryArabFull from 'null' to 'بحيرة لوغانو (سويسرا وإيطاليا)'",
         "Updated Wd from 'null' to 'Q14418'",
         "updatePlaceRecord: variants +8: Ceresio Lake (Switzerland and Italy)[la] | Ceresius, Lacus (Switzerland and Italy)[la] | Lacus Ceresius (Switzerland and Italy)[la] | Lago Ceresio (Switzerland and Italy)[la] | Lago di Lugano (Switzerland and Italy)[la] | Lake Lugano (Switzerland and Italy)[la] | Lake of Lugano (Switzerland and Italy)[la] | Luganer See (Switzerland and Italy)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007543425605171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'قناة كيل (ألمانيا)'",
+        "updatePlaceRecord: variants +4: Kaiser Wilhelm Kanal (Germany)[la] | Kieler Kanal (Germany)[la] | Nord-Ostsee Kanal (Germany)[la] | North Sea-Baltic Canal (Germany)[la]"
       ]
     },
     {
@@ -7073,11 +6791,22 @@
     },
     {
       "item": {
-        "recordId": "987007529859005171"
+        "recordId": "987007556149305171"
       },
       "result": "Success",
       "messages": [
-        "Updated PrimaryArabFull from 'null' to 'ناندا ديفي (الهند)'"
+        "Updated PrimaryArabFull from 'null' to 'أونتر دين ليندن (برلين، ألمانيا)'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007556180005171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'فيلكوبولسكا (بولندا)'",
+        "Updated Wd from 'null' to 'Q211371'",
+        "updatePlaceRecord: variants +6: Wartheland (Poland)[la] | Warthegau (Poland)[la] | Great Poland (Poland)[la] | Polonia Major (Poland)[la] | Ziemia Wielkopolska (Poland)[la] | Reichsgau Wartheland (Poland)[la]"
       ]
     },
     {
@@ -7091,33 +6820,20 @@
     },
     {
       "item": {
-        "recordId": "987007546850605171"
+        "recordId": "987007534547405171"
       },
       "result": "Success",
       "messages": [
-        "Updated PrimaryArabFull from 'null' to 'تل كاليان (إيطاليا)'",
-        "Updated Wd from 'null' to 'Q216104'",
-        "updatePlaceRecord: variants +3: Caelian (Italy)[la] | Caelius Mons (Italy)[la] | Celio Hill (Italy)[la]"
+        "Updated PrimaryArabFull from 'null' to 'محمية سان كارلوس الهندية (أريزونا)'"
       ]
     },
     {
       "item": {
-        "recordId": "987007553594305171"
+        "recordId": "987007534552205171"
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007553594305171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007507433005171"
-      },
-      "result": "ManualReview",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'بورغاسلاخ (ألمانيا)'",
-        "Updated Wd from 'Q281652' to 'Q31925769'. Manual review required. Kima Id:23980",
-        "updatePlaceRecord: variants +1: בוריגהאזליך (גרמניה)[he]"
+        "Place 987007534552205171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -7127,6 +6843,15 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987007518743905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007529859005171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'ناندا ديفي (الهند)'"
       ]
     },
     {
@@ -7167,11 +6892,42 @@
     },
     {
       "item": {
+        "recordId": "987007546850605171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'تل كاليان (إيطاليا)'",
+        "Updated Wd from 'null' to 'Q216104'",
+        "updatePlaceRecord: variants +3: Caelian (Italy)[la] | Caelius Mons (Italy)[la] | Celio Hill (Italy)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007553594305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007553594305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007553618905171"
       },
       "result": "NothingToDo",
       "messages": [
         "Place 987007553618905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007507433005171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'بورغاسلاخ (ألمانيا)'",
+        "Updated Wd from 'Q281652' to 'Q31925769'. Manual review required. Kima Id:23980",
+        "updatePlaceRecord: variants +1: בוריגהאזליך (גרמניה)[he]"
       ]
     },
     {
@@ -7186,6 +6942,25 @@
     },
     {
       "item": {
+        "recordId": "987007534033305171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'بحيرة شتاينهودر (ألمانيا)'",
+        "updatePlaceRecord: variants +1: Steinhuder Meer (Germany)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007546338005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007546338005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007529727605171"
       },
       "result": "Success",
@@ -7196,12 +6971,11 @@
     },
     {
       "item": {
-        "recordId": "987007534033305171"
+        "recordId": "987007535072405171"
       },
-      "result": "Success",
+      "result": "NothingToDo",
       "messages": [
-        "Updated PrimaryArabFull from 'null' to 'بحيرة شتاينهودر (ألمانيا)'",
-        "updatePlaceRecord: variants +1: Steinhuder Meer (Germany)[la]"
+        "Place 987007535072405171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -7230,15 +7004,6 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987007543967205171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007546338005171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007546338005171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -7275,16 +7040,7 @@
       },
       "result": "ManualReview",
       "messages": [
-        "Failed to fetch MARC XML for place RecordId 987007534664705171 although it is in the Kima database. Possibly deleted. Error: RecordId does not exist in repository. Manual review required."
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007535072405171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007535072405171 does not satisfy IsPlaceToUse; skipping"
+        "Failed to fetch MARC XML for place RecordId 987007534664705171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
       ]
     },
     {
@@ -7305,6 +7061,15 @@
       "messages": [
         "Updated PrimaryArabFull from 'null' to 'كهوف كيزيل (الصين)'",
         "updatePlaceRecord: variants +8: Hese'er Shiku (China)[la] | Ho-se-erh Caves (China)[la] | Ho-se-erh shih kʻu (China)[la] | Kezi'er Caves (China)[la] | Kezi'er Shiku (China)[la] | Kʻo-tzu-erh Caves (China)[la] | Kʻo-tzu-erh shih kʻu (China)[la] | Qizil Caves (China)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007548034105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007548034105171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -7365,6 +7130,15 @@
     },
     {
       "item": {
+        "recordId": "987007531300405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007531300405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007543791605171"
       },
       "result": "Success",
@@ -7372,15 +7146,6 @@
         "Updated PrimaryArabFull from 'null' to 'فوجلسبرغ (ألمانيا)'",
         "Updated Wd from 'null' to 'Q317074'",
         "updatePlaceRecord: variants +1: Vogelsgebirge (Germany)[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007548034105171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007548034105171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -7395,11 +7160,11 @@
     },
     {
       "item": {
-        "recordId": "987007531300405171"
+        "recordId": "987007542030205171"
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007531300405171 does not satisfy IsPlaceToUse; skipping"
+        "Place 987007542030205171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -7419,6 +7184,15 @@
       "messages": [
         "Updated PrimaryArabFull from 'null' to 'ساحة سان ماركو (البندقية، إيطاليا)'",
         "updatePlaceRecord: variants +4: Piazza di San Marco (Venice, Italy)[la] | Piazza S. Marco (Venice, Italy)[la] | Saint Mark's Square (Venice, Italy)[la] | St. Mark's Square (Venice, Italy)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007535177405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007535177405171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -7450,11 +7224,11 @@
     },
     {
       "item": {
-        "recordId": "987007542030205171"
+        "recordId": "987007544752005171"
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007542030205171 does not satisfy IsPlaceToUse; skipping"
+        "Place 987007544752005171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -7469,38 +7243,11 @@
     },
     {
       "item": {
-        "recordId": "987007535177405171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007535177405171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007544752005171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007544752005171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007537266605171"
       },
       "result": "NothingToDo",
       "messages": [
         "Place 987007537266605171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007552779805171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'مكلنبورغ شفيرين (ألمانيا)'"
       ]
     },
     {
@@ -7534,15 +7281,6 @@
     },
     {
       "item": {
-        "recordId": "987007538896905171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007538896905171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007544297205171"
       },
       "result": "NothingToDo",
@@ -7561,11 +7299,29 @@
     },
     {
       "item": {
+        "recordId": "987007552779805171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'مكلنبورغ شفيرين (ألمانيا)'"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007529146105171"
       },
       "result": "NothingToDo",
       "messages": [
         "Place 987007529146105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007538896905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007538896905171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -7617,6 +7373,24 @@
     },
     {
       "item": {
+        "recordId": "987007534886605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007534886605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007550867205171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'ماريما (إيطاليا)'"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007534738205171"
       },
       "result": "NothingToDo",
@@ -7626,11 +7400,20 @@
     },
     {
       "item": {
-        "recordId": "987007534886605171"
+        "recordId": "987007537375605171"
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007534886605171 does not satisfy IsPlaceToUse; skipping"
+        "Place 987007537375605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007541989205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007541989205171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -7653,11 +7436,11 @@
     },
     {
       "item": {
-        "recordId": "987007550867205171"
+        "recordId": "987007526901405171"
       },
-      "result": "Success",
+      "result": "NothingToDo",
       "messages": [
-        "Updated PrimaryArabFull from 'null' to 'ماريما (إيطاليا)'"
+        "Place 987007526901405171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -7694,20 +7477,22 @@
     },
     {
       "item": {
-        "recordId": "987007537375605171"
+        "recordId": "987007539065705171"
       },
-      "result": "NothingToDo",
+      "result": "Success",
       "messages": [
-        "Place 987007537375605171 does not satisfy IsPlaceToUse; skipping"
+        "Updated PrimaryArabFull from 'null' to 'جزر بونتين (إيطاليا)'",
+        "Updated Wd from 'null' to 'Q1133295'",
+        "updatePlaceRecord: variants +9: Arcipelago Ponziano (Italy)[la] | Insulae Pontiae (Italy)[la] | Isole di Ponza (Italy)[la] | Isole Pontine (Italy)[la] | Isole Ponziane (Italy)[la] | Pontiae Islands (Italy)[la] | Pontino Islands (Italy)[la] | Ponza Islands (Italy)[la] | Ponziane Islands (Italy)[la]"
       ]
     },
     {
       "item": {
-        "recordId": "987007541989205171"
+        "recordId": "987007543402405171"
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007541989205171 does not satisfy IsPlaceToUse; skipping"
+        "Place 987007543402405171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -7761,15 +7546,6 @@
     },
     {
       "item": {
-        "recordId": "987007526901405171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007526901405171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007526902405171"
       },
       "result": "NothingToDo",
@@ -7806,40 +7582,11 @@
     },
     {
       "item": {
-        "recordId": "987007539065705171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'جزر بونتين (إيطاليا)'",
-        "Updated Wd from 'null' to 'Q1133295'",
-        "updatePlaceRecord: variants +9: Arcipelago Ponziano (Italy)[la] | Insulae Pontiae (Italy)[la] | Isole di Ponza (Italy)[la] | Isole Pontine (Italy)[la] | Isole Ponziane (Italy)[la] | Pontiae Islands (Italy)[la] | Pontino Islands (Italy)[la] | Ponza Islands (Italy)[la] | Ponziane Islands (Italy)[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007543402405171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007543402405171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007538492805171"
       },
       "result": "NothingToDo",
       "messages": [
         "Place 987007538492805171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007542800505171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007542800505171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -7853,29 +7600,11 @@
     },
     {
       "item": {
-        "recordId": "987007539661705171"
+        "recordId": "987007542800505171"
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007539661705171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007543553305171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'نهر ماين (ألمانيا)'"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007553030705171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'دييغو غارسيا (إقليم المحيط الهندي البريطاني)'"
+        "Place 987007542800505171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -7910,21 +7639,20 @@
     },
     {
       "item": {
-        "recordId": "987007532684305171"
+        "recordId": "987007539661705171"
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007532684305171 does not satisfy IsPlaceToUse; skipping"
+        "Place 987007539661705171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
       "item": {
-        "recordId": "987007532691605171"
+        "recordId": "987007543553305171"
       },
       "result": "Success",
       "messages": [
-        "Updated PrimaryArabFull from 'null' to 'فيزربرغلاند (ألمانيا)'",
-        "Updated Wd from 'null' to 'Q72931'"
+        "Updated PrimaryArabFull from 'null' to 'نهر ماين (ألمانيا)'"
       ]
     },
     {
@@ -7944,6 +7672,34 @@
       "messages": [
         "Updated PrimaryArabFull from 'null' to 'سيبنجيبيرج (ألمانيا)'",
         "updatePlaceRecord: variants +1: Seven Mountains (Germany)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007553030705171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'دييغو غارسيا (إقليم المحيط الهندي البريطاني)'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007532684305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007532684305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007532691605171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'فيزربرغلاند (ألمانيا)'",
+        "Updated Wd from 'null' to 'Q72931'"
       ]
     },
     {
@@ -8051,15 +7807,6 @@
     },
     {
       "item": {
-        "recordId": "987007590930805171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007590930805171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007559173305171"
       },
       "result": "NothingToDo",
@@ -8079,6 +7826,15 @@
     },
     {
       "item": {
+        "recordId": "987007590930805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007590930805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007602161905171"
       },
       "result": "NothingToDo",
@@ -8088,30 +7844,11 @@
     },
     {
       "item": {
-        "recordId": "987007602376105171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007602376105171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007559604605171"
       },
       "result": "NothingToDo",
       "messages": [
         "Place 987007559604605171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007561519505171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'غابة فالكنشتاين (ألمانيا)'",
-        "updatePlaceRecord: variants +2: Forst Falkenstein (Germany)[la] | Forstrevier Falkenstein (Germany)[la]"
       ]
     },
     {
@@ -8130,6 +7867,25 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987007572927005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007602376105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007602376105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007561519505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'غابة فالكنشتاين (ألمانيا)'",
+        "updatePlaceRecord: variants +2: Forst Falkenstein (Germany)[la] | Forstrevier Falkenstein (Germany)[la]"
       ]
     },
     {
@@ -8190,6 +7946,15 @@
     },
     {
       "item": {
+        "recordId": "987007558320905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007558320905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007568874505171"
       },
       "result": "NothingToDo",
@@ -8204,35 +7969,6 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987007570356205171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007558090805171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'سهل نهر بو (إيطاليا)'",
-        "updatePlaceRecord: variants +4: La Padania (Italy)[la] | Padania (Italy)[la] | Pianura Padana (Italy)[la] | Po Plain (Italy)[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007558092605171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'نهر بو (إيطاليا)'",
-        "updatePlaceRecord: variants +2: Eridanus River (Italy)[la] | Padus River (Italy)[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007558320905171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007558320905171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -8264,6 +8000,26 @@
     },
     {
       "item": {
+        "recordId": "987007558090805171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'سهل نهر بو (إيطاليا)'",
+        "updatePlaceRecord: variants +4: La Padania (Italy)[la] | Padania (Italy)[la] | Pianura Padana (Italy)[la] | Po Plain (Italy)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007558092605171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'نهر بو (إيطاليا)'",
+        "updatePlaceRecord: variants +2: Eridanus River (Italy)[la] | Padus River (Italy)[la]"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007558385105171"
       },
       "result": "ManualReview",
@@ -8275,27 +8031,6 @@
     },
     {
       "item": {
-        "recordId": "987007566731305171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007566731305171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007567240005171"
-      },
-      "result": "Success",
-      "messages": [
-        "Coordinates added: Lat=42.8, Lon=93.45",
-        "Updated PrimaryArabFull from 'null' to 'هامي شيان (الصين)'",
-        "Updated ViafId from 'null' to '152531564'",
-        "updatePlaceRecord: variants +1: Ha-mi hsien (China)[la]"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007563307505171"
       },
       "result": "ManualReview",
@@ -8303,16 +8038,6 @@
         "Location supposed to move 42.8 km. Manual review required. Kima Id:80643 Name:פריולי (איטליה)",
         "Updated PrimaryArabFull from 'null' to 'فريولي (إيطاليا)'",
         "updatePlaceRecord: variants +5: Friaul (Italy)[la] | Furlanija (Italy)[la] | פריאולי (איטליה)[he] | פריאול (איטליה)[he] | ווריאול (איטליה)[he]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007565392505171"
-      },
-      "result": "Success",
-      "messages": [
-        "Coordinates added: Lat=-33.54830015, Lon=-70.5800179",
-        "Updated PrimaryArabFull from 'null' to 'إيطاليا، الوسطى'"
       ]
     },
     {
@@ -8373,6 +8098,25 @@
     },
     {
       "item": {
+        "recordId": "987007565392505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Coordinates added: Lat=-33.54830015, Lon=-70.5800179",
+        "Updated PrimaryArabFull from 'null' to 'إيطاليا، الوسطى'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007566579405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007566579405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007570595005171"
       },
       "result": "NothingToDo",
@@ -8409,24 +8153,6 @@
     },
     {
       "item": {
-        "recordId": "987007563793405171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007563793405171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007566579405171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007566579405171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007570600105171"
       },
       "result": "NothingToDo",
@@ -8454,29 +8180,20 @@
     },
     {
       "item": {
+        "recordId": "987007563793405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007563793405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007583829605171"
       },
       "result": "NothingToDo",
       "messages": [
         "Place 987007583829605171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007563424805171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007563424805171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007586437005171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007586437005171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -8500,6 +8217,33 @@
     },
     {
       "item": {
+        "recordId": "987007563424805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007563424805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007586437005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007586437005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007583752405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007583752405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007586318305171"
       },
       "result": "NothingToDo",
@@ -8518,21 +8262,11 @@
     },
     {
       "item": {
-        "recordId": "987007583752405171"
+        "recordId": "987007563778205171"
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007583752405171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007562177805171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'فيتزلار (ألمانيا)'",
-        "updatePlaceRecord: variants +2: Wetzlar, Ger.[la] | וועצלר (גרמניה)[he]"
+        "Place 987007563778205171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -8542,26 +8276,6 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987007564168405171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007567144405171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'وويي شيان (قانسو شنغ، الصين)'",
-        "Updated ViafId from 'null' to '144313363'",
-        "updatePlaceRecord: variants +1: Wu-wei Hsien (Gansu Sheng, China)[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007563778205171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007563778205171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -8664,15 +8378,6 @@
     },
     {
       "item": {
-        "recordId": "987007561179705171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007561179705171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007561393805171"
       },
       "result": "NothingToDo",
@@ -8766,6 +8471,26 @@
     },
     {
       "item": {
+        "recordId": "987007561179705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007561179705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007562907505171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 163.5 km. Manual review required. Kima Id:2956 Name:שמורת הנבאחו",
+        "Updated PrimaryArabFull from 'null' to 'محمية نافاجو الهندية'",
+        "Updated Wd from 'Q1783171' to 'Q107434788'. Manual review required. Kima Id:2956"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007570694505171"
       },
       "result": "NothingToDo",
@@ -8784,13 +8509,11 @@
     },
     {
       "item": {
-        "recordId": "987007562907505171"
+        "recordId": "987007558956205171"
       },
-      "result": "ManualReview",
+      "result": "NothingToDo",
       "messages": [
-        "Location supposed to move 163.5 km. Manual review required. Kima Id:2956 Name:שמורת הנבאחו",
-        "Updated PrimaryArabFull from 'null' to 'محمية نافاجو الهندية'",
-        "Updated Wd from 'Q1783171' to 'Q107434788'. Manual review required. Kima Id:2956"
+        "Place 987007558956205171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -8827,15 +8550,6 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987007588630305171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007558956205171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007558956205171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -8885,42 +8599,6 @@
         "Updated PrimaryHebFull from 'פראוסניץ (פולין)' to 'פרושיה (פולין)'",
         "Updated PrimaryArabFull from 'null' to 'بروسيس (بولندا)'",
         "updatePlaceRecord: variants +1: Prausnitz (Poland)[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987009293893605171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987009293893605171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987009293894805171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987009293894805171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987009293897605171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987009293897605171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987009293918805171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987009293918805171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -8987,42 +8665,6 @@
       "result": "Success",
       "messages": [
         "Updated PrimaryArabFull from 'null' to 'بالدوينشتاين (ألمانيا)'"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987010819480005171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987010819480005171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987010819480905171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987010819480905171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987010819481705171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987010819481705171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987010819583805171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987010819583805171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -9266,15 +8908,6 @@
     },
     {
       "item": {
-        "recordId": "987007562490105171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007562490105171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007561396005171"
       },
       "result": "NothingToDo",
@@ -9412,9 +9045,9 @@
       "item": {
         "recordId": "987007552593705171"
       },
-      "result": "Failure",
+      "result": "ManualReview",
       "messages": [
-        "addPlaceRecord: error for place 987007552593705171 after step 3: An error occurred while saving the entity changes. See the inner exception for details. --> Cannot insert duplicate key row in object 'dbo.Places' with unique index 'IX_Places_primary_heb_full'. The duplicate key value is (שטרסבורג (גרמניה)).\nThe statement has been terminated."
+        "updatePlaceRecord: place 987007552593705171 would repoint onto Kima Id 90628 (currently MAZAL_ID 987007564869005171), but NLI still returns a record for 987007564869005171; refusing to delete. Manual review required."
       ]
     },
     {
@@ -9451,15 +9084,6 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987012403940205171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987012776854405171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987012776854405171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -9523,15 +9147,6 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987013177964305171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987013178049305171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987013178049305171 does not satisfy IsPlaceToUse; skipping"
       ]
     }
   ],
@@ -9727,6 +9342,15 @@
     },
     {
       "item": {
+        "recordId": "987007528337405171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "updatePlaceRecord: place 987007528337405171 cannot be updated in place — its Hebrew name already exists on Kima Id 26523 (MAZAL_ID 987007575412405171). Merge required. Discarding Kima Id:22466 Name:ביסטרוביץ (פולין)"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007507433005171"
       },
       "result": "ManualReview",
@@ -9742,7 +9366,7 @@
       },
       "result": "ManualReview",
       "messages": [
-        "Failed to fetch MARC XML for place RecordId 987007534664705171 although it is in the Kima database. Possibly deleted. Error: RecordId does not exist in repository. Manual review required."
+        "Failed to fetch MARC XML for place RecordId 987007534664705171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
       ]
     },
     {
@@ -9820,28 +9444,18 @@
         "Updated PrimaryArabFull from 'null' to 'زلوتشيو (بولندا)'",
         "Updated ViafId from '316603429' to '306364379'. Manual review required. Kima Id:961"
       ]
-    }
-  ],
-  "failedSummary": [
-    {
-      "item": {
-        "recordId": "987007528337405171"
-      },
-      "result": "Failure",
-      "messages": [
-        "An error occurred while saving the entity changes. See the inner exception for details. --> Cannot insert duplicate key row in object 'dbo.Places' with unique index 'IX_Places_primary_heb_full'. The duplicate key value is (ביסטרוביץ (פולין)).\nThe statement has been terminated."
-      ]
     },
     {
       "item": {
         "recordId": "987007552593705171"
       },
-      "result": "Failure",
+      "result": "ManualReview",
       "messages": [
-        "addPlaceRecord: error for place 987007552593705171 after step 3: An error occurred while saving the entity changes. See the inner exception for details. --> Cannot insert duplicate key row in object 'dbo.Places' with unique index 'IX_Places_primary_heb_full'. The duplicate key value is (שטרסבורג (גרמניה)).\nThe statement has been terminated."
+        "updatePlaceRecord: place 987007552593705171 would repoint onto Kima Id 90628 (currently MAZAL_ID 987007564869005171), but NLI still returns a record for 987007564869005171; refusing to delete. Manual review required."
       ]
     }
   ],
+  "failedSummary": [],
   "requireReviewItems": [
     {
       "item": {
@@ -9999,7 +9613,7 @@
         "Updated PrimaryArabFull from 'null' to 'بافاريا السفلى (ألمانيا)'",
         "updatePlaceRecord: variants +2: Bavaria, Lower[la] | Lower Bavaria (Germany)[la]"
       ],
-      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01214nz  a2200253n  4500</leader><controlfield tag=\"005\">20250121062124.0</controlfield><controlfield tag=\"008\">820326n||acannaab|          |a ana    ||</controlfield><controlfield tag=\"001\">987007557471105171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 82024316</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q10559</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">129023089</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">12.7479</subfield><subfield code=\"e\">12.7479</subfield><subfield code=\"f\">48.6902</subfield><subfield code=\"g\">48.6902</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">E0125000</subfield><subfield code=\"e\">E0125000</subfield><subfield code=\"f\">N0484500</subfield><subfield code=\"g\">N0484500</subfield><subfield code=\"2\">geonames</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000991007</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Niederbayern (Germany)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">בוואריה התחתונה (גרמניה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">بافاريا السفلى (ألمانيا)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"w\">nnaa</subfield><subfield code=\"a\">Bavaria, Lower</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Lower Bavaria (Germany)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Regierungsbezirk Niederbayern</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"551\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Niederbayern und Oberpfalz (Germany)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">BGN 12-18-81</subfield><subfield code=\"b\">(Regierungsbezirk Niederbayern [Niederbayern=brief], 2d order admin. subdiv., 48 45N 12 50E)</subfield></datafield></record>\n"
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01403nz  a2200277n  4500</leader><controlfield tag=\"005\">20260803114955.0</controlfield><controlfield tag=\"008\">820326n||acannaab|          |a ana    ||</controlfield><controlfield tag=\"001\">987007557471105171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 82024316</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q10559</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">129023089</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">12.7479</subfield><subfield code=\"e\">12.7479</subfield><subfield code=\"f\">48.6902</subfield><subfield code=\"g\">48.6902</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">E0125000</subfield><subfield code=\"e\">E0125000</subfield><subfield code=\"f\">N0484500</subfield><subfield code=\"g\">N0484500</subfield><subfield code=\"2\">geonames</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000991007</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Niederbayern (Germany)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">בוואריה התחתונה (גרמניה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">بافاريا السفلى (ألمانيا)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"w\">nnaa</subfield><subfield code=\"a\">Bavaria, Lower</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Lower Bavaria (Germany)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Regierungsbezirk Niederbayern</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"551\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Niederbayern und Oberpfalz (Germany)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record enriched with 670 fields from LCNA on: 20260803</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">GeoNames, algorithmically matched, 2009</subfield><subfield code=\"b\">(adm2; 48°45ʹ00ʺN 012°50ʹ00ʺE)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">BGN 12-18-81</subfield><subfield code=\"b\">(Regierungsbezirk Niederbayern [Niederbayern=brief], 2d order admin. subdiv., 48 45N 12 50E)</subfield></datafield></record>\n"
     },
     {
       "item": {
@@ -10051,6 +9665,16 @@
     },
     {
       "item": {
+        "recordId": "987007528337405171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "updatePlaceRecord: place 987007528337405171 cannot be updated in place — its Hebrew name already exists on Kima Id 26523 (MAZAL_ID 987007575412405171). Merge required. Discarding Kima Id:22466 Name:ביסטרוביץ (פולין)"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01488nz  a2200265n  4500</leader><controlfield tag=\"005\">20250121060846.0</controlfield><controlfield tag=\"008\">141030|||a|z||babn|||||||||| | a|||||||d</controlfield><controlfield tag=\"001\">987007528337405171</controlfield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q5004559</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">022.5562223</subfield><subfield code=\"e\">022.5882371</subfield><subfield code=\"f\">049.9392494</subfield><subfield code=\"g\">049.9248847</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-001708352</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-001898252</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"b\">mul</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Bystrowice (Poland)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">ביסטרוביץ (פולין)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">بيستروفيتسه (بولندا)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Bystrovychi (Poland)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Bistrowitz (Poland)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">ביסטראוויץ (פולין)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">ביסטרוויץ (פולין)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">ביסטרביץ (פולין)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Heading merged from record: 987007575412405171</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">NLI authority record created automatically.</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record enhanced with cross references from NNL13-000004149</subfield></datafield><datafield tag=\"955\" ind1=\" \" ind2=\" \"><subfield code=\"a\">ביסטראוויץ Bystrowice</subfield></datafield></record>\n"
+    },
+    {
+      "item": {
         "recordId": "987007507433005171"
       },
       "result": "ManualReview",
@@ -10067,7 +9691,7 @@
       },
       "result": "ManualReview",
       "messages": [
-        "Failed to fetch MARC XML for place RecordId 987007534664705171 although it is in the Kima database. Possibly deleted. Error: RecordId does not exist in repository. Manual review required."
+        "Failed to fetch MARC XML for place RecordId 987007534664705171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
       ]
     },
     {
@@ -10128,7 +9752,7 @@
         "Updated PrimaryArabFull from 'null' to 'بالاتينات العليا (ألمانيا)'",
         "updatePlaceRecord: variants +3: Oberpfalz, Ger. (Regierungsbezirk)[la] | Upper Palatinate (Germany)[la] | Palatinate, Upper (Germany)[la]"
       ],
-      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01254nz  a2200265n  4500</leader><controlfield tag=\"005\">20250121061849.0</controlfield><controlfield tag=\"008\">820326n||acannaab|          |a ana    ||</controlfield><controlfield tag=\"001\">987007557471305171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 82024314</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q10555</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">267383615</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">12.2</subfield><subfield code=\"e\">12.2</subfield><subfield code=\"f\">49.3</subfield><subfield code=\"g\">49.3</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">E0120000</subfield><subfield code=\"e\">E0120000</subfield><subfield code=\"f\">N0493000</subfield><subfield code=\"g\">N0493000</subfield><subfield code=\"2\">geonames</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000991005</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Oberpfalz (Germany)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">פאלץ העליונה (גרמניה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">بالاتينات العليا (ألمانيا)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"w\">nnaa</subfield><subfield code=\"a\">Oberpfalz, Ger. (Regierungsbezirk)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Upper Palatinate (Germany)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Regierungsbezirk Oberpfalz</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Palatinate, Upper (Germany)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"551\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Niederbayern und Oberpfalz (Germany)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">BGN 12-18-81</subfield><subfield code=\"b\">(Regierungsbezirk Oberpfalz [Oberpfalz=brief], 2d order admin. subdiv., 49 30N 12 00E)</subfield></datafield></record>\n"
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01443nz  a2200289n  4500</leader><controlfield tag=\"005\">20260803124441.0</controlfield><controlfield tag=\"008\">820326n||acannaab|          |a ana    ||</controlfield><controlfield tag=\"001\">987007557471305171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 82024314</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q10555</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">267383615</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">12.2</subfield><subfield code=\"e\">12.2</subfield><subfield code=\"f\">49.3</subfield><subfield code=\"g\">49.3</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">E0120000</subfield><subfield code=\"e\">E0120000</subfield><subfield code=\"f\">N0493000</subfield><subfield code=\"g\">N0493000</subfield><subfield code=\"2\">geonames</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000991005</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Oberpfalz (Germany)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">פאלץ העליונה (גרמניה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">بالاتينات العليا (ألمانيا)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"w\">nnaa</subfield><subfield code=\"a\">Oberpfalz, Ger. (Regierungsbezirk)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Upper Palatinate (Germany)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Regierungsbezirk Oberpfalz</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Palatinate, Upper (Germany)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"551\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Niederbayern und Oberpfalz (Germany)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record enriched with 670 fields from LCNA on: 20260803</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">GeoNames, algorithmically matched, 2009</subfield><subfield code=\"b\">(adm2; 49°30ʹ00ʺN 012°00ʹ00ʺE)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">BGN 12-18-81</subfield><subfield code=\"b\">(Regierungsbezirk Oberpfalz [Oberpfalz=brief], 2d order admin. subdiv., 49 30N 12 00E)</subfield></datafield></record>\n"
     },
     {
       "item": {
@@ -10152,28 +9776,17 @@
         "Updated ViafId from '316603429' to '306364379'. Manual review required. Kima Id:961"
       ],
       "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01286nz  a2200241n  4500</leader><controlfield tag=\"005\">20250121060821.0</controlfield><controlfield tag=\"008\">150713n| azannaabn          |n ana     c</controlfield><controlfield tag=\"001\">987011857973605171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">no2015091774</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q249059</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">306364379</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">18.60722222</subfield><subfield code=\"e\">18.60722222</subfield><subfield code=\"f\">51.41472222</subfield><subfield code=\"g\">51.41472222</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">(OCoLC)oca10216534</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">(DLC)no2015091774</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">(LIBRARY_OF_CONGRESS)984339278600041</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DHMM</subfield><subfield code=\"b\">mul</subfield><subfield code=\"e\">rda</subfield><subfield code=\"c\">DHMM</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Złoczew (Poland)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">זלאטשוב (פולין)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">زلوتشيو (بولندا)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">US Holocaust Memorial Museum catalog, 13 July 2015</subfield><subfield code=\"b\">(Złoczew (Sieradz, Poland))</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">GEOnet, 13 July 2015</subfield><subfield code=\"b\">(Złoczew; PPL, 51°25ʹ02ʺN, 018°36ʹ16ʺE; Łódzkie, Poland)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Komisja Standaryzacji Nazw Geograficznych poza Granicami Rzeczypospolitej Polskiej website, 13 July 2015</subfield><subfield code=\"b\">(Złoczew, miasto, Złoczew, sieradzki, łódzkie)</subfield><subfield code=\"u\">http://ksng.gugik.gov.pl/pliki/urzedowy_wykaz_nazw_miejscowosci_2013.pdf</subfield></datafield><datafield tag=\"781\" ind1=\" \" ind2=\"0\"><subfield code=\"z\">Poland</subfield><subfield code=\"z\">Złoczew</subfield></datafield></record>\n"
-    }
-  ],
-  "failedItems": [
-    {
-      "item": {
-        "recordId": "987007528337405171"
-      },
-      "result": "Failure",
-      "messages": [
-        "An error occurred while saving the entity changes. See the inner exception for details. --> Cannot insert duplicate key row in object 'dbo.Places' with unique index 'IX_Places_primary_heb_full'. The duplicate key value is (ביסטרוביץ (פולין)).\nThe statement has been terminated."
-      ],
-      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01488nz  a2200265n  4500</leader><controlfield tag=\"005\">20250121060846.0</controlfield><controlfield tag=\"008\">141030|||a|z||babn|||||||||| | a|||||||d</controlfield><controlfield tag=\"001\">987007528337405171</controlfield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q5004559</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">022.5562223</subfield><subfield code=\"e\">022.5882371</subfield><subfield code=\"f\">049.9392494</subfield><subfield code=\"g\">049.9248847</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-001708352</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-001898252</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"b\">mul</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Bystrowice (Poland)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">ביסטרוביץ (פולין)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">بيستروفيتسه (بولندا)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Bystrovychi (Poland)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Bistrowitz (Poland)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">ביסטראוויץ (פולין)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">ביסטרוויץ (פולין)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">ביסטרביץ (פולין)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Heading merged from record: 987007575412405171</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">NLI authority record created automatically.</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record enhanced with cross references from NNL13-000004149</subfield></datafield><datafield tag=\"955\" ind1=\" \" ind2=\" \"><subfield code=\"a\">ביסטראוויץ Bystrowice</subfield></datafield></record>\n"
     },
     {
       "item": {
         "recordId": "987007552593705171"
       },
-      "result": "Failure",
+      "result": "ManualReview",
       "messages": [
-        "addPlaceRecord: error for place 987007552593705171 after step 3: An error occurred while saving the entity changes. See the inner exception for details. --> Cannot insert duplicate key row in object 'dbo.Places' with unique index 'IX_Places_primary_heb_full'. The duplicate key value is (שטרסבורג (גרמניה)).\nThe statement has been terminated."
+        "updatePlaceRecord: place 987007552593705171 would repoint onto Kima Id 90628 (currently MAZAL_ID 987007564869005171), but NLI still returns a record for 987007564869005171; refusing to delete. Manual review required."
       ],
       "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01341nz  a2200253n  4500</leader><controlfield tag=\"005\">20250121061605.0</controlfield><controlfield tag=\"008\">810507n||acnnnabb|          |a ana    ||</controlfield><controlfield tag=\"001\">987007552593705171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 81022641</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q6602</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">159383370</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">007.6881429</subfield><subfield code=\"e\">007.8360451</subfield><subfield code=\"f\">048.6462221</subfield><subfield code=\"g\">048.4920050</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000983722</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Strassburg (Germany)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">שטרסבורג (גרמניה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">ستراسبورغ (ألمانيا)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"w\">nnaa</subfield><subfield code=\"a\">Strassburg</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"551\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Strasbourg (France)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">SUBJECT USAGE: This heading is not valid for use as a subject. Works about this place are entered under Strasbourg (France).</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Valid 1871-1918</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Col. Lipp. gaz.</subfield><subfield code=\"b\">(Strasbourg, German Strassburg, econ. &amp; cult. center of Alsace; free imperial city in Middle Ages; to France 1681; to Germany 1871; to France 1919)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Grosse Brockhaus, 1928-1935</subfield><subfield code=\"b\">(Strassburg, French Strasbourg, cap. of dep. Bas-Rhin, cap. 1871-1918 Reichslandes Elsass-Lothringen)</subfield></datafield></record>\n"
     }
-  ]
+  ],
+  "failedItems": []
 }

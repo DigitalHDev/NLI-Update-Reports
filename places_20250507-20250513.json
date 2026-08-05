@@ -1,9 +1,9 @@
 {
   "type": "Place",
-  "runTime": "2026-07-20T00:14:44.0511498Z",
+  "runTime": "2026-08-03T19:58:29.48229Z",
   "period": "20250507-20250513",
-  "numProcessedItems": 6008,
-  "numModifiedItems": 9,
+  "numProcessedItems": 5973,
+  "numModifiedItems": 8,
   "numNewItems": 19,
   "numReviewItems": 1,
   "numFailedItems": 0,
@@ -41,16 +41,6 @@
     },
     {
       "item": {
-        "recordId": "987007583150505171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'روكوتني (ريفننسكا أوبلاست، أوكرانيا)'",
-        "updatePlaceRecord: variants +4: Rakitno (Rivnensʹka oblastʹ, Ukraine)[la] | Rakitnoye (Rivnensʹka oblastʹ, Ukraine)[la] | Rokitno (Rivnensʹka oblastʹ, Ukraine)[la] | Rokitnoye (Rivnensʹka oblastʹ, Ukraine)[la]"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987008370777505171"
       },
       "result": "Success",
@@ -74,7 +64,7 @@
       },
       "result": "ManualReview",
       "messages": [
-        "Failed to fetch MARC XML for place RecordId 987012277644905171 although it is in the Kima database. Possibly deleted. Error: RecordId does not exist in repository. Manual review required."
+        "Failed to fetch MARC XML for place RecordId 987012277644905171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
       ]
     },
     {
@@ -182,6 +172,15 @@
     },
     {
       "item": {
+        "recordId": "987013402722405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013402722405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987013399763305171"
       },
       "result": "NothingToDo",
@@ -254,15 +253,6 @@
     },
     {
       "item": {
-        "recordId": "987013402722405171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987013402722405171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987013402831205171"
       },
       "result": "NothingToDo",
@@ -278,7 +268,7 @@
       },
       "result": "ManualReview",
       "messages": [
-        "Failed to fetch MARC XML for place RecordId 987012277644905171 although it is in the Kima database. Possibly deleted. Error: RecordId does not exist in repository. Manual review required."
+        "Failed to fetch MARC XML for place RecordId 987012277644905171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
       ]
     }
   ],
@@ -290,7 +280,7 @@
       },
       "result": "ManualReview",
       "messages": [
-        "Failed to fetch MARC XML for place RecordId 987012277644905171 although it is in the Kima database. Possibly deleted. Error: RecordId does not exist in repository. Manual review required."
+        "Failed to fetch MARC XML for place RecordId 987012277644905171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
       ]
     }
   ],

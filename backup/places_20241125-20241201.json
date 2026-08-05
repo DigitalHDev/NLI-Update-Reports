@@ -1,0 +1,156 @@
+{
+  "type": "Place",
+  "runTime": "2026-07-19T17:52:27.1820276Z",
+  "period": "20241125-20241201",
+  "numProcessedItems": 4412,
+  "numModifiedItems": 2,
+  "numNewItems": 13,
+  "numReviewItems": 0,
+  "numFailedItems": 0,
+  "modifiedSummary": [
+    {
+      "item": {
+        "recordId": "987007573235805171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryRomFull from 'Kefar Yam (Gaza Strip)' to 'Kfar Yam (Gaza Strip)'",
+        "Updated Wd from 'null' to 'Q2909483'",
+        "updatePlaceRecord: variants +8: Kefar Yam (Gaza Strip)[la] | Kefar-Yam (Gaza Strip)[la] | Kfar Yam (Israel)[la] | Kefar Yam (Israel)[la] | Kefar Yam (Gush Katif)[la] | כפר-ים (רצועת עזה)[he] | כפר ים (ישראל)[he] | כפר ים (גוש קטיף)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007467850705171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryRomFull from 'Kefar Darom (Gaza Strip)' to 'Kfar Darom (Gaza Strip)'",
+        "updatePlaceRecord: variants +7: Kefar Darom (Gaza Strip)[la] | Kefar Darom (Eretz Israel)[la] | Kefar Darom (Israel)[la] | Kfar Darom (Israel)[la] | Kefar Darom (Gush Katif)[la] | כפר דרום (ישראל)[he] | כפר דרום (גוש קטיף)[he]"
+      ]
+    }
+  ],
+  "newSummary": [
+    {
+      "item": {
+        "recordId": "987007558738305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007558738305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007467988805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007467988805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007535150905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007535150905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007554784305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007554784305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012403731305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012403731305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007284643405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007284643405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007530661305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007530661305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007532091505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007532091505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007537507605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007537507605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007546330405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007546330405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007593043305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007593043305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007593170905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007593170905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013145175605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013145175605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    }
+  ],
+  "requireReviewSummary": [],
+  "failedSummary": [],
+  "requireReviewItems": [],
+  "failedItems": []
+}

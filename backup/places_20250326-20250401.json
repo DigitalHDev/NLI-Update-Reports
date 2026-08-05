@@ -1,0 +1,259 @@
+{
+  "type": "Place",
+  "runTime": "2026-07-19T23:47:44.2942109Z",
+  "period": "20250326-20250401",
+  "numProcessedItems": 36172,
+  "numModifiedItems": 7,
+  "numNewItems": 16,
+  "numReviewItems": 1,
+  "numFailedItems": 0,
+  "modifiedSummary": [
+    {
+      "item": {
+        "recordId": "987007533216605171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'ديجن ليه بان (فرنسا)'",
+        "Updated ViafId from 'null' to '168535589'",
+        "updatePlaceRecord: variants +3: Digne (France)[la] | דין (צרפת)[he] | דינואה (צרפת)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007564298005171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 185.8 km. Manual review required. Kima Id:9844 Name:אנסבך (גרמניה)",
+        "Updated PrimaryArabFull from 'null' to 'أنسباخ (فرانكونيا الوسطى، ألمانيا)'",
+        "updatePlaceRecord: variants +6: Anspach (Germany)[la] | Onolzbach (Germany)[la] | Ansbach, Ger. (City)[la] | אנשפך (גרמניה)[he] | אנסבאך (גרמניה)[he] | אנשבך (גרמניה)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007415494405171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'מועצה אזורית לב השרון (ישראל)' to 'לב השרון (ישראל : מועצה אזורית)'",
+        "Updated PrimaryRomFull from 'Moaza azorit Lev Hasharon (Israel)' to 'Lev Hasharon (Israel : Mo'atsah azorit)'",
+        "Updated PrimaryArabFull from 'null' to 'ليف هشارون (إسرائيل : موتساه عزوريت)'",
+        "Updated Wd from 'null' to 'Q1822040'",
+        "updatePlaceRecord: variants +6: Moaza azorit Lev Hasharon (Israel)[la] | Lev ha-Sharon (Israel)[la] | Lev Hasharon, Moatsah ezorit (Israel)[la] | מועצה אזורית לב השרון (ישראל)[he] | לב השרון (ישראל)[he] | לב השרון, מועצה אזורית (ישראל)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007554234505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007554234505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007556708205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007556708205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007566471805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007566471805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987008502177305171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'مشمار هيردين (مو شڤا) (إسرائيل)'",
+        "updatePlaceRecord: variants +4: Mishmar ha-Yarden (Moshavah) (Israel)[la] | Moshavat Mishmar Hayarden (Israel)[la] | מושבת משמר הירדן (ישראל)[he] | שושנת הירדן (חווה) (ישראל)[he]"
+      ]
+    }
+  ],
+  "newSummary": [
+    {
+      "item": {
+        "recordId": "987007473594405171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007473594405171 (גאוביץ' (אוסטריה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007473860105171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007473860105171 (סן-פלורן-לה-ויי (צרפת))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007564872205171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007564872205171 (קולומנה (רוסיה))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007561927005171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007561927005171 (קושהאבן (גרמניה : מחוז))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007564623105171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007564623105171 (מהוואה (ניו ג'רזי))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012922174905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012922174905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013273844805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013273844805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013290979605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013290979605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013331113805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013331113805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013331802105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013331802105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013331814105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013331814105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013331816105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013331816105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013331819205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013331819205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013331806205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013331806205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013339713705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013339713705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987013349009905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013349009905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    }
+  ],
+  "requireReviewSummary": [
+    {
+      "item": {
+        "recordId": "987007564298005171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 185.8 km. Manual review required. Kima Id:9844 Name:אנסבך (גרמניה)",
+        "Updated PrimaryArabFull from 'null' to 'أنسباخ (فرانكونيا الوسطى، ألمانيا)'",
+        "updatePlaceRecord: variants +6: Anspach (Germany)[la] | Onolzbach (Germany)[la] | Ansbach, Ger. (City)[la] | אנשפך (גרמניה)[he] | אנסבאך (גרמניה)[he] | אנשבך (גרמניה)[he]"
+      ]
+    }
+  ],
+  "failedSummary": [],
+  "requireReviewItems": [
+    {
+      "item": {
+        "recordId": "987007564298005171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 185.8 km. Manual review required. Kima Id:9844 Name:אנסבך (גרמניה)",
+        "Updated PrimaryArabFull from 'null' to 'أنسباخ (فرانكونيا الوسطى، ألمانيا)'",
+        "updatePlaceRecord: variants +6: Anspach (Germany)[la] | Onolzbach (Germany)[la] | Ansbach, Ger. (City)[la] | אנשפך (גרמניה)[he] | אנסבאך (גרמניה)[he] | אנשבך (גרמניה)[he]"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01966nz  a2200349n  4500</leader><controlfield tag=\"005\">20250327094058.0</controlfield><controlfield tag=\"008\">810113n||acannaab|          |a ana    ||</controlfield><controlfield tag=\"001\">987007564298005171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 80160453</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q14859</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">137210688</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">E0083037</subfield><subfield code=\"e\">E0083037</subfield><subfield code=\"f\">N0501804</subfield><subfield code=\"g\">N0501804</subfield><subfield code=\"2\">geonames</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">010.4543048</subfield><subfield code=\"e\">010.6563095</subfield><subfield code=\"f\">049.3437688</subfield><subfield code=\"g\">049.2339603</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000982361</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Ansbach (Mittelfranken, Germany)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">אנסבך (גרמניה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">أنسباخ (فرانكونيا الوسطى، ألمانيا)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Germany</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Anspach (Germany)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Onolzbach (Germany)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"w\">nnaa</subfield><subfield code=\"a\">Ansbach, Ger. (City)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">אנשפך (גרמניה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">אנסבאך (גרמניה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">אנשבך (גרמניה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record enhanced with cross references from NNL13-000000306</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Its Ansbach, Ger. Sankt Gumbert, 1948.</subfield></datafield><datafield tag=\"952\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Germany</subfield><subfield code=\"b\">Bavaria</subfield><subfield code=\"c\">Mittelfranken</subfield><subfield code=\"d\">Ansbach</subfield></datafield><datafield tag=\"953\" ind1=\" \" ind2=\" \"><subfield code=\"a\">גרמניה</subfield><subfield code=\"b\">בוואריה</subfield><subfield code=\"c\">מיטלפרנקן</subfield><subfield code=\"d\">אנסבך</subfield></datafield><datafield tag=\"955\" ind1=\" \" ind2=\" \"><subfield code=\"a\">אנסבאך ANSBACH</subfield></datafield></record>\n"
+    }
+  ],
+  "failedItems": []
+}

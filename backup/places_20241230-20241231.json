@@ -1,0 +1,26 @@
+{
+  "type": "Place",
+  "runTime": "2026-07-19T18:12:19.4933956Z",
+  "period": "20241230-20241231",
+  "numProcessedItems": 190,
+  "numModifiedItems": 0,
+  "numNewItems": 1,
+  "numReviewItems": 0,
+  "numFailedItems": 0,
+  "modifiedSummary": [],
+  "newSummary": [
+    {
+      "item": {
+        "recordId": "987013181996205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013181996205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    }
+  ],
+  "requireReviewSummary": [],
+  "failedSummary": [],
+  "requireReviewItems": [],
+  "failedItems": []
+}

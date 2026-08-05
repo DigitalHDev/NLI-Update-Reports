@@ -1,11 +1,11 @@
 {
   "type": "Place",
-  "runTime": "2026-07-19T19:39:07.3198365Z",
+  "runTime": "2026-08-03T15:33:08.7765956Z",
   "period": "20250122-20250128",
-  "numProcessedItems": 35490,
-  "numModifiedItems": 1291,
-  "numNewItems": 53,
-  "numReviewItems": 33,
+  "numProcessedItems": 35386,
+  "numModifiedItems": 1261,
+  "numNewItems": 51,
+  "numReviewItems": 30,
   "numFailedItems": 1,
   "modifiedSummary": [
     {
@@ -2273,16 +2273,6 @@
     },
     {
       "item": {
-        "recordId": "987007564863705171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'أوكوتاما-ماشي (اليابان)'",
-        "Updated ViafId from 'null' to '254136189'"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007561484005171"
       },
       "result": "NothingToDo",
@@ -2367,32 +2357,20 @@
     },
     {
       "item": {
-        "recordId": "987007575132805171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007575132805171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007562028805171"
-      },
-      "result": "Success",
-      "messages": [
-        "Coordinates added: Lat=48.5, Lon=24.5",
-        "Updated PrimaryArabFull from 'null' to 'منطقة إيفانو فرانكيفسكا أوبلاست (أوكرانيا)'",
-        "Updated Wd from 'null' to 'Q178269'",
-        "updatePlaceRecord: variants +5: Ivano-Frankovskaya oblastʹ[la] | Ivano-Frankivsʹk Oblastʹ (Ukraine)[la] | Ivano-Frankivsʹk (Ukraine : Oblast)[la] | Ivano-Frankovskai︠a︡ oblastʹ (Ukraine)[la] | Ivano-Frankovskaya oblastʹ (Ukraine)[la]"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007575132005171"
       },
       "result": "NothingToDo",
       "messages": [
         "Place 987007575132005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007575132805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007575132805171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -3344,6 +3322,15 @@
     },
     {
       "item": {
+        "recordId": "987007577191205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007577191205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007577192305171"
       },
       "result": "NothingToDo",
@@ -3381,15 +3368,6 @@
     },
     {
       "item": {
-        "recordId": "987007577191205171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007577191205171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007577193705171"
       },
       "result": "NothingToDo",
@@ -3414,19 +3392,6 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987007563292205171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007564757005171"
-      },
-      "result": "ManualReview",
-      "messages": [
-        "Location supposed to move 519.3 km. Manual review required. Kima Id:76412 Name:מחוז צ'רקסי (אוקראינה)",
-        "Updated PrimaryArabFull from 'null' to 'تشيركاس أوبلاستكا أوبلاست (أوكرانيا)'",
-        "Updated Wd from 'Q4513140' to 'Q161808'. Manual review required. Kima Id:76412",
-        "Updated ViafId from 'null' to '140769837'",
-        "updatePlaceRecord: variants +5: Cherkasskaya oblastʹ, Ukraine[la] | Cherkasy Oblastʹ (Ukraine)[la] | Cherkasy (Ukraine : Oblast)[la] | Cherkasskaya oblastʹ (Ukraine)[la] | Cherkasskai︠a︡ oblastʹ (Ukraine)[la]"
       ]
     },
     {
@@ -3458,21 +3423,21 @@
     },
     {
       "item": {
-        "recordId": "987007564110705171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007564110705171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007560457205171"
       },
       "result": "Success",
       "messages": [
         "Updated PrimaryArabFull from 'null' to 'هايلاندز (اسكتلندا)'",
         "updatePlaceRecord: variants +2: Highlands of Scotland (Scotland)[la] | Scottish Highlands (Scotland)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007564110705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007564110705171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -3486,20 +3451,20 @@
     },
     {
       "item": {
-        "recordId": "987007577588905171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007577588905171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007563456405171"
       },
       "result": "NothingToDo",
       "messages": [
         "Place 987007563456405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007577588905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007577588905171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -3612,6 +3577,15 @@
     },
     {
       "item": {
+        "recordId": "987007557796005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007557796005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007558838905171"
       },
       "result": "NothingToDo",
@@ -3702,25 +3676,6 @@
     },
     {
       "item": {
-        "recordId": "987007557796005171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007557796005171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007562499705171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'تشيليا فيشي (رومانيا)'",
-        "updatePlaceRecord: variants +1: Kilia (Romania)[la]"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987008572213705171"
       },
       "result": "NothingToDo",
@@ -3771,37 +3726,6 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987009165561605171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987009293897105171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'لوفرين (رومانيا)'",
-        "Updated ViafId from 'null' to '314904439'",
-        "updatePlaceRecord: variants +5: Lorandium (Romania)[la] | Lovránd (Romania)[la] | Lowrin (Romania)[la] | Lóránd (Romania)[la] | Lóránt (Romania)[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987009293914505171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987009293914505171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987009294183605171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'جزر سيبيريا الجديدة (روسيا)'",
-        "Updated ViafId from 'null' to '233291250'",
-        "updatePlaceRecord: variants +6: Liakhov Islands (Russia)[la] | Neusbiriche Inseln (Russia)[la] | Novo Sibirsk Islands (Russia)[la] | Novo Sibirski Islands (Russia)[la] | Novosibirskie Ostrova (Russia)[la] | Novosibirskiye Ostrova (Russia)[la]"
       ]
     },
     {
@@ -3887,15 +3811,6 @@
     },
     {
       "item": {
-        "recordId": "987011433527405171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987011433527405171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987011433525505171"
       },
       "result": "Success",
@@ -3903,6 +3818,15 @@
         "Updated PrimaryArabFull from 'null' to 'أوست - ماسكي أولوس (روسيا)'",
         "Updated ViafId from 'null' to '158504669'",
         "updatePlaceRecord: variants +2: Ustʹ-Maĭskiĭ raĭon (Russia)[la] | Ustʹ-Mayskiy rayon (Russia)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987011433527405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987011433527405171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -3997,6 +3921,15 @@
     },
     {
       "item": {
+        "recordId": "987012182774905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012182774905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987012182773105171"
       },
       "result": "NothingToDo",
@@ -4020,15 +3953,6 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987012182774705171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987012182774905171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987012182774905171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -4069,6 +3993,24 @@
     },
     {
       "item": {
+        "recordId": "987012218975605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012218975605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012218975705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012218975705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987012218975805171"
       },
       "result": "NothingToDo",
@@ -4092,24 +4034,6 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987012238955505171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987012218975605171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987012218975605171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987012218975705171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987012218975705171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -4285,15 +4209,6 @@
     },
     {
       "item": {
-        "recordId": "987012292471705171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987012292471705171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987012314374605171"
       },
       "result": "NothingToDo",
@@ -4367,6 +4282,15 @@
     },
     {
       "item": {
+        "recordId": "987007283260805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007283260805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007284073605171"
       },
       "result": "Success",
@@ -4391,6 +4315,15 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987007284944605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007286482805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007286482805171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -4440,30 +4373,12 @@
     },
     {
       "item": {
-        "recordId": "987007283260805171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007283260805171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007284079605171"
       },
       "result": "Success",
       "messages": [
         "Updated PrimaryArabFull from 'null' to 'كلايد، فيرث أوف (اسكتلندا)'",
         "updatePlaceRecord: variants +2: Clyde River Estuary (Scotland)[la] | Firth of Clyde (Scotland)[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007286482805171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007286482805171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -4561,20 +4476,20 @@
     },
     {
       "item": {
-        "recordId": "987007405850905171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007405850905171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007390028705171"
       },
       "result": "NothingToDo",
       "messages": [
         "Place 987007390028705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007405850905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007405850905171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -4780,20 +4695,20 @@
     },
     {
       "item": {
-        "recordId": "987007498986205171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007498986205171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007475197705171"
       },
       "result": "NothingToDo",
       "messages": [
         "Place 987007475197705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007498986205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007498986205171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -4807,20 +4722,20 @@
     },
     {
       "item": {
-        "recordId": "987007467473705171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007467473705171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007502563305171"
       },
       "result": "NothingToDo",
       "messages": [
         "Place 987007502563305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007467473705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007467473705171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -4961,24 +4876,6 @@
     },
     {
       "item": {
-        "recordId": "987007502421505171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007502421505171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007462399505171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007462399505171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007465323905171"
       },
       "result": "NothingToDo",
@@ -4994,6 +4891,24 @@
       "messages": [
         "Updated PrimaryArabFull from 'null' to 'منطقة سان دييغو الحضرية (كاليفورنيا)'",
         "Updated Wd from 'null' to 'Q7413770'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007502421505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007502421505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007462399505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007462399505171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -5119,6 +5034,15 @@
     },
     {
       "item": {
+        "recordId": "987007536510705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007536510705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007547152905171"
       },
       "result": "NothingToDo",
@@ -5174,6 +5098,15 @@
     },
     {
       "item": {
+        "recordId": "987007534690805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007534690805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007535037505171"
       },
       "result": "Success",
@@ -5181,15 +5114,6 @@
         "Updated PrimaryArabFull from 'null' to 'منطقة شيب (جمهورية التشيك)'",
         "Updated Wd from 'null' to 'Q782304'",
         "updatePlaceRecord: variants +1: Egerland (Czech Republic)[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007536510705171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007536510705171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -5217,6 +5141,15 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987007546779305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007550600205171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'إنر هبريدس الداخلية (اسكتلندا)'"
       ]
     },
     {
@@ -5267,15 +5200,6 @@
     },
     {
       "item": {
-        "recordId": "987007534690805171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007534690805171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007545802105171"
       },
       "result": "NothingToDo",
@@ -5315,15 +5239,6 @@
     },
     {
       "item": {
-        "recordId": "987007550600205171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'إنر هبريدس الداخلية (اسكتلندا)'"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007550605005171"
       },
       "result": "NothingToDo",
@@ -5347,6 +5262,18 @@
       "result": "Success",
       "messages": [
         "Updated PrimaryArabFull from 'null' to 'جسر طريق تاي (دندي، اسكتلندا)'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007536355405171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 74.7 km. Manual review required. Kima Id:2192 Name:ביצות פריפיאט (בלארוס ואוקראינה)",
+        "Updated PrimaryArabFull from 'null' to 'مستنقعات بريبيت (بيلاروسيا وأوكرانيا)'",
+        "Updated Wd from 'null' to 'Q117504'",
+        "updatePlaceRecord: variants +15: Palesse (Belarus and Ukraine)[la] | Pinsk Marshes (Belarus and Ukraine)[la] | Polesʹe (Belarus and Ukraine)[la] | Polesia (Belarus and Ukraine)[la] | Polesie (Belarus and Ukraine)[la] | Polessia (Belarus and Ukraine)[la] | Polesʹye (Belarus and Ukraine)[la] | Polissi͡a (Belarus and Ukraine)[la] | Pripet Marshes (Byelorussian S.S.R. and Ukraine)[la] | Pripi͡atskie bolota (Belarus and Ukraine)[la] | Pripyat Marshes (Belarus and Ukraine)[la] | Pripyatskiye bolota (Belarus and Ukraine)[la] | Pryp'i͡atʹ Marshes (Belarus and Ukraine)[la] | Prypi͡at͡sʹ Marshes (Belarus and Ukraine)[la] | Prypi͡at͡skae palesse (Belarus and Ukraine)[la]"
       ]
     },
     {
@@ -5398,14 +5325,11 @@
     },
     {
       "item": {
-        "recordId": "987007536355405171"
+        "recordId": "987007532130705171"
       },
-      "result": "ManualReview",
+      "result": "Success",
       "messages": [
-        "Location supposed to move 74.7 km. Manual review required. Kima Id:2192 Name:ביצות פריפיאט (בלארוס ואוקראינה)",
-        "Updated PrimaryArabFull from 'null' to 'مستنقعات بريبيت (بيلاروسيا وأوكرانيا)'",
-        "Updated Wd from 'null' to 'Q117504'",
-        "updatePlaceRecord: variants +15: Palesse (Belarus and Ukraine)[la] | Pinsk Marshes (Belarus and Ukraine)[la] | Polesʹe (Belarus and Ukraine)[la] | Polesia (Belarus and Ukraine)[la] | Polesie (Belarus and Ukraine)[la] | Polessia (Belarus and Ukraine)[la] | Polesʹye (Belarus and Ukraine)[la] | Polissi͡a (Belarus and Ukraine)[la] | Pripet Marshes (Byelorussian S.S.R. and Ukraine)[la] | Pripi͡atskie bolota (Belarus and Ukraine)[la] | Pripyat Marshes (Belarus and Ukraine)[la] | Pripyatskiye bolota (Belarus and Ukraine)[la] | Pryp'i͡atʹ Marshes (Belarus and Ukraine)[la] | Prypi͡at͡sʹ Marshes (Belarus and Ukraine)[la] | Prypi͡at͡skae palesse (Belarus and Ukraine)[la]"
+        "Updated PrimaryArabFull from 'null' to 'غابة أنجيليس الوطنية (كاليفورنيا)'"
       ]
     },
     {
@@ -5435,15 +5359,6 @@
       "result": "Success",
       "messages": [
         "Updated PrimaryArabFull from 'null' to 'النصب التذكاري الوطني ديفيلز بوستبايل (كاليفورنيا)'"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007532130705171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'غابة أنجيليس الوطنية (كاليفورنيا)'"
       ]
     },
     {
@@ -5489,6 +5404,15 @@
       "result": "Success",
       "messages": [
         "Updated PrimaryArabFull from 'null' to 'نهر لوس أنجلوس (كاليفورنيا)'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007540660905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007540660905171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -5569,15 +5493,6 @@
     },
     {
       "item": {
-        "recordId": "987007540660905171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007540660905171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007541926505171"
       },
       "result": "NothingToDo",
@@ -5592,6 +5507,15 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987007541926905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007537393305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007537393305171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -5632,11 +5556,21 @@
     },
     {
       "item": {
-        "recordId": "987007537393305171"
+        "recordId": "987007532496405171"
       },
-      "result": "NothingToDo",
+      "result": "Success",
       "messages": [
-        "Place 987007537393305171 does not satisfy IsPlaceToUse; skipping"
+        "Updated PrimaryArabFull from 'null' to 'موقع فورني (اليونان)'",
+        "Updated Wd from 'null' to 'Q1440052'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007536777305171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'جزيرة الكاتراز (كاليفورنيا)'"
       ]
     },
     {
@@ -5656,6 +5590,15 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987007551459105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007554586805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007554586805171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -5690,16 +5633,6 @@
     },
     {
       "item": {
-        "recordId": "987007532496405171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'موقع فورني (اليونان)'",
-        "Updated Wd from 'null' to 'Q1440052'"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007534872505171"
       },
       "result": "Success",
@@ -5715,15 +5648,6 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987007536604405171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007536777305171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'جزيرة الكاتراز (كاليفورنيا)'"
       ]
     },
     {
@@ -5757,6 +5681,15 @@
     },
     {
       "item": {
+        "recordId": "987007544772105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007544772105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007548937705171"
       },
       "result": "NothingToDo",
@@ -5766,11 +5699,11 @@
     },
     {
       "item": {
-        "recordId": "987007554586805171"
+        "recordId": "987007551482205171"
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007554586805171 does not satisfy IsPlaceToUse; skipping"
+        "Place 987007551482205171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -5856,29 +5789,11 @@
     },
     {
       "item": {
-        "recordId": "987007544772105171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007544772105171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007546797305171"
       },
       "result": "NothingToDo",
       "messages": [
         "Place 987007546797305171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007551482205171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007551482205171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -5920,6 +5835,33 @@
     },
     {
       "item": {
+        "recordId": "987007539379705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007539379705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007542023905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007542023905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007544138305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007544138305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007546429705171"
       },
       "result": "Success",
@@ -5936,6 +5878,17 @@
       "messages": [
         "Updated PrimaryArabFull from 'null' to 'موقع قصر زاكروس (اليونان)'",
         "updatePlaceRecord: variants +1: Zakro Palace Site (Greece)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007524777805171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'إينروم (هولندا)'",
+        "Updated Wd from 'null' to 'Q2573259'",
+        "updatePlaceRecord: variants +2: Ainrom (Netherlands)[la] | עהנרום (הולנד)[he]"
       ]
     },
     {
@@ -5976,24 +5929,6 @@
     },
     {
       "item": {
-        "recordId": "987007539379705171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007539379705171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007542023905171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007542023905171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007542028405171"
       },
       "result": "NothingToDo",
@@ -6008,15 +5943,6 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987007542032905171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007544138305171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007544138305171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -6041,17 +5967,6 @@
     },
     {
       "item": {
-        "recordId": "987007524777805171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'إينروم (هولندا)'",
-        "Updated Wd from 'null' to 'Q2573259'",
-        "updatePlaceRecord: variants +2: Ainrom (Netherlands)[la] | עהנרום (הולנד)[he]"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007553536605171"
       },
       "result": "Success",
@@ -6063,40 +5978,11 @@
     },
     {
       "item": {
-        "recordId": "987007553752505171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007553752505171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007530091805171"
       },
       "result": "NothingToDo",
       "messages": [
         "Place 987007530091805171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007541356505171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'سيبيريا، الغربية (روسيا)'",
-        "Updated Wd from 'null' to 'Q1191358'",
-        "updatePlaceRecord: variants +3: Siberia, Western (R.S.F.S.R.)[la] | Siberia, Western (R.S.F.S.R. and Kazakh S.S.R.)[la] | Western Siberia (Russia)[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007541356605171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007541356605171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -6130,6 +6016,44 @@
     },
     {
       "item": {
+        "recordId": "987007553752505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007553752505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007530466205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007530466205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007541356505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'سيبيريا، الغربية (روسيا)'",
+        "Updated Wd from 'null' to 'Q1191358'",
+        "updatePlaceRecord: variants +3: Siberia, Western (R.S.F.S.R.)[la] | Siberia, Western (R.S.F.S.R. and Kazakh S.S.R.)[la] | Western Siberia (Russia)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007541356605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007541356605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007556101205171"
       },
       "result": "Success",
@@ -6158,15 +6082,6 @@
     },
     {
       "item": {
-        "recordId": "987007530466205171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007530466205171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007532479505171"
       },
       "result": "Success",
@@ -6175,6 +6090,25 @@
         "Updated PrimaryArabFull from 'null' to 'روسيا الآسيوية'",
         "Updated Wd from 'null' to 'Q27329'",
         "updatePlaceRecord: variants +1: Russia, Asiatic[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007532872305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007532872305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007539088305171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'جبال فيلكابامبا (بيرو)'",
+        "updatePlaceRecord: variants +1: Cordillera Vilcabamba (Peru)[la]"
       ]
     },
     {
@@ -6209,20 +6143,22 @@
     },
     {
       "item": {
+        "recordId": "987007515277205171"
+      },
+      "result": "Success",
+      "messages": [
+        "Coordinates added: Lat=49.6680129, Lon=14.37954145",
+        "Updated PrimaryArabFull from 'null' to 'برزيبرام (جمهورية التشيك)'",
+        "updatePlaceRecord: variants +1: Pribram (Czech Republic)[la]"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007528912305171"
       },
       "result": "NothingToDo",
       "messages": [
         "Place 987007528912305171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007532872305171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007532872305171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -6242,16 +6178,6 @@
       "messages": [
         "Updated PrimaryArabFull from 'null' to 'شبه جزيرة كامتشاتكا (روسيا)'",
         "updatePlaceRecord: variants +2: Kamchatka Peninsula (R.S.F.S.R.)[la] | Poluostrov Kamchatka (Russia)[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007539088305171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'جبال فيلكابامبا (بيرو)'",
-        "updatePlaceRecord: variants +1: Cordillera Vilcabamba (Peru)[la]"
       ]
     },
     {
@@ -6285,13 +6211,21 @@
     },
     {
       "item": {
-        "recordId": "987007515277205171"
+        "recordId": "987007545232205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007545232205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007556311205171"
       },
       "result": "Success",
       "messages": [
-        "Coordinates added: Lat=49.6680129, Lon=14.37954145",
-        "Updated PrimaryArabFull from 'null' to 'برزيبرام (جمهورية التشيك)'",
-        "updatePlaceRecord: variants +1: Pribram (Czech Republic)[la]"
+        "Updated PrimaryArabFull from 'null' to 'وادي ساكرامنتو (كاليفورنيا)'",
+        "updatePlaceRecord: variants +1: Sacramento River Valley (Calif.)[la]"
       ]
     },
     {
@@ -6343,15 +6277,6 @@
     },
     {
       "item": {
-        "recordId": "987007545232205171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007545232205171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007548822405171"
       },
       "result": "NothingToDo",
@@ -6377,16 +6302,6 @@
       "messages": [
         "Updated PrimaryArabFull from 'null' to 'وادي سان جواكين (كاليفورنيا)'",
         "updatePlaceRecord: variants +1: San Joaquin River Valley (Calif.)[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007556311205171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'وادي ساكرامنتو (كاليفورنيا)'",
-        "updatePlaceRecord: variants +1: Sacramento River Valley (Calif.)[la]"
       ]
     },
     {
@@ -6446,6 +6361,15 @@
     },
     {
       "item": {
+        "recordId": "987007536724905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007536724905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007538403305171"
       },
       "result": "Success",
@@ -6466,11 +6390,30 @@
     },
     {
       "item": {
+        "recordId": "987007539655305171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'وادي نهر سان غابرييل (كاليفورنيا)'",
+        "updatePlaceRecord: variants +1: San Gabriel Valley (Calif.)[la]"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007542795905171"
       },
       "result": "Success",
       "messages": [
         "Updated PrimaryArabFull from 'null' to 'موقع تشونتشوكميل (المكسيك)'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007546235205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007546235205171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -6524,30 +6467,11 @@
     },
     {
       "item": {
-        "recordId": "987007536724905171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007536724905171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007539604205171"
       },
       "result": "NothingToDo",
       "messages": [
         "Place 987007539604205171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007539655305171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'وادي نهر سان غابرييل (كاليفورنيا)'",
-        "updatePlaceRecord: variants +1: San Gabriel Valley (Calif.)[la]"
       ]
     },
     {
@@ -6580,21 +6504,31 @@
     },
     {
       "item": {
-        "recordId": "987007546235205171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007546235205171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007551010805171"
       },
       "result": "Success",
       "messages": [
         "Updated PrimaryArabFull from 'null' to 'حصن سوتر (ساكرامنتو، كاليفورنيا)'",
         "updatePlaceRecord: variants +1: New Helvetius (Sacramento, Calif.)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007552925405171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'وادي كونيخو (كاليفورنيا)'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007532186105171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'جبال كوليما (روسيا)'",
+        "updatePlaceRecord: variants +12: Gydan (Russia)[la] | Kolima Mountains (Russia)[la] | Kolimski khrebet (Russia)[la] | Kolyma Massif (Russia)[la] | Kolyma Mountains (R.S.F.S.R.)[la] | Kolyma Range (Russia)[la] | Kolyma Upland (Russia)[la] | Kolyma Uplift (Russia)[la] | Kolymski khrebet (Russia)[la] | Kolymskiy khrebet (Russia)[la] | Kolymskoe nagorʹe (Russia)[la] | Kolymskoye nagorʹye (Russia)[la]"
       ]
     },
     {
@@ -6617,15 +6551,6 @@
     },
     {
       "item": {
-        "recordId": "987007552925405171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'وادي كونيخو (كاليفورنيا)'"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007553879505171"
       },
       "result": "Success",
@@ -6644,30 +6569,11 @@
     },
     {
       "item": {
-        "recordId": "987007553882105171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007553882105171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007555728105171"
       },
       "result": "NothingToDo",
       "messages": [
         "Place 987007555728105171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007532186105171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'جبال كوليما (روسيا)'",
-        "updatePlaceRecord: variants +12: Gydan (Russia)[la] | Kolima Mountains (Russia)[la] | Kolimski khrebet (Russia)[la] | Kolyma Massif (Russia)[la] | Kolyma Mountains (R.S.F.S.R.)[la] | Kolyma Range (Russia)[la] | Kolyma Upland (Russia)[la] | Kolyma Uplift (Russia)[la] | Kolymski khrebet (Russia)[la] | Kolymskiy khrebet (Russia)[la] | Kolymskoe nagorʹe (Russia)[la] | Kolymskoye nagorʹye (Russia)[la]"
       ]
     },
     {
@@ -6719,16 +6625,6 @@
     },
     {
       "item": {
-        "recordId": "987007566805805171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'إقليم سخالينسكاي (روسيا)'",
-        "updatePlaceRecord: variants +5: Sakhalinskaya oblastʹ, Russia[la] | Sakhalin Oblastʹ (Russia)[la] | Sakhalinskai︠a︡ oblastʹ (R.S.F.S.R.)[la] | Sakhalin (Russia : Oblast)[la] | Sakhalinskaya oblastʹ (Russia)[la]"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007568972005171"
       },
       "result": "NothingToDo",
@@ -6761,6 +6657,24 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987007568974005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007575130505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007575130505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007575130605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007575130605171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -6828,24 +6742,6 @@
     },
     {
       "item": {
-        "recordId": "987007575130505171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007575130505171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007575130605171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007575130605171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007575130905171"
       },
       "result": "NothingToDo",
@@ -6860,6 +6756,24 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987007575133805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007561283005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007561283005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007561284705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007561284705171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -6972,6 +6886,17 @@
     },
     {
       "item": {
+        "recordId": "987007581532605171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 144.2 km. Manual review required. Kima Id:24637 Name:מירוסלב (צ'כיה)",
+        "Updated PrimaryArabFull from 'null' to 'ميروسلاف (جمهورية التشيك)'",
+        "updatePlaceRecord: variants +1: מיזלאפ (צ'כיה)[he]"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007558767005171"
       },
       "result": "NothingToDo",
@@ -6981,40 +6906,11 @@
     },
     {
       "item": {
-        "recordId": "987007561283005171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007561283005171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007561284705171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007561284705171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007573052705171"
       },
       "result": "NothingToDo",
       "messages": [
         "Place 987007573052705171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007581532605171"
-      },
-      "result": "ManualReview",
-      "messages": [
-        "Location supposed to move 144.2 km. Manual review required. Kima Id:24637 Name:מירוסלב (צ'כיה)",
-        "Updated PrimaryArabFull from 'null' to 'ميروسلاف (جمهورية التشيك)'",
-        "updatePlaceRecord: variants +1: מיזלאפ (צ'כיה)[he]"
       ]
     },
     {
@@ -7053,6 +6949,15 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987007591035405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007561578405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007561578405171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -7129,26 +7034,6 @@
     },
     {
       "item": {
-        "recordId": "987007590335805171"
-      },
-      "result": "ManualReview",
-      "messages": [
-        "Location supposed to move 494.3 km. Manual review required. Kima Id:723 Name:ירמליניץ (אוקראינה)",
-        "Updated PrimaryArabFull from 'null' to 'يارمولينتسي (أوكرانيا)'",
-        "updatePlaceRecord: variants +1: Yarmolintsy (Ukraine)[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007561578405171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007561578405171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007577230005171"
       },
       "result": "NothingToDo",
@@ -7158,20 +7043,13 @@
     },
     {
       "item": {
-        "recordId": "987007590607305171"
+        "recordId": "987007590335805171"
       },
-      "result": "NothingToDo",
+      "result": "ManualReview",
       "messages": [
-        "Place 987007590607305171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007572922505171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007572922505171 does not satisfy IsPlaceToUse; skipping"
+        "Location supposed to move 494.3 km. Manual review required. Kima Id:723 Name:ירמליניץ (אוקראינה)",
+        "Updated PrimaryArabFull from 'null' to 'يارمولينتسي (أوكرانيا)'",
+        "updatePlaceRecord: variants +1: Yarmolintsy (Ukraine)[la]"
       ]
     },
     {
@@ -7208,6 +7086,24 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987007572923705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007590607305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007590607305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007572922505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007572922505171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -7275,6 +7171,15 @@
     },
     {
       "item": {
+        "recordId": "987007573045005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007573045005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007570463505171"
       },
       "result": "Success",
@@ -7303,6 +7208,15 @@
     },
     {
       "item": {
+        "recordId": "987007572917705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007572917705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007572918005171"
       },
       "result": "NothingToDo",
@@ -7312,11 +7226,11 @@
     },
     {
       "item": {
-        "recordId": "987007573045005171"
+        "recordId": "987007572918505171"
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007573045005171 does not satisfy IsPlaceToUse; skipping"
+        "Place 987007572918505171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -7344,6 +7258,15 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987007573050805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007563658105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007563658105171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -7384,24 +7307,6 @@
     },
     {
       "item": {
-        "recordId": "987007572917705171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007572917705171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007572918505171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007572918505171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007588733305171"
       },
       "result": "NothingToDo",
@@ -7434,15 +7339,6 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987007563305505171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007563658105171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007563658105171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -7592,11 +7488,29 @@
     },
     {
       "item": {
+        "recordId": "987007575116805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007575116805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007575121705171"
       },
       "result": "NothingToDo",
       "messages": [
         "Place 987007575121705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007575122205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007575122205171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -7628,29 +7542,11 @@
     },
     {
       "item": {
-        "recordId": "987007575116805171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007575116805171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007575121905171"
       },
       "result": "NothingToDo",
       "messages": [
         "Place 987007575121905171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007575122205171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007575122205171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -7673,11 +7569,29 @@
     },
     {
       "item": {
+        "recordId": "987007570592105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007570592105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007570592605171"
       },
       "result": "NothingToDo",
       "messages": [
         "Place 987007570592605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007570595305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007570595305171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -7705,24 +7619,6 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987007570597205171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007570592105171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007570592105171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007570595305171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007570595305171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -7872,6 +7768,15 @@
     },
     {
       "item": {
+        "recordId": "987007586437405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007586437405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007560326005171"
       },
       "result": "NothingToDo",
@@ -7899,32 +7804,12 @@
     },
     {
       "item": {
-        "recordId": "987007564782505171"
+        "recordId": "987007558791705171"
       },
-      "result": "NothingToDo",
+      "result": "Success",
       "messages": [
-        "Place 987007564782505171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007586437405171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007586437405171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007562186005171"
-      },
-      "result": "ManualReview",
-      "messages": [
-        "Location supposed to move 44.2 km. Manual review required. Kima Id:10982 Name:נאגנו-קן (יפן)",
-        "Updated PrimaryHebFull from 'נאגנו-קן (יפן)' to 'נגסקי-קן (יפן)'",
-        "Updated PrimaryArabFull from 'null' to 'ناغاساكي-كين (اليابان)'",
-        "updatePlaceRecord: variants +1: Nagasaki (Prefecture)[la]"
+        "Updated PrimaryArabFull from 'null' to 'موقع ميتلا (المكسيك)'",
+        "Updated Wd from 'null' to 'Q1366027'"
       ]
     },
     {
@@ -7947,21 +7832,20 @@
     },
     {
       "item": {
-        "recordId": "987007558791705171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'موقع ميتلا (المكسيك)'",
-        "Updated Wd from 'null' to 'Q1366027'"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007560326905171"
       },
       "result": "NothingToDo",
       "messages": [
         "Place 987007560326905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007561572705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007561572705171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -7986,11 +7870,22 @@
     },
     {
       "item": {
-        "recordId": "987007561572705171"
+        "recordId": "987007558940105171"
       },
-      "result": "NothingToDo",
+      "result": "Success",
       "messages": [
-        "Place 987007561572705171 does not satisfy IsPlaceToUse; skipping"
+        "Updated PrimaryArabFull from 'null' to 'أبوت، ماونت (كاليفورنيا)'",
+        "updatePlaceRecord: variants +1: Mount Abbot (Calif.)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007560799005171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'وادي تولوكا (المكسيك)'",
+        "updatePlaceRecord: variants +2: Valle de Toluca (Mexico)[la] | Valley of Toluca (Mexico)[la]"
       ]
     },
     {
@@ -8013,26 +7908,6 @@
     },
     {
       "item": {
-        "recordId": "987007558940105171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'أبوت، ماونت (كاليفورنيا)'",
-        "updatePlaceRecord: variants +1: Mount Abbot (Calif.)[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007560799005171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'وادي تولوكا (المكسيك)'",
-        "updatePlaceRecord: variants +2: Valle de Toluca (Mexico)[la] | Valley of Toluca (Mexico)[la]"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007561221005171"
       },
       "result": "NothingToDo",
@@ -8051,6 +7926,15 @@
     },
     {
       "item": {
+        "recordId": "987007561394005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007561394005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007561394305171"
       },
       "result": "Success",
@@ -8061,21 +7945,30 @@
     },
     {
       "item": {
+        "recordId": "987007568665605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007568665605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007568666905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007568666905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007561185805171"
       },
       "result": "Success",
       "messages": [
         "Updated PrimaryArabFull from 'null' to 'منخفض البحر الأسود (أوكرانيا)'",
         "updatePlaceRecord: variants +7: Black Sea Region, Northern (Ukraine)[la] | Pivnichna Chornomorshchyna (Ukraine)[la] | Pivnichne Prychornomori͡a (Ukraine)[la] | Prichernomorskai͡a nizmennostʹ (Ukraine)[la] | Prichernomorskaya nizmennostʹ (Ukraine)[la] | Prychornomorsʹka nyzyna (Ukraine)[la] | Severnoe Prichernomorʹe (Ukraine)[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007561394005171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007561394005171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -8098,29 +7991,11 @@
     },
     {
       "item": {
-        "recordId": "987007568665605171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007568665605171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007568666505171"
       },
       "result": "NothingToDo",
       "messages": [
         "Place 987007568666505171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007568666905171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007568666905171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -8134,6 +8009,15 @@
     },
     {
       "item": {
+        "recordId": "987007570948605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007570948605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007571147605171"
       },
       "result": "NothingToDo",
@@ -8143,11 +8027,12 @@
     },
     {
       "item": {
-        "recordId": "987007570948605171"
+        "recordId": "987007563394905171"
       },
-      "result": "NothingToDo",
+      "result": "Success",
       "messages": [
-        "Place 987007570948605171 does not satisfy IsPlaceToUse; skipping"
+        "Updated PrimaryArabFull from 'null' to 'سيمبلون باس (سويسرا)'",
+        "updatePlaceRecord: variants +2: Passo del Sempione (Switzerland)[la] | Sempione, Passo del (Switzerland)[la]"
       ]
     },
     {
@@ -8206,16 +8091,6 @@
     },
     {
       "item": {
-        "recordId": "987007563394905171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'سيمبلون باس (سويسرا)'",
-        "updatePlaceRecord: variants +2: Passo del Sempione (Switzerland)[la] | Sempione, Passo del (Switzerland)[la]"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987008572334905171"
       },
       "result": "NothingToDo",
@@ -8248,54 +8123,6 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987009165562005171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987009293892205171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'فيلا لاس روساس (المكسيك)'",
-        "updatePlaceRecord: variants +2: Las Rosas (Chiapas, Mexico)[la] | Rosas (Chiapas, Mexico)[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987009294037905171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987009294037905171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987009294042405171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'نيميا (اليونان)'",
-        "Updated ViafId from 'null' to '137607428'",
-        "updatePlaceRecord: variants +1: Aylos Yeorylos (Greece)[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987009294045505171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987009294045505171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987009294184205171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987009294184205171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -8336,20 +8163,20 @@
     },
     {
       "item": {
-        "recordId": "987009912330905171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987009912330905171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987009912324205171"
       },
       "result": "NothingToDo",
       "messages": [
         "Place 987009912324205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987009912330905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987009912330905171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -8414,15 +8241,6 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987011433413005171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987011433525605171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987011433525605171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -8544,20 +8362,47 @@
     },
     {
       "item": {
-        "recordId": "987012182773205171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987012182773205171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987012182773705171"
       },
       "result": "NothingToDo",
       "messages": [
         "Place 987012182773705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012182775305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012182775305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012182776205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012182776205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012182776405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012182776405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012182773205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012182773205171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -8580,15 +8425,6 @@
     },
     {
       "item": {
-        "recordId": "987012182775305171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987012182775305171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987012182775505171"
       },
       "result": "NothingToDo",
@@ -8603,24 +8439,6 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987012182775905171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987012182776205171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987012182776205171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987012182776405171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987012182776405171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -8670,6 +8488,33 @@
     },
     {
       "item": {
+        "recordId": "987012238952105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012238952105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012238952305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012238952305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012238954705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012238954705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987012238945005171"
       },
       "result": "NothingToDo",
@@ -8702,24 +8547,6 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987012238950305171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987012238952105171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987012238952105171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987012238952305171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987012238952305171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -8765,15 +8592,6 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987012238954605171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987012238954705171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987012238954705171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -8909,70 +8727,6 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987012331761505171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007284940105171"
-      },
-      "result": "ManualReview",
-      "messages": [
-        "Location supposed to move 123.7 km. Manual review required. Kima Id:1227 Name:איי התעלה (קליפורניה)",
-        "updatePlaceRecord: no changes for place 987007284940105171"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007285689405171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007285689405171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007290978405171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007290978405171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007291692205171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007291692205171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007291773605171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "updatePlaceRecord: no changes for place 987007291773605171"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007295579205171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007295579205171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007295760605171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "updatePlaceRecord: no changes for place 987007295760605171"
       ]
     },
     {
@@ -9937,6 +9691,15 @@
     },
     {
       "item": {
+        "recordId": "987007554783805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007554783805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007544967405171"
       },
       "result": "NothingToDo",
@@ -9969,15 +9732,6 @@
       "result": "Success",
       "messages": [
         "Updated PrimaryArabFull from 'null' to 'ويلز، الشمال'"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007554783805171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007554783805171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -10290,15 +10044,6 @@
     },
     {
       "item": {
-        "recordId": "987007572931405171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007572931405171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007572923105171"
       },
       "result": "NothingToDo",
@@ -10313,6 +10058,15 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987007572930605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007572931405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007572931405171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -10577,25 +10331,6 @@
     },
     {
       "item": {
-        "recordId": "987009293901305171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987009293901305171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987009294043105171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'كوسيل (راينلاند بالاتينيت، ألمانيا : لاندكريس)'",
-        "Updated ViafId from 'null' to '142294277'"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987011433528505171"
       },
       "result": "NothingToDo",
@@ -10726,20 +10461,20 @@
     },
     {
       "item": {
-        "recordId": "987007394685605171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'منتزه برومو تنغر سيميرو الوطني (إندونيسيا)'"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007394688105171"
       },
       "result": "NothingToDo",
       "messages": [
         "Place 987007394688105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007394685605171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'منتزه برومو تنغر سيميرو الوطني (إندونيسيا)'"
       ]
     },
     {
@@ -10944,20 +10679,20 @@
     },
     {
       "item": {
-        "recordId": "987007541230505171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007541230505171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007551986305171"
       },
       "result": "NothingToDo",
       "messages": [
         "Place 987007551986305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007541230505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007541230505171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -11127,6 +10862,15 @@
     },
     {
       "item": {
+        "recordId": "987007530040005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007530040005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007553586405171"
       },
       "result": "Success",
@@ -11142,15 +10886,6 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987007529891705171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007530040005171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007530040005171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -11233,6 +10968,24 @@
     },
     {
       "item": {
+        "recordId": "987007556362505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'براتر (فيينا، النمسا)'"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007537269105171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'تيماء (اليمن: مدينة مندثرة)' to 'تيماء (اليمن : مدينة مندثرة)'"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007539766905171"
       },
       "result": "Success",
@@ -11254,29 +11007,11 @@
     },
     {
       "item": {
-        "recordId": "987007556362505171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'براتر (فيينا، النمسا)'"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007556856805171"
       },
       "result": "NothingToDo",
       "messages": [
         "Place 987007556856805171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007537269105171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'تيماء (اليمن: مدينة مندثرة)' to 'تيماء (اليمن : مدينة مندثرة)'"
       ]
     },
     {
@@ -11499,21 +11234,21 @@
     },
     {
       "item": {
+        "recordId": "987007575143105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007575143105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007558312105171"
       },
       "result": "Success",
       "messages": [
         "Updated PrimaryArabFull from 'null' to 'تامبورا، جبل (إندونيسيا)'",
         "updatePlaceRecord: variants +3: Gunung Tambora (Indonesia)[la] | Mount Tambora (Indonesia)[la] | Tambora, Mount (Sumbawa, Indonesia)[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007575143105171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007575143105171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -11756,6 +11491,15 @@
     },
     {
       "item": {
+        "recordId": "987007575272405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007575272405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987007575273905171"
       },
       "result": "NothingToDo",
@@ -11770,15 +11514,6 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987007568506505171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007575272405171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007575272405171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -11809,6 +11544,15 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987007568658405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007568659205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007568659205171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -11854,15 +11598,6 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987007568665205171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007568659205171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007568659205171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -11913,26 +11648,6 @@
     },
     {
       "item": {
-        "recordId": "987009294039005171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'كوناه كواي (ويلز)'",
-        "Updated ViafId from 'null' to '149322362'",
-        "updatePlaceRecord: variants +1: Cei Conna (Wales)[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987009294188605171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987009294188605171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987009349747505171"
       },
       "result": "NothingToDo",
@@ -11951,15 +11666,6 @@
     },
     {
       "item": {
-        "recordId": "987012290768905171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987012290768905171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987012290769005171"
       },
       "result": "NothingToDo",
@@ -11969,20 +11675,20 @@
     },
     {
       "item": {
+        "recordId": "987012290768905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012290768905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987012314376705171"
       },
       "result": "NothingToDo",
       "messages": [
         "Place 987012314376705171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987012384040405171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987012384040405171 does not satisfy IsPlaceToUse; skipping"
       ]
     }
   ],
@@ -12124,24 +11830,6 @@
     },
     {
       "item": {
-        "recordId": "987007564479005171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007564479005171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007566721705171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007566721705171 (מחוז צ'רנוביץ (אוקראינה))"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987012124369705171"
       },
       "result": "NothingToDo",
@@ -12192,6 +11880,15 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987012881574805171 (ואפיו (יוון))"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012882070405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012882070405171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -12255,15 +11952,6 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987012887447205171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987012882070405171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987012882070405171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -12394,6 +12082,15 @@
     },
     {
       "item": {
+        "recordId": "987013219799805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013219799805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
         "recordId": "987013219800305171"
       },
       "result": "NothingToDo",
@@ -12412,11 +12109,11 @@
     },
     {
       "item": {
-        "recordId": "987013219799805171"
+        "recordId": "987013219799405171"
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013219799805171 does not satisfy IsPlaceToUse; skipping"
+        "Place 987013219799405171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -12435,15 +12132,6 @@
       "result": "NothingToDo",
       "messages": [
         "Place 987013219798905171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987013219799405171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987013219799405171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
@@ -12616,19 +12304,6 @@
     },
     {
       "item": {
-        "recordId": "987007564757005171"
-      },
-      "result": "ManualReview",
-      "messages": [
-        "Location supposed to move 519.3 km. Manual review required. Kima Id:76412 Name:מחוז צ'רקסי (אוקראינה)",
-        "Updated PrimaryArabFull from 'null' to 'تشيركاس أوبلاستكا أوبلاست (أوكرانيا)'",
-        "Updated Wd from 'Q4513140' to 'Q161808'. Manual review required. Kima Id:76412",
-        "Updated ViafId from 'null' to '140769837'",
-        "updatePlaceRecord: variants +5: Cherkasskaya oblastʹ, Ukraine[la] | Cherkasy Oblastʹ (Ukraine)[la] | Cherkasy (Ukraine : Oblast)[la] | Cherkasskaya oblastʹ (Ukraine)[la] | Cherkasskai︠a︡ oblastʹ (Ukraine)[la]"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007536355405171"
       },
       "result": "ManualReview",
@@ -12681,28 +12356,6 @@
         "Location supposed to move 494.3 km. Manual review required. Kima Id:723 Name:ירמליניץ (אוקראינה)",
         "Updated PrimaryArabFull from 'null' to 'يارمولينتسي (أوكرانيا)'",
         "updatePlaceRecord: variants +1: Yarmolintsy (Ukraine)[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007562186005171"
-      },
-      "result": "ManualReview",
-      "messages": [
-        "Location supposed to move 44.2 km. Manual review required. Kima Id:10982 Name:נאגנו-קן (יפן)",
-        "Updated PrimaryHebFull from 'נאגנו-קן (יפן)' to 'נגסקי-קן (יפן)'",
-        "Updated PrimaryArabFull from 'null' to 'ناغاساكي-كين (اليابان)'",
-        "updatePlaceRecord: variants +1: Nagasaki (Prefecture)[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007284940105171"
-      },
-      "result": "ManualReview",
-      "messages": [
-        "Location supposed to move 123.7 km. Manual review required. Kima Id:1227 Name:איי התעלה (קליפורניה)",
-        "updatePlaceRecord: no changes for place 987007284940105171"
       ]
     },
     {
@@ -13009,20 +12662,6 @@
     },
     {
       "item": {
-        "recordId": "987007564757005171"
-      },
-      "result": "ManualReview",
-      "messages": [
-        "Location supposed to move 519.3 km. Manual review required. Kima Id:76412 Name:מחוז צ'רקסי (אוקראינה)",
-        "Updated PrimaryArabFull from 'null' to 'تشيركاس أوبلاستكا أوبلاست (أوكرانيا)'",
-        "Updated Wd from 'Q4513140' to 'Q161808'. Manual review required. Kima Id:76412",
-        "Updated ViafId from 'null' to '140769837'",
-        "updatePlaceRecord: variants +5: Cherkasskaya oblastʹ, Ukraine[la] | Cherkasy Oblastʹ (Ukraine)[la] | Cherkasy (Ukraine : Oblast)[la] | Cherkasskaya oblastʹ (Ukraine)[la] | Cherkasskai︠a︡ oblastʹ (Ukraine)[la]"
-      ],
-      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>02792cz  a2200349n  4500</leader><controlfield tag=\"005\">20250124064043.0</controlfield><controlfield tag=\"008\">840808n||acannaab|          |a ana    ||</controlfield><controlfield tag=\"001\">987007564757005171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 84112148</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q161808</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">140769837</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">E0310000</subfield><subfield code=\"e\">E0310000</subfield><subfield code=\"f\">N0490000</subfield><subfield code=\"g\">N0490000</subfield><subfield code=\"2\">geonames</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-001004452</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Cherkasʹka oblastʹ (Ukraine)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">מחוז צ'רקסי (אוקראינה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">تشيركاس أوبلاستكا أوبلاست (أوكرانيا)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"w\">nnaa</subfield><subfield code=\"a\">Cherkasskaya oblastʹ, Ukraine</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Cherkasy Oblastʹ (Ukraine)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Cherkasy (Ukraine : Oblast)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Cherkasskaya oblastʹ (Ukraine)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"w\">nne</subfield><subfield code=\"a\">Cherkasskai︠a︡ oblastʹ (Ukraine)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"551\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Ukraine (Hetmanate : 1648-1782)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Soviet Union. Glavnoe upravlenie geodezii i kartografii. Cherkasskai︠a︡ oblastʹ, 1983:</subfield><subfield code=\"b\">map recto (Cherkasskai︠a︡ oblastʹ, data obrazovanii︠a︡ oblasti--7 i︠a︡nv. 1954 g.)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Russia and newly independent nations of the former USSR [MAP] March, 1993:</subfield><subfield code=\"b\">(Ukraine: Region (Oblastʹ): Cherkasy)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Encyc. of Ukraine:</subfield><subfield code=\"b\">v. 1, p. 417-418 (Cherkasy oblast; established 01-07-1954; formerly the right bank part of the Cherkasy oblast belonged to the Right-Bank Ukraine and until 1793 was under Polish sovereignty. In 1793 it then became part of theRussian Empire until 1797 when it became part of the Kiev gubernia. Meanwhile the left-bank part belonged to the Hetman State until 1797. Under the Russian Empire three-quarters of the oblast belonged to the Kiev gubernia, and one-quarter toPoltava gubernia. Under Soviet rule, from 1923-1930, the capital of the Cherkasy okruha [no publs. in LC data base] was Cherkasy)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">LC data base, 8-4-84</subfield><subfield code=\"b\">(hdg.: Cherkasskaya oblastʹ, Ukraine)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Ukr. rad. ent︠s︡ykl.:</subfield><subfield code=\"b\">v. 12, p. 272 (Cherkasʹka oblastʹ)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">BGN, USSR gaz., 2nd ed. 1970,</subfield><subfield code=\"b\">v. 2 (Cherkasskaya oblastʹ, oblast, 49p0s 00ʹ N., 31p0s 00ʹ E. in Ukraine)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Ukraïna [MAP] 1992:</subfield><subfield code=\"b\">(Cherkasʹka oblastʹ)</subfield></datafield><datafield tag=\"675\" ind1=\" \" ind2=\" \"><subfield code=\"a\">LC data base, 06-05-97 (hdg.: Ukraine (Hetmanate : 1648-1782))</subfield></datafield></record>\n"
-    },
-    {
-      "item": {
         "recordId": "987007536355405171"
       },
       "result": "ManualReview",
@@ -13081,30 +12720,6 @@
         "updatePlaceRecord: variants +1: Yarmolintsy (Ukraine)[la]"
       ],
       "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>00934nz  a2200181n  4500</leader><controlfield tag=\"005\">20250124061920.0</controlfield><controlfield tag=\"008\">191115|||a|z||babn|||||||||| | a|||||||d</controlfield><controlfield tag=\"001\">987007590335805171</controlfield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q2391335</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">033.3244031</subfield><subfield code=\"e\">033.3583881</subfield><subfield code=\"f\">050.7181010</subfield><subfield code=\"g\">050.6760681</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-001780520</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Yarmolyntsi (Ukraine)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">ירמליניץ (אוקראינה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">يارمولينتسي (أوكرانيا)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Yarmolintsy (Ukraine)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">NLI authority record created automatically.</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record enhanced with cross references from NNL13-000002663</subfield></datafield><datafield tag=\"955\" ind1=\" \" ind2=\" \"><subfield code=\"a\">ירמליניץ YARMOLINTSY</subfield></datafield></record>\n"
-    },
-    {
-      "item": {
-        "recordId": "987007562186005171"
-      },
-      "result": "ManualReview",
-      "messages": [
-        "Location supposed to move 44.2 km. Manual review required. Kima Id:10982 Name:נאגנו-קן (יפן)",
-        "Updated PrimaryHebFull from 'נאגנו-קן (יפן)' to 'נגסקי-קן (יפן)'",
-        "Updated PrimaryArabFull from 'null' to 'ناغاساكي-كين (اليابان)'",
-        "updatePlaceRecord: variants +1: Nagasaki (Prefecture)[la]"
-      ],
-      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01120cz  a2200241n  4500</leader><controlfield tag=\"005\">20250124063111.0</controlfield><controlfield tag=\"008\">811023n||acannaab|          |a ana    ||</controlfield><controlfield tag=\"001\">987007562186005171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 81055406</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q169376</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">259591948</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">129.8677222</subfield><subfield code=\"e\">129.8677222</subfield><subfield code=\"f\">32.75041667</subfield><subfield code=\"g\">32.75041667</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">E1293000</subfield><subfield code=\"e\">E1293000</subfield><subfield code=\"f\">N0330000</subfield><subfield code=\"g\">N0330000</subfield><subfield code=\"2\">geonames</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000985142</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Nagasaki-ken (Japan)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">נגסקי-קן (יפן)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">ناغاساكي-كين (اليابان)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"w\">nnaa</subfield><subfield code=\"a\">Nagasaki (Prefecture)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"551\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Nagasaki-fu (Japan)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Nagasaki Kenritsu Nagasaki Toshokan.</subfield><subfield code=\"b\">Nagasaki Kenritsu Nagasaki ... 1954.</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Dai Nihon hyakka j.; v. 13, p. 584 (Nagasaki-ken; Nagasaki-fu (1868-1871) later reorg. as Nagasaki-ken)</subfield></datafield></record>\n"
-    },
-    {
-      "item": {
-        "recordId": "987007284940105171"
-      },
-      "result": "ManualReview",
-      "messages": [
-        "Location supposed to move 123.7 km. Manual review required. Kima Id:1227 Name:איי התעלה (קליפורניה)",
-        "updatePlaceRecord: no changes for place 987007284940105171"
-      ],
-      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>00870cz  a2200193n  4500</leader><controlfield tag=\"005\">20250124055953.0</controlfield><controlfield tag=\"008\">860211|| anannbabn          |a ana      </controlfield><controlfield tag=\"001\">987007284940105171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">sh 85022532</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q49295619</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">-118.45091</subfield><subfield code=\"e\">-118.45091</subfield><subfield code=\"f\">32.8167</subfield><subfield code=\"g\">32.8167</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000659016</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Channel Islands (Calif.)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">איי התעלה (קליפורניה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">جزر القنال (كاليفورنيا)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Santa Barbara Islands (Calif.)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"550\" ind1=\" \" ind2=\" \"><subfield code=\"w\">g</subfield><subfield code=\"a\">Islands</subfield><subfield code=\"z\">California</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"781\" ind1=\" \" ind2=\"0\"><subfield code=\"z\">California</subfield><subfield code=\"z\">Channel Islands</subfield></datafield></record>\n"
     },
     {
       "item": {

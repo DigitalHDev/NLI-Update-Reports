@@ -1,0 +1,465 @@
+{
+  "type": "Place",
+  "runTime": "2026-07-19T17:38:48.7600158Z",
+  "period": "20241028-20241103",
+  "numProcessedItems": 28481,
+  "numModifiedItems": 44,
+  "numNewItems": 1,
+  "numReviewItems": 1,
+  "numFailedItems": 0,
+  "modifiedSummary": [
+    {
+      "item": {
+        "recordId": "987007402684805171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'وادي عكور (الضفة الغربية)'",
+        "updatePlaceRecord: variants +7: Valley of Achor (West Bank)[la] | 'Emeq Achor (West Bank)[la] | Emek Achor (Israel)[la] | Achor (West Bank)[la] | Achor (Valley)[la] | עמק עכור (ישראל)[he] | עכור, עמק (ישראל)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007498812705171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'النوعيمة (الضفة الغربية)' to 'نويعمة (الضفة الغربية)'",
+        "updatePlaceRecord: variants +8: An-Nuwai'ma (West Bank)[la] | Nu'eima (West Bank)[la] | al-Nuwayʻimah (West Bank)[la] | Nuweima (West Bank)[la] | נוויעמה (יהודה ושומרון)[he] | נועיימה (יהודה ושומרון)[he] | אלנויעמה (יהודה ושומרון)[he] | א-נויעמה (יהודה ושומרון)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007551560305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007551560305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007539516605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007539516605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007549918305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007549918305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007535124705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007535124705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007543674705171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 2797.7 km. Manual review required. Kima Id:2850 Name:אוקיאניה",
+        "Updated PrimaryArabFull from 'null' to 'أوقيانوسيا'",
+        "Updated Wd from 'Q55643' to 'Q538'. Manual review required. Kima Id:2850"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007568674105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007568674105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007563307005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007563307005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987009343677905171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'منطقة النزلة الوسطى (الضفة الغربية)'",
+        "updatePlaceRecord: variants +2: Annazla al Wusta Region (West Bank)[la] | אזור נזלה אל-ווסטה (יהודה ושומרון)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987009343679305171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'منطقة العطارة (الضفة الغربية)'",
+        "updatePlaceRecord: variants +1: Al-Atarah Region (West Bank)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987009349654205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987009349654205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987009444384105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987009444384105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987011038765405171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'عميحاي (الضفة الغربية)'",
+        "updatePlaceRecord: variants +4: Amihai (West Bank)[la] | Amichai (West Bank)[la] | עמיחי (ישראל)[he] | גאולת ציון (יהודה ושומרון)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987011253741805171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'مجد (الضفة الغربية)' to 'المجد، الخليل (الضفة الغربية)'",
+        "updatePlaceRecord: variants +8: Majd, Village (West Bank)[la] | Al-Majd (Hebron, West Bank)[la] | Majd (Hebron, West Bank)[la] | Khirbat al-Majd (West Bank)[la] | חירבת מג'ד (חברון, יהודה ושומרון)[he] | אל-מג'ד (יהודה ושומרון)[he] | אל-מג'ד, חברון (יהודה ושומרון)[he] | כפר מג'ד (יהודה ושומרון)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987011382743805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987011382743805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987011382744905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987011382744905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987011382745005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987011382745005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987011382745905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987011382745905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987011383045605171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'ג'בל עמור (אלג'יריה)' to 'הרי אמור (אלג'יריה)'",
+        "Updated PrimaryRomFull from 'Jebel Amour (Algeria)' to 'Amour Mountains (Algeria)'",
+        "Updated PrimaryArabFull from 'null' to 'جبال العمور (الجزائر)'",
+        "Updated Wd from 'null' to 'Q15179857'",
+        "updatePlaceRecord: variants +10: Ammour Mountains (El Bayadh, Algeria)[la] | Amour Range (Algeria)[la] | ʻAmūr Mountains (Algeria)[la] | Djebel Ammour (Algeria)[la] | Djebel Amour (Algeria)[la] | Djebel Rached (Algeria)[la] | Djemmel Ammour (Algeria)[la] | Jabal al-ʻAmūr (Algeria)[la] | Jebel Amour (Algeria)[la] | Rached Mountains (Algeria)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987011383046105171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'العساسيف (مصر)'",
+        "Updated ViafId from 'null' to '144660465'",
+        "updatePlaceRecord: variants +2: Asasif (Egypt)[la] | El Asasif (Egypt)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987011433525205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987011433525205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987011876070105171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'عزون عتمة (الضفة الغربية)'",
+        "updatePlaceRecord: variants +1: Azun Atma (West Bank)[la]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987011900467805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987011900467805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012124154905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012124154905171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012125048305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012125048305171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012218969205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012218969205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012218969505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012218969505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012218969605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012218969605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012218971205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012218971205171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012238951105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012238951105171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012238951505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012238951505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012238951805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012238951805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012238952405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012238952405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012238953005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012238953005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012238955705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012238955705171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012238958505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012238958505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012240121405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012240121405171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987012384039605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012384039605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007396756205171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'أرخيلائيس (الضفة الغربية)'",
+        "updatePlaceRecord: variants +7: Archelais (Israel)[la] | Khirbet el-Beiyudat (West Bank)[la] | Beiyudat, Khirbet El- (West Bank)[la] | Khirbet al-Bayudat (West Bank)[la] | ארכילאיס (ישראל)[he] | ח'ירבת אל-ביודאת (יהודה ושומרון)[he] | אל-ביודאת, חירבת (יהודה ושומרון)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007415920505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'منطقة عناب الكبير (الضفة الغربية)'",
+        "updatePlaceRecord: variants +4: Anab (Extinct city) (West Bank)[la] | ח'רבת ענב אלכביר (יהודה ושומרון)[he] | ענב (עיר קדומה) (יהודה ושומרון)[he] | ענב העליונה (יהודה ושומרון)[he]"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007549566505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007549566505171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007549583805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007549583805171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    },
+    {
+      "item": {
+        "recordId": "987007537003605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007537003605171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    }
+  ],
+  "newSummary": [
+    {
+      "item": {
+        "recordId": "987012799074005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012799074005171 does not satisfy IsPlaceToUse; skipping"
+      ]
+    }
+  ],
+  "requireReviewSummary": [
+    {
+      "item": {
+        "recordId": "987007543674705171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 2797.7 km. Manual review required. Kima Id:2850 Name:אוקיאניה",
+        "Updated PrimaryArabFull from 'null' to 'أوقيانوسيا'",
+        "Updated Wd from 'Q55643' to 'Q538'. Manual review required. Kima Id:2850"
+      ]
+    }
+  ],
+  "failedSummary": [],
+  "requireReviewItems": [
+    {
+      "item": {
+        "recordId": "987007543674705171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 2797.7 km. Manual review required. Kima Id:2850 Name:אוקיאניה",
+        "Updated PrimaryArabFull from 'null' to 'أوقيانوسيا'",
+        "Updated Wd from 'Q55643' to 'Q538'. Manual review required. Kima Id:2850"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01354cz  a2200313n  4500</leader><controlfield tag=\"005\">20241031082426.0</controlfield><controlfield tag=\"008\">000725|| anannbabn          |a ana      </controlfield><controlfield tag=\"001\">987007543674705171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">sh 85093910</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q538</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">166</subfield><subfield code=\"e\">166</subfield><subfield code=\"f\">-21</subfield><subfield code=\"g\">-21</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000722892</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Oceania</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">אוקיאניה</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">أوقيانوسيا</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"450\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Islands</subfield><subfield code=\"z\">South Pacific Ocean</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"w\">nne</subfield><subfield code=\"a\">Oceanica</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">South Pacific</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">South Pacific Ocean Region</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"w\">nne</subfield><subfield code=\"a\">South Pacific Region</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">South Sea Islands</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">South Seas</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Southwest Pacific Region</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"551\" ind1=\" \" ind2=\" \"><subfield code=\"w\">g</subfield><subfield code=\"a\">Islands of the Pacific</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"680\" ind1=\" \" ind2=\" \"><subfield code=\"i\">Here are entered comprehensive works on the islands of the Pacific Ocean belonging to the island groups of Melanesia, Micronesia, and Polynesia. Comprehensive works on all of the islands of the Pacific Ocean as well as works on the islands of the North Pacific are entered under</subfield><subfield code=\"a\">Islands of the Pacific.</subfield></datafield><datafield tag=\"681\" ind1=\" \" ind2=\" \"><subfield code=\"i\">Note under</subfield><subfield code=\"a\">Islands of the Pacific</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Wikidata ID reconciled 202311</subfield></datafield><datafield tag=\"781\" ind1=\" \" ind2=\"0\"><subfield code=\"z\">Oceania</subfield></datafield></record>\n"
+    }
+  ],
+  "failedItems": []
+}

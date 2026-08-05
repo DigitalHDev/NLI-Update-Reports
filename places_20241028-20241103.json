@@ -1,9 +1,9 @@
 {
   "type": "Place",
-  "runTime": "2026-07-19T17:38:48.7600158Z",
+  "runTime": "2026-08-03T14:34:56.8335326Z",
   "period": "20241028-20241103",
-  "numProcessedItems": 28481,
-  "numModifiedItems": 44,
+  "numProcessedItems": 28462,
+  "numModifiedItems": 43,
   "numNewItems": 1,
   "numReviewItems": 1,
   "numFailedItems": 0,
@@ -209,15 +209,6 @@
         "Updated PrimaryArabFull from 'null' to 'العساسيف (مصر)'",
         "Updated ViafId from 'null' to '144660465'",
         "updatePlaceRecord: variants +2: Asasif (Egypt)[la] | El Asasif (Egypt)[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987011433525205171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987011433525205171 does not satisfy IsPlaceToUse; skipping"
       ]
     },
     {
