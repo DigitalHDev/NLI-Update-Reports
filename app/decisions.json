@@ -1,0 +1,79 @@
+{
+ "987007552593705171": {
+  "decision": "skip",
+  "suggestedNewName": "",
+  "suggestedExistingName": "",
+  "note": "לדווח בספריה: דווקא יש שטרסבורג בגרמניה והיא שונה משטרסבורג שבצרפת היום.  מזהה הויקידאטה שלה שונה: Q565624 .  האם יש צורך בשמירת הזהות הזו? אם כן, מוטב להוסיף את 1871-1918 לשם העיקרי",
+  "timestampUtc": "2026-08-02T18:24:49Z"
+ },
+ "987007538277505171": {
+  "decision": "nli-duplicate",
+  "suggestedNewName": "",
+  "suggestedExistingName": "",
+  "note": "",
+  "timestampUtc": "2026-08-02T17:35:46Z"
+ },
+ "987007567653605171": {
+  "decision": "nli-duplicate",
+  "suggestedNewName": "",
+  "suggestedExistingName": "",
+  "note": "Osterwick הוא רובע ביישוב קטן, לא סביר שאליו הכוונה. הכיתוב הנכון הוא Osterwieck ולכן כדאי לאחד (בכימה) ולדווח כפילות ל-nli",
+  "timestampUtc": "2026-08-02T17:41:11Z"
+ },
+ "987007559599105171": {
+  "decision": "rename-suggestion",
+  "suggestedNewName": "מריון סטיישן (פנסילבניה)",
+  "suggestedExistingName": "מריון (פנסילבניה)",
+  "note": "לצורך דיסאמביגואציה של השם בעברית. לחלופין, אפשר להוסיף מחוזות (מונטגומרי, פרנקלין), אם כי מריון סטיישן הוא השם המוכר יותר.",
+  "timestampUtc": "2026-08-02T17:46:08Z"
+ },
+ "987010489292905171": {
+  "decision": "rename-suggestion",
+  "suggestedNewName": "פוליני (מחוז יורה, צרפת)",
+  "suggestedExistingName": "פוליני (מחוז מרת ומוזל, צרפת)",
+  "note": "",
+  "timestampUtc": "2026-08-02T17:48:05Z"
+ },
+ "987011252608705171": {
+  "decision": "rename-suggestion",
+  "suggestedNewName": "אופנהיים (בוואריה, גרמניה)",
+  "suggestedExistingName": "אופנהיים (ריינלנד-פפאלץ, גרמניה)",
+  "note": "",
+  "timestampUtc": "2026-08-02T17:50:07Z"
+ },
+ "987007557512105171": {
+  "decision": "skip",
+  "suggestedNewName": "",
+  "suggestedExistingName": "",
+  "note": "https://www.nli.org.il/he/authorities/987007562286805171",
+  "timestampUtc": "2026-08-02T17:54:47Z"
+ },
+ "987007562214205171": {
+  "decision": "rename-suggestion",
+  "suggestedNewName": "קאבה (היידו-ביהר, הונגריה)",
+  "suggestedExistingName": "קאבה (פשט, הונגריה)",
+  "note": "",
+  "timestampUtc": "2026-08-02T18:02:06Z"
+ },
+ "987012803472805171": {
+  "decision": "skip",
+  "suggestedNewName": "",
+  "suggestedExistingName": "",
+  "note": "למזג",
+  "timestampUtc": "2026-08-02T18:03:00Z"
+ },
+ "987013010638405171": {
+  "decision": "skip",
+  "suggestedNewName": "",
+  "suggestedExistingName": "",
+  "note": "למה זה דווח?",
+  "timestampUtc": "2026-08-02T18:09:28Z"
+ },
+ "987007528337405171": {
+  "decision": "merge",
+  "suggestedNewName": "",
+  "suggestedExistingName": "",
+  "note": "",
+  "timestampUtc": "2026-08-02T18:23:13Z"
+ }
+}
