@@ -3,5 +3,8 @@ Sinai/
 .env
 .env.*
 
+# App derived caches
+app/.cache/
+
 # OS noise
 .DS_Store

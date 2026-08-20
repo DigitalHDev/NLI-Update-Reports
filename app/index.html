@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NLI ↔ Kima — סקירת כשלים</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+  :root {
+    --bg: #f5f4f0; --card: #ffffff; --ink: #1e2430; --muted: #6b7280;
+    --accent: #1f6f8b; --new: #8b5a1f; --line: #e2e0d8; --bad: #b03030; --ok: #2e7d4f;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: -apple-system, "Segoe UI", Arial, "Noto Sans Hebrew", sans-serif;
+         background: var(--bg); color: var(--ink); }
+  header { display: flex; align-items: center; gap: 1rem; padding: .6rem 1.2rem;
+           background: var(--card); border-bottom: 1px solid var(--line); flex-wrap: wrap; }
+  header h1 { font-size: 1.05rem; margin: 0; }
+  .tabs { display: flex; gap: .4rem; flex-wrap: wrap; }
+  .tab { border: 1px solid var(--line); background: none; border-radius: 999px;
+         padding: .25rem .8rem; cursor: pointer; font-size: .85rem; color: var(--muted); }
+  .tab.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .nav { margin-inline-start: auto; display: flex; align-items: center; gap: .5rem; }
+  .nav button, .nav a { border: 1px solid var(--line); background: var(--card); border-radius: 8px;
+                padding: .35rem .7rem; cursor: pointer; font-size: .9rem; color: var(--ink);
+                text-decoration: none; }
+  .nav button:disabled { opacity: .4; cursor: default; }
+  #pos { font-size: .85rem; color: var(--muted); min-width: 7rem; text-align: center; }
+  main { max-width: 1280px; margin: 1rem auto; padding: 0 1rem; }
+  .meta { display: flex; gap: .6rem; align-items: center; flex-wrap: wrap; margin-bottom: .8rem; }
+  .badge { font-size: .78rem; border-radius: 6px; padding: .15rem .55rem; background: #e8e6df; }
+  .badge.cat { background: var(--accent); color: #fff; }
+  .badge.dist { background: #f3e2c8; }
+  .badge.warn { background: var(--bad); color: #fff; }
+  .badge.done { background: var(--ok); color: #fff; }
+  .pair { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; align-items: start; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+          padding: 1rem 1.2rem; overflow-wrap: anywhere; }
+  .card h2 { margin: 0 0 .2rem; font-size: .8rem; letter-spacing: .06em; text-transform: uppercase; }
+  .card.new h2 { color: var(--new); }
+  .card.kima h2 { color: var(--accent); }
+  .primary { font-size: 1.3rem; font-weight: 700; margin: .2rem 0; }
+  .secondary { color: var(--muted); font-size: 1rem; margin: .1rem 0; }
+  dl { display: grid; grid-template-columns: max-content 1fr; gap: .2rem .8rem;
+       font-size: .88rem; margin: .8rem 0 0; }
+  dt { color: var(--muted); }
+  dd { margin: 0; }
+  dd a { color: var(--accent); text-decoration: none; }
+  dd a:hover { text-decoration: underline; }
+  .variants { margin-top: .7rem; font-size: .85rem; }
+  .variants .vtitle { color: var(--muted); font-size: .78rem; margin-bottom: .15rem; }
+  .variants span { display: inline-block; background: #f0eee8; border-radius: 6px;
+                   padding: .1rem .5rem; margin: .12rem; }
+  .variants span.conflict { background: #f8dede; outline: 1.5px solid var(--bad); font-weight: 600; }
+  .notes { margin-top: .7rem; font-size: .8rem; color: var(--muted); border-top: 1px dashed var(--line);
+           padding-top: .5rem; }
+  .msg { background: #fbf7ef; border: 1px solid #ecdfc8; border-radius: 8px; padding: .6rem .9rem;
+         font-size: .8rem; margin-top: 1rem; color: #6b5636; direction: ltr; text-align: left; }
+  .links { margin-top: .8rem; display: flex; gap: .5rem; flex-wrap: wrap; }
+  .links a { font-size: .82rem; border: 1px solid var(--line); border-radius: 8px;
+             padding: .25rem .6rem; text-decoration: none; color: var(--accent); }
+  .empty { padding: 2rem; text-align: center; color: var(--muted); }
+  #map { height: 240px; border: 1px solid var(--line); border-radius: 12px; margin-bottom: 1rem;
+         direction: ltr; }
+  #map.hidden { display: none; }
+  .maplegend { font-size: .78rem; color: var(--muted); margin: -0.6rem 0 .8rem; }
+  .dotnew, .dotkima { display: inline-block; width: .7em; height: .7em; border-radius: 50%;
+                      margin-inline-start: .3em; }
+  .dotnew { background: transparent; border: 2px solid var(--new); }
+  .dotkima { background: var(--accent); }
+  /* actions */
+  .actions { background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+             padding: .9rem 1.2rem; margin-top: 1rem; }
+  .actions h3 { margin: 0 0 .6rem; font-size: .85rem; color: var(--muted); }
+  .actbtns { display: flex; gap: .5rem; flex-wrap: wrap; }
+  .actbtns button { border: 1px solid var(--line); background: #faf9f6; border-radius: 8px;
+                    padding: .4rem .9rem; cursor: pointer; font-size: .88rem; }
+  .actbtns button.sel { outline: 2px solid var(--accent); background: #eaf3f6; }
+  .rename { margin-top: .8rem; display: grid; grid-template-columns: max-content 1fr; gap: .5rem .8rem;
+            align-items: center; font-size: .88rem; }
+  .rename input, .actions textarea { width: 100%; padding: .4rem .6rem; border: 1px solid var(--line);
+            border-radius: 8px; font-size: .95rem; font-family: inherit; }
+  .mergeinfo { margin-top: .8rem; font-size: .88rem; background: #eaf3f6;
+               border: 1px solid #cfe2e9; border-radius: 8px; padding: .55rem .8rem; }
+  .actbtns button:disabled { opacity: .45; cursor: default; }
+  .actions textarea { margin-top: .7rem; min-height: 2.4rem; resize: vertical; }
+  .savebar { margin-top: .7rem; display: flex; gap: .6rem; align-items: center; }
+  .savebar button { background: var(--accent); color: #fff; border: 0; border-radius: 8px;
+                    padding: .45rem 1.2rem; font-size: .9rem; cursor: pointer; }
+  .savebar .clear { background: none; color: var(--muted); border: 1px solid var(--line); }
+  .saved { color: var(--ok); font-size: .85rem; }
+  @media (max-width: 760px) { .pair { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>NLI ↔ Kima · סקירת כשלים</h1>
+  <div class="tabs" id="tabs"></div>
+  <div class="nav">
+    <a href="/export.csv" title="ייצוא ההחלטות לקובץ CSV">⬇ דוח</a>
+    <button id="prev">→ הקודם</button>
+    <span id="pos"></span>
+    <button id="next">הבא ←</button>
+  </div>
+</header>
+<main id="main"><div class="empty">טוען…</div></main>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const CAT_LABELS = {
+  'dup-places': 'כפילות שם מקום', 'dup-variants': 'כפילות וריאנט',
+  'missing-marc': 'רשומה חסרה', 'bad-geography': 'קואורדינטות פגומות', 'other': 'אחר', 'all': 'הכול'
+};
+const ACT_LABELS = {
+  'nli-duplicate': 'כפילות ב־NLI', 'rename-suggestion': 'הצעת שינוי שם',
+  'merge': 'מיזוג (החלפת NLI-ID בכימה)', 'skip': 'דילוג'
+};
+let cases = [], cats = {}, idx = 0, cat = 'dup-places', detailCache = {}, map = null;
+
+async function loadList() {
+  const r = await fetch('/api/cases?category=' + cat);
+  const d = await r.json();
+  cases = d.cases; cats = d.categories; idx = Math.min(idx, Math.max(0, cases.length - 1));
+  renderTabs(); render();
+}
+function renderTabs() {
+  const t = document.getElementById('tabs');
+  const total = Object.values(cats).reduce((a, b) => a + b, 0);
+  t.innerHTML = '';
+  for (const key of ['all', ...Object.keys(cats)]) {
+    const n = key === 'all' ? total : cats[key];
+    const b = document.createElement('button');
+    b.className = 'tab' + (key === cat ? ' active' : '');
+    b.textContent = `${CAT_LABELS[key] || key} (${n})`;
+    b.onclick = () => { cat = key; idx = 0; loadList(); };
+    t.appendChild(b);
+  }
+}
+const idLink = (label, url, value) =>
+  value ? `<dt>${label}</dt><dd><a href="${url}" target="_blank" dir="ltr">${value}</a></dd>` : '';
+const field = (label, value, dir) =>
+  value ? `<dt>${label}</dt><dd dir="${dir || 'auto'}">${value}</dd>` : '';
+const coordStr = c => c ? `${(+c[0]).toFixed(4)}, ${(+c[1]).toFixed(4)}` : null;
+// approximate the DB's case/accent-insensitive collation
+const fold = s => (s || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim();
+const osm = c => `https://www.openstreetmap.org/?mlat=${c[0]}&mlon=${c[1]}#map=9/${c[0]}/${c[1]}`;
+
+function renderMap(newC, kimaC) {
+  const el = document.getElementById('map');
+  if (map) { map.remove(); map = null; }
+  if (!newC && !kimaC) { el.classList.add('hidden'); return; }
+  el.classList.remove('hidden');
+  map = L.map('map', { scrollWheelZoom: false });
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+    { attribution: '© OpenStreetMap' }).addTo(map);
+  const pts = [];
+  // kima = filled dot, incoming = hollow ring — when the two locations
+  // coincide they render as a target (ring around dot) instead of hiding
+  if (kimaC) {
+    L.circleMarker(kimaC, { radius: 7, color: '#1f6f8b', fillColor: '#1f6f8b',
+                            fillOpacity: .9, weight: 1 })
+      .addTo(map).bindTooltip('כימה כעת');
+    pts.push(kimaC);
+  }
+  if (newC) {
+    L.circleMarker(newC, { radius: 13, color: '#8b5a1f', weight: 3,
+                           fill: true, fillColor: '#8b5a1f', fillOpacity: .08 })
+      .addTo(map).bindTooltip('NLI נכנס');
+    pts.push(newC);
+  }
+  if (pts.length === 2 && (pts[0][0] !== pts[1][0] || pts[0][1] !== pts[1][1])) {
+    L.polyline(pts, { color: '#999', weight: 1.5, dashArray: '4 4' }).addTo(map);
+  }
+  map.fitBounds(L.latLngBounds(pts).pad(0.5), { maxZoom: 8 });
+  if (pts.length === 1) map.setZoom(6);
+}
+
+function actionBar(c) {
+  const d = c.decision || {};
+  const p = (c.newCard || {}).primary || {};
+  const kheb = (c.kimaCard || {}).primary_heb_full || '';
+  const selNew = d.suggestedNewName || p.heb || '';
+  const selExisting = d.suggestedExistingName || kheb;
+  return `
+  <div class="actions">
+    <h3>החלטה על הזוג</h3>
+    <div class="actbtns">
+      <button data-act="nli-duplicate" ${d.decision === 'nli-duplicate' ? 'class="sel"' : ''}>כפילות ב־NLI → לדוח</button>
+      <button data-act="rename-suggestion" ${d.decision === 'rename-suggestion' ? 'class="sel"' : ''}>הצעת שינוי שם (הבחנה)</button>
+      <button data-act="merge" ${d.decision === 'merge' ? 'class="sel"' : ''} ${c.kimaCard && c.kimaCard.Id ? '' : 'disabled title="לא אותר מקום כימה"'}>מיזוג — החלפת NLI-ID</button>
+      <button data-act="skip" ${d.decision === 'skip' ? 'class="sel"' : ''}>דלג</button>
+    </div>
+    <div class="rename" id="renameFields" ${d.decision === 'rename-suggestion' ? '' : 'hidden'}>
+      <label>שם מוצע לרשומה הנכנסת:</label>
+      <input id="sugNew" dir="rtl" value="${selNew.replace(/"/g, '&quot;')}">
+      <label>שם מוצע לרשומה הקיימת:</label>
+      <input id="sugExisting" dir="rtl" value="${selExisting.replace(/"/g, '&quot;')}">
+    </div>
+    <div class="mergeinfo" id="mergeInfo" ${d.decision === 'merge' ? '' : 'hidden'}>
+      במקום כימה <b dir="ltr">${(c.kimaCard || {}).Id || '—'}</b> יוחלף מזהה ה־NLI
+      <b dir="ltr">${(c.kimaCard || {}).MAZAL_ID || '—'}</b> (שאינו תקף עוד)
+      במזהה הנכנס <b dir="ltr">${c.recordId}</b>.
+      כל שאר המידע בכימה נשמר כפי שהוא.
+    </div>
+    <textarea id="note" placeholder="הערה (לא חובה)">${d.note || ''}</textarea>
+    <div class="savebar">
+      <button id="save">שמור והמשך</button>
+      <button class="clear" id="clearDec">נקה החלטה</button>
+      <span class="saved" id="savedMsg">${d.decision ? 'נשמר: ' + (ACT_LABELS[d.decision] || d.decision) + ' (' + (d.timestampUtc || '') + ')' : ''}</span>
+    </div>
+  </div>`;
+}
+
+let pendingAct = null;
+
+async function saveDecision(c, decision) {
+  const body = {
+    recordId: c.recordId,
+    decision,
+    suggestedNewName: decision === 'rename-suggestion' ? document.getElementById('sugNew').value.trim() : '',
+    suggestedExistingName: decision === 'rename-suggestion' ? document.getElementById('sugExisting').value.trim() : '',
+    note: document.getElementById('note').value.trim(),
+  };
+  const r = await fetch('/api/decision', { method: 'POST',
+    headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) });
+  const res = await r.json();
+  c.decision = res.decision;
+  const row = cases.find(x => x.recordId === c.recordId);
+  if (row) row.decision = decision;
+}
+
+async function render() {
+  const main = document.getElementById('main');
+  document.getElementById('pos').textContent = cases.length ? `${idx + 1} / ${cases.length}` : '0 / 0';
+  document.getElementById('prev').disabled = idx <= 0;
+  document.getElementById('next').disabled = idx >= cases.length - 1;
+  if (!cases.length) { main.innerHTML = '<div class="empty">אין מקרים בקטגוריה זו</div>'; return; }
+  const rid = cases[idx].recordId;
+  if (!detailCache[rid]) {
+    main.innerHTML = '<div class="empty">טוען…</div>';
+    detailCache[rid] = await (await fetch('/api/case/' + rid)).json();
+  }
+  const c = detailCache[rid];
+  const n = c.newCard || {}, k = c.kimaCard;
+  const p = n.primary || {};
+
+  // conflict detection: the failing variant from the error key, plus in-record
+  // near-duplicates that collide under the DB's case/accent-insensitive index
+  const foldConf = c.conflictVariant ? fold(c.conflictVariant) : null;
+  const newFolds = {};
+  (n.variants || []).forEach(v => { const f = fold(v.name); newFolds[f] = (newFolds[f] || 0) + 1; });
+  const newConflict = v => { const f = fold(v); return (foldConf && f === foldConf) || newFolds[f] > 1; };
+  const kimaConflict = v => foldConf && fold(v) === foldConf;
+
+  let metaBadges = `<span class="badge cat">${CAT_LABELS[c.category] || c.category}</span>
+    <span class="badge">${c.period}</span>
+    <span class="badge">${c.isNew ? 'רשומה חדשה' : 'עדכון רשומה'}</span>`;
+  if (c.distanceKm != null) metaBadges += `<span class="badge dist">מרחק: ${c.distanceKm} ק״מ</span>`;
+  if (c.kimaSource === 'unresolved') metaBadges += `<span class="badge warn">לא אותר בכימה</span>`;
+  if (c.decision) metaBadges += `<span class="badge done">${ACT_LABELS[c.decision.decision] || c.decision.decision}</span>`;
+  if (c.manualAction) metaBadges += `<span class="badge">טופל: ${c.manualAction.action}</span>`;
+
+  const newCard = `
+    <article class="card new">
+      <h2>NLI · נכנס (${c.recordId}) <span class="dotnew"></span></h2>
+      <div class="primary" dir="rtl">${p.heb || '—'}</div>
+      <div class="secondary" dir="ltr">${p.lat || ''}</div>
+      ${p.ara ? `<div class="secondary" dir="rtl">${p.ara}</div>` : ''}
+      <dl>
+        ${idLink('NLI', c.nliUrlNew, c.recordId)}
+        ${idLink('Wikidata', 'https://www.wikidata.org/wiki/' + (n.ids?.wikidata || ''), n.ids?.wikidata)}
+        ${idLink('VIAF', 'https://viaf.org/viaf/' + (n.ids?.viaf || ''), n.ids?.viaf)}
+        ${idLink('LCCN', 'https://lccn.loc.gov/' + (n.ids?.lccn || '').replace(/\s+/g, ''), n.ids?.lccn)}
+        ${field('Aleph', n.ids?.aleph, 'ltr')}
+        ${n.coords ? idLink('קואורד׳', osm(n.coords), coordStr(n.coords)) : ''}
+        ${field('ראו גם', (n.seealso || []).join(' · '))}
+      </dl>
+      ${(n.variants || []).length ? `<div class="variants">
+          <div class="vtitle">וריאנטים ברשומה הנכנסת (${n.variants.length})</div>
+          ${n.variants.map(v => `<span dir="auto" class="${newConflict(v.name) ? 'conflict' : ''}"
+              ${newConflict(v.name) ? 'title="וריאנט בעייתי — מתנגש תחת השוואה עיוורת לניקוד/רישיות"' : ''}>${v.name}</span>`).join('')}</div>` : ''}
+      ${(n.notes || []).length || (n.sources || []).length ? `<div class="notes">
+          ${(n.notes || []).map(x => `<div dir="auto">⚑ ${x}</div>`).join('')}
+          ${(n.sources || []).map(x => `<div dir="auto">§ ${x}</div>`).join('')}</div>` : ''}
+      <div class="links"><a href="${c.nliUrlNew}" target="_blank">פתח ב־NLI ↗</a></div>
+    </article>`;
+
+  const kimaCard = k ? `
+    <article class="card kima">
+      <h2>Kima · כעת ${k.Id ? '(מקום ' + k.Id + ')' : ''} <span class="dotkima"></span></h2>
+      <div class="primary" dir="rtl">${k.primary_heb_full || '—'}</div>
+      <div class="secondary" dir="ltr">${k.primary_rom_full || ''}</div>
+      ${k.primary_arab_full ? `<div class="secondary" dir="rtl">${k.primary_arab_full}</div>` : ''}
+      <dl>
+        ${idLink('NLI', c.nliUrlExisting, k.MAZAL_ID)}
+        ${idLink('Wikidata', 'https://www.wikidata.org/wiki/' + (k.WD || '').trim(), (k.WD || '').trim())}
+        ${idLink('VIAF', 'https://viaf.org/viaf/' + String(k.VIAF_ID || '').trim(), String(k.VIAF_ID || '').trim())}
+        ${idLink('GeoNames', 'https://www.geonames.org/' + String(k.Geoname_ID || '').trim(), String(k.Geoname_ID || '').trim())}
+        ${field('NAF', String(k.NAF_ID || '').trim(), 'ltr')}
+        ${k.lat != null ? idLink('קואורד׳', osm([k.lat, k.lon]), coordStr([k.lat, k.lon])) : ''}
+        ${field('מקור איתור', c.kimaSource, 'ltr')}
+      </dl>
+      ${(c.kimaVariants || []).length ? `<div class="variants">
+          <div class="vtitle">וריאנטים בכימה (${c.kimaVariants.length})</div>
+          ${c.kimaVariants.map(v => `<span dir="auto" class="${kimaConflict(v) ? 'conflict' : ''}"
+              ${kimaConflict(v) ? 'title="הווריאנט שכבר קיים בכימה ושחסם את ההוספה"' : ''}>${v}</span>`).join('')}</div>` : ''}
+      <div class="links">
+        ${c.kimaUrl ? `<a href="${c.kimaUrl}" target="_blank">פתח בכימה ↗</a>` : ''}
+        ${c.nliUrlExisting ? `<a href="${c.nliUrlExisting}" target="_blank">פתח ב־NLI ↗</a>` : ''}
+      </div>
+    </article>` : `
+    <article class="card kima">
+      <h2>Kima · כעת</h2>
+      <div class="empty">לא אותר מקום כימה עבור הכותרת<br><b dir="rtl">${c.heading || ''}</b><br>
+      (${c.kimaSource || ''})</div>
+    </article>`;
+
+  const hasMap = (n.coords) || (k && k.lat != null);
+  main.innerHTML = `<div class="meta">${metaBadges}</div>
+    ${hasMap ? '<div id="map"></div><div class="maplegend">NLI נכנס<span class="dotnew"></span> · כימה כעת<span class="dotkima"></span></div>' : ''}
+    <div class="pair">${newCard}${kimaCard}</div>
+    ${actionBar(c)}
+    <div class="msg">${c.messages.map(m => m.replace(/</g, '&lt;')).join('<br>')}</div>`;
+
+  if (hasMap) renderMap(n.coords || null, (k && k.lat != null) ? [k.lat, k.lon] : null);
+
+  // wire actions
+  pendingAct = (c.decision || {}).decision || null;
+  const btns = main.querySelectorAll('.actbtns button');
+  btns.forEach(b => b.onclick = () => {
+    if (b.disabled) return;
+    pendingAct = b.dataset.act;
+    btns.forEach(x => x.classList.toggle('sel', x === b));
+    document.getElementById('renameFields').hidden = pendingAct !== 'rename-suggestion';
+    document.getElementById('mergeInfo').hidden = pendingAct !== 'merge';
+  });
+  document.getElementById('save').onclick = async () => {
+    if (!pendingAct) { document.getElementById('savedMsg').textContent = 'בחר/י פעולה קודם'; return; }
+    await saveDecision(c, pendingAct);
+    if (idx < cases.length - 1) { idx++; render(); } else render();
+  };
+  document.getElementById('clearDec').onclick = async () => {
+    await saveDecision(c, null);
+    c.decision = null; render();
+  };
+}
+
+document.getElementById('prev').onclick = () => { if (idx > 0) { idx--; render(); } };
+document.getElementById('next').onclick = () => { if (idx < cases.length - 1) { idx++; render(); } };
+document.addEventListener('keydown', e => {
+  if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+  if (e.key === 'ArrowRight') document.getElementById('prev').click();
+  if (e.key === 'ArrowLeft') document.getElementById('next').click();
+});
+loadList();
+</script>
+</body>
+</html>
