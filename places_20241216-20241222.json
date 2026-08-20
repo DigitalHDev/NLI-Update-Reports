@@ -1,8 +1,8 @@
 {
   "type": "Place",
-  "runTime": "2026-08-03T14:59:35.6738884Z",
+  "runTime": "2026-08-16T10:41:00.2841809Z",
   "period": "20241216-20241222",
-  "numProcessedItems": 702,
+  "numProcessedItems": 692,
   "numModifiedItems": 1,
   "numNewItems": 33,
   "numReviewItems": 0,
@@ -15,7 +15,8 @@
       "result": "Success",
       "messages": [
         "updatePlaceRecord: variants +2: Ein Siniya (West Bank)[la] | En Sinya (West Bank)[la]"
-      ]
+      ],
+      "nliState": "Live"
     }
   ],
   "newSummary": [
@@ -25,8 +26,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013170283505171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013170283505171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Grootdraai Dam (South Africa), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -34,8 +36,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013170285605171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013170285605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -43,8 +46,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013170285805171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013170285805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -52,8 +56,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013170286905171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013170286905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -61,8 +66,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013170287905171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013170287905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -70,8 +76,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013170289605171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013170289605171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Castle Gate, The (Utah), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -79,8 +86,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013170289705171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013170289705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -88,8 +96,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013170290605171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013170290605171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Liberty Lake (Wash. : Lake), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -97,8 +106,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013170282405171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013170282405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -106,8 +116,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013170282505171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013170282505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -115,8 +126,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013170283205171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013170283205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -124,8 +136,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013170283305171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013170283305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -133,8 +146,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013170284105171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013170284105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -142,8 +156,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013170284205171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013170284205171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Żarnowiec Lake (Poland), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -151,8 +166,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013170284405171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013170284405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -160,8 +176,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013170285705171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013170285705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -169,8 +186,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013170285905171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013170285905171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Xianshui River (China), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -178,8 +196,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013170286705171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013170286705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -187,8 +206,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013170287705171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013170287705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -196,8 +216,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013170288105171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013170288105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -205,8 +226,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013170290205171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013170290205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -214,8 +236,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013170282705171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013170282705171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Seram Sea (Indonesia), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -223,8 +246,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013170283805171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013170283805171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Heping River (Taiwan), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -232,8 +256,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013170284305171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013170284305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -241,8 +266,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013170286205171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013170286205171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Henderson Harbor (N.Y. : Harbor), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -250,8 +276,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013170287105171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013170287105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -259,8 +286,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013170287405171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013170287405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -268,8 +296,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013170288905171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013170288905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -277,8 +306,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013170289205171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013170289205171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Sokolac (Brinje, Croatia), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -286,8 +316,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013170289805171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013170289805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -295,8 +326,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013170290705171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013170290705171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Tosna River (Russia), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -304,8 +336,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013170290805171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013170290805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -313,8 +346,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013170291205171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013170291205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     }
   ],
   "requireReviewSummary": [],

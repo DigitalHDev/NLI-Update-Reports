@@ -1,0 +1,394 @@
+{
+  "type": "Place",
+  "runTime": "2026-08-16T14:28:23.657145Z",
+  "period": "20251021-20251027",
+  "numProcessedItems": 20187,
+  "numModifiedItems": 4,
+  "numNewItems": 33,
+  "numReviewItems": 0,
+  "numFailedItems": 0,
+  "modifiedSummary": [
+    {
+      "item": {
+        "recordId": "987007560140005171"
+      },
+      "result": "Success",
+      "messages": [
+        "updatePlaceRecord: variants +10: Oudja (Morocco)[la] | Oudjda (Morocco)[la] | Ouja (Morocco)[la] | Wajdah (Morocco)[la] | Wujdah (Morocco)[la] | אוזדא (מרוקו)[he] | אוגדה (מרוקו)[he] | וג'דה (מרוקו)[he] | אג'דה (מרוקו)[he] | وجدة (Morocco)[ar]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007557485305171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryRomFull from 'Zgorzelec (Wojewodztwo Dolnoslaskie, Poland)' to 'Zgorzelec (Dolnośląskie, Poland)'",
+        "Updated PrimaryArabFull from 'null' to 'زغورزيليك (سيليزيا السفلى، بولندا)'",
+        "Updated ViafId from 'null' to '152457138'",
+        "updatePlaceRecord: variants +5: Zgorzelec (Wojewodztwo Dolnoslaskie, Poland)[la] | Zgorzelec (Jelenia Gora, Poland)[la] | Gorlitz (Poland)[la] | Zgorzelice (Poland)[la] | Zgorzelica (Poland)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987011529977005171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'ליפסקו (פרובינציה מזוביה, פולין)' to 'ליפסקו (מזוביה, פולין)'",
+        "Updated PrimaryRomFull from 'Lipsko (Województwo Mazowieckie, Poland)' to 'Lipsko (Mazowieckie, Poland)'",
+        "Updated PrimaryArabFull from 'null' to 'ليبسكو (ماسوفيا، بولندا)'",
+        "updatePlaceRecord: variants +1: Lipsko (Województwo Mazowieckie, Poland)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987008707572905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987008707572905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    }
+  ],
+  "newSummary": [
+    {
+      "item": {
+        "recordId": "987013290976905171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987013290976905171 (ויאזוב (פולין))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013526176805171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987013526176805171 (ווייקפילד (קוויבק))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617077105171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987013617077105171 (זבניצ'ין (אוקראינה))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013715705405171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987013715705405171 (מחוז אוסמנסקי (רוסיה))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013587237805171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987013587237805171 (נאקעל שלזיה (פולין))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617071705171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987013617071705171 (ארנבוטקוי (איסטנבול, טורקיה : צפון מערב))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007552766205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007552766205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007538083805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007538083805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007557360205171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007557360205171 (קינג אוף פרשה (פנסילבניה))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007565178505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007565178505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987008907590205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987008907590205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013751152105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013751152105171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E220348, $e=E220348, $f=N533643, $g=N533643, $2=geonames) — $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013763615805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013763615805171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E252903, $e=E252903, $f=N484714, $g=N484714, $2=geonames) — $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013778145105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013778145105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013778145205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013778145205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013778228905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013778228905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013778144105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013778144105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013778144705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013778144705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013778145405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013778145405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013778228105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013778228105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013778230205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013778230205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013778231205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013778231205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013778142405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013778142405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013778143105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013778143105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013778145605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013778145605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013778146605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013778146605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013778146805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013778146805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013778226605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013778226605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013778142105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013778142105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013778143405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013778143405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013778143705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013778143705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013778231105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013778231105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013778232105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013778232105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    }
+  ],
+  "requireReviewSummary": [],
+  "failedSummary": [],
+  "requireReviewItems": [],
+  "failedItems": []
+}

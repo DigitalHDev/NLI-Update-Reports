@@ -1,0 +1,3478 @@
+[
+  {
+    "period": "20260101-20260107",
+    "track": "Place",
+    "recordId": "987013290993605171",
+    "messages": [
+      "updatePlaceRecord: place 987013290993605171 would repoint onto Kima Id 12624 (currently MAZAL_ID 987007550425805171), but Could not verify 987007550425805171 is gone from NLI: Failed to fetch MARC XML. Status: InternalServerError Manual review required."
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260115-20260121",
+    "track": "Place",
+    "recordId": "987014197239905171",
+    "messages": [
+      "updatePlaceRecord: place 987014197239905171 would repoint onto Kima Id 1398 (currently MAZAL_ID 987007550763305171), but Could not verify 987007550763305171 is gone from NLI: Failed to fetch MARC XML. Status: InternalServerError Manual review required."
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260115-20260121",
+    "track": "Place",
+    "recordId": "987007496512305171",
+    "messages": [
+      "Updated PrimaryHebFull from 'בודפשט (הונגריה : מחוז 22)' to 'רובע 22 (בודפשט, הונגריה)'",
+      "Updated PrimaryRomFull from 'XXII. Kerület (Budapest, Hungary)' to 'XXII. Kerület (Budapest, Hungary)'",
+      "Updated PrimaryArabFull from 'null' to 'ثاني وعشرون كيروليت (بودابست، المجر)'",
+      "Updated Wd from 'Q1781' to 'Q1215163'. Manual review required. Kima Id:19430",
+      "updatePlaceRecord: variants +4: 22. Kerület (Budapest (Hungary)[la] | Budatétény (Budapest, Hungary)[la] | Nagytétény (Budapest, Hungary)[la] | Tétény (Budapest, Hungary)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260115-20260121",
+    "track": "Place",
+    "recordId": "987007557223005171",
+    "messages": [
+      "Location supposed to move 83.4 km. Manual review required. Kima Id:9710 Name:ליפטובסקי מיקולש (סלובקיה)",
+      "Updated PrimaryRomFull from 'Liptovský Mikuláš (Slovakia)' to 'Liptovský Mikuláš (Slovakia)'",
+      "Updated PrimaryArabFull from 'null' to 'ليبتوفسكي ميكولاس (سلوفاكيا)'",
+      "updatePlaceRecord: variants +6: Liptovský Mikuláš (Czechoslovakia)[la] | Liptószentmiklós (Slovakia)[la] | Svätý Mikuláš Liptovský (Slovakia)[la] | Liptovský svätý Mikuláš (Slovakia)[la] | Lyptoszentmiklos (Slovakia)[la] | ליפטוי סענט מיקלאש (סלובקיה)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260115-20260121",
+    "track": "Place",
+    "recordId": "987007534563005171",
+    "messages": [
+      "Location supposed to move 328.2 km. Manual review required. Kima Id:73403 Name:נהר סקלפטה (שבדיה)",
+      "Updated PrimaryHebFull from 'נהר סקלפטה (שבדיה)' to 'נהר סקלפטה (שוודיה)'",
+      "Updated PrimaryArabFull from 'null' to 'نهر سكيليفت (السويد)'",
+      "updatePlaceRecord: variants +1: Skellefteälven (Sweden)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260115-20260121",
+    "track": "Place",
+    "recordId": "987007515276905171",
+    "messages": [
+      "Location supposed to move 40.9 km. Manual review required. Kima Id:22292 Name:לוז'ניה קינז'ווארט (צ'כיה)",
+      "Updated PrimaryRomFull from 'Lázně Kynžvart (Czech Republic)' to 'Lázně Kynžvart (Czech Republic)'",
+      "Updated PrimaryArabFull from 'null' to 'لازني كينزفارت (جمهورية التشيك)'",
+      "updatePlaceRecord: variants +4: Bad Königswart (Czech Republic)[la] | Königswart (Czech Republic)[la] | Königswarte (Czech Republic)[la] | קאניגסווערט (צ'כיה)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260115-20260121",
+    "track": "Place",
+    "recordId": "987007559817105171",
+    "messages": [
+      "Location supposed to move 45.0 km. Manual review required. Kima Id:14637 Name:נושני (רומניה)",
+      "Updated PrimaryArabFull from 'null' to 'نوسيني (رومانيا)'",
+      "updatePlaceRecord: variants +5: Nösen (Romania)[la] | Bistrita (Romania)[la] | Bistritz (Romania)[la] | Beszterce (Romania)[la] | Târgul Rosu (Romania)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260115-20260121",
+    "track": "Place",
+    "recordId": "987007577024605171",
+    "messages": [
+      "Location supposed to move 55.2 km. Manual review required. Kima Id:24681 Name:פאפסטאטן (אוסטריה)",
+      "Updated PrimaryRomFull from 'Pfaffstätten (Austria)' to 'Pfaffstätten (Austria)'",
+      "Updated PrimaryArabFull from 'null' to 'بفافستاتن (النمسا)'",
+      "updatePlaceRecord: variants +1: פאפשטעטן (אוסטריה)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260115-20260121",
+    "track": "Place",
+    "recordId": "987007597568305171",
+    "messages": [
+      "Location supposed to move 8126.1 km. Manual review required. Kima Id:23449 Name:בוקוני (הונגריה)",
+      "Updated PrimaryRomFull from 'Bököny (Hungary)' to 'Bököny (Hungary)'",
+      "Updated PrimaryArabFull from 'null' to 'بوكوني (المجر)'",
+      "updatePlaceRecord: variants +1: ביקין (הונגריה)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260115-20260121",
+    "track": "Place",
+    "recordId": "987007282539105171",
+    "messages": [
+      "Location supposed to move 113.3 km. Manual review required. Kima Id:1869 Name:בוהמיה (צ'כיה)",
+      "Updated PrimaryArabFull from 'بوهيميا (التشيك)' to 'بوهيميا (جمهورية التشيك)'",
+      "updatePlaceRecord: variants +7: Bohemia (Czechoslovakia)[la] | Böhmen (Czech Republic)[la] | Čechy (Czech Republic)[la] | Czechy (Czech Republic)[la] | בהם (צ'כיה)[he] | ביהם (צ'כיה)[he] | פיהם (צ'כיה)[he]",
+      "updatePlaceRecord: variants already present, not inserted (1): Bohemia[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260115-20260121",
+    "track": "Place",
+    "recordId": "987007552629505171",
+    "messages": [
+      "Location supposed to move 333.9 km. Manual review required. Kima Id:7415 Name:מאלמו (שבדיה)",
+      "Updated PrimaryHebFull from 'מאלמו (שבדיה)' to 'מאלמו (שוודיה)'",
+      "Updated PrimaryRomFull from 'Malmö (Sweden)' to 'Malmö (Sweden)'",
+      "Updated PrimaryArabFull from 'null' to 'مالمو (السويد)'",
+      "updatePlaceRecord: variants +2: Malmö, Sweden[la] | מלמה (שבדיה)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260115-20260121",
+    "track": "Place",
+    "recordId": "987007551210205171",
+    "messages": [
+      "Location supposed to move 516.5 km. Manual review required. Kima Id:76353 Name:סלנגה (מונגוליה ורוסיה)",
+      "Updated PrimaryArabFull from 'null' to 'نهر سيلينجا (منغوليا وروسيا)'",
+      "updatePlaceRecord: variants +5: Selenge mören (Mongolia and Russia)[la] | Selenge mörön (Mongolia and Russia)[la] | Selenge River (Mongolia and R.S.F.S.R.)[la] | Selenge River (Mongolia and Russia)[la] | Selengge (Mongolia and Russia)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260129-20260204",
+    "track": "Place",
+    "recordId": "987007283467705171",
+    "messages": [
+      "Location supposed to move 143.4 km. Manual review required. Kima Id:1157 Name:האזור הקריבי",
+      "Updated Wd from 'null' to 'Q664609'",
+      "updatePlaceRecord: variants already present, not inserted (4): Caribbean Free Trade Association countries[la] | Caribbean Region[la] | Caribbean Sea Region[la] | West Indies Region[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260205-20260211",
+    "track": "Place",
+    "recordId": "987007559511105171",
+    "messages": [
+      "Location supposed to move 29.5 km. Manual review required. Kima Id:8515 Name:קורמנד (הונגריה)",
+      "Updated PrimaryRomFull from 'Körmend (Hungary)' to 'Körmend (Hungary)'",
+      "Updated PrimaryArabFull from 'null' to 'كورميند (المجر)'",
+      "updatePlaceRecord: variants +2: Körmend, Hungary[la] | גערמענד (הונגריה)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260205-20260211",
+    "track": "Place",
+    "recordId": "987007524775705171",
+    "messages": [
+      "Location supposed to move 1635.9 km. Manual review required. Kima Id:23698 Name:קאמען (בלארוס)",
+      "Updated PrimaryRomFull from 'Kamen (Belarus)' to 'Kamen' (Belarus)'",
+      "Updated PrimaryArabFull from 'null' to 'كامين (بيلاروس)'",
+      "updatePlaceRecord: variants +1: Kamen (Belarus)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007283261305171",
+    "messages": [
+      "Location supposed to move 88.6 km. Manual review required. Kima Id:1856 Name:הים השחור",
+      "Updated PrimaryArabFull from 'null' to 'البحر الأسود'",
+      "updatePlaceRecord: variants already present, not inserted (7): Chernoe more[la] | Chernoye more[la] | Chorne more[la] | Euxine Sea[la] | Karadeniz[la] | Marea Neagră[la] | Pontus Euxinus[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007291078305171",
+    "messages": [
+      "Location supposed to move 76.3 km. Manual review required. Kima Id:1544 Name:מצר פרקופ (אוקראינה)",
+      "Updated PrimaryArabFull from 'null' to 'بيريكوب برزخ (أوكرانيا)'",
+      "updatePlaceRecord: variants +8: Isthmus of Perekop (Ukraine)[la] | Perekop, Isthmus of (Ukraine)[la] | Perekopskiy peresheyek (Ukraine)[la] | Perekopsʹkyĭ pereshyĭok (Ukraine)[la] | Taphros Isthmus (Ukraine)[la] | Or Qapi (Ukraine)[la] | Perecop (Ukraine)[la] | אור קאפי (אוקראינה)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007403727605171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007403727605171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+    ],
+    "nliState": "Absent",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007384161805171",
+    "messages": [
+      "Updated PrimaryRomFull from 'The Garden of Ridván (Acre, Israel)' to 'Garden of Ridván (Acre, Israel)'",
+      "Updated PrimaryArabFull from 'حديقة رضوان (عكّا، إسرائيل)' to 'حديقة ريدفان (عكا، إسرائيل)'",
+      "Updated Wd from 'Q1852980' to 'Q2149036'. Manual review required. Kima Id:26251",
+      "updatePlaceRecord: variants +3: Ridwan Gardens ('Akko, Israel)[la] | Garden of Ridván, Akka ('Akko, Israel)[la] | רידוואן, גן (עכו, ישראל)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007396030105171",
+    "messages": [
+      "Updated PrimaryHebFull from 'אושפול (ליטה)' to 'אושפול (ליטא)'",
+      "Updated PrimaryRomFull from 'Užpaliai (Lithuania)' to 'Užpaliai (Lithuania)'",
+      "Updated PrimaryArabFull from 'null' to 'أوزبالياي (ليتوانيا)'",
+      "Updated ViafId from '309840941' to '315523566'. Manual review required. Kima Id:27109",
+      "updatePlaceRecord: variants +5: Ushpol (Lithuania)[la] | Ušpaliai (Lithuania)[la] | Uszpole (Lithuania)[la] | Uzhpalyay (Lithuania)[la] | Užpalių (Lithuania)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007393272005171",
+    "messages": [
+      "Location supposed to move 247.6 km. Manual review required. Kima Id:26322 Name:אדלסברג (גמונדן על נהר ריין, גרמניה)",
+      "Updated PrimaryRomFull from 'Adelsberg (Gemünden am Main, Germany)' to 'Adelsberg (Gemünden am Main, Germany)'",
+      "Updated PrimaryArabFull from 'null' to 'أديلسبرغ (غيموندن أم ماين، ألمانيا)'",
+      "Updated Wd from 'Q355368' to 'Q4682089'. Manual review required. Kima Id:26322"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007463741705171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007463741705171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+    ],
+    "nliState": "Absent",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007475194305171",
+    "messages": [
+      "Location supposed to move 161.4 km. Manual review required. Kima Id:21450 Name:בודסהיים (גרמניה)",
+      "Updated PrimaryRomFull from 'Büdesheim (Germany)' to 'Büdesheim (Germany)'",
+      "Updated PrimaryArabFull from 'null' to 'بوديسهايم (ألمانيا)'",
+      "updatePlaceRecord: variants +2: Buedesheim (Germany)[la] | בידסהיים (גרמניה)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007475479405171",
+    "messages": [
+      "Updated PrimaryRomFull from 'Köthen (Germany)' to 'Köthen (Germany)'",
+      "Updated PrimaryArabFull from 'null' to 'كوتن (ألمانيا)'",
+      "Updated Wd from 'Q1796771' to 'Q49277802'. Manual review required. Kima Id:490",
+      "updatePlaceRecord: variants +4: Cöthen (Germany)[la] | קוטן (גרמניה)[he] | קיטן (גרמניה)[he] | קטן (גרמניה)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007550349505171",
+    "messages": [
+      "Location supposed to move 53.4 km. Manual review required. Kima Id:82727 Name:באדן (גרמניה)",
+      "Updated PrimaryArabFull from 'null' to 'بادن (ألمانيا)'",
+      "Updated ViafId from 'null' to '137195603'",
+      "updatePlaceRecord: variants +1: Baden (Grand Duchy)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007537310005171",
+    "messages": [
+      "Location supposed to move 258.7 km. Manual review required. Kima Id:88958 Name:תעלת קרים הצפונית (אוקראינה)",
+      "Updated PrimaryArabFull from 'null' to 'قناة القرم الشمالية (أوكرانيا)'",
+      "updatePlaceRecord: variants +5: North Crimea Canal (Ukraine)[la] | Northern Crimea Canal (Ukraine)[la] | Pivnichno-Krymsʹkyĭ kanal (Ukraine)[la] | Pivnichno-Krymsʹkyy kanal (Ukraine)[la] | Severo-Krymskiĭ kanal (Ukraine)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007544554505171",
+    "messages": [
+      "Location supposed to move 55.6 km. Manual review required. Kima Id:80127 Name:אי המלך ג'ורג' (אנטארקטיקה)",
+      "Updated PrimaryArabFull from 'null' to 'جزيرة الملك جورج (أنتاركتيكا)'",
+      "updatePlaceRecord: variants +6: Ile du Roi Georges (Antarctica)[la] | Isla 25 de Mayo (Antarctica)[la] | Isla Rey Jorge (Antarctica)[la] | King George's Island (Antarctica)[la] | König Georg Insel (Antarctica)[la] | Waterloo Island (Antarctica)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007529375405171",
+    "messages": [
+      "Location supposed to move 504.8 km. Manual review required. Kima Id:76700 Name:נהר הבוג הדרומי (אוקראינה)",
+      "Updated PrimaryArabFull from 'null' to 'نهر باغ الجنوبي (أوكرانيا)'",
+      "updatePlaceRecord: variants +9: Boh River (Ukraine)[la] | Bug River (Ukraine)[la] | Buh River (Ukraine)[la] | Hipanis River (Ukraine)[la] | Hypanis River (Ukraine)[la] | I͡Uzhnyĭ Bug River (Ukraine)[la] | Pivdennyĭ Buh River (Ukraine)[la] | Pivdennyy Buh River (Ukraine)[la] | Yuzhnyy Bug River (Ukraine)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007536354805171",
+    "messages": [
+      "Location supposed to move 465.7 km. Manual review required. Kima Id:76043 Name:נהר פריפיאט (אוקראינה ובלארוס)",
+      "Updated PrimaryArabFull from 'null' to 'نهر بريبيت (أوكرانيا وبيلاروسيا)'",
+      "updatePlaceRecord: variants +6: Pripi͡atʹ River (Ukraine and Belarus)[la] | Pripi͡atʹ River (Ukraine and Byelorussian S.S.R.)[la] | Pripyat River (Ukraine and Belarus)[la] | Prypeć River (Ukraine and Belarus)[la] | Pryp'i͡atʹ River (Ukraine and Belarus)[la] | Prypi͡at͡sʹ River (Ukraine and Belarus)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007547450505171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007547450505171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+    ],
+    "nliState": "Absent",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007528368305171",
+    "messages": [
+      "Updated PrimaryArabFull from 'null' to 'أويلفيلد (ألمانيا)'",
+      "Updated Wd from 'Q505394' to 'Q33509937'. Manual review required. Kima Id:22437",
+      "updatePlaceRecord: variants +3: Ühlfeld (Germany)[la] | אילפעלט (גרמניה)[he] | עלפעלד (גרמניה)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007539648705171",
+    "messages": [
+      "Location supposed to move 22.0 km. Manual review required. Kima Id:71167 Name:מצר קורפו (אלבניה ויוון)",
+      "Updated PrimaryArabFull from 'null' to 'قناة كورفو (ألبانيا واليونان)'",
+      "updatePlaceRecord: variants +3: Canale di Corfú (Albania and Greece)[la] | Corfu Straits (Albania and Greece)[la] | Strait of Corfu (Albania and Greece)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007548055205171",
+    "messages": [
+      "Updated PrimaryRomFull from 'Evora (Portugal)' to 'Évora (Portugal)'",
+      "Updated PrimaryArabFull from 'null' to 'إيفورا (البرتغال)'",
+      "Updated ViafId from '123103045' to '244998758'. Manual review required. Kima Id:8238",
+      "updatePlaceRecord: variants +2: Évora, Portugal[la] | איברא (פורטוגל)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007548036905171",
+    "messages": [
+      "Updated Wd from 'Q23406' to 'Q30831'. Manual review required. Kima Id:9037",
+      "updatePlaceRecord: variants +5: Red Sea Province (Egypt)[la] | Baḥr al Aḥmar, Egypt[la] | Muhāfazat al Bahr al Ahmar (Egypt)[la] | Bahr El Ahmar (Egypt)[la] | Mudīrīyat al-Baḥr al-Aḥmar (Egypt)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007550753005171",
+    "messages": [
+      "Location supposed to move 66.9 km. Manual review required. Kima Id:1399 Name:פרנקישה אלב (גרמניה)",
+      "Updated PrimaryRomFull from 'Fränkische Alb (Germany)' to 'Fränkische Alb (Germany)'",
+      "Updated PrimaryArabFull from 'null' to 'فرانكونيان ألب (ألمانيا)'",
+      "updatePlaceRecord: variants +2: Franconian Jura (Germany)[la] | Fränkischer Jura (Germany)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007554238205171",
+    "messages": [
+      "Location supposed to move 100.0 km. Manual review required. Kima Id:79605 Name:מנסטר בלאקווטר (קרי-קורק ווטררפורד, אירלנד)",
+      "Updated PrimaryArabFull from 'null' to 'بلاكووتر، نهر (كيري كورك ووترفورد، أيرلندا)'",
+      "updatePlaceRecord: variants +4: Abhainn Mhór, An (Kerry-Cork and Waterford, Ireland)[la] | An Abhainn Mhór (Kerry-Cork and Waterford, Ireland)[la] | Munster Blackwater River (Ireland)[la] | River Blackwater (Kerry-Cork and Waterford, Ireland)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007534589405171",
+    "messages": [
+      "Location supposed to move 213.8 km. Manual review required. Kima Id:81217 Name:נהר ארג'ש (,רומניה)",
+      "Updated PrimaryHebFull from 'נהר ארג'ש (,רומניה)' to 'נהר ארג'ש (רומניה)'",
+      "Updated PrimaryRomFull from 'Argeș River (Romania)' to 'Argeș River (Romania)'",
+      "Updated PrimaryArabFull from 'null' to 'نهر أرجيس (رومانيا)'",
+      "updatePlaceRecord: variants +2: Rîul Argeș (Romania)[la] | ארג'ש (נהר, רומניה)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007533229905171",
+    "messages": [
+      "Updated PrimaryArabFull from 'چفعات حاييم' to 'چفعات حاييم (إسرائيل)'",
+      "Updated ViafId from '316602116' to '126825479'. Manual review required. Kima Id:910",
+      "updatePlaceRecord: variants +6: Givʻat Ḥayim (Israel)[la] | Gival Haim (Israel)[la] | Givat Haim (Israel)[la] | Givʻat Ḥaiyim (Israel)[la] | קיבוץ גבעת חיים (ישראל)[he] | קבוץ גבעת חיים (ישראל)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007552705605171",
+    "messages": [
+      "Location supposed to move 41.1 km. Manual review required. Kima Id:12396 Name:שלקריפה (גרמניה)",
+      "Updated PrimaryRomFull from 'Schöllkrippen (Germany)' to 'Schöllkrippen (Germany)'",
+      "Updated PrimaryArabFull from 'null' to 'شولكريبين (ألمانيا)'",
+      "updatePlaceRecord: variants +3: Schölkrippen (Germany)[la] | Schoellkrippen (Germany)[la] | שעלקריפה (גרמניה)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007534983005171",
+    "messages": [
+      "Location supposed to move 614.3 km. Manual review required. Kima Id:76757 Name:נהר אראס",
+      "Updated PrimaryArabFull from 'null' to 'نهر أراس'",
+      "updatePlaceRecord: variants +7: Araks River[la] | Aras Nehri[la] | Araxes River[la] | Araz çayı[la] | Araz River[la] | Rūd-e Aras[la] | Rūdkhāneh-ye Aras[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007542632505171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007542632505171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+    ],
+    "nliState": "Absent",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007543765305171",
+    "messages": [
+      "Location supposed to move 87.0 km. Manual review required. Kima Id:2427 Name:סיירה דה קורדובה (ארגנטינה)",
+      "Updated PrimaryRomFull from 'Sierra de Córdoba (Argentina)' to 'Sierra de Córdoba (Argentina)'",
+      "Updated PrimaryArabFull from 'null' to 'سييرا دي قرطبة (الأرجنتين)'",
+      "Updated Wd from 'Q21841322' to 'Q1719533'. Manual review required. Kima Id:2427",
+      "updatePlaceRecord: variants +1: Córdoba, Sierra de (Argentina)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007557332205171",
+    "messages": [
+      "Coordinates added: Lat=15.294, Lon=-23.714",
+      "Updated PrimaryRomFull from 'Trás-os-Montes (Portugal)' to 'Trás-os-Montes (Portugal)'",
+      "Updated PrimaryArabFull from 'null' to 'تراس أوس مونتيس (البرتغال)'",
+      "Updated Wd from 'Q2179774' to 'Q7849100'. Manual review required. Kima Id:9740",
+      "updatePlaceRecord: variants +3: Traz-os-Montes, Portugal (Province)[la] | Trás-los-Montes (Portugal)[la] | Trallos Montes (Portugal)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007565408105171",
+    "messages": [
+      "Location supposed to move 46.8 km. Manual review required. Kima Id:2000 Name:נהר איזונצו (סלובניה ואיטליה)",
+      "Updated PrimaryArabFull from 'null' to 'نهر إيسونزو (سلوفينيا وإيطاليا)'",
+      "updatePlaceRecord: variants +3: Fiume Isonzo (Slovenia and Italy)[la] | Soča River (Slovenia and Italy)[la] | Sontius River (Slovenia and Italy)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007590336505171",
+    "messages": [
+      "Location supposed to move 33.0 km. Manual review required. Kima Id:23173 Name:וינקאויץ' (אוקראינה)",
+      "Updated PrimaryArabFull from 'null' to 'فينكيفتسي (أوكرانيا)'",
+      "Updated Wd from 'null' to 'Q2391347'",
+      "updatePlaceRecord: variants +5: Vinkivciai (Ukraine)[la] | Wińkowce (Ukraine)[la] | Zatońsk (Ukraine)[la] | Vin'kovtsy (Ukraine)[la] | ווינקאוויץ (אוקראינה)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007581398905171",
+    "messages": [
+      "Location supposed to move 197.0 km. Manual review required. Kima Id:24630 Name:הוכשטט (גרמניה)",
+      "Updated PrimaryRomFull from 'Höchstadt (Germany)' to 'Höchstadt (Germany)'",
+      "Updated PrimaryArabFull from 'null' to 'هوخشتات (ألمانيا)'",
+      "updatePlaceRecord: variants +1: הישטט (גרמניה)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007593124005171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007593124005171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+    ],
+    "nliState": "Absent",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007560843605171",
+    "messages": [
+      "Location supposed to move 81.5 km. Manual review required. Kima Id:2324 Name:אוקראינה, מערב",
+      "Updated PrimaryArabFull from 'null' to 'أوكرانيا، الغربية'",
+      "updatePlaceRecord: variants already present, not inserted (2): Western Ukraine[la] | Zakhidna Ukraïna[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007559626405171",
+    "messages": [
+      "Location supposed to move 120.5 km. Manual review required. Kima Id:9600 Name:איגולשטדט (גרמניה)",
+      "Updated PrimaryArabFull from 'null' to 'إنغولشتات (ألمانيا)'",
+      "updatePlaceRecord: variants +3: Ingolshṭaṭ (Germany)[la] | מלאכקריה (גרמניה)[he] | אינגולשטאט (גרמניה)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007559778105171",
+    "messages": [
+      "Updated PrimaryArabFull from 'null' to 'ألمانيا (الغربية)'",
+      "Updated ViafId from '135446758' to '125406032'. Manual review required. Kima Id:9524",
+      "updatePlaceRecord: variants +4: Federal Republic of Germany Germany (West)[la] | Germany (Federal Republic, 1949- )[la] | West Germany (1949-1990)[la] | Germany (Federal Republic)[la]",
+      "updatePlaceRecord: variants already present, not inserted (40): GFR[la] | Germanskai︠a︡ Federalʹnai︠a︡ Respublika[la] | Ḥukūmat Almānyā al-Ittiḥādīyah[la] | NRF[la] | Niemiecka Republika Federalna[la] | FRG[la] | Federativnai︠a︡ Respublika Germanii[la] | NSR[la] | Nĕmecká spolková republika[la] | Német Szövetségi Köztársaság[la] | BRD[la] | Bundesrepublik Deutschland[la] | Republiḳah ha-federalit ha-Germanit[la] | Batı Almanya[la] | Federal Almanya[la] | Tyske forbundsrepublik[la] | NSzK[la] | Repubblica federale tedesca[la] | Hsi-te cheng fu[la] | Te-i-chih lien pang kung ho kuo[la] | RFA[la] | République fédérale allemande[la] | RFN[la] | Republika Federalna Niemiec[la] | Republik Federasi Jerman[la] | G.F.R.[la] | N.R.F.[la] | F.R.G.[la] | N.S.R.[la] | B.R.D.[la] | N.Sz.K.[la] | R.F.A.[la] | R.F.N.[la] | Alemania Federal[la] | République fédérale d'Allemagne[la] | República Federal de Alemania[la] | Bondsrepubliek Duitsland[la] | Repubblica federale di Germania[la] | German Federal Republic[la] | Western Germany[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007567201705171",
+    "messages": [
+      "Updated PrimaryArabFull from 'null' to 'قلات (ولاية أميرية)'",
+      "Updated Wd from 'Q139948' to 'Q2581527'. Manual review required. Kima Id:16983",
+      "updatePlaceRecord: variants +1: Qalāt (Princely State)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007557440405171",
+    "messages": [
+      "Updated PrimaryRomFull from 'Arṭās (West Bank)' to 'Arṭās (West Bank)'",
+      "Updated Wd from 'Q3624069' to 'Q510449'. Manual review required. Kima Id:85374",
+      "Updated ViafId from 'null' to '165393146'",
+      "updatePlaceRecord: variants +5: Arṭās[la] | Arṭās (Israel)[la] | Arṭās, Jordan[la] | Artasium[la] | ארטס (ישראל)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007558347905171",
+    "messages": [
+      "Updated PrimaryArabFull from 'null' to 'سكسونيا سويسرا (ألمانيا)'",
+      "Updated Wd from 'Q159539' to 'Q702566'. Manual review required. Kima Id:2074",
+      "updatePlaceRecord: variants +3: Sächsische Schweiz (Germany)[la] | Saské Švýcarsko (Germany)[la] | Saxonian Switzerland (Germany)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007562585405171",
+    "messages": [
+      "Updated PrimaryHebFull from 'מרחביה (ישראל)' to 'מרחביה (ישראל : קיבוץ)'",
+      "Updated PrimaryRomFull from 'Merhavya (Israel)' to 'Merhavya (Israel : Kibbutz)'",
+      "Updated PrimaryArabFull from 'مرحافياه (إسرائيل)' to 'ميرحافيا (إسرائيل : كيبوتس)'",
+      "Updated ViafId from '316601643' to '154855713'. Manual review required. Kima Id:205",
+      "updatePlaceRecord: variants +9: Merhavya (Israel: Qibbutz)[la] | Merḥavyah (Israel)[la] | Merchavia (Israel)[la] | Merhavya Cooperation (Israel)[la] | Ha-Coóperatsiyah Shel Merhavyah (Israel)[la] | Ḳibuts Merḥavyah (Israel)[la] | הקואופרציה במרחביה (ישראל)[he] | מרחביה, הקואופרציה (ישראל)[he] | מרחביה (קיבוץ)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007567411405171",
+    "messages": [
+      "Updated PrimaryArabFull from 'null' to 'أومي (كوت ديفوار : مقاطعة)'",
+      "Updated Wd from 'Q7110509' to 'Q1102546'. Manual review required. Kima Id:88231",
+      "Updated ViafId from 'null' to '131477473'",
+      "updatePlaceRecord: variants +1: Oumé (Côte d'Ivoire : Dept.)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987011345045305171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987011345045305171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+    ],
+    "nliState": "Absent",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987012301768605171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987012301768605171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+    ],
+    "nliState": "Absent",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007282291905171",
+    "messages": [
+      "Location supposed to move 51.1 km. Manual review required. Kima Id:1809 Name:אזור במיין (אפגניסטן)",
+      "Updated PrimaryRomFull from 'Bamian Region (Afghanistan)' to 'Bāmīān Region (Afghanistan)'",
+      "Updated PrimaryArabFull from 'null' to 'منطقة باميان (أفغانستان)'",
+      "updatePlaceRecord: variants +2: Bāmiyān Region (Afghanistan)[la] | Bāmyān Region (Afghanistan)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007294753205171",
+    "messages": [
+      "Location supposed to move 1245.9 km. Manual review required. Kima Id:1935 Name:נהר האמזונס",
+      "Updated PrimaryArabFull from 'null' to 'نهر الأمازون'",
+      "Updated Wd from 'null' to 'Q3783'",
+      "updatePlaceRecord: variants already present, not inserted (4): Amazonas River[la] | Orellana River[la] | Rio Amazonas[la] | Río de las Amazonas[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007403722905171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007403722905171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+    ],
+    "nliState": "Absent",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007384164205171",
+    "messages": [
+      "Updated Wd from 'Q494706' to 'Q108416849'. Manual review required. Kima Id:26250",
+      "updatePlaceRecord: variants +3: Bahá'í Gardens (Haifa, Israel)[la] | הגנים הבהאיים (חיפה, ישראל)[he] | גנים הבהאיים (חיפה, ישראל)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007394627705171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007394627705171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+    ],
+    "nliState": "Absent",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007393270705171",
+    "messages": [
+      "Location supposed to move 99.0 km. Manual review required. Kima Id:26324 Name:איגואפרס (פוי-דה-דום, צרפת)",
+      "Updated PrimaryRomFull from 'Aigueperse (Puy-de-Dôme, France)' to 'Aigueperse (Puy-de-Dôme, France)'",
+      "Updated PrimaryArabFull from 'null' to 'أيغيبيرس (بوي دو دوم، فرنسا)'",
+      "Updated Wd from 'Q1158006' to 'Q333447'. Manual review required. Kima Id:26324"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007415670805171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007415670805171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+    ],
+    "nliState": "Absent",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007524670705171",
+    "messages": [
+      "Location supposed to move 98.2 km. Manual review required. Kima Id:74111 Name:עין אל-זייתון (ישראל)",
+      "updatePlaceRecord: variants +3: ʻAyn Zaytūn (Israel)[la] | עין אלזיתון (ישראל)[he] | עין אזייטו (ישראל)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007548076205171",
+    "messages": [
+      "Updated PrimaryRomFull from 'Württemberg (Germany)' to 'Württemberg (Germany)'",
+      "Updated PrimaryArabFull from 'null' to 'فورتمبيرغ (ألمانيا)'",
+      "Updated Wd from 'null' to 'Q159626'",
+      "Updated ViafId from '123144371' to '1147162906435378110006'. Manual review required. Kima Id:7175",
+      "updatePlaceRecord: variants +3: Würtemberg (Germany)[la] | Wirtemberg (Germany)[la] | Wuerttemberg (Germany)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007515445905171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007515445905171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+    ],
+    "nliState": "Absent",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007507433105171",
+    "messages": [
+      "Location supposed to move 57.2 km. Manual review required. Kima Id:23979 Name:ברוק (גרמניה)",
+      "Updated PrimaryRomFull from 'Brück (Germany)' to 'Brück (Germany)'",
+      "Updated PrimaryArabFull from 'null' to 'بروك (ألمانيا)'",
+      "Updated Wd from 'null' to 'Q995940'",
+      "updatePlaceRecord: variants +1: פריק (גרמניה)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007543309705171",
+    "messages": [
+      "Location supposed to move 321.0 km. Manual review required. Kima Id:82419 Name:נהר גוואדאלקיוויר (ספרד)",
+      "Updated PrimaryArabFull from 'null' to 'نهر غوادالكويفير (إسبانيا)'",
+      "updatePlaceRecord: variants +5: Baetis River (Spain)[la] | Betis River (Spain)[la] | Kebir Wadi (Spain)[la] | Río Guadalquivir (Spain)[la] | Wadi el Kebir (Spain)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007552864005171",
+    "messages": [
+      "Location supposed to move 45.5 km. Manual review required. Kima Id:70231 Name:הילדסהיים (גרמניה)",
+      "Updated PrimaryArabFull from 'null' to 'هيلدسهايم (ألمانيا)'",
+      "Updated ViafId from 'null' to '311114512'",
+      "updatePlaceRecord: variants +2: Heldesheim (Germany)[la] | הילדסהים (גרמניה)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007530210205171",
+    "messages": [
+      "Location supposed to move 466.8 km. Manual review required. Kima Id:85439 Name:נהר טקזה (אתיופיה וסודאן)",
+      "Updated PrimaryArabFull from 'null' to 'نهر تيكيزي (إثيوبيا والسودان)'",
+      "updatePlaceRecord: variants +6: Bahr Setit (Ethiopia and Sudan)[la] | Nahr Satit (Ethiopia and Sudan)[la] | Satit River (Ethiopia and Sudan)[la] | Setit River (Ethiopia and Sudan)[la] | Takkaze River (Ethiopia and Sudan)[la] | Tekezē Wenz (Ethiopia and Sudan)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007551216105171",
+    "messages": [
+      "Location supposed to move 498.7 km. Manual review required. Kima Id:80073 Name:נהר ריו נגרו (ריו נגרו, ארגנטינה)",
+      "Updated PrimaryRomFull from 'Negro River (Río Negro, Argentina)' to 'Negro River (Río Negro, Argentina)'",
+      "Updated PrimaryArabFull from 'null' to 'نهر نيغرو (ريو نيغرو، الأرجنتين)'",
+      "updatePlaceRecord: variants +1: Río Negro (Río Negro, Argentina)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007536750105171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007536750105171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+    ],
+    "nliState": "Absent",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007511488505171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007511488505171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+    ],
+    "nliState": "Absent",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007536434705171",
+    "messages": [
+      "Location supposed to move 163.0 km. Manual review required. Kima Id:2413 Name:שט אל-ערב (איראן ועיראק)",
+      "updatePlaceRecord: variants +3: Arab, Shatt al- (Iraq and Iran)[la] | Arvand Rūd (Iraq and Iran)[la] | Shat al-Arab (Iraq and Iran)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007532142005171",
+    "messages": [
+      "Location supposed to move 30.2 km. Manual review required. Kima Id:3300 Name:בוסעדה (אלג'יריה)",
+      "Updated PrimaryRomFull from 'Bou Saâda (Algeria)' to 'Bou Saâda (Algeria)'",
+      "updatePlaceRecord: variants +3: Bū Saʻādah (Algeria)[la] | Boussada (Algeria)[la] | בוסעדא (אלג'יריה)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007548642205171",
+    "messages": [
+      "Location supposed to move 204.0 km. Manual review required. Kima Id:72735 Name:נהר זאלה (גרמניה)",
+      "Updated PrimaryArabFull from 'null' to 'نهر سالي (ألمانيا)'",
+      "updatePlaceRecord: variants +3: Sächsische Saale River (Germany)[la] | Saxonian Saale River (Germany)[la] | Zaale River (Germany)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007555800905171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007555800905171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+    ],
+    "nliState": "Absent",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007546517105171",
+    "messages": [
+      "Location supposed to move 308.5 km. Manual review required. Kima Id:88843 Name:נהר אוסומקינטה (גואטמלה ומקסיקו)",
+      "Updated PrimaryArabFull from 'null' to 'نهر أوسوماسينتا (غواتيمالا والمكسيك)'",
+      "updatePlaceRecord: variants +2: Río Usumacinta (Guatemala and Mexico)[la] | Usumatsintla River (Guatemala and Mexico)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007549680505171",
+    "messages": [
+      "Location supposed to move 101.3 km. Manual review required. Kima Id:5323 Name:רומנה (איטליה)",
+      "Updated PrimaryArabFull from 'null' to 'رومانيا (إيطاليا)'",
+      "updatePlaceRecord: variants +3: Romania (Italy)[la] | Rumâgna (Italy)[la] | רומניא (איטליה)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007542578805171",
+    "messages": [
+      "Location supposed to move 425.6 km. Manual review required. Kima Id:71011 Name:נהר צ'ובוט (ארגנטינה)",
+      "Updated PrimaryArabFull from 'null' to 'نهر تشوبوت (الأرجنتين)'",
+      "updatePlaceRecord: variants +1: Río Chubut (Argentina)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007562616005171",
+    "messages": [
+      "Updated PrimaryRomFull from 'Jījil (Algeria)' to 'Jījil (Algeria)'",
+      "Updated ViafId from '136160454' to '241096842'. Manual review required. Kima Id:16016",
+      "updatePlaceRecord: variants +4: Jijel (Algeria)[la] | Djidjelli (Algeria)[la] | Jijelli (Algeria)[la] | Gigeri (Algeria)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007583811505171",
+    "messages": [
+      "Location supposed to move 685.6 km. Manual review required. Kima Id:24730 Name:אורנצ'יק (טורקיה)",
+      "Updated PrimaryRomFull from 'Örencik (Turkey)' to 'Örencik (Turkey)'",
+      "Updated PrimaryArabFull from 'null' to 'أورنجيك (تركيا)'",
+      "Updated Wd from 'null' to 'Q4821258'",
+      "updatePlaceRecord: variants +1: אורנג'יק (טורקיה)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007560831605171",
+    "messages": [
+      "Location supposed to move 41.3 km. Manual review required. Kima Id:2326 Name:אולסטר (צפון אירלנד ואירלנד)",
+      "Updated PrimaryArabFull from 'null' to 'أولستر (أيرلندا الشمالية وأيرلندا)'",
+      "Updated Wd from 'null' to 'Q93195'",
+      "updatePlaceRecord: variants +1: Cúigh Uladh (Northern Ireland and Ireland)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007563053405171",
+    "messages": [
+      "Location supposed to move 176.7 km. Manual review required. Kima Id:82385 Name:נהר איסקר (בולגריה)",
+      "Updated PrimaryRomFull from 'Iskŭr River (Bulgaria)' to 'Iskŭr River (Bulgaria)'",
+      "Updated PrimaryArabFull from 'null' to 'نهر إيسكور (بلغاريا)'",
+      "updatePlaceRecord: variants +6: Golem Iskar River (Bulgaria)[la] | Golyem Iskŭr River (Bulgaria)[la] | Iskar River (Bulgaria)[la] | Isker River (Bulgaria)[la] | Iskr River (Bulgaria)[la] | Oescus River (Bulgaria)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007583812005171",
+    "messages": [
+      "Location supposed to move 23.4 km. Manual review required. Kima Id:24727 Name:לשניב (אוקראינה)",
+      "Updated PrimaryArabFull from 'null' to 'ليشنيف (أوكرانيا)'",
+      "updatePlaceRecord: variants +2: Leszniów (Ukraine)[la] | לעשנוב (אוקראינה)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007557515005171",
+    "messages": [
+      "Updated PrimaryRomFull from 'Grünsfeld (Germany)' to 'Grünsfeld (Germany)'",
+      "Updated PrimaryArabFull from 'null' to 'غرونسفيلد (ألمانيا)'",
+      "Updated Wd from 'null' to 'Q61845'",
+      "Updated ViafId from '150141830' to '244524263'. Manual review required. Kima Id:13347",
+      "updatePlaceRecord: variants +1: Grünsfeld, Ger.[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007575413605171",
+    "messages": [
+      "Updated PrimaryRomFull from 'Jastrząb (Powiat Szydłowiecki, Poland)' to 'Jastrząb (Powiat Szydłowiecki, Poland)'",
+      "Updated PrimaryArabFull from 'null' to 'جاسترز آب (مقاطعة سيدلوفيتش، بولندا)'",
+      "Updated Wd from ' Q738572' to 'Q929504'. Manual review required. Kima Id:1658",
+      "updatePlaceRecord: variants +2: יאסטרזאמב (פולין)[he] | סטרזומב (פולין)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007565893005171",
+    "messages": [
+      "Location supposed to move 818.7 km. Manual review required. Kima Id:70275 Name:נהר האדום (סין ווייטנאם)",
+      "Updated PrimaryArabFull from 'null' to 'النهر الأحمر (الصين وفيتنام)'",
+      "updatePlaceRecord: variants +4: Song Coi (China and Vietnam)[la] | Sông Hồng (China and Vietnam)[la] | Yüan Chiang (China and Vietnam)[la] | Yuan Jiang (China and Vietnam)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007570386105171",
+    "messages": [
+      "Location supposed to move 27.9 km. Manual review required. Kima Id:23128 Name:עמק ערבה (ישראל וירדן)",
+      "Updated PrimaryHebFull from 'עמק ערבה (ישראל וירדן)' to 'עמק הערבה (ישראל וירדן)'",
+      "updatePlaceRecord: variants +6: Arabah Valley (Israel and Jordan)[la] | Araba Valley (Israel and Jordan)[la] | Aravah Valley (Israel and Jordan)[la] | HaʻArava Valley (Israel and Jordan)[la] | Wādī al ʻArabah (Israel and Jordan)[la] | Wadi Araba (Israel and Jordan)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007560354305171",
+    "messages": [
+      "Updated PrimaryArabFull from 'null' to 'بورتلاند (إنجلترا)'",
+      "Updated Wd from 'Q774215' to 'Q29168518'. Manual review required. Kima Id:16179",
+      "updatePlaceRecord: variants +3: Portland, Eng.[la] | Isle of Portland (England)[la] | Portland, Isle of (England)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007557259305171",
+    "messages": [
+      "Updated PrimaryArabFull from 'null' to 'أكابولكو (المكسيك)'",
+      "Updated ViafId from '132515777' to '249070468'. Manual review required. Kima Id:8685",
+      "updatePlaceRecord: variants +2: Acapulco, Mexico[la] | Acapulco de Juárez (Mexico)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007567857705171",
+    "messages": [
+      "Location supposed to move 9345.6 km. Manual review required. Kima Id:1093 Name:אי הפסחא",
+      "Updated PrimaryArabFull from 'null' to 'جزيرة إيستر'",
+      "updatePlaceRecord: variants already present, not inserted (9): David Island[la] | Ile de Pâques[la] | Isla de David[la] | Isla de Pascua[la] | Isla de San Carlos[la] | Pascua Island[la] | Pâques Island[la] | Rapa Nui[la] | Rapanui[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007560192505171",
+    "messages": [
+      "Location supposed to move 2314.7 km. Manual review required. Kima Id:1414 Name:אירופה המזרחית",
+      "Updated PrimaryArabFull from 'null' to 'أوروبا الشرقية'",
+      "updatePlaceRecord: variants already present, not inserted (2): East Europe[la] | Eastern Europe[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007564306705171",
+    "messages": [
+      "Updated PrimaryRomFull from 'Göttingen (Germany : Landkreis)' to 'Göttingen (Germany : Landkreis)'",
+      "Updated PrimaryArabFull from 'null' to 'غوتنغن (ألمانيا : لاندكرايس)'",
+      "Updated ViafId from '314808019' to '235896853'. Manual review required. Kima Id:9768",
+      "updatePlaceRecord: variants +1: Göttingen (Landkreis)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987008370777705171",
+    "messages": [
+      "Updated Wd from 'Q26764580' to 'Q12019134'. Manual review required. Kima Id:26977",
+      "updatePlaceRecord: variants +9: Yoàsh, Mount (Israel)[la] | Yehoàsh Mountain (Israel)[la] | Har Yoàsh (Israel)[la] | Ras al Nakeb (Israel)[la] | Ras a-Nakeb (Israel)[la] | יואש, הר (ישראל)[he] | יהואש, הר (ישראל)[he] | ראס א-נקב (ישראל)[he] | ראס אל נקב (ישראל)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987010400068105171",
+    "messages": [
+      "Coordinates not updated for place 987010400068105171: 034 hemisphere mismatch ($d=N0354710, $e=N0354710): $d/$e must start with E or W, $f/$g with N or S. Manual review required.",
+      "Updated PrimaryRomFull from 'Bayt Yāfā (Jordan)' to 'Bayt Yāfā (Jordan)'",
+      "Updated PrimaryArabFull from 'بيت يافا (الأردن)' to 'بيت يافع (الأردن)'",
+      "updatePlaceRecord: variants +1: Beit Yāfā Region (Jordan)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987010400176105171",
+    "messages": [
+      "Coordinates not updated for place 987010400176105171: 034 hemisphere mismatch ($d=N0361437, $e=N0361437): $d/$e must start with E or W, $f/$g with N or S. Manual review required.",
+      "Updated PrimaryRomFull from 'Samā al-Sirḥān (Jordan)' to 'Samā al-Sirḥān (Jordan)'",
+      "updatePlaceRecord: variants +2: Samā as Sirḩān (Jordan)[la] | סמא אל-סרחאן (ירדן)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987007473743205171",
+    "messages": [
+      "updatePlaceRecord: place 987007473743205171 would repoint onto Kima Id 19549 (currently MAZAL_ID 987007542743705171), but NLI still returns a record for 987007542743705171; refusing to delete. Manual review required."
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987011060395805171",
+    "messages": [
+      "updatePlaceRecord: place 987011060395805171 would repoint onto Kima Id 20088 (currently MAZAL_ID 987007467698905171), but NLI still returns a record for 987007467698905171; refusing to delete. Manual review required."
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987013405241405171",
+    "messages": [
+      "updatePlaceRecord: place 987013405241405171 would repoint onto Kima Id 76207 (currently MAZAL_ID 987007547821005171), but NLI still returns a record for 987007547821005171; refusing to delete. Manual review required."
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007291985405171",
+    "messages": [
+      "Location supposed to move 7513.2 km. Manual review required. Kima Id:1623 Name:גרגוביה (עיר קדומה)",
+      "Updated PrimaryArabFull from 'null' to 'جرجوفيا (مدينة قديمة)'",
+      "Updated Wd from 'null' to 'Q55950714'",
+      "updatePlaceRecord: variants +4: Gergobia (Extinct city)[la] | Gergovia Arvernorum (Extinct city)[la] | Gergovie (Extinct city)[la] | Gergovie des Arvernes (Extinct city)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007284988905171",
+    "messages": [
+      "Location supposed to move 76.9 km. Manual review required. Kima Id:1138 Name:קוקז",
+      "Updated PrimaryHebFull from 'קוקז' to 'קווקז'",
+      "updatePlaceRecord: variants +1: Caucasus (Region)[la]",
+      "updatePlaceRecord: variants already present, not inserted (3): Caucasia[la] | Caucasus Mountains[la] | Kavkaz[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007291739305171",
+    "messages": [
+      "Updated PrimaryArabFull from 'فيلادلفيا (مصر: مدينة مندثرة)' to 'فيلادلفيا (مصر : مدينة قديمة)'",
+      "Updated Wd from 'Q23950912' to 'Q1535165'. Manual review required. Kima Id:1514",
+      "updatePlaceRecord: variants +2: Hamām, Kawm al- (Egypt)[la] | Kawm al-Hamām (Egypt)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007292978805171",
+    "messages": [
+      "Location supposed to move 11539.6 km. Manual review required. Kima Id:1592 Name:פוינט ארנה (קליפורניה)",
+      "Updated PrimaryArabFull from 'null' to 'أرينا، بوينت (كاليفورنيا)'",
+      "updatePlaceRecord: variants +10: Arenas (Calif.)[la] | Barra De Arena (Calif.)[la] | Barro De Arena (Calif.)[la] | Cabo De Fortunas (Calif.)[la] | Point Arena (Calif. : Cape)[la] | Punta Arena (Calif.)[la] | Punta Barro De Arena (Calif.)[la] | Punta De Arena (Calif.)[la] | Punta De Arenas (Calif.)[la] | Punta Delgada (Calif.)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007292985305171",
+    "messages": [
+      "Location supposed to move 74.9 km. Manual review required. Kima Id:1610 Name:קניון פאלו רורו (טקסס)",
+      "Updated PrimaryArabFull from 'null' to 'بالو دورو كانيون (تكساس)'"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007282407005171",
+    "messages": [
+      "Location supposed to move 108.2 km. Manual review required. Kima Id:1757 Name:בוס (צרפת)",
+      "Updated PrimaryArabFull from 'null' to 'بوسي (فرنسا)'",
+      "updatePlaceRecord: variants +1: La Beauce (France)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007282552005171",
+    "messages": [
+      "Location supposed to move 168.9 km. Manual review required. Kima Id:1850 Name:מפרץ ביסקאיה (צרפת וספרד)",
+      "Updated PrimaryArabFull from 'null' to 'بسكاي، خليج بسكاي (فرنسا وإسبانيا)'",
+      "updatePlaceRecord: variants +9: Bay of Biscay (France and Spain)[la] | Cantabrian Sea (France and Spain)[la] | Gascogne, Golfe de (France and Spain)[la] | Gascony, Gulf of (France and Spain)[la] | Golfe de Gascogne (France and Spain)[la] | Golfo de Vizcaya (France and Spain)[la] | Gulf of Gascony (France and Spain)[la] | Mar Cantabrico (France and Spain)[la] | Vizcaya, Golfo de (France and Spain)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007282303105171",
+    "messages": [
+      "Location supposed to move 61.2 km. Manual review required. Kima Id:1801 Name:הרי הבלקן (בולגריה)",
+      "Updated PrimaryArabFull from 'null' to 'جبال البلقان (بلغاريا)'",
+      "updatePlaceRecord: variants +1: Stara planina (Bulgaria)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007292520505171",
+    "messages": [
+      "Location supposed to move 128.9 km. Manual review required. Kima Id:1837 Name:בורן (אירלנד)",
+      "Updated PrimaryArabFull from 'null' to 'بورين (أيرلندا)'",
+      "Updated Wd from 'null' to 'Q205107'"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007282537105171",
+    "messages": [
+      "Location supposed to move 32.1 km. Manual review required. Kima Id:1871 Name:הרי בוהמיה-מורביה (צ'כיה)",
+      "Updated PrimaryHebFull from 'הרי בוהמיה-מורביה (צ'כיה)' to 'הרי בוהמיה-מוראביה (צ'כיה)'",
+      "Updated PrimaryArabFull from 'null' to 'المرتفعات البوهيمية المورافية (جمهورية التشيك)'",
+      "updatePlaceRecord: variants +4: Bohemian-Moravian Heights (Czech Republic)[la] | Bohemian-Moravian Highlands (Czechoslovakia)[la] | Českomoravská vrchovina (Czech Republic)[la] | Českomoravská vysočina (Czech Republic)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007284646705171",
+    "messages": [
+      "Location supposed to move 149.4 km. Manual review required. Kima Id:1796 Name:באחו סיגורה (ספרד)",
+      "Updated PrimaryArabFull from 'null' to 'باخو سيغورا (إسبانيا)'",
+      "updatePlaceRecord: variants +2: Segura (Spain)[la] | Vega Baja del Segura (Spain)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007282406205171",
+    "messages": [
+      "Location supposed to move 233.8 km. Manual review required. Kima Id:1758 Name:ים בופור",
+      "Updated PrimaryArabFull from 'null' to 'بحر بوفورت'"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007292839205171",
+    "messages": [
+      "Location supposed to move 152.4 km. Manual review required. Kima Id:1612 Name:רוב אל-קאלי",
+      "Updated PrimaryArabFull from 'null' to 'الربع الخالي'",
+      "updatePlaceRecord: variants +2: Empty Quarter (Arabian Peninsula)[la] | Great Sandy Desert (Arabian Peninsula)[la]",
+      "updatePlaceRecord: variants already present, not inserted (1): Ar Rimal[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007294727305171",
+    "messages": [
+      "Location supposed to move 1438.4 km. Manual review required. Kima Id:1887 Name:הרי האנדס",
+      "Updated PrimaryArabFull from 'null' to 'الأنديز'",
+      "updatePlaceRecord: variants +2: Anti (Mountains)[la] | Antis (Mountains)[la]",
+      "updatePlaceRecord: variants already present, not inserted (11): Andean Mountain Range[la] | Andean Mountains[la] | Andean Range[la] | Andes Mountain Range[la] | Andes Mountain Ranges[la] | Andes Mountains[la] | Andes Range[la] | Andes Ranges[la] | Cordillera de los Andes[la] | Los Andes[la] | The Andes[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007294887505171",
+    "messages": [
+      "Location supposed to move 326.2 km. Manual review required. Kima Id:1924 Name:הרי האלפים הצרפתיים (צרפת)",
+      "Updated PrimaryArabFull from 'null' to 'جبال الألب، الفرنسية (فرنسا)'",
+      "updatePlaceRecord: variants +1: French Alps (France)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007285397305171",
+    "messages": [
+      "Location supposed to move 91.4 km. Manual review required. Kima Id:1710 Name:שביל קוקודה (פפואה גינאה החדשה)",
+      "Updated PrimaryArabFull from 'null' to 'كوكودا تريل (بابوا غينيا الجديدة)'"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007477975105171",
+    "messages": [
+      "Location supposed to move 94.7 km. Manual review required. Kima Id:20658 Name:הולצהאוזן (גרמניה)",
+      "Updated PrimaryArabFull from 'null' to 'هولزهاوزن (ألمانيا)'"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007469590905171",
+    "messages": [
+      "Location supposed to move 2266.0 km. Manual review required. Kima Id:19253 Name:סחם (ירדן)",
+      "Updated PrimaryRomFull from 'Saḥam (Jordan)' to 'Saḥam (Jordan)'",
+      "updatePlaceRecord: variants +1: Saḥem (Jordan)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007496490705171",
+    "messages": [
+      "Location supposed to move 7363.6 km. Manual review required. Kima Id:20576 Name:גאטין (צרפת)",
+      "Updated PrimaryRomFull from 'Gâtine (France)' to 'Gâtine (France)'",
+      "Updated PrimaryArabFull from 'null' to 'غاتين (فرنسا)'"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007529894805171",
+    "messages": [
+      "Location supposed to move 20.4 km. Manual review required. Kima Id:4660 Name:שמורת אינדיאנים רד לייק (מינסוטה)",
+      "Updated PrimaryArabFull from 'null' to 'محمية البحيرة الحمراء الهندية (مينيسوتا)'"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007541584805171",
+    "messages": [
+      "Location supposed to move 30.8 km. Manual review required. Kima Id:3532 Name:שמורת אינדיאנים פורט ברטהולד (צפון דקוטה)",
+      "Updated PrimaryHebFull from 'שמורת אינדיאנים פורט ברטהולד (צפון דקוטה)' to 'שמורת אינדיאנים פורט ברטהולד (דקוטה הצפונית)'",
+      "Updated PrimaryArabFull from 'null' to 'محمية فورت بيرتهولد الهندية (داكوتا الشمالية)'"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007534266205171",
+    "messages": [
+      "Location supposed to move 135.1 km. Manual review required. Kima Id:3691 Name:הרי הזגרוס (איראן ועיראק)",
+      "Updated Wd from 'null' to 'Q167021'",
+      "updatePlaceRecord: variants +3: Kūhhā-ye Zagros (Iran and Iraq)[la] | Zāgros, Kūhhā-ye (Iran and Iraq)[la] | Zagros Mountains (Iran)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007536257305171",
+    "messages": [
+      "Location supposed to move 12197.1 km. Manual review required. Kima Id:2508 Name:לומבוק (אינדונזיה)",
+      "Updated PrimaryArabFull from 'null' to 'لومبوك (إندونيسيا)'",
+      "updatePlaceRecord: variants +1: Pulau Lombok (Indonesia)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007536566805171",
+    "messages": [
+      "Location supposed to move 129.8 km. Manual review required. Kima Id:2312 Name:שמורת חיות טימבאואטי (דרום אפריקה)",
+      "Updated PrimaryArabFull from 'null' to 'محمية تمبافاتي للألعاب (جنوب أفريقيا)'"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007543995505171",
+    "messages": [
+      "Location supposed to move 99.0 km. Manual review required. Kima Id:3492 Name:שביל נוף לאומי תקופת הקרח (ויסקונסין)",
+      "Updated PrimaryArabFull from 'null' to 'ممر العصر الجليدي الوطني للمناظر الطبيعية (ويسكونسن)'"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007541762605171",
+    "messages": [
+      "Location supposed to move 222.4 km. Manual review required. Kima Id:3347 Name:איי טרמיטי (איטליה)",
+      "Updated PrimaryArabFull from 'null' to 'جزر تريميتي (إيطاليا)'",
+      "updatePlaceRecord: variants +4: Diomedeae Insulae (Italy)[la] | Gruppo delle Tremiti (Italy)[la] | Isole di Tremiti (Italy)[la] | Isole Tremiti (Italy)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007554102105171",
+    "messages": [
+      "Updated PrimaryArabFull from 'null' to 'سد أكوسومبو (غانا)'",
+      "Updated Wd from 'Q1282314' to 'Q109396143'. Manual review required. Kima Id:5844"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007536069705171",
+    "messages": [
+      "Location supposed to move 108.6 km. Manual review required. Kima Id:1072 Name:הרי אלבורז (איראן)",
+      "Updated PrimaryArabFull from 'null' to 'جبال ألبرز (إيران)'",
+      "updatePlaceRecord: variants +1: Alborz Mountains (Iran)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007549075105171",
+    "messages": [
+      "Location supposed to move 28.0 km. Manual review required. Kima Id:87402 Name:מפרץ טאראנטו (איטליה)",
+      "Updated PrimaryArabFull from 'null' to 'تارانتو، خليج تارانتو (إيطاليا)'",
+      "updatePlaceRecord: variants +4: Golfo di Taranto (Italy)[la] | Gulf of Taranto (Italy)[la] | Gulf of Tarentum (Italy)[la] | Tarentum, Gulf of (Italy)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007549583305171",
+    "messages": [
+      "Location supposed to move 6957.9 km. Manual review required. Kima Id:5484 Name:אי אמסטרדם (טריטוריה אוסטרלית ואנטארקטית צרפתית)",
+      "Updated PrimaryRomFull from 'Amsterdam Island (Terres australes et antarctiques françaises)' to 'Amsterdam Island (Terres australes et antarctiques françaises)'",
+      "Updated PrimaryArabFull from 'null' to 'جزيرة أمستردام (الأراضي الأسترالية والأنتاركتيكية الفرنسية)'",
+      "updatePlaceRecord: variants +5: Amsterdam (Terres australes et antarctiques françaises : Island)[la] | Amsterdan (Terres australes et antarctiques françaises)[la] | Île Amsterdam (Terres australes et antarctiques françaises)[la] | New Amsterdam (Terres australes et antarctiques françaises)[la] | Nouvelle Amsterdam (Terres australes et antarctiques françaises)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007553643305171",
+    "messages": [
+      "Location supposed to move 134.6 km. Manual review required. Kima Id:3636 Name:ויינפירטל (אוסטריה)",
+      "Updated PrimaryArabFull from 'null' to 'وينفيرتل (النمسا)'",
+      "updatePlaceRecord: variants +1: Weinviertl (Austria)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007531763005171",
+    "messages": [
+      "Location supposed to move 651.6 km. Manual review required. Kima Id:2086 Name:נהר סנגל",
+      "Updated PrimaryArabFull from 'null' to 'نهر السنغال'",
+      "updatePlaceRecord: variants +1: Fleuve Sénégal (River)[la]",
+      "updatePlaceRecord: variants already present, not inserted (1): Sénégal Fleuve[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007539196605171",
+    "messages": [
+      "Location supposed to move 89.8 km. Manual review required. Kima Id:3278 Name:איי קרוזט",
+      "Updated PrimaryArabFull from 'null' to 'جزر كروزيت'",
+      "updatePlaceRecord: variants already present, not inserted (1): Iles Crozet[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007551185205171",
+    "messages": [
+      "Location supposed to move 299.1 km. Manual review required. Kima Id:2016 Name:נהר סקרמנטו (קליפורניה)",
+      "Updated PrimaryArabFull from 'null' to 'نهر ساكرامنتو (كاليفورنيا)'"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007539233305171",
+    "messages": [
+      "Updated PrimaryArabFull from 'null' to 'شيمبورازو (الإكوادور : جبل)'",
+      "Updated Wd from 'Q23886070' to 'Q24901202'. Manual review required. Kima Id:3435",
+      "updatePlaceRecord: variants +6: Cerro Chimborazo (Ecuador)[la] | Chimborazo Mountain (Ecuador)[la] | Esmeralda (Ecuador)[la] | Mount Chimborazo (Ecuador)[la] | Nevado Chimborazo (Ecuador)[la] | Volcán Chimborazo (Ecuador)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007529918305171",
+    "messages": [
+      "Location supposed to move 38.6 km. Manual review required. Kima Id:3288 Name:חצי האי קיאי (יפן)",
+      "Updated PrimaryArabFull from 'null' to 'شبه جزيرة كي (اليابان)'",
+      "updatePlaceRecord: variants +1: Kii-hantō (Japan)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007534856305171",
+    "messages": [
+      "Updated PrimaryArabFull from 'null' to 'حديقة كاباليغا الوطنية (أوغندا)'",
+      "Updated Wd from 'Q49509094' to 'Q1893242'. Manual review required. Kima Id:5808",
+      "updatePlaceRecord: variants +2: Murchison Falls National Park (Uganda)[la] | הפארק הלאומי מרצ'יסון פולס (אוגנדה)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007536002505171",
+    "messages": [
+      "Location supposed to move 160.0 km. Manual review required. Kima Id:1456 Name:גרנד בנקס של ניופאונדלנד",
+      "Updated PrimaryArabFull from 'null' to 'غراند بانكس نيوفاوندلاند'",
+      "updatePlaceRecord: variants already present, not inserted (3): Grand Banks[la] | Grand Newfoundland Banks[la] | Newfoundland Banks[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007543236705171",
+    "messages": [
+      "Location supposed to move 35.3 km. Manual review required. Kima Id:1012 Name:אלפים הדאופיניים (צרפת)",
+      "Updated PrimaryRomFull from 'Dauphiné Alps (France)' to 'Dauphiné Alps (France)'",
+      "Updated PrimaryArabFull from 'null' to 'دوفيني ألب (فرنسا)'",
+      "updatePlaceRecord: variants +2: Alpes Dauphinôise (France)[la] | Alpes du Dauphiné (France)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007533703405171",
+    "messages": [
+      "Location supposed to move 36.3 km. Manual review required. Kima Id:2505 Name:לופטן (נורבגיה)",
+      "Updated PrimaryHebFull from 'לופטן (נורבגיה)' to 'לופטן (נורווגיה)'",
+      "Updated PrimaryArabFull from 'null' to 'لوفوتن (النرويج)'",
+      "updatePlaceRecord: variants +1: Lofoten Islands (Norway)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007537927405171",
+    "messages": [
+      "Location supposed to move 588.8 km. Manual review required. Kima Id:19187 Name:גלדיבולדו (טורקיה)",
+      "Updated PrimaryArabFull from 'null' to 'جيلديبولدو (تركيا)'",
+      "Updated Wd from 'null' to 'Q4831991'",
+      "updatePlaceRecord: variants +1: Tille (Turkey)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007539061705171",
+    "messages": [
+      "Location supposed to move 66.3 km. Manual review required. Kima Id:3547 Name:מישורי קפואה (זמביה)",
+      "Updated PrimaryArabFull from 'null' to 'مسطحات كافوي (زامبيا)'"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007551247305171",
+    "messages": [
+      "Location supposed to move 85.9 km. Manual review required. Kima Id:3569 Name:ליימרס (הולנד)",
+      "Updated PrimaryArabFull from 'null' to 'ليمرس (هولندا)'",
+      "updatePlaceRecord: variants +1: Liemers (Netherlands)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007534509605171",
+    "messages": [
+      "Location supposed to move 25.9 km. Manual review required. Kima Id:74776 Name:נחל יבוק (ירדן)",
+      "Updated PrimaryArabFull from 'null' to 'نهر الزرقاء (الأردن)'",
+      "updatePlaceRecord: variants +4: Nahr al-Zarqāʼ (Jordan)[la] | Nahr az Zarqāʼ (Jordan)[la] | Zerqaʼ River (Jordan)[la] | Jabbok River (Jordan)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007534549505171",
+    "messages": [
+      "Location supposed to move 37.5 km. Manual review required. Kima Id:4627 Name:שמורה אינדיאנית ואלאפאי (אריזונה)",
+      "Updated PrimaryArabFull from 'null' to 'محمية هوالاباي الهندية (أريزونا)'"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007529600905171",
+    "messages": [
+      "Location supposed to move 61.6 km. Manual review required. Kima Id:3996 Name:הרי פינדוס (יוון)",
+      "Updated PrimaryArabFull from 'null' to 'جبال بيندوس (اليونان)'",
+      "updatePlaceRecord: variants +4: Pindhos Mountains (Greece)[la] | Pindhos Oros (Greece)[la] | Pindos Mountains (Greece)[la] | Pindus Range (Greece)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007530012605171",
+    "messages": [
+      "Location supposed to move 72.6 km. Manual review required. Kima Id:4669 Name:כרתלי (גאורגיה)",
+      "Updated PrimaryArabFull from 'null' to 'كارتلي (جورجيا)'",
+      "updatePlaceRecord: variants +13: Kartalinia (Georgia)[la] | Kartaliniya (Georgia)[la] | Kartaliya (Georgia)[la] | Karthalina (Georgia)[la] | Karthalinia (Georgia)[la] | Karthli (Georgia)[la] | Karthlia (Georgia)[la] | Karthveli (Georgia)[la] | Kartil (Georgia)[la] | Kartlia (Georgia)[la] | Kartlia (Georgian S.S.R.)[la] | Kartliya (Georgia)[la] | Kʻartʻlši (Georgia)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007555600405171",
+    "messages": [
+      "Location supposed to move 26.5 km. Manual review required. Kima Id:2587 Name:שמורה לאומית מסאי מארה (קניה)",
+      "Updated PrimaryArabFull from 'null' to 'محمية ماساي مارا الوطنية (كينيا)'",
+      "updatePlaceRecord: variants +3: Mara Reserve (Kenya)[la] | Masai Mara Game Reserve (Kenya)[la] | Masai Mara National Reserve (Kenya)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007532425005171",
+    "messages": [
+      "Location supposed to move 29.3 km. Manual review required. Kima Id:4357 Name:עמק נהר מוהאבי (קליפורניה)",
+      "Updated PrimaryArabFull from 'null' to 'وادي نهر موهافي (كاليفورنيا)'",
+      "updatePlaceRecord: variants +1: Mojave Valley (Calif.)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007539410905171",
+    "messages": [
+      "Location supposed to move 552.1 km. Manual review required. Kima Id:4135 Name:גוס איילנד (שיקגו, אילינוי)",
+      "Updated PrimaryArabFull from 'null' to 'جزيرة الأوز (شيكاغو، إلينوي)'",
+      "Updated Wd from 'null' to 'Q5584067'"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007536752305171",
+    "messages": [
+      "Location supposed to move 72.7 km. Manual review required. Kima Id:3162 Name:חוף קורומנדל (הודו)",
+      "Updated PrimaryArabFull from 'null' to 'ساحل كورومانديل (الهند)'",
+      "updatePlaceRecord: variants +4: Chola Country (India)[la] | Cōl̲a Country (India)[la] | Cōl̲a Naṭu (India)[la] | Cōl̲amaṇṭalam (India)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007540109605171",
+    "messages": [
+      "Updated PrimaryArabFull from 'null' to 'سلاتينا (رومانيا)'",
+      "Updated Wd from 'Q207074' to 'Q16898452'. Manual review required. Kima Id:18854",
+      "updatePlaceRecord: variants +1: Slatina, Romania (Olt)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007544142905171",
+    "messages": [
+      "Location supposed to move 53.3 km. Manual review required. Kima Id:3365 Name:קניון ניין מייל (יוטה)",
+      "Updated PrimaryArabFull from 'null' to 'ناين مايل كانيون (يوتا)'",
+      "updatePlaceRecord: variants +1: Ninemile Canyon (Utah)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007550230005171",
+    "messages": [
+      "Location supposed to move 582.6 km. Manual review required. Kima Id:7049 Name:קמלדולי (איטליה)",
+      "Updated PrimaryArabFull from 'null' to 'كامالدولي (إيطاليا)'",
+      "Updated Wd from 'null' to 'Q18456541'",
+      "Updated ViafId from '167587895' to '143062614'. Manual review required. Kima Id:7049",
+      "updatePlaceRecord: variants +1: Camaldoli, Italy[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007540105305171",
+    "messages": [
+      "Location supposed to move 28.9 km. Manual review required. Kima Id:18863 Name:אטלאנדי (יוון)",
+      "Updated PrimaryRomFull from 'Atalándi (Greece)' to 'Atalándi (Greece)'",
+      "Updated PrimaryArabFull from 'null' to 'أتالاندي (اليونان)'",
+      "updatePlaceRecord: variants +2: Atalante (Greece)[la] | Atalanti (Greece)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007543903205171",
+    "messages": [
+      "Location supposed to move 65.0 km. Manual review required. Kima Id:3112 Name:רמת לס (סין)",
+      "Updated PrimaryArabFull from 'null' to 'هضبة لوس (الصين)'",
+      "updatePlaceRecord: variants +3: Huang-tʻu Kao-yüan (China)[la] | Huang-tʻu Plateau (China)[la] | Huangtu Gaoyuan (China)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007531587005171",
+    "messages": [
+      "Location supposed to move 394.1 km. Manual review required. Kima Id:2671 Name:ים יפן",
+      "Updated PrimaryArabFull from 'null' to 'اليابان، بحر اليابان'",
+      "updatePlaceRecord: variants +2: East Sea (Korea and Japan)[la] | Korea, Sea of[la]",
+      "updatePlaceRecord: variants already present, not inserted (8): I͡Aponskoe More[la] | Japan Sea[la] | Nihon-kai[la] | Nippon-kai[la] | Sea of Japan[la] | Sea of Korea[la] | Tong-hae[la] | Yaponskoye More[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007532142405171",
+    "messages": [
+      "Location supposed to move 67.1 km. Manual review required. Kima Id:3298 Name:הרי הפונטוס (טורקיה)",
+      "Updated PrimaryArabFull from 'null' to 'جبال بونتيك (تركيا)'"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007540468605171",
+    "messages": [
+      "Coordinates added: Lat=24.45, Lon=117.81666666666666",
+      "Updated PrimaryArabFull from 'null' to 'لونغهاي شيان (الصين)'",
+      "Updated Wd from '137650421' to 'Q1025428'. Manual review required. Kima Id:81306",
+      "Updated ViafId from 'null' to '137650421'",
+      "updatePlaceRecord: variants +1: Lung-hai hsien (China)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007548997905171",
+    "messages": [
+      "Location supposed to move 179.2 km. Manual review required. Kima Id:4882 Name:הרי באיקל (רוסיה)",
+      "Updated PrimaryArabFull from 'null' to 'سلسلة جبال بايكال (روسيا)'",
+      "updatePlaceRecord: variants +7: Baikal Mountains (Russia)[la] | Baikal Range (R.S.F.S.R.)[la] | Baĭkalʹskiĭ khrebet (Russia)[la] | Baikalsky Range (Russia)[la] | Bajkalʹskij chrebet (Russia)[la] | Baykal Range (Russia)[la] | Baykalʹskiy khrebet (Russia)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007554341405171",
+    "messages": [
+      "Location supposed to move 11594.6 km. Manual review required. Kima Id:5030 Name:נקודת סנט ג'ורג' (קליפורניה)",
+      "Updated PrimaryArabFull from 'null' to 'سانت جورج، بوينت (كاليفورنيا)'",
+      "updatePlaceRecord: variants +4: Cabo Blanco de San Sebastian (Calif.)[la] | Point Saint George (Calif.)[la] | Saint Georges Point (Calif.)[la] | St. George, Point (Calif.)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007532409205171",
+    "messages": [
+      "Location supposed to move 23.4 km. Manual review required. Kima Id:5598 Name:מפרץ גקובה (טורקיה)",
+      "Updated PrimaryRomFull from 'Gökova Gulf (Turkey)' to 'Gökova Gulf (Turkey)'",
+      "Updated PrimaryArabFull from 'null' to 'خليج جوكوفا (تركيا)'",
+      "updatePlaceRecord: variants +2: Gökova Körfezi (Turkey)[la] | Gulf of Gökova (Turkey)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007550931305171",
+    "messages": [
+      "Location supposed to move 3670.6 km. Manual review required. Kima Id:2872 Name:אורינטה (אקוודור)",
+      "Updated PrimaryArabFull from 'null' to 'أورينتي (الإكوادور)'",
+      "updatePlaceRecord: variants +8: Amazónica (Ecuador)[la] | Eastern Lowlands (Ecuador)[la] | Eastern Region (Ecuador)[la] | Ecuador Amazónico (Ecuador)[la] | Ecuadorian Oriente (Ecuador)[la] | La Región Oriental (Ecuador)[la] | Región Oriental (Ecuador)[la] | Transandina (Ecuador)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007541636805171",
+    "messages": [
+      "Location supposed to move 59.7 km. Manual review required. Kima Id:3099 Name:נהר וינאלופו (ספרד)",
+      "Updated PrimaryRomFull from 'Vinalopó River (Spain)' to 'Vinalopó River (Spain)'",
+      "Updated PrimaryArabFull from 'null' to 'نهر فينالوبو (إسبانيا)'",
+      "updatePlaceRecord: variants +2: Río Vinalopó (Spain)[la] | Vinalapó River (Spain)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007531949105171",
+    "messages": [
+      "Location supposed to move 36.3 km. Manual review required. Kima Id:86286 Name:נהר האן (קוריאה)",
+      "Updated PrimaryArabFull from 'null' to 'نهر هان (كوريا)'",
+      "updatePlaceRecord: variants +2: Han-gang (Korea)[la] | Hanʼgang (Korea)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007534459305171",
+    "messages": [
+      "Location supposed to move 21.4 km. Manual review required. Kima Id:3834 Name:נהר קיטאקאמי (יפן)",
+      "Updated PrimaryArabFull from 'null' to 'نهر كيتاكامي (اليابان)'",
+      "updatePlaceRecord: variants +2: Kitagami-gawa (Japan)[la] | Kitagamigawa (Japan)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007536694805171",
+    "messages": [
+      "Location supposed to move 32.4 km. Manual review required. Kima Id:3425 Name:הפארק הלאומי אמבוסלי (קניה)",
+      "Updated PrimaryArabFull from 'null' to 'حديقة أمبوسيلي الوطنية (كينيا)'",
+      "updatePlaceRecord: variants +4: Amboseli Game Reserve (Kenya)[la] | Amboseli National Reserve (Kenya)[la] | Maasai Amboseli Game Reserve (Kenya)[la] | Masai Amboseli Game Reserve (Kenya)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007538676405171",
+    "messages": [
+      "Location supposed to move 38.1 km. Manual review required. Kima Id:70750 Name:חצי האי לייזו (סין)",
+      "Updated PrimaryArabFull from 'null' to 'شبه جزيرة لوتشو (الصين)'",
+      "updatePlaceRecord: variants +3: Lei-chou Peninsula (China)[la] | Leizhou Peninsula (China)[la] | Lieh-cho Peninsula (China)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007541188205171",
+    "messages": [
+      "Location supposed to move 135.7 km. Manual review required. Kima Id:2643 Name:ים קארה (רוסיה)",
+      "Updated PrimaryArabFull from 'null' to 'بحر كارا (روسيا)'",
+      "updatePlaceRecord: variants +3: Kara Sea (R.S.F.S.R.)[la] | Karskoe more (Russia)[la] | Karskoye more (Russia)[la]",
+      "updatePlaceRecord: variants already present, not inserted (1): Kara Sea[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007534381405171",
+    "messages": [
+      "Location supposed to move 31.5 km. Manual review required. Kima Id:3227 Name:חצי האי ברוס (אונטריו)",
+      "Updated PrimaryArabFull from 'null' to 'شبه جزيرة بروس (أونتاريو)'",
+      "updatePlaceRecord: variants +1: Saugeen Peninsula (Ont.)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007548345805171",
+    "messages": [
+      "Location supposed to move 64.7 km. Manual review required. Kima Id:2697 Name:רמת קרקוב-צ'נסטוחובה (פולין)",
+      "Updated PrimaryRomFull from 'Kraków-Częstochowa Highland (Poland)' to 'Kraków-Częstochowa Highland (Poland)'",
+      "Updated PrimaryArabFull from 'null' to 'مرتفعات كراكوف - تشيستوشوفا (بولندا)'",
+      "updatePlaceRecord: variants +8: Cracow-Czestochowa Highland (Poland)[la] | Cracow Jura (Poland)[la] | Jura Krakowska (Poland)[la] | Jura Krakowska-Wieluńska (Poland)[la] | Jura Krakowsko-Częstochowska (Poland)[la] | Krakowska Jura (Poland)[la] | Wyźyna Krakowska (Poland)[la] | Wyźyna Krakowsko-Częstochowska (Poland)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007538941705171",
+    "messages": [
+      "Location supposed to move 115.0 km. Manual review required. Kima Id:2347 Name:ים טימור",
+      "Updated PrimaryArabFull from 'null' to 'بحر تيمور'"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007556527105171",
+    "messages": [
+      "Updated Wd from 'Q21587368' to 'Q978443'. Manual review required. Kima Id:5816",
+      "updatePlaceRecord: variants +8: Nawar (Extinct city) (Syria)[la] | Nagar (Extinct city) (Syria)[la] | Brak, Tell (Syria)[la] | Brak Site (Syria)[la] | Tall Birak (Syria)[la] | Tell Brak (Syria)[la] | תל ברק (סוריה)[he] | נגר (עיר עתיקה) (סוריה)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007541160505171",
+    "messages": [
+      "Location supposed to move 29.1 km. Manual review required. Kima Id:2562 Name:מקדוניה (יוון)",
+      "Updated PrimaryArabFull from 'null' to 'مقدونيا (اليونان)'",
+      "updatePlaceRecord: variants +2: Makedonia (Greece)[la] | Makedoniya (Greece)[la]",
+      "updatePlaceRecord: variants already present, not inserted (2): Aegean Macedonia[la] | Greek Macedonia[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007548864805171",
+    "messages": [
+      "Updated PrimaryArabFull from 'null' to 'فالدفيرتل (النمسا)'",
+      "Updated Wd from 'Q225400' to 'Q114237847'. Manual review required. Kima Id:3685",
+      "updatePlaceRecord: variants +1: Viertel oberm Manhartsberg (Austria)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007535425005171",
+    "messages": [
+      "Location supposed to move 3263.9 km. Manual review required. Kima Id:17288 Name:האבלוי (צרפת)",
+      "Updated PrimaryArabFull from 'null' to 'هافيلوي (فرنسا)'"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007538499505171",
+    "messages": [
+      "Location supposed to move 6451.0 km. Manual review required. Kima Id:2517 Name:שפלה (סקוטלנד)",
+      "Updated PrimaryArabFull from 'null' to 'لولاندز (اسكتلندا)'",
+      "updatePlaceRecord: variants +2: Central Lowlands (Scotland)[la] | Scottish Lowlands (Scotland)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007560946505171",
+    "messages": [
+      "Location supposed to move 490.1 km. Manual review required. Kima Id:70900 Name:נהר טארים (סין)",
+      "Updated PrimaryArabFull from 'null' to 'نهر تاريم (الصين)'",
+      "updatePlaceRecord: variants +2: Tʻa-li-mu ho (China)[la] | Talimu he (China)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007566238705171",
+    "messages": [
+      "Location supposed to move 436.0 km. Manual review required. Kima Id:5876 Name:אזוואד (מאלי)",
+      "Updated PrimaryRomFull from 'Azaouâd (Mali)' to 'Azaouâd (Mali)'",
+      "Updated PrimaryArabFull from 'null' to 'أزواد (مالي)'",
+      "updatePlaceRecord: variants +1: Azawad (Mali)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007567985505171",
+    "messages": [
+      "Location supposed to move 33.0 km. Manual review required. Kima Id:1043 Name:קוסטה בראווה (ספרד)",
+      "Updated PrimaryArabFull from 'null' to 'كوستا برافا (إسبانيا)'",
+      "updatePlaceRecord: variants +1: Brava Coast (Spain)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007563661105171",
+    "messages": [
+      "Location supposed to move 31.2 km. Manual review required. Kima Id:4464 Name:איי סן בלאס (פנמה)",
+      "Updated PrimaryArabFull from 'null' to 'جزر سان بلاس (بنما)'",
+      "updatePlaceRecord: variants +2: Archipiélago de San Blas (Panama)[la] | Mulatas Islands (Panama)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007557908405171",
+    "messages": [
+      "Location supposed to move 24.3 km. Manual review required. Kima Id:1484 Name:צוק גרגאנו (איטליה)",
+      "Updated PrimaryArabFull from 'null' to 'جارجانو برومونتوري (إيطاليا)'",
+      "updatePlaceRecord: variants +3: Gargano Peninsula (Italy)[la] | Monte Gargano (Italy)[la] | Promontorio del Gargano (Italy)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007561266505171",
+    "messages": [
+      "Location supposed to move 26.2 km. Manual review required. Kima Id:72836 Name:ים אולנד",
+      "Updated PrimaryArabFull from 'null' to 'بحر ألاند'",
+      "updatePlaceRecord: variants +3: Aaland Sea[la] | Ålands Hav[la] | Ålands See[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007561267405171",
+    "messages": [
+      "Location supposed to move 111.2 km. Manual review required. Kima Id:5509 Name:ים סולו",
+      "Updated PrimaryArabFull from 'null' to 'بحر سولو'"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007558438005171",
+    "messages": [
+      "Location supposed to move 70.1 km. Manual review required. Kima Id:2464 Name:מדבר טקלה מקאן (סין)",
+      "Updated PrimaryArabFull from 'null' to 'صحراء تاكلا ماكان (الصين)'",
+      "updatePlaceRecord: variants +8: Tʻa-kʻo-la-ma-kʻan huang-ti (China)[la] | Tʻa-kʻo-la-ma-kʻan sha-mo (China)[la] | Takelamakan Huangdi (China)[la] | Takelamakan Shamo (China)[la] | Takla Maka Desert (China)[la] | Taklamakan Desert (China)[la] | Taklimakan Desert (China)[la] | Taklimakan Shamo (China)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007566185905171",
+    "messages": [
+      "Location supposed to move 62.9 km. Manual review required. Kima Id:4300 Name:נהר דון (דרום יורקשייר, אנגליה)",
+      "Updated PrimaryArabFull from 'null' to 'دون، ريفر (جنوب يوركشاير، إنجلترا)'",
+      "updatePlaceRecord: variants +4: Don River (England)[la] | Dunn, River (England)[la] | River Don (South Yorkshire, England)[la] | River Dunn (England)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007294071205171",
+    "messages": [
+      "Location supposed to move 2800.9 km. Manual review required. Kima Id:1878 Name:אמריקן בוטום (אילינוי)",
+      "Updated PrimaryArabFull from 'null' to 'أمريكان بوتوم (إلينوي)'",
+      "updatePlaceRecord: variants +1: American Bottoms (Ill.)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007282440205171",
+    "messages": [
+      "Location supposed to move 177.6 km. Manual review required. Kima Id:1785 Name:אזרבייג'ן (איראן)",
+      "Updated PrimaryArabFull from 'null' to 'أذربيجان (إيران)'",
+      "Updated Wd from 'Q260437' to 'Q274536'. Manual review required. Kima Id:1785",
+      "updatePlaceRecord: variants +4: Aderbaijan (Iran)[la] | Azarbāījān (Iran)[la] | Āẕarbāyjān (Iran)[la] | Azerbijan (Iran)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007286313405171",
+    "messages": [
+      "Location supposed to move 125.8 km. Manual review required. Kima Id:1195 Name:ים צ'וקצ'י",
+      "Updated PrimaryArabFull from 'null' to 'بحر تشوكشي'",
+      "updatePlaceRecord: variants already present, not inserted (3): Chuckchee Sea[la] | Chukotskoe more[la] | Chuckchi Sea[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007286318805171",
+    "messages": [
+      "Location supposed to move 71.0 km. Manual review required. Kima Id:75382 Name:נהר הפנינה (סין)",
+      "Updated PrimaryArabFull from 'null' to 'نهر اللؤلؤ (الصين)'",
+      "updatePlaceRecord: variants +9: Canton River (China)[la] | Chu Chiang (China)[la] | Chu Kiang (China)[la] | Chu River (China)[la] | Yüeh Chiang (China)[la] | Yüeh Kiang (China)[la] | Zhu Jiang (China)[la] | Zhu River (China)[la] | Zhujiang (China)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007290796505171",
+    "messages": [
+      "Location supposed to move 21.3 km. Manual review required. Kima Id:1707 Name:ביצות בנגוולו (זמביה)",
+      "Updated PrimaryArabFull from 'null' to 'مستنقعات بانغويولو (زامبيا)'",
+      "updatePlaceRecord: variants +1: Bangweulu Swamp (Zambia)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007282996205171",
+    "messages": [
+      "Location supposed to move 4545.0 km. Manual review required. Kima Id:1781 Name:ברניה (קרואטיה)",
+      "Updated PrimaryArabFull from 'null' to 'بارانيا (كرواتيا)'",
+      "updatePlaceRecord: variants +1: Baranya (Croatia)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007294756905171",
+    "messages": [
+      "Location supposed to move 59.2 km. Manual review required. Kima Id:1934 Name:איי אמאמי (יפן)",
+      "Updated PrimaryArabFull from 'null' to 'جزر أمامي (اليابان)'",
+      "updatePlaceRecord: variants +6: Amami-guntō (Japan)[la] | Amami-ōshima Group (Japan)[la] | Amami Rettō (Japan)[la] | Amami Shotō (Japan)[la] | Hokubu-shotō (Japan)[la] | Ōshima Islands (Japan)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007293064405171",
+    "messages": [
+      "Location supposed to move 203.2 km. Manual review required. Kima Id:1917 Name:רמת אלדן (רוסיה)",
+      "Updated PrimaryArabFull from 'null' to 'هضبة ألدان (روسيا)'",
+      "updatePlaceRecord: variants +6: Aldan Mountains (Russia)[la] | Aldan Plateau (R.S.F.S.R.)[la] | Aldanskoe nagorʹe (Russia)[la] | Aldanskoe ploskogorʹe (Russia)[la] | Aldanskoye nagorʹye (Russia)[la] | Aldanskoye ploskogorʹye (Russia)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007284641505171",
+    "messages": [
+      "Location supposed to move 27.9 km. Manual review required. Kima Id:1792 Name:שפך נהר באהיה בלנקה (ארגנטינה)",
+      "Updated PrimaryRomFull from 'Bahía Blanca Estuary (Argentina)' to 'Bahía Blanca Estuary (Argentina)'",
+      "Updated PrimaryArabFull from 'null' to 'مصب باهيا بلانكا (الأرجنتين)'",
+      "updatePlaceRecord: variants +4: Bahía Blanca (Argentina : Bay)[la] | Blanca Bay (Argentina)[la] | Estuario de la Bahía Blanca (Argentina)[la] | Ría Bahía Blanca (Argentina)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007467978405171",
+    "messages": [
+      "Updated Wd from 'Q152385' to 'Q113652243'. Manual review required. Kima Id:21935",
+      "updatePlaceRecord: variants +1: Maalot (Israel)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007475845905171",
+    "messages": [
+      "Updated PrimaryArabFull from 'null' to 'هوشفولكرسدورف (النمسا)'",
+      "Updated Wd from 'Q674323' to 'Q61728150'. Manual review required. Kima Id:20799"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007489333905171",
+    "messages": [
+      "Location supposed to move 44.4 km. Manual review required. Kima Id:19095 Name:יוכן (גרמניה)",
+      "Updated PrimaryRomFull from 'Jüchen (Germany)' to 'Jüchen (Germany)'",
+      "Updated PrimaryArabFull from 'null' to 'يوخن (ألمانيا)'"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007477975305171",
+    "messages": [
+      "Location supposed to move 33.1 km. Manual review required. Kima Id:20001 Name:וולקרסהאוזן (גרמניה)",
+      "Updated PrimaryRomFull from 'Völkershausen (Germany)' to 'Völkershausen (Germany)'",
+      "Updated PrimaryArabFull from 'null' to 'فولكرسهاوزن (ألمانيا)'",
+      "Updated Wd from 'null' to 'Q1402973'"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007480256305171",
+    "messages": [
+      "Location supposed to move 1497.8 km. Manual review required. Kima Id:74830 Name:מיטשלוויל (קרולינה הדרומית)",
+      "Updated PrimaryArabFull from 'null' to 'ميتشيلفيل (كارولاينا الجنوبية)'",
+      "Updated ViafId from 'null' to '129216828'",
+      "updatePlaceRecord: variants +1: Mitchelville (S.C.)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007489436105171",
+    "messages": [
+      "Updated PrimaryArabFull from 'null' to 'غريفينسي (سويسرا)'",
+      "Updated Wd from 'Q14497' to 'Q64882'. Manual review required. Kima Id:19116"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007489580005171",
+    "messages": [
+      "Location supposed to move 1409.0 km. Manual review required. Kima Id:20149 Name:וינדזור (פלורידה)",
+      "Updated PrimaryArabFull from 'null' to 'ويندسور (فلوريدا)'",
+      "updatePlaceRecord: variants +1: וינדסור (פלורידה)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007489413605171",
+    "messages": [
+      "Updated PrimaryArabFull from 'null' to 'مينا (إيطاليا)'",
+      "Updated Wd from 'Q22497' to 'Q18443717'. Manual review required. Kima Id:20503"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007546416605171",
+    "messages": [
+      "Location supposed to move 61.3 km. Manual review required. Kima Id:3117 Name:שמורת אינדיאנים יקמה (ושינגטון)",
+      "Updated PrimaryHebFull from 'שמורת אינדיאנים יקמה (ושינגטון)' to 'שמורת אינדיאנים יקמה (וושינגטון)'",
+      "Updated PrimaryArabFull from 'null' to 'محمية ياكاما الهندية (واشنطن)'",
+      "updatePlaceRecord: variants +1: Yakima Indian Reservation (Wash.)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007551017905171",
+    "messages": [
+      "Location supposed to move 82.9 km. Manual review required. Kima Id:2454 Name:שוואביה (גרמניה)",
+      "Updated PrimaryArabFull from 'null' to 'شوابيا (ألمانيا)'",
+      "Updated Wd from 'Q11812551' to 'Q693980'. Manual review required. Kima Id:2454",
+      "Updated ViafId from '315129173' to '143725118'. Manual review required. Kima Id:2454",
+      "updatePlaceRecord: variants +2: Schwaben (Duchy)[la] | Schwaben (Germany : Region)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007534536505171",
+    "messages": [
+      "Location supposed to move 168.7 km. Manual review required. Kima Id:4616 Name:נהר הוגלי (הודו)",
+      "Updated PrimaryArabFull from 'null' to 'نهر هوغلي (الهند)'",
+      "updatePlaceRecord: variants +2: Hooghly River (India)[la] | Hoogly River (India)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007543861605171",
+    "messages": [
+      "Location supposed to move 22.2 km. Manual review required. Kima Id:2434 Name:הרי סימן (אתיופיה)",
+      "Updated PrimaryArabFull from 'null' to 'جبال سيمن (إثيوبيا)'",
+      "Updated Wd from 'null' to 'Q1982017'",
+      "updatePlaceRecord: variants +3: Semien Mountains (Ethiopia)[la] | Simien Mountains (Ethiopia)[la] | Simyen Mountains (Ethiopia)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007555977405171",
+    "messages": [
+      "Location supposed to move 354.5 km. Manual review required. Kima Id:2117 Name:נהר סאן חואן (קולורדו-יוטה)",
+      "Updated PrimaryArabFull from 'null' to 'نهر سان خوان (كولورادو - يوتا)'"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007532293905171",
+    "messages": [
+      "Location supposed to move 7448.4 km. Manual review required. Kima Id:5933 Name:פארק גז וורקס (סיאטל, וושינגטון)",
+      "Updated PrimaryArabFull from 'null' to 'حديقة أعمال الغاز (سياتل، واشنطن)'",
+      "updatePlaceRecord: variants +1: Gasworks Park (Seattle, Wash.)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007549116305171",
+    "messages": [
+      "Location supposed to move 6343.6 km. Manual review required. Kima Id:5708 Name:סוויילדייל (אנגליה)",
+      "Updated PrimaryArabFull from 'null' to 'سوالديل (إنجلترا)'",
+      "updatePlaceRecord: variants +1: Swale River Valley (England)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007549584205171",
+    "messages": [
+      "Location supposed to move 22.1 km. Manual review required. Kima Id:5478 Name:קוסטה קלידה (ספרד)",
+      "Updated PrimaryRomFull from 'Costa Cálida (Spain)' to 'Costa Cálida (Spain)'",
+      "Updated PrimaryArabFull from 'null' to 'كوستا كاليدا (إسبانيا)'",
+      "updatePlaceRecord: variants +1: Cálida Costa (Spain)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007542107205171",
+    "messages": [
+      "Location supposed to move 398.8 km. Manual review required. Kima Id:5077 Name:חצי האי מינהאסה (אינדונזיה)",
+      "Updated PrimaryArabFull from 'null' to 'شبه جزيرة ميناهاسا (إندونيسيا)'",
+      "updatePlaceRecord: variants +1: Minahassa Peninsula (Indonesia)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007537071505171",
+    "messages": [
+      "Location supposed to move 145.7 km. Manual review required. Kima Id:4946 Name:מתלול מאו (קניה)",
+      "Updated PrimaryArabFull from 'null' to 'جرف ماو (كينيا)'"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007534852605171",
+    "messages": [
+      "Updated PrimaryArabFull from 'null' to 'شبه جزيرة ميثانا (اليونان)'",
+      "Updated Wd from 'Q1925381' to 'Q25017110'. Manual review required. Kima Id:5781",
+      "updatePlaceRecord: variants +3: Chersónisos Methánon (Greece)[la] | Khersónisos Methánon (Greece)[la] | Methone Peninsula (Greece)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007549454405171",
+    "messages": [
+      "Location supposed to move 259.2 km. Manual review required. Kima Id:5174 Name:תל סאוואן (עיראק)",
+      "updatePlaceRecord: variants +2: Tall Sawwan (Iraq)[la] | Tell es-Sawwan (Iraq)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007551297805171",
+    "messages": [
+      "Location supposed to move 521.6 km. Manual review required. Kima Id:4890 Name:נהר גמביה",
+      "Updated PrimaryArabFull from 'null' to 'نهر غامبيا'",
+      "updatePlaceRecord: variants already present, not inserted (4): Gambi River[la] | Gambie River[la] | River Gambi[la] | River Gambia[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007529816305171",
+    "messages": [
+      "Location supposed to move 58.7 km. Manual review required. Kima Id:3233 Name:מרכז יוון ואביה (יוון)",
+      "Updated PrimaryArabFull from 'null' to 'وسط اليونان ويوبيا (اليونان)'",
+      "updatePlaceRecord: variants +6: Greece, Central[la] | Sterea Ellas (Greece)[la] | Sterea Ellas kai Evvoia (Greece)[la] | Sterea Hellas (Greece)[la] | Sterea Hellas kai Euvoia (Greece)[la] | Sterea Hellas kai Evvoia (Greece)[la]",
+      "updatePlaceRecord: variants already present, not inserted (1): Central Greece[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007539367105171",
+    "messages": [
+      "Location supposed to move 2102.5 km. Manual review required. Kima Id:3470 Name:דביר (עיר קדומה)",
+      "Updated PrimaryArabFull from 'null' to 'دبير (مدينة قديمة)'",
+      "Updated Wd from 'null' to 'Q4221915'",
+      "updatePlaceRecord: variants +6: Debir (Ancient city)[la] | Devir (Extinct city)[la] | Kiriath-Sepher (Extinct city)[la] | Kirjath-Sepher (Extinct city)[la] | Ḳiryat-Sefer (Extinct city)[la] | Qiryat Seper (Extinct city)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007537975705171",
+    "messages": [
+      "Location supposed to move 223.9 km. Manual review required. Kima Id:18909 Name:שידליסקה (פולין)",
+      "Updated PrimaryArabFull from 'null' to 'سيدليسكا (بولندا)'"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007541740905171",
+    "messages": [
+      "Location supposed to move 28.4 km. Manual review required. Kima Id:4726 Name:איי אוקלנד (ניו זילנד)",
+      "Updated PrimaryArabFull from 'null' to 'جزر أوكلاند (نيوزيلندا)'",
+      "updatePlaceRecord: variants +2: Bristow's Land (N.Z.)[la] | Lord Auckland Group (N.Z.)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007543611005171",
+    "messages": [
+      "Coordinates added: Lat=53.5, Lon=18",
+      "Updated PrimaryArabFull from 'null' to 'بروسيا، الغرب (بولندا)'",
+      "Updated ViafId from '315160430' to '316429132'. Manual review required. Kima Id:2195",
+      "updatePlaceRecord: variants +5: Danzig-Westpreussen (Germany)[la] | Prusy Zachodnie (Poland)[la] | West Prussia (Germany)[la] | West Prussia (Poland)[la] | Westpreussen (Poland)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007556428105171",
+    "messages": [
+      "Location supposed to move 735.6 km. Manual review required. Kima Id:5997 Name:נהר אובנגי",
+      "Updated PrimaryArabFull from 'null' to 'نهر أوبانغي'",
+      "updatePlaceRecord: variants already present, not inserted (1): Oubangui River[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007536002205171",
+    "messages": [
+      "Location supposed to move 1117.6 km. Manual review required. Kima Id:1457 Name:תעלה הגדולה (סין)",
+      "Updated PrimaryArabFull from 'null' to 'القناة الكبرى (الصين)'",
+      "updatePlaceRecord: variants +9: Beijing Hangzhou Canal (China)[la] | Da Yunhe (China)[la] | Imperial River (China)[la] | Jing Hang Yunhe (China)[la] | Ta Yün Ho (China)[la] | Transport River (China)[la] | Yun He (China)[la] | Yün Ho (China)[la] | Yunliang He (China)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007543848305171",
+    "messages": [
+      "Location supposed to move 78.4 km. Manual review required. Kima Id:2439 Name:מפרץ סואץ",
+      "Updated PrimaryArabFull from 'null' to 'خليج السويس'",
+      "updatePlaceRecord: variants already present, not inserted (2): Gulf of Suez[la] | Khalij as Suways[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007536457705171",
+    "messages": [
+      "Location supposed to move 80.0 km. Manual review required. Kima Id:2039 Name:תעלת ריין-מיין-דונאו (גרמניה)",
+      "Updated PrimaryArabFull from 'null' to 'قناة الراين-مين-الدانوب (ألمانيا)'",
+      "updatePlaceRecord: variants +7: Europa Canal (Germany)[la] | Europa-Kanal Rhein-Main-Donau (Germany)[la] | Main-Donau-Kanal (Germany)[la] | Main-Donau-Wasserstrasse (Germany)[la] | Rhein-Main-Donau Wasserstrasse (Germany)[la] | Rhine-Main-Danube Canal (Germany)[la] | Rhine-Main-Danube Waterway (Germany)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007546927705171",
+    "messages": [
+      "Location supposed to move 51.9 km. Manual review required. Kima Id:5850 Name:ויטנם הצפונית",
+      "Updated PrimaryHebFull from 'ויטנם הצפונית' to 'וייטנאם הצפונית'",
+      "Updated PrimaryArabFull from 'null' to 'فيتنام، شمال'",
+      "updatePlaceRecord: variants +5: Bắc Bộ (Vietnam)[la] | Bắc Kì (Vietnam)[la] | Bắc Kỳ (Vietnam)[la] | Bắc Phần (Vietnam)[la] | Miền Bắc (Vietnam)[la]",
+      "updatePlaceRecord: variants already present, not inserted (1): Northern Vietnam[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007551667905171",
+    "messages": [
+      "Location supposed to move 41.2 km. Manual review required. Kima Id:5715 Name:פארק לאומי אורוורה (ניו זילנד)",
+      "Updated PrimaryArabFull from 'null' to 'متنزه أورويرا الوطني (نيوزيلندا)'",
+      "updatePlaceRecord: variants +1: Te Urewera National Park (N.Z.)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007536485905171",
+    "messages": [
+      "Location supposed to move 149.2 km. Manual review required. Kima Id:2134 Name:מפרץ הפרסי",
+      "Updated PrimaryHebFull from 'מפרץ הפרסי' to 'המפרץ הפרסי'",
+      "updatePlaceRecord: variants already present, not inserted (1): Arabian Gulf[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007531754105171",
+    "messages": [
+      "Location supposed to move 29.6 km. Manual review required. Kima Id:2090 Name:פארק לאומי סרנגטי (טנזניה)",
+      "Updated PrimaryArabFull from 'null' to 'منتزه سيرينجيتي الوطني (تنزانيا)'"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007543967105171",
+    "messages": [
+      "Location supposed to move 242.0 km. Manual review required. Kima Id:90067 Name:באיו לאפורש (לואיזיאנה)",
+      "Updated PrimaryArabFull from 'null' to 'لافورش، بايو (لويزيانا)'",
+      "updatePlaceRecord: variants +1: Bayou Lafourche (La.)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007539303605171",
+    "messages": [
+      "Location supposed to move 516.7 km. Manual review required. Kima Id:4956 Name:צפון נהר הדווינה (רוסיה)",
+      "Updated PrimaryArabFull from 'null' to 'نهر دفينا الشمالي (روسيا)'",
+      "updatePlaceRecord: variants +6: Dvina River (Russia)[la] | Dvina Severnaya River (Russia)[la] | Severnai͡a Dvina River (Russia)[la] | Severnaya Dvina River (Russia)[la] | Severo-Dvinsk River (Russia)[la] | Si͡evernai͡a Dvina River (Russia)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007555803505171",
+    "messages": [
+      "Location supposed to move 5894.1 km. Manual review required. Kima Id:2120 Name:סהדהילס (נברסקה)",
+      "Updated PrimaryArabFull from 'null' to 'ساندهيلز (نبراسكا)'",
+      "updatePlaceRecord: variants +1: Sand Hills (Neb.)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007537472705171",
+    "messages": [
+      "Location supposed to move 36.2 km. Manual review required. Kima Id:5009 Name:מפרצון המילטון (קנדה)",
+      "Updated PrimaryHebFull from 'מפרצון המילטון (קנדה)' to 'מפרצון המילטון (ניופאונדלנד ולברדור)'",
+      "Updated PrimaryArabFull from 'null' to 'هاميلتون إنليت (نيوفاوندلاند ولابرادور)'",
+      "updatePlaceRecord: variants +2: Esquimaux Bay (N.L.)[la] | Hamilton Inlet (Nfld.)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007550227305171",
+    "messages": [
+      "Location supposed to move 139.2 km. Manual review required. Kima Id:75543 Name:אשנאו (היילברון, גרמניה)",
+      "Updated PrimaryArabFull from 'null' to 'إيشيناو (هايلبرون، ألمانيا)'",
+      "Updated ViafId from 'null' to '155928472'",
+      "updatePlaceRecord: variants +1: Eschenau, Ger. (Heilbronn)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007538991605171",
+    "messages": [
+      "Location supposed to move 74.8 km. Manual review required. Kima Id:3246 Name:חצי האי יאמאל (רוסיה)",
+      "Updated PrimaryRomFull from 'I͡Amal Peninsula (Russia)' to 'I︠A︡mal Peninsula (Russia)'",
+      "Updated PrimaryArabFull from 'null' to 'شبه جزيرة إينفال (روسيا)'",
+      "updatePlaceRecord: variants +4: I͡Amal Peninsula (R.S.F.S.R.)[la] | Poluostrov I͡Amal (Russia)[la] | Poluostrov Yamal (Russia)[la] | Yamal Peninsula (Russia)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007532408105171",
+    "messages": [
+      "Location supposed to move 104.5 km. Manual review required. Kima Id:5600 Name:נהר לי (גווילין דיצ׳ו, סין)",
+      "Updated PrimaryHebFull from 'נהר לי (גווילין דיצ׳ו, סין)' to 'נהר לי (גווילין דיקו, סין)'",
+      "Updated PrimaryArabFull from 'null' to 'نهر لي (قويلين ديك، الصين)'",
+      "updatePlaceRecord: variants +8: Li Chiang (Guilin Diqu, China)[la] | Li He (Guilin Diqu, China)[la] | Li Ho (Guilin Diqu, China)[la] | Li Jiang (Guilin Diqu, China)[la] | Li Kiang (Guilin Diqu, China)[la] | Li River (Kuei-lin shih and Kuei-lin ti chʻü, China)[la] | Li Shui (Guilin Diqu, China)[la] | Likiang (Guilin Diqu, China)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007551650005171",
+    "messages": [
+      "Location supposed to move 123.5 km. Manual review required. Kima Id:5534 Name:ארכיפלג טואמוטו (פולינזיה הצרפתית)",
+      "Updated PrimaryArabFull from 'null' to 'أرخبيل تواموتو (بولينيزيا الفرنسية)'",
+      "updatePlaceRecord: variants +10: Archipel des Tuamotu (French Polynesia)[la] | Dangerous Archipelago (French Polynesia)[la] | Dangerous Islands (French Polynesia)[la] | Iles Tuamotu (French Polynesia)[la] | Low Archipelago (French Polynesia)[la] | Paumotu (French Polynesia)[la] | Paumotu Archipelago (French Polynesia)[la] | Submissive Islands (French Polynesia)[la] | Touamotou Archipelago (French Polynesia)[la] | Tuamotu Islands (French Polynesia)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007534736705171",
+    "messages": [
+      "Location supposed to move 170.5 km. Manual review required. Kima Id:79417 Name:נהר נסטוס (בולגריה ויוון)",
+      "Updated PrimaryArabFull from 'null' to 'نهر ميستا (بلغاريا واليونان)'",
+      "updatePlaceRecord: variants +4: Kara Su River (Bulgaria and Greece)[la] | Néstos Potamós (Bulgaria and Greece)[la] | Nestos River (Bulgaria and Greece)[la] | Nestus River (Bulgaria and Greece)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007554119405171",
+    "messages": [
+      "Location supposed to move 1237.0 km. Manual review required. Kima Id:5867 Name:ויטנם הדרומית",
+      "Updated PrimaryHebFull from 'ויטנם הדרומית' to 'וייטנאם הדרומית'",
+      "Updated PrimaryArabFull from 'null' to 'فيتنام، جنوب'",
+      "updatePlaceRecord: variants +5: Nam Bộ (Vietnam)[la] | Nam Kì (Vietnam)[la] | Nam Kỳ (Vietnam)[la] | Nam Phần (Vietnam)[la] | Miền Nam (Vietnam)[la]",
+      "updatePlaceRecord: variants already present, not inserted (1): Southern Vietnam[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007551346305171",
+    "messages": [
+      "Location supposed to move 124.3 km. Manual review required. Kima Id:3462 Name:סיירה (אקוודור)",
+      "Updated PrimaryArabFull from 'null' to 'سييرا (الإكوادور)'",
+      "updatePlaceRecord: variants +3: Andean Highlands (Ecuador)[la] | Highlands (Ecuador)[la] | Sierra Region (Ecuador)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007553584105171",
+    "messages": [
+      "Location supposed to move 229.5 km. Manual review required. Kima Id:2099 Name:נהר סלמון (איידהו)",
+      "Updated PrimaryArabFull from 'null' to 'نهر سالمون (أيداهو)'",
+      "updatePlaceRecord: variants +1: Lower Salmon River (Idaho)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007551513105171",
+    "messages": [
+      "Location supposed to move 339.2 km. Manual review required. Kima Id:4433 Name:אתר בני חסן (מצרים)",
+      "Updated PrimaryRomFull from 'Banī Ḥasan Site (Egypt)' to 'Banī Ḥasan Site (Egypt)'",
+      "updatePlaceRecord: variants +2: Beni Hasan Site (Egypt)[la] | Beni Hassan Site (Egypt)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007531947205171",
+    "messages": [
+      "Location supposed to move 1062.5 km. Manual review required. Kima Id:3787 Name:ריו נגרו (ברזיל ואורוגואי)",
+      "Updated PrimaryHebFull from 'ריו נגרו (ברזיל ואורוגואי)' to 'ריו נגרו (ברזיל ואורוגוואי)'",
+      "Updated PrimaryArabFull from 'null' to 'ريو نيغرو (البرازيل وأوروغواي)'",
+      "updatePlaceRecord: variants +1: Negro River (Brazil and Uruguay)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007556529205171",
+    "messages": [
+      "Location supposed to move 5069.5 km. Manual review required. Kima Id:5815 Name:בוטו (עיר קדומה)",
+      "Updated PrimaryArabFull from 'null' to 'بوتو (مدينة قديمة)'",
+      "updatePlaceRecord: variants +9: Dep (Extinct city)[la] | Faraʼin, Tell el- (Egypt)[la] | House of Wadjit (Extinct city)[la] | Pe (Extinct city)[la] | Per Wadjit (Extinct city)[la] | Per Wadjyt (Extinct city)[la] | Pouto (Extinct city)[la] | Tall al-Faraʼin (Egypt)[la] | Tell el-Faraʼin (Egypt)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007539657305171",
+    "messages": [
+      "Location supposed to move 8018.0 km. Manual review required. Kima Id:5661 Name:עמק נהר סנט לורנס",
+      "Updated PrimaryArabFull from 'null' to 'وادي نهر سانت لورانس'",
+      "updatePlaceRecord: variants already present, not inserted (1): Saint Lawrence Valley[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007529996605171",
+    "messages": [
+      "Location supposed to move 197.2 km. Manual review required. Kima Id:4595 Name:נהר מינו (ספרד ופורטוגל)",
+      "Updated PrimaryRomFull from 'Miño River (Spain and Portugal)' to 'Miño River (Spain and Portugal)'",
+      "Updated PrimaryArabFull from 'null' to 'نهر مينو (إسبانيا والبرتغال)'",
+      "updatePlaceRecord: variants +6: Benis River (Spain and Portugal)[la] | Minho River (Spain and Portugal)[la] | Minio River (Spain and Portugal)[la] | Minius River (Spain and Portugal)[la] | Rio Minho (Spain and Portugal)[la] | Río Miño (Spain and Portugal)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007556562905171",
+    "messages": [
+      "Location supposed to move 223.5 km. Manual review required. Kima Id:5579 Name:נהר ליטל זאב (איראן ועיראק)",
+      "updatePlaceRecord: variants +8: Caprus River (Iran and Iraq)[la] | Lesser Zab River (Iran and Iraq)[la] | Nahr az Zab as Saghir (Iran and Iraq)[la] | Rudkaneh-ye Zab-e Kuchek (Iran and Iraq)[la] | Zab al-Asfal (Iran and Iraq)[la] | Zab as Saghir, Nahr az (Iran and Iraq)[la] | Zab-e Kuchek, Rudkaneh-ye (Iran and Iraq)[la] | Zab River, Little (Iran and Iraq)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007538494905171",
+    "messages": [
+      "Location supposed to move 23.4 km. Manual review required. Kima Id:2520 Name:מפרץ ליבק (גרמניה)",
+      "Updated PrimaryRomFull from 'Lübeck Bay (Germany)' to 'Lübeck Bay (Germany)'",
+      "Updated PrimaryArabFull from 'null' to 'خليج لوبيك (ألمانيا)'",
+      "updatePlaceRecord: variants +1: Lübecker Bucht (Germany)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007545959605171",
+    "messages": [
+      "Location supposed to move 247.8 km. Manual review required. Kima Id:2615 Name:מלבר, חוף (הודו)",
+      "Updated PrimaryArabFull from 'null' to 'ساحل مالابار (الهند)'"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007540481305171",
+    "messages": [
+      "Location supposed to move 93.7 km. Manual review required. Kima Id:18493 Name:הדסים (ישראל)",
+      "updatePlaceRecord: variants +2: Hadasim (Israel)[la] | Hadassin (Israel)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007557936505171",
+    "messages": [
+      "Location supposed to move 36.6 km. Manual review required. Kima Id:1410 Name:פארק לאומי אטושה (נמיביה)",
+      "Updated PrimaryArabFull from 'null' to 'منتزه إيتوشا الوطني (ناميبيا)'",
+      "updatePlaceRecord: variants +4: Etosha Game Park (Namibia)[la] | Etosha Game Reserve (Namibia)[la] | Etosha National Game Reserve (Namibia)[la] | Nasionale Etoshawildtuin (Namibia)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007560957705171",
+    "messages": [
+      "Location supposed to move 1487.8 km. Manual review required. Kima Id:2287 Name:טראי (הודו ונפאל)",
+      "Updated PrimaryArabFull from 'null' to 'تاراي (الهند ونيبال)'",
+      "Updated Wd from 'null' to 'Q1133636'",
+      "updatePlaceRecord: variants +2: Tarai (Nepal)[la] | Terai (India and Nepal)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007566295205171",
+    "messages": [
+      "Location supposed to move 102.8 km. Manual review required. Kima Id:5452 Name:קאדור (איטליה)",
+      "Updated PrimaryArabFull from 'null' to 'كادوري (إيطاليا)'",
+      "Updated Wd from 'null' to 'Q18505996'",
+      "updatePlaceRecord: variants +2: Cadubrium (Italy)[la] | Catubria (Italy)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007564639705171",
+    "messages": [
+      "Location supposed to move 385.8 km. Manual review required. Kima Id:14189 Name:הויבך (באדן וירטמברג, גרמניה)",
+      "Updated PrimaryHebFull from 'הויבך (באדן וירטמברג, גרמניה)' to 'הויבך (באדן-וירטמברג, גרמניה)'",
+      "Updated PrimaryRomFull from 'Heubach (Baden-Württemberg, Germany)' to 'Heubach (Baden-Württemberg, Germany)'",
+      "Updated PrimaryArabFull from 'null' to 'هيوباخ (بادن-فورتمبيرغ، ألمانيا)'"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007560844505171",
+    "messages": [
+      "Location supposed to move 246.6 km. Manual review required. Kima Id:2291 Name:מיצר טטר (רוסיה)",
+      "Updated PrimaryArabFull from 'null' to 'مضيق تتار (روسيا)'",
+      "updatePlaceRecord: variants +4: Gulf of Tatary (Russia)[la] | Tatar Strait (R.S.F.S.R.)[la] | Tatarskiĭ proliv (Russia)[la] | Tatary, Gulf of (Russia)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007566031705171",
+    "messages": [
+      "Location supposed to move 52.4 km. Manual review required. Kima Id:4204 Name:איי פניקס (קיריבטי)",
+      "Updated PrimaryArabFull from 'null' to 'جزر فينيكس (كيريباتي)'"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007558255605171",
+    "messages": [
+      "Location supposed to move 242.1 km. Manual review required. Kima Id:2951 Name:נהר נרמאדה (הודו)",
+      "Updated PrimaryArabFull from 'null' to 'نهر نارمادا (الهند)'",
+      "updatePlaceRecord: variants +2: Narbada River (India)[la] | Nerbudda River (India)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007560553605171",
+    "messages": [
+      "Location supposed to move 9128.4 km. Manual review required. Kima Id:1311 Name:היספניולה",
+      "Updated PrimaryArabFull from 'null' to 'هيسبانيولا'",
+      "updatePlaceRecord: variants +1: Haiti (Island)[la]",
+      "updatePlaceRecord: variants already present, not inserted (3): Española[la] | La Española[la] | Santo Domingo Island[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007558129105171",
+    "messages": [
+      "Location supposed to move 121.3 km. Manual review required. Kima Id:2946 Name:נג'ד (ערב הסעודית)",
+      "Updated PrimaryArabFull from 'نجد (المملكة العربية السعودية)' to 'نجد (السعودية)'",
+      "updatePlaceRecord: variants +2: Nadj (Saudi Arabia)[la] | Nejd (Saudi Arabia)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007566381305171",
+    "messages": [
+      "Location supposed to move 55.7 km. Manual review required. Kima Id:5188 Name:חצי האי מלוויל (נונווט)",
+      "Updated PrimaryHebFull from 'חצי האי מלוויל (נונווט)' to 'חצי האי מלוויל (נונאווט)'",
+      "Updated PrimaryArabFull from 'null' to 'شبه جزيرة ميلفيل (نونافوت)'",
+      "Updated Wd from 'null' to 'Q1352266'"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007558013205171",
+    "messages": [
+      "Location supposed to move 122.9 km. Manual review required. Kima Id:2544 Name:הרים הלאורנטיים (קוויבק)",
+      "Updated PrimaryRomFull from 'Laurentian Mountains (Québec)' to 'Laurentian Mountains (Québec)'",
+      "Updated PrimaryArabFull from 'null' to 'جبال لورينتيان (كيبيك)'",
+      "Updated Wd from 'Q3413238' to 'Q75596'. Manual review required. Kima Id:2544",
+      "updatePlaceRecord: variants +5: Laurentian Hills (Québec)[la] | Laurentians (Québec)[la] | Laurentide Hills (Québec)[la] | Laurentide Mountains (Québec)[la] | Laurentides (Québec : Mountains)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007560459705171",
+    "messages": [
+      "Location supposed to move 53.2 km. Manual review required. Kima Id:1488 Name:חצי האי גזל (פפואה גינאה החדשה)",
+      "Updated PrimaryArabFull from 'null' to 'شبه جزيرة غازيل (بابوا غينيا الجديدة)'",
+      "updatePlaceRecord: variants +1: Gazelle Peninsula (New Britain Island, Papua New Guinea)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007565959105171",
+    "messages": [
+      "Location supposed to move 27.6 km. Manual review required. Kima Id:71438 Name:יער לאומי אראפאהו (קולורדו)",
+      "Updated PrimaryArabFull from 'null' to 'غابة أراباهو الوطنية (كولورادو)'"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007565306205171",
+    "messages": [
+      "Location supposed to move 25.5 km. Manual review required. Kima Id:1348 Name:הורמוז, מייצרים",
+      "Updated PrimaryArabFull from 'null' to 'مضيق هرمز'",
+      "updatePlaceRecord: variants +3: Hormoz, Strait of[la] | Hurmuz, Strait of[la] | Ormuz, Strait of[la]",
+      "updatePlaceRecord: variants already present, not inserted (9): Bāb-e-Hormūz[la] | Bāb-i-Hormūz[la] | Būghāz Hormūz[la] | Maḍīq Hurmūz[la] | Strait of Hormoz[la] | Strait of Hormuz[la] | Strait of Hurmuz[la] | Strait of Ormuz[la] | Tangeh Hormoz[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260219-20260225",
+    "track": "Place",
+    "recordId": "987007294040605171",
+    "messages": [
+      "Location supposed to move 109.8 km. Manual review required. Kima Id:1901 Name:נהר אפלצ'יקולה (פלורידה)",
+      "Updated PrimaryArabFull from 'null' to 'نهر أبالاتشيكولا (فلوريدا)'",
+      "updatePlaceRecord: variants +2: Appalachicola River (Fla.)[la] | נהר אפאלאצ'י (פלורידה)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260305-20260311",
+    "track": "Place",
+    "recordId": "987007550526705171",
+    "messages": [
+      "Updated PrimaryRomFull from 'Peñafiel (Portugal)' to 'Peñafiel (Portugal)'",
+      "Updated PrimaryArabFull from 'null' to 'بينافيل (البرتغال)'",
+      "Updated Wd from 'Q49287885' to 'Q13177732'. Manual review required. Kima Id:11159",
+      "updatePlaceRecord: variants +2: Penafiel, Portugal[la] | פיניאפיאל (פורטוגל)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260305-20260311",
+    "track": "Place",
+    "recordId": "987007419122005171",
+    "messages": [
+      "Location supposed to move 21.0 km. Manual review required. Kima Id:21160 Name:נחל חרוד (ישראל)",
+      "updatePlaceRecord: variants +7: Nahal Ḥarod (Israel)[la] | Wadi Jalut (Israel)[la] | Ḥarod (Naḥal)[la] | Nahal Harod[la] | חרוד, נחל (ישראל)[he] | ואדי ג'לוד (ישראל)[he] | ואדי ג'אלוד (ישראל)[he]",
+      "updatePlaceRecord: variants already present, not inserted (2): Harod River[la] | Nahr Jalud[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260305-20260311",
+    "track": "Place",
+    "recordId": "987007554831505171",
+    "messages": [
+      "Location supposed to move 216.2 km. Manual review required. Kima Id:79641 Name:בניאס (עיר קדומה) (ישראל)",
+      "Updated PrimaryArabFull from 'null' to 'بانياس (مدينة قديمة) (إسرائيل)'",
+      "Updated ViafId from 'null' to '137192980'",
+      "updatePlaceRecord: variants +14: Banias Cave (Israel)[la] | Banias (Extinct city) (Golan Heights, Israel)[la] | Baniyas (Israel)[la] | Paneas[la] | Panias[la] | Bāniyās (Damascus, Syria)[la] | Banyas (Israel)[la] | Caesarea Philippi (Extinct city) (Israel)[la] | בניאס (עיר קדומה) (רמת הגולן, ישראל)[he] | פניאס (עיר קדומה) (רמת הגולן, ישראל)[he] | פמיאס (עיר קדומה) (רמת הגולן, ישראל)[he] | מערת בניאס (ישראל)[he] | נירוניאס (ישראל)[he] | קיסריה פיליפוס (ישראל)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260312-20260318",
+    "track": "Place",
+    "recordId": "987007553952905171",
+    "messages": [
+      "updatePlaceRecord: place 987007553952905171 cannot be updated in place — its Hebrew name already exists on Kima Id 89023 (MAZAL_ID 987007475207805171). Merge required. Discarding Kima Id:4239 Name:ביתר (עיר קדומה) (יהודה ושומרון)"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260312-20260318",
+    "track": "Place",
+    "recordId": "987010400068305171",
+    "messages": [
+      "Coordinates not updated for place 987010400068305171: 034 hemisphere mismatch ($d=N0355624, $e=N0355624): $d/$e must start with E or W, $f/$g with N or S. Manual review required.",
+      "Updated PrimaryRomFull from 'En Nabi Yoûchaa (Lebanon)' to 'En Nabi Yoûchaa (Lebanon)'",
+      "updatePlaceRecord: variants +7: Nabī Yūsha' (Lebanon)[la] | al-Nabī Yūsha' (Lebanon)[la] | Nabi Yoûchaa (Lebanon)[la] | נבי יושע (לבנון)[he] | אל-נבי יושע (לבנון)[he] | א-נבי יושע (לבנון)[he] | نبي يوشع (لبنان)[ar]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260319-20260325",
+    "track": "Place",
+    "recordId": "987007397978305171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007397978305171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+    ],
+    "nliState": "Absent",
+    "manualAction": null
+  },
+  {
+    "period": "20260319-20260325",
+    "track": "Place",
+    "recordId": "987007529692605171",
+    "messages": [
+      "Location supposed to move 433.4 km. Manual review required. Kima Id:3869 Name:נהר רד דיר (קנדה)",
+      "Updated PrimaryHebFull from 'נהר רד דיר (קנדה)' to 'נהר רד דיר (אלברטה וססקצ'ואן)'",
+      "Updated PrimaryArabFull from 'null' to 'نهر ريد دير ريفر (ألبرتا وساسكاتشوان)'",
+      "Updated Wd from 'null' to 'Q850119'"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260319-20260325",
+    "track": "Place",
+    "recordId": "987007567331105171",
+    "messages": [
+      "updatePlaceRecord: place 987007567331105171 cannot be updated in place — its Hebrew name already exists on Kima Id 73472 (MAZAL_ID 987007564918505171). Merge required. Discarding Kima Id:81810 Name:טולכרם (יהודה ושומרון)"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260319-20260325",
+    "track": "Place",
+    "recordId": "987007556004905171",
+    "messages": [
+      "Location supposed to move 321.7 km. Manual review required. Kima Id:70868 Name:נהר סלייב (אלברטה והטריטוריה הצפון מערבית)",
+      "Updated PrimaryHebFull from 'נהר סלייב (אלברטה והטריטוריה הצפון מערבית)' to 'נהר סלייב (אלברטה והטריטוריות הצפון-מערביות)'",
+      "Updated PrimaryArabFull from 'null' to 'نهر سليف (ألبرتا والأقاليم الشمالية الغربية)'",
+      "updatePlaceRecord: variants +1: Great Slave River (Alta. and N.W.T.)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260319-20260325",
+    "track": "Place",
+    "recordId": "987007290954305171",
+    "messages": [
+      "Location supposed to move 87.4 km. Manual review required. Kima Id:86073 Name:נהר הייווד (אלטברה)",
+      "Updated PrimaryHebFull from 'נהר הייווד (אלטברה)' to 'נהר הייווד (אלברטה)'",
+      "Updated PrimaryArabFull from 'null' to 'نهر هاي وود (ألبرتا)'"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260319-20260325",
+    "track": "Place",
+    "recordId": "987007534359505171",
+    "messages": [
+      "Location supposed to move 234.5 km. Manual review required. Kima Id:3056 Name:בוקובינה (רומניה-אוקראינה)",
+      "Updated PrimaryHebFull from 'בוקובינה (רומניה-אוקראינה)' to 'בוקובינה (רומניה ואוקראינה)'",
+      "Updated PrimaryArabFull from 'null' to 'بوكوفينا (رومانيا وأوكرانيا)'",
+      "updatePlaceRecord: variants +4: Bucovina (Romania and Ukraine)[la] | Bukovyna (Romania and Ukraine)[la] | Bukowina (Romania and Ukraine)[la] | בוקאווינא (רומניה-אוקראינה)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260409-20260415",
+    "track": "Place",
+    "recordId": "987007550543905171",
+    "messages": [
+      "Location supposed to move 155.9 km. Manual review required. Kima Id:9397 Name:ריו דה לה פלטה (מחוז)",
+      "Updated PrimaryHebFull from 'ריו דה לה פלטה (מחוז)' to 'ריו דה לה פלטה (מלכות משנה)'",
+      "Updated PrimaryRomFull from 'Río de la Plata (Viceroyalty)' to 'Río de la Plata (Viceroyalty)'",
+      "Updated PrimaryArabFull from 'null' to 'ريو دي لا بلاتا (ولاية)'",
+      "Updated Wd from 'null' to 'Q210551'",
+      "Updated ViafId from '147752761' to '9029155708708422580003'. Manual review required. Kima Id:9397",
+      "updatePlaceRecord: variants +1: Buenos Aires (Viceroyalty)[la]",
+      "updatePlaceRecord: variants already present, not inserted (3): Virreinato Rioplatense[la] | Virreinato del Río de la Plata[la] | Viceroyalty of La Plata[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260521-20260527",
+    "track": "Place",
+    "recordId": "987007293827905171",
+    "messages": [
+      "Location supposed to move 4047.4 km. Manual review required. Kima Id:1584 Name:אפריקה הצפונית",
+      "Updated PrimaryArabFull from 'أفريقيا، شمال' to 'أفريقيا الشمالية'",
+      "updatePlaceRecord: variants already present, not inserted (5): Barbary States[la] | Maghreb[la] | Maghrib[la] | North Africa[la] | צפון אפריקה[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260604-20260610",
+    "track": "Place",
+    "recordId": "987007524605405171",
+    "messages": [
+      "Location supposed to move 34.7 km. Manual review required. Kima Id:23728 Name:קסטיליטו (גנואה, איטליה)",
+      "Updated PrimaryHebFull from 'קסטיליטו (גנואה, איטליה)' to 'קסטיליטו (ג'נובה, איטליה)'",
+      "Updated PrimaryArabFull from 'null' to 'كاستيليتو (جنوة، إيطاليا)'",
+      "Updated Wd from 'Q17336' to 'Q33429356'. Manual review required. Kima Id:23728",
+      "updatePlaceRecord: variants +1: קאשטיליטו (גנואה, איטליה)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260618-20260624",
+    "track": "Place",
+    "recordId": "987007564304805171",
+    "messages": [
+      "Updated PrimaryRomFull from 'Santa Cruz (Bolivia : Dept.)' to 'Santa Cruz (Bolivia : Department)'",
+      "Updated PrimaryArabFull from 'null' to 'سانتا كروز (بوليفيا : المقاطعة)'",
+      "Updated Wd from 'Q1107974' to 'Q235106'. Manual review required. Kima Id:9772",
+      "updatePlaceRecord: variants +3: Santa Cruz de la Sierra (Bolivia : Department)[la] | Santa Cruz (Bolivia : Dept.)[la] | Santa Cruz de la Sierra (Bolivia : Dept.)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260618-20260624",
+    "track": "Place",
+    "recordId": "987007554967105171",
+    "messages": [
+      "Updated PrimaryArabFull from 'null' to 'بايرويت (ألمانيا)'",
+      "Updated ViafId from '132490826' to '5648169084860190310003'. Manual review required. Kima Id:6882",
+      "updatePlaceRecord: variants +9: Bayreuth, Ger. (City)[la] | Baireuth (Germany)[la] | Baruthum (Germany)[la] | Baruthinus (Germany)[la] | Burythum (Germany)[la] | Byruthum (Germany)[la] | ברייט (גרמניה)[he] | בירויט (גרמניה)[he] | באירייט (גרמניה)[he]",
+      "updatePlaceRecord: variants already present, not inserted (1): Bayreuth, Ger. (City)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260618-20260624",
+    "track": "Place",
+    "recordId": "987007531805305171",
+    "messages": [
+      "Updated ViafId from '130895295' to '298149066625665602434'. Manual review required. Kima Id:10023",
+      "updatePlaceRecord: variants +5: Mo-san-pi-kʻo[la] | NRM (Mozambique)[la] | Provincia de Mocambique (Portugal)[la] | Province de Mozambique (Portugal)[la] | Colonia de Mocambique (Portugal)[la]",
+      "updatePlaceRecord: variants already present, not inserted (14): Republica de Mocambique[la] | Republica Popular de Mocambique[la] | Mocambique[la] | Mo-san-pi-ko[la] | People's Republic of Mozambique[la] | Mozambik[la] | Narodnaia Respublika Mozambik[la] | NR Mozambik[la] | State of Mozambique[la] | Mosambiek[la] | Mosambik[la] | Volksrepublik Mosambik[la] | Msumbiji[la] | Mozambico[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260618-20260624",
+    "track": "Place",
+    "recordId": "987007550347405171",
+    "messages": [
+      "Updated PrimaryArabFull from 'null' to 'غرونوبل (فرنسا)'",
+      "Updated ViafId from '170334907' to '123809154'. Manual review required. Kima Id:7193",
+      "updatePlaceRecord: variants +2: Gratianopolis (France)[la] | גרנובלא (צרפת)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260618-20260624",
+    "track": "Place",
+    "recordId": "987007554968405171",
+    "messages": [
+      "Location supposed to move 113.1 km. Manual review required. Kima Id:6905 Name:בירוביג'אן (רוסיה)",
+      "Updated PrimaryArabFull from 'null' to 'بيروبيدجان (روسيا)'",
+      "updatePlaceRecord: variants +12: Birobidzhan (R.S.F.S.R.)[la] | Biro-Bidjan (Russia)[la] | Birabidzhan (Russia)[la] | Birobidshansk (Russia)[la] | Birobidjan (Russia)[la] | Birobidzan (Russia)[la] | Tikhonʹkaya Stantsiya (R.S.F.S.R.)[la] | Birobijan (Russia)[la] | Tikhonʹkai︠a︡ stant︠s︡ii︠a︡ (R.S.F.S.R.)[la] | Birobidzshan (Russia)[la] | Birobidshan (Russia)[la] | Birebidzshan (Russia)[la]",
+      "updatePlaceRecord: variants already present, not inserted (1): Birobidzhan (R.S.F.S.R.)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260618-20260624",
+    "track": "Place",
+    "recordId": "987007554957605171",
+    "messages": [
+      "Updated PrimaryArabFull from 'null' to 'أمالفي (إيطاليا)'",
+      "Updated Wd from 'null' to 'Q80563'",
+      "Updated ViafId from '151254863' to '304910629'. Manual review required. Kima Id:6262",
+      "updatePlaceRecord: variants +4: Amalpha (Italy)[la] | Amalphia (Italy)[la] | Melfia (Italy)[la] | Melphia (Italy)[la]",
+      "updatePlaceRecord: variants already present, not inserted (5): Amalpha[la] | Amalphia[la] | Melfia[la] | Melphia[la] | Amalfi[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  }
+]

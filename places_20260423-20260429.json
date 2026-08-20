@@ -1,0 +1,110 @@
+{
+  "type": "Place",
+  "runTime": "2026-08-16T16:19:57.002765Z",
+  "period": "20260423-20260429",
+  "numProcessedItems": 1090,
+  "numModifiedItems": 1,
+  "numNewItems": 8,
+  "numReviewItems": 0,
+  "numFailedItems": 0,
+  "modifiedSummary": [
+    {
+      "item": {
+        "recordId": "987007560460205171"
+      },
+      "result": "Success",
+      "messages": [
+        "Coordinates added: Lat=31.416666666666668, Lon=34.333333333333336",
+        "Updated Wd from 'null' to 'Q39760'",
+        "updatePlaceRecord: variants +3: Gaza Strip Region[la] | Qiṭāʻ Ghazzah[la] | Retsuʻat ʻAzah[la]"
+      ],
+      "nliState": "Live"
+    }
+  ],
+  "newSummary": [
+    {
+      "item": {
+        "recordId": "987007536799005171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007536799005171 (מיליקנס בנד (לואיזיאנה))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007555002505171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007555002505171 (נורת' מנקטו (מינסוטה))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007561919505171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007561919505171 (ווטרוויל ואלי (ניו המפשייר))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007567635005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007567635005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014459834405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014459834405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007557753005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007557753005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014459833405171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987014459833405171 (זיגלסבאך (היילברון, גרמניה))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014459899805171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987014459899805171 (עייתרון (לבנון))"
+      ],
+      "nliState": "Live"
+    }
+  ],
+  "requireReviewSummary": [],
+  "failedSummary": [],
+  "requireReviewItems": [],
+  "failedItems": []
+}

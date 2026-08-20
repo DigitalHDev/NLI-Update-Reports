@@ -1,8 +1,8 @@
 {
   "type": "Place",
-  "runTime": "2026-08-03T14:17:25.3944497Z",
+  "runTime": "2026-08-16T09:39:39.8541941Z",
   "period": "20240826-20240901",
-  "numProcessedItems": 750,
+  "numProcessedItems": 711,
   "numModifiedItems": 1,
   "numNewItems": 0,
   "numReviewItems": 0,
@@ -16,7 +16,8 @@
       "messages": [
         "Updated ViafId from 'null' to '33151715578013780769'",
         "updatePlaceRecord: variants +3: Karmei Zur (West Bank)[la] | Karme Tsur (Israel)[la] | כרמי צור (ישראל)[he]"
-      ]
+      ],
+      "nliState": "Live"
     }
   ],
   "newSummary": [],

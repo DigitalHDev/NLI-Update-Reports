@@ -1,0 +1,67 @@
+{
+  "type": "Place",
+  "runTime": "2026-08-16T13:50:20.9470313Z",
+  "period": "20250722-20250728",
+  "numProcessedItems": 30378,
+  "numModifiedItems": 0,
+  "numNewItems": 5,
+  "numReviewItems": 0,
+  "numFailedItems": 0,
+  "modifiedSummary": [],
+  "newSummary": [
+    {
+      "item": {
+        "recordId": "987013400235205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013400235205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013544790705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013544790705171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E174951, $e=E174951, $f=N493945, $g=N493945, $2=geonames) — $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013545088305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013545088305171 does not satisfy IsPlaceToUse: no valid 034: 034($f=N057830.001, $d=W1345151.001) — missing or empty $2, $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, missing $e, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, missing $g. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013552077305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013552077305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013552077205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013552077205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    }
+  ],
+  "requireReviewSummary": [],
+  "failedSummary": [],
+  "requireReviewItems": [],
+  "failedItems": []
+}

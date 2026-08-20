@@ -1,8 +1,8 @@
 {
   "type": "Place",
-  "runTime": "2026-08-03T14:18:45.9629502Z",
+  "runTime": "2026-08-16T09:41:11.2891415Z",
   "period": "20240902-20240908",
-  "numProcessedItems": 2804,
+  "numProcessedItems": 2698,
   "numModifiedItems": 1,
   "numNewItems": 19,
   "numReviewItems": 0,
@@ -15,7 +15,8 @@
       "result": "Success",
       "messages": [
         "updatePlaceRecord: variants +4: 'Emeq Dotan (Israel)[la] | Emek Dotan (Israel)[la] | עמק דתן (יהודה ושומרון)[he] | עמק דותן (ישראל)[he]"
-      ]
+      ],
+      "nliState": "Live"
     }
   ],
   "newSummary": [
@@ -25,26 +26,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007533080305171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007540284905171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007540284905171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007556733205171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007556733205171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007533080305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -52,8 +36,29 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007536889005171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007536889005171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Khamar-Daban Range (Russia), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007540284905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007540284905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007556733205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007556733205171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=La Plata River (Colo. and N.M.), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -61,8 +66,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007570430505171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007570430505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -70,8 +76,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007285688305171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007285688305171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Chichoj Lake (Guatemala), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -79,8 +86,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007285689305171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007285689305171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Chester River (Md.), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -88,8 +96,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007292432205171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007292432205171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Browns River (Vt.), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -97,8 +106,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007529807405171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007529807405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -106,8 +116,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007530042405171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007530042405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -115,8 +126,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007532512905171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007532512905171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Yellow Creek (Chariton County, Mo.), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -124,8 +136,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007539199205171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007539199205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -133,8 +146,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007542920905171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007542920905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -142,8 +156,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007544256205171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007544256205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -151,8 +166,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007544360905171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007544360905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -160,8 +176,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007552027205171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007552027205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -169,8 +186,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007561087505171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007561087505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -178,8 +196,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007585909605171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007585909605171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Mutnovskii Volcano (Russia), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -187,8 +206,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007586160005171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007586160005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     }
   ],
   "requireReviewSummary": [],

@@ -1,0 +1,169 @@
+{
+  "type": "Place",
+  "runTime": "2026-08-16T14:31:08.1998063Z",
+  "period": "20251028-20251103",
+  "numProcessedItems": 10272,
+  "numModifiedItems": 1,
+  "numNewItems": 14,
+  "numReviewItems": 0,
+  "numFailedItems": 0,
+  "modifiedSummary": [
+    {
+      "item": {
+        "recordId": "987009165290405171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'خريف (أوكرانيا)'",
+        "updatePlaceRecord: variants +5: Khirov (Ukraine)[la] | Chyrów (Ukraine)[la] | Khyrov (Ukraine)[la] | Khyruv (Ukraine)[la] | Kolo Chyrowa (Ukraine)[la]"
+      ],
+      "nliState": "Live"
+    }
+  ],
+  "newSummary": [
+    {
+      "item": {
+        "recordId": "987013001383305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013001383305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013772281905171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987013772281905171 (זית רענן (נריה, יהודה ושומרון))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013772099305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013772099305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013778229805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013778229805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013771779405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013771779405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007551761805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007551761805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007551636205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007551636205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013771807305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013771807305171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E155858, $e=E155858, $f=N461350, $g=N461350, $2=geonames) — $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007409889005171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007409889005171 (בולוגויה (מחוז טברסקוי, רוסיה))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007550313005171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007550313005171 (זינדר (ניז'ר : מחוז))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013772113605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013772113605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013771807505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013771807505171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E155655, $e=E155655, $f=N461530, $g=N461530, $2=geonames) — $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013771807805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013771807805171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E175914, $e=E175914, $f=N450815, $g=N450815, $2=geonames) — $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013772109605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013772109605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    }
+  ],
+  "requireReviewSummary": [],
+  "failedSummary": [],
+  "requireReviewItems": [],
+  "failedItems": []
+}

@@ -1,0 +1,110 @@
+{
+  "type": "Place",
+  "runTime": "2026-08-16T13:36:13.4716059Z",
+  "period": "20250701-20250707",
+  "numProcessedItems": 52017,
+  "numModifiedItems": 1,
+  "numNewItems": 5,
+  "numReviewItems": 1,
+  "numFailedItems": 0,
+  "modifiedSummary": [
+    {
+      "item": {
+        "recordId": "987007559617205171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'كورتيا دي أرغيش (رومانيا)'",
+        "Updated Wd from 'null' to 'Q652838'",
+        "Updated ViafId from '242307172' to '75144814316290546183'. Manual review required. Kima Id:9573",
+        "updatePlaceRecord: variants +1: Curtea-de-Argeș, Romania[la]"
+      ],
+      "nliState": "Live"
+    }
+  ],
+  "newSummary": [
+    {
+      "item": {
+        "recordId": "987007475710305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007475710305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007545028405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007545028405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007538392605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007538392605171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Kaingaroa Plateau (N.Z.), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007530548205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007530548205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007554185205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007554185205171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Kaingaroa State Forest (N.Z.), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    }
+  ],
+  "requireReviewSummary": [
+    {
+      "item": {
+        "recordId": "987007559617205171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'كورتيا دي أرغيش (رومانيا)'",
+        "Updated Wd from 'null' to 'Q652838'",
+        "Updated ViafId from '242307172' to '75144814316290546183'. Manual review required. Kima Id:9573",
+        "updatePlaceRecord: variants +1: Curtea-de-Argeș, Romania[la]"
+      ],
+      "nliState": "Live"
+    }
+  ],
+  "failedSummary": [],
+  "requireReviewItems": [
+    {
+      "item": {
+        "recordId": "987007559617205171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'كورتيا دي أرغيش (رومانيا)'",
+        "Updated Wd from 'null' to 'Q652838'",
+        "Updated ViafId from '242307172' to '75144814316290546183'. Manual review required. Kima Id:9573",
+        "updatePlaceRecord: variants +1: Curtea-de-Argeș, Romania[la]"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01158nz  a2200241n  4500</leader><controlfield tag=\"005\">20250704114058.0</controlfield><controlfield tag=\"008\">801017n||acannaab|          |b ana    ||</controlfield><controlfield tag=\"001\">987007559617205171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n  80132062</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q652838</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">75144814316290546183</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">24.66666667</subfield><subfield code=\"e\">24.66666667</subfield><subfield code=\"f\">45.11666667</subfield><subfield code=\"g\">45.11666667</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">E0244100</subfield><subfield code=\"e\">E0244100</subfield><subfield code=\"f\">N0450800</subfield><subfield code=\"g\">N0450800</subfield><subfield code=\"2\">geonames</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000981524</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Curtea-de-Argeș (Romania)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">קורטאה דה ארגס (רומניה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">كورتيا دي أرغيش (رومانيا)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Romania</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"w\">nnaa</subfield><subfield code=\"a\">Curtea-de-Argeș, Romania</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Ionescu, G. Curtea de Argeș; istoria orașului prin monumentele lui, 1940.</subfield></datafield></record>\n",
+      "nliState": "Live"
+    }
+  ],
+  "failedItems": []
+}

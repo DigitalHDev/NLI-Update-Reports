@@ -1,8 +1,8 @@
 {
   "type": "Place",
-  "runTime": "2026-08-03T14:45:35.8041154Z",
+  "runTime": "2026-08-16T10:08:47.7303941Z",
   "period": "20241125-20241201",
-  "numProcessedItems": 1931,
+  "numProcessedItems": 1784,
   "numModifiedItems": 2,
   "numNewItems": 13,
   "numReviewItems": 0,
@@ -17,7 +17,8 @@
         "Updated PrimaryRomFull from 'Kefar Yam (Gaza Strip)' to 'Kfar Yam (Gaza Strip)'",
         "Updated Wd from 'null' to 'Q2909483'",
         "updatePlaceRecord: variants +8: Kefar Yam (Gaza Strip)[la] | Kefar-Yam (Gaza Strip)[la] | Kfar Yam (Israel)[la] | Kefar Yam (Israel)[la] | Kefar Yam (Gush Katif)[la] | כפר-ים (רצועת עזה)[he] | כפר ים (ישראל)[he] | כפר ים (גוש קטיף)[he]"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -27,7 +28,8 @@
       "messages": [
         "Updated PrimaryRomFull from 'Kefar Darom (Gaza Strip)' to 'Kfar Darom (Gaza Strip)'",
         "updatePlaceRecord: variants +7: Kefar Darom (Gaza Strip)[la] | Kefar Darom (Eretz Israel)[la] | Kefar Darom (Israel)[la] | Kfar Darom (Israel)[la] | Kefar Darom (Gush Katif)[la] | כפר דרום (ישראל)[he] | כפר דרום (גוש קטיף)[he]"
-      ]
+      ],
+      "nliState": "Live"
     }
   ],
   "newSummary": [
@@ -37,8 +39,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007558738305171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007558738305171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Blue Sky, Mount (Colo.), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -46,8 +49,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007467988805171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007467988805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -55,8 +59,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007535150905171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007535150905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -64,8 +69,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007554784305171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007554784305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -73,8 +79,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987012403731305171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987012403731305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -82,8 +89,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007284643405171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007284643405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -91,8 +99,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007530661305171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007530661305171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Deering Oaks Park (Portland, Me.), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -100,8 +109,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007532091505171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007532091505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -109,8 +119,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007537507605171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007537507605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -118,8 +129,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007546330405171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007546330405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -127,8 +139,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007593043305171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007593043305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -136,8 +149,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007593170905171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007593170905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -145,8 +159,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013145175605171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013145175605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     }
   ],
   "requireReviewSummary": [],

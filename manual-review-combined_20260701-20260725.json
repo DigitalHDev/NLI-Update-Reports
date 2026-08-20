@@ -1,0 +1,527 @@
+[
+  {
+    "period": "20260701-20260707",
+    "track": "Place",
+    "recordId": "987007294865405171",
+    "messages": [
+      "Location supposed to move 1072.7 km. Manual review required. Kima Id:1885 Name:אמו דריה",
+      "Updated PrimaryArabFull from 'null' to 'أمو داريا'",
+      "updatePlaceRecord: variants already present, not inserted (8): Amu Darya River[la] | Amudarʹya[la] | Amudaryo[la] | Amyderya[la] | Darʺyoi Amu[la] | Jaihun River[la] | Jayhun River[la] | Oxus River[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260701-20260707",
+    "track": "Place",
+    "recordId": "987007559890105171",
+    "messages": [
+      "Updated PrimaryArabFull from 'null' to 'سويندون (ويلتشاير، إنجلترا)'",
+      "Updated Wd from 'Q1018668' to 'Q200942'. Manual review required. Kima Id:11512",
+      "updatePlaceRecord: variants +2: Swindon, Eng. (Wiltshire)[la] | Swindon (Wiltshire)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260701-20260707",
+    "track": "Place",
+    "recordId": "987007285525905171",
+    "messages": [
+      "Location supposed to move 38.3 km. Manual review required. Kima Id:1239 Name:הרי קיאנטי (איטליה)",
+      "Updated PrimaryArabFull from 'null' to 'جبال كيانتي (إيطاليا)'",
+      "Updated Wd from 'null' to 'Q1071629'",
+      "updatePlaceRecord: variants +2: Monti Chianti (Italy)[la] | Monti del Chianti (Italy)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260701-20260707",
+    "track": "Place",
+    "recordId": "987007584236605171",
+    "messages": [
+      "Updated Wd from 'Q33522101' to 'Q16126287'. Manual review required. Kima Id:75568"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260701-20260707",
+    "track": "Place",
+    "recordId": "987007582148505171",
+    "messages": [
+      "Updated Wd from 'Q115698536' to 'Q31882788'. Manual review required. Kima Id:75037"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260701-20260707",
+    "track": "Place",
+    "recordId": "987007294865405171",
+    "messages": [
+      "Location supposed to move 1072.7 km. Manual review required. Kima Id:1885 Name:אמו דריה",
+      "updatePlaceRecord: variants already present, not inserted (8): Amu Darya River[la] | Amudarʹya[la] | Amudaryo[la] | Amyderya[la] | Darʺyoi Amu[la] | Jaihun River[la] | Jayhun River[la] | Oxus River[la]",
+      "updatePlaceRecord: no changes for place 987007294865405171"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260701-20260707",
+    "track": "Place",
+    "recordId": "987007294865405171",
+    "messages": [
+      "Location supposed to move 1072.7 km. Manual review required. Kima Id:1885 Name:אמו דריה",
+      "updatePlaceRecord: variants already present, not inserted (8): Amu Darya River[la] | Amudarʹya[la] | Amudaryo[la] | Amyderya[la] | Darʺyoi Amu[la] | Jaihun River[la] | Jayhun River[la] | Oxus River[la]",
+      "updatePlaceRecord: no changes for place 987007294865405171"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260701-20260707",
+    "track": "Place",
+    "recordId": "987007294865405171",
+    "messages": [
+      "Location supposed to move 1072.7 km. Manual review required. Kima Id:1885 Name:אמו דריה",
+      "updatePlaceRecord: variants already present, not inserted (8): Amu Darya River[la] | Amudarʹya[la] | Amudaryo[la] | Amyderya[la] | Darʺyoi Amu[la] | Jaihun River[la] | Jayhun River[la] | Oxus River[la]",
+      "updatePlaceRecord: no changes for place 987007294865405171"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260701-20260707",
+    "track": "Place",
+    "recordId": "987007294865405171",
+    "messages": [
+      "Location supposed to move 1072.7 km. Manual review required. Kima Id:1885 Name:אמו דריה",
+      "updatePlaceRecord: variants already present, not inserted (8): Amu Darya River[la] | Amudarʹya[la] | Amudaryo[la] | Amyderya[la] | Darʺyoi Amu[la] | Jaihun River[la] | Jayhun River[la] | Oxus River[la]",
+      "updatePlaceRecord: no changes for place 987007294865405171"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260701-20260707",
+    "track": "Place",
+    "recordId": "987007294865405171",
+    "messages": [
+      "Location supposed to move 1072.7 km. Manual review required. Kima Id:1885 Name:אמו דריה",
+      "updatePlaceRecord: variants already present, not inserted (8): Amu Darya River[la] | Amudarʹya[la] | Amudaryo[la] | Amyderya[la] | Darʺyoi Amu[la] | Jaihun River[la] | Jayhun River[la] | Oxus River[la]",
+      "updatePlaceRecord: no changes for place 987007294865405171"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260701-20260707",
+    "track": "Place",
+    "recordId": "987007294865405171",
+    "messages": [
+      "Location supposed to move 1072.7 km. Manual review required. Kima Id:1885 Name:אמו דריה",
+      "updatePlaceRecord: variants already present, not inserted (8): Amu Darya River[la] | Amudarʹya[la] | Amudaryo[la] | Amyderya[la] | Darʺyoi Amu[la] | Jaihun River[la] | Jayhun River[la] | Oxus River[la]",
+      "updatePlaceRecord: no changes for place 987007294865405171"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260701-20260707",
+    "track": "Place",
+    "recordId": "987007294865405171",
+    "messages": [
+      "Location supposed to move 1072.7 km. Manual review required. Kima Id:1885 Name:אמו דריה",
+      "updatePlaceRecord: variants already present, not inserted (8): Amu Darya River[la] | Amudarʹya[la] | Amudaryo[la] | Amyderya[la] | Darʺyoi Amu[la] | Jaihun River[la] | Jayhun River[la] | Oxus River[la]",
+      "updatePlaceRecord: no changes for place 987007294865405171"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260701-20260707",
+    "track": "Place",
+    "recordId": "987007294865405171",
+    "messages": [
+      "Location supposed to move 1072.7 km. Manual review required. Kima Id:1885 Name:אמו דריה",
+      "updatePlaceRecord: variants already present, not inserted (8): Amu Darya River[la] | Amudarʹya[la] | Amudaryo[la] | Amyderya[la] | Darʺyoi Amu[la] | Jaihun River[la] | Jayhun River[la] | Oxus River[la]",
+      "updatePlaceRecord: no changes for place 987007294865405171"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260701-20260707",
+    "track": "Place",
+    "recordId": "987007294865405171",
+    "messages": [
+      "Location supposed to move 1072.7 km. Manual review required. Kima Id:1885 Name:אמו דריה",
+      "updatePlaceRecord: variants already present, not inserted (8): Amu Darya River[la] | Amudarʹya[la] | Amudaryo[la] | Amyderya[la] | Darʺyoi Amu[la] | Jaihun River[la] | Jayhun River[la] | Oxus River[la]",
+      "updatePlaceRecord: no changes for place 987007294865405171"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260701-20260707",
+    "track": "Place",
+    "recordId": "987007294865405171",
+    "messages": [
+      "Location supposed to move 1072.7 km. Manual review required. Kima Id:1885 Name:אמו דריה",
+      "updatePlaceRecord: variants already present, not inserted (8): Amu Darya River[la] | Amudarʹya[la] | Amudaryo[la] | Amyderya[la] | Darʺyoi Amu[la] | Jaihun River[la] | Jayhun River[la] | Oxus River[la]",
+      "updatePlaceRecord: no changes for place 987007294865405171"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260701-20260707",
+    "track": "Place",
+    "recordId": "987007294865405171",
+    "messages": [
+      "Location supposed to move 1072.7 km. Manual review required. Kima Id:1885 Name:אמו דריה",
+      "updatePlaceRecord: variants already present, not inserted (8): Amu Darya River[la] | Amudarʹya[la] | Amudaryo[la] | Amyderya[la] | Darʺyoi Amu[la] | Jaihun River[la] | Jayhun River[la] | Oxus River[la]",
+      "updatePlaceRecord: no changes for place 987007294865405171"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260701-20260707",
+    "track": "Place",
+    "recordId": "987007294865405171",
+    "messages": [
+      "Location supposed to move 1072.7 km. Manual review required. Kima Id:1885 Name:אמו דריה",
+      "updatePlaceRecord: variants already present, not inserted (8): Amu Darya River[la] | Amudarʹya[la] | Amudaryo[la] | Amyderya[la] | Darʺyoi Amu[la] | Jaihun River[la] | Jayhun River[la] | Oxus River[la]",
+      "updatePlaceRecord: no changes for place 987007294865405171"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260701-20260707",
+    "track": "Place",
+    "recordId": "987007294865405171",
+    "messages": [
+      "Location supposed to move 1072.7 km. Manual review required. Kima Id:1885 Name:אמו דריה",
+      "updatePlaceRecord: variants already present, not inserted (8): Amu Darya River[la] | Amudarʹya[la] | Amudaryo[la] | Amyderya[la] | Darʺyoi Amu[la] | Jaihun River[la] | Jayhun River[la] | Oxus River[la]",
+      "updatePlaceRecord: no changes for place 987007294865405171"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260701-20260707",
+    "track": "Place",
+    "recordId": "987007294865405171",
+    "messages": [
+      "Location supposed to move 1072.7 km. Manual review required. Kima Id:1885 Name:אמו דריה",
+      "updatePlaceRecord: variants already present, not inserted (8): Amu Darya River[la] | Amudarʹya[la] | Amudaryo[la] | Amyderya[la] | Darʺyoi Amu[la] | Jaihun River[la] | Jayhun River[la] | Oxus River[la]",
+      "updatePlaceRecord: no changes for place 987007294865405171"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260701-20260707",
+    "track": "Place",
+    "recordId": "987007294865405171",
+    "messages": [
+      "Location supposed to move 1072.7 km. Manual review required. Kima Id:1885 Name:אמו דריה",
+      "Updated PrimaryArabFull from 'null' to 'أمو داريا'",
+      "updatePlaceRecord: variants already present, not inserted (8): Amu Darya River[la] | Amudarʹya[la] | Amudaryo[la] | Amyderya[la] | Darʺyoi Amu[la] | Jaihun River[la] | Jayhun River[la] | Oxus River[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260701-20260707",
+    "track": "Place",
+    "recordId": "987007294865405171",
+    "messages": [
+      "Location supposed to move 1072.7 km. Manual review required. Kima Id:1885 Name:אמו דריה",
+      "updatePlaceRecord: variants already present, not inserted (8): Amu Darya River[la] | Amudarʹya[la] | Amudaryo[la] | Amyderya[la] | Darʺyoi Amu[la] | Jaihun River[la] | Jayhun River[la] | Oxus River[la]",
+      "updatePlaceRecord: no changes for place 987007294865405171"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260701-20260707",
+    "track": "Place",
+    "recordId": "987007294865405171",
+    "messages": [
+      "Location supposed to move 1072.7 km. Manual review required. Kima Id:1885 Name:אמו דריה",
+      "updatePlaceRecord: variants already present, not inserted (8): Amu Darya River[la] | Amudarʹya[la] | Amudaryo[la] | Amyderya[la] | Darʺyoi Amu[la] | Jaihun River[la] | Jayhun River[la] | Oxus River[la]",
+      "updatePlaceRecord: no changes for place 987007294865405171"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260701-20260707",
+    "track": "Place",
+    "recordId": "987007294865405171",
+    "messages": [
+      "Location supposed to move 1072.7 km. Manual review required. Kima Id:1885 Name:אמו דריה",
+      "updatePlaceRecord: variants already present, not inserted (8): Amu Darya River[la] | Amudarʹya[la] | Amudaryo[la] | Amyderya[la] | Darʺyoi Amu[la] | Jaihun River[la] | Jayhun River[la] | Oxus River[la]",
+      "updatePlaceRecord: no changes for place 987007294865405171"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260701-20260707",
+    "track": "Place",
+    "recordId": "987007294865405171",
+    "messages": [
+      "Location supposed to move 1072.7 km. Manual review required. Kima Id:1885 Name:אמו דריה",
+      "updatePlaceRecord: variants already present, not inserted (8): Amu Darya River[la] | Amudarʹya[la] | Amudaryo[la] | Amyderya[la] | Darʺyoi Amu[la] | Jaihun River[la] | Jayhun River[la] | Oxus River[la]",
+      "updatePlaceRecord: no changes for place 987007294865405171"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260701-20260707",
+    "track": "Place",
+    "recordId": "987007294865405171",
+    "messages": [
+      "Location supposed to move 1072.7 km. Manual review required. Kima Id:1885 Name:אמו דריה",
+      "updatePlaceRecord: variants already present, not inserted (8): Amu Darya River[la] | Amudarʹya[la] | Amudaryo[la] | Amyderya[la] | Darʺyoi Amu[la] | Jaihun River[la] | Jayhun River[la] | Oxus River[la]",
+      "updatePlaceRecord: no changes for place 987007294865405171"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260701-20260707",
+    "track": "Place",
+    "recordId": "987007294865405171",
+    "messages": [
+      "Location supposed to move 1072.7 km. Manual review required. Kima Id:1885 Name:אמו דריה",
+      "updatePlaceRecord: variants already present, not inserted (8): Amu Darya River[la] | Amudarʹya[la] | Amudaryo[la] | Amyderya[la] | Darʺyoi Amu[la] | Jaihun River[la] | Jayhun River[la] | Oxus River[la]",
+      "updatePlaceRecord: no changes for place 987007294865405171"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260701-20260707",
+    "track": "Place",
+    "recordId": "987007294865405171",
+    "messages": [
+      "Location supposed to move 1072.7 km. Manual review required. Kima Id:1885 Name:אמו דריה",
+      "updatePlaceRecord: variants already present, not inserted (8): Amu Darya River[la] | Amudarʹya[la] | Amudaryo[la] | Amyderya[la] | Darʺyoi Amu[la] | Jaihun River[la] | Jayhun River[la] | Oxus River[la]",
+      "updatePlaceRecord: no changes for place 987007294865405171"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260701-20260707",
+    "track": "Place",
+    "recordId": "987007294865405171",
+    "messages": [
+      "Location supposed to move 1072.7 km. Manual review required. Kima Id:1885 Name:אמו דריה",
+      "updatePlaceRecord: variants already present, not inserted (8): Amu Darya River[la] | Amudarʹya[la] | Amudaryo[la] | Amyderya[la] | Darʺyoi Amu[la] | Jaihun River[la] | Jayhun River[la] | Oxus River[la]",
+      "updatePlaceRecord: no changes for place 987007294865405171"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260701-20260707",
+    "track": "Place",
+    "recordId": "987007294865405171",
+    "messages": [
+      "Location supposed to move 1072.7 km. Manual review required. Kima Id:1885 Name:אמו דריה",
+      "updatePlaceRecord: variants already present, not inserted (8): Amu Darya River[la] | Amudarʹya[la] | Amudaryo[la] | Amyderya[la] | Darʺyoi Amu[la] | Jaihun River[la] | Jayhun River[la] | Oxus River[la]",
+      "updatePlaceRecord: no changes for place 987007294865405171"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260701-20260707",
+    "track": "Place",
+    "recordId": "987007294865405171",
+    "messages": [
+      "Location supposed to move 1072.7 km. Manual review required. Kima Id:1885 Name:אמו דריה",
+      "updatePlaceRecord: variants already present, not inserted (8): Amu Darya River[la] | Amudarʹya[la] | Amudaryo[la] | Amyderya[la] | Darʺyoi Amu[la] | Jaihun River[la] | Jayhun River[la] | Oxus River[la]",
+      "updatePlaceRecord: no changes for place 987007294865405171"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260701-20260707",
+    "track": "Place",
+    "recordId": "987007294865405171",
+    "messages": [
+      "Location supposed to move 1072.7 km. Manual review required. Kima Id:1885 Name:אמו דריה",
+      "updatePlaceRecord: variants already present, not inserted (8): Amu Darya River[la] | Amudarʹya[la] | Amudaryo[la] | Amyderya[la] | Darʺyoi Amu[la] | Jaihun River[la] | Jayhun River[la] | Oxus River[la]",
+      "updatePlaceRecord: no changes for place 987007294865405171"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260701-20260707",
+    "track": "Place",
+    "recordId": "987007294865405171",
+    "messages": [
+      "Location supposed to move 1072.7 km. Manual review required. Kima Id:1885 Name:אמו דריה",
+      "updatePlaceRecord: variants already present, not inserted (8): Amu Darya River[la] | Amudarʹya[la] | Amudaryo[la] | Amyderya[la] | Darʺyoi Amu[la] | Jaihun River[la] | Jayhun River[la] | Oxus River[la]",
+      "updatePlaceRecord: no changes for place 987007294865405171"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260701-20260707",
+    "track": "Place",
+    "recordId": "987007294865405171",
+    "messages": [
+      "Location supposed to move 1072.7 km. Manual review required. Kima Id:1885 Name:אמו דריה",
+      "updatePlaceRecord: variants already present, not inserted (8): Amu Darya River[la] | Amudarʹya[la] | Amudaryo[la] | Amyderya[la] | Darʺyoi Amu[la] | Jaihun River[la] | Jayhun River[la] | Oxus River[la]",
+      "updatePlaceRecord: no changes for place 987007294865405171"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260701-20260707",
+    "track": "Place",
+    "recordId": "987007294865405171",
+    "messages": [
+      "Location supposed to move 1072.7 km. Manual review required. Kima Id:1885 Name:אמו דריה",
+      "updatePlaceRecord: variants already present, not inserted (8): Amu Darya River[la] | Amudarʹya[la] | Amudaryo[la] | Amyderya[la] | Darʺyoi Amu[la] | Jaihun River[la] | Jayhun River[la] | Oxus River[la]",
+      "updatePlaceRecord: no changes for place 987007294865405171"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260701-20260707",
+    "track": "Place",
+    "recordId": "987007294865405171",
+    "messages": [
+      "Location supposed to move 1072.7 km. Manual review required. Kima Id:1885 Name:אמו דריה",
+      "updatePlaceRecord: variants already present, not inserted (8): Amu Darya River[la] | Amudarʹya[la] | Amudaryo[la] | Amyderya[la] | Darʺyoi Amu[la] | Jaihun River[la] | Jayhun River[la] | Oxus River[la]",
+      "updatePlaceRecord: no changes for place 987007294865405171"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260701-20260707",
+    "track": "Place",
+    "recordId": "987007294865405171",
+    "messages": [
+      "Location supposed to move 1072.7 km. Manual review required. Kima Id:1885 Name:אמו דריה",
+      "updatePlaceRecord: variants already present, not inserted (8): Amu Darya River[la] | Amudarʹya[la] | Amudaryo[la] | Amyderya[la] | Darʺyoi Amu[la] | Jaihun River[la] | Jayhun River[la] | Oxus River[la]",
+      "updatePlaceRecord: no changes for place 987007294865405171"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260701-20260707",
+    "track": "Place",
+    "recordId": "987007294865405171",
+    "messages": [
+      "Location supposed to move 1072.7 km. Manual review required. Kima Id:1885 Name:אמו דריה",
+      "updatePlaceRecord: variants already present, not inserted (8): Amu Darya River[la] | Amudarʹya[la] | Amudaryo[la] | Amyderya[la] | Darʺyoi Amu[la] | Jaihun River[la] | Jayhun River[la] | Oxus River[la]",
+      "updatePlaceRecord: no changes for place 987007294865405171"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260701-20260707",
+    "track": "Place",
+    "recordId": "987007294865405171",
+    "messages": [
+      "Location supposed to move 1072.7 km. Manual review required. Kima Id:1885 Name:אמו דריה",
+      "updatePlaceRecord: variants already present, not inserted (8): Amu Darya River[la] | Amudarʹya[la] | Amudaryo[la] | Amyderya[la] | Darʺyoi Amu[la] | Jaihun River[la] | Jayhun River[la] | Oxus River[la]",
+      "updatePlaceRecord: no changes for place 987007294865405171"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260701-20260707",
+    "track": "Place",
+    "recordId": "987007294865405171",
+    "messages": [
+      "Location supposed to move 1072.7 km. Manual review required. Kima Id:1885 Name:אמו דריה",
+      "updatePlaceRecord: variants already present, not inserted (8): Amu Darya River[la] | Amudarʹya[la] | Amudaryo[la] | Amyderya[la] | Darʺyoi Amu[la] | Jaihun River[la] | Jayhun River[la] | Oxus River[la]",
+      "updatePlaceRecord: no changes for place 987007294865405171"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260701-20260707",
+    "track": "Place",
+    "recordId": "987007294865405171",
+    "messages": [
+      "Location supposed to move 1072.7 km. Manual review required. Kima Id:1885 Name:אמו דריה",
+      "updatePlaceRecord: variants already present, not inserted (8): Amu Darya River[la] | Amudarʹya[la] | Amudaryo[la] | Amyderya[la] | Darʺyoi Amu[la] | Jaihun River[la] | Jayhun River[la] | Oxus River[la]",
+      "updatePlaceRecord: no changes for place 987007294865405171"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260701-20260707",
+    "track": "Place",
+    "recordId": "987007294865405171",
+    "messages": [
+      "Location supposed to move 1072.7 km. Manual review required. Kima Id:1885 Name:אמו דריה",
+      "updatePlaceRecord: variants already present, not inserted (8): Amu Darya River[la] | Amudarʹya[la] | Amudaryo[la] | Amyderya[la] | Darʺyoi Amu[la] | Jaihun River[la] | Jayhun River[la] | Oxus River[la]",
+      "updatePlaceRecord: no changes for place 987007294865405171"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260701-20260707",
+    "track": "Place",
+    "recordId": "987007294865405171",
+    "messages": [
+      "Location supposed to move 1072.7 km. Manual review required. Kima Id:1885 Name:אמו דריה",
+      "updatePlaceRecord: variants already present, not inserted (8): Amu Darya River[la] | Amudarʹya[la] | Amudaryo[la] | Amyderya[la] | Darʺyoi Amu[la] | Jaihun River[la] | Jayhun River[la] | Oxus River[la]",
+      "updatePlaceRecord: no changes for place 987007294865405171"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260701-20260707",
+    "track": "Place",
+    "recordId": "987007294865405171",
+    "messages": [
+      "Location supposed to move 1072.7 km. Manual review required. Kima Id:1885 Name:אמו דריה",
+      "updatePlaceRecord: variants already present, not inserted (8): Amu Darya River[la] | Amudarʹya[la] | Amudaryo[la] | Amyderya[la] | Darʺyoi Amu[la] | Jaihun River[la] | Jayhun River[la] | Oxus River[la]",
+      "updatePlaceRecord: no changes for place 987007294865405171"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260701-20260707",
+    "track": "Place",
+    "recordId": "987007294865405171",
+    "messages": [
+      "Location supposed to move 1072.7 km. Manual review required. Kima Id:1885 Name:אמו דריה",
+      "updatePlaceRecord: variants already present, not inserted (8): Amu Darya River[la] | Amudarʹya[la] | Amudaryo[la] | Amyderya[la] | Darʺyoi Amu[la] | Jaihun River[la] | Jayhun River[la] | Oxus River[la]",
+      "updatePlaceRecord: no changes for place 987007294865405171"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  }
+]

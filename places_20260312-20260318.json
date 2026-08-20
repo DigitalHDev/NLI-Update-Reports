@@ -1,0 +1,1029 @@
+{
+  "type": "Place",
+  "runTime": "2026-08-16T16:13:10.139729Z",
+  "period": "20260312-20260318",
+  "numProcessedItems": 4375,
+  "numModifiedItems": 37,
+  "numNewItems": 56,
+  "numReviewItems": 2,
+  "numFailedItems": 0,
+  "modifiedSummary": [
+    {
+      "item": {
+        "recordId": "987007493931805171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryRomFull from 'Nahalat Reuven (Nes Ziyyona, Israel)' to 'Nahalat Reuven (Nes Tsiyona, Israel)'",
+        "Updated PrimaryArabFull from 'نحلات رؤوفين (نس تسيونا، إسرائيل)' to 'ناهالات روفين (نس تسيونا، إسرائيل)'",
+        "updatePlaceRecord: variants +1: Nahalat Reuven (Nes Ziyyona, Israel)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007295503505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "updatePlaceRecord: variants already present, not inserted (1): Asian and Pacific Council countries[la]",
+        "updatePlaceRecord: no changes for place 987007295503505171"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007346305305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007346305305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007418318705171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryRomFull from 'Petrovsk (Saratov Oblast, Russia)' to 'Petrovsk (Saratov oblast', Russia)'",
+        "Updated PrimaryArabFull from 'null' to 'بتروفسك (ساراتوف أوبلاست، روسيا)'",
+        "Updated Wd from 'null' to 'Q178857'"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007473835605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007473835605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007537966505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'נוה צדק (תל אביב, ישאטל)' to 'נוה צדק (תל אביב-יפו, ישראל)'",
+        "Updated Wd from 'null' to 'Q6966107'",
+        "updatePlaceRecord: variants +20: Neve Shalom (Tel Aviv-Yafo, Israel)[la] | Neveh Shalom Neighborhood (Tel Aviv-Yafo, Israel)[la] | Neveh Tsedek Neighborhood (Tel Aviv-Yafo, Israel)[la] | Neṿeh-Tsedeḳ (Tel Aviv, Israel)[la] | Neve Zedek (Tel Aviv, Israel)[la] | Newe Ẕedek (Tel Aviv, Israel)[la] | Newe Tsedek (Tel Aviv, Israel)[la] | Neve Shalom (Tel Aviv, Israel)[la] | Nave Shalom neibourhood (Tel Aviv-Yafo, Israel)[la] | Newe Zedeq (Tel-Aviv)[la] | Newe Zedeq (Tel-Aviv, Israel)[la] | שכונת נוה צדק (תל אביב-יפו, ישראל)[he] | נווה צדק (תל אביב-יפו, ישראל)[he] | נווה שלום (תל אביב-יפו, ישראל)[he] | נוה שלום (תל אביב-יפו, ישראל)[he] | שכונת נוה שלום (תל אביב-יפו, ישראל)[he] | נוה צדק (תל אביב, ישראל)[he] | נווה צדק (תל אביב, ישראל)[he] | נווה שלום (תל אביב, ישראל)[he] | نفيه شلوم (تل أبيب-يافا، إسرائيل)[ar]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007555782205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "updatePlaceRecord: variants already present, not inserted (5): Asociación Latinoamericana de Libre Comercio countries[la] | Neotropical region[la] | Neotropics[la] | New World tropics[la] | Spanish America[la]",
+        "updatePlaceRecord: no changes for place 987007555782205171"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007540664605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007540664605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007570980105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007570980105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007553466705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007553466705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007562941005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007562941005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007572928605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007572928605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007568665905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007568665905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007601993105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007601993105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007314508705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007314508705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007542161805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007542161805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007568669605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007568669605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007573053605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007573053605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007544311805171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'باتشياس (مدينة قديمة)'",
+        "updatePlaceRecord: variants +5: Bacchis (Extinct city)[la] | Bakchias (Extinct city)[la] | Tall Umm al-Athl (Egypt)[la] | Umm al-Athl, Tall (Egypt)[la] | Umm el-Qatl (Egypt)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007573040805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007573040805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007491962505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007491962505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007515276505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryRomFull from 'Šafov (Czech Republic)' to 'Šafov (Czech Republic)'",
+        "Updated PrimaryArabFull from 'null' to 'سافوف (جمهورية التشيك)'",
+        "updatePlaceRecord: variants +2: Schaffa (Czech Republic)[la] | שאפי (צ'כיה)[he]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007553952905171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "updatePlaceRecord: place 987007553952905171 cannot be updated in place — its Hebrew name already exists on Kima Id 89023 (MAZAL_ID 987007475207805171). Merge required. Discarding Kima Id:4239 Name:ביתר (עיר קדומה) (יהודה ושומרון)"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987012161176805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012161176805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007585904705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007585904705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007491695105171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryRomFull from 'Thừa Thiên Huế (Vietnam)' to 'Thừa Thiên Huế (Vietnam)'",
+        "Updated PrimaryArabFull from 'null' to 'ثوا ثين هوي (فيتنام)'",
+        "Updated ViafId from 'null' to '85148570498924310803'",
+        "updatePlaceRecord: variants +1: Thưa Thiên Huế (Vietnam)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007537817705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007537817705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007542599505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryRomFull from 'Hậu Giang (Vietnam)' to 'Hậu Giang (Vietnam)'",
+        "Updated PrimaryArabFull from 'null' to 'هاو جيانغ (فيتنام)'",
+        "Updated ViafId from 'null' to '154942706'"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007537928405171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'זינקוב (אוקראינה)' to 'זינקוב (מחוז חמלניצקי, אוקראינה)'",
+        "Updated PrimaryArabFull from 'null' to 'زينكيف (خميلنيت ︠س︡س︡أوبلاستكا، أوكرانيا)'",
+        "updatePlaceRecord: variants +3: Zenkov (Khmelʹnyt︠s︡ʹka oblastʹ, Ukraine)[la] | Zinʹkov (Khmelʹnyt︠s︡ʹka oblastʹ, Ukraine)[la] | Zinkiv (Khmelʹnyt︠s︡ʹka oblastʹ, Ukraine)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007585989305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007585989305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007487070305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007487070305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007530897705171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'הוי אן (ויטנם)' to 'הוי אן (וייטנאם)'",
+        "Updated PrimaryRomFull from 'Hội An (Vietnam)' to 'Hội An (Vietnam)'",
+        "Updated PrimaryArabFull from 'null' to 'هوي آن (فيتنام)'",
+        "updatePlaceRecord: variants +2: Fai-Fo (Vietnam)[la] | Faifo (Vietnam)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007540399305171"
+      },
+      "result": "Success",
+      "messages": [
+        "Coordinates added: Lat=9.866666666666667, Lon=105.91666666666667",
+        "Updated PrimaryRomFull from 'Định Tường (Vietnam)' to 'Định Tường (Vietnam)'",
+        "Updated PrimaryArabFull from 'null' to 'دينه تونغ (فيتنام)'",
+        "Updated ViafId from 'null' to '129175735'",
+        "updatePlaceRecord: variants +1: Định Tương (Vietnam)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007555203305171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'צ'ו לון (ויאטנם)' to 'צ'ו לון (הו צ'י מין סיטי, וייטנאם)'",
+        "Updated PrimaryRomFull from 'Chợ Lớn (Vietnam)' to 'Chợ Lớn (Ho Chi Minh City, Vietnam)'",
+        "Updated PrimaryArabFull from 'null' to 'تشو لون (مدينة هوشي منه، فيتنام)'",
+        "updatePlaceRecord: variants +3: Chợ Lớn (Vietnam)[la] | Cholon (Vietnam)[la] | Sholon (Vietnam)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987009349888705171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'كيرسونسكايا غوبرنيا (روسيا)'",
+        "updatePlaceRecord: variants +4: Khersonskaya guberniya[la] | Khersons'ka huberniya[la] | Kherson governorate[la] | Government of Kherson[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987009840985805171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'زاباكالسكي كرا (روسيا)'",
+        "Updated ViafId from 'null' to '151681769'",
+        "updatePlaceRecord: variants +4: Houbeijiaer Bianjiangqu (Russia)[la] | Region Transbaikalien (Russia)[la] | Zabaykalsky Krai (Russia)[la] | Zabaykalsky Kray (Russia)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987010400068305171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Coordinates not updated for place 987010400068305171: 034 hemisphere mismatch ($d=N0355624, $e=N0355624): $d/$e must start with E or W, $f/$g with N or S. Manual review required.",
+        "Updated PrimaryRomFull from 'En Nabi Yoûchaa (Lebanon)' to 'En Nabi Yoûchaa (Lebanon)'",
+        "updatePlaceRecord: variants +7: Nabī Yūsha' (Lebanon)[la] | al-Nabī Yūsha' (Lebanon)[la] | Nabi Yoûchaa (Lebanon)[la] | נבי יושע (לבנון)[he] | אל-נבי יושע (לבנון)[he] | א-נבי יושע (לבנון)[he] | نبي يوشع (لبنان)[ar]"
+      ],
+      "nliState": "Live"
+    }
+  ],
+  "newSummary": [
+    {
+      "item": {
+        "recordId": "987007550346105171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007550346105171 (איטה בנה (מיסיסיפי))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007559704605171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007559704605171 (ג'ונסונבורג (פנסילבניה))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007566979005171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007566979005171 (איוניה (מישיגן))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014366902405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014366902405171 does not satisfy IsPlaceToUse: no valid 034: 034($d=34.950186, $e=34.950186, $f=31.00975, $g=31.00975) — missing or empty $2. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014390786005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014390786005171 does not satisfy IsPlaceToUse: no valid 034: 034($d=W0761114, $e=W0761114, $f=N435122, $g=N435122) — missing or empty $2, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014403957805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014403957805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014407682505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014407682505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007542058705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007542058705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007562016805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007562016805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007566693405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007566693405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007567669005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007567669005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987011507977005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987011507977005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987012788958505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012788958505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013170286005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013170286005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007346291505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007346291505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007412395005171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007412395005171 (אמאיה (עיר קדומה))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007564431805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007564431805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987012978070005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012978070005171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E252809, $e=E252809, $f=N484807, $g=N484807, $2=geonames) — $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987012978070305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012978070305171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E254728, $e=E254728, $f=N483920, $g=N483920, $2=geonames) — $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013144475505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013144475505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007473611405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007473611405171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Kim Sơn (Vietnam), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007484770805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007484770805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007484775805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007484775805171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Thủ Đầu Một (Vietnam), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007489293405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007489293405171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Quận 3 (Ho Chi Minh City, Vietnam), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007489433605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007489433605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007494261205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007494261205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007499078905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007499078905171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Thủ Đức (Ho Chi Minh City, Vietnam), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007531133405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007531133405171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Tuyên Đức (Vietnam : Province), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007535550905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007535550905171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Hướng Hóa (Vietnam), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007535592905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007535592905171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Kỳ Sơn (Vietnam : District), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007537635405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007537635405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007537699005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007537699005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007537901605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007537901605171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Quận Đống Đa (Hanoi, Vietnam), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007557618005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007557618005171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Phát Diệm (Vietnam), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007562334005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007562334005171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Đồng Hới (Bình Trị Thiên, Vietnam), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007564904305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007564904305171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Mộc Hóa (Vietnam), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987012403942905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012403942905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007270824605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007270824605171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Hải Hậu (Vietnam), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013912440905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013912440905171 does not satisfy IsPlaceToUse: no valid 034: 034($f=N032250, $e=E009180) — missing or empty $2, missing $d, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, missing $g. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007475728505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007475728505171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Mường Khương (Vietnam), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007491856705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007491856705171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Bồi Sơn (Vietnam), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007498931605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007498931605171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Lưu Phương (Vietnam), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007542890505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007542890505171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Như Quỳnh (Vietnam), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007554923305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007554923305171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Đồ Sơn (Vietnam), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007564712705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007564712705171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Bời Lời (Vietnam), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007564739705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007564739705171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Cần Thơ (Vietnam), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007570587505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007570587505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007533062705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007533062705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007533371205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007533371205171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Sơn La (Vietnam), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007538067305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007538067305171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Cần Thơ (Vietnam : Province), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007540209005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007540209005171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Quận Gò Vấp (Ho Chi Minh City, Vietnam), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007540214305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007540214305171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Tam Sơn (Vietnam), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007559915405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007559915405171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Hà Sơn Bình (Vietnam), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007562450305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007562450305171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Thừa Thiên (Vietnam), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007562619205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007562619205171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Cao-Bằng (Vietnam), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007564051605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007564051605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    }
+  ],
+  "requireReviewSummary": [
+    {
+      "item": {
+        "recordId": "987007553952905171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "updatePlaceRecord: place 987007553952905171 cannot be updated in place — its Hebrew name already exists on Kima Id 89023 (MAZAL_ID 987007475207805171). Merge required. Discarding Kima Id:4239 Name:ביתר (עיר קדומה) (יהודה ושומרון)"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987010400068305171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Coordinates not updated for place 987010400068305171: 034 hemisphere mismatch ($d=N0355624, $e=N0355624): $d/$e must start with E or W, $f/$g with N or S. Manual review required.",
+        "Updated PrimaryRomFull from 'En Nabi Yoûchaa (Lebanon)' to 'En Nabi Yoûchaa (Lebanon)'",
+        "updatePlaceRecord: variants +7: Nabī Yūsha' (Lebanon)[la] | al-Nabī Yūsha' (Lebanon)[la] | Nabi Yoûchaa (Lebanon)[la] | נבי יושע (לבנון)[he] | אל-נבי יושע (לבנון)[he] | א-נבי יושע (לבנון)[he] | نبي يوشع (لبنان)[ar]"
+      ],
+      "nliState": "Live"
+    }
+  ],
+  "failedSummary": [],
+  "requireReviewItems": [
+    {
+      "item": {
+        "recordId": "987007553952905171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "updatePlaceRecord: place 987007553952905171 cannot be updated in place — its Hebrew name already exists on Kima Id 89023 (MAZAL_ID 987007475207805171). Merge required. Discarding Kima Id:4239 Name:ביתר (עיר קדומה) (יהודה ושומרון)"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>02927cz  a2200469n  4500</leader><controlfield tag=\"005\">20260315100150.0</controlfield><controlfield tag=\"008\">931215|| anannbabn          |a ana      </controlfield><controlfield tag=\"001\">987007553952905171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">sh 93009472</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q637954</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">35.135556</subfield><subfield code=\"e\">35.135556</subfield><subfield code=\"f\">31.73</subfield><subfield code=\"g\">31.73</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000824758</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Betar (Extinct city) (West Bank)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">ביתר (עיר קדומה) (יהודה ושומרון)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">بيطار (مدينة منقرضة) (الضفة الغربية)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Bethar (Extinct city)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Betar (Extinct city) (Israel)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Beitar (Extinct city) (Israel)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Betthar (Extinct city) (West Bank)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Bei-Ter (Extinct city)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Bet-Ter (Extinct city)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Betar (Extinct city)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Better (Extinct city)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Bitter (Extinct city)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Ḥirbat el-Yahud (West Bank)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Khirbat al-Yahūd (West Bank)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">ח'ירבת אל-יהוד (יהודה ושומרון)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"550\" ind1=\" \" ind2=\" \"><subfield code=\"w\">g</subfield><subfield code=\"a\">Extinct cities</subfield><subfield code=\"z\">West Bank</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"551\" ind1=\" \" ind2=\" \"><subfield code=\"w\">g</subfield><subfield code=\"a\">West Bank</subfield><subfield code=\"x\">Antiquities</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"551\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Battir (West Bank)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"551\" ind1=\" \" ind2=\" \"><subfield code=\"a\">בתיר (גדה מערבית)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Heading merged from record: 987007475207805171</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Changed to standard Israeli form</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Bether, die fragliche Stadt im Hadrianisch-jüdischen Kriege, 1877:</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Work cat.: 89119137: Zudḳevits, D. Betar u-Milḥemet Bar Kokhva bi-gevulot Ḥaderah, 1988</subfield><subfield code=\"b\">(site of Bar Kokhba's death; author differs from most scholars, placing Bethar in vicinity of current site of Ḥaderah, Israel)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Encyc. Judaica</subfield><subfield code=\"b\">(Bethar; Betar; Better; Bitter; Bei-Ter; Bet-Ter; \"Bar Kokhba's last stronghold ... identified with Khirbat al-Yahūd ... an area of ruins ... n.w. of the Arab village of Battīr ... and located 7 mi. s.w. of Jerusalem...\")</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Britannica Micro.:</subfield><subfield code=\"b\">v. 5, p. 872 (Bethar; Bar Kokhba's\"... stronghold, s.w. of Jerusalem.\")</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Talmi, E. Kol Erets Yiśraʼel, 1974</subfield><subfield code=\"b\">(Betar; Ḥirbat el-Yahud)</subfield></datafield><datafield tag=\"675\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Web. geog.</subfield></datafield><datafield tag=\"781\" ind1=\" \" ind2=\"0\"><subfield code=\"z\">West Bank</subfield><subfield code=\"z\">Bethar (Extinct city)</subfield></datafield><datafield tag=\"933\" ind1=\" \" ind2=\" \"><subfield code=\"a\">cnr 201804</subfield></datafield></record>\n",
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987010400068305171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Coordinates not updated for place 987010400068305171: 034 hemisphere mismatch ($d=N0355624, $e=N0355624): $d/$e must start with E or W, $f/$g with N or S. Manual review required.",
+        "Updated PrimaryRomFull from 'En Nabi Yoûchaa (Lebanon)' to 'En Nabi Yoûchaa (Lebanon)'",
+        "updatePlaceRecord: variants +7: Nabī Yūsha' (Lebanon)[la] | al-Nabī Yūsha' (Lebanon)[la] | Nabi Yoûchaa (Lebanon)[la] | נבי יושע (לבנון)[he] | אל-נבי יושע (לבנון)[he] | א-נבי יושע (לבנון)[he] | نبي يوشع (لبنان)[ar]"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01857nz  a2200241n  4500</leader><controlfield tag=\"005\">20260318111805.0</controlfield><controlfield tag=\"008\">211027|||az|nnbabn|||||||||||a||na|||| d</controlfield><controlfield tag=\"001\">987010400068305171</controlfield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">N0355624</subfield><subfield code=\"e\">N0355624</subfield><subfield code=\"f\">N0342745</subfield><subfield code=\"g\">N0342745</subfield><subfield code=\"2\">geonames</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"b\">mul</subfield><subfield code=\"e\">rda</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">En Nabi Yoûchaa (Lebanon)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">אלנבי יושע (לבנון)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">النبي يوشع (لبنان)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Nabī Yūsha' (Lebanon)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">al-Nabī Yūsha' (Lebanon)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Nabi Yoûchaa (Lebanon)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">נבי יושע (לבנון)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">אל-נבי יושע (לבנון)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">א-נבי יושע (לבנון)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">نبي يوشع (لبنان)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Viewed geoview, 27 October 2021</subfield><subfield code=\"b\">(En Nabi Yoûchaa is a populated place and is located in Liban-Nord, Lebanon. The estimate terrain elevation above seal level is 111 metres. Variant forms of spelling for En Nabi Yoûchaa or in other languages: Enn Nabi Yoûchâa, An Nabī Yūsha', En Nabi Yoûchaa, An Nabi Yusha', An Nabī Yūsha', En Nabi Youchaa, En Nabi Yoûchaa, Enn Nabi Youchaa, Enn Nabi Yoûchâa.)</subfield><subfield code=\"u\">https://lb.geoview.info/en_nabi_youchaa,278858</subfield></datafield><datafield tag=\"921\" ind1=\" \" ind2=\" \"><subfield code=\"a\">css 202110</subfield></datafield><datafield tag=\"933\" ind1=\" \" ind2=\" \"><subfield code=\"a\">aem 202110</subfield></datafield></record>\n",
+      "nliState": "Live"
+    }
+  ],
+  "failedItems": []
+}

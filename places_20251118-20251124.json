@@ -1,0 +1,151 @@
+{
+  "type": "Place",
+  "runTime": "2026-08-16T14:39:24.7401141Z",
+  "period": "20251118-20251124",
+  "numProcessedItems": 15314,
+  "numModifiedItems": 5,
+  "numNewItems": 8,
+  "numReviewItems": 0,
+  "numFailedItems": 0,
+  "modifiedSummary": [
+    {
+      "item": {
+        "recordId": "987007545161405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007545161405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007570989605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007570989605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987009537888605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987009537888605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007564351105171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'גרץ (אוסטריה)' to 'גראץ (אוסטריה)'",
+        "Updated PrimaryArabFull from 'null' to 'غراتس (النمسا)'",
+        "updatePlaceRecord: variants +3: Gratz (Austria)[la] | Gradec (Austria)[la] | Hradec (Austria)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987008216488705171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'ليتين (أوكرانيا)'",
+        "updatePlaceRecord: variants +1: Litin (Ukraine)[la]"
+      ],
+      "nliState": "Live"
+    }
+  ],
+  "newSummary": [
+    {
+      "item": {
+        "recordId": "987013800317905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013800317905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007285536605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007285536605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007545499405171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007545499405171 (אלרסברג (גרמניה))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007562895505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007562895505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013787273405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013787273405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013791448805171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987013791448805171 (דובובה (מחוז ויניצה, אוקראינה))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013797427605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013797427605171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E161350, $e=E161350, $f=N482957, $g=N482957, $2=geonames) — $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013147775305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013147775305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    }
+  ],
+  "requireReviewSummary": [],
+  "failedSummary": [],
+  "requireReviewItems": [],
+  "failedItems": []
+}

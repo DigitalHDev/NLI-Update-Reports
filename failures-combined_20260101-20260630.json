@@ -1,0 +1,12 @@
+[
+  {
+    "period": "20260212-20260218",
+    "track": "Place",
+    "recordId": "987012654573505171",
+    "messages": [
+      "addPlaceRecord: error for place 987012654573505171 after step 3: An error occurred while saving the entity changes. See the inner exception for details. --> The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 6 (\"@p5\"): The supplied value is not a valid instance of data type geography. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision."
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  }
+]

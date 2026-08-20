@@ -1,0 +1,148 @@
+{
+  "type": "Place",
+  "runTime": "2026-08-16T16:19:09.7973098Z",
+  "period": "20260416-20260422",
+  "numProcessedItems": 4422,
+  "numModifiedItems": 1,
+  "numNewItems": 12,
+  "numReviewItems": 0,
+  "numFailedItems": 0,
+  "modifiedSummary": [
+    {
+      "item": {
+        "recordId": "987007526176405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007526176405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    }
+  ],
+  "newSummary": [
+    {
+      "item": {
+        "recordId": "987007553084705171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007553084705171 (מונרו (ויסקונסין))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007531815605171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007531815605171 (בלמונט (קליפורניה))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007559724305171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007559724305171 (מדינה (ניו יורק))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987012859174205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012859174205171 does not satisfy IsPlaceToUse: no valid 034: 034($g=S0292533, $e=E1204507) — missing or empty $2, missing $d, missing $f. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014437573505171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987014437573505171 (מנסון (פנסילבניה))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014437573805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014437573805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007550532705171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007550532705171 (סקודסבורג (דנמרק))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007533440005171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007533440005171 (סאות' פאלם ביץ' (פלורידה))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007559863105171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007559863105171 (וסט ברלינגטון (איווה))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987012403591305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012403591305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987012881876805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012881876805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013912441005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013912441005171 does not satisfy IsPlaceToUse: no valid 034: 034($f=N0324110, $e=E0355610) — missing or empty $2, missing $d, missing $g. Skipping"
+      ],
+      "nliState": "Live"
+    }
+  ],
+  "requireReviewSummary": [],
+  "failedSummary": [],
+  "requireReviewItems": [],
+  "failedItems": []
+}

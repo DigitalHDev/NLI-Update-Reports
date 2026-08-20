@@ -1,6 +1,6 @@
 {
-  "runId": "6679e9de18554e399e5a86c97baf46c2",
-  "startedUtc": "2026-08-03T15:06:21.03Z",
+  "runId": "476d7c07cacc44a5936673896034c273",
+  "startedUtc": "2026-08-16T10:53:13.163Z",
   "apiEndpoint": "https://api.nli.org.il/v2/openlibrary",
   "range": "20250101-20250630",
   "periods": [
@@ -8,8 +8,8 @@
       "dateRange": "20250101-20250107",
       "places": {
         "status": "Completed",
-        "instanceId": "a9c488e8c7004012b25acef4eb872f9f",
-        "numProcessed": 1105,
+        "instanceId": "26226360152d404982360d566b586a31",
+        "numProcessed": 1066,
         "numNew": 3,
         "numModified": 0,
         "numManual": 0,
@@ -29,8 +29,8 @@
       "dateRange": "20250108-20250114",
       "places": {
         "status": "Completed",
-        "instanceId": "1549d6420b704f75ad31886ff040720c",
-        "numProcessed": 5052,
+        "instanceId": "11c0c72bb1f64d4da6a1d996c44a5ba4",
+        "numProcessed": 4986,
         "numNew": 0,
         "numModified": 9,
         "numManual": 2,
@@ -50,11 +50,11 @@
       "dateRange": "20250115-20250121",
       "places": {
         "status": "Completed",
-        "instanceId": "aaa44c6b3f874da9b1ba8e4b3b23f6d5",
-        "numProcessed": 63421,
-        "numNew": 37,
-        "numModified": 946,
-        "numManual": 28,
+        "instanceId": "354e7831477f4add90581010a2a1c218",
+        "numProcessed": 63346,
+        "numNew": 34,
+        "numModified": 931,
+        "numManual": 26,
         "numFailed": 0
       },
       "bibliography": {
@@ -71,12 +71,12 @@
       "dateRange": "20250122-20250128",
       "places": {
         "status": "Completed",
-        "instanceId": "be83ff5b192841fa8aa934aeefac3f94",
-        "numProcessed": 35386,
+        "instanceId": "ab1ddcb673d7488ebeb34b6e0e2e4aba",
+        "numProcessed": 35370,
         "numNew": 51,
-        "numModified": 1261,
-        "numManual": 30,
-        "numFailed": 1
+        "numModified": 1254,
+        "numManual": 31,
+        "numFailed": 0
       },
       "bibliography": {
         "status": "Skipped",
@@ -92,11 +92,11 @@
       "dateRange": "20250129-20250204",
       "places": {
         "status": "Completed",
-        "instanceId": "cb778c537bae451783f835ef1be46bc1",
-        "numProcessed": 51863,
-        "numNew": 5999,
-        "numModified": 2009,
-        "numManual": 109,
+        "instanceId": "23d9de82ca4a43fb891bbbcb59c31d20",
+        "numProcessed": 38874,
+        "numNew": 2521,
+        "numModified": 1576,
+        "numManual": 52,
         "numFailed": 0
       },
       "bibliography": {
@@ -113,11 +113,11 @@
       "dateRange": "20250205-20250211",
       "places": {
         "status": "Completed",
-        "instanceId": "543f7f7e9ae346a48bdc45eddaca5047",
-        "numProcessed": 137766,
-        "numNew": 21671,
-        "numModified": 4670,
-        "numManual": 358,
+        "instanceId": "4007861a9c8e4ad78c7c2d9673dcff4f",
+        "numProcessed": 0,
+        "numNew": 0,
+        "numModified": 0,
+        "numManual": 0,
         "numFailed": 0
       },
       "bibliography": {
@@ -134,12 +134,12 @@
       "dateRange": "20250212-20250218",
       "places": {
         "status": "Completed",
-        "instanceId": "db17ecc9fbbb45a6913931ce7d5c0ae8",
-        "numProcessed": 23586,
-        "numNew": 62,
-        "numModified": 1799,
-        "numManual": 63,
-        "numFailed": 1
+        "instanceId": "6e108c9248e24151a1ac897851ffb56d",
+        "numProcessed": 23253,
+        "numNew": 53,
+        "numModified": 1607,
+        "numManual": 50,
+        "numFailed": 0
       },
       "bibliography": {
         "status": "Skipped",
@@ -155,12 +155,12 @@
       "dateRange": "20250219-20250225",
       "places": {
         "status": "Completed",
-        "instanceId": "af9d1712a76d42a7b6c57ec93c736b1b",
-        "numProcessed": 52076,
-        "numNew": 1396,
-        "numModified": 7581,
-        "numManual": 307,
-        "numFailed": 1
+        "instanceId": "0b17f91dd74c4f419ec8ced91a4caba7",
+        "numProcessed": 0,
+        "numNew": 0,
+        "numModified": 0,
+        "numManual": 0,
+        "numFailed": 0
       },
       "bibliography": {
         "status": "Skipped",
@@ -176,11 +176,11 @@
       "dateRange": "20250226-20250304",
       "places": {
         "status": "Completed",
-        "instanceId": "d5e92e1545944fdeb4aaec2a0da4d9d9",
-        "numProcessed": 69275,
-        "numNew": 376,
-        "numModified": 702,
-        "numManual": 53,
+        "instanceId": "fde23005c6ae44fab4bf4e8949bafe5a",
+        "numProcessed": 0,
+        "numNew": 0,
+        "numModified": 0,
+        "numManual": 0,
         "numFailed": 0
       },
       "bibliography": {
@@ -197,11 +197,11 @@
       "dateRange": "20250305-20250311",
       "places": {
         "status": "Completed",
-        "instanceId": "cb004c0a4937474f89ec6f2c14640c78",
-        "numProcessed": 24184,
+        "instanceId": "c01e8625001f42e5870e26950d3dcdc4",
+        "numProcessed": 24094,
         "numNew": 2,
-        "numModified": 31,
-        "numManual": 1,
+        "numModified": 10,
+        "numManual": 0,
         "numFailed": 0
       },
       "bibliography": {
@@ -218,11 +218,11 @@
       "dateRange": "20250312-20250318",
       "places": {
         "status": "Completed",
-        "instanceId": "b59b7afce5774cdfa32304bfa8b31023",
-        "numProcessed": 33835,
-        "numNew": 55,
-        "numModified": 247,
-        "numManual": 2,
+        "instanceId": "e26436c40c314268bc785c70893c889d",
+        "numProcessed": 33762,
+        "numNew": 48,
+        "numModified": 232,
+        "numManual": 1,
         "numFailed": 0
       },
       "bibliography": {
@@ -239,11 +239,11 @@
       "dateRange": "20250319-20250325",
       "places": {
         "status": "Completed",
-        "instanceId": "233cc2f104f1447f9be24706210f7be7",
-        "numProcessed": 29226,
-        "numNew": 17,
-        "numModified": 19,
-        "numManual": 1,
+        "instanceId": "70d99da123974aacadb1689a7df80586",
+        "numProcessed": 29178,
+        "numNew": 11,
+        "numModified": 9,
+        "numManual": 0,
         "numFailed": 0
       },
       "bibliography": {
@@ -260,10 +260,10 @@
       "dateRange": "20250326-20250401",
       "places": {
         "status": "Completed",
-        "instanceId": "9975202e302942c8acb569cdc4df29d0",
-        "numProcessed": 36087,
-        "numNew": 12,
-        "numModified": 6,
+        "instanceId": "b9cf8fc5d4024c168dabfd727f064208",
+        "numProcessed": 36075,
+        "numNew": 10,
+        "numModified": 5,
         "numManual": 0,
         "numFailed": 0
       },
@@ -281,11 +281,11 @@
       "dateRange": "20250402-20250408",
       "places": {
         "status": "Completed",
-        "instanceId": "fda596e6909c4c17b82314407735451a",
-        "numProcessed": 2017,
-        "numNew": 88,
-        "numModified": 34,
-        "numManual": 0,
+        "instanceId": "7d6639f50e5c41e4beb8793a5ca54257",
+        "numProcessed": 8553,
+        "numNew": 112,
+        "numModified": 82,
+        "numManual": 13,
         "numFailed": 0
       },
       "bibliography": {
@@ -302,11 +302,11 @@
       "dateRange": "20250409-20250415",
       "places": {
         "status": "Completed",
-        "instanceId": "1de1d2ea35974bc994fd312e25b306b7",
-        "numProcessed": 13698,
-        "numNew": 734,
-        "numModified": 76,
-        "numManual": 5,
+        "instanceId": "50f7bf1804ba4e4492e49175681601c1",
+        "numProcessed": 13380,
+        "numNew": 497,
+        "numModified": 47,
+        "numManual": 2,
         "numFailed": 0
       },
       "bibliography": {
@@ -323,12 +323,12 @@
       "dateRange": "20250416-20250422",
       "places": {
         "status": "Completed",
-        "instanceId": "a6ff1bcde14f41b782d6b640b3317799",
-        "numProcessed": 36095,
-        "numNew": 424,
-        "numModified": 74,
-        "numManual": 3,
-        "numFailed": 1
+        "instanceId": "94a51d2c5e7e4ad7b654c4c4de798647",
+        "numProcessed": 35919,
+        "numNew": 312,
+        "numModified": 63,
+        "numManual": 2,
+        "numFailed": 0
       },
       "bibliography": {
         "status": "Skipped",
@@ -344,10 +344,10 @@
       "dateRange": "20250423-20250429",
       "places": {
         "status": "Completed",
-        "instanceId": "7ca5029f5e24497b8417992f001c4ba8",
-        "numProcessed": 15611,
-        "numNew": 584,
-        "numModified": 3,
+        "instanceId": "dc887f14a743437b957a573f1f0f9385",
+        "numProcessed": 0,
+        "numNew": 0,
+        "numModified": 0,
         "numManual": 0,
         "numFailed": 0
       },
@@ -365,8 +365,8 @@
       "dateRange": "20250430-20250506",
       "places": {
         "status": "Completed",
-        "instanceId": "ea01ba2e45174483be5c0af5e424a8fe",
-        "numProcessed": 57655,
+        "instanceId": "0e6e2d12029746dea5c5c1272d211e77",
+        "numProcessed": 57618,
         "numNew": 11,
         "numModified": 9,
         "numManual": 0,
@@ -386,10 +386,10 @@
       "dateRange": "20250507-20250513",
       "places": {
         "status": "Completed",
-        "instanceId": "ce6d07d7ba424ebf87202540ee67611f",
-        "numProcessed": 5973,
+        "instanceId": "1b75f02187754e2694bb1c5abf9d8fb4",
+        "numProcessed": 5962,
         "numNew": 19,
-        "numModified": 8,
+        "numModified": 7,
         "numManual": 1,
         "numFailed": 0
       },
@@ -407,11 +407,11 @@
       "dateRange": "20250514-20250520",
       "places": {
         "status": "Completed",
-        "instanceId": "ee0ce4635f1d49a6b5a99f6ebed5778a",
-        "numProcessed": 9689,
-        "numNew": 99,
-        "numModified": 16,
-        "numManual": 6,
+        "instanceId": "0aaa74fba4f14f32be998a5df8b1567d",
+        "numProcessed": 9425,
+        "numNew": 64,
+        "numModified": 10,
+        "numManual": 3,
         "numFailed": 0
       },
       "bibliography": {
@@ -428,9 +428,9 @@
       "dateRange": "20250521-20250527",
       "places": {
         "status": "Completed",
-        "instanceId": "a2266bf9a6a1481697d068dc397e5993",
-        "numProcessed": 18525,
-        "numNew": 74,
+        "instanceId": "c864687ad51a457e811fc042d13a3309",
+        "numProcessed": 18506,
+        "numNew": 69,
         "numModified": 3,
         "numManual": 1,
         "numFailed": 0
@@ -449,11 +449,11 @@
       "dateRange": "20250528-20250603",
       "places": {
         "status": "Completed",
-        "instanceId": "a576cc097382439790e48ad431e5cc3f",
-        "numProcessed": 12473,
-        "numNew": 73,
-        "numModified": 182,
-        "numManual": 4,
+        "instanceId": "607ce0babf7049a685e7967dc6a3d404",
+        "numProcessed": 12413,
+        "numNew": 58,
+        "numModified": 145,
+        "numManual": 1,
         "numFailed": 0
       },
       "bibliography": {
@@ -470,11 +470,11 @@
       "dateRange": "20250604-20250610",
       "places": {
         "status": "Completed",
-        "instanceId": "c4efe6e63dba44fea8f4bc20dfa5bc25",
-        "numProcessed": 7686,
-        "numNew": 51,
-        "numModified": 12,
-        "numManual": 3,
+        "instanceId": "b40fa3952aa14f2a8e04bed002a15b50",
+        "numProcessed": 7458,
+        "numNew": 35,
+        "numModified": 6,
+        "numManual": 0,
         "numFailed": 0
       },
       "bibliography": {
@@ -491,10 +491,10 @@
       "dateRange": "20250611-20250617",
       "places": {
         "status": "Completed",
-        "instanceId": "7f371ba9b6a940fc86631f009fb513f3",
-        "numProcessed": 16822,
-        "numNew": 11,
-        "numModified": 4,
+        "instanceId": "13f200fcf74940ce84b6a787c7b8c4e5",
+        "numProcessed": 16801,
+        "numNew": 8,
+        "numModified": 2,
         "numManual": 0,
         "numFailed": 0
       },
@@ -512,10 +512,10 @@
       "dateRange": "20250618-20250624",
       "places": {
         "status": "Completed",
-        "instanceId": "163667774ec9428789f8e13fbd0d02eb",
-        "numProcessed": 16242,
-        "numNew": 75,
-        "numModified": 21,
+        "instanceId": "b4941c9ebc444c72a48ebfe3affd7bc7",
+        "numProcessed": 16182,
+        "numNew": 62,
+        "numModified": 16,
         "numManual": 2,
         "numFailed": 0
       },
@@ -533,11 +533,11 @@
       "dateRange": "20250625-20250630",
       "places": {
         "status": "Completed",
-        "instanceId": "62c30980904e48648cfb91ef867b11a1",
-        "numProcessed": 20982,
-        "numNew": 35,
-        "numModified": 55,
-        "numManual": 0,
+        "instanceId": "819ed2b4782f440eab267d8bb1e95074",
+        "numProcessed": 21026,
+        "numNew": 31,
+        "numModified": 47,
+        "numManual": 3,
         "numFailed": 0
       },
       "bibliography": {
@@ -552,10 +552,10 @@
     }
   ],
   "totals": {
-    "processed": 796330,
-    "new": 31959,
-    "modified": 19777,
-    "manual": 979,
-    "failed": 4
+    "processed": 513247,
+    "new": 4011,
+    "modified": 6070,
+    "manual": 190,
+    "failed": 0
   }
 }

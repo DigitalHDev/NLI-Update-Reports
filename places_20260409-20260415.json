@@ -1,0 +1,1298 @@
+{
+  "type": "Place",
+  "runTime": "2026-08-16T16:17:32.9709493Z",
+  "period": "20260409-20260415",
+  "numProcessedItems": 3001,
+  "numModifiedItems": 46,
+  "numNewItems": 71,
+  "numReviewItems": 1,
+  "numFailedItems": 0,
+  "modifiedSummary": [
+    {
+      "item": {
+        "recordId": "987007417467605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007417467605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007559554205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007559554205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007284961605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007284961605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007283354105171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'כף התקווה הטובה (דרום אפריקה : קייפטאון)' to 'כף התקווה הטובה (דרום אפריקה : קייפ)'",
+        "Updated PrimaryArabFull from 'null' to 'الرجاء الصالح، كيب أوف هوب (جنوب أفريقيا : كيب)'",
+        "updatePlaceRecord: variants +8: Cabo da Boa Esperança (South Africa : Cape)[la] | Cabo Tormentoso (South Africa)[la] | Cape of Good Hope (South Africa : Cape)[la] | Cape of Storms (South Africa)[la] | Goeie Hoop, Kaap die (South Africa : Cape)[la] | Good Hope (South Africa : Cape)[la] | Kaap die Goeie Hoop (South Africa : Cape)[la] | Storms, Cape of (South Africa)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007549444705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007549444705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007357435405171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'מאלין (אוקראינה)' to 'מאלין (מחוז רובנו, אוקראינה)'",
+        "Updated PrimaryArabFull from 'null' to 'مالين (ريفننسكا أوبلاست، أوكرانيا)'",
+        "updatePlaceRecord: variants +1: Malin (Rivnensʹka oblastʹ, Ukraine)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007491937105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007491937105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007552600005171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'סאלו (טררגונה, ספרד)' to 'סאלו (טרגונה, ספרד)'",
+        "Updated PrimaryArabFull from 'null' to 'سالو (تاراغونا، إسبانيا)'",
+        "Updated ViafId from 'null' to '143066151'",
+        "updatePlaceRecord: variants +1: Salou, Spain (Tarragona)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007409242505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'טיירה (טריניץ, צ'כיה)' to 'טיירה (טר'ינץ, צ'כיה)'",
+        "Updated PrimaryRomFull from 'Tyra (Třinec, Czech Republic)' to 'Tyra (Třinec, Czech Republic)'",
+        "Updated PrimaryArabFull from 'null' to 'تايرا (ترينيتش، جمهورية التشيك)'",
+        "updatePlaceRecord: variants +1: טורא (צ'כיה)[he]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007389899005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007389899005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007550543905171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 155.9 km. Manual review required. Kima Id:9397 Name:ריו דה לה פלטה (מחוז)",
+        "Updated PrimaryHebFull from 'ריו דה לה פלטה (מחוז)' to 'ריו דה לה פלטה (מלכות משנה)'",
+        "Updated PrimaryRomFull from 'Río de la Plata (Viceroyalty)' to 'Río de la Plata (Viceroyalty)'",
+        "Updated PrimaryArabFull from 'null' to 'ريو دي لا بلاتا (ولاية)'",
+        "Updated Wd from 'null' to 'Q210551'",
+        "Updated ViafId from '147752761' to '9029155708708422580003'. Manual review required. Kima Id:9397",
+        "updatePlaceRecord: variants +1: Buenos Aires (Viceroyalty)[la]",
+        "updatePlaceRecord: variants already present, not inserted (3): Virreinato Rioplatense[la] | Virreinato del Río de la Plata[la] | Viceroyalty of La Plata[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007397826805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007397826805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007592249605171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'אוזריאני (מחוז טרנופיל, אוקראינה)' to 'אוזריאני (מחוז טרנופול, אוקראינה)'",
+        "Updated PrimaryArabFull from 'null' to 'أوزيرياني (ترنوبلسكا أوبلاست، أوكرانيا)'",
+        "Updated Wd from 'null' to 'Q4332186'",
+        "updatePlaceRecord: variants +4: Ozeryany (Ternopilʹsʹka oblastʹ, Ukraine)[la] | Jezierzany (Ternopilʹsʹka oblastʹ, Ukraine)[la] | Yezerzhany (Ternopilʹsʹka oblastʹ, Ukraine)[la] | Yezezhany (Ternopilʹsʹka oblastʹ, Ukraine)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987009674685905171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'אושצ'ייצ'קו (מחוז טרנופול, אוקראינה)' to 'אוסטצ'קו (מחוז טרנופול, אוקראינה)'",
+        "Updated PrimaryArabFull from 'null' to 'أوستشكو (ترنوبلسكا أوبلاست، أوكرانيا)'",
+        "updatePlaceRecord: variants +4: Uścieczko (Ukraine)[la] | Ustetschko (Ukraine)[la] | Usteciko (Ukraine)[la] | איסטעטשקע (אוקראינה)[he]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987009674690405171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'חורושיב (מחוז ז'יטומיר, אוקראינה)' to 'חורושיב (מחוז זיטומיר, אוקראינה)'",
+        "Updated PrimaryArabFull from 'null' to 'خوروشيف (زهيتوميرسكا أوبلاست، أوكرانيا)'",
+        "updatePlaceRecord: variants +12: Volodarsk-Volynskyi (Ukraine)[la] | Goroshki (Ukraine)[la] | Horoschki (Ukraine)[la] | Horoshki (Ukraine)[la] | Kotozovo (Ukraine)[la] | Kutuzov Volodarsk (Ukraine)[la] | Kutuzowe Volodarskoe (Ukraine)[la] | Volodarsk (Ukraine)[la] | Volodarsk Vohlinskii (Ukraine)[la] | Choroschiw (Ukraine)[la] | Horoszów (Ukraine)[la] | Horoșiv (Ukraine)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007511460305171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'טרזין (מחוז אוסטי נד לבם, צ'כיה)' to 'טרזין (מחוז אוסטי, צ'כיה)'",
+        "Updated PrimaryRomFull from 'Terezín (Ústecký kraj, Czech Republic)' to 'Terezín (Ústecký kraj, Czech Republic)'",
+        "Updated PrimaryArabFull from 'null' to 'تيريزين (أوستيكي كراج، جمهورية التشيك)'",
+        "Updated Wd from 'null' to 'Q523489'",
+        "updatePlaceRecord: variants +5: Theresienstadt (Czech Republic)[la] | Terezín (Severočeský kraj, Czechoslovakia)[la] | Terezín (Severočeský kraj, Czech Republic)[la] | טריזנשטאט (מחוז אוסטי נד לבם, צ'כיה)[he] | טריזנשטט (מחוז אוסטי נד לבם, צ'כיה)[he]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007581532505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Coordinates added: Lat=49.5566055, Lon=15.07262935",
+        "Updated PrimaryHebFull from 'לוקבץ' (ויסוצ'ינה)' to 'לוקבץ' (ויסוצ'ינה, צ'כיה)'",
+        "Updated PrimaryRomFull from 'Lukavec (Vysočina, Czech Republic)' to 'Lukavec (Vysočina, Czech Republic)'",
+        "Updated PrimaryArabFull from 'null' to 'لوكافيك (فيسوتشينا، جمهورية التشيك)'",
+        "updatePlaceRecord: variants +1: לוקאוויש (צ'כיה)[he]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007529799705171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'לאונטופוליס (מצרים : עיר קדומה)' to 'לאונטופוליס (קאליוביה, מצרים : עיר קדומה)'",
+        "Updated PrimaryRomFull from 'Leontopolis (Qalyūbīyah, Egypt : Extinct city)' to 'Leontopolis (Qalyūbīyah, Egypt : Extinct city)'",
+        "Updated PrimaryArabFull from 'ليونتوپوليس (القليوبية، مصر: مدينة مندثرة)' to 'ليونتوپوليس (القليوبية، مصر : مدينة مندثرة)'",
+        "updatePlaceRecord: variants +13: Leontopolis (Extinct city)[la] | Leontopolis (Egypt)[la] | Nay-ta-hut (Extinct city)[la] | Tall al-Yahudiya (Egypt)[la] | Tall al-Yahudiyah (Egypt)[la] | Tell el-Yahudiyeh (Egypt)[la] | Yahudiya, Tall al- (Egypt)[la] | Yahūdīyah, Tall al- (Egypt)[la] | Yahudiyeh, Tell el- (Egypt)[la] | Yehudiyye (Tel el-)[la] | תל אל-יהודיה (מצרים : עיר קדומה)[he] | יהודיה (תל)[he] | טָרִמוּ (מצרים : עיר קדומה)[he]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007542721205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007542721205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007552833705171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'הרבורג (שוואביה, גרמניה)' to 'הרבורג (שוואבן, גרמניה)'",
+        "Updated PrimaryArabFull from 'null' to 'هاربورغ (شوابيا، ألمانيا)'",
+        "updatePlaceRecord: variants +1: Harburg, Ger. (Schwaben)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007564626105171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'קרופט (ורינגטון, אנגליה)' to 'קרופט (וורינגטון, אנגליה)'",
+        "Updated PrimaryArabFull from 'null' to 'كروفت (وارينغتون، إنجلترا)'",
+        "Updated ViafId from 'null' to '152503755'",
+        "updatePlaceRecord: variants +2: Croft (Cheshire, England)[la] | Croft (Cheshire)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007599980805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007599980805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987009674690505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'קוזליב (מחוז טרנופיל, אוקראינה)' to 'קוזליב (מחוז טרנופול, אוקראינה)'",
+        "Updated PrimaryArabFull from 'null' to 'كوزليف (ترنوبلسكا أوبلاست، أوكرانيا)'",
+        "updatePlaceRecord: variants +4: Kozłów (Ukraine)[la] | Kosliw (Ukraine)[la] | Kozlov (Ukraine)[la] | Kozlev (Ukraine)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987011060727905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987011060727905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987011912076005171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'غارليافا (ليتوانيا)'",
+        "updatePlaceRecord: variants +4: Godlewo (Lithuania)[la] | Goddlau (Lithuania)[la] | גודלאווה (ליטא)[he] | גודלבו (ליטא)[he]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007333993305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007333993305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007557199905171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'לה פונטה (וקלוז, צרפת)' to 'לה פונטה (ווקלוז, צרפת)'",
+        "Updated PrimaryArabFull from 'null' to 'لو بونتيه (فوكلوز، فرنسا)'",
+        "updatePlaceRecord: variants +2: Le Pontet, France (Vaucluse)[la] | Pontet, Le (Vaucluse, France)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007550339305171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'בדפורד (ווצ'סטר, ניו יורק)' to 'בדפורד (מחוז וסטצ'סטר, ניו יורק)'",
+        "Updated PrimaryArabFull from 'null' to 'بيدفورد (مقاطعة ويستشستر، نيويورك)'",
+        "Updated ViafId from 'null' to '237436915'",
+        "updatePlaceRecord: variants +2: Bedford Village (N.Y.)[la] | Bedford, N.Y. (Westchester Co.)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007534699705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007534699705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007539554205171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'נהר קולורדו (ארגנטינה)' to 'נהר קולורדו (מנדוזה ונאוקן-בואנוס איירס, ארגנטינה)'",
+        "Updated PrimaryRomFull from 'Colorado River (Mendoza and Neuquén-Buenos Aires, Argentina)' to 'Colorado River (Mendoza and Neuquén-Buenos Aires, Argentina)'",
+        "Updated PrimaryArabFull from 'null' to 'نهر كولورادو (ميندوزا ونيوكوين بوينس آيرس، الأرجنتين)'",
+        "Updated Wd from 'null' to 'Q270627'",
+        "updatePlaceRecord: variants +1: Colorado River (Río Negro Province, Argentina)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007593039005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007593039005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987009647786505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'טארנורודה (מחוז טרנופול, אוקראינה)' to 'טרנורודה (מחוז טרנופול, אוקראינה)'",
+        "Updated PrimaryArabFull from 'null' to 'تارنورودا (ترنوبلسكا أوبلاست، أوكرانيا)'",
+        "updatePlaceRecord: variants +2: Tarnorudka (Ukraine)[la] | טאַרנערודע (מחוז טרנופול, אוקראינה)[he]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987010399940705171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'סן אספרי (פירנה-אטלנטיק, צרפת)' to 'סן אספרי (פיראניים-אטלנטיים, צרפת)'",
+        "Updated PrimaryRomFull from 'Saint-Esprit (Pyrénées-Atlantiques, France)' to 'Saint-Esprit (Pyrénées-Atlantiques, France)'",
+        "Updated PrimaryArabFull from 'null' to 'سان إسبريت (بيرينيه - أتلانتيك، فرنسا)'",
+        "updatePlaceRecord: variants +1: Saint-Esprit-lès-Bayonne (France)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007572932305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007572932305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007597766805171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'סיפדן (סבה, אינדונזיה : אי)' to 'סיפדן (אי) (סבאח, מלזיה)'",
+        "Updated PrimaryArabFull from 'null' to 'جزيرة سيبادان (صباح، ماليزيا)'",
+        "Updated Wd from 'null' to 'Q1412482'",
+        "updatePlaceRecord: variants +4: Pulau Sipadan (Sabah, Malaysia)[la] | Pulau Sipidan (Sabah, Malaysia)[la] | Sipadan Island (Sabah)[la] | Sipidan Island (Sabah, Malaysia)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987008758981005171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'איליאנדה (רומניה)' to 'איליאנדה (סילג', רומניה)'",
+        "Updated PrimaryRomFull from 'Ileanda (Sălaj, Romania)' to 'Ileanda (Sălaj, Romania)'",
+        "Updated PrimaryArabFull from 'null' to 'إيلاندا (سالاج، رومانيا)'",
+        "updatePlaceRecord: variants +2: Ileanda (Romania)[la] | Nagyilonda (Romania)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007564294505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'קדנה (וקלוז, צרפת)' to 'קדנה (ווקלוז, צרפת)'",
+        "Updated PrimaryArabFull from 'null' to 'كادينيه (فوكلوز، فرنسا)'",
+        "Updated ViafId from 'null' to '132527039'",
+        "updatePlaceRecord: variants +1: Cadenet, France (Vaucluse)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987009960924505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987009960924505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007415792005171"
+      },
+      "result": "Success",
+      "messages": [
+        "Coordinates added: Lat=49.893453, Lon=16.028555",
+        "Updated PrimaryRomFull from 'Luže (Czech Republic)' to 'Luže (Czech Republic)'",
+        "Updated PrimaryArabFull from 'null' to 'لوز (جمهورية التشيك)'",
+        "Updated Wd from 'null' to 'Q1020927'"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987009440887605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987009440887605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007555555305171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'فين (الدنمارك)'",
+        "updatePlaceRecord: variants +4: Fionia (Denmark)[la] | Fionie (Denmark)[la] | Fünen (Denmark)[la] | Fyen (Denmark)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007567632005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007567632005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007575144605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007575144605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007543575605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007543575605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007564320205171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryRomFull from 'Mezőcsát (Hungary)' to 'Mezőcsát (Hungary)'",
+        "Updated PrimaryArabFull from 'null' to 'ميزوكسات (المجر)'",
+        "Updated ViafId from 'null' to '148919293'",
+        "updatePlaceRecord: variants +2: Mezőcsát, Hungary[la] | מעזחט (הונגריה)[he]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007563581405171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'ويندرمير، البحيرة، مستجمعات المياه (إنجلترا)'"
+      ],
+      "nliState": "Live"
+    }
+  ],
+  "newSummary": [
+    {
+      "item": {
+        "recordId": "987007596450305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007596450305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007535628105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007535628105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007548166605171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007548166605171 (הורסט (גלזנקירכן, גרמניה))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007542983705171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007542983705171 (קושצ'יילנה וייש (ולוצלאווק, פולין))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987008917467605171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987008917467605171 (אוסטיה (מחוז טרנופול, אוקראינה))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987011875259805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987011875259805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987012858543305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012858543305171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E181515, $e=E181515, $f=N494957, $g=N494957, $2=geonames) — $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013178049505171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987013178049505171 (פוינט (דורבן, דרום אפריקה))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013291169005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013291169005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013331812005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013331812005171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E162800, $e=E162800, $f=N484000, $g=N484000, $2=geonames) — $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013435250605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013435250605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013472830005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013472830005171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E254210, $e=E254210, $f=N49248, $g=N49248, $2=geohack) — $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013552769605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013552769605171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E11748, $e=E11748, $f=N434945, $g=N434945, $2=geonames) — $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013711802705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013711802705171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E183815, $e=E183815, $f=N493851, $g=N493851, $2=geonames) — $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987012938575105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012938575105171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E163300, $e=E163300, $f=N474039, $g=N474039, $2=geonames) — $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013470921105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013470921105171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E133700, $e=E133700, $f=N480500, $g=N480500, $2=geonames) — $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013787181305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013787181305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013806289705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013806289705171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E252821, $e=E252821, $f=N494003, $g=N494003, $2=geonames) — $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013961622505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013961622505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007539554105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007539554105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987009349746305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987009349746305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987011060420405171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987011060420405171 (קרסנה (סילג', רומניה))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987012124343205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012124343205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987012858532405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012858532405171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E160000, $e=E160000, $f=N484500, $g=N484500, $2=geonames) — $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013290983905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013290983905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013156316305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013156316305171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E261846, $e=E261846, $f=N483456, $g=N483456, $2=geonames) — $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013219696005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013219696005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013294733605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013294733605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013294747705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013294747705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013304376205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013304376205171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E231103, $e=E231103, $f=N493352, $g=N493352, $2=geonames) — $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013324832305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013324832305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013331810105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013331810105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013505327105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013505327105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013787173605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013787173605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013800314205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013800314205171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E131508, $e=E131508, $f=N494550, $g=N494550, $2=geonames) — $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013910714405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013910714405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013918941105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013918941105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987012876375305171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987012876375305171 (כיכר סן לואיס (מונטריאול, קוויבק))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007549300605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007549300605171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Ahoskie Creek (N.C.), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007294755105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007294755105171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Amatér Cave (Czech Republic), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007543901405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007543901405171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Wolf Creek (Tex. and Okla.), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007535641605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007535641605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007549680105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007549680105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007549261105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007549261105171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Fort Point (San Francisco, Calif.), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007558937705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007558937705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007563929305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007563929305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007561912805171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007561912805171 (טונוואנדה (ניו יורק))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007563700105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007563700105171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Fish Creek, East Branch, Watershed (N.Y.), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007570437705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007570437705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987012403938005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012403938005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013331819005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013331819005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013893939905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013893939905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014198343405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014198343405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014403958405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014403958405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007290793805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007290793805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007291782505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007291782505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007291750005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007291750005171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Little Miami River, East Fork, Watershed (Ohio), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007405761905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007405761905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007530134505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007530134505171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Winthrop, Lake, Watershed (Mass.), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007534668305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007534668305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007534877405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007534877405171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Sugar Creek, South Fork, East Branch, Watershed (Ohio), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007549261005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007549261005171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Fort Point National Historic Site (San Francisco, Calif.), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007538074605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007538074605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007542250605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007542250605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007547361305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007547361305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007530096205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007530096205171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Todos Santos Bay (Mexico), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007566844605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007566844605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013320729005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013320729005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014352659705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014352659705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014352717205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014352717205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014403958605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014403958605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    }
+  ],
+  "requireReviewSummary": [
+    {
+      "item": {
+        "recordId": "987007550543905171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 155.9 km. Manual review required. Kima Id:9397 Name:ריו דה לה פלטה (מחוז)",
+        "Updated PrimaryHebFull from 'ריו דה לה פלטה (מחוז)' to 'ריו דה לה פלטה (מלכות משנה)'",
+        "Updated PrimaryRomFull from 'Río de la Plata (Viceroyalty)' to 'Río de la Plata (Viceroyalty)'",
+        "Updated PrimaryArabFull from 'null' to 'ريو دي لا بلاتا (ولاية)'",
+        "Updated Wd from 'null' to 'Q210551'",
+        "Updated ViafId from '147752761' to '9029155708708422580003'. Manual review required. Kima Id:9397",
+        "updatePlaceRecord: variants +1: Buenos Aires (Viceroyalty)[la]",
+        "updatePlaceRecord: variants already present, not inserted (3): Virreinato Rioplatense[la] | Virreinato del Río de la Plata[la] | Viceroyalty of La Plata[la]"
+      ],
+      "nliState": "Live"
+    }
+  ],
+  "failedSummary": [],
+  "requireReviewItems": [
+    {
+      "item": {
+        "recordId": "987007550543905171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 155.9 km. Manual review required. Kima Id:9397 Name:ריו דה לה פלטה (מחוז)",
+        "Updated PrimaryHebFull from 'ריו דה לה פלטה (מחוז)' to 'ריו דה לה פלטה (מלכות משנה)'",
+        "Updated PrimaryRomFull from 'Río de la Plata (Viceroyalty)' to 'Río de la Plata (Viceroyalty)'",
+        "Updated PrimaryArabFull from 'null' to 'ريو دي لا بلاتا (ولاية)'",
+        "Updated Wd from 'null' to 'Q210551'",
+        "Updated ViafId from '147752761' to '9029155708708422580003'. Manual review required. Kima Id:9397",
+        "updatePlaceRecord: variants +1: Buenos Aires (Viceroyalty)[la]",
+        "updatePlaceRecord: variants already present, not inserted (3): Virreinato Rioplatense[la] | Virreinato del Río de la Plata[la] | Viceroyalty of La Plata[la]"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01721cz  a2200337n  4500</leader><controlfield tag=\"005\">20260410053807.0</controlfield><controlfield tag=\"008\">810326n||acannaab|          |a ana    ||</controlfield><controlfield tag=\"001\">987007550543905171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 81018825</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q210551</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">9029155708708422580003</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">-58.4</subfield><subfield code=\"e\">-58.4</subfield><subfield code=\"f\">-34.666667</subfield><subfield code=\"g\">-34.666667</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000983505</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Río de la Plata (Viceroyalty)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">ריו דה לה פלטה (מלכות משנה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">ريو دي لا بلاتا (ولاية)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Argentina</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Bolivia</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Paraguay</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Uruguay</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Buenos Aires (Viceroyalty)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Virreinato Rioplatense</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Virreinato del Río de la Plata</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Viceroyalty of La Plata</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"551\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Provincias Unidas del Río de la Plata</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Márquez de la Plata, J. El Virreinato Rioplatense en las vistas fiscales de José Márquez de la Plata, 1988.</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Mariluz Urquijo, J.M. El Virreinato del Río de la Plata en la época del marqués de Avilés (1799-1801), c1987.</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">LC F classification, p. 560</subfield><subfield code=\"b\">(in 1776, Viceroyalty of La Plata was formed including Argentina, Uruguay, Paraguay, and Bolivia)</subfield></datafield></record>\n",
+      "nliState": "Live"
+    }
+  ],
+  "failedItems": []
+}

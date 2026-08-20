@@ -1,0 +1,578 @@
+{
+  "type": "Place",
+  "runTime": "2026-08-16T14:08:33.6802117Z",
+  "period": "20250902-20250908",
+  "numProcessedItems": 10418,
+  "numModifiedItems": 1,
+  "numNewItems": 55,
+  "numReviewItems": 0,
+  "numFailedItems": 0,
+  "modifiedSummary": [
+    {
+      "item": {
+        "recordId": "987012752874505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012752874505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    }
+  ],
+  "newSummary": [
+    {
+      "item": {
+        "recordId": "987007531917405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007531917405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617669705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617669705171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E15226, $e=E15226, $f=N480147, $g=N480147) — missing or empty $2, $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617670005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617670005171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E63811, $e=E63811, $f=N462023, $g=N462023) — missing or empty $2, $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617673605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617673605171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E65659, $e=E65659, $f=N482714, $g=N482714) — missing or empty $2, $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617674405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617674405171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E60425, $e=E60425, $f=N430542, $g=N430542) — missing or empty $2, $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617676105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617676105171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E22038, $e=E22038, $f=N491847, $g=N491847) — missing or empty $2, $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013612177805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013612177805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617079505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617079505171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E201734, $e=E201734, $f=N542641, $g=N542641, $2=geonames) — $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617669005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617669005171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E53519, $e=E53519, $f=N434544, $g=N434544) — missing or empty $2, $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617669205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617669205171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E30946, $e=E30946, $f=N472629, $g=N472629) — missing or empty $2, $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617669405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617669405171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E25239, $e=E25239, $f=N492616, $g=N492616) — missing or empty $2, $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617669605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617669605171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E55101, $e=E55101, $f=N454910, $g=N454910) — missing or empty $2, $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617670305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617670305171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E42022, $e=E42022, $f=N461226, $g=N461226) — missing or empty $2, $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617673805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617673805171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E00400, $e=E00400, $f=N482700, $g=N482700) — missing or empty $2, $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617674805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617674805171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E23322, $e=E23322, $f=N431113, $g=N431113) — missing or empty $2, $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617676505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617676505171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E52829, $e=E52829, $f=N475707, $g=N475707) — missing or empty $2, $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617676705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617676705171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E50221, $e=E50221, $f=N455712, $g=N455712) — missing or empty $2, $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617681105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617681105171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E60237, $e=E60237, $f=N491004, $g=N491004) — missing or empty $2, $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617669105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617669105171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E14713, $e=E14713, $f=N481931, $g=N481931) — missing or empty $2, $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617675005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617675005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617676205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617676205171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E24337, $e=E24337, $f=N502638, $g=N502638) — missing or empty $2, $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617677105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617677105171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E21033, $e=E21033, $f=N431514, $g=N431514) — missing or empty $2, $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617678005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617678005171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E23710, $e=E23710, $f=N502709, $g=N502709) — missing or empty $2, $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007547834005171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007547834005171 (שרקואדה, ברזיל)"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617672305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617672305171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E52246, $e=E52246, $f=N474241, $g=N474241) — missing or empty $2, $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617672405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617672405171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E24203, $e=E24203, $f=N482917, $g=N482917) — missing or empty $2, $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617672605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617672605171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E41023, $e=E41023, $f=N482427, $g=N482427) — missing or empty $2, $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617673905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617673905171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E24416, $e=E24416, $f=N480253, $g=N480253) — missing or empty $2, $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617674505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617674505171 does not satisfy IsPlaceToUse: no valid 034: 034($d=W03006, $e=W03006, $f=N445342, $g=N445342) — missing or empty $2, $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617676805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617676805171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E22435, $e=E22435, $f=N505744, $g=N505744) — missing or empty $2, $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617677605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617677605171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E02956, $e=E02956, $f=N491349, $g=N491349) — missing or empty $2, $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617076105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617076105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617669305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617669305171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E25758, $e=E25758, $f=N480010, $g=N480010) — missing or empty $2, $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617669505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617669505171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E12217, $e=E12217, $f=N472951, $g=N472951) — missing or empty $2, $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617670105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617670105171 does not satisfy IsPlaceToUse: no valid 034: 034($d=W01836, $e=W01836, $f=N451527, $g=N451527) — missing or empty $2, $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617672205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617672205171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E70201, $e=E70201, $f=N482140, $g=N482140) — missing or empty $2, $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617673505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617673505171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E50052, $e=E50052, $f=N445354, $g=N445354) — missing or empty $2, $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617673705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617673705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617674705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617674705171 does not satisfy IsPlaceToUse: no valid 034: 034($d=W01952, $e=W01952, $f=N444240, $g=N444240) — missing or empty $2, $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617675105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617675105171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E64510, $e=E64510, $f=N433720, $g=N433720) — missing or empty $2, $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617677405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617677405171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E15950, $e=E15950, $f=N492213, $g=N492213) — missing or empty $2, $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617678205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617678205171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E62426, $e=E62426, $f=N485537, $g=N485537) — missing or empty $2, $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617679305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617679305171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E53510, $e=E53510, $f=N470805, $g=N470805) — missing or empty $2, $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617680105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617680105171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E62926, $e=E62926, $f=N484257, $g=N484257) — missing or empty $2, $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617680805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617680805171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E33249, $e=E33249, $f=N472733, $g=N472733) — missing or empty $2, $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617681505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617681505171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E13035, $e=E13035, $f=N481015, $g=N481015) — missing or empty $2, $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617681905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617681905171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E61344, $e=E61344, $f=N464418, $g=N464418) — missing or empty $2, $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617081505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617081505171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E155537, $e=E155537, $f=N483149, $g=N483149, $2=geonames) — $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617669905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617669905171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E50751, $e=E50751, $f=N483143, $g=N483143) — missing or empty $2, $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617671805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617671805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617672905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617672905171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E03051, $e=E03051, $f=N474430, $g=N474430) — missing or empty $2, $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617674105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617674105171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E12011, $e=E12011, $f=N443323, $g=N443323) — missing or empty $2, $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617676405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617676405171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E05813, $e=E05813, $f=N480109, $g=N480109) — missing or empty $2, $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617677905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617677905171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E24350, $e=E24350, $f=N491023, $g=N491023) — missing or empty $2, $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617681705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617681705171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E55320, $e=E55320, $f=N454328, $g=N454328) — missing or empty $2, $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    }
+  ],
+  "requireReviewSummary": [],
+  "failedSummary": [],
+  "requireReviewItems": [],
+  "failedItems": []
+}

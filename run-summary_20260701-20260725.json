@@ -1,0 +1,99 @@
+{
+  "runId": "2e421d4ccc7e4f4dba59ecd6bd0919cc",
+  "startedUtc": "2026-08-19T14:17:11.323Z",
+  "apiEndpoint": "https://api.nli.org.il/v2/openlibrary",
+  "range": "20260701-20260725",
+  "periods": [
+    {
+      "dateRange": "20260701-20260707",
+      "places": {
+        "status": "Completed",
+        "instanceId": "6ab5196f845040f68dd6b7ea70817d04",
+        "numProcessed": 24418,
+        "numNew": 64,
+        "numModified": 56,
+        "numManual": 44,
+        "numFailed": 0
+      },
+      "bibliography": {
+        "status": "Skipped",
+        "instanceId": null,
+        "numProcessed": 0,
+        "numNew": 0,
+        "numModified": 0,
+        "numManual": 0,
+        "numFailed": 0
+      }
+    },
+    {
+      "dateRange": "20260708-20260714",
+      "places": {
+        "status": "Completed",
+        "instanceId": "a4958fe1dd324e1db46e98a306e157dd",
+        "numProcessed": 5228,
+        "numNew": 0,
+        "numModified": 3,
+        "numManual": 0,
+        "numFailed": 0
+      },
+      "bibliography": {
+        "status": "Skipped",
+        "instanceId": null,
+        "numProcessed": 0,
+        "numNew": 0,
+        "numModified": 0,
+        "numManual": 0,
+        "numFailed": 0
+      }
+    },
+    {
+      "dateRange": "20260715-20260721",
+      "places": {
+        "status": "Completed",
+        "instanceId": "7756906e3e8f4d1485880b2dbd1c87c4",
+        "numProcessed": 9645,
+        "numNew": 26,
+        "numModified": 0,
+        "numManual": 0,
+        "numFailed": 0
+      },
+      "bibliography": {
+        "status": "Skipped",
+        "instanceId": null,
+        "numProcessed": 0,
+        "numNew": 0,
+        "numModified": 0,
+        "numManual": 0,
+        "numFailed": 0
+      }
+    },
+    {
+      "dateRange": "20260722-20260725",
+      "places": {
+        "status": "Completed",
+        "instanceId": "c1a2f5b38a1b4d7d841bb5476a501794",
+        "numProcessed": 2964,
+        "numNew": 8,
+        "numModified": 1,
+        "numManual": 0,
+        "numFailed": 0
+      },
+      "bibliography": {
+        "status": "Skipped",
+        "instanceId": null,
+        "numProcessed": 0,
+        "numNew": 0,
+        "numModified": 0,
+        "numManual": 0,
+        "numFailed": 0
+      }
+    }
+  ],
+  "totals": {
+    "processed": 42255,
+    "new": 98,
+    "modified": 60,
+    "manual": 44,
+    "failed": 0
+  }
+}

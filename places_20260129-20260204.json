@@ -1,0 +1,585 @@
+{
+  "type": "Place",
+  "runTime": "2026-08-16T15:23:42.7706899Z",
+  "period": "20260129-20260204",
+  "numProcessedItems": 5054,
+  "numModifiedItems": 15,
+  "numNewItems": 38,
+  "numReviewItems": 1,
+  "numFailedItems": 0,
+  "modifiedSummary": [
+    {
+      "item": {
+        "recordId": "987007554898705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007554898705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007283467705171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 143.4 km. Manual review required. Kima Id:1157 Name:האזור הקריבי",
+        "Updated Wd from 'null' to 'Q664609'",
+        "updatePlaceRecord: variants already present, not inserted (4): Caribbean Free Trade Association countries[la] | Caribbean Region[la] | Caribbean Sea Region[la] | West Indies Region[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007295550905171"
+      },
+      "result": "Success",
+      "messages": [
+        "updatePlaceRecord: variants +1: Arctic, The[la]",
+        "updatePlaceRecord: variants already present, not inserted (4): Arctic[la] | Arctic Ocean Region[la] | Far North[la] | The Arctic[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007560966105171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'الولايات الجنوبية (الولايات المتحدة)'",
+        "updatePlaceRecord: variants +5: Southern States (U.S.)[la] | Dixie (U.S. : Region)[la] | South, The[la] | Southeast (U.S.)[la] | United States, Southern[la]",
+        "updatePlaceRecord: variants already present, not inserted (6): American South[la] | American Southeast[la] | Former Confederate States[la] | Southeast United States[la] | Southeastern States[la] | Southern United States[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007554971205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007554971205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007502432005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007502432005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007475118005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007475118005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007531947905171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryRomFull from 'Vértes Mountains (Hungary)' to 'Vértes Mountains (Hungary)'",
+        "Updated PrimaryArabFull from 'null' to 'جبال فيرتس (المجر)'",
+        "updatePlaceRecord: variants +3: Vértes-hegység (Hungary)[la] | ורטש (הונגריה)[he] | וויריטש (הונגריה)[he]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007549506405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007549506405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007537042505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007537042505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007561915005171"
+      },
+      "result": "Success",
+      "messages": [
+        "updatePlaceRecord: variants +7: Dumyati (Egypt)[la] | Tamiata (Egypt)[la] | Dumyāṭ (Egypt)[la] | Dimyāṭ (Egypt)[la] | Dumqat (Egypt)[la] | Dumiat (Egypt)[la] | קפוטיקה (מצרים)[he]",
+        "updatePlaceRecord: variants already present, not inserted (1): Damietta[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007556575005171"
+      },
+      "result": "Success",
+      "messages": [
+        "updatePlaceRecord: variants +5: Susiya Site (West Bank)[la] | Ḥurvat Susya (West Bank)[la] | Khirbat Susiya (West Bank)[la] | Khirbat Susiyah (West Bank)[la] | Susiyah Site (West Bank)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007557882605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007557882605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007559508405171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'ناجيباجوم (المجر)'",
+        "Updated ViafId from 'null' to '126662507'",
+        "updatePlaceRecord: variants +2: Nagybajom, Hungary[la] | באיום (הונגריה)[he]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007561961605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007561961605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    }
+  ],
+  "newSummary": [
+    {
+      "item": {
+        "recordId": "987007562641305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007562641305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007597665405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007597665405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013219798505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013219798505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013545088605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013545088605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013553547005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013553547005171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E0442149, $e=E0442149, $f=N321330, $g=N321330, $2=geonet) — $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014291479205171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987014291479205171 (סרנובה (רביץ', מחוז פולין-גדול, פולין))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013553558705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013553558705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617168505171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987013617168505171 (פגיז קוב (נובה סקוטיה))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014202537505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014202537505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007405852905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007405852905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007554430505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007554430505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007540567605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007540567605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007542706405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007542706405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007565112405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007565112405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007572818805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007572818805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007487155205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007487155205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007475828505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007475828505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007537405305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007537405305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007540551505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007540551505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007540611505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007540611505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007544298405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007544298405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007544854705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007544854705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007561355405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007561355405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007561412805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007561412805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007535444605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007535444605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007542366605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007542366605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007544069605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007544069605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007552691205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007552691205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007559536805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007559536805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007560993305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007560993305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007572873505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007572873505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987012807076805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012807076805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013619004305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013619004305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007463748705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007463748705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007471617005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007471617005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007537909005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007537909005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007540192605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007540192605171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Fossil Butte National Monument (Wyo.), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007465762805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007465762805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    }
+  ],
+  "requireReviewSummary": [
+    {
+      "item": {
+        "recordId": "987007283467705171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 143.4 km. Manual review required. Kima Id:1157 Name:האזור הקריבי",
+        "Updated Wd from 'null' to 'Q664609'",
+        "updatePlaceRecord: variants already present, not inserted (4): Caribbean Free Trade Association countries[la] | Caribbean Region[la] | Caribbean Sea Region[la] | West Indies Region[la]"
+      ],
+      "nliState": "Live"
+    }
+  ],
+  "failedSummary": [],
+  "requireReviewItems": [
+    {
+      "item": {
+        "recordId": "987007283467705171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 143.4 km. Manual review required. Kima Id:1157 Name:האזור הקריבי",
+        "Updated Wd from 'null' to 'Q664609'",
+        "updatePlaceRecord: variants already present, not inserted (4): Caribbean Free Trade Association countries[la] | Caribbean Region[la] | Caribbean Sea Region[la] | West Indies Region[la]"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01219cz  a2200241n  4500</leader><controlfield tag=\"005\">20260131190145.0</controlfield><controlfield tag=\"008\">860211|| anannbabn          |b ana      </controlfield><controlfield tag=\"001\">987007283467705171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">sh 85020279</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q664609</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">-73.300833</subfield><subfield code=\"e\">-73.300833</subfield><subfield code=\"f\">16.256944</subfield><subfield code=\"g\">16.256944</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000657089</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Caribbean Area</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">האזור הקריבי</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">منطقة البحر الكاريبي</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"w\">nne</subfield><subfield code=\"a\">Caribbean Free Trade Association countries</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Caribbean Region</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Caribbean Sea Region</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">West Indies Region</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">MESH</subfield><subfield code=\"b\">(Caribbean Region)</subfield></datafield><datafield tag=\"680\" ind1=\" \" ind2=\" \"><subfield code=\"i\">Here are entered works on the region that lies between continental North and South America and consists of the archipelago of the West Indies, the Caribbean Sea and the adjacent mainland regions, including Southern Mexico, the countries of Central America, Colombia and Venezuela.</subfield></datafield><datafield tag=\"781\" ind1=\" \" ind2=\"0\"><subfield code=\"z\">Caribbean Area</subfield></datafield></record>\n",
+      "nliState": "Live"
+    }
+  ],
+  "failedItems": []
+}

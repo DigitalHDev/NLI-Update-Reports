@@ -1,24 +1,13 @@
 {
   "type": "Place",
-  "runTime": "2026-08-03T19:01:12.2264734Z",
+  "runTime": "2026-08-16T12:19:25.7639441Z",
   "period": "20250326-20250401",
-  "numProcessedItems": 36087,
-  "numModifiedItems": 6,
-  "numNewItems": 12,
+  "numProcessedItems": 36075,
+  "numModifiedItems": 5,
+  "numNewItems": 10,
   "numReviewItems": 0,
   "numFailedItems": 0,
   "modifiedSummary": [
-    {
-      "item": {
-        "recordId": "987007533216605171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'ديجن ليه بان (فرنسا)'",
-        "Updated ViafId from 'null' to '168535589'",
-        "updatePlaceRecord: variants +3: Digne (France)[la] | דין (צרפת)[he] | דינואה (צרפת)[he]"
-      ]
-    },
     {
       "item": {
         "recordId": "987007415494405171"
@@ -30,7 +19,8 @@
         "Updated PrimaryArabFull from 'null' to 'ليف هشارون (إسرائيل : موتساه عزوريت)'",
         "Updated Wd from 'null' to 'Q1822040'",
         "updatePlaceRecord: variants +6: Moaza azorit Lev Hasharon (Israel)[la] | Lev ha-Sharon (Israel)[la] | Lev Hasharon, Moatsah ezorit (Israel)[la] | מועצה אזורית לב השרון (ישראל)[he] | לב השרון (ישראל)[he] | לב השרון, מועצה אזורית (ישראל)[he]"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -38,8 +28,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007554234505171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007554234505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -47,8 +38,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007556708205171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007556708205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -56,8 +48,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007566471805171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007566471805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -67,36 +60,20 @@
       "messages": [
         "Updated PrimaryArabFull from 'null' to 'مشمار هيردين (مو شڤا) (إسرائيل)'",
         "updatePlaceRecord: variants +4: Mishmar ha-Yarden (Moshavah) (Israel)[la] | Moshavat Mishmar Hayarden (Israel)[la] | מושבת משמר הירדן (ישראל)[he] | שושנת הירדן (חווה) (ישראל)[he]"
-      ]
+      ],
+      "nliState": "Live"
     }
   ],
   "newSummary": [
-    {
-      "item": {
-        "recordId": "987007473594405171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007473594405171 (גאוביץ' (אוסטריה))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007473860105171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007473860105171 (סן-פלורן-לה-ויי (צרפת))"
-      ]
-    },
     {
       "item": {
         "recordId": "987012922174905171"
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987012922174905171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987012922174905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -104,8 +81,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013273844805171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013273844805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -113,8 +91,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013290979605171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013290979605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -122,8 +101,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013331113805171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013331113805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -131,8 +111,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013331802105171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013331802105171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E190935, $e=E190935, $f=N501158, $g=N501158, $2=geonames) — $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -140,8 +121,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013331814105171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013331814105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -149,8 +131,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013331819205171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013331819205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -158,8 +141,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013331806205171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013331806205171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E155255, $e=E155255, $f=N480634, $g=N480634, $2=geonames) — $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -167,8 +151,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013339713705171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013339713705171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E160600, $e=E160600, $f=N482300, $g=N482300, $2=geonames) — $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -176,8 +161,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013349009905171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013349009905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     }
   ],
   "requireReviewSummary": [],

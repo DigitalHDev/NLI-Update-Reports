@@ -1,51 +1,22 @@
 {
   "type": "Place",
-  "runTime": "2026-08-03T20:26:35.989811Z",
+  "runTime": "2026-08-16T13:10:39.0780004Z",
   "period": "20250618-20250624",
-  "numProcessedItems": 16242,
-  "numModifiedItems": 21,
-  "numNewItems": 75,
+  "numProcessedItems": 16182,
+  "numModifiedItems": 16,
+  "numNewItems": 62,
   "numReviewItems": 2,
   "numFailedItems": 0,
   "modifiedSummary": [
-    {
-      "item": {
-        "recordId": "987007588273305171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'چيزو' to 'چيزو (إسرائيل)'"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007469842405171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'تشيكابا (الكونغو)'",
-        "Updated ViafId from 'null' to '135222060'",
-        "updatePlaceRecord: variants +1: Chikapa (Congo)[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007531820805171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'كيسانغاني (الكونغو)'",
-        "updatePlaceRecord: variants +1: Kisangani (Zaire)[la]"
-      ]
-    },
     {
       "item": {
         "recordId": "987007539506405171"
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007539506405171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007539506405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -53,37 +24,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007540781205171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007541549005171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'حديقة فيرونغا الوطنية (الكونغو)'",
-        "updatePlaceRecord: variants +4: Albert, Parc national (Congo)[la] | Parc national Albert (Congo)[la] | Parc national des Virunga (Zaire)[la] | Virunga National Park (Congo)[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007544281505171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'شلالات ستانلي (الكونغو)'",
-        "updatePlaceRecord: variants +2: Boyama Falls (Congo)[la] | Stanley Falls (Zaire)[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007546565805171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007546565805171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007540781205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -91,19 +34,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007546692805171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007552509505171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'باندوندو (الكونغو)'",
-        "Updated ViafId from 'null' to '148922067'",
-        "updatePlaceRecord: variants +2: Bandundu (Zaire)[la] | Bandundu, Zaire[la]"
-      ]
+        "Place 987007546692805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -115,16 +48,51 @@
         "Updated PrimaryArabFull from 'null' to 'نهر لوابولا (زامبيا والكونغو)'",
         "Updated Wd from 'null' to 'Q151858'",
         "updatePlaceRecord: variants +1: Luapula River (Zambia and Zaire)[la]"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
-        "recordId": "987007535532005171"
+        "recordId": "987007541549005171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'حديقة فيرونغا الوطنية (الكونغو)'",
+        "updatePlaceRecord: variants +4: Albert, Parc national (Congo)[la] | Parc national Albert (Congo)[la] | Parc national des Virunga (Zaire)[la] | Virunga National Park (Congo)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007544281505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'شلالات ستانلي (الكونغو)'",
+        "updatePlaceRecord: variants +2: Boyama Falls (Congo)[la] | Stanley Falls (Zaire)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007545799405171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'بحيرة كيفو (الكونغو ورواندا)'",
+        "updatePlaceRecord: variants +3: Kivu, Lake (Rwanda and Zaire)[la] | Lac Kivu (Congo and Rwanda)[la] | Lake Kivu (Congo and Rwanda)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007546565805171"
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007535532005171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007546565805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -135,17 +103,8 @@
         "Location supposed to move 33.6 km. Manual review required. Kima Id:77735 Name:הפארק הלאומי גרמבה (קונגו)",
         "Updated PrimaryArabFull from 'null' to 'حديقة غارامبا الوطنية (الكونغو)'",
         "updatePlaceRecord: variants +1: Garamba National Park (Congo)[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007545799405171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'بحيرة كيفو (الكونغو ورواندا)'",
-        "updatePlaceRecord: variants +3: Kivu, Lake (Rwanda and Zaire)[la] | Lac Kivu (Congo and Rwanda)[la] | Lake Kivu (Congo and Rwanda)[la]"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -156,16 +115,8 @@
         "Updated PrimaryArabFull from 'null' to 'غابة إيتوري (الكونغو)'",
         "Updated Wd from 'null' to 'Q847368'",
         "updatePlaceRecord: variants +1: Ituri Forest (Zaire)[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007536971105171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007536971105171 does not satisfy IsPlaceToUse; skipping"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -173,17 +124,19 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007530562205171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007530562205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
-        "recordId": "987007535501905171"
+        "recordId": "987007536971105171"
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007535501905171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007536971105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -194,7 +147,18 @@
         "Updated PrimaryArabFull from 'null' to 'ألبرت وبحيرة (الكونغو وأوغندا)'",
         "Updated Wd from 'null' to 'Q125888'",
         "updatePlaceRecord: variants +6: Albert Nyanza (Congo and Uganda)[la] | Lac Albert (Congo and Uganda)[la] | Lac Mobutu Sese Seko (Congo and Uganda)[la] | Lake Albert (Congo and Uganda)[la] | Lake Mobutu Sese Seko (Congo and Uganda)[la] | Mobutu Sese Seko, Lake (Congo and Uganda)[la]"
-      ]
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007535501905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007535501905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -204,7 +168,8 @@
       "messages": [
         "Updated PrimaryArabFull from 'null' to 'حديقة أوبيمبا الوطنية (الكونغو)'",
         "updatePlaceRecord: variants +1: Upemba National Park (Congo)[la]"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -214,8 +179,10 @@
       "messages": [
         "Coordinates added: Lat=-6.266667, Lon=14.25",
         "Updated PrimaryArabFull from 'null' to 'مملكة كونغو'",
-        "Updated Wd from 'null' to 'Q796583'"
-      ]
+        "Updated Wd from 'null' to 'Q796583'",
+        "updatePlaceRecord: variants already present, not inserted (1): Kingdom of Kongo[la]"
+      ],
+      "nliState": "Live"
     }
   ],
   "newSummary": [
@@ -225,17 +192,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007407395605171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007552525005171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007552525005171 (פולקאך (גרמניה))"
-      ]
+        "Place 987007407395605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -243,8 +202,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007542909105171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007542909105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -252,8 +212,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007549687605171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007549687605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -261,17 +222,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007554555305171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007557364405171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007557364405171 (לאקוק (אנגליה))"
-      ]
+        "Place 987007554555305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -279,8 +232,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013470918105171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013470918105171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E150200, $e=E150200, $f=N482700, $g=N482700, $2=geonames) — $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -288,8 +242,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013471028305171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013471028305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -297,17 +252,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013471216805171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987013471222905171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987013471222905171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013471216805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -315,8 +262,19 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013471222605171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013471222605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013471222905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013471222905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -324,8 +282,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013471229205171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013471229205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -333,8 +292,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013472828005171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013472828005171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E220103, $e=E220103, $f=N503929, $g=N503929, $2=geonames) — $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -343,16 +303,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007533756105171 (גודניוז ביי (אלסקה : מפרץ))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007547462305171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007547462305171 does not satisfy IsPlaceToUse; skipping"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -361,7 +313,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007559785605171 (מנסנארס (ספרד))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -370,7 +323,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987012851975505171 (קבארי (אלכסנדריה, מצרים))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -378,8 +332,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013402835305171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013402835305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -387,8 +342,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013170286405171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013170286405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -397,7 +353,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987013471225105171 (פוג'יו מירטטו (איטליה))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -405,8 +362,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013471225805171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013471225805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -414,8 +372,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013471229405171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013471229405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -423,8 +382,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013470916805171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013470916805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -432,8 +392,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013471024705171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013471024705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -441,8 +402,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013471216905171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013471216905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -450,8 +412,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013471028105171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013471028105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -459,8 +422,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013471028605171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013471028605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -468,17 +432,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013471029705171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007469603405171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007469603405171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013471029705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -486,17 +442,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007482561705171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007487143805171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007487143805171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007482561705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -504,17 +452,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007489298505171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007489341405171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007489341405171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007489298505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -522,17 +462,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007537030205171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007549131105171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007549131105171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007537030205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -540,8 +472,19 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007534373905171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007534373905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007549131105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007549131105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -549,8 +492,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007539104805171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007539104805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -558,8 +502,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007549244005171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007549244005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -567,8 +512,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007558493605171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007558493605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -576,8 +522,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013001279805171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013001279805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -585,8 +532,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013001464605171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013001464605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -594,8 +542,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013001476005171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013001476005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -603,8 +552,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013170282605171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013170282605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -612,8 +562,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013511386205171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013511386205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -621,8 +572,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013511387405171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013511387405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -630,8 +582,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013511387805171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013511387805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -639,44 +592,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013511388705171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007475820805171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007475820805171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007539195705171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007539195705171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007489341205171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007489341205171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007491812405171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007491812405171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013511388705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -684,8 +602,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007530260805171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007530260805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -693,8 +612,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007531998005171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007531998005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -702,8 +622,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007536813405171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007536813405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -711,8 +632,19 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007536971005171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007536971005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007539195705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007539195705171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Kwango River (Angola and Congo), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -720,8 +652,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007530109905171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007530109905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -729,26 +662,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007530260905171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007531901205171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007531901205171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007533314305171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007533314305171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007530260905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -756,17 +672,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007534490505171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007535503705171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007535503705171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007534490505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -774,17 +682,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007537971505171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007539171105171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007539171105171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007537971505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -792,8 +692,19 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007539276805171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007539276805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007531901205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007531901205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -801,17 +712,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007544140005171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007555462105171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007555462105171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007544140005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -819,8 +722,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007556294805171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007556294805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -828,8 +732,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007556428005171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007556428005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -837,8 +742,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007558499305171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007558499305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -846,8 +752,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987012403965905171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987012403965905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -855,8 +762,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987012855874605171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987012855874605171 does not satisfy IsPlaceToUse: no valid 034: 034($e=E029361.45, $g=S0000737.09) — missing or empty $2, missing $d, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, missing $f, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -864,17 +772,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013001646805171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987013511387005171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987013511387005171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013001646805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -882,8 +782,19 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013511385405171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013511385405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013511387005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013511387005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -891,8 +802,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013511387905171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013511387905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     }
   ],
   "requireReviewSummary": [
@@ -906,7 +818,8 @@
         "Updated PrimaryArabFull from 'null' to 'نهر لوابولا (زامبيا والكونغو)'",
         "Updated Wd from 'null' to 'Q151858'",
         "updatePlaceRecord: variants +1: Luapula River (Zambia and Zaire)[la]"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -917,7 +830,8 @@
         "Location supposed to move 33.6 km. Manual review required. Kima Id:77735 Name:הפארק הלאומי גרמבה (קונגו)",
         "Updated PrimaryArabFull from 'null' to 'حديقة غارامبا الوطنية (الكونغو)'",
         "updatePlaceRecord: variants +1: Garamba National Park (Congo)[la]"
-      ]
+      ],
+      "nliState": "Live"
     }
   ],
   "failedSummary": [],
@@ -933,7 +847,8 @@
         "Updated Wd from 'null' to 'Q151858'",
         "updatePlaceRecord: variants +1: Luapula River (Zambia and Zaire)[la]"
       ],
-      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01159cz  a2200253n  4500</leader><controlfield tag=\"005\">20250624095815.0</controlfield><controlfield tag=\"008\">870925|| anannbabn          |a ana      </controlfield><controlfield tag=\"001\">987007531901105171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">sh 87006086</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q151858</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">29.8152</subfield><subfield code=\"e\">29.8152</subfield><subfield code=\"f\">-11.4364</subfield><subfield code=\"g\">-11.4364</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000784471</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Luapula River (Zambia and Congo)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">נהר לאופולה (זמביה וקונגו)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">نهر لوابولا (زامبيا والكونغو)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"w\">nne</subfield><subfield code=\"a\">Luapula River (Zambia and Zaire)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"550\" ind1=\" \" ind2=\" \"><subfield code=\"w\">g</subfield><subfield code=\"a\">Rivers</subfield><subfield code=\"z\">Democratic Republic of the Congo</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"550\" ind1=\" \" ind2=\" \"><subfield code=\"w\">g</subfield><subfield code=\"a\">Rivers</subfield><subfield code=\"z\">Zambia</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Work cat.: Ridder, M. Rotifères, 1981.</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Lippincott.</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Rand McNally.</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Web. geog.</subfield></datafield><datafield tag=\"781\" ind1=\" \" ind2=\"0\"><subfield code=\"z\">Luapula River (Zambia and Congo)</subfield></datafield></record>\n"
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01159cz  a2200253n  4500</leader><controlfield tag=\"005\">20250624095815.0</controlfield><controlfield tag=\"008\">870925|| anannbabn          |a ana      </controlfield><controlfield tag=\"001\">987007531901105171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">sh 87006086</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q151858</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">29.8152</subfield><subfield code=\"e\">29.8152</subfield><subfield code=\"f\">-11.4364</subfield><subfield code=\"g\">-11.4364</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000784471</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Luapula River (Zambia and Congo)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">נהר לאופולה (זמביה וקונגו)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">نهر لوابولا (زامبيا والكونغو)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"w\">nne</subfield><subfield code=\"a\">Luapula River (Zambia and Zaire)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"550\" ind1=\" \" ind2=\" \"><subfield code=\"w\">g</subfield><subfield code=\"a\">Rivers</subfield><subfield code=\"z\">Democratic Republic of the Congo</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"550\" ind1=\" \" ind2=\" \"><subfield code=\"w\">g</subfield><subfield code=\"a\">Rivers</subfield><subfield code=\"z\">Zambia</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Work cat.: Ridder, M. Rotifères, 1981.</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Lippincott.</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Rand McNally.</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Web. geog.</subfield></datafield><datafield tag=\"781\" ind1=\" \" ind2=\"0\"><subfield code=\"z\">Luapula River (Zambia and Congo)</subfield></datafield></record>\n",
+      "nliState": "Live"
     },
     {
       "item": {
@@ -945,7 +860,8 @@
         "Updated PrimaryArabFull from 'null' to 'حديقة غارامبا الوطنية (الكونغو)'",
         "updatePlaceRecord: variants +1: Garamba National Park (Congo)[la]"
       ],
-      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01499cz  a2200229n  4500</leader><controlfield tag=\"005\">20250624095816.0</controlfield><controlfield tag=\"008\">070820|||anannbabn          |a ana      </controlfield><controlfield tag=\"001\">987007537522105171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">sh2007006769</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q308893</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">29.48093</subfield><subfield code=\"e\">29.48093</subfield><subfield code=\"f\">4.19559</subfield><subfield code=\"g\">4.19559</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000907496</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Parc national de la Garamba (Congo)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">הפארק הלאומי גרמבה (קונגו)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">حديقة غارامبا الوطنية (الكونغو)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Garamba National Park (Congo)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"550\" ind1=\" \" ind2=\" \"><subfield code=\"w\">g</subfield><subfield code=\"a\">National parks and reserves</subfield><subfield code=\"z\">Democratic Republic of the Congo</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Work cat.: 56035747: Institut des parcs nationaux du Congo et du Rwanda. Exploration du Parc national de la Garamba, 1954</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">GEOnet, Aug. 20, 2007</subfield><subfield code=\"b\">(Garamba, Parc National de la, prk, 04⁰10ʹN 029⁰30ʹE)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Wikipedia, Aug. 20, 2007</subfield><subfield code=\"b\">(Garamba National Park: located in Democratic Republic of the Congo; est. in 1938; home to the world's last known wild population of northern white rhinoceroses)</subfield></datafield><datafield tag=\"781\" ind1=\" \" ind2=\"0\"><subfield code=\"z\">Democratic Republic of the Congo</subfield><subfield code=\"z\">Parc national de la Garamba</subfield></datafield></record>\n"
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01499cz  a2200229n  4500</leader><controlfield tag=\"005\">20250624095816.0</controlfield><controlfield tag=\"008\">070820|||anannbabn          |a ana      </controlfield><controlfield tag=\"001\">987007537522105171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">sh2007006769</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q308893</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">29.48093</subfield><subfield code=\"e\">29.48093</subfield><subfield code=\"f\">4.19559</subfield><subfield code=\"g\">4.19559</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000907496</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Parc national de la Garamba (Congo)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">הפארק הלאומי גרמבה (קונגו)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">حديقة غارامبا الوطنية (الكونغو)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Garamba National Park (Congo)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"550\" ind1=\" \" ind2=\" \"><subfield code=\"w\">g</subfield><subfield code=\"a\">National parks and reserves</subfield><subfield code=\"z\">Democratic Republic of the Congo</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Work cat.: 56035747: Institut des parcs nationaux du Congo et du Rwanda. Exploration du Parc national de la Garamba, 1954</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">GEOnet, Aug. 20, 2007</subfield><subfield code=\"b\">(Garamba, Parc National de la, prk, 04⁰10ʹN 029⁰30ʹE)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Wikipedia, Aug. 20, 2007</subfield><subfield code=\"b\">(Garamba National Park: located in Democratic Republic of the Congo; est. in 1938; home to the world's last known wild population of northern white rhinoceroses)</subfield></datafield><datafield tag=\"781\" ind1=\" \" ind2=\"0\"><subfield code=\"z\">Democratic Republic of the Congo</subfield><subfield code=\"z\">Parc national de la Garamba</subfield></datafield></record>\n",
+      "nliState": "Live"
     }
   ],
   "failedItems": []

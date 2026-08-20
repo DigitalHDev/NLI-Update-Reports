@@ -1,0 +1,36 @@
+{
+  "runId": "040ca401e99f4f4fa70359053919b3fa",
+  "startedUtc": "2026-08-19T14:37:18.553Z",
+  "apiEndpoint": "https://api.nli.org.il/v2/openlibrary",
+  "range": "20260726-20260726",
+  "periods": [
+    {
+      "dateRange": "20260726-20260726",
+      "places": {
+        "status": "Completed",
+        "instanceId": "37d99ec8f00646fdb940bfbd609a7e9e",
+        "numProcessed": 169800,
+        "numNew": 0,
+        "numModified": 3,
+        "numManual": 0,
+        "numFailed": 0
+      },
+      "bibliography": {
+        "status": "Skipped",
+        "instanceId": null,
+        "numProcessed": 0,
+        "numNew": 0,
+        "numModified": 0,
+        "numManual": 0,
+        "numFailed": 0
+      }
+    }
+  ],
+  "totals": {
+    "processed": 169800,
+    "new": 0,
+    "modified": 3,
+    "manual": 0,
+    "failed": 0
+  }
+}

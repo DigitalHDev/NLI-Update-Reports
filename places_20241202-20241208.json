@@ -1,8 +1,8 @@
 {
   "type": "Place",
-  "runTime": "2026-08-03T14:47:06.1269654Z",
+  "runTime": "2026-08-16T10:10:24.0156998Z",
   "period": "20241202-20241208",
-  "numProcessedItems": 5117,
+  "numProcessedItems": 5102,
   "numModifiedItems": 0,
   "numNewItems": 5,
   "numReviewItems": 0,
@@ -15,8 +15,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013148775605171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013148775605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -24,8 +25,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013148773605171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013148773605171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Itchen Lake (N.W.T. and Nunavut), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -33,8 +35,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013148774905171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013148774905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -42,8 +45,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013148775105171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013148775105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -51,8 +55,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013148775505171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013148775505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     }
   ],
   "requireReviewSummary": [],

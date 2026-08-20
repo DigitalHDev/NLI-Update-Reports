@@ -1,11 +1,11 @@
 {
   "type": "Place",
-  "runTime": "2026-08-03T18:52:32.770063Z",
+  "runTime": "2026-08-16T12:11:38.4119629Z",
   "period": "20250319-20250325",
-  "numProcessedItems": 29226,
-  "numModifiedItems": 19,
-  "numNewItems": 17,
-  "numReviewItems": 1,
+  "numProcessedItems": 29178,
+  "numModifiedItems": 9,
+  "numNewItems": 11,
+  "numReviewItems": 0,
   "numFailedItems": 0,
   "modifiedSummary": [
     {
@@ -16,68 +16,8 @@
       "messages": [
         "Updated PrimaryArabFull from 'null' to 'الحي الصيني (أوكلاند، كاليفورنيا)'",
         "Updated ViafId from 'null' to '151233931'"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007542712905171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryHebFull from 'ציינה טאון (ושינגטון, די.סי.)' to 'ציינה טאון (וושינגטון, די.סי.)'",
-        "Updated PrimaryArabFull from 'null' to 'الحي الصيني (واشنطن، مقاطعة كولومبيا)'"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007552644805171"
-      },
-      "result": "ManualReview",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'نيروبي (كينيا)'",
-        "Updated ViafId from '264835402' to '157819637'. Manual review required. Kima Id:6468",
-        "updatePlaceRecord: variants +3: Nayrobi (Kenya)[la] | נאירובי (קניה)[he] | נירובי (קניה)[he]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007542749505171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'الحي الصيني (فانكوفر، كولومبيا البريطانية)'"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007550345905171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'أولمبيا (واشنطن)'",
-        "Updated ViafId from 'null' to '152432410'",
-        "updatePlaceRecord: variants +1: Olympia, Wash.[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007554914405171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'غابورون (بوتسوانا)'",
-        "updatePlaceRecord: variants +2: Gaberones (Botswana)[la] | Gaborone, Botswana[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007557687005171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'ألباني (نيويورك)'",
-        "updatePlaceRecord: variants +4: Albany, NY (N.Y.)[la] | Albany, N.Y. (N.Y.)[la] | אולבני (ניו יורק)[he] | אלבני, נ.י. (ניו יורק)[he]"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -87,7 +27,18 @@
       "messages": [
         "Updated PrimaryArabFull from 'null' to 'ساكرامنتو (كاليفورنيا)'",
         "updatePlaceRecord: variants +2: Sacramento, Calif.[la] | Sacramento, Cal (Calif.)[la]"
-      ]
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007542749505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'الحي الصيني (فانكوفر، كولومبيا البريطانية)'"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -98,7 +49,8 @@
         "Updated PrimaryArabFull from 'null' to 'جيبوتي (جيبوتي)'",
         "Updated ViafId from 'null' to '124351320'",
         "updatePlaceRecord: variants +4: Tzimpouti (Djibouti)[la] | Djibuti (Djibouti)[la] | Jibouti (Djibouti)[la] | Jibuti (Djibouti)[la]"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -108,7 +60,8 @@
       "messages": [
         "Updated PrimaryArabFull from 'null' to 'نورث بيتش (مقاطعة سان فرانسيسكو، كاليفورنيا)'",
         "Updated ViafId from 'null' to '139561070'"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -117,57 +70,8 @@
       "result": "Success",
       "messages": [
         "Updated PrimaryArabFull from 'null' to 'الحي الصيني (لوس أنجلوس، كاليفورنيا)'"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007542652605171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'الحي الصيني (هونولولو، هاواي)'"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007554946805171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'زاكاتيكاس (زاكاتيكاس، المكسيك)'",
-        "updatePlaceRecord: variants +4: Zacatecas, Mexico (City)[la] | Minas de los Zacatecas (Mexico)[la] | Ciudad de Nuestra Senora de los Zacatecas (Mexico)[la] | Nuestra Senora de los Remedios de Zacatecas (Mexico)[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007554958605171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryHebFull from 'קנברה (אוסטרליה)' to 'קנברה (טריטוריית בירה אוסטרלית)'",
-        "Updated PrimaryArabFull from 'null' to 'كانبيرا (إقليم العاصمة الأسترالية)'",
-        "updatePlaceRecord: variants +1: Canberra, Australia[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007555052905171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'ليلونغوي (ملاوي)'",
-        "Updated ViafId from 'null' to '134874487'",
-        "updatePlaceRecord: variants +1: Lilongwe, Malawi[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007542750405171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'الحي الصيني (فيكتوريا، كولومبيا البريطانية)'"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -178,7 +82,8 @@
         "Updated PrimaryArabFull from 'null' to 'أشفورد (ساري، إنجلترا)'",
         "Updated ViafId from 'null' to '124593905'",
         "updatePlaceRecord: variants +1: Ashford (Middlesex, England)[la]"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -190,7 +95,8 @@
         "Updated PrimaryArabFull from 'null' to 'جنرال أتشا (الأرجنتين)'",
         "Updated ViafId from 'null' to '2150999543529870759'",
         "updatePlaceRecord: variants +1: Gral. Acha (Argentina)[la]"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -198,19 +104,21 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987012488774305171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987012488774305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     }
   ],
   "newSummary": [
     {
       "item": {
-        "recordId": "987007484778905171"
+        "recordId": "987007465747305171"
       },
-      "result": "Success",
+      "result": "NothingToDo",
       "messages": [
-        "addPlaceRecord: added place 987007484778905171 (רונבורג (הסה, גרמניה))"
-      ]
+        "Place 987007465747305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -218,8 +126,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007471506205171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007471506205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -227,26 +136,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007531115805171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007542495905171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007542495905171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007465747305171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007465747305171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007531115805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -254,8 +146,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007542750505171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007542750505171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Chinatown (San Jose, Calif.), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -263,8 +156,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987012935077105171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987012935077105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -273,34 +167,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987013184490005171 (רובע 18 (פריז, צרפת))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007475734405171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007475734405171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007545176805171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007545176805171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007469748005171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007469748005171 does not satisfy IsPlaceToUse; skipping"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -308,35 +176,29 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007535734505171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007535734505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
-        "recordId": "987007542747605171"
+        "recordId": "987007545176805171"
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007542747605171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007545176805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
-        "recordId": "987007542788505171"
+        "recordId": "987007469748005171"
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007542788505171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007545005705171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007545005705171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007469748005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -344,8 +206,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987012573275005171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987012573275005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -353,37 +216,13 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013291165605171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    }
-  ],
-  "requireReviewSummary": [
-    {
-      "item": {
-        "recordId": "987007552644805171"
-      },
-      "result": "ManualReview",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'نيروبي (كينيا)'",
-        "Updated ViafId from '264835402' to '157819637'. Manual review required. Kima Id:6468",
-        "updatePlaceRecord: variants +3: Nayrobi (Kenya)[la] | נאירובי (קניה)[he] | נירובי (קניה)[he]"
-      ]
-    }
-  ],
-  "failedSummary": [],
-  "requireReviewItems": [
-    {
-      "item": {
-        "recordId": "987007552644805171"
-      },
-      "result": "ManualReview",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'نيروبي (كينيا)'",
-        "Updated ViafId from '264835402' to '157819637'. Manual review required. Kima Id:6468",
-        "updatePlaceRecord: variants +3: Nayrobi (Kenya)[la] | נאירובי (קניה)[he] | נירובי (קניה)[he]"
+        "Place 987013291165605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
       ],
-      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>02243cz  a2200421n  4500</leader><controlfield tag=\"005\">20260803122309.0</controlfield><controlfield tag=\"008\">790205n||acannbabn          |a ana    ||</controlfield><controlfield tag=\"001\">987007552644805171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 79011090</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q3870</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">157819637</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">36.81722222</subfield><subfield code=\"e\">36.81722222</subfield><subfield code=\"f\">-1.286388888</subfield><subfield code=\"g\">-1.286388888</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">E0364900</subfield><subfield code=\"e\">E0364900</subfield><subfield code=\"f\">S0011660</subfield><subfield code=\"g\">S0011660</subfield><subfield code=\"2\">geonames</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">(OCoLC)oca00245165</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000974327</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">DLC</subfield><subfield code=\"d\">WaU</subfield></datafield><datafield tag=\"043\" ind1=\" \" ind2=\" \"><subfield code=\"a\">f-ke---</subfield></datafield><datafield tag=\"046\" ind1=\" \" ind2=\" \"><subfield code=\"s\">1899</subfield><subfield code=\"2\">edtf</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Nairobi (Kenya)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">ניירובי (קניה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">نيروبي (كينيا)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"368\" ind1=\" \" ind2=\" \"><subfield code=\"b\">City</subfield></datafield><datafield tag=\"368\" ind1=\" \" ind2=\" \"><subfield code=\"b\">Capitals (Cities)</subfield><subfield code=\"2\">lcsh</subfield></datafield><datafield tag=\"368\" ind1=\" \" ind2=\" \"><subfield code=\"b\">Cities and towns</subfield><subfield code=\"2\">lcsh</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Kenya</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"w\">nnaa</subfield><subfield code=\"a\">Nairobi</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Nayrobi (Kenya)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">נאירובי (קניה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">נירובי (קניה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record enriched with 670 fields from LCNA on: 20260803</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">046 fields added from 2014 LCNA file</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">3xx field(s) added from 2014 LCNA file</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">GeoNames, algorithmically matched, 2009</subfield><subfield code=\"b\">(ppl; 01°16ʹ60ʺS 036°49ʹ00ʺE)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">LAC internal file, July 19, 2022</subfield><subfield code=\"b\">(access point: Nairobi (Kenya))</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">La femme en Angola, 1985?:</subfield><subfield code=\"b\">(Conférence mondiale de la décennie des Nations Unies pour la femme) cover (Nayrobi, Kénia, 15-26 ju[i]llet 1985)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Wikipedia, Feb. 25, 2013</subfield><subfield code=\"b\">(Nairobi is the capital and largest city of Kenya. The city and its surrounding area also forms the Nairobi County; founded by the British in 1899; 1°17ʹS 36°49ʹE)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Angola. La femme en Angola, 1985?:</subfield><subfield code=\"b\">Conférence mondiale de la décennie des Nations Unies pour la femme) cover (Nayrobi, Kénia, 15-26 ju[i]llet 1985)</subfield></datafield></record>\n"
+      "nliState": "Live"
     }
   ],
+  "requireReviewSummary": [],
+  "failedSummary": [],
+  "requireReviewItems": [],
   "failedItems": []
 }

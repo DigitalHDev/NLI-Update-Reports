@@ -1,0 +1,109 @@
+{
+  "type": "Place",
+  "runTime": "2026-08-19T14:30:03.8956589Z",
+  "period": "20260722-20260725",
+  "numProcessedItems": 2964,
+  "numModifiedItems": 1,
+  "numNewItems": 8,
+  "numReviewItems": 0,
+  "numFailedItems": 0,
+  "modifiedSummary": [
+    {
+      "item": {
+        "recordId": "987007547798705171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'النمسا السفلى (النمسا)'",
+        "updatePlaceRecord: variants +7: Austria, Lower[la] | Nieder-Oesterreich (Austria)[la] | Niederösterreich (Austria)[la] | Oesterreich unter der Enns (Austria)[la] | Österreich unter der Enns (Austria)[la] | NÖ (Austria)[la] | N.Ö. (Austria)[la]"
+      ],
+      "nliState": "Live"
+    }
+  ],
+  "newSummary": [
+    {
+      "item": {
+        "recordId": "987014798986405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014798986405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014803890105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014803890105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014803890505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014803890505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007484723205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007484723205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007494271605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007494271605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007564316005171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007564316005171 (צוילנרודה (גרמניה))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007586166205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007586166205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014802378605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014802378605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    }
+  ],
+  "requireReviewSummary": [],
+  "failedSummary": [],
+  "requireReviewItems": [],
+  "failedItems": []
+}

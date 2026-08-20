@@ -1,0 +1,556 @@
+{
+  "type": "Place",
+  "runTime": "2026-08-16T15:24:49.5002479Z",
+  "period": "20260205-20260211",
+  "numProcessedItems": 2229,
+  "numModifiedItems": 16,
+  "numNewItems": 31,
+  "numReviewItems": 2,
+  "numFailedItems": 0,
+  "modifiedSummary": [
+    {
+      "item": {
+        "recordId": "987007552590705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007552590705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007560170505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007560170505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007561946205171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'بيكتو (نوفا سكوشا)'",
+        "updatePlaceRecord: variants +1: Pictou, N.S.[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007562217505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007562217505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007564662105171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'طومسون (مانيتوبا)'",
+        "Updated ViafId from 'null' to '267537523'"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007584324505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated ViafId from 'null' to '109146461684227732816'"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007531819305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007531819305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007555020505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'مونرو (لويزيانا)'",
+        "Updated ViafId from 'null' to '159459353'",
+        "updatePlaceRecord: variants +1: Monroe, La.[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007555180905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007555180905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007557459505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'ليستال (سويسرا)'",
+        "updatePlaceRecord: variants +1: Liestal, Switzerland[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007559511105171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 29.5 km. Manual review required. Kima Id:8515 Name:קורמנד (הונגריה)",
+        "Updated PrimaryRomFull from 'Körmend (Hungary)' to 'Körmend (Hungary)'",
+        "Updated PrimaryArabFull from 'null' to 'كورميند (المجر)'",
+        "updatePlaceRecord: variants +2: Körmend, Hungary[la] | גערמענד (הונגריה)[he]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007564876905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007564876905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007567229105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007567229105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007566822605171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'شيمونوسيكي-شي (اليابان)'",
+        "updatePlaceRecord: variants +4: Shimonoseki, Japan[la] | Akamagaseki-shi (Japan)[la] | Simo-no-seki (Japan)[la] | Simonoseki (Japan)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987012238947705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012238947705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007524775705171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 1635.9 km. Manual review required. Kima Id:23698 Name:קאמען (בלארוס)",
+        "Updated PrimaryRomFull from 'Kamen (Belarus)' to 'Kamen' (Belarus)'",
+        "Updated PrimaryArabFull from 'null' to 'كامين (بيلاروس)'",
+        "updatePlaceRecord: variants +1: Kamen (Belarus)[la]"
+      ],
+      "nliState": "Live"
+    }
+  ],
+  "newSummary": [
+    {
+      "item": {
+        "recordId": "987007555152205171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007555152205171 (ג'ורדנוויל (ניו יורק))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007548041805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007548041805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617169405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617169405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014274077005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014274077005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007534104505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007534104505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007557322205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007557322205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007559951305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007559951305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007564242105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007564242105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007564482405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007564482405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007567074105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007567074105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007567324605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007567324605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013177964105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013177964105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007550237005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007550237005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007555261105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007555261105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007548063405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007548063405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007552705405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007552705405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007552722305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007552722305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007552889705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007552889705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007554799605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007554799605171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Chʻungmu-si (Korea), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007555358705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007555358705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007555444605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007555444605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007562249605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007562249605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007562660705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007562660705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007564850105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007564850105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007564861005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007564861005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007566957305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007566957305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007567340605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007567340605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007558807405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007558807405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007560161305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007560161305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013405248005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013405248005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014344802905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014344802905171 does not satisfy IsPlaceToUse: no valid 034: 034($d=21.889, $e=21.889, $f=47.381, $g=47.381) — missing or empty $2. Skipping"
+      ],
+      "nliState": "Live"
+    }
+  ],
+  "requireReviewSummary": [
+    {
+      "item": {
+        "recordId": "987007559511105171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 29.5 km. Manual review required. Kima Id:8515 Name:קורמנד (הונגריה)",
+        "Updated PrimaryRomFull from 'Körmend (Hungary)' to 'Körmend (Hungary)'",
+        "Updated PrimaryArabFull from 'null' to 'كورميند (المجر)'",
+        "updatePlaceRecord: variants +2: Körmend, Hungary[la] | גערמענד (הונגריה)[he]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007524775705171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 1635.9 km. Manual review required. Kima Id:23698 Name:קאמען (בלארוס)",
+        "Updated PrimaryRomFull from 'Kamen (Belarus)' to 'Kamen' (Belarus)'",
+        "Updated PrimaryArabFull from 'null' to 'كامين (بيلاروس)'",
+        "updatePlaceRecord: variants +1: Kamen (Belarus)[la]"
+      ],
+      "nliState": "Live"
+    }
+  ],
+  "failedSummary": [],
+  "requireReviewItems": [
+    {
+      "item": {
+        "recordId": "987007559511105171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 29.5 km. Manual review required. Kima Id:8515 Name:קורמנד (הונגריה)",
+        "Updated PrimaryRomFull from 'Körmend (Hungary)' to 'Körmend (Hungary)'",
+        "Updated PrimaryArabFull from 'null' to 'كورميند (المجر)'",
+        "updatePlaceRecord: variants +2: Körmend, Hungary[la] | גערמענד (הונגריה)[he]"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01388cz  a2200277n  4500</leader><controlfield tag=\"005\">20260208100154.0</controlfield><controlfield tag=\"008\">800215n||acannaab|          |a ana    ||</controlfield><controlfield tag=\"001\">987007559511105171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n  80007079</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q830411</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">125482915</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">016.5373479</subfield><subfield code=\"e\">016.6895629</subfield><subfield code=\"f\">047.574499</subfield><subfield code=\"g\">046.9788140</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000978026</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Körmend (Hungary)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">קורמנד (הונגריה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">كورميند (المجر)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Hungary</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"w\">nnaa</subfield><subfield code=\"a\">Körmend, Hungary</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">גערמענד (הונגריה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record enhanced with cross references from NNL13-000000636</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Kondicsné Kovács, É. Agrártörténelmi adatok Körmendről, 1979 (subj.)</subfield><subfield code=\"b\">t.p. (Körmend)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">BGN 1-9-80</subfield><subfield code=\"b\">(Körmend, ppl. 47 01N 16 36E)</subfield></datafield><datafield tag=\"955\" ind1=\" \" ind2=\" \"><subfield code=\"a\">גערמענד KORMEND</subfield></datafield></record>\n",
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007524775705171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 1635.9 km. Manual review required. Kima Id:23698 Name:קאמען (בלארוס)",
+        "Updated PrimaryRomFull from 'Kamen (Belarus)' to 'Kamen' (Belarus)'",
+        "Updated PrimaryArabFull from 'null' to 'كامين (بيلاروس)'",
+        "updatePlaceRecord: variants +1: Kamen (Belarus)[la]"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>00886nz  a2200205n  4500</leader><controlfield tag=\"005\">20260211131814.0</controlfield><controlfield tag=\"008\">150216|||a|z||babn|||||||||| | a|||||||d</controlfield><controlfield tag=\"001\">987007524775705171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">no2009063859</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">132923014</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">031.6283300</subfield><subfield code=\"e\">031.6454287</subfield><subfield code=\"f\">052.4286912</subfield><subfield code=\"g\">052.4252277</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-001729027</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Kamen' (Belarus)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">קאמען (בלארוס)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">كامين (بيلاروس)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Kamen (Belarus)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">NLI authority record created automatically for MSS place.</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record enhanced with cross references from NNL13-000003591</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">LC form: Kamenʹ (Belarus)</subfield></datafield><datafield tag=\"955\" ind1=\" \" ind2=\" \"><subfield code=\"a\">קאמען KAMEN</subfield></datafield></record>\n",
+      "nliState": "Live"
+    }
+  ],
+  "failedItems": []
+}

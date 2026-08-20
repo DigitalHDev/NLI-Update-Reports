@@ -1,0 +1,329 @@
+{
+  "type": "Place",
+  "runTime": "2026-08-16T14:23:34.4340859Z",
+  "period": "20251014-20251020",
+  "numProcessedItems": 8167,
+  "numModifiedItems": 27,
+  "numNewItems": 2,
+  "numReviewItems": 0,
+  "numFailedItems": 0,
+  "modifiedSummary": [
+    {
+      "item": {
+        "recordId": "987007410848005171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryRomFull from 'Kefar Shalem (Tel Aviv-Yafo, Israel)' to 'Kfar Shalem (Tel Aviv-Yafo, Israel)'",
+        "updatePlaceRecord: variants +16: Kefar Shalem (Tel Aviv, Israel)[la] | Kefar Shalem (Tel Aviv-Yafo, Israel)[la] | Kefar Shalem (Israel)[la] | Kfar Shalem (Tel Aviv, Israel)[la] | Salamah (Tel Aviv, Israel)[la] | Salameh (Tel Aviv, Israel)[la] | Kufr Salem (Tel Aviv, Israel)[la] | Salama (Tel Aviv, Israel)[la] | Salamah (Israel)[la] | Salameh (Israel)[la] | Kfar Shalem (Israel)[la] | Kufr Salem (Israel)[la] | Kafr Salama (Israel)[la] | כפר שלם (ישראל)[he] | כפר סלמה (תל אביב-יפו, ישראל)[he] | סלמה (תל אביב-יפו, ישראל)[he]",
+        "updatePlaceRecord: variants already present, not inserted (2): Kefar Shalem (Israel)[la] | Salame[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007467836605171"
+      },
+      "result": "Success",
+      "messages": [
+        "updatePlaceRecord: variants +6: Teḳoʻa[la] | Teko'a (West Bank)[la] | Tko'a (West Bank)[la] | Teko'a (Israel)[la] | Teqoa (Israel)[la] | תקוע (ישראל)[he]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007478085105171"
+      },
+      "result": "Success",
+      "messages": [
+        "updatePlaceRecord: variants +5: Betar ʻIlit[la] | Betar 'Ilit (Israel)[la] | Beitar Illit (Israel)[la] | Beitar Illit (West Bank)[la] | ביתר עלית (יהודה ושומרון)[he]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007469841405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007469841405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007477937105171"
+      },
+      "result": "Success",
+      "messages": [
+        "updatePlaceRecord: variants +8: Bet El (Israel)[la] | Bet El (Judea and Samaria)[la] | Beit El (West Bank)[la] | Beth El (West Bank)[la] | Bethel (West Bank)[la] | Bethel (Israel : Administrative areas)[la] | בית אל (הגדה המערבית)[he] | בית אל (ישראל)[he]",
+        "updatePlaceRecord: variants already present, not inserted (1): Bet El[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007537972205171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'الشيخ مونس (تل أبيب-يافا، اسرائيل)' to 'الشيخ مونس (تل أبيب-يافا، إسرائيل)'",
+        "updatePlaceRecord: variants +9: Shaikh Munis (Tel Aviv, Israel)[la] | Sheikh Munis (Tel-Aviv, Israel)[la] | Shaikh Muwannis (Tel Aviv, Israel)[la] | Esh Sheikh Muwannis (Tel Aviv, Israel)[la] | Sheikh Muwannis (Tel Aviv, Israel)[la] | Sheik Muannis (Tel Aviv, Israel)[la] | Shekh Munis (Tel Aviv, Israel)[la] | Al-shaykh Muwannis[la] | Al-Sheikh Muwannis[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007554826705171"
+      },
+      "result": "Success",
+      "messages": [
+        "updatePlaceRecord: variants +6: Baytīn[la] | Baytin (West Bank)[la] | Bitayn[la] | Beitīn[la] | Luza[la] | Luz (Extinct city)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007540126205171"
+      },
+      "result": "Success",
+      "messages": [
+        "updatePlaceRecord: variants +4: Netsarim (Gush Katif)[la] | Netsarim (Israel)[la] | נצרים (גוש קטיף)[he] | נצרים (ישראל)[he]",
+        "updatePlaceRecord: variants already present, not inserted (1): Netsarim[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007550320205171"
+      },
+      "result": "Success",
+      "messages": [
+        "updatePlaceRecord: variants +8: ʻAqabah (Jordan)[la] | Akaba (Jordan)[la] | Qalat el Aqaba (Jordan)[la] | Al-Aqaba (Jordan)[la] | Aqabah, Jordan[la] | Aqabah (Jordan)[la] | Ayla (Jordan)[la] | Aila (Jordan)[la]",
+        "updatePlaceRecord: variants already present, not inserted (1): Aqabah, Jordan[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007564462505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'קרית ארבע (יהודה ושומרון)' to 'קריית ארבע (יהודה ושומרון)'",
+        "updatePlaceRecord: variants +3: Ḳiryat Arbaʻ[la] | Kiryat Arba (Israel)[la] | קרית ארבע (יהודה ושומרון)[he]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007567323705171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryRomFull from 'Allon Shevut (West Bank)' to 'Allon Shvut (West Bank)'",
+        "updatePlaceRecord: variants +6: Allon Shevut (West Bank)[la] | Alon-Shevut (West Bank)[la] | Alon Shevut (West Bank)[la] | Alon Shvut (West Bank)[la] | Alon Shevut (Israel)[la] | Alon Shvut (Israel)[la]",
+        "updatePlaceRecord: variants already present, not inserted (1): Alon-Shevut[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007565221805171"
+      },
+      "result": "Success",
+      "messages": [
+        "updatePlaceRecord: variants +2: Naḥḥālīn[la] | Nahalin[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007482453705171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryRomFull from 'Kefar Gannim (Petah Tikva, Israel)' to 'Kfar Gannim (Petah Tikva, Israel)'",
+        "updatePlaceRecord: variants +4: Kefar-Ganim (Petaḥ Tiḳṿah, Israel)[la] | Kefar Gannim (Petah Tikva, Israel)[la] | Kefar Ganim (Israel)[la] | Kefar-Gannim (Petah Tikvah, Israel)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007465600305171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'چفعات هتحموشت' to 'چفعات هتحموشت (القدس، إسرائيل)'",
+        "updatePlaceRecord: variants +2: Givʻat ha-Taḥmoshet (Jerusalem)[la] | Ammunition Hill (Jerusalem, Israel)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007467599405171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'عقابة (الضفة الغربية)' to 'عقابا، طوباس (الضفة الغربية)'",
+        "updatePlaceRecord: variants +7: ʻAqabah[la] | 'Aqaba, Tubas (West Bank)[la] | 'Aqqabah, Tubas (West Bank)[la] | Al-ʻAqabah, Tubas (West Bank)[la] | אל-עקבה, טובאס (יהודה ושומרון)[he] | עקבה (בקעת הירדן)[he] | עקבה, טובאס (ישראל)[he]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007540345405171"
+      },
+      "result": "Success",
+      "messages": [
+        "updatePlaceRecord: variants +4: Umm Ṣafāʼ[la] | Umm as-Safa (West Bank)[la] | Um Tsafa[la] | אום א-ס'פא (יהודה ושומרון)[he]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007533374205171"
+      },
+      "result": "Success",
+      "messages": [
+        "updatePlaceRecord: variants +7: Dayr Dibwān[la] | Deir Dibwan (West Bank)[la] | Deir Debwan (West Bank)[la] | Dair Dibwan (West Bank)[la] | Dair Dubwan (West Bank)[la] | Deir Dibwan (Israel)[la] | דיר דובוואן (יהודה ושומרון)[he]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007564918505171"
+      },
+      "result": "Success",
+      "messages": [
+        "updatePlaceRecord: variants +7: Ṭūlkarm[la] | Tulkarm (West Bank)[la] | Tul Kerem (West Bank)[la] | Tulkarem (Israel)[la] | Tul Karem (Israel)[la] | טול כרם (יהודה ושומרון)[he] | טול כרם (ישראל)[he]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007567200605171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'נחלת הר חב\"ד (קרית מלאכי, ישראל)' to 'נחלת הר חב\"ד (קריית מלאכי, ישראל)'",
+        "Updated PrimaryArabFull from 'null' to 'نحالات هار حباد (كريات ملاخي، إسرائيل)'",
+        "Updated ViafId from 'null' to '132630561'",
+        "updatePlaceRecord: variants +6: Naḥalat Har Ḥabad (Ḳiryat Malakhi, Israel)[la] | Nahalat Har Habad (Kiryat Mal'akhi, Israel)[la] | Nahalat Har Habad Neighborhood (Kiryat Mal'akhi, Israel)[la] | נחלת הר חבד (קריית מלאכי, ישראל)[he] | נחלה (קריית מלאכי, ישראל)[he] | שכונת נחלת הר חב\"ד (קרית מלאכי, ישראל)[he]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987009293912005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987009293912005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987011410129405171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'خربة بني حارث (الضفة الغربية)' to 'خربطة بني حارث (الضفة الغربية)'",
+        "updatePlaceRecord: variants +6: Kharbathā Banī Ḥārith[la] | Kharbathā Banī Ḥāris[la] | Kharbatha al-Ḥārithīyah[la] | Kharbatha al-Harithiyya[la] | Khurbetha Ibn Harith[la] | חרבתא בני חארס (יהודה ושומרון)[he]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007547821005171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'פליינס, ספרד' to 'פלאנס (ספרד)'",
+        "Updated PrimaryArabFull from 'null' to 'بلانز (إسبانيا)'",
+        "Updated ViafId from 'null' to '139536278'"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987012314365305171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'شارع ها-جليل ها-تحتون (إسرائيل : موتساه عزوريت)'"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007471631905171"
+      },
+      "result": "Success",
+      "messages": [
+        "updatePlaceRecord: variants +7: Efrata (West Bank)[la] | Efrata (Israel)[la] | Efrat (Israel)[la] | Efratah (West Bank)[la] | Efratah (Israel)[la] | אפרתה (יהודה ושומרון)[he] | אפרת (ישראל)[he]",
+        "updatePlaceRecord: variants already present, not inserted (2): Efrat[la] | Efratah4383013-10[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007524776305171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'إيترسفيلر (فرنسا)'",
+        "updatePlaceRecord: variants +1: איטרשווילר (צרפת)[he]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007465324205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007465324205171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E130308, $e=E130308, $f=N500855, $g=N500855, $2=geonames) — $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007590340605171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'أوستهاوس (فرنسا)'",
+        "updatePlaceRecord: variants +2: Osthausen (France)[la] | אושס (צרפת)[he]"
+      ],
+      "nliState": "Live"
+    }
+  ],
+  "newSummary": [
+    {
+      "item": {
+        "recordId": "987012789474705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012789474705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007535513905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007535513905171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Malta (Ohio), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    }
+  ],
+  "requireReviewSummary": [],
+  "failedSummary": [],
+  "requireReviewItems": [],
+  "failedItems": []
+}

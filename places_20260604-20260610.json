@@ -1,0 +1,165 @@
+{
+  "type": "Place",
+  "runTime": "2026-08-16T16:28:15.4251709Z",
+  "period": "20260604-20260610",
+  "numProcessedItems": 2033,
+  "numModifiedItems": 5,
+  "numNewItems": 6,
+  "numReviewItems": 1,
+  "numFailedItems": 0,
+  "modifiedSummary": [
+    {
+      "item": {
+        "recordId": "987007283269605171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'جسر بيرينغ البري'",
+        "Updated Wd from 'null' to 'Q190927'",
+        "updatePlaceRecord: variants already present, not inserted (1): Beringia[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007566052605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007566052605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007570942605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007570942605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007524605405171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 34.7 km. Manual review required. Kima Id:23728 Name:קסטיליטו (גנואה, איטליה)",
+        "Updated PrimaryHebFull from 'קסטיליטו (גנואה, איטליה)' to 'קסטיליטו (ג'נובה, איטליה)'",
+        "Updated PrimaryArabFull from 'null' to 'كاستيليتو (جنوة، إيطاليا)'",
+        "Updated Wd from 'Q17336' to 'Q33429356'. Manual review required. Kima Id:23728",
+        "updatePlaceRecord: variants +1: קאשטיליטו (גנואה, איטליה)[he]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987012689066905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012689066905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    }
+  ],
+  "newSummary": [
+    {
+      "item": {
+        "recordId": "987014635771105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014635771105171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Loyal (Wis.), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007560172205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007560172205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987012882070005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012882070005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014630178905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014630178905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007552691305171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007552691305171 (אבינגדון (מרילנד))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014613366705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014613366705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    }
+  ],
+  "requireReviewSummary": [
+    {
+      "item": {
+        "recordId": "987007524605405171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 34.7 km. Manual review required. Kima Id:23728 Name:קסטיליטו (גנואה, איטליה)",
+        "Updated PrimaryHebFull from 'קסטיליטו (גנואה, איטליה)' to 'קסטיליטו (ג'נובה, איטליה)'",
+        "Updated PrimaryArabFull from 'null' to 'كاستيليتو (جنوة، إيطاليا)'",
+        "Updated Wd from 'Q17336' to 'Q33429356'. Manual review required. Kima Id:23728",
+        "updatePlaceRecord: variants +1: קאשטיליטו (גנואה, איטליה)[he]"
+      ],
+      "nliState": "Live"
+    }
+  ],
+  "failedSummary": [],
+  "requireReviewItems": [
+    {
+      "item": {
+        "recordId": "987007524605405171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 34.7 km. Manual review required. Kima Id:23728 Name:קסטיליטו (גנואה, איטליה)",
+        "Updated PrimaryHebFull from 'קסטיליטו (גנואה, איטליה)' to 'קסטיליטו (ג'נובה, איטליה)'",
+        "Updated PrimaryArabFull from 'null' to 'كاستيليتو (جنوة، إيطاليا)'",
+        "Updated Wd from 'Q17336' to 'Q33429356'. Manual review required. Kima Id:23728",
+        "updatePlaceRecord: variants +1: קאשטיליטו (גנואה, איטליה)[he]"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01150nz  a2200181n  4500</leader><controlfield tag=\"005\">20260605054956.0</controlfield><controlfield tag=\"008\">191115|||a|z||babn|||||||||| | a|||||||d</controlfield><controlfield tag=\"001\">987007524605405171</controlfield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q33429356</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">008.9247394</subfield><subfield code=\"e\">008.9489491</subfield><subfield code=\"f\">044.4321672</subfield><subfield code=\"g\">044.4098131</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-001728988</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Castelletto (Genoa, Italy)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">קסטיליטו (ג'נובה, איטליה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">كاستيليتو (جنوة، إيطاليا)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">קאשטיליטו (גנואה, איטליה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">NLI authority record created automatically for MSS place.</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record enhanced with cross references from NNL13-000001953</subfield></datafield><datafield tag=\"955\" ind1=\" \" ind2=\" \"><subfield code=\"a\">קאשטיליטו CASTELLETTO</subfield></datafield></record>\n",
+      "nliState": "Live"
+    }
+  ],
+  "failedItems": []
+}

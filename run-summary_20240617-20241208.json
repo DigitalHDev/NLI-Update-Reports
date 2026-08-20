@@ -1,0 +1,624 @@
+{
+  "runId": "58c8ecb9983c4cfbbc5fe902a3f5842d",
+  "startedUtc": "2026-08-16T09:29:56.648Z",
+  "apiEndpoint": "https://api.nli.org.il/v2/openlibrary",
+  "range": "20240617-20241231",
+  "periods": [
+    {
+      "dateRange": "20240617-20240623",
+      "places": {
+        "status": "Completed",
+        "instanceId": "548d9bddd6fa4ecc8b606badc486b441",
+        "numProcessed": 134,
+        "numNew": 0,
+        "numModified": 0,
+        "numManual": 0,
+        "numFailed": 0
+      },
+      "bibliography": {
+        "status": "Skipped",
+        "instanceId": null,
+        "numProcessed": 0,
+        "numNew": 0,
+        "numModified": 0,
+        "numManual": 0,
+        "numFailed": 0
+      }
+    },
+    {
+      "dateRange": "20240624-20240630",
+      "places": {
+        "status": "Completed",
+        "instanceId": "79e7badd653b40e5a9a993bd152a14a2",
+        "numProcessed": 232,
+        "numNew": 0,
+        "numModified": 0,
+        "numManual": 0,
+        "numFailed": 0
+      },
+      "bibliography": {
+        "status": "Skipped",
+        "instanceId": null,
+        "numProcessed": 0,
+        "numNew": 0,
+        "numModified": 0,
+        "numManual": 0,
+        "numFailed": 0
+      }
+    },
+    {
+      "dateRange": "20240701-20240707",
+      "places": {
+        "status": "Completed",
+        "instanceId": "60efedc97d3845bf9663829c1214b92b",
+        "numProcessed": 3695,
+        "numNew": 17,
+        "numModified": 3,
+        "numManual": 0,
+        "numFailed": 0
+      },
+      "bibliography": {
+        "status": "Skipped",
+        "instanceId": null,
+        "numProcessed": 0,
+        "numNew": 0,
+        "numModified": 0,
+        "numManual": 0,
+        "numFailed": 0
+      }
+    },
+    {
+      "dateRange": "20240708-20240714",
+      "places": {
+        "status": "Completed",
+        "instanceId": "f1fe604bfef54a7ab271f17c927c55e3",
+        "numProcessed": 891,
+        "numNew": 0,
+        "numModified": 0,
+        "numManual": 0,
+        "numFailed": 0
+      },
+      "bibliography": {
+        "status": "Skipped",
+        "instanceId": null,
+        "numProcessed": 0,
+        "numNew": 0,
+        "numModified": 0,
+        "numManual": 0,
+        "numFailed": 0
+      }
+    },
+    {
+      "dateRange": "20240715-20240721",
+      "places": {
+        "status": "Completed",
+        "instanceId": "2ebc72c5d6c14e4f9dc09bc23bf05070",
+        "numProcessed": 1548,
+        "numNew": 0,
+        "numModified": 1,
+        "numManual": 0,
+        "numFailed": 0
+      },
+      "bibliography": {
+        "status": "Skipped",
+        "instanceId": null,
+        "numProcessed": 0,
+        "numNew": 0,
+        "numModified": 0,
+        "numManual": 0,
+        "numFailed": 0
+      }
+    },
+    {
+      "dateRange": "20240722-20240728",
+      "places": {
+        "status": "Completed",
+        "instanceId": "abf8004c268e4d42929d998377989a52",
+        "numProcessed": 1102,
+        "numNew": 0,
+        "numModified": 0,
+        "numManual": 0,
+        "numFailed": 0
+      },
+      "bibliography": {
+        "status": "Skipped",
+        "instanceId": null,
+        "numProcessed": 0,
+        "numNew": 0,
+        "numModified": 0,
+        "numManual": 0,
+        "numFailed": 0
+      }
+    },
+    {
+      "dateRange": "20240729-20240804",
+      "places": {
+        "status": "Completed",
+        "instanceId": "783dafe2699d4e318b3ae2e57dbd0e20",
+        "numProcessed": 1885,
+        "numNew": 21,
+        "numModified": 0,
+        "numManual": 0,
+        "numFailed": 0
+      },
+      "bibliography": {
+        "status": "Skipped",
+        "instanceId": null,
+        "numProcessed": 0,
+        "numNew": 0,
+        "numModified": 0,
+        "numManual": 0,
+        "numFailed": 0
+      }
+    },
+    {
+      "dateRange": "20240805-20240811",
+      "places": {
+        "status": "Completed",
+        "instanceId": "7d1ed3c84743487cb116e81b8205eda1",
+        "numProcessed": 2109,
+        "numNew": 0,
+        "numModified": 0,
+        "numManual": 0,
+        "numFailed": 0
+      },
+      "bibliography": {
+        "status": "Skipped",
+        "instanceId": null,
+        "numProcessed": 0,
+        "numNew": 0,
+        "numModified": 0,
+        "numManual": 0,
+        "numFailed": 0
+      }
+    },
+    {
+      "dateRange": "20240812-20240818",
+      "places": {
+        "status": "Completed",
+        "instanceId": "ba728745d19c487ca451dc5a6774f89f",
+        "numProcessed": 1152,
+        "numNew": 0,
+        "numModified": 1,
+        "numManual": 0,
+        "numFailed": 0
+      },
+      "bibliography": {
+        "status": "Skipped",
+        "instanceId": null,
+        "numProcessed": 0,
+        "numNew": 0,
+        "numModified": 0,
+        "numManual": 0,
+        "numFailed": 0
+      }
+    },
+    {
+      "dateRange": "20240819-20240825",
+      "places": {
+        "status": "Completed",
+        "instanceId": "dd5058df56a8497b8c91bcdcf08f7d48",
+        "numProcessed": 868,
+        "numNew": 3,
+        "numModified": 0,
+        "numManual": 0,
+        "numFailed": 0
+      },
+      "bibliography": {
+        "status": "Skipped",
+        "instanceId": null,
+        "numProcessed": 0,
+        "numNew": 0,
+        "numModified": 0,
+        "numManual": 0,
+        "numFailed": 0
+      }
+    },
+    {
+      "dateRange": "20240826-20240901",
+      "places": {
+        "status": "Completed",
+        "instanceId": "e0cd61937c644e448dc25cdd49817033",
+        "numProcessed": 711,
+        "numNew": 0,
+        "numModified": 1,
+        "numManual": 0,
+        "numFailed": 0
+      },
+      "bibliography": {
+        "status": "Skipped",
+        "instanceId": null,
+        "numProcessed": 0,
+        "numNew": 0,
+        "numModified": 0,
+        "numManual": 0,
+        "numFailed": 0
+      }
+    },
+    {
+      "dateRange": "20240902-20240908",
+      "places": {
+        "status": "Completed",
+        "instanceId": "150242ed1c364b6682907939139801b2",
+        "numProcessed": 2698,
+        "numNew": 19,
+        "numModified": 1,
+        "numManual": 0,
+        "numFailed": 0
+      },
+      "bibliography": {
+        "status": "Skipped",
+        "instanceId": null,
+        "numProcessed": 0,
+        "numNew": 0,
+        "numModified": 0,
+        "numManual": 0,
+        "numFailed": 0
+      }
+    },
+    {
+      "dateRange": "20240909-20240915",
+      "places": {
+        "status": "Completed",
+        "instanceId": "6627db34496d488596c74260bcfc7d1f",
+        "numProcessed": 0,
+        "numNew": 0,
+        "numModified": 0,
+        "numManual": 0,
+        "numFailed": 0
+      },
+      "bibliography": {
+        "status": "Skipped",
+        "instanceId": null,
+        "numProcessed": 0,
+        "numNew": 0,
+        "numModified": 0,
+        "numManual": 0,
+        "numFailed": 0
+      }
+    },
+    {
+      "dateRange": "20240916-20240922",
+      "places": {
+        "status": "Completed",
+        "instanceId": "1db83208f5e24b1d99bf3ab4f2d05d02",
+        "numProcessed": 1443,
+        "numNew": 1,
+        "numModified": 0,
+        "numManual": 0,
+        "numFailed": 0
+      },
+      "bibliography": {
+        "status": "Skipped",
+        "instanceId": null,
+        "numProcessed": 0,
+        "numNew": 0,
+        "numModified": 0,
+        "numManual": 0,
+        "numFailed": 0
+      }
+    },
+    {
+      "dateRange": "20240923-20240929",
+      "places": {
+        "status": "Completed",
+        "instanceId": "e2ef148b0a5b48df9531069c7adc8842",
+        "numProcessed": 764,
+        "numNew": 0,
+        "numModified": 6,
+        "numManual": 6,
+        "numFailed": 0
+      },
+      "bibliography": {
+        "status": "Skipped",
+        "instanceId": null,
+        "numProcessed": 0,
+        "numNew": 0,
+        "numModified": 0,
+        "numManual": 0,
+        "numFailed": 0
+      }
+    },
+    {
+      "dateRange": "20240930-20241006",
+      "places": {
+        "status": "Completed",
+        "instanceId": "1a6748161d774b91b28922a18a9dfc25",
+        "numProcessed": 864,
+        "numNew": 0,
+        "numModified": 0,
+        "numManual": 0,
+        "numFailed": 0
+      },
+      "bibliography": {
+        "status": "Skipped",
+        "instanceId": null,
+        "numProcessed": 0,
+        "numNew": 0,
+        "numModified": 0,
+        "numManual": 0,
+        "numFailed": 0
+      }
+    },
+    {
+      "dateRange": "20241007-20241013",
+      "places": {
+        "status": "Completed",
+        "instanceId": "56e04d6bfd6644469d322c879d9ff396",
+        "numProcessed": 1622,
+        "numNew": 107,
+        "numModified": 4,
+        "numManual": 0,
+        "numFailed": 0
+      },
+      "bibliography": {
+        "status": "Skipped",
+        "instanceId": null,
+        "numProcessed": 0,
+        "numNew": 0,
+        "numModified": 0,
+        "numManual": 0,
+        "numFailed": 0
+      }
+    },
+    {
+      "dateRange": "20241014-20241020",
+      "places": {
+        "status": "Completed",
+        "instanceId": "a9f3f5ad3cf842dfbdf6c6fb96a4b0d6",
+        "numProcessed": 5683,
+        "numNew": 2210,
+        "numModified": 0,
+        "numManual": 0,
+        "numFailed": 0
+      },
+      "bibliography": {
+        "status": "Skipped",
+        "instanceId": null,
+        "numProcessed": 0,
+        "numNew": 0,
+        "numModified": 0,
+        "numManual": 0,
+        "numFailed": 0
+      }
+    },
+    {
+      "dateRange": "20241021-20241027",
+      "places": {
+        "status": "Completed",
+        "instanceId": "1b84bcf4c07d4fb6aafb489cee20b1e0",
+        "numProcessed": 329,
+        "numNew": 10,
+        "numModified": 0,
+        "numManual": 0,
+        "numFailed": 0
+      },
+      "bibliography": {
+        "status": "Skipped",
+        "instanceId": null,
+        "numProcessed": 0,
+        "numNew": 0,
+        "numModified": 0,
+        "numManual": 0,
+        "numFailed": 0
+      }
+    },
+    {
+      "dateRange": "20241028-20241103",
+      "places": {
+        "status": "Completed",
+        "instanceId": "04244b7cab644b51ad85a89fada459db",
+        "numProcessed": 28454,
+        "numNew": 1,
+        "numModified": 43,
+        "numManual": 1,
+        "numFailed": 0
+      },
+      "bibliography": {
+        "status": "Skipped",
+        "instanceId": null,
+        "numProcessed": 0,
+        "numNew": 0,
+        "numModified": 0,
+        "numManual": 0,
+        "numFailed": 0
+      }
+    },
+    {
+      "dateRange": "20241104-20241110",
+      "places": {
+        "status": "Completed",
+        "instanceId": "da6ec267bf6544399e8fd926eb563e33",
+        "numProcessed": 1481,
+        "numNew": 11,
+        "numModified": 0,
+        "numManual": 0,
+        "numFailed": 0
+      },
+      "bibliography": {
+        "status": "Skipped",
+        "instanceId": null,
+        "numProcessed": 0,
+        "numNew": 0,
+        "numModified": 0,
+        "numManual": 0,
+        "numFailed": 0
+      }
+    },
+    {
+      "dateRange": "20241111-20241117",
+      "places": {
+        "status": "Completed",
+        "instanceId": "57337fb9456a4d9a8184c38a467de4d7",
+        "numProcessed": 19237,
+        "numNew": 4,
+        "numModified": 10,
+        "numManual": 0,
+        "numFailed": 0
+      },
+      "bibliography": {
+        "status": "Skipped",
+        "instanceId": null,
+        "numProcessed": 0,
+        "numNew": 0,
+        "numModified": 0,
+        "numManual": 0,
+        "numFailed": 0
+      }
+    },
+    {
+      "dateRange": "20241118-20241124",
+      "places": {
+        "status": "Completed",
+        "instanceId": "0805c2dd5a604ac4b167e6e58272bfd5",
+        "numProcessed": 13741,
+        "numNew": 352,
+        "numModified": 83,
+        "numManual": 0,
+        "numFailed": 0
+      },
+      "bibliography": {
+        "status": "Skipped",
+        "instanceId": null,
+        "numProcessed": 0,
+        "numNew": 0,
+        "numModified": 0,
+        "numManual": 0,
+        "numFailed": 0
+      }
+    },
+    {
+      "dateRange": "20241125-20241201",
+      "places": {
+        "status": "Completed",
+        "instanceId": "de6a4c9b13954382b2f4777e5491fa67",
+        "numProcessed": 1784,
+        "numNew": 13,
+        "numModified": 2,
+        "numManual": 0,
+        "numFailed": 0
+      },
+      "bibliography": {
+        "status": "Skipped",
+        "instanceId": null,
+        "numProcessed": 0,
+        "numNew": 0,
+        "numModified": 0,
+        "numManual": 0,
+        "numFailed": 0
+      }
+    },
+    {
+      "dateRange": "20241202-20241208",
+      "places": {
+        "status": "Completed",
+        "instanceId": "29320df20c584aa8bb3b387fbeba4ba2",
+        "numProcessed": 5102,
+        "numNew": 5,
+        "numModified": 0,
+        "numManual": 0,
+        "numFailed": 0
+      },
+      "bibliography": {
+        "status": "Skipped",
+        "instanceId": null,
+        "numProcessed": 0,
+        "numNew": 0,
+        "numModified": 0,
+        "numManual": 0,
+        "numFailed": 0
+      }
+    },
+    {
+      "dateRange": "20241209-20241215",
+      "places": {
+        "status": "Failed",
+        "instanceId": "350f7450ec364400b01aa0bdf08fb506",
+        "numProcessed": 0,
+        "numNew": 0,
+        "numModified": 0,
+        "numManual": 0,
+        "numFailed": 0
+      },
+      "bibliography": {
+        "status": "Pending",
+        "instanceId": null,
+        "numProcessed": 0,
+        "numNew": 0,
+        "numModified": 0,
+        "numManual": 0,
+        "numFailed": 0
+      }
+    },
+    {
+      "dateRange": "20241216-20241222",
+      "places": {
+        "status": "Pending",
+        "instanceId": null,
+        "numProcessed": 0,
+        "numNew": 0,
+        "numModified": 0,
+        "numManual": 0,
+        "numFailed": 0
+      },
+      "bibliography": {
+        "status": "Pending",
+        "instanceId": null,
+        "numProcessed": 0,
+        "numNew": 0,
+        "numModified": 0,
+        "numManual": 0,
+        "numFailed": 0
+      }
+    },
+    {
+      "dateRange": "20241223-20241229",
+      "places": {
+        "status": "Pending",
+        "instanceId": null,
+        "numProcessed": 0,
+        "numNew": 0,
+        "numModified": 0,
+        "numManual": 0,
+        "numFailed": 0
+      },
+      "bibliography": {
+        "status": "Pending",
+        "instanceId": null,
+        "numProcessed": 0,
+        "numNew": 0,
+        "numModified": 0,
+        "numManual": 0,
+        "numFailed": 0
+      }
+    },
+    {
+      "dateRange": "20241230-20241231",
+      "places": {
+        "status": "Pending",
+        "instanceId": null,
+        "numProcessed": 0,
+        "numNew": 0,
+        "numModified": 0,
+        "numManual": 0,
+        "numFailed": 0
+      },
+      "bibliography": {
+        "status": "Pending",
+        "instanceId": null,
+        "numProcessed": 0,
+        "numNew": 0,
+        "numModified": 0,
+        "numManual": 0,
+        "numFailed": 0
+      }
+    }
+  ],
+  "totals": {
+    "processed": 97529,
+    "new": 2774,
+    "modified": 155,
+    "manual": 7,
+    "failed": 0
+  }
+}

@@ -1,11 +1,11 @@
 {
   "type": "Place",
-  "runTime": "2026-08-03T18:36:54.410889Z",
+  "runTime": "2026-08-16T11:57:24.810459Z",
   "period": "20250305-20250311",
-  "numProcessedItems": 24184,
-  "numModifiedItems": 31,
+  "numProcessedItems": 24094,
+  "numModifiedItems": 10,
   "numNewItems": 2,
-  "numReviewItems": 1,
+  "numReviewItems": 0,
   "numFailedItems": 0,
   "modifiedSummary": [
     {
@@ -17,7 +17,8 @@
         "Updated PrimaryHebFull from 'יהוד (פחוה פרסית)' to 'יהוד (פרובינציה פרסית)'",
         "Updated PrimaryArabFull from 'null' to 'يهود (مقاطعة فارسية)'",
         "updatePlaceRecord: variants +1: Yahud (Persian province)[la]"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -25,8 +26,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987012449973205171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987012449973205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -37,129 +39,8 @@
         "Updated PrimaryRomFull from 'Beit Tsur (Extinct City) (West Bank)' to 'Beit Tsur (Extinct city) (West Bank)'",
         "Updated PrimaryArabFull from 'null' to 'بيت زور (مدينة منقرضة) (الضفة الغربية)'",
         "updatePlaceRecord: variants +7: Beit Tzur (West Bank)[la] | Bethsura (West Bank)[la] | Beth-zur, Palestine[la] | Khirbet et Tubeiqa[la] | Khirbet et Tubeika[la] | Beth Zur (West Bank)[la] | Beth-Zur (Israel)[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007475796805171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'ناحل ديمونا (إسرائيل)'",
-        "updatePlaceRecord: variants +8: Dimona River[la] | Dimonah River (Israel)[la] | Dimonah River[la] | Nahal Dimona (Israel)[la] | Nahal Dimona[la] | Nahal Dimonah (Israel)[la] | Nahal Dimonah[la] | Wadi Juraba[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007475796705171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'ناحل حتسيرا (إسرائيل)'",
-        "updatePlaceRecord: variants +4: Hatsera River[la] | Nahal Hatsera (Israel)[la] | Nahal Hatsera[la] | Wadi Hadhira[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007496654305171"
-      },
-      "result": "ManualReview",
-      "messages": [
-        "Updated PrimaryArabFull from 'غرناظة (إسبانيا)' to 'غرناطة (إسبانيا : المملكة)'",
-        "Updated Wd from 'null' to 'Q1796202'",
-        "Updated ViafId from '137394256' to '834159820901414000009'. Manual review required. Kima Id:20586",
-        "updatePlaceRecord: variants +1: Reino de Granada (Spain : 1492-1833)[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007475796105171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'ناحل حتسيڤا (إسرائيل)'",
-        "updatePlaceRecord: variants +8: Hatseva River[la] | Nahal Hatseva[la] | Nahal Hatseva (Israel)[la] | Nahal Hatzeva[la] | Nahal Hatzeva (Israel)[la] | Hatzeva River (Israel)[la] | Hatzeva River[la] | Wadi Iktifi[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007475796205171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'ناحل عدان (إسرائيل)'",
-        "updatePlaceRecord: variants +8: Iddan River[la] | Nahal Iddan[la] | Nahal Iddan (Israel)[la] | Nahal Idan[la] | Nahal Idan (Israel)[la] | Idan River (Israel)[la] | Idan River[la] | Wadi Umm el Idan[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007475967305171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'ناحل سيئون (إسرائيل)'",
-        "updatePlaceRecord: variants +3: Nahal Si'on[la] | Wadi al Asal[la] | Nahal Si'on (Israel)[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007475797005171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'ناحل كنائيم (إسرائيل)'",
-        "updatePlaceRecord: variants +8: Kana'im River[la] | Nahal Kana'im (Israel)[la] | Nahal Kana'im[la] | Qana'im River (Israel)[la] | Qana'im River[la] | Nahal Qana'im (Israel)[la] | Nahal Qana'im[la] | Wadi Munbaitiha[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007475797205171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'ناحل متسادا (إسرائيل)'",
-        "updatePlaceRecord: variants +3: Metsada River[la] | Nahal Metsada (Israel)[la] | Nahal Metsada[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007475798705171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'ناحل شخيم (إسرائيل)'",
-        "updatePlaceRecord: variants +6: Shekhem River[la] | Nahal Shekhem[la] | Nahal Shekhem (Israel)[la] | Nahal Shehem[la] | Nahal Shehem (Israel)[la] | Wadi Zaimar[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007475965305171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'ناحل يكنعام (إسرائيل)'",
-        "updatePlaceRecord: variants +8: Yokne'am River[la] | Yoqne'am River[la] | Yoqne'am River (Israel)[la] | Nahal Yoqne'am[la] | Nahal Yoqne'am (Israel)[la] | Nahal Yokne'am[la] | Nahal Yokne'am (Israel)[la] | Wadi al Milh[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007475965405171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'ناحل عدشيم (إسرائيل)'",
-        "updatePlaceRecord: variants +4: Adashim River[la] | Nahal Adashim[la] | Nahal Adashim (Israel)[la] | Wadi Marab'i[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007475966705171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'ناحل دلتون (إسرائيل)'",
-        "updatePlaceRecord: variants +2: Nahal Dalton[la] | Nahal Dalton (Israel)[la]"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -169,7 +50,8 @@
       "messages": [
         "Updated PrimaryArabFull from 'null' to 'ناحل ركاد (إسرائيل)'",
         "updatePlaceRecord: variants +5: Nahal Rakad[la] | Nahal Rakad (Israel)[la] | Rakad River[la] | Nahr er-Rukkad[la] | נחל רוקד (ישראל)[he]"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -177,27 +59,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007465731105171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007479584405171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'قبر ماريا (أورشليم-القدس، إسرائيل)' to 'قبر ماريا (القدس، إسرائيل)'",
-        "updatePlaceRecord: variants +4: Church of the Sepulchre of Saint Mary (Jerusalem, Israel)[la] | Tomb of the Virgin Mary (Jerusalem, Israel)[la] | Tomb of the Virgin (Jerusalem, Israel)[la] | Church of the Assumption (Jerusalem, Israel)[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007518921205171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007518921205171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007465731105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -205,48 +69,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987012751077005171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007475795805171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'ناحل حيون (إسرائيل)'",
-        "updatePlaceRecord: variants +6: Hiyyon River[la] | Nahal Hiyyon (Israel)[la] | Nahal Hiyyon[la] | Hiyon River (Israel)[la] | Nahal Hiyon (Israel)[la] | Wadi Haiyani[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007475796505171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'ناحل حتيرا (إسرائيل)'",
-        "updatePlaceRecord: variants +8: Hatira River[la] | Nahal Hatira[la] | Nahal Hatira (Israel)[la] | Nahal Khatira[la] | Nahal Khatira (Israel)[la] | Khatira River (Israel)[la] | Khatira River[la] | Wadi Hathira[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007475967005171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'ناحل حتسور (إسرائيل)'",
-        "updatePlaceRecord: variants +3: Nahal Hatsor[la] | Nahal Hatsor (Israel)[la] | Wadi Wakkas[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007475797105171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'ناحل حڤرون (إسرائيل)'",
-        "updatePlaceRecord: variants +4: Hevron River[la] | Nahal Hevron (Israel)[la] | Nahal Hevron[la] | Wadi Khalil[la]"
-      ]
+        "Place 987012751077005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -256,27 +81,8 @@
       "messages": [
         "Updated PrimaryArabFull from 'null' to 'ناحل حتستسون (إسرائيل)'",
         "updatePlaceRecord: variants +4: Hatsetson River[la] | Nahal Hatsetson (Israel)[la] | Nahal Hatsetson[la] | Wadi Hasasa[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007475797705171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'ناحل هئيلا (إسرائيل)'",
-        "updatePlaceRecord: variants +6: Ha'ela River[la] | Nahal Ha'ela (Israel)[la] | Nahal Ha'ela[la] | Nahal Ha-Ela[la] | Nahal Ha-Ela (Israel)[la] | Wadi Ajjur[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007475798505171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'ناحل شيلو (إسرائيل)'",
-        "updatePlaceRecord: variants +4: Nahal Shillo[la] | Nahal Shillo (Israel)[la] | Shillo River[la] | Wadi Sarida[la]"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -286,7 +92,8 @@
       "messages": [
         "Updated PrimaryArabFull from 'null' to 'ناحل يڤنئيل (إسرائيل)'",
         "updatePlaceRecord: variants +6: Nahal Yavne'el[la] | Nahal Yavne'el (Israel)[la] | Iavneel River[la] | Yavne'el River[la] | Nahal Iavneel[la] | Wadi Fajjas[la]"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -294,8 +101,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007475966305171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007475966305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -305,17 +113,8 @@
       "messages": [
         "Updated PrimaryArabFull from 'null' to 'ناحل يوسيفون (إسرائيل)'",
         "updatePlaceRecord: variants +7: Nahal Yosifon[la] | Nahal Yosifon (Israel)[la] | Yosifon River[la] | Nahal Josifon[la] | Nahal Josifon (Israel)[la] | Nahal Iosifon[la] | Nahal Iosifon (Israel)[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007475965805171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'ناحل سماخ (إسرائيل)'",
-        "updatePlaceRecord: variants +8: Nahal Samakh[la] | Nahal Samakh (Israel)[la] | Samakh River[la] | Nahal Samah[la] | Nahal Samah (Israel)[la] | Samah River[la] | Samah River (Israel)[la] | Wadi es-Samak[la]"
-      ]
+      ],
+      "nliState": "Live"
     }
   ],
   "newSummary": [
@@ -325,8 +124,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007540487605171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007540487605171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Viana (Spain), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -334,39 +134,13 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007553959105171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    }
-  ],
-  "requireReviewSummary": [
-    {
-      "item": {
-        "recordId": "987007496654305171"
-      },
-      "result": "ManualReview",
-      "messages": [
-        "Updated PrimaryArabFull from 'غرناظة (إسبانيا)' to 'غرناطة (إسبانيا : المملكة)'",
-        "Updated Wd from 'null' to 'Q1796202'",
-        "Updated ViafId from '137394256' to '834159820901414000009'. Manual review required. Kima Id:20586",
-        "updatePlaceRecord: variants +1: Reino de Granada (Spain : 1492-1833)[la]"
-      ]
-    }
-  ],
-  "failedSummary": [],
-  "requireReviewItems": [
-    {
-      "item": {
-        "recordId": "987007496654305171"
-      },
-      "result": "ManualReview",
-      "messages": [
-        "Updated PrimaryArabFull from 'غرناظة (إسبانيا)' to 'غرناطة (إسبانيا : المملكة)'",
-        "Updated Wd from 'null' to 'Q1796202'",
-        "Updated ViafId from '137394256' to '834159820901414000009'. Manual review required. Kima Id:20586",
-        "updatePlaceRecord: variants +1: Reino de Granada (Spain : 1492-1833)[la]"
+        "Place 987007553959105171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Waterberg Plateau Park (Namibia), $9=lat) — $9 is lat, not heb. Skipping"
       ],
-      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01903cz  a2200265n  4500</leader><controlfield tag=\"005\">20260803123916.0</controlfield><controlfield tag=\"008\">011010n||acannaab|          |a ana    ||</controlfield><controlfield tag=\"001\">987007496654305171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 2001034293</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q1796202</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">834159820901414000009</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">-3.25</subfield><subfield code=\"e\">-3.25</subfield><subfield code=\"f\">37.23333333</subfield><subfield code=\"g\">37.23333333</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-001061720</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Granada (Spain : Reino)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">גרנדה (ספרד : ממלכה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">غرناطة (إسبانيا : المملكة)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Spain</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Reino de Granada (Spain : 1492-1833)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"551\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Granada (Spain : Province)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record enriched with 670 fields from LCNA on: 20260803</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Historia del Reino de Granada, 2000:</subfield><subfield code=\"b\">p. 9 (Reino de Granada: political entity, 1231-1492 governed by the Nasrid kings; within the same boundaries it continued as a Christian kingdom under the Reyes Católicos and the houses of Austria and Bourbon until the territorial reorganization into provinces in 1833) p. 17 (area now occupied by the provinces of Granada, Almería, and Málaga)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Historia del Reino de Granada, 2000:</subfield><subfield code=\"b\">p. 9 (Reino de Granada: political entity, 1231-1492 governed by the Nasrid kings; within the same boundaries it continued as a Christian kingdom under the Reyes Católicos and the houses of Austria and Bourbon until the territorialreorganization into provinces in 1833) p. 17 (area now occupied by the provinces of Granada, Almería, and Málaga)</subfield></datafield></record>\n"
+      "nliState": "Live"
     }
   ],
+  "requireReviewSummary": [],
+  "failedSummary": [],
+  "requireReviewItems": [],
   "failedItems": []
 }

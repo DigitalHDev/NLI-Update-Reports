@@ -1,8 +1,8 @@
 {
   "type": "Place",
-  "runTime": "2026-08-03T14:58:42.6311129Z",
+  "runTime": "2026-08-16T10:40:09.274748Z",
   "period": "20241209-20241215",
-  "numProcessedItems": 59793,
+  "numProcessedItems": 59731,
   "numModifiedItems": 0,
   "numNewItems": 5,
   "numReviewItems": 0,
@@ -15,8 +15,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013157112005171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013157112005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -24,8 +25,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013157113805171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013157113805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -33,8 +35,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013158613205171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013158613205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -42,8 +45,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013158613505171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013158613505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -51,8 +55,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013010484905171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013010484905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     }
   ],
   "requireReviewSummary": [],

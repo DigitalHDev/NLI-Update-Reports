@@ -1,0 +1,2878 @@
+{
+  "type": "Place",
+  "runTime": "2026-08-16T16:33:45.4322286Z",
+  "period": "20260618-20260624",
+  "numProcessedItems": 12179,
+  "numModifiedItems": 69,
+  "numNewItems": 191,
+  "numReviewItems": 6,
+  "numFailedItems": 0,
+  "modifiedSummary": [
+    {
+      "item": {
+        "recordId": "987007285075705171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryRomFull from 'Cheju Strait (Korea)' to 'Jeju Strait (Korea)'",
+        "Updated PrimaryArabFull from 'null' to 'مضيق جيجو (كوريا)'",
+        "Updated Wd from 'null' to 'Q11270798'",
+        "updatePlaceRecord: variants +6: Cheju-haehyŏp (Korea)[la] | Cheju Strait (Korea)[la] | Jejuhaehyeop (Korea)[la] | Saishū-kaikyō (Korea)[la] | Saishu Strait (Korea)[la] | Saisyū Kaikyō (Korea)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007467838805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007467838805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007552539605171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'سينت كوينتنز لينيك (بلجيكا)'",
+        "Updated ViafId from 'null' to '135482693'",
+        "updatePlaceRecord: variants +6: Lennik (Belgium)[la] | Lennick-Saint Quentin, Belgium[la] | St.-Quentins-Lennick, Belgium[la] | Sint-Quintens-Lennick, Belgium[la] | Lennik, Belgium[la] | Sint-Kwintens-Lennik, Belgium[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007542502005171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'إيست فيليدج (نيويورك، نيويورك)'"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007542859905171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'موردن (لندن، إنجلترا)'",
+        "Updated ViafId from 'null' to '167427161'"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007555035905171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'ميدلبورغ (هولندا)'",
+        "updatePlaceRecord: variants +3: Middelburgh (Netherlands)[la] | Midlebrugh (Netherlands)[la] | Midleburgh (Netherlands)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007559888105171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'تورانس (كاليفورنيا)'",
+        "Updated Wd from 'null' to 'Q489197'",
+        "updatePlaceRecord: variants +3: City of Torrance (Calif.)[la] | T Town (Calif.)[la] | Torrance, Calif.[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007564208705171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'سيتجيس (إسبانيا)'",
+        "Updated ViafId from 'null' to '143070384'",
+        "updatePlaceRecord: variants +7: Sidzhes (Spain)[la] | Sidz︠h︡as (Spain)[la] | Sitses (Spain)[la] | Sitzes (Spain)[la] | Σίτζες (Spain)[la] | Σίτσες (Spain)[la] | Sitges, Spain[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007559843805171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryRomFull from 'Düsseldorf (Germany : Regierungsbezirk)' to 'Düsseldorf (Germany : Regierungsbezirk)'",
+        "Updated PrimaryArabFull from 'null' to 'دوسلدورف (ألمانيا : ريجيرونس بيزيرك)'",
+        "Updated ViafId from 'null' to '140751981'",
+        "updatePlaceRecord: variants +3: Reg. Bez. Düsseldorf (Germany)[la] | Regierungsbezirk Düsseldorf (Germany)[la] | Düsseldorf (Regierungsbezirk)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007550345205171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'لوما ليندا (كاليفورنيا)'",
+        "Updated ViafId from 'null' to '249371813'",
+        "updatePlaceRecord: variants +2: City of Loma Linda (Calif.)[la] | Loma Linda, Calif.[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007553073605171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'سيوداد ديل كارمن (المكسيك)'",
+        "Updated ViafId from 'null' to '152487652'",
+        "updatePlaceRecord: variants +2: Partido del Cármen (Mexico)[la] | Carmen (Campeche, Mexico)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007533105105171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'كليمنتينوم (براغ، جمهورية التشيك)'",
+        "updatePlaceRecord: variants +1: Clementinum (Prague, Czech Republic)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007533544005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007533544005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007535618105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007535618105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007550438205171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'טייבי (ג'ורג'יה : אי)' to 'טייבי (אי) (ג'ורג'יה)'",
+        "Updated PrimaryArabFull from 'null' to 'جزيرة تيبي (جورجيا)'",
+        "updatePlaceRecord: variants +1: Tybee (Ga.)[la]",
+        "updatePlaceRecord: variants already present, not inserted (1): Tybee (Ga.)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007555084105171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'لاريوخا (الأرجنتين : مقاطعة)'",
+        "updatePlaceRecord: variants +3: Rioja (Argentina : Province)[la] | Rioja, La, Argentine Republic (Province)[la] | La Rioja, Argentine Republic (Province)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007540116705171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'إيلافا (سلوفاكيا)'",
+        "Updated ViafId from 'null' to '156216972'",
+        "updatePlaceRecord: variants +3: Illava (Slovakia)[la] | Ilava (Czechoslovakia)[la] | Illava (Czechoslovakia)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007554827005171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'ساراتوف (روسيا)'",
+        "updatePlaceRecord: variants +3: Saratov, Russia (City)[la] | Saratov (R.S.F.S.R.)[la] | סאראטוב (רוסיה)[he]",
+        "updatePlaceRecord: variants already present, not inserted (2): Saratov, Russia (City)[la] | Saratov (R.S.F.S.R.)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007557258205171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'بيليفيلد (ألمانيا)'",
+        "updatePlaceRecord: variants +2: Bethel bei Bielefeld (Germany)[la] | Bethel bei Biefeld (Germany)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007564304805171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryRomFull from 'Santa Cruz (Bolivia : Dept.)' to 'Santa Cruz (Bolivia : Department)'",
+        "Updated PrimaryArabFull from 'null' to 'سانتا كروز (بوليفيا : المقاطعة)'",
+        "Updated Wd from 'Q1107974' to 'Q235106'. Manual review required. Kima Id:9772",
+        "updatePlaceRecord: variants +3: Santa Cruz de la Sierra (Bolivia : Department)[la] | Santa Cruz (Bolivia : Dept.)[la] | Santa Cruz de la Sierra (Bolivia : Dept.)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007566750005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007566750005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007567469505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'نورثوود (لندن، إنجلترا)'",
+        "Updated ViafId from 'null' to '150210010'"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007559922305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007559922305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007494118305171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'ساسي (ماتيرا، إيطاليا)'"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007465735105171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'خرمشهر (إيران)'",
+        "updatePlaceRecord: variants +7: Khoramshahr (Iran)[la] | Khorramchahre (Iran)[la] | Khorramshahr (Iran)[la] | Khūnīnshahr (Iran)[la] | Mohammerah (Iran)[la] | Muhammerah (Iran)[la] | Muḥammarah (Iran)[la]",
+        "updatePlaceRecord: variants already present, not inserted (6): Khorramshahr (Iran)[la] | Muhammerah (Iran)[la] | Khorramchahre (Iran)[la] | Khūnīnshahr (Iran)[la] | Mohammerah (Iran)[la] | Khoramshahr (Iran)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007489299505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007489299505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007554967105171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'بايرويت (ألمانيا)'",
+        "Updated ViafId from '132490826' to '5648169084860190310003'. Manual review required. Kima Id:6882",
+        "updatePlaceRecord: variants +9: Bayreuth, Ger. (City)[la] | Baireuth (Germany)[la] | Baruthum (Germany)[la] | Baruthinus (Germany)[la] | Burythum (Germany)[la] | Byruthum (Germany)[la] | ברייט (גרמניה)[he] | בירויט (גרמניה)[he] | באירייט (גרמניה)[he]",
+        "updatePlaceRecord: variants already present, not inserted (1): Bayreuth, Ger. (City)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007531118005171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'المحطة الجوية البحرية الأمريكية (أوتوموا، أيوا)'",
+        "Updated ViafId from 'null' to '150263222'",
+        "updatePlaceRecord: variants +3: NAS Ottumwa (Ottumwa, Iowa)[la] | NAS Ottumwa (Iowa)[la] | Naval Air Station Ottumwa (Iowa)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007531805305171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated ViafId from '130895295' to '298149066625665602434'. Manual review required. Kima Id:10023",
+        "updatePlaceRecord: variants +5: Mo-san-pi-kʻo[la] | NRM (Mozambique)[la] | Provincia de Mocambique (Portugal)[la] | Province de Mozambique (Portugal)[la] | Colonia de Mocambique (Portugal)[la]",
+        "updatePlaceRecord: variants already present, not inserted (14): Republica de Mocambique[la] | Republica Popular de Mocambique[la] | Mocambique[la] | Mo-san-pi-ko[la] | People's Republic of Mozambique[la] | Mozambik[la] | Narodnaia Respublika Mozambik[la] | NR Mozambik[la] | State of Mozambique[la] | Mosambiek[la] | Mosambik[la] | Volksrepublik Mosambik[la] | Msumbiji[la] | Mozambico[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007540326705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007540326705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007550347405171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'غرونوبل (فرنسا)'",
+        "Updated ViafId from '170334907' to '123809154'. Manual review required. Kima Id:7193",
+        "updatePlaceRecord: variants +2: Gratianopolis (France)[la] | גרנובלא (צרפת)[he]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007552528805171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'ميلووكي (ويسكونسن)'",
+        "updatePlaceRecord: variants +1: Milwaukie (Wis.)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007552763805171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'اتحاد شمال ألمانيا الشمالية (1866-1870)'",
+        "updatePlaceRecord: variants +6: North German Union (1866-1870)[la] | United States of North Germany (1866-1870)[la] | North German Confederation, 1866-1870[la] | Si︠e︡vero-Germanskiï Soi︠u︡z (1866-1870)[la] | Severo-Germanskiï Soi︠u︡z (1866-1870)[la] | North German Confederation (1866-1870)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007552791605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007552791605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007554968405171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 113.1 km. Manual review required. Kima Id:6905 Name:בירוביג'אן (רוסיה)",
+        "Updated PrimaryArabFull from 'null' to 'بيروبيدجان (روسيا)'",
+        "updatePlaceRecord: variants +12: Birobidzhan (R.S.F.S.R.)[la] | Biro-Bidjan (Russia)[la] | Birabidzhan (Russia)[la] | Birobidshansk (Russia)[la] | Birobidjan (Russia)[la] | Birobidzan (Russia)[la] | Tikhonʹkaya Stantsiya (R.S.F.S.R.)[la] | Birobijan (Russia)[la] | Tikhonʹkai︠a︡ stant︠s︡ii︠a︡ (R.S.F.S.R.)[la] | Birobidzshan (Russia)[la] | Birobidshan (Russia)[la] | Birebidzshan (Russia)[la]",
+        "updatePlaceRecord: variants already present, not inserted (1): Birobidzhan (R.S.F.S.R.)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007566727605171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryRomFull from 'Valašské Meziříčí (Czech Republic)' to 'Valašské Meziříčí (Czech Republic)'",
+        "Updated PrimaryArabFull from 'null' to 'فالاسك مزيريتشي (جمهورية التشيك)'",
+        "Updated ViafId from 'null' to '144251122'",
+        "updatePlaceRecord: variants +4: Wallachisch Meseritsch (Czech Republic)[la] | Wallachisch Meseritsch, Czechoslovakia[la] | Valašské Meziříčí, Czechoslovakia[la] | Valašské Meziříčí (Czechoslovakia)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007557340705171"
+      },
+      "result": "Success",
+      "messages": [
+        "updatePlaceRecord: variants +7: Cabo Juby (Morocco)[la] | Cabo Yubi (Morocco)[la] | Cap Juby (Morocco)[la] | Talfaia (Morocco)[la] | Tarfaia (Morocco)[la] | Villa Bens (Morocco)[la] | Tarfaya, Morocco[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007562179605171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'فورت نوكس (كنتاكي)'",
+        "Updated ViafId from 'null' to '127850853'",
+        "updatePlaceRecord: variants +3: Fort Knox, Ky.[la] | Camp Knox (Ky.)[la] | Knox, Fort (Ky.)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007478086705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007478086705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007482556505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'جودي (أثينا، اليونان)'",
+        "Updated ViafId from 'null' to '129203408'"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007491938305171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'هرفاتسكا زاجيدنيكا هرسك بوسنة (البوسنة والهرسك)'",
+        "Updated ViafId from 'null' to '125697933'",
+        "updatePlaceRecord: variants +13: Croatian Community of Herceg-Bosna (Bosnia and Herzegovina)[la] | Croatian Republic of Herceg-Bosna (Bosnia and Herzegovina)[la] | HR H-B (Bosnia and Herzegovina)[la] | HZ H-B (Bosnia and Herzegovina)[la] | Hrvatska republika Herceg-Bosna (Bosnia and Herzegovina)[la] | Hrvatska zajednica Herceg-Bosna (Bosnia and Herzegovina : 1992-1996)[la] | Croatian Community of Herceg-Bosna (Bosnia and Herzegovina : 1992-1996)[la] | Croatian Republic of Herceg-Bosna (Bosnia and Herzegovina : 1992-1996)[la] | Hrvatska republika Herceg-Bosna (Bosnia and Herzegovina : 1992-1996)[la] | HR H-B (Bosnia and Herzegovina : 1992-1996)[la] | HZ H-B (Bosnia and Herzegovina : 1992-1996)[la] | Republic of Herceg-Bosna (Bosnia and Herzegovina : 1992-1996)[la] | Republika Herceg-Bosna (Bosnia and Herzegovina : 1992-1996)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007542503205171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'الحي الصيني (مقاطعة سان فرانسيسكو، كاليفورنيا)'",
+        "updatePlaceRecord: variants +2: San Francisco Chinatown (San Francisco, Calif.)[la] | Tang ren jie (San Francisco, Calif.)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007554957605171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'أمالفي (إيطاليا)'",
+        "Updated Wd from 'null' to 'Q80563'",
+        "Updated ViafId from '151254863' to '304910629'. Manual review required. Kima Id:6262",
+        "updatePlaceRecord: variants +4: Amalpha (Italy)[la] | Amalphia (Italy)[la] | Melfia (Italy)[la] | Melphia (Italy)[la]",
+        "updatePlaceRecord: variants already present, not inserted (5): Amalpha[la] | Amalphia[la] | Melfia[la] | Melphia[la] | Amalfi[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007555089105171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'مقاطعة هوري (كارولاينا الجنوبية)'",
+        "Updated ViafId from 'null' to '152435317'",
+        "updatePlaceRecord: variants +2: Horry District (S.C.)[la] | Horry Co., S.C.[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007566710405171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'فوبرتال (ألمانيا)'",
+        "updatePlaceRecord: variants +1: Wupperthal (Germany)[la]",
+        "updatePlaceRecord: variants already present, not inserted (1): Wuppertal[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007559616605171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'كيرسي (فرنسا)'",
+        "updatePlaceRecord: variants already present, not inserted (2): Quercy[la] | Quercy[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007564313905171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'زاكاتيكاس (المكسيك : ولاية)'",
+        "updatePlaceRecord: variants +3: Estado Libre y Soberano de Zacatecas (Mexico)[la] | Estado de Zacatecas (Mexico)[la] | Free and Sovereign State of Zacatecas (Mexico)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007602633905171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryRomFull from 'Khān Yūnus (Camp)(Gaza Strip)' to 'Khān Yūnus (Camp) (Gaza Strip)'",
+        "Updated Wd from 'null' to 'Q6400104'",
+        "updatePlaceRecord: variants +1: Khan Yunis (Camp) (Gaza Strip)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007489579905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007489579905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007542977605171"
+      },
+      "result": "Success",
+      "messages": [
+        "Coordinates added: Lat=35.7005937, Lon=51.4939453",
+        "Updated PrimaryRomFull from 'Gulpāyigān (Iran)' to 'Gulpāyigān (Iran)'",
+        "Updated PrimaryArabFull from 'null' to 'كلبايكان (إيران)'",
+        "updatePlaceRecord: variants +8: Gulpāyagān (Iran)[la] | Gulpāygān (Iran)[la] | Golpāyegān (Iran)[la] | Gulpaigan (Iran)[la] | Golpaygan (Iran)[la] | גאלפאדגאן (איראן)[he] | דגלפאדגאן (איראן)[he] | גלפאדגאן (איראן)[he]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007554809405171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'غنت (بلجيكا)'",
+        "updatePlaceRecord: variants +4: Gante (Belgium)[la] | Gand (Belgium)[la] | Gent (Belgium)[la] | ג'נט (בלגיה)[he]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007555170705171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'كامبيوني ديتاليا (إيطاليا)'",
+        "Updated ViafId from 'null' to '144818760'",
+        "updatePlaceRecord: variants +2: Campione (Como, Italy)[la] | Campione d'Italia[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007550327805171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'بالينكي (تشياباس، المكسيك)'",
+        "updatePlaceRecord: variants +3: Palemke (Chiapas, Mexico)[la] | Palemke, Mexico[la] | Palenque, Mexico[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007550339805171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'هانوفر (ألمانيا)'",
+        "updatePlaceRecord: variants +3: Landeshauptstadt Hannover (Germany)[la] | Hanover (Germany)[la] | הנאבר (גרמניה)[he]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007554968805171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'فورونيج (روسيا)'",
+        "updatePlaceRecord: variants +4: Voronezh (R.S.F.S.R.)[la] | Voronež (Russia)[la] | Voronezh, Russia (City)[la] | Voronezh (Voronezh oblast, Russia)[la]",
+        "updatePlaceRecord: variants already present, not inserted (1): Voronezh (R.S.F.S.R.)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007564931705171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'كولشيس'",
+        "Updated Wd from 'null' to 'Q183150'",
+        "updatePlaceRecord: variants +1: Laz[la]",
+        "updatePlaceRecord: variants already present, not inserted (17): Kolkhida[la] | Lazice[la] | Egrisis samepʻo[la] | Laziki[la] | Lazskoe t︠s︡arstvo[la] | Lazikis samepʻo[la] | Kingdom of Lazice[la] | Kolkhidskoe t︠s︡arstvo[la] | Kingdom of Egrisi[la] | Egrisi[la] | Ėgrisskoe t︠s︡arstvo[la] | Kolxida[la] | Laz Kingdom[la] | Egrisi Kingdom[la] | Kolchis[la] | Kolxetʻi[la] | Kingdom of Colchis[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007533349105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007533349105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007564297705171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'فرانكونيا الوسطى (ألمانيا)'",
+        "updatePlaceRecord: variants +3: Regierungsbezirk Mittelfranken (Germany)[la] | Middle Franconia (Germany)[la] | Franconia, Middle[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007535451205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007535451205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007542491605171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'سوهو (نيويورك، نيويورك)'",
+        "updatePlaceRecord: variants +3: Hell's Hundred Acres (New York, N.Y.)[la] | South of Houston (New York, N.Y.)[la] | South of Houston Street (New York, N.Y.)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007554968105171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'بيتيجليانو (غروسيتو، إيطاليا)'",
+        "Updated Wd from 'null' to 'Q214929'",
+        "updatePlaceRecord: variants +1: Pitigliano, Italy (Grosseto)[la]",
+        "updatePlaceRecord: variants already present, not inserted (1): Pitigliano, Italy (Grosseto)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007548042905171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'ماكاو (الصين)'",
+        "updatePlaceRecord: variants +6: Cidade de Macau (China)[la] | Macau (Macau)[la] | Macao (China)[la] | Ao-men (China)[la] | Aomen (China)[la] | Macao (City)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007554943205171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'كورك (أيرلندا : مقاطعة)'",
+        "updatePlaceRecord: variants +4: County Cork (Ireland)[la] | Corcaigh (Ireland : County)[la] | Cork, Ire. (County)[la] | Cork (County)[la]",
+        "updatePlaceRecord: variants already present, not inserted (1): County Borough of Cork[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007562369105171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'قاعدة بيترسون الجوية (كولورادو)'",
+        "Updated ViafId from 'null' to '145473630'"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007559615905171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'فلنسبورغ (ألمانيا)'",
+        "updatePlaceRecord: variants +2: Flensborg (Germany)[la] | Flensborg, Ger.[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007559648605171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'آشلاند (أوريغن)'",
+        "updatePlaceRecord: variants +2: City of Ashland (Or.)[la] | Ashland, Or.[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007561900005171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryRomFull from 'Üsküdar (Istanbul, Turkey)' to 'Üsküdar (Istanbul, Turkey)'",
+        "Updated PrimaryArabFull from 'null' to 'أوسكودار (إسطنبول، تركيا)'",
+        "updatePlaceRecord: variants +12: Chrysopolis (Istanbul, Turkey)[la] | Oskudar (Istanbul, Turkey)[la] | Scutari (Istanbul, Turkey)[la] | Skiwtar (Istanbul, Turkey)[la] | Skutari (Istanbul, Turkey)[la] | Scutari, Turkey[la] | Oskudar, Turkey[la] | Uskudar, Turkey[la] | Skiwtar, Turkey[la] | Üsküdar, Turkey[la] | Scutari (Istanbul, Turkey) (Istanbul, Turkey)[la] | איש קוטאר (איסטנבול, טורקיה)[he]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007562355905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007562355905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007564888505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'ماركت سانت فلوريان (النمسا)'",
+        "updatePlaceRecord: variants +2: Markt S.F. (Austria)[la] | Markt Sankt Florian (Austria)[la]",
+        "updatePlaceRecord: variants already present, not inserted (1): Markt S. F.[la]"
+      ],
+      "nliState": "Live"
+    }
+  ],
+  "newSummary": [
+    {
+      "item": {
+        "recordId": "987007529957505171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007529957505171 (אגם מונטיצ'לו (טקסס))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007554318805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007554318805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014651467605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014651467605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014659767805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014659767805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014660465505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014660465505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014660465605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014660465605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014669835505171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987014669835505171 (ג'רבה (אי) (תוניסיה))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014660465705171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987014660465705171 (פקה (טורקיה))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014660465405171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987014660465405171 (יומורטליק (טורקיה))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007555488705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007555488705171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Wamba (Democratic Republic of the Congo), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014459127405171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987014459127405171 (בית גוברין (ישראל : קיבוץ))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617170005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617170005171 does not satisfy IsPlaceToUse: no valid 034: 034($f=N050646, $e=E0201931) — missing or empty $2, missing $d, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, missing $g. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007463786405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007463786405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007471612805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007471612805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007491813805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007491813805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007463748605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007463748605171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Conjunto Palmeiras (Fortaleza, Brazil), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007471603305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007471603305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007484877805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007484877805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007487133405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007487133405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007491950905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007491950905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007494126405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007494126405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007463885705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007463885705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007465754805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007465754805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007473869205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007473869205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007478045105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007478045105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007491969305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007491969305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007494235005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007494235005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007494240105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007494240105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007494364205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007494364205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007499072205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007499072205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007533203905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007533203905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007533333305171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007533333305171 (פריזנהאוזן (דיפרץ, גרמניה))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007545177205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007545177205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007531173205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007531173205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007531187405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007531187405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007533221705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007533221705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007533224405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007533224405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007542643505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007542643505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007557487205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007557487205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007562418105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007562418105171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Carl Hagenbecks Tierpark (Hamburg, Germany), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007557687705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007557687705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007560246005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007560246005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007562381405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007562381405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987012922274705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012922274705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007270824405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007270824405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007465782705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007465782705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007465888205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007465888205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007469595905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007469595905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007471507505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007471507505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007471631505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007471631505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007473613505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007473613505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007473722205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007473722205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007482540105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007482540105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007489422405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007489422405171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Telegraph Hill (San Francisco, Calif.), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007494257505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007494257505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007533097005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007533097005171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Barrio Sur (Montevideo, Uruguay), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007533432505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007533432505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007535509105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007535509105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007540115105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007540115105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007550534905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007550534905171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=South Portland (Me.), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007535832805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007535832805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007540342105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007540342105171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Avallon (France : Canton), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007540419305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007540419305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007542745605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007542745605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007555338405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007555338405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007562295105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007562295105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007566976405171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: variants already present, not inserted (2): Bohemia[la] | Království české[la]",
+        "addPlaceRecord: added place 987007566976405171 (בוהמיה (ממלכה))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007559836905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007559836905171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Mason (Ohio : Township), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007561913605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007561913605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007562250505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007562250505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007565382605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007565382605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007562212505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007562212505171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=F.E. Warren Air Force Base (Wyo.), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007562511105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007562511105171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Naval Air Station Patuxent River (Md.), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007564420605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007564420605171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Lemoyne (Pa.), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007564471705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007564471705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987009450881405171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987009450881405171 (צימרסרודה (נוינטל, גרמניה))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007562144405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007562144405171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Ellington (Conn. : Town), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987011507975805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987011507975805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007465765505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007465765505171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Noroton Heights (Darien, Conn.), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007480114405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007480114405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007494221705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007494221705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007494256305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007494256305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007463592005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007463592005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007480076805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007480076805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007489452405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007489452405171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Plattsburgh Air Force Base (N.Y.), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007494210405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007494210405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007533340705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007533340705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007535829505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007535829505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007537911505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007537911505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007547820405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007547820405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007555040305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007555040305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007533147805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007533147805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007533384705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007533384705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007535726805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007535726805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007542762905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007542762905171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Arquipélago (Porto Alegre, Rio Grande do Sul, Brazil), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007548176905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007548176905171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Staré Město u Uherského Hradiště (Czech Republic), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007567220105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007567220105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007567339205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007567339205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007567602205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007567602205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007557628005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007557628005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007560001205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007560001205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007567219505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007567219505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007564474405171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007564474405171 (פיליפסבורג (ניו ג'רזי))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987008880868605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987008880868605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987009450881505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987009450881505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007562679905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007562679905171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Caimito (San Juan, P.R.), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987009165576105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987009165576105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987012492454705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012492454705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007467714205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007467714205171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Brighton (Utah), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007477940705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007477940705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007482436005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007482436005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007491855805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007491855805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007491936105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007491936105171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Collister (Boise, Idaho), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007487144805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007487144805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007533203305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007533203305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007533442205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007533442205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007533476305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007533476305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007535512405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007535512405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007535854605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007535854605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007540109105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007540109105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007540475805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007540475805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007542696805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007542696805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007542716205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007542716205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007545020905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007545020905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007547544605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007547544605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007557199105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007557199105171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Lowry Air Force Base (Colo.), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007542492405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007542492405171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=La Duchère (Lyon, France), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007564540405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007564540405171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Southport (Conn.), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007559850705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007559850705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007564329705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007564329705171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Doberlug-Kirchhain (Germany), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007562334405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007562334405171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Lạng Sơn (Vietnam), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007566830705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007566830705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007567483105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007567483105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987009165883005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987009165883005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987009464190405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987009464190405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007561825005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007561825005171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Offelten (Preussisch Oldendorf, Germany), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987012780472105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012780472105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007270829105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007270829105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007469754005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007469754005171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Chestnut Hill (Northampton County, Pa.), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007473740205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007473740205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007491826405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007491826405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007491937705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007491937705171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Stella (Monsampolo del Tronto, Italy), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007491943405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007491943405171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Woodstock (Ohio), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007491983005171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007491983005171 (טטואן (מדריד, ספרד))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007467880105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007467880105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007487025905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007487025905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007491828805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007491828805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007494127005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007494127005171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Cibali (Istanbul, Turkey), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007496773005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007496773005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007498912105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007498912105171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Winthrop Beach (Mass.), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007531281805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007531281805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007533479005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007533479005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007537709505171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007537709505171 (בסיס חיל האוויר אלסוורת' (דקוטה הדרומית))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007545023505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007545023505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007537797105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007537797105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007542759205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007542759205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007545011705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007545011705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007550194305171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007550194305171 (אלכסנדרסבאד (גרמניה))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007552534005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007552534005171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Moody Air Force Base (Ga.), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007557869005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007557869005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007567396905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007567396905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007535554705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007535554705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007550447305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007550447305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007559880405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007559880405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007562300605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007562300605171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Upper Denby (England), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013294746105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013294746105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007349296205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007349296205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007396207105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007396207105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007471611705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007471611705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007478074705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007478074705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007482577205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007482577205171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Dalry (Edinburgh, Scotland), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007491935005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007491935005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007494264905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007494264905171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Buner District (Pakistan), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007471497505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007471497505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007477935405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007477935405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007537837905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007537837905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007538087005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007538087005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007540557005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007540557005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007547815305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007547815305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007531027805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007531027805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007533578405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007533578405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007535686505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007535686505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007535691805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007535691805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007537932505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007537932505171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Marine Corps Air Station New River (N.C.), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007542593405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007542593405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007552721005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007552721005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007540474705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007540474705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007559851305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007559851305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007562563605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007562563605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007566862105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007566862105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007565286505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007565286505171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Jhenaidah District (Bangladesh), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    }
+  ],
+  "requireReviewSummary": [
+    {
+      "item": {
+        "recordId": "987007564304805171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryRomFull from 'Santa Cruz (Bolivia : Dept.)' to 'Santa Cruz (Bolivia : Department)'",
+        "Updated PrimaryArabFull from 'null' to 'سانتا كروز (بوليفيا : المقاطعة)'",
+        "Updated Wd from 'Q1107974' to 'Q235106'. Manual review required. Kima Id:9772",
+        "updatePlaceRecord: variants +3: Santa Cruz de la Sierra (Bolivia : Department)[la] | Santa Cruz (Bolivia : Dept.)[la] | Santa Cruz de la Sierra (Bolivia : Dept.)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007554967105171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'بايرويت (ألمانيا)'",
+        "Updated ViafId from '132490826' to '5648169084860190310003'. Manual review required. Kima Id:6882",
+        "updatePlaceRecord: variants +9: Bayreuth, Ger. (City)[la] | Baireuth (Germany)[la] | Baruthum (Germany)[la] | Baruthinus (Germany)[la] | Burythum (Germany)[la] | Byruthum (Germany)[la] | ברייט (גרמניה)[he] | בירויט (גרמניה)[he] | באירייט (גרמניה)[he]",
+        "updatePlaceRecord: variants already present, not inserted (1): Bayreuth, Ger. (City)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007531805305171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated ViafId from '130895295' to '298149066625665602434'. Manual review required. Kima Id:10023",
+        "updatePlaceRecord: variants +5: Mo-san-pi-kʻo[la] | NRM (Mozambique)[la] | Provincia de Mocambique (Portugal)[la] | Province de Mozambique (Portugal)[la] | Colonia de Mocambique (Portugal)[la]",
+        "updatePlaceRecord: variants already present, not inserted (14): Republica de Mocambique[la] | Republica Popular de Mocambique[la] | Mocambique[la] | Mo-san-pi-ko[la] | People's Republic of Mozambique[la] | Mozambik[la] | Narodnaia Respublika Mozambik[la] | NR Mozambik[la] | State of Mozambique[la] | Mosambiek[la] | Mosambik[la] | Volksrepublik Mosambik[la] | Msumbiji[la] | Mozambico[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007550347405171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'غرونوبل (فرنسا)'",
+        "Updated ViafId from '170334907' to '123809154'. Manual review required. Kima Id:7193",
+        "updatePlaceRecord: variants +2: Gratianopolis (France)[la] | גרנובלא (צרפת)[he]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007554968405171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 113.1 km. Manual review required. Kima Id:6905 Name:בירוביג'אן (רוסיה)",
+        "Updated PrimaryArabFull from 'null' to 'بيروبيدجان (روسيا)'",
+        "updatePlaceRecord: variants +12: Birobidzhan (R.S.F.S.R.)[la] | Biro-Bidjan (Russia)[la] | Birabidzhan (Russia)[la] | Birobidshansk (Russia)[la] | Birobidjan (Russia)[la] | Birobidzan (Russia)[la] | Tikhonʹkaya Stantsiya (R.S.F.S.R.)[la] | Birobijan (Russia)[la] | Tikhonʹkai︠a︡ stant︠s︡ii︠a︡ (R.S.F.S.R.)[la] | Birobidzshan (Russia)[la] | Birobidshan (Russia)[la] | Birebidzshan (Russia)[la]",
+        "updatePlaceRecord: variants already present, not inserted (1): Birobidzhan (R.S.F.S.R.)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007554957605171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'أمالفي (إيطاليا)'",
+        "Updated Wd from 'null' to 'Q80563'",
+        "Updated ViafId from '151254863' to '304910629'. Manual review required. Kima Id:6262",
+        "updatePlaceRecord: variants +4: Amalpha (Italy)[la] | Amalphia (Italy)[la] | Melfia (Italy)[la] | Melphia (Italy)[la]",
+        "updatePlaceRecord: variants already present, not inserted (5): Amalpha[la] | Amalphia[la] | Melfia[la] | Melphia[la] | Amalfi[la]"
+      ],
+      "nliState": "Live"
+    }
+  ],
+  "failedSummary": [],
+  "requireReviewItems": [
+    {
+      "item": {
+        "recordId": "987007564304805171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryRomFull from 'Santa Cruz (Bolivia : Dept.)' to 'Santa Cruz (Bolivia : Department)'",
+        "Updated PrimaryArabFull from 'null' to 'سانتا كروز (بوليفيا : المقاطعة)'",
+        "Updated Wd from 'Q1107974' to 'Q235106'. Manual review required. Kima Id:9772",
+        "updatePlaceRecord: variants +3: Santa Cruz de la Sierra (Bolivia : Department)[la] | Santa Cruz (Bolivia : Dept.)[la] | Santa Cruz de la Sierra (Bolivia : Dept.)[la]"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01515cz  a2200289n  4500</leader><controlfield tag=\"005\">20260622120919.0</controlfield><controlfield tag=\"008\">810113n||acannbab|          |a ana    ||</controlfield><controlfield tag=\"001\">987007564304805171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 80156426</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q235106</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">141897059</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">-63</subfield><subfield code=\"e\">-63</subfield><subfield code=\"f\">-17.866667</subfield><subfield code=\"g\">-17.866667</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000982232</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">DLC</subfield><subfield code=\"d\">NIC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Santa Cruz (Bolivia : Department)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">סנטה קרוז (בוליביה : מחוז)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">سانتا كروز (بوليفيا : المقاطعة)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Bolivia</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Santa Cruz de la Sierra (Bolivia : Department)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Santa Cruz (Bolivia : Dept.)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Santa Cruz de la Sierra (Bolivia : Dept.)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record enriched with 4xx fields from LCNA on: 20260622</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Old catalog heading: Santa Cruz, Bolivia (Dept.)</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">1xx field changed to conform to LC form via VIAF: 20190125</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Pacheco Jiménez, V. Caminos de penetración al norte del Departamento de La Paz ... 1983:</subfield><subfield code=\"b\">t.p. (Santa Cruz de la Sierra) p. 25 (Santa Cruz)</subfield></datafield></record>\n",
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007554967105171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'بايرويت (ألمانيا)'",
+        "Updated ViafId from '132490826' to '5648169084860190310003'. Manual review required. Kima Id:6882",
+        "updatePlaceRecord: variants +9: Bayreuth, Ger. (City)[la] | Baireuth (Germany)[la] | Baruthum (Germany)[la] | Baruthinus (Germany)[la] | Burythum (Germany)[la] | Byruthum (Germany)[la] | ברייט (גרמניה)[he] | בירויט (גרמניה)[he] | באירייט (גרמניה)[he]",
+        "updatePlaceRecord: variants already present, not inserted (1): Bayreuth, Ger. (City)[la]"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>02048cz  a2200409n  4500</leader><controlfield tag=\"005\">20260623145550.0</controlfield><controlfield tag=\"008\">800522n| acannaabn          |a ana      </controlfield><controlfield tag=\"001\">987007554967105171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 50012490</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q3923</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">5648169084860190310003</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">011.4750831</subfield><subfield code=\"e\">011.6728261</subfield><subfield code=\"f\">049.9772605</subfield><subfield code=\"g\">049.8881912</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000971462</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">UPB</subfield><subfield code=\"d\">OCoLC</subfield></datafield><datafield tag=\"043\" ind1=\" \" ind2=\" \"><subfield code=\"a\">e-gx---</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Bayreuth (Germany)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">ביירוית (גרמניה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">بايرويت (ألمانيا)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Germany</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"w\">nnaa</subfield><subfield code=\"a\">Bayreuth, Ger. (City)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Baireuth (Germany)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Bayreuth, Ger. (City)</subfield><subfield code=\"w\">nnaa</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Baruthum (Germany)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Baruthinus (Germany)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Burythum (Germany)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Byruthum (Germany)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">ברייט (גרמניה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">בירויט (גרמניה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">באירייט (גרמניה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record enriched with 4xx fields from LCNA on: 20260623</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record enhanced with cross references from NNL13-000000561</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">BGN 8/26/81</subfield><subfield code=\"b\">(Bayreuth; ppl. 49 57N, 11 35E)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Orbis Latinus, 1972:</subfield><subfield code=\"b\">I:225 (Baruthum, Baruthinus, Burythum, Byruthensis, Byruthum: Bayreuth, St., Bayern, RB. O-Franken, Deutschland)</subfield></datafield><datafield tag=\"781\" ind1=\" \" ind2=\"0\"><subfield code=\"z\">Germany</subfield><subfield code=\"z\">Bayreuth</subfield></datafield><datafield tag=\"955\" ind1=\" \" ind2=\" \"><subfield code=\"a\">ברייט BAYREUTH</subfield></datafield><datafield tag=\"955\" ind1=\" \" ind2=\" \"><subfield code=\"a\">ביירות (גרמניה) BAYREUTH</subfield></datafield></record>\n",
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007531805305171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated ViafId from '130895295' to '298149066625665602434'. Manual review required. Kima Id:10023",
+        "updatePlaceRecord: variants +5: Mo-san-pi-kʻo[la] | NRM (Mozambique)[la] | Provincia de Mocambique (Portugal)[la] | Province de Mozambique (Portugal)[la] | Colonia de Mocambique (Portugal)[la]",
+        "updatePlaceRecord: variants already present, not inserted (14): Republica de Mocambique[la] | Republica Popular de Mocambique[la] | Mocambique[la] | Mo-san-pi-ko[la] | People's Republic of Mozambique[la] | Mozambik[la] | Narodnaia Respublika Mozambik[la] | NR Mozambik[la] | State of Mozambique[la] | Mosambiek[la] | Mosambik[la] | Volksrepublik Mosambik[la] | Msumbiji[la] | Mozambico[la]"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>03408cz  a2200673n  4500</leader><controlfield tag=\"005\">20260623145948.0</controlfield><controlfield tag=\"008\">811020n||acannaabn          |a ana      </controlfield><controlfield tag=\"001\">987007531805305171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 81082759</subfield><subfield code=\"z\">sh 85088183</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q1029</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">298149066625665602434</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">35</subfield><subfield code=\"e\">35</subfield><subfield code=\"f\">-19</subfield><subfield code=\"g\">-19</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">E0350000</subfield><subfield code=\"e\">E0350000</subfield><subfield code=\"f\">S0181500</subfield><subfield code=\"g\">S0181500</subfield><subfield code=\"2\">geonames</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">(OCoLC)oca00628005</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000986309</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">DLC</subfield><subfield code=\"d\">DLC-S</subfield><subfield code=\"d\">DLC</subfield><subfield code=\"d\">WaU</subfield><subfield code=\"d\">DLC</subfield><subfield code=\"d\">DLC-S</subfield></datafield><datafield tag=\"043\" ind1=\" \" ind2=\" \"><subfield code=\"a\">f-mz---</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Mozambique</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">מוזמביק</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">موزمبيق</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Mozambique</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Mo-san-pi-kʻo</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">NRM (Mozambique)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Republica de Mocambique</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Republica Popular de Mocambique</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Mocambique</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Mo-san-pi-ko</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">People's Republic of Mozambique</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Mozambik</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Narodnaia Respublika Mozambik</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">NR Mozambik</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">State of Mozambique</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Mosambiek</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Mosambik</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Volksrepublik Mosambik</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Msumbiji</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Provincia de Mocambique (Portugal)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Province de Mozambique (Portugal)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Colonia de Mocambique (Portugal)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Mozambico</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"551\" ind1=\" \" ind2=\" \"><subfield code=\"w\">a</subfield><subfield code=\"a\">Portuguese East Africa</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record enriched with 4xx fields from LCNA on: 20260623</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Col. Lipp. gaz. 1956</subfield><subfield code=\"b\">(Mozambique, Mocambique, or Portuguese East Africa)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Pol. hdbk. of the world, 1980</subfield><subfield code=\"b\">(Mozambique, People's Republic of Mozambique, Republica Popular de Mocambique)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">US Off. of Geog. Gaz. of conventional names, 1977</subfield><subfield code=\"b\">(Mozambique, Peoples Republic of (conv.); Republica Popular de Mocambique (Port.))</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">IAkovlev, V. S. Mozambik, 1980:</subfield><subfield code=\"b\">t.p. (Mozambik) p. 5 (Narodnaia Respublika Mozambik (NRM), founded 1975)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Call to BGN, 6/30/81</subfield><subfield code=\"b\">(For. Names Committee in 1974 called it the State of Mozambique; its official name is People's Republic of Mozambique)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Van Aswegen, H.J. Die geskiedenis van Mosambiek:</subfield><subfield code=\"b\">t.p. (Mosambiek)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Die Verfassungen von Angola und Mosambik, c1978:</subfield><subfield code=\"b\">t.p. (Mosambik) p. 5 (Volksrepublik Mosambik)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Suvet za prav. i tran. na geog. im. (Bulgaria). Spisuk na transkribiranite geografski imena ot NR Mozambik, 1984.</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Mayoka, J.M.M. Utenzi wa vita wya uhuru wa Msumbiji, c1978</subfield><subfield code=\"b\">(1981 printing)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Freitas, A.J. de. A geologia e o desenvolvimento economico ... 1959:</subfield><subfield code=\"b\">t.p. (Provincia de Mocambique)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Its Statut politico-administratif de la Province de Mozambique, 1973.</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Encyc. Brit., 15th ed.</subfield><subfield code=\"b\">(Mozambique: formerly Portuguese East Africa)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Mozambico, c1992.</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Stateman's year-book, 1994-1995:</subfield><subfield code=\"b\">p. 973 (Mozambique; Republica de Mocambique; became a province of Portugal, June 1951, previously a colony ; transitional government toward independence estab. Sept. 1974; independence achieved June 1975)</subfield></datafield><datafield tag=\"781\" ind1=\" \" ind2=\"0\"><subfield code=\"z\">Mozambique</subfield></datafield></record>\n",
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007550347405171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'غرونوبل (فرنسا)'",
+        "Updated ViafId from '170334907' to '123809154'. Manual review required. Kima Id:7193",
+        "updatePlaceRecord: variants +2: Gratianopolis (France)[la] | גרנובלא (צרפת)[he]"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01662cz  a2200349n  4500</leader><controlfield tag=\"005\">20260623145032.0</controlfield><controlfield tag=\"008\">800709n| acannbabn          |n ana      </controlfield><controlfield tag=\"001\">987007550347405171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 79091186</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q1289</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">123809154</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">005.6780039</subfield><subfield code=\"e\">005.7530810</subfield><subfield code=\"f\">045.2143261</subfield><subfield code=\"g\">045.1540050</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">(OCoLC)oca00323513</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000976429</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">NIC</subfield><subfield code=\"d\">WaU</subfield></datafield><datafield tag=\"043\" ind1=\" \" ind2=\" \"><subfield code=\"a\">e-fr---</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Grenoble (France)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">גרנובל (צרפת)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">غرونوبل (فرنسا)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">France</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Gratianopolis (France)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">גרנובלא (צרפת)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record enriched with 4xx fields from LCNA on: 20260623</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Old catalog heading: Grenoble</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record enhanced with cross references from NNL13-000000653</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">6xx fields added from 2014 LCNA file</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">GeoNames, algorithmically matched, 2009</subfield><subfield code=\"b\">(ppl; 45°10ʹ00ʺN 005°43ʹ00ʺE)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Columbia gaz. of the world, c1998</subfield><subfield code=\"b\">(Grenoble, anc. Gratianopolis; city, SE France, in the Alpine Grésivaudan valley, Isère dept.; 45°10ʹN 05°43ʹE)</subfield></datafield><datafield tag=\"781\" ind1=\" \" ind2=\"0\"><subfield code=\"z\">France</subfield><subfield code=\"z\">Grenoble</subfield></datafield><datafield tag=\"955\" ind1=\" \" ind2=\" \"><subfield code=\"a\">גרנובלא GRENOBLE</subfield></datafield></record>\n",
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007554968405171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 113.1 km. Manual review required. Kima Id:6905 Name:בירוביג'אן (רוסיה)",
+        "Updated PrimaryArabFull from 'null' to 'بيروبيدجان (روسيا)'",
+        "updatePlaceRecord: variants +12: Birobidzhan (R.S.F.S.R.)[la] | Biro-Bidjan (Russia)[la] | Birabidzhan (Russia)[la] | Birobidshansk (Russia)[la] | Birobidjan (Russia)[la] | Birobidzan (Russia)[la] | Tikhonʹkaya Stantsiya (R.S.F.S.R.)[la] | Birobijan (Russia)[la] | Tikhonʹkai︠a︡ stant︠s︡ii︠a︡ (R.S.F.S.R.)[la] | Birobidzshan (Russia)[la] | Birobidshan (Russia)[la] | Birebidzshan (Russia)[la]",
+        "updatePlaceRecord: variants already present, not inserted (1): Birobidzhan (R.S.F.S.R.)[la]"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>02570cz  a2200493n  4500</leader><controlfield tag=\"005\">20260623145949.0</controlfield><controlfield tag=\"008\">810601n| acannbabn          |a ana      </controlfield><controlfield tag=\"001\">987007554968405171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 81026440</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">134275874</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q7769</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">E1325700</subfield><subfield code=\"e\">E1325700</subfield><subfield code=\"f\">N0494800</subfield><subfield code=\"g\">N0494800</subfield><subfield code=\"2\">geonet</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000971447</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">DLC</subfield><subfield code=\"d\">DLC-R</subfield><subfield code=\"d\">NjP</subfield><subfield code=\"d\">NIC</subfield><subfield code=\"d\">DLC</subfield><subfield code=\"d\">OCoLC</subfield></datafield><datafield tag=\"043\" ind1=\" \" ind2=\" \"><subfield code=\"a\">e-ru---</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Birobidzhan (Russia)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">בירוביג'אן (רוסיה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">بيروبيدجان (روسيا)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Russia (Federation)</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"w\">nne</subfield><subfield code=\"a\">Birobidzhan (R.S.F.S.R.)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Birobidzhan (R.S.F.S.R.)</subfield><subfield code=\"w\">nne</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Biro-Bidjan (Russia)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Birabidzhan (Russia)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Birobidshansk (Russia)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Birobidjan (Russia)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Birobidzan (Russia)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Tikhonʹkaya Stantsiya (R.S.F.S.R.)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Birobijan (Russia)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Tikhonʹkai︠a︡ stant︠s︡ii︠a︡ (R.S.F.S.R.)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Birobidzshan (Russia)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Birobidshan (Russia)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Birebidzshan (Russia)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record enriched with 4xx fields from LCNA on: 20260623</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 034 imported from LCNA/LCSH n81026440 on: 20260219</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Old catalog heading: Birobidzhan, Russia</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">The following heading for an earlier name is a valid AACR 2 heading: Tikhonʹkai︠a︡ stant︠s︡ii︠a︡ (R.S.F.S.R.)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Rosenthal-Shnaiderman, E. Birobidzshan fun der Noenṭ, 1983:</subfield><subfield code=\"b\">verso t.p. (Birobidshan [in rom.])</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Birebidzshan, 1936:</subfield><subfield code=\"b\">p. 4 of cover (Birobidzhan)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Russia and the newly independent nations of the former Soviet Union [MAP], Jan., 1993</subfield><subfield code=\"b\">(Birobidzhan)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Col-Lipp gaz.</subfield><subfield code=\"b\">(Birobidzhan; city, capital of Jewish Autonomous Oblast, Khabarovsk Territory, Russian SFSR; name also applied to Jewish Autonomous Oblast; formerly called Tikhonkaya; variant spellings: Birobidjan, Birobijan)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">GEOnet, Sept. 9, 1999</subfield><subfield code=\"b\">(Birobidzhan--PPLA, 49°48ʹN 132°57ʹE)</subfield></datafield><datafield tag=\"781\" ind1=\" \" ind2=\"0\"><subfield code=\"z\">Russia (Federation)</subfield><subfield code=\"z\">Birobidzhan</subfield></datafield><datafield tag=\"933\" ind1=\" \" ind2=\" \"><subfield code=\"a\">HDR 202303</subfield></datafield></record>\n",
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007554957605171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'أمالفي (إيطاليا)'",
+        "Updated Wd from 'null' to 'Q80563'",
+        "Updated ViafId from '151254863' to '304910629'. Manual review required. Kima Id:6262",
+        "updatePlaceRecord: variants +4: Amalpha (Italy)[la] | Amalphia (Italy)[la] | Melfia (Italy)[la] | Melphia (Italy)[la]",
+        "updatePlaceRecord: variants already present, not inserted (5): Amalpha[la] | Amalphia[la] | Melfia[la] | Melphia[la] | Amalfi[la]"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01442nz  a2200385n  4500</leader><controlfield tag=\"005\">20260623145303.0</controlfield><controlfield tag=\"008\">790412n||acannaab|          |b ana    ||</controlfield><controlfield tag=\"001\">987007554957605171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 79021800</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q80563</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">304910629</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">14.60277778</subfield><subfield code=\"e\">14.60277778</subfield><subfield code=\"f\">40.63333333</subfield><subfield code=\"g\">40.63333333</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">E0143609</subfield><subfield code=\"e\">E0143609</subfield><subfield code=\"f\">N0403806</subfield><subfield code=\"g\">N0403806</subfield><subfield code=\"2\">geonames</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000974614</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Amalfi (Italy)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">אמלפי (איטליה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">أمالفي (إيطاليا)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Italy</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Amalpha (Italy)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Amalphia (Italy)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Melfia (Italy)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Melphia (Italy)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Amalpha</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Amalphia</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Melfia</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Melphia</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"w\">nnaa</subfield><subfield code=\"a\">Amalfi</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record enriched with 4xx fields from LCNA on: 20260623</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Old cat. hdg.: Amalfi</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">6xx fields added from 2014 LCNA file</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">GeoNames, algorithmically matched, 2009</subfield><subfield code=\"b\">(ppl; 40°38ʹ06ʺN 014°36ʹ09ʺE)</subfield></datafield><datafield tag=\"955\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Amalfi</subfield></datafield></record>\n",
+      "nliState": "Live"
+    }
+  ],
+  "failedItems": []
+}

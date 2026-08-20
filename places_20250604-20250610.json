@@ -1,11 +1,11 @@
 {
   "type": "Place",
-  "runTime": "2026-08-03T20:15:40.3496274Z",
+  "runTime": "2026-08-16T13:02:41.4899029Z",
   "period": "20250604-20250610",
-  "numProcessedItems": 7686,
-  "numModifiedItems": 12,
-  "numNewItems": 51,
-  "numReviewItems": 3,
+  "numProcessedItems": 7458,
+  "numModifiedItems": 6,
+  "numNewItems": 35,
+  "numReviewItems": 0,
   "numFailedItems": 0,
   "modifiedSummary": [
     {
@@ -14,8 +14,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007560185905171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007560185905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -23,60 +24,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987012340572505171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007489317705171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryRomFull from 'Wojewodztwo opolskie (Poland)' to 'Województwo Opolskie (Poland)'",
-        "Updated PrimaryArabFull from 'null' to 'فوجيودزو أوبولسكي (بولندا)'",
-        "updatePlaceRecord: variants +1: Wojewodztwo opolskie (Poland)[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007533337905171"
-      },
-      "result": "ManualReview",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'هيلي (ألمانيا)'",
-        "Updated Wd from 'Q32058468' to 'Q182716'. Manual review required. Kima Id:79074",
-        "Updated ViafId from 'null' to '123321811'"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007534248505171"
-      },
-      "result": "Success",
-      "messages": [
-        "updatePlaceRecord: variants +5: Givatayyim (Israel)[la] | Givatayim (Israel)[la] | Gevataym (Israel)[la] | Givataim (Israel)[la] | גבעתים (ישראל)[he]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007557639805171"
-      },
-      "result": "ManualReview",
-      "messages": [
-        "Location supposed to move 2069.0 km. Manual review required. Kima Id:14431 Name:סיטי אוף אינדוסטרי (קליפורניה)",
-        "Updated PrimaryArabFull from 'null' to 'مدينة الصناعة (كاليفورنيا)'",
-        "Updated Wd from 'null' to 'Q927094'",
-        "updatePlaceRecord: variants +2: Industry, Calif.[la] | Industry (Calif.)[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007566978005171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007566978005171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987012340572505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -84,8 +34,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007544081805171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007544081805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -93,20 +44,19 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007549674705171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007549674705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
-        "recordId": "987007550443805171"
+        "recordId": "987007566978005171"
       },
-      "result": "ManualReview",
+      "result": "NothingToDo",
       "messages": [
-        "Location supposed to move 3974.3 km. Manual review required. Kima Id:12575 Name:לונג ביץ' (ניו יורק)",
-        "Updated PrimaryArabFull from 'null' to 'لونج بيتش (نيويورك)'",
-        "Updated Wd from 'null' to 'Q40209'",
-        "updatePlaceRecord: variants +1: Long Beach, N.Y.[la]"
-      ]
+        "Place 987007566978005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -114,30 +64,12 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007546629905171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007588148005171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryRomFull from 'Sede Avraham (Israel)' to 'Sde Avraham (Israel)'",
-        "updatePlaceRecord: variants +2: Sede Avraham (Israel)[la] | Sdei Avraham (Israel)[la]"
-      ]
+        "Place 987007546629905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     }
   ],
   "newSummary": [
-    {
-      "item": {
-        "recordId": "987007536656905171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007536656905171 (ביססטר (אנגליה))"
-      ]
-    },
     {
       "item": {
         "recordId": "987007562005005171"
@@ -145,7 +77,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007562005005171 (וסטפילד (ניו ג'רזי))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -154,7 +87,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987013405412205171 (אריקסדייל (מניטובה))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -162,17 +96,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013435260005171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987013437203805171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987013437203805171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013435260005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -180,8 +106,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013435608905171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013435608905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -189,8 +116,19 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013437201205171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013437201205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013437203805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013437203805171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E160412, $e=E160412, $f=N474950, $g=N474950, $2=geonames) — $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -198,8 +136,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013437204605171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013437204605171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E255832, $e=E255832, $f=N483657, $g=N483657, $2=geonames) — $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -207,26 +146,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013437204805171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007471767605171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007471767605171 (גורודץ (מחוז ניז'גורודסקי, רוסיה))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007531083705171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007531083705171 (לויסטון (קליפורניה))"
-      ]
+        "Place 987013437204805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -234,8 +156,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007535838605171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007535838605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -243,17 +166,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013435259105171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987013435607105171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987013435607105171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013435259105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -261,8 +176,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013435607305171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013435607305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -270,8 +186,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013437197105171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013437197105171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E161132, $e=E161132, $f=N490453, $g=N490453, $2=geonames) — $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -279,8 +196,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013437202105171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013437202105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -288,8 +206,19 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013437205005171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013437205005171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E252333, $e=E252333, $f=N475105, $g=N475105, $2=geonames) — $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013435607105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013435607105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -297,26 +226,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013437207005171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007552813505171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007552813505171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007475723805171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007475723805171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013437207005171 does not satisfy IsPlaceToUse: no valid 034: 034($d=255520E, $e=255520E, $f=493652N, $g=493652N, $2=geohack) — $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -324,26 +236,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007554316905171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007530818905171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007530818905171 (אייכנאו (בוואריה, גרמניה))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007533512605171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007533512605171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007554316905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -351,8 +246,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007539539505171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007539539505171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Parque Natural Xochimilco (Mexico), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -360,8 +256,19 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007544114705171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007544114705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007533512605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007533512605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -369,17 +276,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007555834105171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007559808405171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007559808405171 (פולינג (ויילהיים-שונגאו, גרמניה))"
-      ]
+        "Place 987007555834105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -387,8 +286,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013387631705171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013387631705171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E302634.8, $e=E302634.8, $f=N502830, $g=N502830, $2=geohack) — $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -396,80 +296,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013392234805171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007530921105171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007530921105171 (אלטנבקן (גרמניה))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007547826205171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007547826205171 (בארנטרופ (גרמניה))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007530972205171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007530972205171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007535496705171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007535496705171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007535614505171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007535614505171 (באלבה (גרמניה))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007538170805171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007538170805171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007540208005171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007540208005171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007540314305171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007540314305171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013392234805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -477,8 +306,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007542160605171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007542160605171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Elk Mountains (Colo.), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -486,8 +316,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007550354405171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007550354405171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Vilshofen (Niederbayern, Germany), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -495,8 +326,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007551659305171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007551659305171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Cosmoledo Group (Seychelles), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -504,8 +336,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007566335105171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007566335105171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Little Sandy Creek (Sublette County, Wyo.), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -513,8 +346,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013348400405171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013348400405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -522,8 +356,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013387634905171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013387634905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -531,8 +366,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013394934205171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013394934205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -540,8 +376,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013437610005171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013437610005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -550,7 +387,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987013437610405171 (פרליס (מלזיה))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -558,17 +396,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013432888405171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007400389505171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007400389505171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013432888405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -576,8 +406,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987012976946805171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987012976946805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -585,87 +416,13 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013010725305171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013010725305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     }
   ],
-  "requireReviewSummary": [
-    {
-      "item": {
-        "recordId": "987007533337905171"
-      },
-      "result": "ManualReview",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'هيلي (ألمانيا)'",
-        "Updated Wd from 'Q32058468' to 'Q182716'. Manual review required. Kima Id:79074",
-        "Updated ViafId from 'null' to '123321811'"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007557639805171"
-      },
-      "result": "ManualReview",
-      "messages": [
-        "Location supposed to move 2069.0 km. Manual review required. Kima Id:14431 Name:סיטי אוף אינדוסטרי (קליפורניה)",
-        "Updated PrimaryArabFull from 'null' to 'مدينة الصناعة (كاليفورنيا)'",
-        "Updated Wd from 'null' to 'Q927094'",
-        "updatePlaceRecord: variants +2: Industry, Calif.[la] | Industry (Calif.)[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007550443805171"
-      },
-      "result": "ManualReview",
-      "messages": [
-        "Location supposed to move 3974.3 km. Manual review required. Kima Id:12575 Name:לונג ביץ' (ניו יורק)",
-        "Updated PrimaryArabFull from 'null' to 'لونج بيتش (نيويورك)'",
-        "Updated Wd from 'null' to 'Q40209'",
-        "updatePlaceRecord: variants +1: Long Beach, N.Y.[la]"
-      ]
-    }
-  ],
+  "requireReviewSummary": [],
   "failedSummary": [],
-  "requireReviewItems": [
-    {
-      "item": {
-        "recordId": "987007533337905171"
-      },
-      "result": "ManualReview",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'هيلي (ألمانيا)'",
-        "Updated Wd from 'Q32058468' to 'Q182716'. Manual review required. Kima Id:79074",
-        "Updated ViafId from 'null' to '123321811'"
-      ],
-      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01175nz  a2200277n  4500</leader><controlfield tag=\"005\">20260803124826.0</controlfield><controlfield tag=\"008\">960906n||acannaab|          |n ana    ||</controlfield><controlfield tag=\"001\">987007533337905171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 96086710</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q182716</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">123321811</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">8.75</subfield><subfield code=\"e\">8.75</subfield><subfield code=\"f\">52.33333</subfield><subfield code=\"g\">52.33333</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-001039103</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Hille (Germany)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">הילה (גרמניה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">هيلي (ألمانيا)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Germany</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record enriched with 670 fields from LCNA on: 20260803</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">BGN 9-6-96:</subfield><subfield code=\"b\">(Hille, Germany; Popl., 52°20ʹN, 8°45ʹE)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">\"Er möchte kleine Kinder lehren,\" 1995:</subfield><subfield code=\"b\">t.p. (Hille)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">BGN 9-6-96:</subfield><subfield code=\"b\">(Hille, Germany; Popl., 52p0s20ʹN, 8p0s45ʹE)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Müllers gr. dt. Ortslex., 1988:</subfield><subfield code=\"b\">(Hille; Gemeinde)</subfield></datafield><datafield tag=\"675\" ind1=\" \" ind2=\" \"><subfield code=\"a\">BGN E. Ger., 1983.</subfield></datafield></record>\n"
-    },
-    {
-      "item": {
-        "recordId": "987007557639805171"
-      },
-      "result": "ManualReview",
-      "messages": [
-        "Location supposed to move 2069.0 km. Manual review required. Kima Id:14431 Name:סיטי אוף אינדוסטרי (קליפורניה)",
-        "Updated PrimaryArabFull from 'null' to 'مدينة الصناعة (كاليفورنيا)'",
-        "Updated Wd from 'null' to 'Q927094'",
-        "updatePlaceRecord: variants +2: Industry, Calif.[la] | Industry (Calif.)[la]"
-      ],
-      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01560nz  a2200301n  4500</leader><controlfield tag=\"005\">20260803094038.0</controlfield><controlfield tag=\"008\">850628n||acannaab|          |a ana    ||</controlfield><controlfield tag=\"001\">987007557639805171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 85081987</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q927094</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">146642943</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">W1175731</subfield><subfield code=\"e\">W1175731</subfield><subfield code=\"f\">N0340111</subfield><subfield code=\"g\">N0340111</subfield><subfield code=\"2\">geonames</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-001008442</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">City of Industry (Calif.)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">סיטי אוף אינדוסטרי (קליפורניה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">مدينة الصناعة (كاليفورنيا)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">United States</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"w\">nnaa</subfield><subfield code=\"a\">Industry, Calif.</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Industry (Calif.)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record enriched with 670 fields from LCNA on: 20260803</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">GeoNames, algorithmically matched, 2009</subfield><subfield code=\"b\">(ppl; 34°01ʹ11ʺN 117°57ʹ31ʺW)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Western Map Co. City of Industry and vicinity street map, c1980.</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Rand McNally comm. atlas, 1984</subfield><subfield code=\"b\">(City of Industry, Los Angeles Co.; corporate name, Industry)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Phone call to BGN, 6-20-85</subfield><subfield code=\"b\">(City of Industry)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">LC data base, 6-20-85</subfield><subfield code=\"b\">(Industry, Calif.)</subfield></datafield></record>\n"
-    },
-    {
-      "item": {
-        "recordId": "987007550443805171"
-      },
-      "result": "ManualReview",
-      "messages": [
-        "Location supposed to move 3974.3 km. Manual review required. Kima Id:12575 Name:לונג ביץ' (ניו יורק)",
-        "Updated PrimaryArabFull from 'null' to 'لونج بيتش (نيويورك)'",
-        "Updated Wd from 'null' to 'Q40209'",
-        "updatePlaceRecord: variants +1: Long Beach, N.Y.[la]"
-      ],
-      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01470cz  a2200325n  4500</leader><controlfield tag=\"005\">20260803093907.0</controlfield><controlfield tag=\"008\">820715n| acannaabn          |a ana      </controlfield><controlfield tag=\"001\">987007550443805171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 82081763</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q40209</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">132545865</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">W0733928</subfield><subfield code=\"e\">W0733928</subfield><subfield code=\"f\">N0403518</subfield><subfield code=\"g\">N0403518</subfield><subfield code=\"2\">geonames</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">(OCoLC)oca00778458</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000993424</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">DLC</subfield><subfield code=\"d\">WaU</subfield></datafield><datafield tag=\"043\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n-us-ny</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Long Beach (N.Y.)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">לונג ביץ' (ניו יורק)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">لونج بيتش (نيويورك)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">United States</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"w\">nnaa</subfield><subfield code=\"a\">Long Beach, N.Y.</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"551\" ind1=\" \" ind2=\" \"><subfield code=\"w\">a</subfield><subfield code=\"a\">Long Beach (Long Island, N.Y.)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record enriched with 670 fields from LCNA on: 20260803</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">GeoNames, algorithmically matched, 2009</subfield><subfield code=\"b\">(ppl; 40°35ʹ18ʺN 073°39ʹ28ʺW)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Sanborn Map Company. Insurance maps of Long Beach ...</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Echo Print. Long Beach, Long Island, 1981?:</subfield><subfield code=\"b\">map recto (Long Beach, Long Island)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Rand McNally comm. atlas, 1990</subfield><subfield code=\"b\">(Long Beach, inc., in Nassau Co.)</subfield></datafield><datafield tag=\"781\" ind1=\" \" ind2=\"0\"><subfield code=\"z\">New York (State)</subfield><subfield code=\"z\">Long Beach</subfield></datafield></record>\n"
-    }
-  ],
+  "requireReviewItems": [],
   "failedItems": []
 }

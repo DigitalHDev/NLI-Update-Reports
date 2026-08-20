@@ -1,0 +1,278 @@
+{
+  "type": "Place",
+  "runTime": "2026-08-19T14:29:01.8524854Z",
+  "period": "20260715-20260721",
+  "numProcessedItems": 9645,
+  "numModifiedItems": 0,
+  "numNewItems": 26,
+  "numReviewItems": 0,
+  "numFailedItems": 0,
+  "modifiedSummary": [],
+  "newSummary": [
+    {
+      "item": {
+        "recordId": "987007473875405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007473875405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007536736705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007536736705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007544263205171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: variants already present, not inserted (1): Oaș (Romania)[la]",
+        "addPlaceRecord: added place 987007544263205171 (צארה אואשולוי (רומניה))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007562367805171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007562367805171 (כרסטווה (צ'כיה))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007564409305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007564409305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007564534605171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007564534605171 (דיפנבק (בלגיה))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007565005805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007565005805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007567083605171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007567083605171 (טיבולי (ניו יורק))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007574804105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007574804105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014668733305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014668733305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014669033305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014669033305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014671241305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014671241305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014671241405171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987014671241405171 (קליצדורפ (דרום אפריקה))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014728086605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014728086605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014728086705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014728086705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014728086805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014728086805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014728086905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014728086905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007473723705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007473723705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007534110005171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007534110005171 (פיינבלף (קרולינה הצפונית))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007559863605171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007559863605171 (קורלוויל (איווה))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014664651605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014664651605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014728087005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014728087005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014675836005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014675836005171 does not satisfy IsPlaceToUse: no valid 034: 034($d=35.1041, $e=35.1041, $f=32.1445, $g=32.1445) — missing or empty $2. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007469603205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007469603205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007548044905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007548044905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007469603305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007469603305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    }
+  ],
+  "requireReviewSummary": [],
+  "failedSummary": [],
+  "requireReviewItems": [],
+  "failedItems": []
+}

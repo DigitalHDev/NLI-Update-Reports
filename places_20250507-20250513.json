@@ -1,9 +1,9 @@
 {
   "type": "Place",
-  "runTime": "2026-08-03T19:58:29.48229Z",
+  "runTime": "2026-08-16T12:49:40.7848188Z",
   "period": "20250507-20250513",
-  "numProcessedItems": 5973,
-  "numModifiedItems": 8,
+  "numProcessedItems": 5962,
+  "numModifiedItems": 7,
   "numNewItems": 19,
   "numReviewItems": 1,
   "numFailedItems": 0,
@@ -14,8 +14,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007402518405171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007402518405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -25,7 +26,8 @@
       "messages": [
         "Updated PrimaryArabFull from 'ميتح بنيامين (الضفة الغربية)' to 'ميتح بنيامين (الضفة الغربية : موتساه عزوريت)'",
         "updatePlaceRecord: variants +5: Mateh Binyamin (West Bank)[la] | Matte Binyamin (West Bank)[la] | Mateh Binyamin (Israel)[la] | מטה בנימין (יהודה ושומרון)[he] | מטה בנימין (ישראל)[he]"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -37,7 +39,8 @@
         "Updated PrimaryRomFull from 'Moaza azorit Hof Ashkelon (Israel)' to 'Hof Ashkelon (Israel : Mo'atsah azorit)'",
         "Updated PrimaryArabFull from 'null' to 'هوف أشكلون (إسرائيل : موتساه عزوريت)'",
         "updatePlaceRecord: variants +4: Moaza azorit Hof Ashkelon (Israel)[la] | Hof Ashkelon, Moaza azorit (Israel)[la] | מועצה אזורית חוף אשקלון (ישראל)[he] | חוף אשקלון, מועצה אזורית (ישראל)[he]"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -47,7 +50,8 @@
       "messages": [
         "Updated PrimaryArabFull from 'هونين (إسرائيل)' to 'حنين (إسرائيل)'",
         "updatePlaceRecord: variants +2: Kefar Hunin (Israel)[la] | כפר הונין (ישראל)[he]"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -55,8 +59,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987009461175205171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987009461175205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -65,18 +70,8 @@
       "result": "ManualReview",
       "messages": [
         "Failed to fetch MARC XML for place RecordId 987012277644905171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007467843305171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryRomFull from 'Rakkefet (Israel)' to 'Rakefet (Israel)'",
-        "Updated PrimaryArabFull from 'ركيفت (إسرائيل)' to 'راكيفت (إسرائيل)'",
-        "updatePlaceRecord: variants +2: Rakkefet (Israel)[la] | Raqqefet (Israel)[la]"
-      ]
+      ],
+      "nliState": "Absent"
     },
     {
       "item": {
@@ -84,8 +79,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987012288964005171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987012288964005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     }
   ],
   "newSummary": [
@@ -95,8 +91,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013325232305171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013325232305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -104,8 +101,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013399761805171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013399761805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -113,8 +111,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013400334805171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013400334805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -122,8 +121,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013401437105171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013401437105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -131,8 +131,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013402831805171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013402831805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -140,8 +141,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013402832105171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013402832105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -149,8 +151,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013402832905171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013402832905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -158,8 +161,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987009461176705171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987009461176705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -167,71 +171,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013304465405171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987013402722405171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987013402722405171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987013399763305171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987013399763305171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987013401436905171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987013401436905171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987013401437005171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987013401437005171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987013401437505171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987013401437505171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987013401438205171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987013401438205171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987013401440305171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987013401440305171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013304465405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -239,8 +181,79 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013402719505171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013402719505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013402722405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013402722405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013399763305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013399763305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013401436905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013401436905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013401437005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013401437005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013401437505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013401437505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013401438205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013401438205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013401440305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013401440305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -248,8 +261,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013402719705171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013402719705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -257,8 +271,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013402831205171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013402831205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     }
   ],
   "requireReviewSummary": [
@@ -269,7 +284,8 @@
       "result": "ManualReview",
       "messages": [
         "Failed to fetch MARC XML for place RecordId 987012277644905171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
-      ]
+      ],
+      "nliState": "Absent"
     }
   ],
   "failedSummary": [],
@@ -281,7 +297,8 @@
       "result": "ManualReview",
       "messages": [
         "Failed to fetch MARC XML for place RecordId 987012277644905171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
-      ]
+      ],
+      "nliState": "Absent"
     }
   ],
   "failedItems": []

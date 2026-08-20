@@ -1,8 +1,8 @@
 {
   "type": "Place",
-  "runTime": "2026-08-03T14:19:55.4243556Z",
+  "runTime": "2026-08-16T09:42:13.4244331Z",
   "period": "20240916-20240922",
-  "numProcessedItems": 1459,
+  "numProcessedItems": 1443,
   "numModifiedItems": 0,
   "numNewItems": 1,
   "numReviewItems": 0,
@@ -15,8 +15,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987012939855505171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987012939855505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     }
   ],
   "requireReviewSummary": [],

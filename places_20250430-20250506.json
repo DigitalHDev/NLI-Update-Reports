@@ -1,8 +1,8 @@
 {
   "type": "Place",
-  "runTime": "2026-08-03T19:56:12.2209056Z",
+  "runTime": "2026-08-16T12:47:58.0293683Z",
   "period": "20250430-20250506",
-  "numProcessedItems": 57655,
+  "numProcessedItems": 57618,
   "numModifiedItems": 9,
   "numNewItems": 11,
   "numReviewItems": 0,
@@ -14,8 +14,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007546880405171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007546880405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -23,8 +24,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007556382105171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007556382105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -32,8 +34,10 @@
       },
       "result": "NothingToDo",
       "messages": [
+        "updatePlaceRecord: variants already present, not inserted (4): Circum-Mediterranean countries[la] | Mediterranean Area[la] | Mediterranean countries[la] | Mediterranean Sea Region[la]",
         "updatePlaceRecord: no changes for place 987007563017705171"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -41,8 +45,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007294021705171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007294021705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -51,8 +56,10 @@
       "result": "Success",
       "messages": [
         "Updated PrimaryArabFull from 'null' to 'تلال يهودا'",
-        "updatePlaceRecord: variants +3: Judean Mountains (Israel)[la] | Judean Mountains[la] | Yehuda, Har[la]"
-      ]
+        "updatePlaceRecord: variants +3: Judean Mountains (Israel)[la] | Judean Mountains[la] | Yehuda, Har[la]",
+        "updatePlaceRecord: variants already present, not inserted (6): Judean Highlands[la] | Har Yehuda[la] | Hare-Yehudah[la] | Hare-Yehuda[la] | Judaean Hills[la] | Judaean Mountains[la]"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -60,17 +67,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007552715305171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007553217705171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007553217705171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007552715305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -78,8 +77,19 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007536485805171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007536485805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007553217705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007553217705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -87,8 +97,10 @@
       },
       "result": "Success",
       "messages": [
-        "updatePlaceRecord: variants +2: Ṭūbās[la] | טובה[he]"
-      ]
+        "updatePlaceRecord: variants +2: Ṭūbās[la] | טובה[he]",
+        "updatePlaceRecord: variants already present, not inserted (1): طوباس[ar]"
+      ],
+      "nliState": "Live"
     }
   ],
   "newSummary": [
@@ -98,8 +110,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007489393205171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007489393205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -107,8 +120,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007539244405171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007539244405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -116,8 +130,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007590342705171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007590342705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -125,8 +140,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987012887445605171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987012887445605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -134,8 +150,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013332548005171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013332548005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -143,8 +160,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013392233205171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013392233205171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E183304, $e=E183304, $f=N495931, $g=N495931, $2=geonames) — $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -152,8 +170,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013347785905171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013347785905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -161,8 +180,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013405240605171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013405240605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -170,8 +190,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013405247805171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013405247805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -179,8 +200,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013405749305171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013405749305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -188,8 +210,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013426257405171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013426257405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     }
   ],
   "requireReviewSummary": [],

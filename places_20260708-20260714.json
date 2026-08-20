@@ -1,0 +1,48 @@
+{
+  "type": "Place",
+  "runTime": "2026-08-19T14:26:25.4006185Z",
+  "period": "20260708-20260714",
+  "numProcessedItems": 5228,
+  "numModifiedItems": 3,
+  "numNewItems": 0,
+  "numReviewItems": 0,
+  "numFailedItems": 0,
+  "modifiedSummary": [
+    {
+      "item": {
+        "recordId": "987007556621305171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'شكيم (مدينة قديمة)'",
+        "updatePlaceRecord: variants +5: al-Balata, Tell (West Bank)[la] | Balâṭah, Tell (West Bank)[la] | Khirbat Balâṭah (West Bank)[la] | Tell al-Balata (West Bank)[la] | Tell Balâṭah (West Bank)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007295752505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007295752505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007400274905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007400274905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    }
+  ],
+  "newSummary": [],
+  "requireReviewSummary": [],
+  "failedSummary": [],
+  "requireReviewItems": [],
+  "failedItems": []
+}

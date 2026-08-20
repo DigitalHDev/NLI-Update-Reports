@@ -1,55 +1,22 @@
 {
   "type": "Place",
-  "runTime": "2026-08-03T19:24:26.6293673Z",
+  "runTime": "2026-08-16T12:36:22.1171658Z",
   "period": "20250416-20250422",
-  "numProcessedItems": 36095,
-  "numModifiedItems": 74,
-  "numNewItems": 424,
-  "numReviewItems": 3,
-  "numFailedItems": 1,
+  "numProcessedItems": 35919,
+  "numModifiedItems": 63,
+  "numNewItems": 312,
+  "numReviewItems": 2,
+  "numFailedItems": 0,
   "modifiedSummary": [
-    {
-      "item": {
-        "recordId": "987007398544405171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryHebFull from 'מערת הבגידה (ירושלים)' to 'מערת הבגידה (ירושלים, ישראל)'",
-        "Updated PrimaryRomFull from 'Grotto of Gethsemane (Jerusalem)' to 'Grotto of Gethsemane (Jerusalem, Israel)'",
-        "Updated PrimaryArabFull from 'null' to 'مغارة الجثمانية (القدس، إسرائيل)'",
-        "updatePlaceRecord: variants +5: Grotto of Gethsemane (Jerusalem)[la] | Grotto of Agony (Jerusalem)[la] | מערת היגון (ירושלים)[he] | מערת השליחים (ירושלים)[he] | מערת גת שמנים (ירושלים)[he]"
-      ]
-    },
     {
       "item": {
         "recordId": "987007532523205171"
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007532523205171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007557587805171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'مقاطعة بيكنز (كارولاينا الجنوبية)'",
-        "Updated ViafId from 'null' to '126686804'",
-        "updatePlaceRecord: variants +1: Pickens Co., S.C.[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007559528205171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'مقاطعة هاريس (جورجيا)'",
-        "Updated ViafId from 'null' to '136027551'",
-        "updatePlaceRecord: variants +1: Harris County, Ga.[la]"
-      ]
+        "Place 987007532523205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -57,8 +24,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007562316005171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007562316005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -66,20 +34,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007557908505171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007557774505171"
-      },
-      "result": "ManualReview",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'نيوارك (نوتينجهامشير، إنجلترا)'",
-        "Updated Wd from 'Q1053027' to 'Q49940'. Manual review required. Kima Id:78947",
-        "Updated ViafId from 'null' to '237005634'",
-        "updatePlaceRecord: variants +4: Newark, Eng.[la] | Newark on Trent (England)[la] | Newark-upon-Trent (England)[la] | Newark (Nottinghamshire)[la]"
-      ]
+        "Place 987007557908505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -91,7 +48,8 @@
         "Updated PrimaryRomFull from 'Bir Ayoub (Jerusalem)' to 'Bir Ayoub (Jerusalem, Israel)'",
         "Updated PrimaryArabFull from 'null' to 'بئر أيوب (القدس، إسرائيل)'",
         "updatePlaceRecord: variants +7: Bir Ayoub (Jerusalem)[la] | Bir Ayub (Jerusalem)[la] | Job's Well (Jerusalem)[la] | A-Thuri (Jerusalem)[la] | ביר איוב (ירושלים)[he] | אל-ת'ורי (ירושלים)[he] | באר איוב (ירושלים)[he]"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -101,7 +59,8 @@
       "messages": [
         "Updated PrimaryArabFull from 'null' to 'قبر يوسف (نابلس، الضفة الغربية)'",
         "updatePlaceRecord: variants +4: Joseph's Tomb (Jerusalem)[la] | Qever Yosef (Nablus, West Bank)[la] | Tomb of Joseph (Nablus, West Bank)[la] | קבר יוסף הצדיק (שכם, גדה מערבית)[he]"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -109,8 +68,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007531622505171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007531622505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -120,17 +80,8 @@
       "messages": [
         "Updated PrimaryArabFull from 'null' to 'هيرابوليس (تركيا : مدينة قديمة)'",
         "updatePlaceRecord: variants +1: Hierapolis (Ancient city)[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007550524305171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'زيغينشور (السنغال)'",
-        "Updated ViafId from 'null' to '153616449'"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -138,17 +89,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007529784105171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007557504805171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'غريت فولز (فيرجينيا)'"
-      ]
+        "Place 987007529784105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -156,8 +99,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987012331755305171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987012331755305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -165,19 +109,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987012403942305171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007555022805171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'هامبورغ ألتونا (هامبورغ، ألمانيا)'",
-        "Updated ViafId from 'null' to '148935853'",
-        "updatePlaceRecord: variants +2: Altona (Hamburg, Germany)[la] | אלטונא (המבורג, גרנמניה)[he]"
-      ]
+        "Place 987012403942305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -187,7 +121,8 @@
       "messages": [
         "Updated PrimaryArabFull from 'null' to 'سنيدوس (تركيا : مدينة قديمة)'",
         "updatePlaceRecord: variants +4: Cnidos (Turkey : Extinct city)[la] | Cnidus (Ancient city)[la] | Gnidus (Turkey : Extinct city)[la] | Knidos (Turkey : Extinct city)[la]"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -197,7 +132,8 @@
       "messages": [
         "Updated PrimaryArabFull from 'null' to 'حديقة لوانغو الوطنية (الغابون)'",
         "updatePlaceRecord: variants +1: Loango National Park (Gabon)[la]"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -206,7 +142,8 @@
       "result": "Success",
       "messages": [
         "Updated PrimaryArabFull from 'null' to 'أوليمبوس (تركيا : مدينة قديمة)'"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -214,8 +151,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007542483905171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007542483905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -227,37 +165,8 @@
         "Updated PrimaryArabFull from 'null' to 'تشيم (تركيا : مدينة قديمة)'",
         "Updated Wd from 'null' to 'Q679305'",
         "updatePlaceRecord: variants +4: Cuma Aiolis (Turkey : Extinct city)[la] | Cuma eolica (Turkey : Extinct city)[la] | Cyme (Ancient city)[la] | Kyme (Turkey : Extinct city)[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007557430405171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'فرانسفيل (الغابون)'",
-        "Updated ViafId from 'null' to '131380378'"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007550227505171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'ليبرفيل (الغابون)'",
-        "updatePlaceRecord: variants +1: Libreville, Gabon[la]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007540378605171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'غايلينغينغن (ألمانيا)'",
-        "updatePlaceRecord: variants +7: Gailingen am Hochrhein (Germany)[la] | Gailingen on the High Rhine (Germany)[la] | גאלינגען (גרמניה)[he] | גילינגן על הריין העליון (גרמניה)[he] | גילינגן על הריין הגבוה (גרמניה)[he] | גאלינגען על ההוכריין (גרמניה)[he] | غايلينغن أم هوشرهين (ألمانيا)[ar]"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -267,7 +176,8 @@
       "messages": [
         "Updated PrimaryArabFull from 'null' to 'متروبوليس (تركيا : مدينة قديمة)'",
         "updatePlaceRecord: variants +1: Metropolis (Ancient city)[la]"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -275,8 +185,10 @@
       },
       "result": "NothingToDo",
       "messages": [
+        "updatePlaceRecord: variants already present, not inserted (4): Cnidos (Turkey : Extinct city)[la] | Cnidus (Ancient city)[la] | Gnidus (Turkey : Extinct city)[la] | Knidos (Turkey : Extinct city)[la]",
         "updatePlaceRecord: no changes for place 987007284075505171"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -284,8 +196,10 @@
       },
       "result": "NothingToDo",
       "messages": [
+        "updatePlaceRecord: variants already present, not inserted (4): Cnidos (Turkey : Extinct city)[la] | Cnidus (Ancient city)[la] | Gnidus (Turkey : Extinct city)[la] | Knidos (Turkey : Extinct city)[la]",
         "updatePlaceRecord: no changes for place 987007284075505171"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -293,8 +207,10 @@
       },
       "result": "NothingToDo",
       "messages": [
+        "updatePlaceRecord: variants already present, not inserted (4): Cnidos (Turkey : Extinct city)[la] | Cnidus (Ancient city)[la] | Gnidus (Turkey : Extinct city)[la] | Knidos (Turkey : Extinct city)[la]",
         "updatePlaceRecord: no changes for place 987007284075505171"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -302,8 +218,10 @@
       },
       "result": "NothingToDo",
       "messages": [
+        "updatePlaceRecord: variants already present, not inserted (4): Cnidos (Turkey : Extinct city)[la] | Cnidus (Ancient city)[la] | Gnidus (Turkey : Extinct city)[la] | Knidos (Turkey : Extinct city)[la]",
         "updatePlaceRecord: no changes for place 987007284075505171"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -311,8 +229,10 @@
       },
       "result": "NothingToDo",
       "messages": [
+        "updatePlaceRecord: variants already present, not inserted (4): Cnidos (Turkey : Extinct city)[la] | Cnidus (Ancient city)[la] | Gnidus (Turkey : Extinct city)[la] | Knidos (Turkey : Extinct city)[la]",
         "updatePlaceRecord: no changes for place 987007284075505171"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -320,8 +240,10 @@
       },
       "result": "NothingToDo",
       "messages": [
+        "updatePlaceRecord: variants already present, not inserted (4): Cnidos (Turkey : Extinct city)[la] | Cnidus (Ancient city)[la] | Gnidus (Turkey : Extinct city)[la] | Knidos (Turkey : Extinct city)[la]",
         "updatePlaceRecord: no changes for place 987007284075505171"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -329,8 +251,10 @@
       },
       "result": "NothingToDo",
       "messages": [
+        "updatePlaceRecord: variants already present, not inserted (4): Cnidos (Turkey : Extinct city)[la] | Cnidus (Ancient city)[la] | Gnidus (Turkey : Extinct city)[la] | Knidos (Turkey : Extinct city)[la]",
         "updatePlaceRecord: no changes for place 987007284075505171"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -338,8 +262,10 @@
       },
       "result": "NothingToDo",
       "messages": [
+        "updatePlaceRecord: variants already present, not inserted (4): Cnidos (Turkey : Extinct city)[la] | Cnidus (Ancient city)[la] | Gnidus (Turkey : Extinct city)[la] | Knidos (Turkey : Extinct city)[la]",
         "updatePlaceRecord: no changes for place 987007284075505171"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -347,8 +273,10 @@
       },
       "result": "NothingToDo",
       "messages": [
+        "updatePlaceRecord: variants already present, not inserted (4): Cnidos (Turkey : Extinct city)[la] | Cnidus (Ancient city)[la] | Gnidus (Turkey : Extinct city)[la] | Knidos (Turkey : Extinct city)[la]",
         "updatePlaceRecord: no changes for place 987007284075505171"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -356,8 +284,10 @@
       },
       "result": "NothingToDo",
       "messages": [
+        "updatePlaceRecord: variants already present, not inserted (4): Cnidos (Turkey : Extinct city)[la] | Cnidus (Ancient city)[la] | Gnidus (Turkey : Extinct city)[la] | Knidos (Turkey : Extinct city)[la]",
         "updatePlaceRecord: no changes for place 987007284075505171"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -365,8 +295,10 @@
       },
       "result": "NothingToDo",
       "messages": [
+        "updatePlaceRecord: variants already present, not inserted (4): Cnidos (Turkey : Extinct city)[la] | Cnidus (Ancient city)[la] | Gnidus (Turkey : Extinct city)[la] | Knidos (Turkey : Extinct city)[la]",
         "updatePlaceRecord: no changes for place 987007284075505171"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -374,8 +306,10 @@
       },
       "result": "NothingToDo",
       "messages": [
+        "updatePlaceRecord: variants already present, not inserted (4): Cnidos (Turkey : Extinct city)[la] | Cnidus (Ancient city)[la] | Gnidus (Turkey : Extinct city)[la] | Knidos (Turkey : Extinct city)[la]",
         "updatePlaceRecord: no changes for place 987007284075505171"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -383,8 +317,10 @@
       },
       "result": "NothingToDo",
       "messages": [
+        "updatePlaceRecord: variants already present, not inserted (4): Cnidos (Turkey : Extinct city)[la] | Cnidus (Ancient city)[la] | Gnidus (Turkey : Extinct city)[la] | Knidos (Turkey : Extinct city)[la]",
         "updatePlaceRecord: no changes for place 987007284075505171"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -392,8 +328,10 @@
       },
       "result": "NothingToDo",
       "messages": [
+        "updatePlaceRecord: variants already present, not inserted (4): Cnidos (Turkey : Extinct city)[la] | Cnidus (Ancient city)[la] | Gnidus (Turkey : Extinct city)[la] | Knidos (Turkey : Extinct city)[la]",
         "updatePlaceRecord: no changes for place 987007284075505171"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -401,8 +339,10 @@
       },
       "result": "NothingToDo",
       "messages": [
+        "updatePlaceRecord: variants already present, not inserted (4): Cnidos (Turkey : Extinct city)[la] | Cnidus (Ancient city)[la] | Gnidus (Turkey : Extinct city)[la] | Knidos (Turkey : Extinct city)[la]",
         "updatePlaceRecord: no changes for place 987007284075505171"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -410,8 +350,10 @@
       },
       "result": "NothingToDo",
       "messages": [
+        "updatePlaceRecord: variants already present, not inserted (4): Cnidos (Turkey : Extinct city)[la] | Cnidus (Ancient city)[la] | Gnidus (Turkey : Extinct city)[la] | Knidos (Turkey : Extinct city)[la]",
         "updatePlaceRecord: no changes for place 987007284075505171"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -419,8 +361,10 @@
       },
       "result": "NothingToDo",
       "messages": [
+        "updatePlaceRecord: variants already present, not inserted (4): Cnidos (Turkey : Extinct city)[la] | Cnidus (Ancient city)[la] | Gnidus (Turkey : Extinct city)[la] | Knidos (Turkey : Extinct city)[la]",
         "updatePlaceRecord: no changes for place 987007284075505171"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -428,8 +372,10 @@
       },
       "result": "NothingToDo",
       "messages": [
+        "updatePlaceRecord: variants already present, not inserted (4): Cnidos (Turkey : Extinct city)[la] | Cnidus (Ancient city)[la] | Gnidus (Turkey : Extinct city)[la] | Knidos (Turkey : Extinct city)[la]",
         "updatePlaceRecord: no changes for place 987007284075505171"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -437,8 +383,10 @@
       },
       "result": "NothingToDo",
       "messages": [
+        "updatePlaceRecord: variants already present, not inserted (4): Cnidos (Turkey : Extinct city)[la] | Cnidus (Ancient city)[la] | Gnidus (Turkey : Extinct city)[la] | Knidos (Turkey : Extinct city)[la]",
         "updatePlaceRecord: no changes for place 987007284075505171"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -446,8 +394,10 @@
       },
       "result": "NothingToDo",
       "messages": [
+        "updatePlaceRecord: variants already present, not inserted (4): Cnidos (Turkey : Extinct city)[la] | Cnidus (Ancient city)[la] | Gnidus (Turkey : Extinct city)[la] | Knidos (Turkey : Extinct city)[la]",
         "updatePlaceRecord: no changes for place 987007284075505171"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -455,17 +405,10 @@
       },
       "result": "NothingToDo",
       "messages": [
+        "updatePlaceRecord: variants already present, not inserted (4): Cnidos (Turkey : Extinct city)[la] | Cnidus (Ancient city)[la] | Gnidus (Turkey : Extinct city)[la] | Knidos (Turkey : Extinct city)[la]",
         "updatePlaceRecord: no changes for place 987007284075505171"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007284075505171"
-      },
-      "result": "Failure",
-      "messages": [
-        "An error occurred while saving the entity changes. See the inner exception for details. --> Cannot insert duplicate key row in object 'dbo.Variants' with unique index 'IX_Variants_primary_heb_full_variant'. The duplicate key value is (רנידוס (טורקיה : עיר קדומה), Cnidos (Turkey : Extinct city))."
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -473,8 +416,10 @@
       },
       "result": "NothingToDo",
       "messages": [
+        "updatePlaceRecord: variants already present, not inserted (4): Cnidos (Turkey : Extinct city)[la] | Cnidus (Ancient city)[la] | Gnidus (Turkey : Extinct city)[la] | Knidos (Turkey : Extinct city)[la]",
         "updatePlaceRecord: no changes for place 987007284075505171"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -482,8 +427,10 @@
       },
       "result": "NothingToDo",
       "messages": [
+        "updatePlaceRecord: variants already present, not inserted (4): Cnidos (Turkey : Extinct city)[la] | Cnidus (Ancient city)[la] | Gnidus (Turkey : Extinct city)[la] | Knidos (Turkey : Extinct city)[la]",
         "updatePlaceRecord: no changes for place 987007284075505171"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -491,8 +438,10 @@
       },
       "result": "NothingToDo",
       "messages": [
+        "updatePlaceRecord: variants already present, not inserted (4): Cnidos (Turkey : Extinct city)[la] | Cnidus (Ancient city)[la] | Gnidus (Turkey : Extinct city)[la] | Knidos (Turkey : Extinct city)[la]",
         "updatePlaceRecord: no changes for place 987007284075505171"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -500,8 +449,10 @@
       },
       "result": "NothingToDo",
       "messages": [
+        "updatePlaceRecord: variants already present, not inserted (4): Cnidos (Turkey : Extinct city)[la] | Cnidus (Ancient city)[la] | Gnidus (Turkey : Extinct city)[la] | Knidos (Turkey : Extinct city)[la]",
         "updatePlaceRecord: no changes for place 987007284075505171"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -509,8 +460,10 @@
       },
       "result": "NothingToDo",
       "messages": [
+        "updatePlaceRecord: variants already present, not inserted (4): Cnidos (Turkey : Extinct city)[la] | Cnidus (Ancient city)[la] | Gnidus (Turkey : Extinct city)[la] | Knidos (Turkey : Extinct city)[la]",
         "updatePlaceRecord: no changes for place 987007284075505171"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -518,8 +471,10 @@
       },
       "result": "NothingToDo",
       "messages": [
+        "updatePlaceRecord: variants already present, not inserted (4): Cnidos (Turkey : Extinct city)[la] | Cnidus (Ancient city)[la] | Gnidus (Turkey : Extinct city)[la] | Knidos (Turkey : Extinct city)[la]",
         "updatePlaceRecord: no changes for place 987007284075505171"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -527,8 +482,10 @@
       },
       "result": "NothingToDo",
       "messages": [
+        "updatePlaceRecord: variants already present, not inserted (4): Cnidos (Turkey : Extinct city)[la] | Cnidus (Ancient city)[la] | Gnidus (Turkey : Extinct city)[la] | Knidos (Turkey : Extinct city)[la]",
         "updatePlaceRecord: no changes for place 987007284075505171"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -536,8 +493,10 @@
       },
       "result": "NothingToDo",
       "messages": [
+        "updatePlaceRecord: variants already present, not inserted (4): Cnidos (Turkey : Extinct city)[la] | Cnidus (Ancient city)[la] | Gnidus (Turkey : Extinct city)[la] | Knidos (Turkey : Extinct city)[la]",
         "updatePlaceRecord: no changes for place 987007284075505171"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -545,8 +504,10 @@
       },
       "result": "NothingToDo",
       "messages": [
+        "updatePlaceRecord: variants already present, not inserted (4): Cnidos (Turkey : Extinct city)[la] | Cnidus (Ancient city)[la] | Gnidus (Turkey : Extinct city)[la] | Knidos (Turkey : Extinct city)[la]",
         "updatePlaceRecord: no changes for place 987007284075505171"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -554,8 +515,10 @@
       },
       "result": "NothingToDo",
       "messages": [
+        "updatePlaceRecord: variants already present, not inserted (4): Cnidos (Turkey : Extinct city)[la] | Cnidus (Ancient city)[la] | Gnidus (Turkey : Extinct city)[la] | Knidos (Turkey : Extinct city)[la]",
         "updatePlaceRecord: no changes for place 987007284075505171"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -563,8 +526,10 @@
       },
       "result": "NothingToDo",
       "messages": [
+        "updatePlaceRecord: variants already present, not inserted (4): Cnidos (Turkey : Extinct city)[la] | Cnidus (Ancient city)[la] | Gnidus (Turkey : Extinct city)[la] | Knidos (Turkey : Extinct city)[la]",
         "updatePlaceRecord: no changes for place 987007284075505171"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -572,8 +537,10 @@
       },
       "result": "NothingToDo",
       "messages": [
+        "updatePlaceRecord: variants already present, not inserted (4): Cnidos (Turkey : Extinct city)[la] | Cnidus (Ancient city)[la] | Gnidus (Turkey : Extinct city)[la] | Knidos (Turkey : Extinct city)[la]",
         "updatePlaceRecord: no changes for place 987007284075505171"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -581,8 +548,10 @@
       },
       "result": "NothingToDo",
       "messages": [
+        "updatePlaceRecord: variants already present, not inserted (4): Cnidos (Turkey : Extinct city)[la] | Cnidus (Ancient city)[la] | Gnidus (Turkey : Extinct city)[la] | Knidos (Turkey : Extinct city)[la]",
         "updatePlaceRecord: no changes for place 987007284075505171"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -590,8 +559,10 @@
       },
       "result": "NothingToDo",
       "messages": [
+        "updatePlaceRecord: variants already present, not inserted (4): Cnidos (Turkey : Extinct city)[la] | Cnidus (Ancient city)[la] | Gnidus (Turkey : Extinct city)[la] | Knidos (Turkey : Extinct city)[la]",
         "updatePlaceRecord: no changes for place 987007284075505171"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -599,8 +570,10 @@
       },
       "result": "NothingToDo",
       "messages": [
+        "updatePlaceRecord: variants already present, not inserted (4): Cnidos (Turkey : Extinct city)[la] | Cnidus (Ancient city)[la] | Gnidus (Turkey : Extinct city)[la] | Knidos (Turkey : Extinct city)[la]",
         "updatePlaceRecord: no changes for place 987007284075505171"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -608,8 +581,10 @@
       },
       "result": "NothingToDo",
       "messages": [
+        "updatePlaceRecord: variants already present, not inserted (4): Cnidos (Turkey : Extinct city)[la] | Cnidus (Ancient city)[la] | Gnidus (Turkey : Extinct city)[la] | Knidos (Turkey : Extinct city)[la]",
         "updatePlaceRecord: no changes for place 987007284075505171"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -617,8 +592,10 @@
       },
       "result": "NothingToDo",
       "messages": [
+        "updatePlaceRecord: variants already present, not inserted (4): Cnidos (Turkey : Extinct city)[la] | Cnidus (Ancient city)[la] | Gnidus (Turkey : Extinct city)[la] | Knidos (Turkey : Extinct city)[la]",
         "updatePlaceRecord: no changes for place 987007284075505171"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -626,8 +603,10 @@
       },
       "result": "NothingToDo",
       "messages": [
+        "updatePlaceRecord: variants already present, not inserted (4): Cnidos (Turkey : Extinct city)[la] | Cnidus (Ancient city)[la] | Gnidus (Turkey : Extinct city)[la] | Knidos (Turkey : Extinct city)[la]",
         "updatePlaceRecord: no changes for place 987007284075505171"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -635,8 +614,10 @@
       },
       "result": "NothingToDo",
       "messages": [
+        "updatePlaceRecord: variants already present, not inserted (4): Cnidos (Turkey : Extinct city)[la] | Cnidus (Ancient city)[la] | Gnidus (Turkey : Extinct city)[la] | Knidos (Turkey : Extinct city)[la]",
         "updatePlaceRecord: no changes for place 987007284075505171"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -644,8 +625,10 @@
       },
       "result": "NothingToDo",
       "messages": [
+        "updatePlaceRecord: variants already present, not inserted (4): Cnidos (Turkey : Extinct city)[la] | Cnidus (Ancient city)[la] | Gnidus (Turkey : Extinct city)[la] | Knidos (Turkey : Extinct city)[la]",
         "updatePlaceRecord: no changes for place 987007284075505171"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -653,8 +636,10 @@
       },
       "result": "NothingToDo",
       "messages": [
+        "updatePlaceRecord: variants already present, not inserted (4): Cnidos (Turkey : Extinct city)[la] | Cnidus (Ancient city)[la] | Gnidus (Turkey : Extinct city)[la] | Knidos (Turkey : Extinct city)[la]",
         "updatePlaceRecord: no changes for place 987007284075505171"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -662,8 +647,10 @@
       },
       "result": "NothingToDo",
       "messages": [
+        "updatePlaceRecord: variants already present, not inserted (4): Cnidos (Turkey : Extinct city)[la] | Cnidus (Ancient city)[la] | Gnidus (Turkey : Extinct city)[la] | Knidos (Turkey : Extinct city)[la]",
         "updatePlaceRecord: no changes for place 987007284075505171"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -671,8 +658,10 @@
       },
       "result": "NothingToDo",
       "messages": [
+        "updatePlaceRecord: variants already present, not inserted (4): Cnidos (Turkey : Extinct city)[la] | Cnidus (Ancient city)[la] | Gnidus (Turkey : Extinct city)[la] | Knidos (Turkey : Extinct city)[la]",
         "updatePlaceRecord: no changes for place 987007284075505171"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -680,8 +669,10 @@
       },
       "result": "NothingToDo",
       "messages": [
+        "updatePlaceRecord: variants already present, not inserted (4): Cnidos (Turkey : Extinct city)[la] | Cnidus (Ancient city)[la] | Gnidus (Turkey : Extinct city)[la] | Knidos (Turkey : Extinct city)[la]",
         "updatePlaceRecord: no changes for place 987007284075505171"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -689,8 +680,10 @@
       },
       "result": "NothingToDo",
       "messages": [
+        "updatePlaceRecord: variants already present, not inserted (4): Cnidos (Turkey : Extinct city)[la] | Cnidus (Ancient city)[la] | Gnidus (Turkey : Extinct city)[la] | Knidos (Turkey : Extinct city)[la]",
         "updatePlaceRecord: no changes for place 987007284075505171"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -698,8 +691,10 @@
       },
       "result": "NothingToDo",
       "messages": [
+        "updatePlaceRecord: variants already present, not inserted (4): Cnidos (Turkey : Extinct city)[la] | Cnidus (Ancient city)[la] | Gnidus (Turkey : Extinct city)[la] | Knidos (Turkey : Extinct city)[la]",
         "updatePlaceRecord: no changes for place 987007284075505171"
-      ]
+      ],
+      "nliState": "Live"
     }
   ],
   "newSummary": [
@@ -710,7 +705,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007293923805171 (פארק לאומי אלגייני (ניו יורק))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -719,7 +715,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007294839105171 (הרי ארבקל (אוקלהומה))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -728,7 +725,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007283257405171 (נהר בלקפוט (איידהו))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -737,7 +735,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007295595205171 (הרי אנטלופ (מחוז יוריקה ומחוז ניי, נבדה))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -745,17 +744,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007283129905171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007484769605171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007484769605171 (בלו רידג' (וירג'יניה))"
-      ]
+        "Place 987007283129905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -763,26 +754,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007465333605171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007475730005171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007475730005171 (מזרח פלמבורו (אונטריו))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007484864005171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007484864005171 (צ'נגג'יאנג (יונאן שנג, סין))"
-      ]
+        "Place 987007465333605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -790,44 +764,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007407427105171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007494126505171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007494126505171 (פושון שיאן (ליאונינג שנג, סין))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007496622205171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007496622205171 (אוליב ברנץ' (אילינוי))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007491834705171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007491834705171 (הית' (קנטקי))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007552747705171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007552747705171 (מחוז ניאושו (קנזס))"
-      ]
+        "Place 987007407427105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -835,98 +774,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007553795005171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007530970305171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007530970305171 (בגראטיונובסק (רוסיה))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007535853505171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007535853505171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007537011605171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007537011605171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007545038505171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007545038505171 (פוטיניאנו (איטליה))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007546975605171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007546975605171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007550229505171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007550229505171 (מחוז פאלס (טקסס))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007551305905171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007551305905171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007467881505171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007467881505171 (אתבסקה (אלברטה))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007469723305171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007469723305171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007491943705171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007491943705171 (קליימונט (דלאוור))"
-      ]
+        "Place 987007553795005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -935,52 +785,58 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007532386905171 (אגן גייזר עליון (ויומינג))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
-        "recordId": "987007534247805171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007534247805171 (מחוז ראלי (וירג'יניה המערבית))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007535751205171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007535751205171 (דל ריי (קליפורניה))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007537108505171"
+        "recordId": "987007535853505171"
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007537108505171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007535853505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
-        "recordId": "987007541697705171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007541697705171 (נהר צ'ינצ'אגה (אלברטה))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007546704105171"
+        "recordId": "987007537011605171"
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007546704105171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007537011605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007546975605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007546975605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007550229505171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007550229505171 (מחוז פאלס (טקסס))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007551305905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007551305905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -989,7 +845,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007551596305171 (נהר מטוואמקאג (מיין))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -998,16 +855,78 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007554895405171 (מחוז מיסולה (מונטנה))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
-        "recordId": "987007554896405171"
+        "recordId": "987007469723305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007469723305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007491943705171"
       },
       "result": "Success",
       "messages": [
-        "addPlaceRecord: added place 987007554896405171 (סנט אייבס (קיימברידג'שייר, אנגליה))"
-      ]
+        "addPlaceRecord: added place 987007491943705171 (קליימונט (דלאוור))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007534247805171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007534247805171 (מחוז ראלי (וירג'יניה המערבית))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007535751205171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007535751205171 (דל ריי (קליפורניה))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007537108505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007537108505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007541697705171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007541697705171 (נהר צ'ינצ'אגה (אלברטה))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007546704105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007546704105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -1015,116 +934,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007530348005171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007536503105171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007536503105171 (ביג קריק (קליפורניה))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007545716905171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007545716905171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007550358405171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007550358405171 (מחוז קלברט (מרילנד))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007553410505171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007553410505171 (הרי סן אמיגדיו (קליפורניה))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007482553005171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007482553005171 (ניו אלביון (ניו יורק))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007530968805171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007530968805171 (רדפילד (מיין))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007531824605171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007531824605171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007536661105171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007536661105171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007537080305171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007537080305171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007539050805171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007539050805171 (וולנאט קוב (קרולינה הצפונית))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007540193305171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007540193305171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007540200105171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007540200105171 (ברינג (מיין))"
-      ]
+        "Place 987007530348005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -1133,52 +945,28 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007544229405171 (רוויר ביץ' (מסצ'וסטס))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
-        "recordId": "987007546767605171"
+        "recordId": "987007545716905171"
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007546767605171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007545716905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
-        "recordId": "987007549212705171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007549212705171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007550345805171"
+        "recordId": "987007553410505171"
       },
       "result": "Success",
       "messages": [
-        "addPlaceRecord: added place 987007550345805171 (אלפרד (ניו יורק))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007550512905171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007550512905171 (לין שיאן (הנאן שנג, סין))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007554785405171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007554785405171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "addPlaceRecord: added place 987007553410505171 (הרי סן אמיגדיו (קליפורניה))"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -1187,25 +975,28 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007554895905171 (מחוז לייב אוק (טקסס))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
-        "recordId": "987007554991805171"
+        "recordId": "987007482553005171"
       },
       "result": "Success",
       "messages": [
-        "addPlaceRecord: added place 987007554991805171 (סי איילנד (ג'ורג'יה))"
-      ]
+        "addPlaceRecord: added place 987007482553005171 (ניו אלביון (ניו יורק))"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
-        "recordId": "987007532602205171"
+        "recordId": "987007531824605171"
       },
-      "result": "Success",
+      "result": "NothingToDo",
       "messages": [
-        "addPlaceRecord: added place 987007532602205171 (פארק פרובינציאלי איפרוואש (אונטריו))"
-      ]
+        "Place 987007531824605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -1213,26 +1004,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007532745605171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007532879105171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007532879105171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007533469805171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007533469805171 (הלסיון (קליפורניה))"
-      ]
+        "Place 987007532745605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -1240,17 +1014,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007534667905171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007535784005171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007535784005171 (סישואי שיאן (שאנדונג שנג, סין))"
-      ]
+        "Place 987007534667905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -1258,17 +1024,39 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007536367305171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007536367305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
-        "recordId": "987007539640105171"
+        "recordId": "987007537080305171"
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007539640105171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007537080305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007539050805171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007539050805171 (וולנאט קוב (קרולינה הצפונית))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007540193305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007540193305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -1277,25 +1065,38 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007541230905171 (נהר רורינג (קולורדו))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
-        "recordId": "987007544716705171"
+        "recordId": "987007546767605171"
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007544716705171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007546767605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
-        "recordId": "987007550356405171"
+        "recordId": "987007549212705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007549212705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007550345805171"
       },
       "result": "Success",
       "messages": [
-        "addPlaceRecord: added place 987007550356405171 (גלנגרי (אונטריו))"
-      ]
+        "addPlaceRecord: added place 987007550345805171 (אלפרד (ניו יורק))"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -1303,8 +1104,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007551308605171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007551308605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -1312,17 +1114,29 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007554452605171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007554452605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
-        "recordId": "987007555386705171"
+        "recordId": "987007554785405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007554785405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007554991805171"
       },
       "result": "Success",
       "messages": [
-        "addPlaceRecord: added place 987007555386705171 (טלאשקינו (רוסיה))"
-      ]
+        "addPlaceRecord: added place 987007554991805171 (סי איילנד (ג'ורג'יה))"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -1330,8 +1144,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007465325105171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007465325105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -1340,25 +1155,28 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007471503605171 (קופי קריק (מונטנה))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
-        "recordId": "987007530936505171"
+        "recordId": "987007532602205171"
       },
       "result": "Success",
       "messages": [
-        "addPlaceRecord: added place 987007530936505171 (איסט ברידג'ווטר (מסצ'וסטס))"
-      ]
+        "addPlaceRecord: added place 987007532602205171 (פארק פרובינציאלי איפרוואש (אונטריו))"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
-        "recordId": "987007533315005171"
+        "recordId": "987007532879105171"
       },
-      "result": "Success",
+      "result": "NothingToDo",
       "messages": [
-        "addPlaceRecord: added place 987007533315005171 (קומר (ג'ורג'יה))"
-      ]
+        "Place 987007532879105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -1367,25 +1185,18 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007538191705171 (הרי סייריטה (אריזונה))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
-        "recordId": "987007538481005171"
+        "recordId": "987007539640105171"
       },
-      "result": "Success",
+      "result": "NothingToDo",
       "messages": [
-        "addPlaceRecord: added place 987007538481005171 (לשון ים קוריטוק (קרולינה הצפונית))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007539050205171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007539050205171 (יאנסיוויל (קרולינה הצפונית))"
-      ]
+        "Place 987007539640105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -1393,8 +1204,19 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007539641405171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007539641405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007544716705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007544716705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -1402,26 +1224,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007549426305171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007550311105171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007550311105171 (מחוז רוליט (דקוטה הצפונית))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007555115105171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007555115105171 (ג'ג'יאנג (פוג'יין שנג, סין))"
-      ]
+        "Place 987007549426305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -1430,52 +1235,18 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007530264305171 (בדג'ר וואש (קולורדו))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
-        "recordId": "987007533549705171"
+        "recordId": "987007538481005171"
       },
       "result": "Success",
       "messages": [
-        "addPlaceRecord: added place 987007533549705171 (לוקני (טקסס))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007534344005171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007534344005171 (הרי אקלביק (הטריטוריות הצפון-מערביות))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007535461805171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007535461805171 (היידנוויל (מסצ'וסטס))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007535728205171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007535728205171 (איסט מאכיאס (מיין))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007537824005171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007537824005171 (אלפרד (מיין))"
-      ]
+        "addPlaceRecord: added place 987007538481005171 (לשון ים קוריטוק (קרולינה הצפונית))"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -1484,16 +1255,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007538774705171 (נהר מירמיצ'י (ניו ברונזוויק) (ניו ברונסוויק))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007539466705171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007539466705171 (קייפ פלטרי (וושינגטון))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -1501,26 +1264,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007539731205171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007543677205171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007543677205171 (פארק מדינה מורייין (פנסילבניה))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007550494805171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007550494805171 (פורט הופ (אונטריו))"
-      ]
+        "Place 987007539731205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -1529,34 +1275,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007552841505171 (מחוז אוצ'יטה (ארקנסו))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007555242605171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007555242605171 (קריד (קולורדו))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007557509105171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007557509105171 (אפטון (מסצ'וסטס))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007557544305171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007557544305171 (קולברוק (ניו המפשייר))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -1564,8 +1284,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007562227505171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007562227505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -1574,25 +1295,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007565360205171 (דריי טורטוגס (פלורידה))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007566818505171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007566818505171 (ברנבורג (גרמניה : מחוז))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007531179905171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007531179905171 (האץ' (ניו מקסיקו))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -1600,8 +1304,29 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007532615505171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007532615505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007534344005171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007534344005171 (הרי אקלביק (הטריטוריות הצפון-מערביות))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007539466705171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007539466705171 (קייפ פלטרי (וושינגטון))"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -1610,7 +1335,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007539472405171 (נהר פרובידנס (רוד איילנד))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -1618,17 +1344,19 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007541438805171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007541438805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
-        "recordId": "987007547082905171"
+        "recordId": "987007543677205171"
       },
-      "result": "NothingToDo",
+      "result": "Success",
       "messages": [
-        "Place 987007547082905171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "addPlaceRecord: added place 987007543677205171 (פארק מדינה מורייין (פנסילבניה))"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -1636,53 +1364,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007548394305171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007548625705171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007548625705171 (חוף אגם לאומי חולות סליפינג בר (מישיגן))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007552825605171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007552825605171 (ניאושו (מיזורי))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007557870405171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007557870405171 (מחוז סטוריי (נבדה))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007558826505171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007558826505171 (מפרץ צ'וקטאוואצ'י (פלורידה))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007559837505171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007559837505171 (קוהוס (ניו יורק))"
-      ]
+        "Place 987007548394305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -1691,7 +1375,18 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007562048605171 (מחוז קאוואני (ויסקונסין))"
-      ]
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007566818505171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007566818505171 (ברנבורג (גרמניה : מחוז))"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -1699,17 +1394,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007577149005171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007530120405171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007530120405171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007577149005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -1717,17 +1404,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007530219305171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007531111505171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007531111505171 (סטרלינגטון (לואיזיאנה))"
-      ]
+        "Place 987007530219305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -1735,17 +1414,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007535991905171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007536804405171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007536804405171 (לומה פריאטה (קליפורניה))"
-      ]
+        "Place 987007535991905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -1753,8 +1424,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007536885705171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007536885705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -1763,7 +1435,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007541457205171 (נהר טוטל (וושינגטון))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -1771,8 +1444,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007541540205171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007541540205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -1780,8 +1454,19 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007542343505171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007542343505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007547082905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007547082905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -1790,7 +1475,18 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007548221005171 (הליאיס (עיר קדומה))"
-      ]
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007548625705171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007548625705171 (חוף אגם לאומי חולות סליפינג בר (מישיגן))"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -1799,43 +1495,18 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007550550405171 (קולוהי (קרולינה הצפונית))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
-        "recordId": "987007552509605171"
+        "recordId": "987007558826505171"
       },
       "result": "Success",
       "messages": [
-        "addPlaceRecord: added place 987007552509605171 (אריסאיג (נובה סקוטיה))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007552739205171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007552739205171 (רדבורן (ניו ג'רזי))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007554370305171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007554370305171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007559836505171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007559836505171 (אדריאן (מישיגן))"
-      ]
+        "addPlaceRecord: added place 987007558826505171 (מפרץ צ'וקטאוואצ'י (פלורידה))"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -1844,25 +1515,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007561471205171 (הרי גרניט (ויומינג))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007562230005171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007562230005171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007563000305171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007563000305171 (אגם מנדוטה (ויסקונסין))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -1870,8 +1524,19 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007593048405171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007593048405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007530120405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007530120405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -1879,17 +1544,19 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007531045605171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007531045605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
-        "recordId": "987007531180405171"
+        "recordId": "987007536804405171"
       },
       "result": "Success",
       "messages": [
-        "addPlaceRecord: added place 987007531180405171 (איאס (איטליה))"
-      ]
+        "addPlaceRecord: added place 987007536804405171 (לומה פריאטה (קליפורניה))"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -1898,7 +1565,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007542988305171 (סנטניאל (ויומינג))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -1907,196 +1575,18 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007548755605171 (עמק וורנר (אורגון))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
-        "recordId": "987007552756105171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007552756105171 (ג'סופ (מרילנד))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007555195505171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007555195505171 (גובאיה (גוארדה, פורטוגל))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007557248005171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007557248005171 (מחוז בורדן (טקסס))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007557303405171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007557303405171 (מחוז מק'קון (מונטנה))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007557641605171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007557641605171 (קוקסאקי (ניו יורק))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007557729205171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007557729205171 (טיואואן (סנגל : מחלקה))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007558835505171"
+        "recordId": "987007554370305171"
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007558835505171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007561506605171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007561506605171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007564580505171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007564580505171 (מחוז רנלס (טקסס))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007567079305171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007567079305171 (מחוז סבסטיאן (ארקנסו))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007568369005171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007568369005171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007574969705171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007574969705171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007544285005171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007544285005171 (הרי גלאס (טקסס))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007545165005171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007545165005171 (בורנה (לייפציג, גרמניה))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007549034405171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007549034405171 (את'רטון טייבללנד (קווינסלנד))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007550515805171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007550515805171 (מחוז קלאלאם (וושינגטון))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007555029605171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007555029605171 (רכש (ניו יורק))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007557205205171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007557205205171 (מחוז רנדל (טקסס))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007557582005171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007557582005171 (מחוז קרני (קנזס))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007557729305171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007557729305171 (פאוילאק (ג'ירונד, צרפת))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007557858305171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007557858305171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007554370305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -2105,7 +1595,128 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007558798005171 (אגם סנן אן (אלברטה))"
-      ]
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007558835505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007558835505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007561506605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007561506605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007562230005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007562230005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007563000305171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007563000305171 (אגם מנדוטה (ויסקונסין))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007564580505171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007564580505171 (מחוז רנלס (טקסס))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007567079305171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007567079305171 (מחוז סבסטיאן (ארקנסו))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007568369005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007568369005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007574969705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007574969705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007544285005171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007544285005171 (הרי גלאס (טקסס))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007549034405171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007549034405171 (את'רטון טייבללנד (קווינסלנד))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007555029605171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007555029605171 (רכש (ניו יורק))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007557858305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007557858305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -2114,34 +1725,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007559637705171 (מחוז בר (טקסס))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007559748905171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007559748905171 (רבון גפ (ג'ורג'יה))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007559771105171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007559771105171 (מחוז בייפילד (ויסקונסין))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007559903105171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007559903105171 (אוליבל (פורטו, פורטוגל))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -2149,8 +1734,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007562672205171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007562672205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -2158,8 +1744,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007579124805171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007579124805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -2167,17 +1754,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007586088705171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007557654305171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007557654305171 (גרינווד וילג' (קולורדו))"
-      ]
+        "Place 987007586088705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -2186,7 +1765,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007558165705171 (עמק לאטרוב (ויקטוריה))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -2194,8 +1774,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007560996205171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007560996205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -2203,8 +1784,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007561048205171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007561048205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -2213,7 +1795,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007561643605171 (נהר מדוקסנקאג (מיין))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -2221,8 +1804,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007564417105171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007564417105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -2231,7 +1815,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007564427905171 (סיסקו (טקסס))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -2240,7 +1825,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007566644805171 (הרי גליורו (אריזונה))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -2249,34 +1835,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007567417605171 (מנדב (מאדהיה פראדש, הודו))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007557325405171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007557325405171 (פרינס אדווארד (אונטריו))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007567515805171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007567515805171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007559915705171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007559915705171 (באפלו קריק (וירג'יניה המערבית))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -2284,8 +1844,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007563771605171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007563771605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -2293,8 +1854,19 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007563793605171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007563793605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007567515805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007567515805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -2302,8 +1874,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007563856105171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007563856105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -2311,8 +1884,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007583831505171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007583831505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -2321,61 +1895,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007559724205171 (אינדיאן הד (מרילנד))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007559814705171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007559814705171 (אנסונויל (קרולינה הצפונית))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007565848305171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007565848305171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007565935705171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007565935705171 (הרי טוקוימה (נבדה))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007566278605171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007566278605171 (יער ניסויי לוקילו (פוארטו ריקו))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007566936705171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007566936705171 (איגל ריוור (אנקורג', אלסקה))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007581193605171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007581193605171 does not satisfy IsPlaceToUse; skipping"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -2384,7 +1905,58 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007561800805171 (מנזנר (קליפורניה))"
-      ]
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007565848305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007565848305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007565935705171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007565935705171 (הרי טוקוימה (נבדה))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007566278605171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007566278605171 (יער ניסויי לוקילו (פוארטו ריקו))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007566936705171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007566936705171 (איגל ריוור (אנקורג', אלסקה))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007581193605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007581193605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -2392,8 +1964,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987011001170805171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987011001170805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -2401,8 +1974,19 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987011876075005171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987011876075005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987012292463705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012292463705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -2410,8 +1994,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987012312773905171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987012312773905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -2419,8 +2004,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987012370573505171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987012370573505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -2429,34 +2015,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987012292459005171 (איגל ספרינגס (קרולינה הצפונית))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987012292463705171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987012292463705171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987012292467405171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987012292467405171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987012292463205171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987012292463205171 does not satisfy IsPlaceToUse; skipping"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -2464,17 +2024,19 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987012292467305171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987012292467305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
-        "recordId": "987012331760005171"
+        "recordId": "987012292467405171"
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987012331760005171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987012292467405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -2482,8 +2044,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987012331767205171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987012331767205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -2491,8 +2054,19 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987012353076905171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987012353076905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987012292463205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012292463205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -2500,17 +2074,19 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987012314366105171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987012314366105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
-        "recordId": "987012922276705171"
+        "recordId": "987012331760005171"
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987012922276705171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987012331760005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -2518,26 +2094,19 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987012789576505171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987012789576505171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E02116, $e=E02116, $f=N04102, $g=N04102, $2=geonames) — $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
-        "recordId": "987013290979105171"
+        "recordId": "987012922276705171"
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013290979105171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987013387630905171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987013387630905171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987012922276705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -2545,8 +2114,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013387633305171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013387633305171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E253846, $e=E253846, $f=N483043, $g=N483043, $2=geonames) — $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -2554,8 +2124,29 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013392235205171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013392235205171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E160602, $e=E160602, $f=N484759, $g=N484759, $2=geonames) — $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013290979105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013290979105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013387630905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013387630905171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E60755, $e=E60755, $f=N515627, $g=N515627, $2=geonames) — $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -2564,7 +2155,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007403829105171 (סטימבוט ספרינגס (נבדה))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -2573,16 +2165,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007283262205171 (הרי בלק (ניו מקסיקו))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007403833105171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007403833105171 (קטלמן הילס (קליפורניה))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -2591,7 +2175,18 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007291695905171 (רמת דיפיאנס (אריזונה))"
-      ]
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007403833105171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007403833105171 (קטלמן הילס (קליפורניה))"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -2599,35 +2194,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007293878405171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007471597205171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007471597205171 (הולבק (נוטינגהמשייר, אנגליה))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007480002405171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007480002405171 (קורבט (אורגון))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007484868105171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007484868105171 (לילי דייל (ניו יורק))"
-      ]
+        "Place 987007293878405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -2635,8 +2204,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007469836005171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007469836005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -2645,25 +2215,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007471617705171 (בות'ביי (מיין))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007487158505171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007487158505171 (קרצ'ואן (ארמניה))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007491812805171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007491812805171 (ארדנטאון (דלאוור))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -2672,25 +2225,18 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007402006905171 (אגם בלטון (טקסס))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
-        "recordId": "987007548054405171"
+        "recordId": "987007491812805171"
       },
       "result": "Success",
       "messages": [
-        "addPlaceRecord: added place 987007548054405171 (טמיאנג-גאן (קוריאה))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007529594805171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007529594805171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "addPlaceRecord: added place 987007491812805171 (ארדנטאון (דלאוור))"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -2699,7 +2245,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007531828205171 (ניו הולנד (פנסילבניה))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -2707,26 +2254,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007534779605171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007538959105171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007538959105171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007539101305171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007539101305171 (עמק עדן (ויומינג))"
-      ]
+        "Place 987007534779605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -2735,34 +2265,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007539701705171 (מסה פהוטה (נבדה))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007540846305171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007540846305171 (איי אליזבת (מסצ'וסטס))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007542886005171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007542886005171 (סנטר פוינט (אינדיאנה))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007550562605171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007550562605171 (ווייקרוס (ג'ורג'יה))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -2770,8 +2274,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007552694505171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007552694505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -2780,25 +2285,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007554389805171 (הרי נידל (קולורדו))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007555009505171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007555009505171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007555067005171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007555067005171 (מחוז מקורמיק (קרולינה הדרומית))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -2806,35 +2294,19 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007556781405171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007556781405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
-        "recordId": "987007531147505171"
+        "recordId": "987007529594805171"
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007531147505171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007531961605171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007531961605171 (מחוז טראוויס (טקסס))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007533110205171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007533110205171 (ספרינג גרוב (אילינוי))"
-      ]
+        "Place 987007529594805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -2843,43 +2315,38 @@
       "result": "ManualReview",
       "messages": [
         "updatePlaceRecord: place 987007535620905171 would repoint onto Kima Id 11223 (currently MAZAL_ID 987007552849305171), but NLI still returns a record for 987007552849305171; refusing to delete. Manual review required."
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
-        "recordId": "987007535963905171"
+        "recordId": "987007538959105171"
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007535963905171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007538959105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
-        "recordId": "987007537295005171"
+        "recordId": "987007539101305171"
       },
       "result": "Success",
       "messages": [
-        "addPlaceRecord: added place 987007537295005171 (נהר צ'נה (אלסקה))"
-      ]
+        "addPlaceRecord: added place 987007539101305171 (עמק עדן (ויומינג))"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
-        "recordId": "987007537707105171"
+        "recordId": "987007540846305171"
       },
       "result": "Success",
       "messages": [
-        "addPlaceRecord: added place 987007537707105171 (דיגורה (רוסיה))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007542597605171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007542597605171 (וולסלי הילס (מסצ'וסטס))"
-      ]
+        "addPlaceRecord: added place 987007540846305171 (איי אליזבת (מסצ'וסטס))"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -2887,8 +2354,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007548277105171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007548277105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -2897,16 +2365,18 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007550306605171 (ווייז (וירג'יניה))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
-        "recordId": "987007550464805171"
+        "recordId": "987007550562605171"
       },
       "result": "Success",
       "messages": [
-        "addPlaceRecord: added place 987007550464805171 (רולט (טקסס))"
-      ]
+        "addPlaceRecord: added place 987007550562605171 (ווייקרוס (ג'ורג'יה))"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -2915,34 +2385,18 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007552849905171 (מחוז רולינס (קנזס))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
-        "recordId": "987007552984805171"
+        "recordId": "987007531147505171"
       },
-      "result": "Success",
+      "result": "NothingToDo",
       "messages": [
-        "addPlaceRecord: added place 987007552984805171 (מtונדסוויל (וירג'יניה המערבית))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007554827705171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007554827705171 (מאונטנוויל (ניו יורק))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007555346005171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007555346005171 (ז'נפינג שיאן (הנאן שנג, סין))"
-      ]
+        "Place 987007531147505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -2950,8 +2404,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007531911405171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007531911405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -2959,44 +2414,29 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007533145505171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007533145505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
-        "recordId": "987007533334405171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007533334405171 (ריינק (ריינלנד-פפאלץ, גרמניה))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007535741105171"
+        "recordId": "987007535963905171"
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007535741105171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007535963905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
-        "recordId": "987007539909005171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007539909005171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007540427505171"
+        "recordId": "987007537295005171"
       },
       "result": "Success",
       "messages": [
-        "addPlaceRecord: added place 987007540427505171 (טריורה (איטליה))"
-      ]
+        "addPlaceRecord: added place 987007537295005171 (נהר צ'נה (אלסקה))"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3005,7 +2445,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007541647605171 (אגם סמיתרס (טקסס))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3014,7 +2455,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007541968405171 (נהר סבסטיקוק (מיין))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3023,7 +2465,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007548452805171 (הרי מנזנו (ניו מקסיקו))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3031,35 +2474,19 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007549207405171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007549207405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
-        "recordId": "987007552980405171"
+        "recordId": "987007554827705171"
       },
       "result": "Success",
       "messages": [
-        "addPlaceRecord: added place 987007552980405171 (נבאסוטה (טקסס))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007554999705171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007554999705171 (מחוז פיני (קנזס))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007555351605171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007555351605171 (דנמורה (ניו יורק))"
-      ]
+        "addPlaceRecord: added place 987007554827705171 (מאונטנוויל (ניו יורק))"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3068,25 +2495,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007556146605171 (איי דרניירס (לואיזיאנה))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007478089005171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007478089005171 (ימבול (בולגריה : מחוז))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007491834605171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007491834605171 (קול היל (ארקנסו))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3095,7 +2505,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007530160105171 (שממת גליישר פיק (וושינגטון))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3104,16 +2515,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007532065305171 (צוקי קלברט (מרילנד))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007533250705171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007533250705171 (בורגק (תורינגיה, גרמניה))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3121,8 +2524,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007534307205171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007534307205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3131,7 +2535,18 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007534535505171 (אגן פורט רוק (אורגון))"
-      ]
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007535741105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007535741105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3139,26 +2554,19 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007539166905171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007539166905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
-        "recordId": "987007540069905171"
+        "recordId": "987007539909005171"
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007540069905171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007551433305171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007551433305171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007539909005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3167,16 +2575,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007552690905171 (מנאסס פארק (וירג'יניה))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007555245805171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007555245805171 (מגן (שווייץ))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3184,17 +2584,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007465323605171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007531084005171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007531084005171 (לק לה ביש (אלברטה))"
-      ]
+        "Place 987007465323605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3203,25 +2595,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007531811305171 (פולסום (קליפורניה))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007534107805171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007534107805171 (מחוז נהר פאודר (מונטנה))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007534256505171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007534256505171 (בודי (קליפורניה))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3230,7 +2605,18 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007538669205171 (אגן גייזר תחתון (ויומינג))"
-      ]
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007540069905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007540069905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3238,8 +2624,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007546704305171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007546704305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3248,16 +2635,18 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007548167405171 (פורט באר (לואיזיאנה))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
-        "recordId": "987007550527405171"
+        "recordId": "987007551433305171"
       },
-      "result": "ManualReview",
+      "result": "NothingToDo",
       "messages": [
-        "updatePlaceRecord: place 987007550527405171 would repoint onto Kima Id 87539 (currently MAZAL_ID 987007561805305171), but NLI still returns a record for 987007561805305171; refusing to delete. Manual review required."
-      ]
+        "Place 987007551433305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3266,7 +2655,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007551608905171 (נהר איסט פורק (ויומינג))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3275,7 +2665,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007552522105171 (וויפאני (ניו ג'רזי))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3284,25 +2675,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007553816805171 (הר פאלומר (קליפורניה))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007554827405171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007554827405171 (שרידן (ויומינג))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007555136705171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007555136705171 (פורט שרידן (אילינוי))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3310,8 +2684,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007557223905171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007557223905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3320,16 +2695,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007530904305171 (לוס סילוס (האיים הקנריים))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007530950005171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007530950005171 (טולי (ניו יורק))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3338,7 +2705,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007531423305171 (אגם פדר (טסמניה))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3346,8 +2714,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007532427005171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007532427005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3356,7 +2725,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007534116005171 (סנט פול מערב (מינסוטה))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3365,25 +2735,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007537390805171 (עמק אלטר (אריזונה))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007540345605171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007540345605171 (אחטלה (ארמניה))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007542593305171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007542593305171 does not satisfy IsPlaceToUse; skipping"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3391,8 +2744,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007546700305171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007546700305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3400,17 +2754,29 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007547179605171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007547179605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
-        "recordId": "987007555137405171"
+        "recordId": "987007550527405171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "updatePlaceRecord: place 987007550527405171 would repoint onto Kima Id 87539 (currently MAZAL_ID 987007561805305171), but NLI still returns a record for 987007561805305171; refusing to delete. Manual review required."
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007554827405171"
       },
       "result": "Success",
       "messages": [
-        "addPlaceRecord: added place 987007555137405171 (מחוז לסלי (קנטקי))"
-      ]
+        "addPlaceRecord: added place 987007554827405171 (שרידן (ויומינג))"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3419,7 +2785,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007556155305171 (מכרה קרלין (נבדה))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3428,16 +2795,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007530260205171 (אגם מחצ'י (קרולינה הצפונית))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007533475605171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007533475605171 (ברין אתין (פנסילבניה))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3445,8 +2804,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007533574305171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007533574305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3454,17 +2814,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007537652305171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007537719405171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007537719405171 (סנטה אוליה (אוביידו, ספרד))"
-      ]
+        "Place 987007537652305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3473,7 +2825,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007541662105171 (אגן נוריס גייזר (ויומינג))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3481,8 +2834,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007544120005171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007544120005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3491,7 +2845,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007550446405171 (ויסו (פורטוגל : מחוז))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3500,7 +2855,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007553709505171 (למוטרק (מיקרונזיה))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3509,16 +2865,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007555186505171 (מחוז יל (ארקנסו))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007557852005171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007557852005171 (סטפנוויל (ניופאונדלנד ולברדור))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3527,7 +2875,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007534335905171 (שמורת אינדיאנים מקאה (וושינגטון))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3536,7 +2885,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007538924405171 (הרי טובקו רוט (מונטנה))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3545,7 +2895,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007548852805171 (ונאגן קריק (דקוטה הצפונית))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3554,7 +2905,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007557545005171 (לאקאוואנה (ניו יורק))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3563,7 +2915,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007564496305171 (מחוז רוקס (קנזס))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3571,8 +2924,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007574969005171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007574969005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3580,8 +2934,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007602373305171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007602373305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3589,17 +2944,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007535023005171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007537951705171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007537951705171 (גרין (מיין))"
-      ]
+        "Place 987007535023005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3607,8 +2954,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007543765205171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007543765205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3616,17 +2964,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007545166405171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007557252605171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007557252605171 (מחוז לצ'ר (קנטקי))"
-      ]
+        "Place 987007545166405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3635,7 +2975,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007559531705171 (אפטון (ניו יורק))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3644,34 +2985,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007566979605171 (רוג 'רס סיטי (מישיגן))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007533269805171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007533269805171 (בירדסטאון (אילינוי))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007533473005171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007533473005171 (מינרל (וירג'יניה))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007547863905171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007547863905171 (מרקוס הוק (פנסילבניה))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3679,17 +2994,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007549191305171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007550321605171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007550321605171 (סנדס פוינט (ניו יורק))"
-      ]
+        "Place 987007549191305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3698,7 +3005,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007557451305171 (וודבורן (אורגון))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3706,8 +3014,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007559949805171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007559949805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3716,7 +3025,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007560955705171 (טארנטייז (צרפת))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3725,7 +3035,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007561937405171 (מחוז אוסבורן (קנזס))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3734,7 +3045,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007562071205171 (גריסון (ניו יורק))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3742,8 +3054,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007568361905171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007568361905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3752,7 +3065,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007531271605171 (נהר קאוליץ (וושינגטון))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3760,8 +3074,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007544582105171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007544582105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3769,8 +3084,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007556702805171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007556702805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3779,7 +3095,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007557669905171 (סאות'וול (נוטינגהמשייר, אנגליה))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3787,26 +3104,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007557695205171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007559511905171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007559511905171 (הופלנד (קליפורניה))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007559773705171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007559773705171 (מחוז קלאוויי (מיזורי))"
-      ]
+        "Place 987007557695205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3814,8 +3114,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007559814805171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007559814805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3823,53 +3124,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007563503405171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007557315505171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007557315505171 (מחוז אוקנוגן (וושינגטון))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007559613305171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007559613305171 (מחוז ראבאלי (מונטנה))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007559670405171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007559670405171 (סנאלס (איטליה))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007559886105171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007559886105171 (קרלין (נבדה))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007562216905171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007562216905171 (אסטנסיה (אילוילו, פיליפינים))"
-      ]
+        "Place 987007563503405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3878,7 +3135,28 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007564532105171 (מחוז מקלנן (טקסס))"
-      ]
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007559613305171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007559613305171 (מחוז ראבאלי (מונטנה))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007562216905171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007562216905171 (אסטנסיה (אילוילו, פיליפינים))"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3886,8 +3164,29 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007565655905171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007565655905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007566285605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007566285605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007566341705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007566341705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3896,25 +3195,18 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007566575705171 (לק לגון (האנטילים ההולנדיים))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
-        "recordId": "987007557749705171"
+        "recordId": "987007602488605171"
       },
-      "result": "Success",
+      "result": "NothingToDo",
       "messages": [
-        "addPlaceRecord: added place 987007557749705171 (אלמורה (הודו : מחוז))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007557768605171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007557768605171 (לפיר (מישיגן))"
-      ]
+        "Place 987007602488605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3922,8 +3214,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007558610505171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007558610505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3932,16 +3225,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007559290005171 (הרי הומבולדט (נבדה))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007559933505171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007559933505171 (מחוז פיורד (ניו זילנד))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3950,7 +3235,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007561151305171 (נהר קלמזו (מישיגן))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3958,8 +3244,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007562637705171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007562637705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3967,8 +3254,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007563794405171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007563794405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -3976,89 +3264,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007564841805171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007566285605171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007566285605171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007566341705171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007566341705171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007602488605171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007602488605171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007558790105171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007558790105171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007562542305171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007562542305171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007563783505171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007563783505171 (שמורת פצ'נגה (קליפורניה))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007565162105171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007565162105171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007566045005171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007566045005171 (נהר בלקפוט (מונטנה))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007566735105171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007566735105171 (מחוז גולדן ואלי (דקוטה הצפונית))"
-      ]
+        "Place 987007564841805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -4067,7 +3275,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007567443105171 (ויזיאנגארם (הודו : מחוז))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -4075,35 +3284,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007567497905171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007567542405171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007567542405171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987010362967405171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987010362967405171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007557264105171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007557264105171 (סנטרטון (מחוז בורלינגטון, ניו ג'רזי))"
-      ]
+        "Place 987007567497905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -4112,16 +3295,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007557439505171 (מחוז סנדרס (מונטנה))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007557467205171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007557467205171 (טאנגו (חביי שנג, סין))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -4129,17 +3304,49 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007558725005171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007558725005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
-        "recordId": "987007559740405171"
+        "recordId": "987007558790105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007558790105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007562542305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007562542305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007563783505171"
       },
       "result": "Success",
       "messages": [
-        "addPlaceRecord: added place 987007559740405171 (פורטונה (קליפורניה))"
-      ]
+        "addPlaceRecord: added place 987007563783505171 (שמורת פצ'נגה (קליפורניה))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007565162105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007565162105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -4148,7 +3355,58 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007565848405171 (אגם סירלס (קליפורניה))"
-      ]
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007566045005171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007566045005171 (נהר בלקפוט (מונטנה))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007566735105171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007566735105171 (מחוז גולדן ואלי (דקוטה הצפונית))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007567542405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007567542405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987010362967405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987010362967405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007559740405171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007559740405171 (פורטונה (קליפורניה))"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -4156,8 +3414,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987012276232305171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987012276232305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -4165,8 +3424,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987012292465705171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987012292465705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -4174,35 +3434,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987012331761105171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987012331776205171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987012331776205171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987012331776305171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987012331776305171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987012312777005171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987012312777005171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987012331761105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -4210,35 +3444,29 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987012331773005171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987012331773005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
-        "recordId": "987012370572905171"
+        "recordId": "987012331776205171"
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987012370572905171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987012331776205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
-        "recordId": "987012370573005171"
+        "recordId": "987012331776305171"
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987012370573005171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987012370573405171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987012370573405171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987012331776305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -4246,8 +3474,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987012292463805171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987012292463805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -4255,8 +3484,19 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987012292463905171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987012292463905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987012312777005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012312777005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -4264,8 +3504,39 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987012331767705171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987012331767705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987012370572905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012370572905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987012370573005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012370573005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987012370573405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012370573405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -4273,44 +3544,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987012403686705171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987013219801605171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987013219801605171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987013290885105171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987013290885105171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987013290887805171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987013290887805171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987013294738505171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987013294738505171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987012403686705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -4318,35 +3554,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013331817905171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987013387631005171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987013387631005171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987013387631105171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987013387631105171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987013387633105171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987013387633105171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013331817905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -4354,8 +3564,79 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013387633405171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013387633405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013219801605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013219801605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013290885105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013290885105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013290887805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013290887805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013294738505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013294738505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013387631005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013387631005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013387631105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013387631105171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E61532, $e=E61532, $f=N515236, $g=N515236, $2=geonames) — $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013387633105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013387633105171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E255107, $e=E255107, $f=N481455, $g=N481455, $2=geonames) — $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -4363,8 +3644,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013387634505171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013387634505171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E255101, $e=E255101, $f=N481358, $g=N481358, $2=geonames) — $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -4372,8 +3654,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013387635305171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013387635305171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E253647, $e=E253647, $f=N482122, $g=N482122, $2=geonames) — $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -4381,8 +3664,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013399759205171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013399759205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -4390,8 +3674,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013399760105171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013399760105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -4399,89 +3684,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013399761305171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987013399763405171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987013399763405171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987013399758905171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987013399758905171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987013399759005171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987013399759005171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987013399759305171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987013399759305171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987013399759405171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987013399759405171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987013399759905171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987013399759905171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987013399760005171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987013399760005171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987013399761505171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987013399761505171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987013399762105171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987013399762105171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013399761305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -4489,8 +3694,99 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013399762605171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013399762605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013399763405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013399763405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013399758905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013399758905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013399759005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013399759005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013399759305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013399759305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013399759405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013399759405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013399759905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013399759905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013399760005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013399760005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013399761505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013399761505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013399762105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013399762105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -4498,8 +3794,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013399763105171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013399763105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -4507,8 +3804,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013400531505171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013400531505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -4516,31 +3814,21 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013401444305171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013401444305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     }
   ],
   "requireReviewSummary": [
     {
       "item": {
-        "recordId": "987007557774505171"
-      },
-      "result": "ManualReview",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'نيوارك (نوتينجهامشير، إنجلترا)'",
-        "Updated Wd from 'Q1053027' to 'Q49940'. Manual review required. Kima Id:78947",
-        "Updated ViafId from 'null' to '237005634'",
-        "updatePlaceRecord: variants +4: Newark, Eng.[la] | Newark on Trent (England)[la] | Newark-upon-Trent (England)[la] | Newark (Nottinghamshire)[la]"
-      ]
-    },
-    {
-      "item": {
         "recordId": "987007535620905171"
       },
       "result": "ManualReview",
       "messages": [
         "updatePlaceRecord: place 987007535620905171 would repoint onto Kima Id 11223 (currently MAZAL_ID 987007552849305171), but NLI still returns a record for 987007552849305171; refusing to delete. Manual review required."
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -4549,43 +3837,22 @@
       "result": "ManualReview",
       "messages": [
         "updatePlaceRecord: place 987007550527405171 would repoint onto Kima Id 87539 (currently MAZAL_ID 987007561805305171), but NLI still returns a record for 987007561805305171; refusing to delete. Manual review required."
-      ]
+      ],
+      "nliState": "Live"
     }
   ],
-  "failedSummary": [
-    {
-      "item": {
-        "recordId": "987007284075505171"
-      },
-      "result": "Failure",
-      "messages": [
-        "An error occurred while saving the entity changes. See the inner exception for details. --> Cannot insert duplicate key row in object 'dbo.Variants' with unique index 'IX_Variants_primary_heb_full_variant'. The duplicate key value is (רנידוס (טורקיה : עיר קדומה), Cnidos (Turkey : Extinct city))."
-      ]
-    }
-  ],
+  "failedSummary": [],
   "requireReviewItems": [
     {
       "item": {
-        "recordId": "987007557774505171"
-      },
-      "result": "ManualReview",
-      "messages": [
-        "Updated PrimaryArabFull from 'null' to 'نيوارك (نوتينجهامشير، إنجلترا)'",
-        "Updated Wd from 'Q1053027' to 'Q49940'. Manual review required. Kima Id:78947",
-        "Updated ViafId from 'null' to '237005634'",
-        "updatePlaceRecord: variants +4: Newark, Eng.[la] | Newark on Trent (England)[la] | Newark-upon-Trent (England)[la] | Newark (Nottinghamshire)[la]"
-      ],
-      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>02181cz  a2200361n  4500</leader><controlfield tag=\"005\">20260803123409.0</controlfield><controlfield tag=\"008\">841128n||acannaab|          |a ana    ||</controlfield><controlfield tag=\"001\">987007557774505171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 84195620</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q49940</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">237005634</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">-0.9</subfield><subfield code=\"e\">-0.9</subfield><subfield code=\"f\">53.1</subfield><subfield code=\"g\">53.1</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-001005877</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">Uk</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Newark (Nottinghamshire, England)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">נוארק (נוטינגהמשייר, אנגליה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">نيوارك (نوتينجهامشير، إنجلترا)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Great Britain</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"w\">nnaa</subfield><subfield code=\"a\">Newark, Eng.</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Newark on Trent (England)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Newark-upon-Trent (England)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"w\">nne</subfield><subfield code=\"a\">Newark (Nottinghamshire)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record enriched with 670 fields from LCNA on: 20260803</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Collins Britain atlas and gazetteer, 1999</subfield><subfield code=\"b\">(Newark-on-Trent, Notts.; town, market and commercial town, 16m/25km SW of Lincoln and 17m/27km NE of Nottingham; cites 2 others))</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">GeoNames, algorithmically matched, 2009</subfield><subfield code=\"b\">(ppl; 53°04ʹ00ʺN 000°49ʹ00ʺW)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Wikipedia, viewed 11 Sept. 2025</subfield><subfield code=\"b\">(Newark-on-Trent ; or Newark; market town and civil parish in the Newark and Sherwood district in Nottinghamshire, England, on the River Trent; historically a major inland port)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Forward Publicity Ltd. District of Newark, official map, 1984:</subfield><subfield code=\"b\">map recto (Newark on Trent)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">LC data base, 11-27-84</subfield><subfield code=\"b\">(hdg.: Newark, Eng.)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Muni. yr. bk., 1984</subfield><subfield code=\"b\">(Newark, town, in Newark District, Nottinghamshire)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Col. Lipp. gaz., 1962</subfield><subfield code=\"b\">(Newark or Newark-upon-Trent, muni. borough, in Nottinghamshire)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">BL hdg.</subfield><subfield code=\"b\">(Newark (England))</subfield></datafield></record>\n"
-    },
-    {
-      "item": {
         "recordId": "987007535620905171"
       },
       "result": "ManualReview",
       "messages": [
         "updatePlaceRecord: place 987007535620905171 would repoint onto Kima Id 11223 (currently MAZAL_ID 987007552849305171), but NLI still returns a record for 987007552849305171; refusing to delete. Manual review required."
       ],
-      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01029nz  a2200229n  4500</leader><controlfield tag=\"005\">20250418092559.0</controlfield><controlfield tag=\"008\">980122n||acannaab|          |n ana    ||</controlfield><controlfield tag=\"001\">987007535620905171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">no 98036888</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">128156134</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">W0710545</subfield><subfield code=\"e\">W0710545</subfield><subfield code=\"f\">N0422323</subfield><subfield code=\"g\">N0422323</subfield><subfield code=\"2\">geonames</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">(OCoLC)oca04618315</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-001050279</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC-S</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC-S</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Sommerville (Mass.)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">סומרוויל (מסצ'וסטס)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">سومرفيل (ماساتشوستس)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">United States</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record roundup (Sommerville, Mass.), Oct. 1976</subfield><subfield code=\"b\">cover p. 4 (Sommerville, MA)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Rand McNally commercial atlas ... 1987:</subfield><subfield code=\"b\">(Sommerville, Massachusetts)</subfield></datafield></record>\n"
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01029nz  a2200229n  4500</leader><controlfield tag=\"005\">20250418092559.0</controlfield><controlfield tag=\"008\">980122n||acannaab|          |n ana    ||</controlfield><controlfield tag=\"001\">987007535620905171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">no 98036888</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">128156134</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">W0710545</subfield><subfield code=\"e\">W0710545</subfield><subfield code=\"f\">N0422323</subfield><subfield code=\"g\">N0422323</subfield><subfield code=\"2\">geonames</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">(OCoLC)oca04618315</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-001050279</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC-S</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC-S</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Sommerville (Mass.)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">סומרוויל (מסצ'וסטס)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">سومرفيل (ماساتشوستس)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">United States</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record roundup (Sommerville, Mass.), Oct. 1976</subfield><subfield code=\"b\">cover p. 4 (Sommerville, MA)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Rand McNally commercial atlas ... 1987:</subfield><subfield code=\"b\">(Sommerville, Massachusetts)</subfield></datafield></record>\n",
+      "nliState": "Live"
     },
     {
       "item": {
@@ -4595,19 +3862,9 @@
       "messages": [
         "updatePlaceRecord: place 987007550527405171 would repoint onto Kima Id 87539 (currently MAZAL_ID 987007561805305171), but NLI still returns a record for 987007561805305171; refusing to delete. Manual review required."
       ],
-      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>00992nz  a2200217n  4500</leader><controlfield tag=\"005\">20250418092643.0</controlfield><controlfield tag=\"008\">820223n||acannaab|          |n ana    ||</controlfield><controlfield tag=\"001\">987007550527405171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 82005916</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q827186</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">155954987</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">13.061113</subfield><subfield code=\"e\">13.061113</subfield><subfield code=\"f\">52.399486</subfield><subfield code=\"g\">52.399486</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000989896</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Potsdam (Germany : Regierungsbezirk)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">פוטסדם (גרמניה : מחוז)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">بوتسدام (ألمانيا : ريجيرونس بيزيرك)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Germany</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Its Amtsblatt.</subfield></datafield></record>\n"
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>00992nz  a2200217n  4500</leader><controlfield tag=\"005\">20250418092643.0</controlfield><controlfield tag=\"008\">820223n||acannaab|          |n ana    ||</controlfield><controlfield tag=\"001\">987007550527405171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 82005916</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q827186</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">155954987</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">13.061113</subfield><subfield code=\"e\">13.061113</subfield><subfield code=\"f\">52.399486</subfield><subfield code=\"g\">52.399486</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000989896</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Potsdam (Germany : Regierungsbezirk)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">פוטסדם (גרמניה : מחוז)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">بوتسدام (ألمانيا : ريجيرونس بيزيرك)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">Germany</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Its Amtsblatt.</subfield></datafield></record>\n",
+      "nliState": "Live"
     }
   ],
-  "failedItems": [
-    {
-      "item": {
-        "recordId": "987007284075505171"
-      },
-      "result": "Failure",
-      "messages": [
-        "An error occurred while saving the entity changes. See the inner exception for details. --> Cannot insert duplicate key row in object 'dbo.Variants' with unique index 'IX_Variants_primary_heb_full_variant'. The duplicate key value is (רנידוס (טורקיה : עיר קדומה), Cnidos (Turkey : Extinct city))."
-      ],
-      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01259cz  a2200253n  4500</leader><controlfield tag=\"005\">20250421105046.0</controlfield><controlfield tag=\"008\">860211|| anannbabn          |a ana      </controlfield><controlfield tag=\"001\">987007284075505171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">sh 85027285</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q690575</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">27.375</subfield><subfield code=\"e\">27.375</subfield><subfield code=\"f\">36.685833</subfield><subfield code=\"g\">36.685833</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000663378</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Cnidus (Turkey : Extinct city)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">רנידוס (טורקיה : עיר קדומה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">سنيدوس (تركيا : مدينة قديمة)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Cnidos (Turkey : Extinct city)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"w\">nne</subfield><subfield code=\"a\">Cnidus (Ancient city)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Gnidus (Turkey : Extinct city)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Knidos (Turkey : Extinct city)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"550\" ind1=\" \" ind2=\" \"><subfield code=\"w\">g</subfield><subfield code=\"a\">Extinct cities</subfield><subfield code=\"z\">Turkey</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"551\" ind1=\" \" ind2=\" \"><subfield code=\"w\">g</subfield><subfield code=\"a\">Turkey</subfield><subfield code=\"x\">Antiquities</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Princton encyc. classic. sites</subfield><subfield code=\"b\">(Knidos (Cnidus) Caria, Turkey; abandoned 7th cent. A.D.; also town with this name in Cyprus)</subfield></datafield><datafield tag=\"781\" ind1=\" \" ind2=\"0\"><subfield code=\"z\">Turkey</subfield><subfield code=\"z\">Cnidus (Extinct city)</subfield></datafield></record>\n"
-    }
-  ]
+  "failedItems": []
 }

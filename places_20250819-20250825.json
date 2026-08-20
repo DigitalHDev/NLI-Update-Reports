@@ -1,0 +1,16 @@
+{
+  "type": "Place",
+  "runTime": "2026-08-16T14:00:25.5032372Z",
+  "period": "20250819-20250825",
+  "numProcessedItems": 0,
+  "numModifiedItems": 0,
+  "numNewItems": 0,
+  "numReviewItems": 0,
+  "numFailedItems": 0,
+  "modifiedSummary": [],
+  "newSummary": [],
+  "requireReviewSummary": [],
+  "failedSummary": [],
+  "requireReviewItems": [],
+  "failedItems": []
+}

@@ -1,0 +1,1159 @@
+{
+  "type": "Place",
+  "runTime": "2026-08-16T16:15:39.9547941Z",
+  "period": "20260319-20260325",
+  "numProcessedItems": 8173,
+  "numModifiedItems": 55,
+  "numNewItems": 40,
+  "numReviewItems": 6,
+  "numFailedItems": 0,
+  "modifiedSummary": [
+    {
+      "item": {
+        "recordId": "987007397978305171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Failed to fetch MARC XML for place RecordId 987007397978305171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+      ],
+      "nliState": "Absent"
+    },
+    {
+      "item": {
+        "recordId": "987007420887205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007420887205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007419786605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007419786605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007475199605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007475199605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007546703005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007546703005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007533714505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'מאגר ג 'ון ה. קר (צפון קרולינה ווירג'יניה)' to 'מאגר ג 'ון ה. קר (וירג'יניה וצפון קרולינה)'",
+        "Updated PrimaryArabFull from 'null' to 'خزان جون هـ. كير (فيرجينيا وكارولينا الشمالية)'",
+        "updatePlaceRecord: variants +6: Buggs Island Lake (Va. and N.C.)[la] | Buggs Island Reservoir (Va. and N.C.)[la] | Kerr, Lake (Va. and N.C.)[la] | Kerr Reservoir (Va. and N.C.)[la] | Lake Kerr (Va. and N.C.)[la] | Townsville Lake (Va. and N.C.)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007550296105171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'ברוקלן (הולנד)' to 'ברוקלן (אוטרכט, הולנד)'",
+        "Updated PrimaryArabFull from 'null' to 'بريوكلين (أوتريخت، هولندا)'",
+        "updatePlaceRecord: variants +2: Breukelen, Netherlands (Utrecht)[la] | בארקלון (הולנד)[he]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007541716405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007541716405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007529692605171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 433.4 km. Manual review required. Kima Id:3869 Name:נהר רד דיר (קנדה)",
+        "Updated PrimaryHebFull from 'נהר רד דיר (קנדה)' to 'נהר רד דיר (אלברטה וססקצ'ואן)'",
+        "Updated PrimaryArabFull from 'null' to 'نهر ريد دير ريفر (ألبرتا وساسكاتشوان)'",
+        "Updated Wd from 'null' to 'Q850119'"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007543307605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007543307605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007535298405171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'אוסרואינה (ממלכה עתיקה)' to 'אוסרואינה (ממלכה קדומה)'",
+        "Updated PrimaryRomFull from 'Osroëne (Ancient kingdom)' to 'Osroëne (Ancient kingdom)'",
+        "Updated PrimaryArabFull from 'null' to 'أوسروين (المملكة القديمة)'",
+        "updatePlaceRecord: variants +1: Osrhoène (Ancient kingdom)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007537275005171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'עמק נהר פאודר (ויומינג וורמונט)' to 'עמק נהר פאודר (ויומינג ומונטנה)'",
+        "Updated PrimaryArabFull from 'null' to 'وادي نهر باودر (وايومنغ ومونتانا)'",
+        "updatePlaceRecord: variants +1: Powder Valley (Wyo. and Mont.)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007567331105171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "updatePlaceRecord: place 987007567331105171 cannot be updated in place — its Hebrew name already exists on Kima Id 73472 (MAZAL_ID 987007564918505171). Merge required. Discarding Kima Id:81810 Name:טולכרם (יהודה ושומרון)"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007539448005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007539448005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007556004905171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 321.7 km. Manual review required. Kima Id:70868 Name:נהר סלייב (אלברטה והטריטוריה הצפון מערבית)",
+        "Updated PrimaryHebFull from 'נהר סלייב (אלברטה והטריטוריה הצפון מערבית)' to 'נהר סלייב (אלברטה והטריטוריות הצפון-מערביות)'",
+        "Updated PrimaryArabFull from 'null' to 'نهر سليف (ألبرتا والأقاليم الشمالية الغربية)'",
+        "updatePlaceRecord: variants +1: Great Slave River (Alta. and N.W.T.)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007564296405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007564296405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007563253005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007563253005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007566711605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007566711605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007567536505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007567536505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007566711505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007566711505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007563956605171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'פארק פרובינציאלי ביג היל ספרינגס (אלטברטה)' to 'פארק פרובינציאלי ביג היל ספרינגס (אלברטה)'",
+        "Updated PrimaryArabFull from 'null' to 'منتزه بيغ هيل سبرينغز الإقليمي (ألبرتا)'"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007570945505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007570945505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007591040905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007591040905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987008980975805171"
+      },
+      "result": "Success",
+      "messages": [
+        "Coordinates added: Lat=29.954166666666666, Lon=117.9088888888889",
+        "Updated PrimaryHebFull from 'בישן שיאנג (מחוז אנהוי, סין)' to 'בישן שיאנג (אנחווי שנג, סין)'",
+        "Updated PrimaryArabFull from 'null' to 'بيشان شيانغ شيانغ (أنهوي شنغ، الصين)'",
+        "Updated ViafId from 'null' to '27150030577410961528'",
+        "updatePlaceRecord: variants +2: Bishan (Anhui Sheng, China)[la] | San-tu (Anhui Sheng, China)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007577196605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007577196605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007566190005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007566190005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007577193005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007577193005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007290954305171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 87.4 km. Manual review required. Kima Id:86073 Name:נהר הייווד (אלטברה)",
+        "Updated PrimaryHebFull from 'נהר הייווד (אלטברה)' to 'נהר הייווד (אלברטה)'",
+        "Updated PrimaryArabFull from 'null' to 'نهر هاي وود (ألبرتا)'"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007433752505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007433752505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007465439505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007465439505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007376967105171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'ז'רמנוביץ (מחוז אופול, פולין)' to 'ז'רמנוביץ (מחוז פולין קטן, פולין)'",
+        "Updated PrimaryRomFull from 'Jerzmanowice (Województwo Małopolskie, Poland)' to 'Jerzmanowice (Województwo Małopolskie, Poland)'",
+        "Updated PrimaryArabFull from 'null' to 'جيرزمانوفيتسه (مالوبولسكي فويفودشيب، بولندا)'",
+        "Updated Wd from 'null' to 'Q986691'"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007541064105171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'נהר קסאי (אנגולה, קונגו)' to 'נהר קסאי (אנגולה וקונגו)'",
+        "Updated PrimaryArabFull from 'null' to 'نهر كاساي (أنغولا والكونغو)'",
+        "Updated Wd from 'null' to 'Q186541'",
+        "updatePlaceRecord: variants +3: Cassai River (Angola and Congo)[la] | Kasai River (Angola and Zaire)[la] | Kassai River (Angola and Congo)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007524454805171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'מחלול (תל אביב, ישראל)' to 'שכונת מחלול (תל אביב-יפו, ישראל)'",
+        "Updated PrimaryRomFull from 'Mahlul (Tel Aviv, Israel)' to 'Shekhunat Machlul (Tel Aviv-Yafo, Israel)'",
+        "Updated PrimaryArabFull from 'حي محلول (تل أبيب يافا، إسرائيل)' to 'حي محلول (تل أبيب-يافا، إسرائيل)'",
+        "Updated Wd from 'null' to 'Q12411699'",
+        "updatePlaceRecord: variants +7: Shekhunat Machlool (Tel Aviv-Yafo, Israel)[la] | Mahlul (Tel Aviv, Israel)[la] | שכונת מחלול א' (תל-אביב-יפו, ישראל)[he] | שכונת מחלול ב' (תל-אביב-יפו, ישראל)[he] | מחלול (תל אביב, ישראל)[he] | תל-אביב[he] | محلول (تل أبيب، إسرائيل)[ar]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007530111305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007530111305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007552970705171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'רוטי (ציריך, שוויץ)' to 'רוטי (ציריך, שווייץ)'",
+        "Updated PrimaryRomFull from 'Rüti (Zurich, Switzerland)' to 'Rüti (Zurich, Switzerland)'",
+        "Updated PrimaryArabFull from 'null' to 'روتي (زيورخ، سويسرا)'",
+        "Updated ViafId from 'null' to '146616645'"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007554333305171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'אזור טואט (אלג'ריה)' to 'אזור טואט (אלג'יריה)'",
+        "updatePlaceRecord: variants +7: Touat (Algeria)[la] | Touat[la] | Minṭaqat Tuwāt (Algeria)[la] | Tawāt Region (Algeria)[la] | Tohat Region (Algeria)[la] | Tuat Region (Algeria)[la] | Tuwāt Region (Algeria)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007537108805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007537108805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007534359505171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 234.5 km. Manual review required. Kima Id:3056 Name:בוקובינה (רומניה-אוקראינה)",
+        "Updated PrimaryHebFull from 'בוקובינה (רומניה-אוקראינה)' to 'בוקובינה (רומניה ואוקראינה)'",
+        "Updated PrimaryArabFull from 'null' to 'بوكوفينا (رومانيا وأوكرانيا)'",
+        "updatePlaceRecord: variants +4: Bucovina (Romania and Ukraine)[la] | Bukovyna (Romania and Ukraine)[la] | Bukowina (Romania and Ukraine)[la] | בוקאווינא (רומניה-אוקראינה)[he]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007538865205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007538865205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007567657805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007567657805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007592130605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007592130605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007572844505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007572844505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007581729405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007581729405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007584234505171"
+      },
+      "result": "Success",
+      "messages": [
+        "updatePlaceRecord: variants +3: Rummana (West Bank)[la] | Rummanah (West Bank)[la] | Rumanah (West Bank)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007584243405171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'سيلة الظهر (الضفة الغربية)' to 'سيلات الظهر (الضفة الغربية)'",
+        "updatePlaceRecord: variants +2: Silat adh Dhahhr (West Bank)[la] | סילת א-זהר (יהודה ושומרון)[he]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007876389005171"
+      },
+      "result": "Success",
+      "messages": [
+        "updatePlaceRecord: variants +6: Karawat Bani hssan (West Bank)[la] | Kulat Ferdus (Qarawat Bani Hassan, West Bank)[la] | Burj el-Yakhur (Qarawat Bani Hassan, West Bank)[la] | קרוואת בני חסן (גדה מערבית)[he] | קרוות בני חסן (יהודה ושומרון)[he] | קראווה א-תחתא (יהודה ושומרון)[he]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007582174005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007582174005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007557906205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007557906205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987009349780305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987009349780305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987010831424505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987010831424505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987011433416705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987011433416705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987011386278505171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'זאטור (מחוז אופול, פולין) (מחוז פולין קטן, פולין) (פולין קטן) (פולין קטן, פולין) (פולין)' to 'זאטור (מחוז אופול, פולין) (מחוז פולין קטן, פולין)'",
+        "Updated PrimaryArabFull from 'null' to 'زاتور (مالوبولسكي فويفودشيب، بولندا)'",
+        "Updated ViafId from 'null' to '236579251'"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987012182777105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012182777105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987012727577005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012727577005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987011433528705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987011433528705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    }
+  ],
+  "newSummary": [
+    {
+      "item": {
+        "recordId": "987009841966305171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987009841966305171 (סביל (לטביה))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007552613505171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007552613505171 (קנבנקפורט (מיין))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007530939805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007530939805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007559861305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007559861305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987012423075105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012423075105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987012875573205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012875573205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987012858552005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012858552005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013294735705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013294735705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987012939871905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012939871905171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E204231, $e=E204231, $f=N494244, $g=N494244, $2=geonames) — $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013032576205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013032576205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013155716405171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987013155716405171 (ידובניקי (מחוז פולין קטן, פולין))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013290982705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013290982705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013290998005171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987013290998005171 (צ'יאנשאן שיאן (אנחווי שנג, סין))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013294740405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013294740405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013588388305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013588388305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617076505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617076505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007471604705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007471604705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007550358505171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007550358505171 (מחוז למאר (מיסיסיפי))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987012878273905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012878273905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987012900864005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012900864005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013147777105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013147777105171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E194752, $e=E194752, $f=N500651, $g=N500651, $2=geonames) — $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013243445105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013243445105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013331818905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013331818905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013393334605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013393334605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013624140305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013624140305171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E10147, $e=E10147, $f=N425355, $g=N425355) — missing or empty $2, $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013912140405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013912140405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014407073905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014407073905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014407074705171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987014407074705171 (פוינט (פנסילבניה : עיירה))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014407580105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014407580105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014407074505171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987014407074505171 (ליי סין (קנזס))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014407077205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014407077205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014407077905171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987014407077905171 (קינגסטאון (קרולינה הצפונית))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014407580905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014407580905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013324832205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013324832205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014407481405171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987014407481405171 (מריספלד (גרמניה))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014407682705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014407682705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013800317805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013800317805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014407473405171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987014407473405171 (אברם (רומניה))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014011564505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014011564505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014203143205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014203143205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    }
+  ],
+  "requireReviewSummary": [
+    {
+      "item": {
+        "recordId": "987007397978305171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Failed to fetch MARC XML for place RecordId 987007397978305171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+      ],
+      "nliState": "Absent"
+    },
+    {
+      "item": {
+        "recordId": "987007529692605171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 433.4 km. Manual review required. Kima Id:3869 Name:נהר רד דיר (קנדה)",
+        "Updated PrimaryHebFull from 'נהר רד דיר (קנדה)' to 'נהר רד דיר (אלברטה וססקצ'ואן)'",
+        "Updated PrimaryArabFull from 'null' to 'نهر ريد دير ريفر (ألبرتا وساسكاتشوان)'",
+        "Updated Wd from 'null' to 'Q850119'"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007567331105171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "updatePlaceRecord: place 987007567331105171 cannot be updated in place — its Hebrew name already exists on Kima Id 73472 (MAZAL_ID 987007564918505171). Merge required. Discarding Kima Id:81810 Name:טולכרם (יהודה ושומרון)"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007556004905171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 321.7 km. Manual review required. Kima Id:70868 Name:נהר סלייב (אלברטה והטריטוריה הצפון מערבית)",
+        "Updated PrimaryHebFull from 'נהר סלייב (אלברטה והטריטוריה הצפון מערבית)' to 'נהר סלייב (אלברטה והטריטוריות הצפון-מערביות)'",
+        "Updated PrimaryArabFull from 'null' to 'نهر سليف (ألبرتا والأقاليم الشمالية الغربية)'",
+        "updatePlaceRecord: variants +1: Great Slave River (Alta. and N.W.T.)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007290954305171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 87.4 km. Manual review required. Kima Id:86073 Name:נהר הייווד (אלטברה)",
+        "Updated PrimaryHebFull from 'נהר הייווד (אלטברה)' to 'נהר הייווד (אלברטה)'",
+        "Updated PrimaryArabFull from 'null' to 'نهر هاي وود (ألبرتا)'"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007534359505171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 234.5 km. Manual review required. Kima Id:3056 Name:בוקובינה (רומניה-אוקראינה)",
+        "Updated PrimaryHebFull from 'בוקובינה (רומניה-אוקראינה)' to 'בוקובינה (רומניה ואוקראינה)'",
+        "Updated PrimaryArabFull from 'null' to 'بوكوفينا (رومانيا وأوكرانيا)'",
+        "updatePlaceRecord: variants +4: Bucovina (Romania and Ukraine)[la] | Bukovyna (Romania and Ukraine)[la] | Bukowina (Romania and Ukraine)[la] | בוקאווינא (רומניה-אוקראינה)[he]"
+      ],
+      "nliState": "Live"
+    }
+  ],
+  "failedSummary": [],
+  "requireReviewItems": [
+    {
+      "item": {
+        "recordId": "987007397978305171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Failed to fetch MARC XML for place RecordId 987007397978305171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+      ],
+      "nliState": "Absent"
+    },
+    {
+      "item": {
+        "recordId": "987007529692605171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 433.4 km. Manual review required. Kima Id:3869 Name:נהר רד דיר (קנדה)",
+        "Updated PrimaryHebFull from 'נהר רד דיר (קנדה)' to 'נהר רד דיר (אלברטה וססקצ'ואן)'",
+        "Updated PrimaryArabFull from 'null' to 'نهر ريد دير ريفر (ألبرتا وساسكاتشوان)'",
+        "Updated Wd from 'null' to 'Q850119'"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01156cz  a2200241n  4500</leader><controlfield tag=\"005\">20260320055344.0</controlfield><controlfield tag=\"008\">870409|| anannbabn          |a ana      </controlfield><controlfield tag=\"001\">987007529692605171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">sh 87002219</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q850119</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">-116.0447083</subfield><subfield code=\"e\">-116.0447083</subfield><subfield code=\"f\">51.53437778</subfield><subfield code=\"g\">51.53437778</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000781355</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Red Deer River (Alta. and Sask.)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">נהר רד דיר (אלברטה וססקצ'ואן)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">نهر ريد دير ريفر (ألبرتا وساسكاتشوان)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"550\" ind1=\" \" ind2=\" \"><subfield code=\"w\">g</subfield><subfield code=\"a\">Rivers</subfield><subfield code=\"z\">Alberta</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"550\" ind1=\" \" ind2=\" \"><subfield code=\"w\">g</subfield><subfield code=\"a\">Rivers</subfield><subfield code=\"z\">Saskatchewan</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Work cat.: Gross, R. Dinosaur country, 1985.</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Lippincott.</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Web. geog.</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">GeoRef.</subfield></datafield><datafield tag=\"781\" ind1=\" \" ind2=\"0\"><subfield code=\"z\">Red Deer River (Alta. and Sask.)</subfield></datafield></record>\n",
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007567331105171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "updatePlaceRecord: place 987007567331105171 cannot be updated in place — its Hebrew name already exists on Kima Id 73472 (MAZAL_ID 987007564918505171). Merge required. Discarding Kima Id:81810 Name:טולכרם (יהודה ושומרון)"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01875cz  a2200313n  4500</leader><controlfield tag=\"005\">20260320055322.0</controlfield><controlfield tag=\"008\">891227n||acannbab|          |a ana    ||</controlfield><controlfield tag=\"001\">987007567331105171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">n 88151418</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q5283479</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">139662308</subfield><subfield code=\"2\">viaf</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">35.027039</subfield><subfield code=\"e\">35.027039</subfield><subfield code=\"f\">32.311528</subfield><subfield code=\"g\">32.311528</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-001020074</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Tulkarem (Sub-District) (West Bank)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">טולכרם (יהודה ושומרון)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">طولكرم (حي) (الضفة الغربية)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"370\" ind1=\" \" ind2=\" \"><subfield code=\"c\">West Bank and Gaza Strip</subfield><subfield code=\"2\">nli</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Ṭūlkarm (Sub-District)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Ṭūlkarem (Sub-District)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Ṭūl Karem (Sub-District)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Ṭūlkarm (Qaḍāʾ)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">טול כרם (יהודה ושומרון : תת-מחוז)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Field 370 added from VIAF</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">SUBJECT USAGE: As a geographic subdivision, this heading is used indirectly through West Bank.</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record imported from LCN10 21.2.2011</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">LC form: Ṭūlkarm (Sub-District)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Grossman, D. The Jewish and Arab settlements in the Tulkarm sub-District, c1986.</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">BGN gazetteer for Jordan</subfield><subfield code=\"b\">(Ṭūlkarm, Qaḍāʾ; variant: Tulkarém, Sub-District of, admd. 32p0s 18ʹ N, 35p0s 01ʹ E)</subfield></datafield></record>\n",
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007556004905171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 321.7 km. Manual review required. Kima Id:70868 Name:נהר סלייב (אלברטה והטריטוריה הצפון מערבית)",
+        "Updated PrimaryHebFull from 'נהר סלייב (אלברטה והטריטוריה הצפון מערבית)' to 'נהר סלייב (אלברטה והטריטוריות הצפון-מערביות)'",
+        "Updated PrimaryArabFull from 'null' to 'نهر سليف (ألبرتا والأقاليم الشمالية الغربية)'",
+        "updatePlaceRecord: variants +1: Great Slave River (Alta. and N.W.T.)[la]"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01408cz  a2200253n  4500</leader><controlfield tag=\"005\">20260320054719.0</controlfield><controlfield tag=\"008\">860709|| anannbabn          |a ana      </controlfield><controlfield tag=\"001\">987007556004905171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">sh 86004169</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q2226</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">-113.6102778</subfield><subfield code=\"e\">-113.6102778</subfield><subfield code=\"f\">61.33261111</subfield><subfield code=\"g\">61.33261111</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000776376</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Slave River (Alta. and N.W.T.)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">נהר סלייב (אלברטה והטריטוריות הצפון-מערביות)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">نهر سليف (ألبرتا والأقاليم الشمالية الغربية)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Great Slave River (Alta. and N.W.T.)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"550\" ind1=\" \" ind2=\" \"><subfield code=\"w\">g</subfield><subfield code=\"a\">Rivers</subfield><subfield code=\"z\">Alberta</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"550\" ind1=\" \" ind2=\" \"><subfield code=\"w\">g</subfield><subfield code=\"a\">Rivers</subfield><subfield code=\"z\">Northwest Territories</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Work cat.: Slave River hydro feasibility study, 1982.</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Lippincott.</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Rand McNally.</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Web. geog.</subfield></datafield><datafield tag=\"781\" ind1=\" \" ind2=\"0\"><subfield code=\"z\">Slave River (Alta. and N.W.T.)</subfield></datafield></record>\n",
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007290954305171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 87.4 km. Manual review required. Kima Id:86073 Name:נהר הייווד (אלטברה)",
+        "Updated PrimaryHebFull from 'נהר הייווד (אלטברה)' to 'נהר הייווד (אלברטה)'",
+        "Updated PrimaryArabFull from 'null' to 'نهر هاي وود (ألبرتا)'"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01231cz  a2200229n  4500</leader><controlfield tag=\"005\">20260320054909.0</controlfield><controlfield tag=\"008\">000804|| anannbabn          |a ana      </controlfield><controlfield tag=\"001\">987007290954305171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">sh 00004772</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q13948373</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">-114.9761111</subfield><subfield code=\"e\">-114.9761111</subfield><subfield code=\"f\">50.61027778</subfield><subfield code=\"g\">50.61027778</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000635470</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Highwood River (Alta.)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">נהר הייווד (אלברטה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">نهر هاي وود (ألبرتا)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"550\" ind1=\" \" ind2=\" \"><subfield code=\"w\">g</subfield><subfield code=\"a\">Rivers</subfield><subfield code=\"z\">Alberta</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Work cat.: 99212860: Little Bow Project/Highwood Diversion Plan application to construct a water management project to convey and store water diverted from the Highwood River, 1998.</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">GEOnet, Canada, Aug. 3, 2000</subfield><subfield code=\"b\">(Highwood River, STM, 50⁰49ʹ00ʺN, 113⁰47ʹ00ʺW)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">NLC in AMICUS, Aug. 3, 2000</subfield><subfield code=\"b\">(hdg.: Highwood River (Alta.))</subfield></datafield><datafield tag=\"675\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Web. geog.;</subfield><subfield code=\"a\">Lippincott;</subfield><subfield code=\"a\">Times atlas</subfield></datafield><datafield tag=\"781\" ind1=\" \" ind2=\"0\"><subfield code=\"z\">Alberta</subfield><subfield code=\"z\">Highwood River</subfield></datafield></record>\n",
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007534359505171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 234.5 km. Manual review required. Kima Id:3056 Name:בוקובינה (רומניה-אוקראינה)",
+        "Updated PrimaryHebFull from 'בוקובינה (רומניה-אוקראינה)' to 'בוקובינה (רומניה ואוקראינה)'",
+        "Updated PrimaryArabFull from 'null' to 'بوكوفينا (رومانيا وأوكرانيا)'",
+        "updatePlaceRecord: variants +4: Bucovina (Romania and Ukraine)[la] | Bukovyna (Romania and Ukraine)[la] | Bukowina (Romania and Ukraine)[la] | בוקאווינא (רומניה-אוקראינה)[he]"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01621cz  a2200301n  4500</leader><controlfield tag=\"005\">20260320055019.0</controlfield><controlfield tag=\"008\">880314|| anannbabn          |a ana      </controlfield><controlfield tag=\"001\">987007534359505171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">sh 88001430</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q105206</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">022.8703030</subfield><subfield code=\"e\">022.8736733</subfield><subfield code=\"f\">047.7768310</subfield><subfield code=\"g\">047.7765630</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000787802</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Bukovina (Romania and Ukraine)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">בוקובינה (רומניה ואוקראינה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">بوكوفينا (رومانيا وأوكرانيا)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Bucovina (Romania and Ukraine)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Bukovyna (Romania and Ukraine)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Bukowina (Romania and Ukraine)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">בוקאווינא (רומניה-אוקראינה)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"667\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Record enhanced with cross references from NNL13-000000432</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Web. geog.</subfield><subfield code=\"b\">(Bukovina; Bucovina)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Britannica Micro.</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Acad. Am. encyc.</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">World Book</subfield><subfield code=\"b\">(Bucovina)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Old catalog heading</subfield><subfield code=\"b\">(Bukowina)</subfield></datafield><datafield tag=\"781\" ind1=\" \" ind2=\"0\"><subfield code=\"z\">Bukovina (Romania and Ukraine)</subfield></datafield><datafield tag=\"955\" ind1=\" \" ind2=\" \"><subfield code=\"a\">בוקאווינא BUKOWINA</subfield></datafield></record>\n",
+      "nliState": "Live"
+    }
+  ],
+  "failedItems": []
+}

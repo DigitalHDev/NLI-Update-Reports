@@ -1,0 +1,197 @@
+{
+  "type": "Place",
+  "runTime": "2026-08-16T16:22:45.3247521Z",
+  "period": "20260521-20260527",
+  "numProcessedItems": 4416,
+  "numModifiedItems": 6,
+  "numNewItems": 9,
+  "numReviewItems": 1,
+  "numFailedItems": 0,
+  "modifiedSummary": [
+    {
+      "item": {
+        "recordId": "987007293827905171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 4047.4 km. Manual review required. Kima Id:1584 Name:אפריקה הצפונית",
+        "Updated PrimaryArabFull from 'أفريقيا، شمال' to 'أفريقيا الشمالية'",
+        "updatePlaceRecord: variants already present, not inserted (5): Barbary States[la] | Maghreb[la] | Maghrib[la] | North Africa[la] | צפון אפריקה[he]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007473835405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007473835405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007538943805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007538943805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007496686005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007496686005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007544446205171"
+      },
+      "result": "Success",
+      "messages": [
+        "updatePlaceRecord: variants +7: Dayr Mār Sābā Site (West Bank)[la] | Der Mar Saba Site (West Bank)[la] | Dir Mar Saba Site (West Bank)[la] | Mar Saba Site (West Bank)[la] | מר סבא' מנזר (יהודה ושומרון)[he] | מנזר מרסבא (יהודה ושומרון)[he] | מנזר מאר סבא (יהודה ושומרון)[he]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007549259005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007549259005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    }
+  ],
+  "newSummary": [
+    {
+      "item": {
+        "recordId": "987007538195605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007538195605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007533438105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007533438105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987008983373805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987008983373805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014616961705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014616961705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007552619005171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007552619005171 (פולס צ'רץ' (וירג'יניה))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014611964805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014611964805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014613881605171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987014613881605171 (מנהרות הכותל (ירושלים, ישראל))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014616961905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014616961905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007551759705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007551759705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    }
+  ],
+  "requireReviewSummary": [
+    {
+      "item": {
+        "recordId": "987007293827905171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 4047.4 km. Manual review required. Kima Id:1584 Name:אפריקה הצפונית",
+        "Updated PrimaryArabFull from 'أفريقيا، شمال' to 'أفريقيا الشمالية'",
+        "updatePlaceRecord: variants already present, not inserted (5): Barbary States[la] | Maghreb[la] | Maghrib[la] | North Africa[la] | צפון אפריקה[he]"
+      ],
+      "nliState": "Live"
+    }
+  ],
+  "failedSummary": [],
+  "requireReviewItems": [
+    {
+      "item": {
+        "recordId": "987007293827905171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 4047.4 km. Manual review required. Kima Id:1584 Name:אפריקה הצפונית",
+        "Updated PrimaryArabFull from 'أفريقيا، شمال' to 'أفريقيا الشمالية'",
+        "updatePlaceRecord: variants already present, not inserted (5): Barbary States[la] | Maghreb[la] | Maghrib[la] | North Africa[la] | צפון אפריקה[he]"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01304cz  a2200289n  4500</leader><controlfield tag=\"005\">20260523210801.0</controlfield><controlfield tag=\"008\">860211|| anannbabn          |a ana      </controlfield><controlfield tag=\"001\">987007293827905171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">sh 85001631</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q27381</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">-025.3839110</subfield><subfield code=\"e\">063.8085939</subfield><subfield code=\"f\">037.5359000</subfield><subfield code=\"g\">-047.1313489</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000640468</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">DLC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield><subfield code=\"d\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Africa, North</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">אפריקה הצפונית</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">أفريقيا الشمالية</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Barbary States</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Maghreb</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Maghrib</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">North Africa</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"451\" ind1=\" \" ind2=\" \"><subfield code=\"a\">צפון אפריקה</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"680\" ind1=\" \" ind2=\" \"><subfield code=\"i\">Here are entered works dealing collectively with Morocco, Algeria, Tunisia, and Libya.</subfield></datafield><datafield tag=\"781\" ind1=\" \" ind2=\"0\"><subfield code=\"w\">n</subfield><subfield code=\"z\">Africa, North</subfield></datafield><datafield tag=\"952\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Africa, North</subfield></datafield><datafield tag=\"953\" ind1=\" \" ind2=\" \"><subfield code=\"a\">אפריקה הצפונית</subfield></datafield><datafield tag=\"955\" ind1=\" \" ind2=\" \"><subfield code=\"a\">North Africa</subfield></datafield><datafield tag=\"955\" ind1=\" \" ind2=\" \"><subfield code=\"a\">צפון אפריקה</subfield></datafield></record>\n",
+      "nliState": "Live"
+    }
+  ],
+  "failedItems": []
+}

@@ -1,0 +1,49 @@
+{
+  "type": "Place",
+  "runTime": "2026-08-19T15:45:55.2845419Z",
+  "period": "20260726-20260726",
+  "numProcessedItems": 169800,
+  "numModifiedItems": 3,
+  "numNewItems": 0,
+  "numReviewItems": 0,
+  "numFailedItems": 0,
+  "modifiedSummary": [
+    {
+      "item": {
+        "recordId": "987007285635305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007285635305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007291605905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "updatePlaceRecord: variants already present, not inserted (2): Central Quebec (Québec)[la] | Région 17 (Québec)[la]",
+        "updatePlaceRecord: no changes for place 987007291605905171"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007291606505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "updatePlaceRecord: variants already present, not inserted (2): Région 04 (Québec)[la] | Région 4 (Québec)[la]",
+        "updatePlaceRecord: no changes for place 987007291606505171"
+      ],
+      "nliState": "Live"
+    }
+  ],
+  "newSummary": [],
+  "requireReviewSummary": [],
+  "failedSummary": [],
+  "requireReviewItems": [],
+  "failedItems": []
+}

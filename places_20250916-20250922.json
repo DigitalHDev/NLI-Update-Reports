@@ -1,0 +1,99 @@
+{
+  "type": "Place",
+  "runTime": "2026-08-16T14:16:20.2246938Z",
+  "period": "20250916-20250922",
+  "numProcessedItems": 3454,
+  "numModifiedItems": 4,
+  "numNewItems": 4,
+  "numReviewItems": 0,
+  "numFailedItems": 0,
+  "modifiedSummary": [
+    {
+      "item": {
+        "recordId": "987007534560305171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'موقع اختبار نيفادا (نيفادا)'",
+        "updatePlaceRecord: variants +7: AEC Nevada Test Site (Nev.)[la] | Nellis Air Force Bombing and Gunnery Range (Nev.)[la] | Nevada Atomic Test Site (Nev.)[la] | Nevada Nuclear Test Site (Nev.)[la] | Nevada Proving Grounds (Nev.)[la] | NTS (Nevada Test Site) (Nev.)[la] | Nevada National Security Site (Nev.)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007430658805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007430658805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007531866705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007531866705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007563642005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007563642005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    }
+  ],
+  "newSummary": [
+    {
+      "item": {
+        "recordId": "987013715703205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013715703205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987012328375805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012328375805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987012857476805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012857476805171 does not satisfy IsPlaceToUse: no valid 034: 034($f=N028.8973, $e=E 033.3726) — missing or empty $2, missing $d, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, missing $g. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987012276232505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012276232505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    }
+  ],
+  "requireReviewSummary": [],
+  "failedSummary": [],
+  "requireReviewItems": [],
+  "failedItems": []
+}

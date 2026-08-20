@@ -1,0 +1,459 @@
+{
+  "type": "Place",
+  "runTime": "2026-08-16T14:15:09.7946648Z",
+  "period": "20250909-20250915",
+  "numProcessedItems": 27892,
+  "numModifiedItems": 10,
+  "numNewItems": 31,
+  "numReviewItems": 1,
+  "numFailedItems": 0,
+  "modifiedSummary": [
+    {
+      "item": {
+        "recordId": "987007291071505171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 28.9 km. Manual review required. Kima Id:75312 Name:גרנד קולי תחתון (וושינגטון)",
+        "Updated PrimaryArabFull from 'null' to 'غراند كولي السفلى (واشنطن)'",
+        "Updated Wd from 'Q1773219' to 'Q133560878'. Manual review required. Kima Id:75312"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007550291305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007550291305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007555400005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007555400005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007547794305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007547794305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007465330205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007465330205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007545592205171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'وادي نهر ديلاوير (نيويورك - ديلاوير ونيوجيرسي)'",
+        "Updated Wd from 'null' to 'Q136048883'",
+        "updatePlaceRecord: variants already present, not inserted (1): Delaware Valley[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007538158805171"
+      },
+      "result": "Success",
+      "messages": [
+        "updatePlaceRecord: variants +2: Naḥaliʾel (Israel)[la] | Nahliel (West Bank)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007540347305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007540347305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007487062505171"
+      },
+      "result": "Success",
+      "messages": [
+        "updatePlaceRecord: variants +8: Sabastiyah (Israel)[la] | Sabastia (West Bank)[la] | Sabastihah (West Bank)[la] | Shomeron (Extinct city)[la] | Sabastiyah (West Bank)[la] | Samaria (City)[la] | Sebaste (West Bank)[la] | Sebastia (West Bank)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007550416905171"
+      },
+      "result": "Success",
+      "messages": [
+        "updatePlaceRecord: variants +5: Tel Liṭṿinsḳi (Israel)[la] | Tel Litwinsky[la] | Tel Litwinsky (Israel)[la] | Tel Hashomer (Israel)[la] | Camp Tel Litwinsky (Israel)[la]"
+      ],
+      "nliState": "Live"
+    }
+  ],
+  "newSummary": [
+    {
+      "item": {
+        "recordId": "987007414128705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007414128705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007494252805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007494252805171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Little Deer Isle (Me.), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007531964205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007531964205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007552641005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007552641005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007541397605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007541397605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007537621905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007537621905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007539021305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007539021305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007541498805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007541498805171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Cam, River (England), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987012403693705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012403693705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987012855875605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987012855875605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013294741005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013294741005171 does not satisfy IsPlaceToUse: no valid 034: 034($d=W77.4874899, $e=W77.4874899, $f=N39.0437192, $g=N39.0437192, $2=gnis) — $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013435614705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013435614705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013463925505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013463925505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007397507605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007397507605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007530802405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007530802405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007534256905171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007534256905171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Schangnau (Switzerland), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007549449405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007549449405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007550460305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007550460305171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Andalusia (Covington County, Ala.), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007566178805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007566178805171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Cam, River, Watershed (England), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013251745505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013251745505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013290994305171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987013290994305171 (ג'וג'י שי (סין))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013339711105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013339711105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617069005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617069005171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E224151, $e=E224151, $f=N495813, $g=N495813, $2=geonames) — $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617653005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617653005171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E53730, $e=E53730, $f=N444936, $g=N444936) — missing or empty $2, $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617653205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617653205171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E25047, $e=E25047, $f=N492634, $g=N492634) — missing or empty $2, $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617652305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617652305171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E21218, $e=E21218, $f=N485816, $g=N485816) — missing or empty $2, $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617652405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617652405171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E62043, $e=E62043, $f=N492711, $g=N492711) — missing or empty $2, $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007537728505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007537728505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007559548305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007559548305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617364605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617364605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987013617653105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987013617653105171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E55300, $e=E55300, $f=N460300, $g=N460300) — missing or empty $2, $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
+    }
+  ],
+  "requireReviewSummary": [
+    {
+      "item": {
+        "recordId": "987007291071505171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 28.9 km. Manual review required. Kima Id:75312 Name:גרנד קולי תחתון (וושינגטון)",
+        "Updated PrimaryArabFull from 'null' to 'غراند كولي السفلى (واشنطن)'",
+        "Updated Wd from 'Q1773219' to 'Q133560878'. Manual review required. Kima Id:75312"
+      ],
+      "nliState": "Live"
+    }
+  ],
+  "failedSummary": [],
+  "requireReviewItems": [
+    {
+      "item": {
+        "recordId": "987007291071505171"
+      },
+      "result": "ManualReview",
+      "messages": [
+        "Location supposed to move 28.9 km. Manual review required. Kima Id:75312 Name:גרנד קולי תחתון (וושינגטון)",
+        "Updated PrimaryArabFull from 'null' to 'غراند كولي السفلى (واشنطن)'",
+        "Updated Wd from 'Q1773219' to 'Q133560878'. Manual review required. Kima Id:75312"
+      ],
+      "marcXml": "\n<record xmlns=\"http://www.loc.gov/MARC21/slim\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd\" ><leader>01264cz  a2200217n  4500</leader><controlfield tag=\"005\">20250909081332.0</controlfield><controlfield tag=\"008\">000211|||anannbabn          |a ana     c</controlfield><controlfield tag=\"001\">987007291071505171</controlfield><datafield tag=\"010\" ind1=\" \" ind2=\" \"><subfield code=\"a\">sh 00002640</subfield></datafield><datafield tag=\"024\" ind1=\"7\" ind2=\" \"><subfield code=\"a\">Q133560878</subfield><subfield code=\"2\">wikidata</subfield></datafield><datafield tag=\"034\" ind1=\" \" ind2=\" \"><subfield code=\"d\">-119.4905556</subfield><subfield code=\"e\">-119.4905556</subfield><subfield code=\"f\">47.39166667</subfield><subfield code=\"g\">47.39166667</subfield><subfield code=\"2\">gooearth</subfield></datafield><datafield tag=\"035\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Aleph(NNL10)-000634398</subfield></datafield><datafield tag=\"040\" ind1=\" \" ind2=\" \"><subfield code=\"a\">WaElC</subfield><subfield code=\"b\">mul</subfield><subfield code=\"c\">DLC</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Lower Grand Coulee (Wash.)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">גרנד קולי תחתון (וושינגטון)</subfield><subfield code=\"9\">heb</subfield></datafield><datafield tag=\"151\" ind1=\" \" ind2=\" \"><subfield code=\"a\">غراند كولي السفلى (واشنطن)</subfield><subfield code=\"9\">ara</subfield></datafield><datafield tag=\"550\" ind1=\" \" ind2=\" \"><subfield code=\"w\">g</subfield><subfield code=\"a\">Valleys</subfield><subfield code=\"z\">Washington (State)</subfield><subfield code=\"9\">lat</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Work cat.: Smokiam and Sam Israel sites, 1997:</subfield><subfield code=\"b\">t.p. (archaeological investigations in the Lower Grand Coulee)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">GNIS online, Feb. 1, 2000</subfield><subfield code=\"b\">(Lower Grand Coulee; valley; Grant Co.)</subfield></datafield><datafield tag=\"670\" ind1=\" \" ind2=\" \"><subfield code=\"a\">Washington atlas &amp; gaz., 1992:</subfield><subfield code=\"b\">p. 69 (Lower Grand Coulee; Grant County; north of Soap Lake) p. 85 (Lower Grand Coulee; Grant Co.)</subfield></datafield><datafield tag=\"781\" ind1=\" \" ind2=\"0\"><subfield code=\"z\">Washington (State)</subfield><subfield code=\"z\">Lower Grand Coulee</subfield></datafield></record>\n",
+      "nliState": "Live"
+    }
+  ],
+  "failedItems": []
+}

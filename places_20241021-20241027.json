@@ -1,115 +1,23 @@
 {
   "type": "Place",
-  "runTime": "2026-08-03T14:28:25.8374628Z",
+  "runTime": "2026-08-16T09:51:18.9758133Z",
   "period": "20241021-20241027",
-  "numProcessedItems": 354,
-  "numModifiedItems": 1,
-  "numNewItems": 29,
+  "numProcessedItems": 329,
+  "numModifiedItems": 0,
+  "numNewItems": 10,
   "numReviewItems": 0,
   "numFailedItems": 0,
-  "modifiedSummary": [
-    {
-      "item": {
-        "recordId": "987007550509305171"
-      },
-      "result": "Success",
-      "messages": [
-        "Coordinates added: Lat=31, Lon=22.5",
-        "Updated PrimaryArabFull from '\"برقة أو \"\"كيرينايكي\"\" (ليبيا)\"' to 'برقة أو \"كيرينايكي\" (ليبيا)'",
-        "updatePlaceRecord: variants +1: Barqah (Libya)[la]"
-      ]
-    }
-  ],
+  "modifiedSummary": [],
   "newSummary": [
-    {
-      "item": {
-        "recordId": "987007465786805171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007465786805171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007471498705171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007471498705171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
     {
       "item": {
         "recordId": "987007482457805171"
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007482457805171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007489431905171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007489431905171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007491851905171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007491851905171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007491874105171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007491874105171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007533587905171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007533587905171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007537920305171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007537920305171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007537986705171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007537986705171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007538062805171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007538062805171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007482457805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -117,26 +25,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007540346705171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007542865005171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007542865005171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007545161905171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007545161905171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007540346705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -144,8 +35,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007567029605171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007567029605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -153,26 +45,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007567103705171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007478059405171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007478059405171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007489326505171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007489326505171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007567103705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -180,89 +55,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007491848805171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007498912805171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007498912805171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007531050405171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007531050405171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007533471205171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007533471205171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007535780505171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007535780505171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007538148905171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007538148905171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007540441705171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007540441705171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007542709405171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007542709405171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007542869305171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007542869305171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007552973305171"
-      },
-      "result": "NothingToDo",
-      "messages": [
-        "Place 987007552973305171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007491848805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -270,8 +65,39 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007555376705171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007555376705171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Hefei (China), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007531050405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007531050405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007540441705171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007540441705171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007552973305171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007552973305171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -279,8 +105,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007562483205171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007562483205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     }
   ],
   "requireReviewSummary": [],

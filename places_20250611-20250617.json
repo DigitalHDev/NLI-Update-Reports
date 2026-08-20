@@ -1,10 +1,10 @@
 {
   "type": "Place",
-  "runTime": "2026-08-03T20:21:22.6301341Z",
+  "runTime": "2026-08-16T13:06:32.2285151Z",
   "period": "20250611-20250617",
-  "numProcessedItems": 16822,
-  "numModifiedItems": 4,
-  "numNewItems": 11,
+  "numProcessedItems": 16801,
+  "numModifiedItems": 2,
+  "numNewItems": 8,
   "numReviewItems": 0,
   "numFailedItems": 0,
   "modifiedSummary": [
@@ -16,16 +16,8 @@
       "messages": [
         "Updated PrimaryArabFull from 'null' to 'ستاتن آيلاند (نيويورك، نيويورك)'",
         "updatePlaceRecord: variants +4: Staten Island, N.Y.[la] | סטטן אילנד (ניו יורק, ניו יורק)[he] | סטעטן איילנד (ניו יורק, ניו יורק)[he] | סטעטן איילענד (ניו יורק, ניו יורק)[he]"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007475807405171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryArabFull from 'سهل ينيئيل (إسرائيل)' to 'سهل يفنيئيل (إسرائيل)'"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -33,20 +25,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987012337276805171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007533281005171"
-      },
-      "result": "Success",
-      "messages": [
-        "Updated PrimaryHebFull from 'עיריית מונטסראט (ספרד)' to 'מוניסטרול (ספרד)'",
-        "Updated PrimaryArabFull from 'null' to 'مونيسترول (إسبانيا)'",
-        "Updated ViafId from 'null' to '159594497'",
-        "updatePlaceRecord: variants +1: Monistrol de Montserrat (Spain)[la]"
-      ]
+        "Place 987012337276805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     }
   ],
   "newSummary": [
@@ -56,8 +37,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987007417307505171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987007417307505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -66,25 +48,8 @@
       "result": "Success",
       "messages": [
         "addPlaceRecord: added place 987007555022705171 (המבורג-שטלינגן (המבורג, גרמניה))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007557312405171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007557312405171 (מחוז קוסטרומה (רוסיה))"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007557756505171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007557756505171 (ברנהאם (אנגליה))"
-      ]
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -92,8 +57,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013435614905171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013435614905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -101,8 +67,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013437697905171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013437697905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -110,8 +77,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013437195405171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013437195405171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E140043, $e=E140043, $f=N490630, $g=N490630, $2=geonames) — $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -119,8 +87,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013437192205171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013437192205171 does not satisfy IsPlaceToUse: no valid 034: 034($d=E253930, $e=E253930, $f=N475515, $g=N475515, $2=geonames) — $d is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $e is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $f is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree, $g is neither DMS ([EWNS] followed by 7 digits) nor a decimal degree. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -128,17 +97,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013437299405171 does not satisfy IsPlaceToUse; skipping"
-      ]
-    },
-    {
-      "item": {
-        "recordId": "987007484753005171"
-      },
-      "result": "Success",
-      "messages": [
-        "addPlaceRecord: added place 987007484753005171 (לויטסדורף (גרמניה))"
-      ]
+        "Place 987013437299405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     },
     {
       "item": {
@@ -146,8 +107,9 @@
       },
       "result": "NothingToDo",
       "messages": [
-        "Place 987013435255905171 does not satisfy IsPlaceToUse; skipping"
-      ]
+        "Place 987013435255905171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
     }
   ],
   "requireReviewSummary": [],
