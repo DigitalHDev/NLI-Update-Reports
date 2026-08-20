@@ -98,3 +98,8 @@ Month is the first eight digits of `period`. July 2026 is 910,822 items (42% of 
 | 20250430-20250506 | 57,618 | 9 | 11 | 0 | 0 |
 | 20250701-20250707 | 52,017 | 1 | 5 | 1 | 0 |
 | 20250129-20250204 | 38,874 | 1,576 | 2,521 | 52 | 0 |
+
+## Actual changes
+
+### New Places: 1,553
+### Modified Places: 9,191
