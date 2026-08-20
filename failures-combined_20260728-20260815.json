@@ -1,0 +1,32 @@
+[
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007567403105171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007567403105171. Error: Error fetching MARC XML: The request was canceled due to the configured HttpClient.Timeout of 100 seconds elapsing. --> The operation was canceled. --> Unable to read data from the transport connection: Operation canceled. --> Operation canceled"
+    ],
+    "nliState": "Error",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007564767405171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007564767405171. Error: Failed to fetch MARC XML. Status: 520"
+    ],
+    "nliState": "Error",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007562172105171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007562172105171. Error: Failed to fetch MARC XML. Status: 520"
+    ],
+    "nliState": "Error",
+    "manualAction": null
+  }
+]

@@ -1,0 +1,227 @@
+{
+  "type": "Place",
+  "runTime": "2026-08-20T06:33:37.0187587Z",
+  "period": "20260811-20260815",
+  "numProcessedItems": 1685,
+  "numModifiedItems": 4,
+  "numNewItems": 16,
+  "numReviewItems": 0,
+  "numFailedItems": 0,
+  "modifiedSummary": [
+    {
+      "item": {
+        "recordId": "987007557368805171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'كينوشا (ويسكونسن)'",
+        "updatePlaceRecord: variants +3: City of Kenosha (Wis.)[la] | Kenosha, Wis.[la] | קענאשא (ויסקונסין)[he]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007554828405171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryArabFull from 'null' to 'سوبوت (بولندا)'",
+        "updatePlaceRecord: variants +3: Sopot, Poland[la] | Zoppot (Poland)[la] | צאפפאט (פולין)[he]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007479421305171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'קומרוב (פולין)' to 'קומרוב-אוסדה (פולין)'",
+        "Updated PrimaryRomFull from 'Komarów (Poland)' to 'Komarów-Osada (Poland)'",
+        "Updated PrimaryArabFull from 'null' to 'كوماروف-أوسادا (بولندا)'",
+        "Updated Wd from 'null' to 'Q2648217'",
+        "updatePlaceRecord: variants +2: Komariv (Poland)[la] | Komarów (Poland)[la]"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007564773605171"
+      },
+      "result": "Success",
+      "messages": [
+        "Updated PrimaryHebFull from 'אלצ'י גומפה (הודו)' to 'אלצ'י (הודו)'",
+        "Updated PrimaryRomFull from 'Alchi Gömpa (India)' to 'Alchi (India)'",
+        "Updated PrimaryArabFull from 'null' to 'ألشي (الهند)'",
+        "updatePlaceRecord: variants +2: Alchi Gömpa (India)[la] | A-lci (India)[la]"
+      ],
+      "nliState": "Live"
+    }
+  ],
+  "newSummary": [
+    {
+      "item": {
+        "recordId": "987015037966605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987015037966605171 does not satisfy IsPlaceToUse: 034 is valid, but no Hebrew heading: 151($a=Županja (Croatia), $9=lat) — $9 is lat, not heb. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987015037963605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987015037963605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987015038369405171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987015038369405171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007291066805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987007291066805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007491916005171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007491916005171 (פרנקפורט (מיין))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007535584905171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007535584905171 (סלובודסקוי (מחוז קירוב, רוסיה))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014985704205171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014985704205171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014985705505171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014985705505171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014986804105171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014986804105171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007491919905171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007491919905171 (אנסנדה (ארגנטינה : פרטידו))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007538015405171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007538015405171 (יהוטין (אוקראינה))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987007555470805171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987007555470805171 (קלארק (ניו ג'רזי))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014985703805171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014985703805171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987014986804005171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987014986804005171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987015037956705171"
+      },
+      "result": "Success",
+      "messages": [
+        "addPlaceRecord: added place 987015037956705171 (מיקשטאט (פולין))"
+      ],
+      "nliState": "Live"
+    },
+    {
+      "item": {
+        "recordId": "987015044726605171"
+      },
+      "result": "NothingToDo",
+      "messages": [
+        "Place 987015044726605171 does not satisfy IsPlaceToUse: no 034 datafield — coordinates are required for place records. Skipping"
+      ],
+      "nliState": "Live"
+    }
+  ],
+  "requireReviewSummary": [],
+  "failedSummary": [],
+  "requireReviewItems": [],
+  "failedItems": []
+}

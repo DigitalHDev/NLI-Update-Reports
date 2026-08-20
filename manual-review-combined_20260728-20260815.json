@@ -1,0 +1,2042 @@
+[
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007270821005171",
+    "messages": [
+      "Updated PrimaryArabFull from 'null' to 'هوتا (إيفانو-فرانكيفسكا أوبلاست، أوكرانيا)'",
+      "Updated Wd from 'Q4152969' to 'Q4152968'. Manual review required. Kima Id:19058",
+      "updatePlaceRecord: variants +1: Guta (Ivano-Frankivsʹka oblastʹ, Ukraine)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007567552405171",
+    "messages": [
+      "Location supposed to move 8104.2 km. Manual review required. Kima Id:76647 Name:גנגס (צרפת)",
+      "Updated PrimaryArabFull from 'null' to 'غانج (فرنسا)'",
+      "Updated Wd from 'Q734074' to 'Q5089'. Manual review required. Kima Id:76647",
+      "Updated ViafId from 'null' to '134989216'"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007561902705171",
+    "messages": [
+      "Location supposed to move 34.3 km. Manual review required. Kima Id:9921 Name:חאסקובו (בולגריה)",
+      "Updated PrimaryArabFull from 'null' to 'خاسكوفو (بلغاريا)'",
+      "updatePlaceRecord: variants +12: Chaskovo (Bulgaria)[la] | Chasköi (Bulgaria)[la] | Haskiöj (Bulgaria)[la] | Hasköy (Bulgaria)[la] | Chaskowo (Bulgaria)[la] | Khaskovo, Bulgaria[la] | Haskovo (Bulgaria)[la] | Khashkovo (Bulgaria)[la] | חסקואיי (בולגריה)[he] | האסכויי (בולגריה)[he] | חאסקואי (בולגריה)[he] | חסקובו (בולגריה)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007564798905171",
+    "messages": [
+      "Location supposed to move 117.3 km. Manual review required. Kima Id:84985 Name:האורה (הודו)",
+      "Updated PrimaryRomFull from 'Hāora (India)' to 'Hāora (India)'",
+      "Updated PrimaryArabFull from 'null' to 'هاورا (الهند)'",
+      "Updated ViafId from 'null' to '377168230316653080007'"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007560015905171",
+    "messages": [
+      "Location supposed to move 141.2 km. Manual review required. Kima Id:15112 Name:מרכזי (איראן)",
+      "Updated PrimaryRomFull from 'Markazī (Iran)' to 'Markazī (Iran)'",
+      "Updated PrimaryArabFull from 'null' to 'مركزي (إيران)'",
+      "Updated Wd from 'null' to 'Q134417'",
+      "updatePlaceRecord: variants +3: Center Province (Iran)[la] | Ustān-i Markazī (Iran)[la] | Ostān-e Markazī (Iran)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007564503205171",
+    "messages": [
+      "Updated PrimaryArabFull from 'null' to 'بونتفيدرا (إسبانيا)'",
+      "Updated ViafId from '136068808' to '1390158369758401460000'. Manual review required. Kima Id:12007",
+      "updatePlaceRecord: variants +1: Pontevedra, Spain[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007564736505171",
+    "messages": [
+      "Location supposed to move 33.2 km. Manual review required. Kima Id:14278 Name:דומבובאר (הונגריה)",
+      "Updated PrimaryRomFull from 'Dombóvár (Hungary)' to 'Dombóvár (Hungary)'",
+      "Updated PrimaryArabFull from 'null' to 'دومبوفار (المجر)'"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007562409505171",
+    "messages": [
+      "Updated PrimaryArabFull from 'null' to 'ألاتري (إيطاليا)'",
+      "Updated Wd from 'Q30022057' to 'Q18400'. Manual review required. Kima Id:16647",
+      "updatePlaceRecord: variants +1: אלאטרי (איטליה)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007564210405171",
+    "messages": [
+      "Updated PrimaryArabFull from 'null' to 'سيغوفيا (إسبانيا : مقاطعة)'",
+      "Updated ViafId from '126665344' to '127265344'. Manual review required. Kima Id:8171"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007564736405171",
+    "messages": [
+      "Location supposed to move 22.1 km. Manual review required. Kima Id:14280 Name:פהרג'רמט (הונגריה)",
+      "Updated PrimaryRomFull from 'Fehérgyarmat (Hungary)' to 'Fehérgyarmat (Hungary)'",
+      "Updated PrimaryArabFull from 'null' to 'فيهيرجيارمات (المجر)'",
+      "updatePlaceRecord: variants +1: יארמאטה (הונגריה)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007562407705171",
+    "messages": [
+      "Updated PrimaryArabFull from 'null' to 'كاستيلاتسو بورميدا (إيطاليا)'",
+      "Updated ViafId from '125586511' to '252828773'. Manual review required. Kima Id:16649",
+      "updatePlaceRecord: variants +5: Castellazzo (Italy)[la] | קשטילאצו בורמידה (איטליה)[he] | קשטילאצו (איטליה)[he] | קשטלאץ (איטליה)[he] | קאשלץ (איטליה)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007560139005171",
+    "messages": [
+      "Updated PrimaryArabFull from 'null' to 'كويمبايا (كولومبيا)'",
+      "Updated Wd from 'Q4220657' to 'Q2433472'. Manual review required. Kima Id:82662",
+      "Updated ViafId from 'null' to '126764590'"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007560070105171",
+    "messages": [
+      "Updated PrimaryArabFull from 'null' to 'روان (لوار، فرنسا)'",
+      "Updated ViafId from '153668753' to '247371545'. Manual review required. Kima Id:14490",
+      "updatePlaceRecord: variants +2: Roanne, France[la] | Rodumna (France)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007564343005171",
+    "messages": [
+      "Location supposed to move 50.7 km. Manual review required. Kima Id:7761 Name:קמרינו (איטליה)",
+      "Updated PrimaryArabFull from 'null' to 'كاميرينو (إيطاليا)'",
+      "updatePlaceRecord: variants +1: Camrino (Italy)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007565024805171",
+    "messages": [
+      "Updated PrimaryArabFull from 'null' to 'إيبينسي (النمسا)'",
+      "Updated ViafId from '123274480' to '180161938143539870009'. Manual review required. Kima Id:16379",
+      "updatePlaceRecord: variants +1: Ebensee, Austria[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007564655605171",
+    "messages": [
+      "Updated PrimaryArabFull from 'null' to 'غراديسكا ديزونزو (إيطاليا)'",
+      "Updated Wd from 'Q30026180' to 'Q53129'. Manual review required. Kima Id:14506",
+      "updatePlaceRecord: variants +4: Gradisca (Italy)[la] | Gradiska (Italy)[la] | Gradisca d'Isonzo, Italy[la] | גראדיסקא (איטליה)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007560069505171",
+    "messages": [
+      "Location supposed to move 42.9 km. Manual review required. Kima Id:14492 Name:פריצלאר (גרמניה)",
+      "Updated PrimaryArabFull from 'null' to 'فريتزلار (ألمانيا)'",
+      "updatePlaceRecord: variants +3: Fritzlar, Ger.[la] | וירשלאר (גרמניה)[he] | ורפשלר (גרמניה)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007564342105171",
+    "messages": [
+      "Updated PrimaryArabFull from 'null' to 'جريف إن كيانتي (إيطاليا)'",
+      "Updated Wd from 'Q30026220' to 'Q82707'. Manual review required. Kima Id:72542",
+      "Updated ViafId from 'null' to '154706821'",
+      "updatePlaceRecord: variants +3: Greve in Chianti, Italy[la] | Val di Greve (Italy)[la] | Valdigreve (Italy)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007564727705171",
+    "messages": [
+      "Updated PrimaryArabFull from 'null' to 'بيرنشتات (دريسدن، ألمانيا)'",
+      "Updated Wd from 'Q31911187' to 'Q165134'. Manual review required. Kima Id:15607"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007567354305171",
+    "messages": [
+      "Location supposed to move 29.1 km. Manual review required. Kima Id:16939 Name:קרוביה (פולין)",
+      "Updated PrimaryArabFull from 'null' to 'كروبيا (ليزنو، بولندا)'",
+      "Updated Wd from 'null' to 'Q556944'",
+      "Updated ViafId from '125593599' to '1988170939429115660002'. Manual review required. Kima Id:16939",
+      "updatePlaceRecord: variants +1: קראעבען (פולין)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007564462605171",
+    "messages": [
+      "Updated PrimaryArabFull from 'null' to 'بيرغن (سيله، ألمانيا)'",
+      "Updated Wd from 'Q31910477' to 'Q505665'. Manual review required. Kima Id:88495",
+      "Updated ViafId from 'null' to '147766404'"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007567402005171",
+    "messages": [
+      "Updated PrimaryArabFull from 'null' to 'براكيل (ألمانيا)'",
+      "Updated Wd from 'Q31919909' to 'Q242149'. Manual review required. Kima Id:17627"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007564607505171",
+    "messages": [
+      "Updated PrimaryArabFull from 'null' to 'نيوماركت إن دير أوبربفالز (ألمانيا)'",
+      "Updated Wd from 'null' to 'Q14887'",
+      "Updated ViafId from '316741861' to '5261160848427108210000'. Manual review required. Kima Id:14368",
+      "updatePlaceRecord: variants +3: Neumarkt, Ger. (Upper Palatinate)[la] | Neumarkt (Neumarkt in der Oberpfalz, Germany)[la] | Neumarkt/OPf (Germany)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007562251505171",
+    "messages": [
+      "Location supposed to move 36.5 km. Manual review required. Kima Id:13017 Name:מונטה (צרפת)",
+      "Updated PrimaryArabFull from 'null' to 'مونتو (فرنسا)'",
+      "updatePlaceRecord: variants +1: מונטילץ (צרפת)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007567789305171",
+    "messages": [
+      "Updated PrimaryArabFull from 'null' to 'نيزا مونفيراتو (إيطاليا)'",
+      "Updated ViafId from '156073426' to '239106401'. Manual review required. Kima Id:17510",
+      "updatePlaceRecord: variants +2: ניצא מונפיראטו (איטליה)[he] | ניצצה דילה פאליא (איטליה)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007560162605171",
+    "messages": [
+      "Location supposed to move 27.2 km. Manual review required. Kima Id:104 Name:סלוצק (בלארוס)",
+      "Updated PrimaryArabFull from 'null' to 'سلوتسك (بيلاروس)'",
+      "updatePlaceRecord: variants +2: Sluzk (Belarus)[la] | Slut︠s︡k (Byelorussian S.S.R.)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007564350605171",
+    "messages": [
+      "Location supposed to move 106.6 km. Manual review required. Kima Id:7921 Name:בואנוס איירס (ארגנטינה : פרובינציה)",
+      "Updated PrimaryArabFull from 'null' to 'بوينس آيرس (الأرجنتين : مقاطعة)'",
+      "updatePlaceRecord: variants +2: Buenos Aires (Province)[la] | Provincia de Buenos Aires (Argentina)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007560104105171",
+    "messages": [
+      "Location supposed to move 132.2 km. Manual review required. Kima Id:16953 Name:פאתני (תאילנד)",
+      "Updated PrimaryArabFull from 'null' to 'باتاني (تايلاند)'",
+      "updatePlaceRecord: variants +10: Ilangasoka (Thailand)[la] | Lang-ya-shiu (Thailand)[la] | Langasyuka (Thailand)[la] | Mư̄ang Pattānī (Thailand)[la] | Mư̄ang Langkāsuka (Thailand)[la] | Langkāsuka (Thailand)[la] | Muang Tara (Thailand)[la] | Pattam (Thailand)[la] | Patani (Thailand)[la] | Muang Patani (Thailand)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007560247005171",
+    "messages": [
+      "Location supposed to move 26.3 km. Manual review required. Kima Id:677 Name:ברודי (אוקראינה)",
+      "Updated PrimaryHebFull from 'ברודי (אוקראינה)' to 'ברודי (מחוז לביב, אוקראינה)'",
+      "Updated PrimaryRomFull from 'Brody (Ukraine)' to 'Brody (Lʹvivsʹka oblastʹ, Ukraine)'",
+      "Updated PrimaryArabFull from 'null' to 'برودي (لفيفسكا أوبلاست، أوكرانيا)'",
+      "updatePlaceRecord: variants +4: Brody (Ukraine)[la] | Brody, Galicia[la] | בראד (אוקראינה)[he] | ברוד (אוקראינה)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007562382405171",
+    "messages": [
+      "Location supposed to move 175.8 km. Manual review required. Kima Id:14691 Name:היגואי (רפובליקה דומיניקנית)",
+      "Updated PrimaryHebFull from 'היגואי (רפובליקה דומיניקנית)' to 'היגואי (הרפובליקה הדומיניקנית)'",
+      "Updated PrimaryRomFull from 'Higüey (Dominican Republic)' to 'Higüey (Dominican Republic)'",
+      "Updated PrimaryArabFull from 'null' to 'هيجوي (جمهورية الدومينيكان)'",
+      "Updated Wd from 'Q16892919' to 'Q1020261'. Manual review required. Kima Id:14691",
+      "updatePlaceRecord: variants +1: Jigüey (Dominican Republic)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007562388105171",
+    "messages": [
+      "Updated PrimaryArabFull from 'null' to 'هيدنسي (ألمانيا)'",
+      "Updated ViafId from '160296345' to '135538153'. Manual review required. Kima Id:14744",
+      "updatePlaceRecord: variants +2: Hiddensee, Ger.[la] | Hiddensoe (Germany)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007564445805171",
+    "messages": [
+      "Location supposed to move 35.7 km. Manual review required. Kima Id:12204 Name:לוניל (צרפת)",
+      "Updated PrimaryArabFull from 'null' to 'لونيل (فرنسا)'",
+      "updatePlaceRecord: variants +2: Lunel, France[la] | לונל (צרפת)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007562216305171",
+    "messages": [
+      "Location supposed to move 886.4 km. Manual review required. Kima Id:14181 Name:סיילה (מצרים)",
+      "Updated PrimaryRomFull from 'Sayyālah (Egypt)' to 'Sayyālah (Egypt)'",
+      "updatePlaceRecord: variants +1: Sayala (Egypt)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007567106805171",
+    "messages": [
+      "Updated PrimaryRomFull from 'Compiègne (France)' to 'Compiègne (France)'",
+      "Updated PrimaryArabFull from 'null' to 'كومبيين (فرنسا)'",
+      "Updated Wd from 'null' to 'Q180871'",
+      "Updated ViafId from '242796711' to '151351000'. Manual review required. Kima Id:15219"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007560358905171",
+    "messages": [
+      "Location supposed to move 111.7 km. Manual review required. Kima Id:16171 Name:רדין (בלארוס)",
+      "Updated PrimaryArabFull from 'null' to 'رادون (بيلاروس)'",
+      "updatePlaceRecord: variants +2: Radin (Belarus)[la] | Radunʹ (Byelorussian S.S.R.)[la]",
+      "updatePlaceRecord: variants already present, not inserted (1): ראדין[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007565278505171",
+    "messages": [
+      "Location supposed to move 31.0 km. Manual review required. Kima Id:16330 Name:הוכהיים אם מיין (גרמניה)",
+      "Updated PrimaryArabFull from 'null' to 'هوخهايم أم ماين (ألمانيا)'",
+      "updatePlaceRecord: variants +6: Hochheim am Main, Ger.[la] | Hochheim (Hesse, Germany)[la] | Hochheim (Germany)[la] | העכים אם מיין (גרמניה)[he] | העכים (גרמניה)[he] | העכי (גרמניה)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007567111305171",
+    "messages": [
+      "Updated PrimaryArabFull from 'null' to 'مايين (فرنسا)'",
+      "Updated ViafId from '131429138' to '135476604'. Manual review required. Kima Id:15236",
+      "updatePlaceRecord: variants +1: Mayenne, France (City)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007567216205171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007567216205171 although it is in the Kima database. Possibly deleted. Error: Error fetching MARC XML: The request was canceled due to the configured HttpClient.Timeout of 100 seconds elapsing. --> The operation was canceled. --> Unable to read data from the transport connection: Operation canceled. --> Operation canceled. Manual review required."
+    ],
+    "nliState": "Error",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007562550005171",
+    "messages": [
+      "Location supposed to move 45.0 km. Manual review required. Kima Id:16910 Name:ברייסך אם ריין (גרמניה)",
+      "Updated PrimaryArabFull from 'null' to 'بريساخ أم راين (ألمانيا)'",
+      "updatePlaceRecord: variants +8: Altbreisach (Germany)[la] | Alt-Breisach (Germany)[la] | Breisach (Germany)[la] | Vieux Brisach (Germany)[la] | Breisach, Ger.[la] | ברייזק (גרמניה)[he] | אלטברייזאך (גרמניה)[he] | ברייזק (הישנה) (גרמניה)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007564489505171",
+    "messages": [
+      "Location supposed to move 22.1 km. Manual review required. Kima Id:11894 Name:קרסט (צרפת)",
+      "Updated PrimaryArabFull from 'null' to 'كريست (فرنسا)'",
+      "updatePlaceRecord: variants +2: Crest-Arnault (France)[la] | קרישטא ארנאוט (צרפת)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007562209605171",
+    "messages": [
+      "Location supposed to move 30.2 km. Manual review required. Kima Id:14154 Name:סליגנשטט (הסה, גרמניה)",
+      "Updated PrimaryArabFull from 'null' to 'سيليغنشتات (هسن، ألمانيا)'",
+      "updatePlaceRecord: variants +5: Seligenstadt, Ger.[la] | Seligenstadt (Germany)[la] | Selgenstadt (Germany)[la] | סליגנשטט (גרמניה)[he] | זלגנשטט (גרמניה)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007560146505171",
+    "messages": [
+      "Location supposed to move 274.8 km. Manual review required. Kima Id:15071 Name:גומז פאריאס (מיצ'ואקאן דה אוקמפו, מקסיקו)",
+      "Updated PrimaryRomFull from 'Gómez Farías (Michoacán de Ocampo, Mexico)' to 'Gómez Farías (Michoacán de Ocampo, Mexico)'",
+      "Updated PrimaryArabFull from 'null' to 'غوميز فارياس (ميتشواكان دي أوكامبو، المكسيك)'",
+      "Updated Wd from 'null' to 'Q20141185'"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007562183005171",
+    "messages": [
+      "Coordinates added: Lat=18, Lon=79.58333333333333",
+      "Updated PrimaryArabFull from 'null' to 'وارانغال (الهند)'",
+      "Updated Wd from 'Q11106449' to 'Q25563103'. Manual review required. Kima Id:85492",
+      "Updated ViafId from 'null' to '137215512'"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007565081505171",
+    "messages": [
+      "Location supposed to move 22.2 km. Manual review required. Kima Id:16767 Name:סטארה (הודו : מחוז)",
+      "Updated PrimaryArabFull from 'null' to 'ساتارا (الهند : مقاطعة)'",
+      "updatePlaceRecord: variants +1: Satara District (India)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007567543605171",
+    "messages": [
+      "Updated PrimaryArabFull from 'null' to 'سيانغوغو (رواندا : محافظة)'",
+      "Updated Wd from 'Q3408354' to 'Q782857'. Manual review required. Kima Id:74693",
+      "Updated ViafId from 'null' to '133820442'",
+      "updatePlaceRecord: variants +1: Shangugu (Rwanda : Prefecture)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007560111205171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007560111205171 although it is in the Kima database. Possibly deleted. Error: Error fetching MARC XML: The request was canceled due to the configured HttpClient.Timeout of 100 seconds elapsing. --> The operation was canceled. --> Unable to read data from the transport connection: Operation canceled. --> Operation canceled. Manual review required."
+    ],
+    "nliState": "Error",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007567144705171",
+    "messages": [
+      "Updated PrimaryArabFull from 'null' to 'بيرا (البرتغال : مقاطعة)'",
+      "Updated ViafId from '130251847' to '235491485'. Manual review required. Kima Id:15663"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007567584705171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007567584705171 although it is in the Kima database. Possibly deleted. Error: Failed to fetch MARC XML. Status: 520. Manual review required."
+    ],
+    "nliState": "Error",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007564692605171",
+    "messages": [
+      "Location supposed to move 412.7 km. Manual review required. Kima Id:15128 Name:טורדה (רומניה)",
+      "Updated PrimaryArabFull from 'null' to 'توردا (رومانيا)'",
+      "Updated Wd from 'null' to 'Q3658195'",
+      "updatePlaceRecord: variants +6: Turda, Romania[la] | Torda (Romania)[la] | Thorenburg (Romania)[la] | Torembrich (Romania)[la] | Potaissa (Romania)[la] | טארדא (רומניה)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007562585505171",
+    "messages": [
+      "Updated PrimaryArabFull from 'null' to 'سان فيليس سول بانارو (إيطاليا)'",
+      "Updated ViafId from '170656962' to '128728903'. Manual review required. Kima Id:15433",
+      "updatePlaceRecord: variants +3: S. Felice s/P. (Italy)[la] | סן פילישי (איטליה)[he] | פילישי (איטליה)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007562330705171",
+    "messages": [
+      "Updated PrimaryArabFull from 'null' to 'باسترانا (إسبانيا)'",
+      "Updated Wd from 'Q1655081' to 'Q213323'. Manual review required. Kima Id:15560",
+      "updatePlaceRecord: variants +1: פשטראנה (ספרד)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007562875105171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007562875105171 although it is in the Kima database. Possibly deleted. Error: Failed to fetch MARC XML. Status: 520. Manual review required."
+    ],
+    "nliState": "Error",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007562875605171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007562875605171 although it is in the Kima database. Possibly deleted. Error: Failed to fetch MARC XML. Status: 520. Manual review required."
+    ],
+    "nliState": "Error",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007564311805171",
+    "messages": [
+      "Updated PrimaryArabFull from 'null' to 'هاستينغز (أونتاريو : مقاطعة)'",
+      "Updated Wd from 'Q1588807' to 'Q5680222'. Manual review required. Kima Id:80691",
+      "Updated ViafId from 'null' to '123075563'",
+      "updatePlaceRecord: variants +3: Hastings, Ont. (County)[la] | Hastings County (Ont.)[la] | Hastings (Ont. : Comté)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007562214205171",
+    "messages": [
+      "updatePlaceRecord: place 987007562214205171 would repoint onto Kima Id 26349 (currently MAZAL_ID 987007373278105171), but NLI still returns a record for 987007373278105171; refusing to delete. Manual review required."
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007564660405171",
+    "messages": [
+      "Location supposed to move 102.2 km. Manual review required. Kima Id:14545 Name:סלנגינסק (רוסיה)",
+      "Updated PrimaryArabFull from 'null' to 'سيلينجينسك (روسيا)'",
+      "updatePlaceRecord: variants +3: Selenginsk Novyĭ (Russia)[la] | Novoselenginsk (R.S.F.S.R.)[la] | Novoselenginsk (Russia)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007562576505171",
+    "messages": [
+      "Location supposed to move 23.6 km. Manual review required. Kima Id:72341 Name:דאקלאק (וייטנאם : פרובינציה)",
+      "Updated PrimaryArabFull from 'null' to 'داك لاك (فيتنام : مقاطعة)'",
+      "Updated ViafId from 'null' to '132609676'",
+      "updatePlaceRecord: variants +7: Daklak (Vietnam : Province)[la] | Darlac (Vietnam : Province)[la] | Tỉnh Đắk Lắk (Vietnam)[la] | Đắc Lắc (Vietnam : Province)[la] | Đắk Lắk Province (Vietnam)[la] | Đắc Lắc (Vietnam)[la] | Dak Lak (Vietnam)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007564507105171",
+    "messages": [
+      "Updated PrimaryArabFull from 'null' to 'تيريسينا (البرازيل)'",
+      "Updated Wd from 'null' to 'Q165341'",
+      "Updated ViafId from '141920498' to '6774148574281024430005'. Manual review required. Kima Id:12212",
+      "updatePlaceRecord: variants +4: Teresina, Brazil[la] | Therezina (Brazil)[la] | Theresina (Brazil)[la] | Terezina (Brazil)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007562874405171",
+    "messages": [
+      "Updated PrimaryArabFull from 'null' to 'لاتيه (فرنسا)'",
+      "Updated Wd from 'Q1628770' to 'Q193895'. Manual review required. Kima Id:16290",
+      "Updated ViafId from '150222389' to '7839170868771822930006'. Manual review required. Kima Id:16290",
+      "updatePlaceRecord: variants +4: Lattes, France[la] | לטס (צרפת)[he] | לאטיש (צרפת)[he] | לאטאש (צרפת)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007564309205171",
+    "messages": [
+      "Location supposed to move 87.7 km. Manual review required. Kima Id:82023 Name:אייזן (צ'ילה : פרובינציה)",
+      "Updated PrimaryRomFull from 'Aisén (Chile : Province)' to 'Aisén (Chile : Province)'",
+      "Updated PrimaryArabFull from 'null' to 'آيسن (تشيلي : مقاطعة)'",
+      "Updated Wd from 'Q201126' to 'Q3651'. Manual review required. Kima Id:82023",
+      "Updated ViafId from 'null' to '131352766'",
+      "updatePlaceRecord: variants +1: Aysen (Chile : Province)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007564314905171",
+    "messages": [
+      "Location supposed to move 614.1 km. Manual review required. Kima Id:526 Name:סטניסלב (אוקראינה)",
+      "Updated PrimaryArabFull from 'null' to 'ستانيسلاف (أوكرانيا)'",
+      "updatePlaceRecord: variants +10: Stanisławów (Poland)[la] | Stanislau (Ukraine)[la] | Stanislaviv (Ukraine)[la] | Stanyslaviv (Ukraine)[la] | Sṭanislavov (Ukraine)[la] | סטיניסלב (אוקראינה)[he] | סטאניסלאב (אוקראינה)[he] | סטניסלבוב (אוקראינה)[he] | סטאניסלא (אוקראינה)[he] | סטניסלו (אוקראינה)[he]",
+      "updatePlaceRecord: variants already present, not inserted (1): Stanislav[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007567047105171",
+    "messages": [
+      "Location supposed to move 39.4 km. Manual review required. Kima Id:14619 Name:קריילסהיים (גרמניה)",
+      "Updated PrimaryArabFull from 'null' to 'كرايلسهايم (ألمانيا)'",
+      "updatePlaceRecord: variants +1: Crailsheim, Ger. (City)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007564314705171",
+    "messages": [
+      "Updated PrimaryArabFull from 'null' to 'آيخاخ (بافاريا، ألمانيا)'",
+      "Updated Wd from 'Q251678' to 'Q31872780'. Manual review required. Kima Id:9875",
+      "updatePlaceRecord: variants +2: Aichach, Ger. (Bavaria)[la] | אייכאך (בוואריה, גרמניה)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007566833805171",
+    "messages": [
+      "Location supposed to move 23.8 km. Manual review required. Kima Id:79172 Name:המבורג-הרבורג (המבורג, גרמניה)",
+      "Updated PrimaryArabFull from 'null' to 'هامبورغ هاربورغ (هامبورغ، ألمانيا)'",
+      "Updated ViafId from 'null' to '151285471'",
+      "updatePlaceRecord: variants +2: Harburg (Hamburg, Germany)[la] | הארבורג (המבורג, גרמניה)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007562086505171",
+    "messages": [
+      "Updated PrimaryArabFull from 'null' to 'بادن (النمسا)'",
+      "Updated ViafId from '312794264' to '139542026'. Manual review required. Kima Id:7918",
+      "updatePlaceRecord: variants +4: Baden, Austria[la] | Baden bei Wien (Austria)[la] | Baden-near-Vienna (Austria)[la] | באדן (אוסטריה)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007564236905171",
+    "messages": [
+      "Updated PrimaryArabFull from 'null' to 'أوليندا (البرازيل)'",
+      "Updated ViafId from '137194593' to '209145542478796640021'. Manual review required. Kima Id:7790",
+      "updatePlaceRecord: variants +2: Prefeitura de Olinda (Brazil)[la] | Olinda, Brazil[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007566720805171",
+    "messages": [
+      "updatePlaceRecord: place 987007566720805171 cannot be updated in place — its Hebrew name already exists on Kima Id 90646 (MAZAL_ID 987007537806505171). Merge required. Discarding Kima Id:90596 Name:מחוז הורדנה (בלארוס)"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007562110305171",
+    "messages": [
+      "Location supposed to move 37.8 km. Manual review required. Kima Id:13007 Name:ורנק (גרמניה)",
+      "Updated PrimaryArabFull from 'null' to 'فيرنيك (ألمانيا)'"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007567614305171",
+    "messages": [
+      "Location supposed to move 354.0 km. Manual review required. Kima Id:17961 Name:מניימה (קונגו)",
+      "Updated PrimaryArabFull from 'null' to 'مانييما (الكونغو)'",
+      "updatePlaceRecord: variants +1: Maniema (Zaire)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007562239605171",
+    "messages": [
+      "Location supposed to move 72.9 km. Manual review required. Kima Id:14748 Name:מחוז פבלודר (קזחסטן)",
+      "Updated PrimaryArabFull from 'null' to 'بافلودار أوبليسي (كازاخستان)'",
+      "updatePlaceRecord: variants +4: Pavlodar (Kazakhstan : Oblast)[la] | Pavlodarskaya oblastʹ (Kazakhstan)[la] | Pavlodar, Russia (Province)[la] | Pavlodarskai︠a︡ oblastʹ (Kazakh S.S.R.)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007600144505171",
+    "messages": [
+      "Location supposed to move 34.5 km. Manual review required. Kima Id:24737 Name:סרנאנו (איטליה)",
+      "Updated PrimaryArabFull from 'null' to 'سارنانو (إيطاليا)'"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007562083805171",
+    "messages": [
+      "Location supposed to move 78.4 km. Manual review required. Kima Id:8897 Name:מחוז מקינלי (ניו מקסיקו)",
+      "Updated PrimaryArabFull from 'null' to 'مقاطعة ماكينلي (نيومكسيكو)'",
+      "updatePlaceRecord: variants +1: McKinley Co., N.M.[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007562083005171",
+    "messages": [
+      "Updated PrimaryArabFull from 'null' to 'كيوتو (اليابان)'",
+      "Updated ViafId from '256533061' to '157818195'. Manual review required. Kima Id:8900",
+      "updatePlaceRecord: variants +4: Kioto (Japan)[la] | Kyōto-shi (Japan)[la] | Ching-tu (Japan)[la] | Kyŏngdo (Japan)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007567720905171",
+    "messages": [
+      "Location supposed to move 37.7 km. Manual review required. Kima Id:17786 Name:ורט סור סואר (צרפת)",
+      "Updated PrimaryArabFull from 'null' to 'فويرث سور ساور ساور (فرنسا)'",
+      "updatePlaceRecord: variants +4: Woerth (France)[la] | Wörth (France)[la] | Wörth an der Sauer (France)[la] | ווערט (צרפת)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007562503205171",
+    "messages": [
+      "Updated PrimaryArabFull from 'null' to 'ميلاغرو (إسبانيا)'",
+      "Updated Wd from 'null' to 'Q644537'",
+      "Updated ViafId from '47145067216366630883' to '159072614'. Manual review required. Kima Id:16057",
+      "updatePlaceRecord: variants +1: מירקלו (ספרד)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987011383045805171",
+    "messages": [
+      "Location supposed to move 40.3 km. Manual review required. Kima Id:77231 Name:באיאנטומן סום (מונגוליה)",
+      "Updated PrimaryArabFull from 'null' to 'بايانتومين سوم (منغوليا)'",
+      "Updated ViafId from 'null' to '6412156223627805400009'",
+      "updatePlaceRecord: variants +3: Dornod Aĭmgiĭn Bai︠a︡ntu̇mėn Sum (Mongolia)[la] | Doronadu Ayimaġ-un Bayantu̇men Sumu (Mongolia)[la] | Bayantu̇men Sumu (Mongolia)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987011433524905171",
+    "messages": [
+      "Location supposed to move 726.9 km. Manual review required. Kima Id:73680 Name:ראס אל מא (אלג'יריה)",
+      "Updated PrimaryArabFull from 'null' to 'رأس الماء (الجزائر)'",
+      "Updated Wd from 'Q22928906' to 'Q1004716'. Manual review required. Kima Id:73680",
+      "Updated ViafId from 'null' to '158489525'",
+      "updatePlaceRecord: variants +2: Bedeau (Algeria)[la] | Ras el Mah (Algeria)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260728-20260803",
+    "track": "Place",
+    "recordId": "987007498936105171",
+    "messages": [
+      "Location supposed to move 186.6 km. Manual review required. Kima Id:19391 Name:מונדזיוב (פולין)",
+      "Updated PrimaryRomFull from 'Modrzejów (Poland)' to 'Modrzejów (Poland)'",
+      "Updated PrimaryArabFull from 'null' to 'مودرزيوف (بولندا)'",
+      "Updated Wd from 'Q11784547' to 'Q767989'. Manual review required. Kima Id:19391"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007480078105171",
+    "messages": [
+      "Location supposed to move 477.9 km. Manual review required. Kima Id:77412 Name:אלפורד (סקוטלנד : פאריש)",
+      "Updated PrimaryArabFull from 'null' to 'ألفورد (اسكتلندا : أبرشية)'",
+      "Updated Wd from 'Q68814827' to 'Q1876378'. Manual review required. Kima Id:77412",
+      "updatePlaceRecord: variants +1: Parish of Alford (Scotland)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007448625005171",
+    "messages": [
+      "Updated PrimaryRomFull from 'Ga'ton (Israel)' to 'Gaʻaton (Israel)'",
+      "Updated ViafId from '316747194' to '315194987'. Manual review required. Kima Id:880",
+      "updatePlaceRecord: variants +4: Ga'ton (Israel)[la] | Gea'ton (Israel)[la] | Ḳibuts Gaʻaton (Israel)[la] | קיבוץ געתון (ישראל)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007467837405171",
+    "messages": [
+      "Updated Wd from 'Q7697539' to 'Q7056545'. Manual review required. Kima Id:21753",
+      "updatePlaceRecord: variants +11: Goded Site (Israel)[la] | Khirbat Tabaḳ (Israel)[la] | Khirbet Tabaq (Israel)[la] | Khurvat Tabaq (Israel)[la] | Tell Goded (Israel)[la] | Moresheth-Gath (Israel)[la] | Moreshet Gat Site (Israel)[la] | אתר מורשת גת (ישראל)[he] | מורשת-גת (ישראל)[he] | חורבת טבק (ישראל)[he] | טבק, חורבה (ישראל)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007475797905171",
+    "messages": [
+      "Coordinates added: Lat=31.78722222, Lon=35.31972222",
+      "Updated Wd from 'Q18604433' to 'Q860532'. Manual review required. Kima Id:21169",
+      "updatePlaceRecord: variants +12: Nahal Qidron (Israel)[la] | Nahal Qidron[la] | Nahal Kedron[la] | Nahal Kedron (Israel)[la] | Valley of Kedron (Israel)[la] | Nahal Quidron[la] | Émeḳ Giḥon (Israel)[la] | Gihon Valley (Israel)[la] | נחל קידרון (ישראל)[he] | נחל גיחון (ישראל)[he] | עמק קדרון (ישראל)[he] | עמק גיחון (ישראל)[he]",
+      "updatePlaceRecord: variants already present, not inserted (2): Kidron River[la] | Wadi Nar[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007467857405171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007467857405171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+    ],
+    "nliState": "Absent",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007467858005171",
+    "messages": [
+      "Updated PrimaryArabFull from 'منطقة مسچاف' to 'منطقة مسچاف (إسرائيل)'",
+      "Updated Wd from 'null' to 'Q1965822'",
+      "Updated ViafId from '316601481' to '145872288'. Manual review required. Kima Id:21601",
+      "updatePlaceRecord: variants +2: Misgav (Israel)[la] | משגב (ישראל)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007477220705171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007477220705171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+    ],
+    "nliState": "Absent",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007477241505171",
+    "messages": [
+      "Location supposed to move 245.6 km. Manual review required. Kima Id:21337 Name:אלעראקיב (ישראל)",
+      "Updated Wd from 'null' to 'Q4702222'",
+      "updatePlaceRecord: variants +4: 'Araqib (Israel)[la] | Al-Araqeeb (Israel)[la] | עראקיב (ישראל)[he] | אל-עראקיב (ישראל)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007462625705171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007462625705171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+    ],
+    "nliState": "Absent",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007478057305171",
+    "messages": [
+      "Updated ViafId from '129344531' to '187050497'. Manual review required. Kima Id:274",
+      "updatePlaceRecord: variants +5: Tel Yizḥaḳ (Israel)[la] | Tel Yizhaq (Israel)[la] | Tel-Itzhak (Israel)[la] | Ḳibuts Tel Yitsḥaḳ (Israel)[la] | Kibbutz Tel-Itzhak (Israel)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007487070005171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007487070005171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+    ],
+    "nliState": "Absent",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007358589805171",
+    "messages": [
+      "Updated ViafId from '296594368' to '3552150943146826760002'. Manual review required. Kima Id:26420",
+      "updatePlaceRecord: variants +6: Kisrá-Sumayʻ (Israel)[la] | Kisrá-Kafr Sumayʻ (Israel)[la] | Kisrá-Samīʻ (Israel)[la] | Kisra-Sumei (Israel)[la] | Kissra-Samea (Israel)[la] | כסרא-סמיע (ישראל)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007465878705171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007465878705171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+    ],
+    "nliState": "Absent",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007467461005171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007467461005171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+    ],
+    "nliState": "Absent",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007467835905171",
+    "messages": [
+      "Updated PrimaryHebFull from 'צור יגאל (ישראל)' to 'צור יגאל (כוכב יאיר-צור יגאל, ישראל)'",
+      "Updated PrimaryRomFull from 'Tsur Yig'al (Israel)' to 'Tsur Yig'al (Kokhav Ya'ir-Tsur Yig'al, Israel)'",
+      "Updated PrimaryArabFull from 'تسور يغئال (كوخاف يئير-تسور يغئال، إسرائيل)' to 'تسور يغئال (كوخاف يعير - تسور يغال، إسرائيل)'",
+      "Updated Wd from 'Q2594036' to 'Q126470821'. Manual review required. Kima Id:21765",
+      "updatePlaceRecord: variants +4: Tsur Yig'al (Israel)[la] | Zur Yigal (Israel)[la] | צור יגאל (ישראל)[he] | تسور يغئال (إسرائيل)[ar]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007498799105171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007498799105171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+    ],
+    "nliState": "Absent",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007469841505171",
+    "messages": [
+      "Updated ViafId from '316601424' to '159648429'. Manual review required. Kima Id:889",
+      "updatePlaceRecord: variants +2: Devir (Israel)[la] | דבירה (קיבוץ) (ישראל)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007467989005171",
+    "messages": [
+      "Updated PrimaryRomFull from 'Kefar Mallal (Israel)' to 'Kfar Malal (Israel)'",
+      "Updated Wd from ' Q1026838' to 'Q1026838'. Manual review required. Kima Id:1665",
+      "updatePlaceRecord: variants +2: Kefar Mallal (Israel)[la] | Kefar Malal (Israel)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007473865105171",
+    "messages": [
+      "Updated PrimaryArabFull from 'يزرعئيل (دينة قديمة) (إسرائيل)' to 'يزرعئيل (إسرائيل)'",
+      "Updated ViafId from '315149797' to '158745796'. Manual review required. Kima Id:849",
+      "updatePlaceRecord: variants +2: קיבוץ יזרעאל (ישראל)[he] | קבוץ יזרעאל (ישראל)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007545024605171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007545024605171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+    ],
+    "nliState": "Absent",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007554968205171",
+    "messages": [
+      "Updated PrimaryRomFull from 'Kefar Tavor (Israel)' to 'Kfar Tavor (Israel)'",
+      "Updated ViafId from '142179362' to '236617691'. Manual review required. Kima Id:1666",
+      "updatePlaceRecord: variants +3: Kefar Tavor (Israel)[la] | Mesḥah (Israel)[la] | Kfar Tabor (Israel)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007564499105171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007564499105171 although it is in the Kima database. Possibly deleted. Error: Error fetching MARC XML: The request was canceled due to the configured HttpClient.Timeout of 100 seconds elapsing. --> The operation was canceled. --> Unable to read data from the transport connection: Operation canceled. --> Operation canceled. Manual review required."
+    ],
+    "nliState": "Error",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007526424405171",
+    "messages": [
+      "Updated Wd from 'Q4702312' to 'Q20743453'. Manual review required. Kima Id:22269",
+      "updatePlaceRecord: variants +3: Tell Burga (Israel)[la] | Burga (Tel)[la] | חרבת אל-בורייג' (ישראל)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007558827005171",
+    "messages": [
+      "Updated Wd from 'Q2916818' to 'Q2152764'. Manual review required. Kima Id:5554",
+      "updatePlaceRecord: variants +13: Ramat Menashe (Israel)[la] | Ramat Menasheh (Israel)[la] | Erets ha-Maʻavar (Israel)[la] | Erets ha-Reṿaḥah (Israel)[la] | Hare Efrayim (Israel)[la] | Ramot Menashe (Israel : Region)[la] | Ramot Menasheh (Israel : Region)[la] | Menashe Plateau (Region : Israel)[la] | Menashe Plateau (Israel)[la] | Menashe Heights (Israel)[la] | רמות מנשה (חבל ארץ) (ישראל)[he] | רמת מנשה (ישראל)[he] | הרי מנשה (ישראל)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007779876605171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007779876605171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+    ],
+    "nliState": "Absent",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007469719505171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007469719505171 although it is in the Kima database. Possibly deleted. Error: Failed to fetch MARC XML. Status: 520. Manual review required."
+    ],
+    "nliState": "Error",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007533110305171",
+    "messages": [
+      "Updated ViafId from '5477148269699605230004' to '3465156133190358430002'. Manual review required. Kima Id:17466",
+      "updatePlaceRecord: variants +1: ʻAminadav (Israel)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007535651405171",
+    "messages": [
+      "Updated PrimaryRomFull from 'Yifat (Israel)' to 'Yif'at (Israel)'",
+      "Updated ViafId from '132696676' to '137745533'. Manual review required. Kima Id:857",
+      "updatePlaceRecord: variants +1: Yifat (Israel)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007542722205171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007542722205171 although it is in the Kima database. Possibly deleted. Error: Error fetching MARC XML: The request was canceled due to the configured HttpClient.Timeout of 100 seconds elapsing. --> The operation was canceled. --> Unable to read data from the transport connection: Operation canceled. --> Operation canceled. Manual review required."
+    ],
+    "nliState": "Error",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007554966305171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007554966305171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+    ],
+    "nliState": "Absent",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007566808905171",
+    "messages": [
+      "Updated Wd from 'Q741793' to 'Q3566273'. Manual review required. Kima Id:12643",
+      "updatePlaceRecord: variants +7: Mitspeh Ramon (Israel)[la] | Mitzpe Ramon (Israel)[la] | Maḥne Ramon (Israel)[la] | Miẓpe Ramon (Israel)[la] | Maḥaneh Ramon (Israel)[la] | Mizpeh Ramon (Israel)[la] | Mizpe Ramon (Israel)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007520208505171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007520208505171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+    ],
+    "nliState": "Absent",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007540470605171",
+    "messages": [
+      "Updated ViafId from '251146462549227770312' to '148195460'. Manual review required. Kima Id:18441",
+      "updatePlaceRecord: variants +2: Ein Hod (Israel)[la] | Ein Houd al-Jadīdah (Israel)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007465859005171",
+    "messages": [
+      "Coordinates added: Lat=32.81944444, Lon=35.71555556",
+      "Updated PrimaryRomFull from 'Geshur (Israel)' to 'Gshur (Israel)'",
+      "Updated Wd from 'Q2669839' to 'Q2889908'. Manual review required. Kima Id:21528",
+      "updatePlaceRecord: variants +1: Geshur (Israel)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007564803005171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007564803005171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+    ],
+    "nliState": "Absent",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007565061905171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007565061905171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+    ],
+    "nliState": "Absent",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007566808705171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007566808705171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+    ],
+    "nliState": "Absent",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007467853705171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007467853705171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+    ],
+    "nliState": "Absent",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007530994205171",
+    "messages": [
+      "Updated PrimaryRomFull from 'Nahariyya (Israel)' to 'Nahariya (Israel)'",
+      "Updated ViafId from '144267415' to '133975989'. Manual review required. Kima Id:39",
+      "updatePlaceRecord: variants +5: Nahariyya (Israel)[la] | Nahariyah (Israel)[la] | Nahariah (Israel)[la] | Nahariyyah (Israel)[la] | Naharriya (Israel)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007537991705171",
+    "messages": [
+      "Updated ViafId from '315129448' to '130620266'. Manual review required. Kima Id:926",
+      "updatePlaceRecord: variants +1: Gezer, Israel[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007537993705171",
+    "messages": [
+      "Updated ViafId from '150533431' to '8948170868775822930002'. Manual review required. Kima Id:873",
+      "updatePlaceRecord: variants +1: Yaqum (Israel)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007542492105171",
+    "messages": [
+      "Updated PrimaryArabFull from 'شخونات هتكفا (تل أبيب يافا، إسرائيل)' to 'شخونات هتكفا (تل أبيب-يافا، إسرائيل)'",
+      "Updated ViafId from '6904147270386435700003' to '144419763'. Manual review required. Kima Id:19643",
+      "updatePlaceRecord: variants +8: Shekhunat-ha-Tikvah (Tel Aviv, Israel)[la] | Shekhunat ha-Tiqwa (Tel-Aviv, Israel)[la] | Hatikva Neighbourhood (Tel Aviv, Israel)[la] | Hatikva Quarter (Tel Aviv, Israel)[la] | Shekhunat Hatiqva (Tel Aviv, Israel)[la] | Shekhunat Hatiqwa (Tel Aviv, Israel)[la] | התקוה, שכונה (תל אביב-יפו, ישראל)[he] | שכונת התקווה (תל אביב-יפו, ישראל)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007575279105171",
+    "messages": [
+      "Updated Wd from 'Q12404579' to 'Q2917808'. Manual review required. Kima Id:26962",
+      "updatePlaceRecord: variants +3: Kerem Abraham Neighborhood (Jerusalem, Israel)[la] | Avraham's Vineyard (Jerusalem, Israel)[la] | שכונת כרם אברהם (ירושלים, ישראל)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007465730505171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007465730505171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+    ],
+    "nliState": "Absent",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007533356405171",
+    "messages": [
+      "Updated ViafId from '8077149489120793810001' to '154932398'. Manual review required. Kima Id:879",
+      "updatePlaceRecord: variants +1: Ḳibuts Gaʻash (Israel)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007540328305171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007540328305171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+    ],
+    "nliState": "Absent",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007588165805171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007588165805171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+    ],
+    "nliState": "Absent",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007560356805171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007560356805171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+    ],
+    "nliState": "Absent",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007590408005171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007590408005171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+    ],
+    "nliState": "Absent",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007588167405171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007588167405171 although it is in the Kima database. Possibly deleted. Error: Failed to fetch MARC XML. Status: 520. Manual review required."
+    ],
+    "nliState": "Error",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007557401105171",
+    "messages": [
+      "Location supposed to move 156.5 km. Manual review required. Kima Id:13834 Name:לטרון (ישראל)",
+      "Updated Wd from 'Q1670976' to 'Q681554'. Manual review required. Kima Id:13834",
+      "updatePlaceRecord: variants already present, not inserted (5): Laṭrūn[la] | Latroun[la] | El Atrun[la] | Toron des chevaliers[la] | Domus Boni Latronis[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987008880385105171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987008880385105171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+    ],
+    "nliState": "Absent",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987011869676205171",
+    "messages": [
+      "Updated PrimaryArabFull from 'كوخاف يئير-تسور يغئال (إسرائيل)' to 'كوخاڤ يئير- تسور چآل (إسرائيل)'",
+      "Updated Wd from 'Q2594036' to 'Q126470821'. Manual review required. Kima Id:88137"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007324576305171",
+    "messages": [
+      "Location supposed to move 70.9 km. Manual review required. Kima Id:26099 Name:נצר חזני (ישראל)",
+      "Updated PrimaryRomFull from 'Netser Ḥazani (Israel)' to 'Netser Ḥazani (Israel)'",
+      "Updated Wd from 'Q2909782' to 'Q19330806'. Manual review required. Kima Id:26099",
+      "updatePlaceRecord: variants +2: Netzer Hazani (Israel)[la] | Nezer Hazani (Israel)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007484852205171",
+    "messages": [
+      "Updated PrimaryArabFull from 'طمرة (اسرائيل)' to 'طمرة (إسرائيل)'",
+      "Updated ViafId from '146789314' to '131894740'. Manual review required. Kima Id:20270",
+      "updatePlaceRecord: variants +2: Tamrah (Israel)[la] | Tamra (West)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007420243105171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007420243105171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+    ],
+    "nliState": "Absent",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007465734705171",
+    "messages": [
+      "Updated ViafId from '316601327' to '135407033'. Manual review required. Kima Id:729",
+      "updatePlaceRecord: variants +5: Moshav En ha-Oved (Israel)[la] | Ein Haoved (Israel)[la] | Moshav Avihayil (Israel)[la] | מושב אביחיל (ישראל)[he] | מושב עין העובד (ישראל)[he]",
+      "updatePlaceRecord: variants already present, not inserted (1): Avihayil[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007467858605171",
+    "messages": [
+      "Updated PrimaryRomFull from 'Giv'at Shemu'el (Israel)' to 'Giv'at Shmu'el (Israel)'",
+      "Updated PrimaryArabFull from 'چفعات شموئيل' to 'چفعات شموئيل (إسرائيل)'",
+      "Updated ViafId from '154002006' to '160637557'. Manual review required. Kima Id:21597",
+      "updatePlaceRecord: variants +9: Giv'at Shemu'el (Israel)[la] | Giv'at Shmuel (Israel)[la] | Givat Shmuel (Israel)[la] | Givat Shemu'el (Israel)[la] | Ma'abarat Pardes Rosenblum (Israel)[la] | Pardes Rosenblum (Israel)[la] | Givat Shemuel (Israel)[la] | מעברת פרדס רוזנבלום (ישראל)[he] | פרדס רוזנבלום, מעברה (ישראל)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007475380905171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007475380905171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+    ],
+    "nliState": "Absent",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007415918205171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007415918205171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+    ],
+    "nliState": "Absent",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007465492205171",
+    "messages": [
+      "Updated ViafId from '244653138' to '147934636'. Manual review required. Kima Id:519",
+      "updatePlaceRecord: variants +5: Burgetah (Israel)[la] | Burgatah (Israel)[la] | Burgata (Israel)[la] | בורגתא (ישראל)[he] | ברקתא (ישראל)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007467460305171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007467460305171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+    ],
+    "nliState": "Absent",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007467985005171",
+    "messages": [
+      "Updated PrimaryHebFull from 'קרית ביאליק (ישראל)' to 'קריית ביאליק (ישראל)'",
+      "Updated ViafId from '316601587' to '156112847'. Manual review required. Kima Id:866",
+      "updatePlaceRecord: variants +4: Ḳiryat Byaliḳ (Israel)[la] | Qiryat Bialik (Israel)[la] | Ḳiryat Beyaliḳ (Israel)[la] | Qiryat Bialiq (Israel)[la]",
+      "updatePlaceRecord: variants already present, not inserted (2): קרית שמריהו[he] | כפר ביאליק[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007465870705171",
+    "messages": [
+      "Updated ViafId from '315154978' to '239175515'. Manual review required. Kima Id:971",
+      "updatePlaceRecord: variants +6: Ḳibuts Dan (Israel)[la] | Metsudat Menahem Ussishkin Bet (Israel)[la] | Tell el Qady (Israel)[la] | Dan (Israel : Kibbutz)[la] | קיבוץ דן (ישראל)[he] | ח'אן א-דויר[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007467843705171",
+    "messages": [
+      "Updated PrimaryHebFull from 'רמת כוכב (ישראל)' to 'רמת יששכר (ישראל)'",
+      "Updated PrimaryRomFull from 'Kokhav Plateau (Israel)' to 'Ramat Yisakhar (Israel)'",
+      "Updated Wd from 'Q26764094' to 'Q1151118'. Manual review required. Kima Id:21936",
+      "updatePlaceRecord: variants +8: Ramot Yisakhar (Israel)[la] | Ramat Issachar (Israel)[la] | Ramat Kokhav (Israel)[la] | Ramat Tsevaim (Israel)[la] | Kokhav Plateau (Israel)[la] | רמת כוכב (ישראל)[he] | רמת תבור (ישראל)[he] | רמת צבאים (ישראל)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007475965105171",
+    "messages": [
+      "Updated Wd from 'Q2822904' to 'Q35499787'. Manual review required. Kima Id:21161",
+      "updatePlaceRecord: variants +11: Nahal ʻIron (Israel)[la] | Nahal ʻIron[la] | ʻIron Wadi (Israel)[la] | ʻĀrah (Israel)[la] | ʻAra (Israel)[la] | Ṿadi ʻArah (Israel)[la] | Wādī ʻĀrah (Israel)[la] | ʻIron Valley (Israel)[la] | Emeq Iron (Israel)[la] | ואדי עארה (ישראל)[he] | עמק עירון (ישראל)[he]",
+      "updatePlaceRecord: variants already present, not inserted (2): ʻIron River[la] | Wadi ʻAra[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007487061005171",
+    "messages": [
+      "Updated PrimaryRomFull from 'Hatsor Ashdod (Israel)' to 'Hatsor-Ashdod (Israel)'",
+      "Updated Wd from ' Q1018879' to 'Q1018879'. Manual review required. Kima Id:323",
+      "updatePlaceRecord: variants +4: Hatsor Ashdod (Israel)[la] | H̲aẕor Ashdod (Israel)[la] | חצור אשדוד (ישראל)[he] | חצור (קיבוץ)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007469455805171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007469455805171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+    ],
+    "nliState": "Absent",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007475798905171",
+    "messages": [
+      "Updated PrimaryArabFull from 'وادي الخضيرة (أبو النار) (إسرائيل)' to 'وادي الخضيرة (إسرائيل)'",
+      "Updated Wd from 'Q2498901' to 'Q7695587'. Manual review required. Kima Id:21163",
+      "updatePlaceRecord: variants +10: Naḥal Haderah (Israel)[la] | Zeror (Tel) (Israel)[la] | Tell Zeror (Israel)[la] | Tel Zeror (Israel)[la] | Zeror Site (Israel)[la] | תל זרור (ישראל)[he] | זרור, תל (ישראל)[he] | ח'רבת א-תל דורור (ישראל)[he] | חירבת א-תל ד'רר (ישראל)[he] | זרור (תל)[he]",
+      "updatePlaceRecord: variants already present, not inserted (2): Hadera River[la] | Nahr al Mifjir[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007535689905171",
+    "messages": [
+      "Updated ViafId from '128040415' to '151430155'. Manual review required. Kima Id:885",
+      "updatePlaceRecord: variants +2: Ḳibuts Gesher (Israel)[la] | קיבוץ גשר (ישראל)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007568675705171",
+    "messages": [
+      "Location supposed to move 30.9 km. Manual review required. Kima Id:26999 Name:הר אלכסנדר (ישראל)",
+      "Updated Wd from 'Q1962200' to 'Q3321659'. Manual review required. Kima Id:26999",
+      "updatePlaceRecord: variants +2: Alexander Mountain (Israel)[la] | Har Alexander (Israel)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007588147405171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007588147405171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+    ],
+    "nliState": "Absent",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007535639405171",
+    "messages": [
+      "Updated PrimaryArabFull from 'حارة النصارى (أورشلِيم-القدس، اسرائيل)' to 'حارة النصارى (القدس، إسرائيل)'",
+      "Updated Wd from 'Q2920155' to 'Q1391891'. Manual review required. Kima Id:83528",
+      "Updated ViafId from 'null' to '151446484'",
+      "updatePlaceRecord: variants +3: Rovaʻ ha-Notsri (Jerusalem)[la] | Christian Quarter (Jerusalem, Israel)[la] | Christian Quarter (Jerusalem)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007540361505171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007540361505171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+    ],
+    "nliState": "Absent",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007540476005171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007540476005171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+    ],
+    "nliState": "Absent",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007545135705171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007545135705171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+    ],
+    "nliState": "Absent",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007554966705171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007554966705171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+    ],
+    "nliState": "Absent",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007475818105171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007475818105171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+    ],
+    "nliState": "Absent",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007540462405171",
+    "messages": [
+      "Updated PrimaryRomFull from 'Yokne'am (Israel)' to 'Yokne'am (Moshava) (Israel)'",
+      "Updated PrimaryArabFull from 'يكنوعام (بلدة تعاونية) (إسرائيل)' to 'يكنوعام (موشافا) (إسرائيل)'",
+      "Updated ViafId from '145858174' to '2690164604093337910005'. Manual review required. Kima Id:18301",
+      "updatePlaceRecord: variants +7: Yoḳneʻam (Israel)[la] | Yokne'am (Israel: Moshava)[la] | Yoqneʻam (Israel)[la] | Jokneam (Israel)[la] | Yoqne'am (Israel: Moshava)[la] | יקנעם (ישראל : מושבה)[he] | יוקנעם (מושבה) (ישראל)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007542885105171",
+    "messages": [
+      "Updated ViafId from '156394755' to '135406381'. Manual review required. Kima Id:19615",
+      "updatePlaceRecord: variants +5: Mag'd el-Kurum (Israel)[la] | Majd El Krum (Israel)[la] | Majd al-Krum (Israel)[la] | Majd el Kurum (Israel)[la] | Majd al Korum (Israel)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007555102305171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007555102305171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+    ],
+    "nliState": "Absent",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007592519905171",
+    "messages": [
+      "Updated ViafId from '152655028' to '132908615'. Manual review required. Kima Id:264",
+      "updatePlaceRecord: variants +5: Sharonah (Israel)[la] | Moshav Sharonah (Israel)[la] | Saronah (Israel)[la] | Sarona (Israel)[la] | מושב שרונה (ישראל)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007477335005171",
+    "messages": [
+      "updatePlaceRecord: place 987007477335005171 would repoint onto Kima Id 92253 (currently MAZAL_ID 987007471773005171), but NLI still returns a record for 987007471773005171; refusing to delete. Manual review required."
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007520208705171",
+    "messages": [
+      "Updated Wd from 'Q2777713' to 'Q2916070'. Manual review required. Kima Id:86790",
+      "updatePlaceRecord: variants +7: Shunem (Israel)[la] | Shunam (Israel)[la] | Tel Shunem (Israel)[la] | Shunem Site (Israel)[la] | אתר שונם (ישראל)[he] | תל שונם (ישראל)[he] | שונם (ישראל)[he]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007559903505171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007559903505171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+    ],
+    "nliState": "Absent",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007537990705171",
+    "messages": [
+      "Updated ViafId from '316603199' to '124763448'. Manual review required. Kima Id:27",
+      "updatePlaceRecord: variants +2: Tel Sasa (Israel)[la] | Tell Sasa (Israel)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007551685005171",
+    "messages": [
+      "Location supposed to move 21.1 km. Manual review required. Kima Id:4432 Name:נחל אלכסנדר (ישראל)",
+      "updatePlaceRecord: variants +4: Alexander River (Israel)[la] | Alexander River[la] | Wadi Hawarith (Israel)[la] | Alexander (Nahal)[la]",
+      "updatePlaceRecord: variants already present, not inserted (8): Aleksander River[la] | Nahr Iskandaruna[la] | Ḥaṿarit River[la] | Ḥawārith River[la] | Naḥal Aleksander[la] | Naḥal Alexander[la] | Ṿadi Ḥaṿarit[la] | Wadi Ḥawārith[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007465731605171",
+    "messages": [
+      "Location supposed to move 20.8 km. Manual review required. Kima Id:21708 Name:מערת עמוד (ישראל)",
+      "updatePlaceRecord: variants +2: Amud Cave (Israel)[la] | Meʻarat ʻAmmud (Israel)[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007511199105171",
+    "messages": [
+      "Location supposed to move 54.8 km. Manual review required. Kima Id:22076 Name:גן העצמאות (ירושלים, ישראל)",
+      "Updated Wd from 'Q7190091' to 'Q589512'. Manual review required. Kima Id:22076",
+      "updatePlaceRecord: variants +2: Independence Park (Jerusalem, Israel)[la] | Jerusalem[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007540337105171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007540337105171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+    ],
+    "nliState": "Absent",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007557419705171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007557419705171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+    ],
+    "nliState": "Absent",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007564239805171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007564239805171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+    ],
+    "nliState": "Absent",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007588886805171",
+    "messages": [
+      "Updated Wd from 'null' to 'Q579940'",
+      "Updated ViafId from '148195460' to '124513640'. Manual review required. Kima Id:26578",
+      "updatePlaceRecord: variants +4: Ein Haud (Israel)[la] | ʻEn Ḥawḍ (Israel)[la] | ʻAyn Haud (Israel)[la] | Ein Houd (Israel)[la]",
+      "updatePlaceRecord: variants already present, not inserted (1): 'Ayn Hawd[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007561997705171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007561997705171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+    ],
+    "nliState": "Absent",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007582180605171",
+    "messages": [
+      "updatePlaceRecord: place 987007582180605171 cannot be updated in place — its Hebrew name already exists on Kima Id 26570 (MAZAL_ID 987007582173305171). Merge required. Discarding Kima Id:70901 Name:מיסר (ישראל)"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007588171905171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007588171905171 although it is in the Kima database. Possibly deleted. Error: Error fetching MARC XML: The request was canceled due to the configured HttpClient.Timeout of 100 seconds elapsing. --> The operation was canceled. --> Unable to read data from the transport connection: Operation canceled. --> Operation canceled. Manual review required."
+    ],
+    "nliState": "Error",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007603545605171",
+    "messages": [
+      "Failed to fetch MARC XML for place RecordId 987007603545605171 although it is in the Kima database. Error: RecordId does not exist in repository. The record no longer exists in NLI — suggest deleting it from Kima. Manual review required."
+    ],
+    "nliState": "Absent",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007285545905171",
+    "messages": [
+      "Location supposed to move 23.1 km. Manual review required. Kima Id:1626 Name:נחל קישון (ישראל)",
+      "Updated PrimaryArabFull from 'نهر المقطع (الكيشون) (إسرائيل)' to 'نهر المقطع (إسرائيل)'",
+      "updatePlaceRecord: variants +10: Kison River (Israel)[la] | Nahal Qishon (Israel)[la] | Kison River[la] | Naḥal Qishon (Israel)[la] | Nahal Qishon[la] | Qishon River (Israel)[la] | Qishon River[la] | Nahal Kishon (Israel)[la] | Nahal Kishon[la] | נחל הקישון (ישראל)[he]",
+      "updatePlaceRecord: variants already present, not inserted (2): Kishon River[la] | Nahr el Mukatta[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  },
+  {
+    "period": "20260804-20260810",
+    "track": "Place",
+    "recordId": "987007546858905171",
+    "messages": [
+      "Location supposed to move 22.3 km. Manual review required. Kima Id:4411 Name:נחל בשור (ישראל)",
+      "Updated Wd from 'Q2668577' to 'Q35256691'. Manual review required. Kima Id:4411",
+      "updatePlaceRecord: variants +9: Besor River (Israel and Gaza Strip)[la] | Besor (Nahal)[la] | Ghazzah River (Israel and Gaza Strip)[la] | Ghazzah River[la] | Nahal ha-Besor (Israel)[la] | Nahal ha-Besor[la] | Nahal Besor (Israel and Gaza Strip)[la] | Nahal Besor[la] | Wādī Ghazzah (Israel and Gaza Strip)[la]",
+      "updatePlaceRecord: variants already present, not inserted (3): Besor River[la] | Wadi Ghazza[la] | Nahal HaBesor[la]"
+    ],
+    "nliState": "Live",
+    "manualAction": null
+  }
+]
