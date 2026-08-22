@@ -25,13 +25,25 @@
                 padding: .35rem .7rem; cursor: pointer; font-size: .9rem; color: var(--ink);
                 text-decoration: none; }
   .nav button:disabled { opacity: .4; cursor: default; }
-  #pos { font-size: .85rem; color: var(--muted); min-width: 7rem; text-align: center; }
+  #pos { font-size: .85rem; color: var(--muted); min-width: 7rem; text-align: center;
+         display: flex; align-items: center; gap: .3rem; justify-content: center; }
+  #jump { width: 4.2em; padding: .25rem .3rem; border: 1px solid var(--line); border-radius: 6px;
+          font-size: .85rem; text-align: center; font-family: inherit; }
   main { max-width: 1280px; margin: 1rem auto; padding: 0 1rem; }
   .meta { display: flex; gap: .6rem; align-items: center; flex-wrap: wrap; margin-bottom: .8rem; }
   .badge { font-size: .78rem; border-radius: 6px; padding: .15rem .55rem; background: #e8e6df; }
   .badge.cat { background: var(--accent); color: #fff; }
   .badge.dist { background: #f3e2c8; }
   .badge.warn { background: var(--bad); color: #fff; }
+  .badge.warn a { color: #fff; text-decoration: underline; }
+  .badge.cat.catbad { background: var(--bad); }
+  .tab.catbad { color: var(--bad); border-color: #d9a3a3; }
+  .tab.catbad.active { background: var(--bad); border-color: var(--bad); color: #fff; }
+  .badge.stale { background: #ede8f3; color: #5b4a72; border: 1px dashed #a893c4; }
+  .badge.stale a { color: inherit; }
+  #onlyCurrent, #onlyFlagged { font-size: .82rem; color: var(--muted); display: flex;
+                 align-items: center; gap: .3rem; cursor: pointer; }
+  #onlyFlagged.on { color: #8f1d1d; font-weight: 700; }
   .badge.done { background: var(--ok); color: #fff; }
   .pair { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; align-items: start; }
   .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px;
@@ -83,6 +95,34 @@
   .mergeinfo { margin-top: .8rem; font-size: .88rem; background: #eaf3f6;
                border: 1px solid #cfe2e9; border-radius: 8px; padding: .55rem .8rem; }
   .actbtns button:disabled { opacity: .45; cursor: default; }
+  .quicktags { margin-inline-start: auto; display: flex; gap: .45rem; }
+  .quicktags button { display: flex; align-items: center; gap: .35rem; border-radius: 10px;
+                      padding: .35rem .8rem; cursor: pointer; font-size: .85rem; font-family: inherit; }
+  .quicktags .qt-region { background: #eef4e2; border: 1.5px dashed #8fae62; color: #4a5f2c; }
+  .quicktags .qt-river { background: #e3eef8; border: 1.5px dashed #6f9cc4; color: #2b4c6b; }
+  .quicktags button.sel { outline: 2.5px solid currentColor; font-weight: 700; }
+  .quicktags svg { display: block; }
+  .quicktags .qt-flag { background: #fbe9e9; border: 1.5px solid #d08484; color: #8c2f2f; }
+  /* flagged: solid red, so a caught flag is unmistakable at a glance */
+  .quicktags .qt-flag.sel { background: #c62828; border-color: #8f1d1d; color: #fff;
+                            outline: 2.5px solid #8f1d1d; }
+  /* research/disambiguation: neutral until chosen, brown once selected */
+  .actbtns button.act-research.sel { background: #f7efdd; border-color: #cfa94e;
+                                     color: #6b5314; outline: 2px solid #cfa94e; }
+  details.research { background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+                     padding: .7rem 1.2rem; margin-top: 1rem; }
+  details.research summary { cursor: pointer; font-size: .9rem; color: var(--muted); font-weight: 600; }
+  .research .rgroup { margin: .6rem 0 .2rem; font-size: .78rem; color: var(--muted); }
+  .research a { display: inline-block; font-size: .84rem; border: 1px solid var(--line);
+                border-radius: 8px; padding: .22rem .6rem; margin: .15rem;
+                text-decoration: none; color: var(--accent); }
+  dd.wdbad a { color: var(--bad); font-weight: 700; }
+  .wdchoice { margin-top: .8rem; font-size: .88rem; display: flex; gap: .5rem;
+              align-items: center; flex-wrap: wrap; background: #fdf3f3;
+              border: 1px solid #ecc9c9; border-radius: 8px; padding: .5rem .8rem; }
+  .wdchoice button { border: 1px solid var(--bad); background: #fff; border-radius: 8px;
+                     padding: .3rem .7rem; cursor: pointer; font-size: .85rem; }
+  .wdchoice button.sel { background: var(--bad); color: #fff; }
   .actions textarea { margin-top: .7rem; min-height: 2.4rem; resize: vertical; }
   .savebar { margin-top: .7rem; display: flex; gap: .6rem; align-items: center; }
   .savebar button { background: var(--accent); color: #fff; border: 0; border-radius: 8px;
@@ -97,9 +137,14 @@
   <h1>NLI ↔ Kima · סקירת כשלים</h1>
   <div class="tabs" id="tabs"></div>
   <div class="nav">
+    <label id="onlyCurrent" title="הסתרת מקרים שאינם מופיעים בדוח הריצה הנוכחית (משוחזרים מ־backup/)">
+      <input type="checkbox" id="onlyCurrentCb"> רק הריצה הנוכחית</label>
+    <label id="onlyFlagged" title="הצגת המקרים שסומנו לגילי בלבד">
+      <input type="checkbox" id="onlyFlaggedCb"> <span id="flaggedLbl">🚩 רק לגילי</span></label>
     <a href="/export.csv" title="ייצוא ההחלטות לקובץ CSV">⬇ דוח</a>
+    <button id="firstUndecided" title="קפיצה למקרה הראשון בקטגוריה שעדיין ללא החלטה">⏭ לראשון שטרם הוחלט</button>
     <button id="prev">→ הקודם</button>
-    <span id="pos"></span>
+    <span id="pos"><input id="jump" type="number" min="1" dir="ltr"> <span id="total">/ 0</span></span>
     <button id="next">הבא ←</button>
   </div>
 </header>
@@ -107,20 +152,50 @@
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
 const CAT_LABELS = {
-  'dup-places': 'כפילות שם מקום', 'dup-variants': 'כפילות וריאנט',
-  'missing-marc': 'רשומה חסרה', 'bad-geography': 'קואורדינטות פגומות', 'other': 'אחר', 'all': 'הכול'
+  'location-move': 'הזזת מיקום', 'multi-034': 'כפל 034 (לא בעייתי)',
+  'dup-places': 'כפילות שם מקום (לא אותר)',
+  'dup-places-same': 'כפילות מקום — אותו מזהה NLI',
+  'dup-places-diff': 'כפילות מקום — מזהה NLI שונה',
+  'dup-variants': 'כפילות וריאנט',
+  'repoint-blocked': 'כותרת תפוסה (מיזוג נחסם)', 'orphan-decision': 'הוחלט — לא בדוח הנוכחי',
+  'missing-marc': 'אין MARC ב־NLI — גם לא בכימה',
+  'nli-gone-suggest-delete': 'נמחקה ב־NLI — הצעה למחיקה מכימה',
+  'nli-gone-possibly': 'אין MARC ב־NLI — ייתכן שנמחקה',
+  'bad-geography': 'קואורדינטות פגומות', 'other': 'אחר', 'all': 'הכול'
 };
 const ACT_LABELS = {
   'nli-duplicate': 'כפילות ב־NLI', 'rename-suggestion': 'הצעת שינוי שם',
-  'merge': 'מיזוג (החלפת NLI-ID בכימה)', 'skip': 'דילוג'
+  'merge': 'מיזוג (החלפת NLI-ID בכימה)', 'data-problem': 'בעיה בנתונים — לדווח',
+  'keep-existing': 'המיקום הקיים נכון — דיווח לספרייה', 'apply-new': 'המיקום החדש נכון',
+  'neither': 'זה מורכב', 'manual-coords': 'ערך ידני',
+  'region': 'אזור — להחלטה בהמשך', 'river': 'נהר — להחלטה בהמשך',
+  'research': 'דורש דיסאמביגואציה',
+  'skip': 'דילוג'
 };
-let cases = [], cats = {}, idx = 0, cat = 'dup-places', detailCache = {}, map = null;
+let cases = [], cats = {}, idx = 0, cat = 'location-move', detailCache = {}, map = null;
+
+let onlyCurrent = localStorage.getItem('onlyCurrent') === '1';
+let onlyFlagged = localStorage.getItem('onlyFlagged') === '1';
+let rawCases = [];
 
 async function loadList() {
-  const r = await fetch('/api/cases?category=' + cat);
+  const r = await fetch('/api/cases?category=' + cat + (onlyCurrent ? '&current=1' : ''));
   const d = await r.json();
-  cases = d.cases; cats = d.categories; idx = Math.min(idx, Math.max(0, cases.length - 1));
-  renderTabs(); render();
+  rawCases = d.cases; cats = d.categories;
+  if (!cats[cat] && cat !== 'all') { cat = 'all'; return loadList(); }
+  applyFilters();
+}
+// the flag filter is client-side: the list payload already carries forGili
+function applyFilters() {
+  cases = onlyFlagged ? rawCases.filter(x => x.forGili) : rawCases;
+  idx = Math.min(idx, Math.max(0, cases.length - 1));
+  renderTabs(); renderFlagFilter(); render();
+}
+function renderFlagFilter() {
+  const n = rawCases.filter(x => x.forGili).length;
+  const lbl = document.getElementById('flaggedLbl');
+  if (lbl) lbl.textContent = `🚩 רק לגילי (${n})`;
+  document.getElementById('onlyFlagged').classList.toggle('on', onlyFlagged);
 }
 function renderTabs() {
   const t = document.getElementById('tabs');
@@ -129,14 +204,15 @@ function renderTabs() {
   for (const key of ['all', ...Object.keys(cats)]) {
     const n = key === 'all' ? total : cats[key];
     const b = document.createElement('button');
-    b.className = 'tab' + (key === cat ? ' active' : '');
+    b.className = 'tab' + (key === cat ? ' active' : '')
+                        + (key === 'dup-places-diff' ? ' catbad' : '');
     b.textContent = `${CAT_LABELS[key] || key} (${n})`;
     b.onclick = () => { cat = key; idx = 0; loadList(); };
     t.appendChild(b);
   }
 }
-const idLink = (label, url, value) =>
-  value ? `<dt>${label}</dt><dd><a href="${url}" target="_blank" dir="ltr">${value}</a></dd>` : '';
+const idLink = (label, url, value, cls) =>
+  value ? `<dt>${label}</dt><dd${cls ? ` class="${cls}"` : ''}><a href="${url}" target="_blank" dir="ltr">${value}</a></dd>` : '';
 const field = (label, value, dir) =>
   value ? `<dt>${label}</dt><dd dir="${dir || 'auto'}">${value}</dd>` : '';
 const coordStr = c => c ? `${(+c[0]).toFixed(4)}, ${(+c[1]).toFixed(4)}` : null;
@@ -144,12 +220,34 @@ const coordStr = c => c ? `${(+c[0]).toFixed(4)}, ${(+c[1]).toFixed(4)}` : null;
 const fold = s => (s || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim();
 const osm = c => `https://www.openstreetmap.org/?mlat=${c[0]}&mlon=${c[1]}#map=9/${c[0]}/${c[1]}`;
 
-function renderMap(newC, kimaC) {
+let manualPin = null;
+
+function placeManualPin(ll, select) {
+  if (!map) return;
+  if (manualPin) {
+    manualPin.setLatLng(ll);
+  } else {
+    manualPin = L.marker(ll, { draggable: true }).addTo(map)
+      .bindTooltip('מיקום ידני — גרירה לכיוונון');
+    manualPin.on('dragend', () => syncPin(manualPin.getLatLng(), true));
+  }
+  syncPin(L.latLng(ll), select);
+}
+function syncPin(latlng, select) {
+  const fLat = document.getElementById('manLat'), fLon = document.getElementById('manLon');
+  if (fLat && fLon) { fLat.value = latlng.lat.toFixed(5); fLon.value = latlng.lng.toFixed(5); }
+  if (select) {
+    const b = document.querySelector('.actbtns button[data-act="manual-coords"]');
+    if (b && !b.classList.contains('sel')) b.click();
+  }
+}
+
+function renderMap(newC, kimaC, opts = {}) {
   const el = document.getElementById('map');
-  if (map) { map.remove(); map = null; }
+  if (map) { map.remove(); map = null; manualPin = null; }
   if (!newC && !kimaC) { el.classList.add('hidden'); return; }
   el.classList.remove('hidden');
-  map = L.map('map', { scrollWheelZoom: false });
+  map = L.map('map', { scrollWheelZoom: true, wheelPxPerZoomLevel: 120 });
   L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',
     { attribution: '© OpenStreetMap' }).addTo(map);
   const pts = [];
@@ -170,8 +268,62 @@ function renderMap(newC, kimaC) {
   if (pts.length === 2 && (pts[0][0] !== pts[1][0] || pts[0][1] !== pts[1][1])) {
     L.polyline(pts, { color: '#999', weight: 1.5, dashArray: '4 4' }).addTo(map);
   }
+  if (opts.manual) pts.push(opts.manual);
   map.fitBounds(L.latLngBounds(pts).pad(0.5), { maxZoom: 8 });
   if (pts.length === 1) map.setZoom(6);
+  if (opts.manual) placeManualPin(opts.manual, false);
+  if (opts.enablePin) {
+    map.on('click', e => placeManualPin([e.latlng.lat, e.latlng.lng], true));
+  }
+}
+
+function wdBlock(c, d) {
+  const wn = (((c.newCard || {}).ids || {}).wikidata || '').trim();
+  const wk = c.kimaCard ? String(c.kimaCard.WD || '').trim() : '';
+  const chosen = d.correctWd || '';
+  const custom = chosen && chosen !== wn && chosen !== wk ? chosen : '';
+  if (wn && wk && wn !== wk) {
+    return `<div class="wdchoice"><span>מזהי ויקינתונים שונים — מהו הנכון?</span>
+      <button type="button" class="wdopt ${chosen === wn ? 'sel' : ''}" data-wd="${wn}">${wn} (NLI)</button>
+      <button type="button" class="wdopt ${chosen === wk ? 'sel' : ''}" data-wd="${wk}">${wk} (כימה)</button>
+      <input id="wdCustom" dir="ltr" placeholder="אחר: Qxxxx" value="${custom}" style="width:8em">
+    </div>`;
+  }
+  if (!wn && !wk) {
+    return `<div class="wdchoice" style="background:#f4f2ec;border-color:var(--line)">
+      <span>אין מזהה ויקינתונים — ניתן להוסיף:</span>
+      <input id="wdCustom" dir="ltr" placeholder="Qxxxx" value="${custom || chosen}" style="width:8em">
+    </div>`;
+  }
+  return '';
+}
+
+function researchPanel(c) {
+  const p = (c.newCard || {}).primary || {};
+  const k = c.kimaCard || {};
+  const heb = p.heb || k.primary_heb_full || '';
+  const rom = (p.lat || k.primary_rom_full || '').replace(/ \([^)]*\)$/, '');
+  const hebBase = heb.replace(/ \([^)]*\)$/, '');
+  const enc = encodeURIComponent;
+  const L = (label, url) => url ? `<a href="${url}" target="_blank">${label}</a>` : '';
+  return `
+  <details class="research">
+    <summary>🔍 מחקר נוסף — רשומות קשורות ומקורות</summary>
+    <div class="rgroup">רשומות מקוטלגות תחת הכותרת (מיהו המקום הנזכר בפועל?)</div>
+    ${L('קטלוג NLI: "' + heb + '"', 'https://www.nli.org.il/he/search?q=' + enc('"' + heb + '"'))}
+    ${L('קטלוג NLI: "' + hebBase + '"', hebBase !== heb ? 'https://www.nli.org.il/he/search?q=' + enc('"' + hebBase + '"') : '')}
+    ${L('מרחב (פרימו): ' + hebBase, 'https://merhav.nli.org.il/primo-explore/search?query=any,contains,' + enc(hebBase) + '&vid=NLI')}
+    ${L('קטלוג NLI: ' + rom, rom ? 'https://www.nli.org.il/he/search?q=' + enc('"' + rom + '"') : '')}
+    <div class="rgroup">גזטירים ורשויות</div>
+    ${L('Wikidata', 'https://www.wikidata.org/w/index.php?search=' + enc(rom || hebBase))}
+    ${L('GeoNames', 'https://www.geonames.org/search.html?q=' + enc(rom || hebBase))}
+    ${L('LC Authorities', 'https://id.loc.gov/search/?q=' + enc(rom || hebBase))}
+    ${L('VIAF', 'https://viaf.org/viaf/search?query=' + enc(rom || hebBase))}
+    ${L('JewishGen Gazetteer', 'https://www.jewishgen.org/gazetteer/')}
+    <div class="rgroup">חיפוש חופשי</div>
+    ${L('Google: שני השמות', 'https://www.google.com/search?q=' + enc('"' + rom + '" ' + hebBase))}
+    ${L('ויקיפדיה עברית', 'https://he.wikipedia.org/w/index.php?search=' + enc(hebBase))}
+  </details>`;
 }
 
 function actionBar(c) {
@@ -180,6 +332,33 @@ function actionBar(c) {
   const kheb = (c.kimaCard || {}).primary_heb_full || '';
   const selNew = d.suggestedNewName || p.heb || '';
   const selExisting = d.suggestedExistingName || kheb;
+  if (c.category === 'location-move') {
+    return `
+  <div class="actions">
+    <h3>איזה מיקום נכון?</h3>
+    <div class="actbtns">
+      <button data-act="keep-existing" ${d.decision === 'keep-existing' ? 'class="sel"' : ''} title="הנתון הנכנס שגוי — המקרה ייכלל בדוח לספרייה">הקיים (כימה) נכון — דיווח לספרייה</button>
+      <button data-act="apply-new" ${d.decision === 'apply-new' ? 'class="sel"' : ''}>החדש (NLI) נכון — לאשר את ההזזה</button>
+      <button data-act="neither" ${d.decision === 'neither' ? 'class="sel"' : ''}>זה מורכב</button>
+      <button data-act="manual-coords" ${d.decision === 'manual-coords' ? 'class="sel"' : ''}>הזנת ערך ידני</button>
+      <button data-act="research" class="act-research ${d.decision === 'research' ? 'sel' : ''}">🔍 דורש דיסאמביגואציה</button>
+      <button data-act="skip" ${d.decision === 'skip' ? 'class="sel"' : ''}>דלג</button>
+    </div>
+    <div class="rename" id="coordFields" ${d.decision === 'manual-coords' ? '' : 'hidden'}>
+      <label>Latitude (רוחב):</label>
+      <input id="manLat" dir="ltr" inputmode="decimal" placeholder="50.15278" value="${d.manualLat || ''}">
+      <label>Longitude (אורך):</label>
+      <input id="manLon" dir="ltr" inputmode="decimal" placeholder="28.83833" value="${d.manualLon || ''}">
+    </div>
+    ${wdBlock(c, d)}
+    <textarea id="note" placeholder="הערה (לא חובה)">${d.note || ''}</textarea>
+    <div class="savebar">
+      <button id="save">שמור והמשך</button>
+      <button class="clear" id="clearDec">נקה החלטה</button>
+      <span class="saved" id="savedMsg">${d.decision ? 'נשמר: ' + (ACT_LABELS[d.decision] || d.decision) + ' (' + (d.timestampUtc || '') + ')' : ''}</span>
+    </div>
+  </div>`;
+  }
   return `
   <div class="actions">
     <h3>החלטה על הזוג</h3>
@@ -187,6 +366,8 @@ function actionBar(c) {
       <button data-act="nli-duplicate" ${d.decision === 'nli-duplicate' ? 'class="sel"' : ''}>כפילות ב־NLI → לדוח</button>
       <button data-act="rename-suggestion" ${d.decision === 'rename-suggestion' ? 'class="sel"' : ''}>הצעת שינוי שם (הבחנה)</button>
       <button data-act="merge" ${d.decision === 'merge' ? 'class="sel"' : ''} ${c.kimaCard && c.kimaCard.Id ? '' : 'disabled title="לא אותר מקום כימה"'}>מיזוג — החלפת NLI-ID</button>
+      <button data-act="data-problem" ${d.decision === 'data-problem' ? 'class="sel"' : ''}>בעיה בנתונים — לדווח</button>
+      <button data-act="research" class="act-research ${d.decision === 'research' ? 'sel' : ''}">🔍 דורש דיסאמביגואציה</button>
       <button data-act="skip" ${d.decision === 'skip' ? 'class="sel"' : ''}>דלג</button>
     </div>
     <div class="rename" id="renameFields" ${d.decision === 'rename-suggestion' ? '' : 'hidden'}>
@@ -201,6 +382,7 @@ function actionBar(c) {
       במזהה הנכנס <b dir="ltr">${c.recordId}</b>.
       כל שאר המידע בכימה נשמר כפי שהוא.
     </div>
+    ${wdBlock(c, d)}
     <textarea id="note" placeholder="הערה (לא חובה)">${d.note || ''}</textarea>
     <div class="savebar">
       <button id="save">שמור והמשך</button>
@@ -210,7 +392,13 @@ function actionBar(c) {
   </div>`;
 }
 
-let pendingAct = null;
+let pendingAct = null, pendingWd = null;
+
+function currentWd() {
+  const custom = document.getElementById('wdCustom');
+  if (custom && custom.value.trim()) return custom.value.trim();
+  return pendingWd || '';
+}
 
 async function saveDecision(c, decision) {
   const body = {
@@ -218,19 +406,38 @@ async function saveDecision(c, decision) {
     decision,
     suggestedNewName: decision === 'rename-suggestion' ? document.getElementById('sugNew').value.trim() : '',
     suggestedExistingName: decision === 'rename-suggestion' ? document.getElementById('sugExisting').value.trim() : '',
+    manualLat: decision === 'manual-coords' ? document.getElementById('manLat').value.trim() : '',
+    manualLon: decision === 'manual-coords' ? document.getElementById('manLon').value.trim() : '',
+    correctWd: currentWd(),
+    forGili: !!((c.decision || {}).forGili),
     note: document.getElementById('note').value.trim(),
   };
+  if (body.correctWd && !/^Q\d+$/.test(body.correctWd)) {
+    document.getElementById('savedMsg').textContent = 'מזהה ויקינתונים לא תקין (צורה: Q12345)';
+    return false;
+  }
+  if (decision === 'manual-coords') {
+    const la = parseFloat(body.manualLat), lo = parseFloat(body.manualLon);
+    if (!(la >= -90 && la <= 90) || !(lo >= -180 && lo <= 180)) {
+      document.getElementById('savedMsg').textContent = 'קואורדינטות לא תקינות (רוחב ±90, אורך ±180)';
+      return false;
+    }
+  }
   const r = await fetch('/api/decision', { method: 'POST',
     headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) });
   const res = await r.json();
   c.decision = res.decision;
   const row = cases.find(x => x.recordId === c.recordId);
   if (row) row.decision = decision;
+  return true;
 }
 
 async function render() {
   const main = document.getElementById('main');
-  document.getElementById('pos').textContent = cases.length ? `${idx + 1} / ${cases.length}` : '0 / 0';
+  const jumpEl = document.getElementById('jump');
+  if (document.activeElement !== jumpEl) jumpEl.value = cases.length ? idx + 1 : 0;
+  jumpEl.max = cases.length;
+  document.getElementById('total').textContent = `/ ${cases.length}`;
   document.getElementById('prev').disabled = idx <= 0;
   document.getElementById('next').disabled = idx >= cases.length - 1;
   if (!cases.length) { main.innerHTML = '<div class="empty">אין מקרים בקטגוריה זו</div>'; return; }
@@ -243,6 +450,11 @@ async function render() {
   const n = c.newCard || {}, k = c.kimaCard;
   const p = n.primary || {};
 
+  // Wikidata comparison across the two cards
+  const wdNew = ((n.ids || {}).wikidata || '').trim();
+  const wdKima = k ? String(k.WD || '').trim() : '';
+  const wdMis = !!(wdNew && wdKima && wdNew !== wdKima);
+
   // conflict detection: the failing variant from the error key, plus in-record
   // near-duplicates that collide under the DB's case/accent-insensitive index
   const foldConf = c.conflictVariant ? fold(c.conflictVariant) : null;
@@ -251,13 +463,39 @@ async function render() {
   const newConflict = v => { const f = fold(v); return (foldConf && f === foldConf) || newFolds[f] > 1; };
   const kimaConflict = v => foldConf && fold(v) === foldConf;
 
-  let metaBadges = `<span class="badge cat">${CAT_LABELS[c.category] || c.category}</span>
+  // a different NLI id owning the heading in Kima is the alarming case — red
+  const catCls = c.category === 'dup-places-diff' ? 'badge cat catbad' : 'badge cat';
+  let metaBadges = `<span class="${catCls}">${CAT_LABELS[c.category] || c.category}</span>
     <span class="badge">${c.period}</span>
     <span class="badge">${c.isNew ? 'רשומה חדשה' : 'עדכון רשומה'}</span>`;
   if (c.distanceKm != null) metaBadges += `<span class="badge dist">מרחק: ${c.distanceKm} ק״מ</span>`;
+  if (c.stale) metaBadges += `<span class="badge stale" title="הרשומה אינה מופיעה בדוח הריצה הנוכחית; שוחזרה מ־${c.sourceFile || 'backup/'}">↺ לא בריצה הנוכחית</span>`;
+  if (c.blockingMazal) metaBadges += `<span class="badge stale">חוסם: <a href="https://www.nli.org.il/he/authorities/${c.blockingMazal}" target="_blank" dir="ltr">${c.blockingMazal}</a></span>`;
+  if (c.category === 'dup-places-diff' && c.kimaMazal)
+    metaBadges += `<span class="badge warn">מזהה NLI בכימה: <a href="https://www.nli.org.il/he/authorities/${c.kimaMazal}" target="_blank" dir="ltr">${c.kimaMazal}</a></span>`;
+  if (c.category === 'dup-places-same')
+    metaBadges += `<span class="badge done">אותו מזהה NLI בכימה</span>`;
+  if (wdMis) metaBadges += `<span class="badge warn">מזהי WD שונים</span>`;
   if (c.kimaSource === 'unresolved') metaBadges += `<span class="badge warn">לא אותר בכימה</span>`;
-  if (c.decision) metaBadges += `<span class="badge done">${ACT_LABELS[c.decision.decision] || c.decision.decision}</span>`;
+  if (c.decision && c.decision.decision) metaBadges += `<span class="badge done">${ACT_LABELS[c.decision.decision] || c.decision.decision}</span>`;
+  metaBadges += `<span class="badge warn" id="giliBadge"${(c.decision && c.decision.forGili) ? '' : ' hidden'}>🚩 לגילי</span>`;
   if (c.manualAction) metaBadges += `<span class="badge">טופל: ${c.manualAction.action}</span>`;
+  {
+    const dec = (c.decision || {}).decision;
+    const flagged = !!(c.decision || {}).forGili;
+    const rr = (c.category === 'location-move' || c.category === 'multi-034') ? `
+      <button class="qt-region ${dec === 'region' ? 'sel' : ''}" data-qt="region" title="תיוג כאזור ומעבר למקרה הבא">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M2.5 19 L9 6.5 L12.6 13 L15.5 8.5 L21.5 19 Z"/><circle cx="17.5" cy="5.5" r="1.7"/></svg>
+        אזור</button>
+      <button class="qt-river ${dec === 'river' ? 'sel' : ''}" data-qt="river" title="תיוג כנהר ומעבר למקרה הבא">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M3 7.5c3-2.8 6 2.8 9 0s6 2.8 9 0"/><path d="M3 13c3-2.8 6 2.8 9 0s6 2.8 9 0"/><path d="M3 18.5c3-2.8 6 2.8 9 0s6 2.8 9 0"/></svg>
+        נהר</button>` : '';
+    metaBadges += `<span class="quicktags">${rr}
+      <button class="qt-flag ${flagged ? 'sel' : ''}" id="flagGili" title="סימון לתשומת ליבו של גילי — נשמר מיד">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M5 3 L5 21 M5 3 h11 l-2.5 4 L16 11 H5" stroke="currentColor" stroke-width="2" fill="none" stroke-linejoin="round"/></svg>
+        לגילי</button>
+    </span>`;
+  }
 
   const newCard = `
     <article class="card new">
@@ -267,11 +505,12 @@ async function render() {
       ${p.ara ? `<div class="secondary" dir="rtl">${p.ara}</div>` : ''}
       <dl>
         ${idLink('NLI', c.nliUrlNew, c.recordId)}
-        ${idLink('Wikidata', 'https://www.wikidata.org/wiki/' + (n.ids?.wikidata || ''), n.ids?.wikidata)}
+        ${idLink('Wikidata', 'https://www.wikidata.org/wiki/' + wdNew, wdNew, wdMis ? 'wdbad' : '')}
         ${idLink('VIAF', 'https://viaf.org/viaf/' + (n.ids?.viaf || ''), n.ids?.viaf)}
         ${idLink('LCCN', 'https://lccn.loc.gov/' + (n.ids?.lccn || '').replace(/\s+/g, ''), n.ids?.lccn)}
         ${field('Aleph', n.ids?.aleph, 'ltr')}
         ${n.coords ? idLink('קואורד׳', osm(n.coords), coordStr(n.coords)) : ''}
+        ${(n.coordsList || []).length > 1 ? (n.coordsList.slice(1).map(cc => idLink('קואורד׳ (034 נוסף' + (cc.source ? ', ' + cc.source : '') + ')', osm(cc.center), coordStr(cc.center))).join('')) : ''}
         ${field('ראו גם', (n.seealso || []).join(' · '))}
       </dl>
       ${(n.variants || []).length ? `<div class="variants">
@@ -292,7 +531,7 @@ async function render() {
       ${k.primary_arab_full ? `<div class="secondary" dir="rtl">${k.primary_arab_full}</div>` : ''}
       <dl>
         ${idLink('NLI', c.nliUrlExisting, k.MAZAL_ID)}
-        ${idLink('Wikidata', 'https://www.wikidata.org/wiki/' + (k.WD || '').trim(), (k.WD || '').trim())}
+        ${idLink('Wikidata', 'https://www.wikidata.org/wiki/' + wdKima, wdKima, wdMis ? 'wdbad' : '')}
         ${idLink('VIAF', 'https://viaf.org/viaf/' + String(k.VIAF_ID || '').trim(), String(k.VIAF_ID || '').trim())}
         ${idLink('GeoNames', 'https://www.geonames.org/' + String(k.Geoname_ID || '').trim(), String(k.Geoname_ID || '').trim())}
         ${field('NAF', String(k.NAF_ID || '').trim(), 'ltr')}
@@ -316,26 +555,75 @@ async function render() {
 
   const hasMap = (n.coords) || (k && k.lat != null);
   main.innerHTML = `<div class="meta">${metaBadges}</div>
-    ${hasMap ? '<div id="map"></div><div class="maplegend">NLI נכנס<span class="dotnew"></span> · כימה כעת<span class="dotkima"></span></div>' : ''}
+    ${hasMap ? '<div id="map"></div><div class="maplegend">NLI נכנס<span class="dotnew"></span> · כימה כעת<span class="dotkima"></span>' +
+      (c.category === 'location-move' ? ' · לחיצה על המפה מציבה סיכת מיקום ידני 📍' : '') + '</div>' : ''}
     <div class="pair">${newCard}${kimaCard}</div>
+    ${researchPanel(c)}
     ${actionBar(c)}
     <div class="msg">${c.messages.map(m => m.replace(/</g, '&lt;')).join('<br>')}</div>`;
 
-  if (hasMap) renderMap(n.coords || null, (k && k.lat != null) ? [k.lat, k.lon] : null);
+  const savedManual = (c.decision && c.decision.manualLat && c.decision.manualLon)
+    ? [parseFloat(c.decision.manualLat), parseFloat(c.decision.manualLon)] : null;
+  if (hasMap) renderMap(n.coords || null, (k && k.lat != null) ? [k.lat, k.lon] : null,
+    { manual: savedManual, enablePin: c.category === 'location-move' });
+
+  // "for Gili" flag: toggles and saves immediately, stays on the case
+  const flagBtn = document.getElementById('flagGili');
+  if (flagBtn) flagBtn.onclick = async () => {
+    const d = c.decision || {};
+    const body = { recordId: c.recordId, decision: d.decision || '',
+      suggestedNewName: d.suggestedNewName || '', suggestedExistingName: d.suggestedExistingName || '',
+      manualLat: d.manualLat || '', manualLon: d.manualLon || '', correctWd: d.correctWd || '',
+      note: d.note || '', forGili: !d.forGili };
+    const r = await fetch('/api/decision', { method: 'POST',
+      headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) });
+    c.decision = (await r.json()).decision;
+    const on = !!(c.decision || {}).forGili;
+    const row = cases.find(x => x.recordId === c.recordId);
+    if (row) row.forGili = on;
+    // update in place — a full render() would rebuild the card and reset scroll,
+    // and unlike אזור/נהר this tag must not move off the current case
+    flagBtn.classList.toggle('sel', on);
+    const badge = document.getElementById('giliBadge');
+    if (badge) badge.hidden = !on;
+    renderFlagFilter();
+  };
+
+  // quick-tag buttons: save and advance in one click
+  main.querySelectorAll('.quicktags button[data-qt]').forEach(b => b.onclick = async () => {
+    const ok = await saveDecision(c, b.dataset.qt);
+    if (ok === false) return;
+    if (idx < cases.length - 1) { idx++; render(); } else render();
+  });
 
   // wire actions
   pendingAct = (c.decision || {}).decision || null;
+  pendingWd = (c.decision || {}).correctWd || null;
+  main.querySelectorAll('.wdchoice .wdopt').forEach(b => b.onclick = () => {
+    const already = b.classList.contains('sel');
+    main.querySelectorAll('.wdchoice .wdopt').forEach(x => x.classList.remove('sel'));
+    pendingWd = already ? null : b.dataset.wd;
+    if (!already) b.classList.add('sel');
+    const custom = document.getElementById('wdCustom');
+    if (custom && !already) custom.value = '';
+  });
   const btns = main.querySelectorAll('.actbtns button');
   btns.forEach(b => b.onclick = () => {
     if (b.disabled) return;
     pendingAct = b.dataset.act;
     btns.forEach(x => x.classList.toggle('sel', x === b));
-    document.getElementById('renameFields').hidden = pendingAct !== 'rename-suggestion';
-    document.getElementById('mergeInfo').hidden = pendingAct !== 'merge';
+    const toggle = (id, act) => {
+      const el = document.getElementById(id);
+      if (el) el.hidden = pendingAct !== act;
+    };
+    toggle('renameFields', 'rename-suggestion');
+    toggle('mergeInfo', 'merge');
+    toggle('coordFields', 'manual-coords');
   });
   document.getElementById('save').onclick = async () => {
     if (!pendingAct) { document.getElementById('savedMsg').textContent = 'בחר/י פעולה קודם'; return; }
-    await saveDecision(c, pendingAct);
+    const ok = await saveDecision(c, pendingAct);
+    if (ok === false) return;
     if (idx < cases.length - 1) { idx++; render(); } else render();
   };
   document.getElementById('clearDec').onclick = async () => {
@@ -344,8 +632,43 @@ async function render() {
   };
 }
 
+document.getElementById('firstUndecided').onclick = () => {
+  const i = cases.findIndex(x => !x.decision);
+  if (i === -1) {
+    document.getElementById('total').textContent = `/ ${cases.length} ✔ הכול הוחלט`;
+  } else { idx = i; render(); }
+};
+{
+  const cb = document.getElementById('onlyCurrentCb');
+  cb.checked = onlyCurrent;
+  cb.onchange = () => {
+    onlyCurrent = cb.checked;
+    localStorage.setItem('onlyCurrent', onlyCurrent ? '1' : '0');
+    idx = 0; loadList();
+  };
+}
+{
+  const cb = document.getElementById('onlyFlaggedCb');
+  cb.checked = onlyFlagged;
+  cb.onchange = () => {
+    onlyFlagged = cb.checked;
+    localStorage.setItem('onlyFlagged', onlyFlagged ? '1' : '0');
+    idx = 0; applyFilters();
+  };
+}
 document.getElementById('prev').onclick = () => { if (idx > 0) { idx--; render(); } };
 document.getElementById('next').onclick = () => { if (idx < cases.length - 1) { idx++; render(); } };
+document.getElementById('jump').addEventListener('change', e => {
+  const n = parseInt(e.target.value, 10);
+  if (!isNaN(n) && cases.length) {
+    idx = Math.min(Math.max(n, 1), cases.length) - 1;
+    e.target.blur(); render();
+  }
+});
+document.getElementById('jump').addEventListener('keydown', e => {
+  if (e.key === 'Enter') e.target.dispatchEvent(new Event('change'));
+  e.stopPropagation();
+});
 document.addEventListener('keydown', e => {
   if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
   if (e.key === 'ArrowRight') document.getElementById('prev').click();

@@ -18,7 +18,7 @@ import time
 import unicodedata
 import urllib.request
 import urllib.parse
-from http.server import HTTPServer, BaseHTTPRequestHandler
+from http.server import ThreadingHTTPServer, BaseHTTPRequestHandler
 
 APP_DIR = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(APP_DIR)
@@ -54,14 +54,37 @@ def categorize(msg):
 
 DUP_KEY_RE = re.compile(r"duplicate key value is \((.*?)\)\.\s*(?:\n|The statement|$)", re.S)
 
+# the two review sub-classes of "NLI announced an id whose MARC it won't serve",
+# both of which the runner reports as present in Kima (see Data.GONE_IN_KIMA)
+NLI_GONE = ('nli-gone-suggest-delete', 'nli-gone-possibly')
+
 
 # ---------------------------------------------------------------- MARC parse
+
+PACKED_COORD = re.compile(r'^([NSEW])(\d{3})(\d{2})(\d{2}(?:\.\d+)?)$')
+
+
+def parse_coord(v):
+    """034 subfield value: decimal degrees or packed hdddmmss (e.g. E0120000)."""
+    if not v:
+        return None
+    v = v.strip()
+    try:
+        return float(v)
+    except ValueError:
+        pass
+    m = PACKED_COORD.match(v)
+    if m:
+        sign = -1 if m.group(1) in 'SW' else 1
+        return sign * (int(m.group(2)) + int(m.group(3)) / 60 + float(m.group(4)) / 3600)
+    return None
+
 
 def parse_marc(xml):
     """Extract naming info, external ids, coordinates and notes from MARC XML."""
     xml = nfc(xml)
     rec = {'primary': {}, 'variants': [], 'seealso': [], 'ids': {}, 'notes': [],
-           'sources': [], 'coords': None, 'bbox': None}
+           'sources': [], 'coords': None, 'bbox': None, 'coordsList': []}
     for m in re.finditer(r'<datafield[^>]*tag="(\d+)"[^>]*>(.*?)</datafield>', xml, re.S):
         tag, body = m.group(1), m.group(2)
         pairs = re.findall(r'code="(\w)">([^<]*)<', body)
@@ -85,13 +108,15 @@ def parse_marc(xml):
         elif tag == '035' and a:
             rec['ids'].setdefault('aleph', a)
         elif tag == '034':
-            try:
-                d = float(subs['d']); e = float(subs['e'])
-                f = float(subs['f']); g = float(subs['g'])
-                rec['coords'] = [round((f + g) / 2, 5), round((d + e) / 2, 5)]
-                rec['bbox'] = [g, d, f, e]
-            except (KeyError, ValueError):
-                pass
+            d = parse_coord(subs.get('d')); e = parse_coord(subs.get('e'))
+            f = parse_coord(subs.get('f')); g = parse_coord(subs.get('g'))
+            if None not in (d, e, f, g):
+                center = [round((f + g) / 2, 5), round((d + e) / 2, 5)]
+                rec['coordsList'].append({'center': center,
+                                          'source': subs.get('2', '')})
+                if rec['coords'] is None:
+                    rec['coords'] = center
+                    rec['bbox'] = [g, d, f, e]
         elif tag == '667' and a:
             rec['notes'].append(a)
         elif tag == '670':
@@ -113,13 +138,65 @@ class Data:
         self.dump_by_mazal = {}
         self.kima_cache = {}     # heading/id keys -> kima place json or None
         self.decisions = {}
+        self.seen = set()        # recordIds already turned into a case
         os.makedirs(CACHE_DIR, exist_ok=True)
+        self._load_decisions()
         self._load_failures()
+        self._load_reviews()
+        self._load_orphans()
         self._load_marc()
         self._load_dump()
         self._load_history()
         self._load_kima_cache()
-        self._load_decisions()
+        self._classify_multi_034()
+        self._classify_dup_places()
+
+    # -- dup-places: does Kima's owner of the heading carry the same NLI id? --
+    def _classify_dup_places(self):
+        """Split place-name collisions by whether Kima already points at this
+        very record (same MAZAL_ID) or at a different NLI authority."""
+        n = {'same': 0, 'diff': 0, 'unresolved': 0}
+        for case in self.cases:
+            if case['category'] != 'dup-places' or not case['dupKey']:
+                continue
+            # for dup-places the failure key *is* the heading (see case_heading)
+            place = (self.kima_by_heading(case['dupKey']) or {}).get('place') or {}
+            mazal = str(place.get('MAZAL_ID') or '').strip()
+            if not mazal:
+                n['unresolved'] += 1      # no owner resolved — leave as-is
+                continue
+            case['kimaMazal'] = mazal
+            if mazal == case['recordId']:
+                case['category'] = 'dup-places-same'
+                n['same'] += 1
+            else:
+                case['category'] = 'dup-places-diff'
+                n['diff'] += 1
+        if any(n.values()):
+            print('dup-places split: same NLI id %d, different NLI id %d, '
+                  'unresolved %d' % (n['same'], n['diff'], n['unresolved']))
+
+    # -- multi-034: two coordinate sources in the record, one matching Kima --
+    def _classify_multi_034(self):
+        n = 0
+        for case in self.cases:
+            if case['category'] != 'location-move':
+                continue
+            marc = self.marc.get(case['recordId'])
+            if not marc or len(marc.get('coordsList') or []) < 2:
+                continue
+            centers = {tuple(c['center']) for c in marc['coordsList']}
+            if len(centers) < 2:
+                continue
+            place = self.kima_place_by_id(case['kimaId'])
+            if not place or place.get('lat') is None:
+                continue
+            kc = (place['lat'], place['lon'])
+            if min(haversine(c, kc) for c in centers) <= 1.0:
+                case['category'] = 'multi-034'
+                n += 1
+        if n:
+            print('multi-034 cases separated from location-move: %d' % n)
 
     # -- decisions ---------------------------------------------------------
     def _load_decisions(self):
@@ -128,11 +205,15 @@ class Data:
             self.decisions = json.load(open(path))
 
     def save_decision(self, rid, payload):
-        if payload.get('decision'):
+        if payload.get('decision') or payload.get('forGili'):
             self.decisions[rid] = {
-                'decision': payload['decision'],
+                'decision': payload.get('decision') or '',
+                'forGili': bool(payload.get('forGili')),
                 'suggestedNewName': payload.get('suggestedNewName', ''),
                 'suggestedExistingName': payload.get('suggestedExistingName', ''),
+                'manualLat': payload.get('manualLat', ''),
+                'manualLon': payload.get('manualLon', ''),
+                'correctWd': payload.get('correctWd', ''),
                 'note': payload.get('note', ''),
                 'timestampUtc': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()),
             }
@@ -143,8 +224,17 @@ class Data:
 
     # -- failures ----------------------------------------------------------
     def _load_failures(self):
-        for f in sorted(glob.glob(os.path.join(REPO, 'failures-combined_*.json'))):
-            for row in json.load(open(f)):
+        """Failure rows from the current report set.
+
+        A re-run overwrites these files, so a row that stopped failing (or
+        moved to the manual-review track) silently disappears. Decisions made
+        against such a row resurface via _load_orphans.
+        """
+        for path in sorted(glob.glob(os.path.join(REPO, 'failures-combined_*.json'))):
+            for row in json.load(open(path)):
+                if row['recordId'] in self.seen:
+                    continue
+                self.seen.add(row['recordId'])
                 msg = nfc(' | '.join(row['messages']))
                 cat = categorize(msg)
                 dk = DUP_KEY_RE.search(msg)
@@ -158,22 +248,124 @@ class Data:
                     'dupKey': key,
                     'messages': [nfc(m) for m in row['messages']],
                     'manualAction': row.get('manualAction'),
-                    'sourceFile': os.path.basename(f),
+                    'sourceFile': os.path.basename(path),
+                    'stale': False,
                 })
 
+    # -- manual-review rows -------------------------------------------------
+    LOC_RE = re.compile(r'Location supposed to move ([\d.]+) km.*?Kima Id:(\d+) Name:(.*)')
+    # heading collision surfaced as a review row rather than a duplicate-key
+    # failure: the incoming record wants a Kima place another NLI id still owns
+    REPOINT_RE = re.compile(
+        r'would repoint onto Kima Id (\d+) \(currently MAZAL_ID (\d+)\)')
+    # NLI's weekly feed announced this id, but NLI's own MARC endpoint 404s for
+    # it. Unlike the 'missing-marc' failures, Kima *does* hold the record — the
+    # runner says so explicitly — so these are review rows, not failures. Two
+    # wordings, and the runner means different things by them.
+    GONE_IN_KIMA = 'although it is in the Kima database'
+    GONE_SUGGEST_DELETE = 'no longer exists in NLI'
+
+    def _load_reviews(self):
+        for path in sorted(glob.glob(os.path.join(REPO, 'manual-review-combined_*.json'))):
+            for row in json.load(open(path)):
+                if row['recordId'] in self.seen:
+                    continue
+                msgs = [nfc(m) for m in row['messages']]
+                case = None
+                for x in msgs:
+                    m = self.LOC_RE.search(x)
+                    if m:
+                        case = {'category': 'location-move',
+                                'kimaId': int(m.group(2)),
+                                'movedKm': float(m.group(1)),
+                                'kimaName': nfc(m.group(3).strip())}
+                        break
+                    m = self.REPOINT_RE.search(x)
+                    if m:
+                        case = {'category': 'repoint-blocked',
+                                'kimaId': int(m.group(1)),
+                                'blockingMazal': m.group(2)}
+                        break
+                    if self.GONE_IN_KIMA in x:
+                        case = {'category': 'nli-gone-suggest-delete'
+                                            if self.GONE_SUGGEST_DELETE in x
+                                            else 'nli-gone-possibly'}
+                        break
+                if case is None:
+                    continue
+                self.seen.add(row['recordId'])
+                self.cases.append({
+                    'recordId': row['recordId'],
+                    'period': row['period'],
+                    'track': row['track'],
+                    'isNew': False,
+                    'dupKey': None,
+                    'movedKm': None,
+                    'kimaName': None,
+                    'messages': msgs,
+                    'manualAction': row.get('manualAction'),
+                    'sourceFile': os.path.basename(path),
+                    'stale': False,
+                    **case,
+                })
+
+    # -- decided records that no longer appear in any report ----------------
+    def _load_orphans(self):
+        for rid in self.decisions:
+            if rid in self.seen:
+                continue
+            self.seen.add(rid)
+            self.cases.append({
+                'recordId': rid,
+                'period': '—',
+                'track': 'Place',
+                'category': 'orphan-decision',
+                'isNew': False,
+                'dupKey': None,
+                'messages': ['ההחלטה נשמרה בריצה קודמת; הרשומה אינה מופיעה '
+                             'עוד באף דוח (לא בכשלים ולא בסקירה הידנית).'],
+                'manualAction': None,
+                'sourceFile': 'decisions.json',
+                'stale': True,
+            })
+
     # -- weekly MARC -------------------------------------------------------
+    SECTIONS = ('failedItems', 'requireReviewItems', 'newSummary', 'modifiedSummary')
+
     def _load_marc(self):
         wanted = {c['recordId'] for c in self.cases}
-        periods = {c['period'] for c in self.cases}
-        for period in sorted(periods):
+        by_id = {c['recordId']: c for c in self.cases}
+        for period in sorted({c['period'] for c in self.cases}):
             path = os.path.join(REPO, 'places_%s.json' % period)
             if not os.path.exists(path):
                 continue
             d = json.load(open(path))
-            for it in d.get('failedItems') or []:
-                rid = it['item']['recordId']
-                if rid in wanted and rid not in self.marc:
-                    self.marc[rid] = parse_marc(it.get('marcXml') or '')
+            for sect in ('failedItems', 'requireReviewItems'):
+                for it in d.get(sect) or []:
+                    rid = it['item']['recordId']
+                    if rid in wanted and rid not in self.marc and it.get('marcXml'):
+                        # no marcXml at all → leave unset, so the card reads
+                        # "missing" rather than rendering an empty record
+                        self.marc[rid] = parse_marc(it['marcXml'])
+        # records whose period is unknown (orphaned decisions) or whose weekly
+        # file no longer carries them: sweep every weekly file, all sections
+        missing = wanted - set(self.marc)
+        if not missing:
+            return
+        for path in sorted(glob.glob(os.path.join(REPO, 'places_*.json'))):
+            if not missing:
+                return
+            period = os.path.basename(path)[len('places_'):-len('.json')]
+            d = json.load(open(path))
+            for sect in self.SECTIONS:
+                for it in d.get(sect) or []:
+                    rid = it['item']['recordId']
+                    if rid in missing:
+                        if it.get('marcXml'):
+                            self.marc[rid] = parse_marc(it['marcXml'])
+                        missing.discard(rid)
+                        if by_id[rid]['period'] == '—':
+                            by_id[rid]['period'] = period
 
     # -- Kima local dump ---------------------------------------------------
     def _load_dump(self):
@@ -319,7 +511,7 @@ DATA = Data()
 def case_heading(case):
     """The Hebrew heading whose Kima owner should appear on the 'kima now' card."""
     marc = DATA.marc.get(case['recordId'], {})
-    if case['category'] == 'dup-places' and case['dupKey']:
+    if case['category'].startswith('dup-places') and case['dupKey']:
         return case['dupKey']
     # variants key = "<heading>, <variant>"; prefer the record's own heb 151
     heb = (marc.get('primary') or {}).get('heb')
@@ -335,13 +527,26 @@ def build_case(case):
     marc = DATA.marc.get(rid)
     heading = case_heading(case)
     kima = None
-    if case['category'] == 'missing-marc':
-        if rid in DATA.dump_by_mazal:
-            row = DATA.dump_by_mazal[rid]
-            kima = {'source': 'local-dump (by NLI id)',
-                    'place': DATA.kima_place_by_id(row['id']) or None}
-        else:
-            kima = {'source': 'not found in Kima by NLI id', 'place': None}
+    if case['category'] in ('location-move', 'repoint-blocked'):
+        kima = {'source': 'kima-api (by Kima Id %d)' % case['kimaId'],
+                'place': DATA.kima_place_by_id(case['kimaId'])}
+        if kima['place'] is None and heading:
+            kima = DATA.kima_by_heading(heading)
+    elif rid in DATA.dump_by_mazal and case['category'] in (
+            ('missing-marc', 'orphan-decision') + NLI_GONE):
+        row = DATA.dump_by_mazal[rid]
+        kima = {'source': 'local-dump (by NLI id)',
+                'place': DATA.kima_place_by_id(row['id']) or None}
+    elif case['category'] in NLI_GONE:
+        # the runner resolved this against live Kima and found the record; the
+        # local dump is older than the report, so its silence proves nothing
+        kima = {'source': 'in Kima per the report; not in the local dump '
+                          '(dump predates this period)', 'place': None}
+    elif case['category'] == 'missing-marc':
+        # NLI serves no MARC for this id and Kima has no row under it either —
+        # the runner's own verdict, not a lookup that failed
+        kima = {'source': 'not in Kima either (runner: "Nothing to do")',
+                'place': None}
     elif heading:
         kima = DATA.kima_by_heading(heading)
     place = (kima or {}).get('place')
@@ -367,6 +572,13 @@ def build_case(case):
     return {
         **{k: case[k] for k in ('recordId', 'period', 'category', 'isNew',
                                 'dupKey', 'messages', 'manualAction')},
+        'kimaId': case.get('kimaId'),
+        'movedKm': case.get('movedKm'),
+        'kimaName': case.get('kimaName'),
+        'stale': case.get('stale', False),
+        'sourceFile': case.get('sourceFile'),
+        'blockingMazal': case.get('blockingMazal'),
+        'kimaMazal': case.get('kimaMazal'),
         'heading': heading,
         'newCard': marc,
         'kimaCard': place,
@@ -384,8 +596,9 @@ def build_case(case):
 
 
 def export_csv():
-    cols = ['decision', 'suggested_new_name', 'suggested_existing_name', 'note',
-            'decided_at', 'period', 'category',
+    cols = ['decision', 'for_gili', 'suggested_new_name', 'suggested_existing_name',
+            'manual_lat', 'manual_lon', 'correct_wd', 'note',
+            'decided_at', 'period', 'category', 'stale', 'source_file',
             'new_id', 'new_url', 'new_heb', 'new_rom', 'new_ara',
             'new_wikidata', 'new_viaf', 'new_lccn', 'new_lat_lon',
             'existing_id', 'existing_url', 'existing_heb', 'existing_rom', 'existing_ara',
@@ -396,17 +609,22 @@ def export_csv():
     w.writeheader()
     for case in DATA.cases:
         d = DATA.decisions.get(case['recordId'])
-        if not d or d['decision'] == 'skip':
+        if not d or (d['decision'] == 'skip' and not d.get('forGili')):
             continue
         c = build_case(case)
         n, k = c.get('newCard') or {}, c.get('kimaCard') or {}
         p, ids = n.get('primary') or {}, n.get('ids') or {}
         w.writerow({
             'decision': d['decision'],
+            'for_gili': 'yes' if d.get('forGili') else '',
             'suggested_new_name': d.get('suggestedNewName', ''),
             'suggested_existing_name': d.get('suggestedExistingName', ''),
+            'manual_lat': d.get('manualLat', ''), 'manual_lon': d.get('manualLon', ''),
+            'correct_wd': d.get('correctWd', ''),
             'note': d.get('note', ''), 'decided_at': d.get('timestampUtc', ''),
             'period': c['period'], 'category': c['category'],
+            'stale': 'yes' if c.get('stale') else '',
+            'source_file': c.get('sourceFile') or '',
             'new_id': c['recordId'], 'new_url': c['nliUrlNew'],
             'new_heb': p.get('heb', ''), 'new_rom': p.get('lat', ''), 'new_ara': p.get('ara', ''),
             'new_wikidata': ids.get('wikidata', ''), 'new_viaf': ids.get('viaf', ''),
@@ -445,14 +663,20 @@ class Handler(BaseHTTPRequestHandler):
         elif url.path == '/api/cases':
             qs = urllib.parse.parse_qs(url.query)
             cat = qs.get('category', ['all'])[0]
-            cases = [c for c in DATA.cases if cat in ('all', c['category'])]
+            pool = DATA.cases
+            if qs.get('current', [''])[0] == '1':
+                pool = [c for c in pool if not c.get('stale')]
+            cases = [c for c in pool if cat in ('all', c['category'])]
             self._send(200, {
                 'total': len(cases),
-                'categories': {k: sum(1 for c in DATA.cases if c['category'] == k)
-                               for k in sorted({c['category'] for c in DATA.cases})},
+                'staleTotal': sum(1 for c in DATA.cases if c.get('stale')),
+                'categories': {k: sum(1 for c in pool if c['category'] == k)
+                               for k in sorted({c['category'] for c in pool})},
                 'cases': [{**{k: c[k] for k in ('recordId', 'period', 'category',
                                                 'isNew', 'dupKey', 'manualAction')},
-                           'decision': (DATA.decisions.get(c['recordId']) or {}).get('decision')}
+                           'stale': c.get('stale', False),
+                           'decision': (DATA.decisions.get(c['recordId']) or {}).get('decision'),
+                           'forGili': (DATA.decisions.get(c['recordId']) or {}).get('forGili', False)}
                           for c in cases],
             })
         elif url.path.startswith('/api/case/'):
@@ -494,7 +718,12 @@ class Handler(BaseHTTPRequestHandler):
 
 
 if __name__ == '__main__':
-    print('cases: %d  (marc parsed: %d, dump rows: %d, history headings: %d)'
-          % (len(DATA.cases), len(DATA.marc), len(DATA.dump_by_heb), len(DATA.history)))
+    orphan = sum(1 for c in DATA.cases if c['category'] == 'orphan-decision')
+    print('cases: %d  (decided in an earlier run, no longer reported: %d)'
+          % (len(DATA.cases), orphan))
+    print('marc parsed: %d, dump rows: %d, history headings: %d'
+          % (len(DATA.marc), len(DATA.dump_by_heb), len(DATA.history)))
     print('serving on http://localhost:%d' % PORT)
-    HTTPServer(('127.0.0.1', PORT), Handler).serve_forever()
+    # threading: a browser keeps idle/preconnect sockets open, and a
+    # single-threaded server blocks on them instead of serving real requests
+    ThreadingHTTPServer(('127.0.0.1', PORT), Handler).serve_forever()
