@@ -58,6 +58,142 @@ DUP_KEY_RE = re.compile(r"duplicate key value is \((.*?)\)\.\s*(?:\n|The stateme
 # both of which the runner reports as present in Kima (see Data.GONE_IN_KIMA)
 NLI_GONE = ('nli-gone-suggest-delete', 'nli-gone-possibly')
 
+# Alma OAI-PMH — the reliable MARC source (IIIF has coverage gaps, issue #9)
+OAI = ('https://nli.alma.exlibrisgroup.com/view/oai/972NNL_INST/request'
+       '?verb=GetRecord&metadataPrefix=marc21&identifier=oai:alma.972NNL_INST:%s')
+UA = ('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 '
+      '(KHTML, like Gecko) Chrome/124.0 Safari/537.36')
+
+# ---------------------------------------------------------------- tasks
+# One row per line of issue-categories.md. `buttons` are decision keys the
+# UI offers; `bulk` is the proposal applied by the queue's "apply to all"
+# button (None = judgment only); `bulkConf` restricts bulk to that confidence.
+TASKS = {
+  'A2': dict(group='א', title='סחיפת כותרת — התנגשות עצמית', buttons=['update-kima-heading', 'research', 'skip'],
+             bulk='update-kima-heading', bulkConf=None,
+             desc='כימה כבר מחזיקה את המזהה; רק איות הכותרת העברית השתנה ב־NLI. אין רשומה שנייה. מכני: לאמץ את כותרת NLI ולשמור את הישנה כווריאנט.',
+             gil='#5 — עדכון כותרת הוא עדכון, לא כפילות.', nli=''),
+  'A3': dict(group='א', title='מזהה שהוסתר ב־NLI (successor)', buttons=['merge', 'research', 'skip'],
+             bulk=None, bulkConf=None, oai=True,
+             desc='NLI מיזגה/הסתירה את הרשומה (IIIF מחזיר 500); הרשומה הנכנסת היא היורשת. לאשר ב־OAI ואז להפנות את מקום כימה למזהה הנכנס, לשמור שמות ישנים כווריאנטים.',
+             gil='#3 — מצבי live/absent/suppressed; חיפוש יורש.', nli='A1 — ערוץ מחיקות/מיזוגים; סטטוס נקי במקום HTTP 500.'),
+  'A4': dict(group='א', title='דרגה מנהלית — כבר מובחן בכימה', buttons=['rename-kima-heading', 'keep-kima-heading', 'research', 'skip'],
+             bulk=None, bulkConf=None,
+             desc='NLI מכווצת 45 דרגות לטינית ל־מחוז/פרובינציה; כימה כבר יצרה כותרת מובחנת, אבל הרצה מדווחת כפילות כל שבוע. לנרמל את כותרת כימה לטבלת הדרגות (מחוז / נפה / עיר-נפה / פלך / מחוז ממשל).',
+             gil='כלל: הבדל רק במבחין "( : דרגה)" → לשמור כותרת כימה, NLI כווריאנט, בלי דיווח.', nli='A2 — ייחודיות גם לכותרת העברית; אוצר מילים קבוע לדרגות.'),
+  'A5': dict(group='א', title='זוג דרגות — צד אחד חסר בכימה', buttons=['create-place', 'research', 'skip'],
+             bulk=None, bulkConf=None,
+             desc='רק רשומה אחת מהזוג בכימה; לרשומה הנכנסת דרוש מקום חדש עם כותרת מדורגת.', gil='', nli='A2'),
+  'A6': dict(group='א', title='הבחנה מדומה בכימה', buttons=['rename-kima-heading', 'research', 'skip'],
+             bulk=None, bulkConf=None,
+             desc='שתי כותרות כימה נבדלות רק באיות/פיסוק (ויימאר/וימאר; פסיק/נקודתיים). לתת לשתיהן מבחין דרגה אמיתי.', gil='', nli='A2'),
+  'A8': dict(group='א', title='הומוגרפים אמיתיים בעברית', buttons=['rename-suggestion', 'data-problem', 'merge', 'nli-duplicate', 'research', 'skip'],
+             bulk=None, bulkConf=None,
+             desc='מקומות שונים שהתעתיק העברי שלהם זהה (קבה/קאבה, לובין/לובן). להציע ל־NLI הבחנה עברית; טרבזון היא שגיאת NLI של ממש.', gil='', nli='A2 (סוג שני) / A3 עבור טרבזון'),
+  'A10': dict(group='א', title='כפילות פנימית ב־NLI (אותו QID)', buttons=['nli-duplicate', 'keep-both', 'research', 'skip'],
+             bulk=None, bulkConf=None,
+             desc='שתי רשויות NLI עם אותו מזהה ויקינתונים (אלבאיסין, המושבה היוונית, דוברי׳ץ/טולבוחין). לדווח כ"כפילות אפשרית"; כימה שומרת מזהה אחד.', gil='', nli='A3 — רשימת שגיאות'),
+  'A11': dict(group='א', title='התנגשות שלא אותרה', buttons=['update-kima-heading', 'merge', 'rename-kima-heading', 'research', 'skip'],
+             bulk=None, bulkConf=None,
+             desc='אף מקום כימה לא מחזיק בכותרת או במזהה — כנראה בן הזוג נמצא תחת צורה עברית אחרת. חיפוש ידני בכימה.', gil='#6 — לדווח את שני הצדדים.', nli=''),
+  'A13': dict(group='א', title='הפניה נחסמה — MAZAL_ID אחר', buttons=['merge', 'nli-duplicate', 'research', 'skip'],
+             bulk=None, bulkConf=None,
+             desc='הרשומה הנכנסת רוצה מקום כימה שמזהה NLI אחר כבר מחזיק. להכריע למי המקום; האחר עשוי להיות כפילות ב־NLI.', gil='#6', nli=''),
+  'A0': dict(group='א', title='כפילות — לא סווג', buttons=['nli-duplicate', 'rename-suggestion', 'merge', 'update-kima-heading', 'data-problem', 'research', 'skip'],
+             bulk=None, bulkConf=None, desc='מקרה כפילות ללא סיווג אוטומטי.', gil='', nli=''),
+  'B0': dict(group='ב', title='הזזת מיקום — לא סווג', buttons=['apply-new', 'keep-existing', 'neither', 'manual-coords', 'tier-case', 'research', 'skip'],
+             bulk=None, bulkConf=None, desc='הזזת מיקום ללא שורה ב־move-analysis.', gil='', nli=''),
+  'B2': dict(group='ב', title='ישות מורחבת (נהר / אזור)', buttons=['apply-new', 'keep-existing', 'neither', 'manual-coords', 'research', 'skip'],
+             bulk='apply-new', bulkConf=None,
+             desc='שתי נקודות לגיטימיות לישות בעלת שטח; נקודת NLI בתוך היקף הישות בוויקינתונים או בתוך התיבה של NLI עצמה. הוחלט 2026-08-22: לקחת את NLI. לעיין רק בבינוני/נמוך.',
+             gil='אפשר לדכא הזזה כשה־034 הוא תיבה ונקודת כימה בתוכה.', nli=''),
+  'B3': dict(group='ב', title='קואורדינטות NLI שגויות', buttons=['keep-existing', 'apply-new', 'manual-coords', 'research', 'skip'],
+             bulk='keep-existing', bulkConf='high',
+             desc='ויקינתונים מסכימה עם כימה; נקודת NLI לבדה (לעתים NLI בחרה הומונים שגוי — Phoenicia NY, Kassel). לשמור כימה ולדווח. ה־46 הבינוניים — לעיון לפני הדיווח.',
+             gil='', nli='A3 — רשימת מזהים עם נקודת NLI, נקודת ויקינתונים ומרחק.'),
+  'B4': dict(group='ב', title='034 — אפס מוביל שנשמט', buttons=['keep-existing', 'apply-new', 'research', 'skip'],
+             bulk='keep-existing', bulkConf=None,
+             desc='תיבות gooearth שבהן שבר של תת-שדה אחד קצר בספרה; החזרת ה־0 מחזירה את המרכז לכימה. באג נתונים של NLI, תיקון מכני (עמודת fix034).',
+             gil='הגלאי ב־classify_moves.py יכול לרוץ ברצה.', nli='A3 — רשימה עם הערכים המתוקנים.'),
+  'B5': dict(group='ב', title='תיבה חוצה את קו התאריך', buttons=['runner-bug', 'keep-existing', 'skip'],
+             bulk=None, bulkConf=None, desc='(d+e)/2 נותן −56° במקום 124°E. באג ברצה.', gil='לעטוף אורכים לפני מיצוע.', nli=''),
+  'B6': dict(group='ב', title='כימה קשורה להומונים שגוי', buttons=['apply-new', 'keep-existing', 'research', 'skip'],
+             bulk='apply-new', bulkConf='high',
+             desc='כימה מחזיקה מקום בעל אותו שם מיבשת אחרת (Linden NJ → Linden, Guyana). ויקינתונים של NLI יושבת על נקודת NLI, הכותרת מבחינה, ההזזה ≥500 ק״מ. להחיל NLI ולתקן GeoNames/WD. מבט של 5 דקות ב־TSV; ה־kima-wd-wrong הם כמעט-מילים נרדפות שראוי להביט בהן.',
+             gil='כלל: >500 ק״מ + אי-התאמת מזהה חיצוני = שגיאת קישור, לא הזזה.', nli=''),
+  'B7': dict(group='ב', title='קואורדינטות כימה שגויות', buttons=['apply-new', 'keep-existing', 'research', 'skip'],
+             bulk='apply-new', bulkConf=None, desc='נקודת כימה חולקת גם על NLI וגם על ישות הוויקינתונים של כימה עצמה. להחיל NLI.', gil='', nli=''),
+  'B8': dict(group='ב', title='הומונים — שניהם לגיטימיים, למי התכוונה NLI?', buttons=['apply-new', 'keep-existing', 'tier-case', 'neither', 'manual-coords', 'research', 'skip'],
+             bulk=None, bulkConf=None,
+             desc='שתי ישויות תואמות את השם, כל אחת על נקודתה (Falkenberg, Channel Islands). מחקר: שני ה־QID והתוויות זה לצד זה. חלק הם באמת מקרי דרגה (מנדיה/מחוז מנדיה) → "מקרה דרגה".',
+             gil='', nli='אולי שאלת הבהרה לכל מקרה.'),
+  'B9': dict(group='ב', title='אין עד בוויקינתונים', buttons=['apply-new', 'keep-existing', 'neither', 'manual-coords', 'research', 'skip'],
+             bulk=None, bulkConf=None,
+             desc='אין במה להכריע (Schopfloch, Bököny 8,126 ק״מ). מעל 1,000 ק״מ — כמעט ודאי נקודת כימה שגויה; ברירת מחדל NLI אלא אם מקור אומר אחרת.', gil='', nli=''),
+  'B10': dict(group='ב', title='ויקינתונים חולקת על שניהם / WD של NLI שגוי', buttons=['keep-existing', 'apply-new', 'data-problem', 'manual-coords', 'research', 'skip'],
+             bulk=None, bulkConf=None, desc='שלוש נקודות שונות, או שה־024 של NLI מצביע על ישות שגויה.', gil='', nli='A3 — שני ה־QID השגויים.'),
+  'B12': dict(group='ב', title='גאומטריה פגומה', buttons=['data-problem', 'manual-coords', 'keep-existing', 'skip'],
+             bulk=None, bulkConf=None, desc='034 שלא ניתן לנתח (ראו דוח ה־034 הפגומים, 957 רשומות).', gil='הפרסר צריך לקבל צורות תקינות לפי MARC ולרפד DMS קצר.', nli='דוח נפרד'),
+  'C1': dict(group='ג', title='"לא קיים ב־NLI" — פער כיסוי של IIIF', buttons=['dismiss', 'research', 'skip'],
+             bulk='dismiss', bulkConf=None, oai=True,
+             desc='נקודת הקצה IIIF מעולם לא נשאה 77 מהרשומות ו־16 היו 520 חולפים; כולן נמשכות מ־Alma OAI. לא מחיקות — אין לנתק בכימה. לבדוק ב־OAI ולבטל.',
+             gil='#9 — למשוך MARC מ־OAI; לנסות שוב 520 (#8).', nli='(אופציונלי) IIIF מדווח "לא קיים" על רשומות חיות.'),
+  'Z': dict(group='', title='הוחלט — לא בדוח הנוכחי', buttons=['research', 'skip'], bulk=None, bulkConf=None,
+            desc='ההחלטה נשמרה בריצה קודמת; הרשומה אינה מופיעה עוד באף דוח.', gil='', nli=''),
+}
+
+MOVE_TASK = {'extended-feature': 'B2', 'nli-coords-wrong': 'B3', 'nli-034-dropped-zero': 'B4',
+             'nli-034-antimeridian': 'B5', 'kima-coords-wrong': 'B7', 'no-wd': 'B9',
+             'wd-disagrees': 'B10', 'nli-wd-wrong': 'B10'}
+DUP_TASK = {'heading-drift': 'A2', 'kima-id-suppressed': 'A3', 'already-disambiguated-in-kima': 'A4',
+            'tier-pair': 'A5', 'pseudo-disambiguated-in-kima': 'A6', 'distinct-homonym': 'A8',
+            'same-entity': 'A10', 'unresolved': 'A11'}
+
+# decisions that are by nature a report to the library / a note for Gil
+NLI_DECISIONS = {'keep-existing', 'nli-duplicate', 'data-problem', 'rename-suggestion'}
+GIL_DECISIONS = {'runner-bug'}
+
+
+# tier-vocabulary.md §3a/§4: the classifier's ad-hoc tier words → the proposed table
+TIER_NORM = [('מחוז משנה', 'נפה'), ('מחוז שלטוני', 'מחוז ממשל'), ('פרובינציה', 'מחוז'),
+             ('אובלסט', 'מחוז'), ('עיריה', 'עירייה')]
+
+
+def tier_normalize(h):
+    for a, b in TIER_NORM:
+        h = h.replace(a, b)
+    return h
+
+
+def task_of(case, proposal):
+    cat = case['category']
+    if cat == 'orphan-decision':
+        return 'Z'
+    if cat in NLI_GONE or cat in ('missing-marc', 'other'):
+        return 'C1'
+    if cat == 'repoint-blocked':
+        if proposal and proposal['kind'] == 'dup' and proposal['bucket'] in DUP_TASK:
+            return DUP_TASK[proposal['bucket']]
+        return 'A13'
+    if cat == 'bad-geography':
+        return 'B12'
+    if cat in ('location-move', 'multi-034'):
+        if not proposal:
+            return 'B0'
+        b, a = proposal['bucket'], proposal['action']
+        if b in MOVE_TASK:
+            return MOVE_TASK[b]
+        if b == 'homonym':
+            return 'B6' if a == 'apply-new' else 'B8'
+        if b in ('kima-wd-wrong', 'kima-geonames-wrong'):
+            return 'B6'
+        return 'B0'
+    if cat.startswith('dup'):
+        if proposal and proposal['bucket'] in DUP_TASK:
+            return DUP_TASK[proposal['bucket']]
+        return 'A0'
+    return 'A0'
+
 
 # ---------------------------------------------------------------- MARC parse
 
@@ -140,16 +276,158 @@ class Data:
         self.decisions = {}
         self.seen = set()        # recordIds already turned into a case
         os.makedirs(CACHE_DIR, exist_ok=True)
+        self.moves = {}          # recordId -> move-analysis row
+        self.dups = {}           # recordId -> dup-classification row
+        self.dupinfo = {}        # recordId -> dup-analysis row (drift, 551)
+        self.oai = {}            # recordId -> {'status', 'checkedUtc'}
         self._load_decisions()
+        self._load_proposals()
         self._load_failures()
         self._load_reviews()
+        self._load_dup_cases()
         self._load_orphans()
         self._load_marc()
+        self._load_marc_cache()
         self._load_dump()
         self._load_history()
         self._load_kima_cache()
+        self._load_oai_cache()
         self._classify_multi_034()
         self._classify_dup_places()
+        self._assign_tasks()
+
+    # -- proposals from the two offline classifiers -------------------------
+    def _load_proposals(self):
+        p = os.path.join(APP_DIR, 'move-analysis.tsv')
+        if os.path.exists(p):
+            with open(p) as fh:
+                for row in csv.DictReader(fh, delimiter='\t'):
+                    self.moves[row['recordId']] = row
+        p = os.path.join(APP_DIR, 'dup-classification.json')
+        if os.path.exists(p):
+            for row in json.load(open(p)):
+                self.dups[row['recordId']] = row
+        p = os.path.join(APP_DIR, 'dup-analysis.json')
+        if os.path.exists(p):
+            for row in json.load(open(p)):
+                self.dupinfo[row['recordId']] = row
+
+    def proposal_of(self, rid):
+        m = self.moves.get(rid)
+        if m:
+            return {'kind': 'move', 'bucket': m['bucket'], 'action': m['action'],
+                    'confidence': m['confidence'], 'note': m['note'],
+                    'nliWd': m['nliWd'], 'kimaWd': m['kimaWd'],
+                    'nliWdLabel': m['nliWdLabel'], 'kimaWdLabel': m['kimaWdLabel'],
+                    'nliWdCoord': m['nliWdCoord'], 'kimaWdCoord': m['kimaWdCoord'],
+                    'dNliWd_Nli': m['dNliWd_Nli'], 'dNliWd_Kima': m['dNliWd_Kima'],
+                    'dKimaWd_Kima': m['dKimaWd_Kima'], 'dKimaWd_Nli': m['dKimaWd_Nli'],
+                    'featureType': m['featureType'], 'featureEvidence': m['featureEvidence'],
+                    'extentKm': m['extentKm'], 'fix034': m['fix034'],
+                    'fixedNliCoords': m['fixedNliCoords'], 'n034': m['n034']}
+        d = self.dups.get(rid)
+        if d:
+            return {'kind': 'dup', 'bucket': d['bucket'], 'action': d['action'],
+                    'confidence': d['confidence'], 'note': d['note'],
+                    'suggestA': tier_normalize(d.get('suggestA') or ''),
+                    'suggestB': tier_normalize(d.get('suggestB') or ''),
+                    'bothInKima': d.get('bothInKima'), 'kimaHolderOfA': d.get('kimaHolderOfA'),
+                    'aRoman': d.get('aRoman'), 'aHeb': d.get('aHeb'), 'aWd': d.get('aWd'),
+                    'aWdLabel': d.get('aWdLabel'), 'aP31': d.get('aP31'), 'aCoords': d.get('aCoords'),
+                    'bId': d.get('bId'), 'bRoman': d.get('bRoman'), 'bHeb': d.get('bHeb'),
+                    'bWd': d.get('bWd'), 'bWdLabel': d.get('bWdLabel'), 'bP31': d.get('bP31'),
+                    'bCoords': d.get('bCoords'), 'bStatus': d.get('bStatus'),
+                    'distanceKm': d.get('distanceKm'), 'earlierHeadings': d.get('earlierHeadings')}
+        return None
+
+    # -- duplicate cases that fell out of the regenerated reports -----------
+    def _load_dup_cases(self):
+        n = 0
+        for rid, row in self.dups.items():
+            if rid in self.seen:
+                continue
+            self.seen.add(rid)
+            info = self.dupinfo.get(rid) or {}
+            case = {
+                'recordId': rid,
+                'period': info.get('period') or '—',
+                'track': 'Place',
+                'category': row['category'],
+                'isNew': False,
+                'dupKey': nfc(row.get('dupKey') or ''),
+                'messages': ['מקרה מניתוח הכפילויות (dup-classification); '
+                             'אינו מופיע עוד בדוחות שנוצרו מחדש.'],
+                'manualAction': None,
+                'sourceFile': 'dup-classification.json',
+                'stale': True,
+            }
+            if row.get('kimaId'):
+                case['kimaId'] = int(row['kimaId'])
+            self.cases.append(case)
+            n += 1
+        if n:
+            print('duplicate cases restored from dup-classification.json: %d' % n)
+
+    def _assign_tasks(self):
+        for c in self.cases:
+            c['task'] = task_of(c, self.proposal_of(c['recordId']))
+
+    # -- MARC from the analyze_dups disk cache for cases no report carries ---
+    def _load_marc_cache(self):
+        d = os.path.join(CACHE_DIR, 'nli_marc')
+        for c in self.cases:
+            rid = c['recordId']
+            if rid in self.marc:
+                continue
+            p = os.path.join(d, 'authority_%s.json' % rid)
+            if os.path.exists(p):
+                xml = json.load(open(p)).get('xml') or ''
+                if '<record' in xml:
+                    self.marc[rid] = parse_marc(xml)
+
+    # -- Alma OAI live check --------------------------------------------------
+    def _load_oai_cache(self):
+        p = os.path.join(CACHE_DIR, 'oai_status.json')
+        if os.path.exists(p):
+            self.oai = json.load(open(p))
+
+    def oai_check_case(self, rid, force=False):
+        """Check the case's own id, and — for duplicate pairs — the old id B,
+        which is the one a 'suppressed' verdict is about."""
+        res = dict(self.oai_check(rid, force))
+        d = self.dups.get(rid) or {}
+        if d.get('bId'):
+            b = self.oai_check(str(d['bId']), force)
+            res['bId'] = str(d['bId'])
+            res['bStatus'] = b.get('status')
+        return res
+
+    def oai_check(self, rid, force=False):
+        if rid in self.oai and not force:
+            return self.oai[rid]
+        req = urllib.request.Request(OAI % rid, headers={'User-Agent': UA})
+        try:
+            with urllib.request.urlopen(req, timeout=30) as r:
+                body = r.read().decode('utf-8', 'replace')
+        except urllib.error.HTTPError as e:
+            body = e.read().decode('utf-8', 'replace')
+        except Exception as e:
+            return {'status': 'error', 'detail': str(e)}
+        if 'status="deleted"' in body:
+            status = 'deleted'            # OAI's explicit deletion signal
+        elif '<record' in body and 'idDoesNotExist' not in body:
+            status = 'live'
+            if rid not in self.marc:
+                self.marc[rid] = parse_marc(body)
+        elif 'idDoesNotExist' in body:
+            status = 'absent'
+        else:
+            status = 'error'
+        res = {'status': status, 'checkedUtc': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())}
+        if status != 'error':
+            self.oai[rid] = res
+            json.dump(self.oai, open(os.path.join(CACHE_DIR, 'oai_status.json'), 'w'))
+        return res
 
     # -- dup-places: does Kima's owner of the heading carry the same NLI id? --
     def _classify_dup_places(self):
@@ -204,11 +482,15 @@ class Data:
         if os.path.exists(path):
             self.decisions = json.load(open(path))
 
-    def save_decision(self, rid, payload):
-        if payload.get('decision') or payload.get('forGili'):
+    def save_decision(self, rid, payload, flush=True):
+        dec = payload.get('decision') or ''
+        for_nli = bool(payload.get('forNli')) or dec in NLI_DECISIONS
+        for_gil = bool(payload.get('forGili')) or dec in GIL_DECISIONS
+        if dec or for_gil or for_nli:
             self.decisions[rid] = {
-                'decision': payload.get('decision') or '',
-                'forGili': bool(payload.get('forGili')),
+                'decision': dec,
+                'forGili': for_gil,
+                'forNli': for_nli,
                 'suggestedNewName': payload.get('suggestedNewName', ''),
                 'suggestedExistingName': payload.get('suggestedExistingName', ''),
                 'manualLat': payload.get('manualLat', ''),
@@ -219,6 +501,10 @@ class Data:
             }
         else:
             self.decisions.pop(rid, None)
+        if flush:
+            self.flush_decisions()
+
+    def flush_decisions(self):
         json.dump(self.decisions, open(os.path.join(APP_DIR, 'decisions.json'), 'w'),
                   ensure_ascii=False, indent=1)
 
@@ -527,7 +813,7 @@ def build_case(case):
     marc = DATA.marc.get(rid)
     heading = case_heading(case)
     kima = None
-    if case['category'] in ('location-move', 'repoint-blocked'):
+    if case.get('kimaId'):
         kima = {'source': 'kima-api (by Kima Id %d)' % case['kimaId'],
                 'place': DATA.kima_place_by_id(case['kimaId'])}
         if kima['place'] is None and heading:
@@ -579,6 +865,12 @@ def build_case(case):
         'sourceFile': case.get('sourceFile'),
         'blockingMazal': case.get('blockingMazal'),
         'kimaMazal': case.get('kimaMazal'),
+        'task': case.get('task'),
+        'proposal': DATA.proposal_of(rid),
+        'nameMismatch': (DATA.dupinfo.get(rid) or {}).get('nameMismatch') or [],
+        'earlierHeadings': (DATA.dupinfo.get(rid) or {}).get('earlierHeadings') or [],
+        'oai': (lambda o: o and {**o, 'bId': str((DATA.dups.get(rid) or {}).get('bId') or ''),
+                                 'bStatus': (DATA.oai.get(str((DATA.dups.get(rid) or {}).get('bId'))) or {}).get('status')})(DATA.oai.get(rid)),
         'heading': heading,
         'newCard': marc,
         'kimaCard': place,
@@ -595,8 +887,27 @@ def build_case(case):
     }
 
 
+KIMA_DECISIONS = {'apply-new', 'merge', 'update-kima-heading', 'rename-kima-heading',
+                  'create-place', 'manual-coords', 'dismiss'}
+
+
+def export_filtered(which):
+    """nli: rows flagged for the library; kima: rows that are Kima edits."""
+    full = export_csv()
+    rows = list(csv.DictReader(io.StringIO(full.lstrip('\ufeff'))))
+    if which == 'nli':
+        rows = [r for r in rows if r['for_nli'] == 'yes']
+    else:
+        rows = [r for r in rows if r['decision'] in KIMA_DECISIONS]
+    buf = io.StringIO()
+    w = csv.DictWriter(buf, fieldnames=list(rows[0].keys()) if rows else ['decision'])
+    w.writeheader()
+    w.writerows(rows)
+    return '\ufeff' + buf.getvalue()
+
+
 def export_csv():
-    cols = ['decision', 'for_gili', 'suggested_new_name', 'suggested_existing_name',
+    cols = ['decision', 'task', 'for_gili', 'for_nli', 'suggested_new_name', 'suggested_existing_name',
             'manual_lat', 'manual_lon', 'correct_wd', 'note',
             'decided_at', 'period', 'category', 'stale', 'source_file',
             'new_id', 'new_url', 'new_heb', 'new_rom', 'new_ara',
@@ -615,8 +926,9 @@ def export_csv():
         n, k = c.get('newCard') or {}, c.get('kimaCard') or {}
         p, ids = n.get('primary') or {}, n.get('ids') or {}
         w.writerow({
-            'decision': d['decision'],
+            'decision': d['decision'], 'task': case.get('task', ''),
             'for_gili': 'yes' if d.get('forGili') else '',
+            'for_nli': 'yes' if d.get('forNli') else '',
             'suggested_new_name': d.get('suggestedNewName', ''),
             'suggested_existing_name': d.get('suggestedExistingName', ''),
             'manual_lat': d.get('manualLat', ''), 'manual_lon': d.get('manualLon', ''),
@@ -662,23 +974,33 @@ class Handler(BaseHTTPRequestHandler):
                 self._send(200, fh.read(), 'text/html; charset=utf-8')
         elif url.path == '/api/cases':
             qs = urllib.parse.parse_qs(url.query)
-            cat = qs.get('category', ['all'])[0]
+            task = qs.get('task', ['all'])[0]
             pool = DATA.cases
             if qs.get('current', [''])[0] == '1':
                 pool = [c for c in pool if not c.get('stale')]
-            cases = [c for c in pool if cat in ('all', c['category'])]
+            cases = [c for c in pool if task in ('all', c['task'])]
+            dec = lambda c: DATA.decisions.get(c['recordId']) or {}
             self._send(200, {
                 'total': len(cases),
-                'staleTotal': sum(1 for c in DATA.cases if c.get('stale')),
-                'categories': {k: sum(1 for c in pool if c['category'] == k)
-                               for k in sorted({c['category'] for c in pool})},
+                'tasks': {k: {'n': sum(1 for c in pool if c['task'] == k),
+                              'undecided': sum(1 for c in pool if c['task'] == k
+                                               and not dec(c).get('decision'))}
+                          for k in TASKS},
+                'taskInfo': TASKS,
                 'cases': [{**{k: c[k] for k in ('recordId', 'period', 'category',
-                                                'isNew', 'dupKey', 'manualAction')},
+                                                'isNew', 'dupKey', 'manualAction', 'task')},
                            'stale': c.get('stale', False),
-                           'decision': (DATA.decisions.get(c['recordId']) or {}).get('decision'),
-                           'forGili': (DATA.decisions.get(c['recordId']) or {}).get('forGili', False)}
+                           'decision': dec(c).get('decision'),
+                           'forGili': dec(c).get('forGili', False),
+                           'forNli': dec(c).get('forNli', False),
+                           'proposal': (lambda p: p and {'action': p['action'], 'confidence': p['confidence'], 'bucket': p['bucket']})(DATA.proposal_of(c['recordId'])),
+                           'oai': (DATA.oai.get(c['recordId']) or {}).get('status')}
                           for c in cases],
             })
+        elif url.path.startswith('/api/oai/'):
+            rid = url.path.rsplit('/', 1)[1]
+            force = 'force=1' in url.query
+            self._send(200, {'recordId': rid, **DATA.oai_check_case(rid, force)})
         elif url.path.startswith('/api/case/'):
             rid = url.path.rsplit('/', 1)[1]
             case = next((c for c in DATA.cases if c['recordId'] == rid), None)
@@ -686,12 +1008,17 @@ class Handler(BaseHTTPRequestHandler):
                 self._send(404, {'error': 'unknown recordId'})
             else:
                 self._send(200, build_case(case))
-        elif url.path == '/export.csv':
-            body = export_csv().encode('utf-8')
+        elif url.path in ('/export.csv', '/export/nli-report.csv', '/export/kima-apply.csv'):
+            if url.path == '/export.csv':
+                body, name = export_csv(), 'nli-triage-report.csv'
+            elif 'nli' in url.path:
+                body, name = export_filtered('nli'), 'nli-report.csv'
+            else:
+                body, name = export_filtered('kima'), 'kima-apply.csv'
+            body = body.encode('utf-8')
             self.send_response(200)
             self.send_header('Content-Type', 'text/csv; charset=utf-8')
-            self.send_header('Content-Disposition',
-                             'attachment; filename="nli-triage-report.csv"')
+            self.send_header('Content-Disposition', 'attachment; filename="%s"' % name)
             self.send_header('Content-Length', str(len(body)))
             self.end_headers()
             self.wfile.write(body)
@@ -713,6 +1040,30 @@ class Handler(BaseHTTPRequestHandler):
                 return
             DATA.save_decision(rid, payload)
             self._send(200, {'ok': True, 'decision': DATA.decisions.get(rid)})
+        elif url.path == '/api/decisions-bulk':
+            length = int(self.headers.get('Content-Length') or 0)
+            try:
+                payload = json.loads(self.rfile.read(length))
+            except ValueError:
+                self._send(400, {'error': 'bad json'})
+                return
+            known = {c['recordId'] for c in DATA.cases}
+            n = 0
+            for rid in payload.get('recordIds') or []:
+                if rid in known and not (DATA.decisions.get(rid) or {}).get('decision'):
+                    DATA.save_decision(rid, {'decision': payload.get('decision'),
+                                             'note': payload.get('note', '')}, flush=False)
+                    n += 1
+            DATA.flush_decisions()
+            self._send(200, {'ok': True, 'applied': n})
+        elif url.path == '/api/oai-bulk':
+            length = int(self.headers.get('Content-Length') or 0)
+            payload = json.loads(self.rfile.read(length) or b'{}')
+            out = {}
+            for rid in payload.get('recordIds') or []:
+                out[rid] = DATA.oai_check_case(rid).get('status')
+                time.sleep(0.2)
+            self._send(200, {'ok': True, 'statuses': out})
         else:
             self._send(404, {'error': 'not found'})
 

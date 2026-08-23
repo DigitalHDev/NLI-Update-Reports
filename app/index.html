@@ -129,6 +129,35 @@
                     padding: .45rem 1.2rem; font-size: .9rem; cursor: pointer; }
   .savebar .clear { background: none; color: var(--muted); border: 1px solid var(--line); }
   .saved { color: var(--ok); font-size: .85rem; }
+  .tabs .grp { font-size: .75rem; color: var(--muted); align-self: center; margin-inline-start: .6rem; }
+  .tab .und { opacity: .75; font-size: .75rem; }
+  .tab.done { border-style: dashed; opacity: .7; }
+  .taskhead { background: #f7f3e8; border: 1px solid #e5dcc3; border-radius: 12px; padding: .7rem 1rem;
+              margin-bottom: .9rem; font-size: .86rem; }
+  .taskhead h2 { margin: 0 0 .3rem; font-size: 1rem; }
+  .taskhead .who { display: grid; grid-template-columns: max-content 1fr; gap: .2rem .7rem; margin-top: .4rem;
+                   color: #5a4b2c; }
+  .taskhead .who b { color: var(--muted); font-weight: 600; }
+  .taskhead .bulk { margin-top: .6rem; display: flex; gap: .5rem; flex-wrap: wrap; align-items: center; }
+  .taskhead .bulk button { border: 1px solid #b89a5a; background: #fff; border-radius: 8px; padding: .35rem .8rem;
+                           cursor: pointer; font-size: .85rem; font-family: inherit; }
+  .taskhead .bulk button:disabled { opacity: .45; cursor: default; }
+  .proposal { background: #eef4f6; border: 1px solid #c9dde4; border-radius: 12px; padding: .7rem 1rem;
+              margin-top: 1rem; font-size: .86rem; }
+  .proposal h3 { margin: 0 0 .4rem; font-size: .85rem; color: var(--accent); }
+  .proposal .conf-high { color: var(--ok); font-weight: 700; }
+  .proposal .conf-medium { color: #a0731c; font-weight: 700; }
+  .proposal .conf-low { color: var(--bad); font-weight: 700; }
+  .proposal table { border-collapse: collapse; margin-top: .4rem; font-size: .82rem; }
+  .proposal td, .proposal th { border: 1px solid #d6e3e8; padding: .2rem .5rem; text-align: start; }
+  .proposal th { background: #e2ecf0; font-weight: 600; }
+  .proposal .accept { margin-top: .5rem; border: 1px solid var(--accent); background: #fff; color: var(--accent);
+                      border-radius: 8px; padding: .3rem .8rem; cursor: pointer; font-family: inherit; font-size: .85rem; }
+  .quicktags .qt-nli { background: #e8eef8; border: 1.5px solid #6f86c4; color: #2b3d6b; }
+  .quicktags .qt-nli.sel { background: #2f4f9e; border-color: #1e3570; color: #fff; outline: 2.5px solid #1e3570; }
+  .quicktags .qt-oai { background: #f3f3f3; border: 1.5px solid #aaa; color: #444; }
+  .badge.oai-live { background: #e2f1e8; color: var(--ok); }
+  .badge.oai-absent, .badge.oai-deleted { background: #f8dede; color: var(--bad); }
   @media (max-width: 760px) { .pair { grid-template-columns: 1fr; } }
 </style>
 </head>
@@ -141,7 +170,11 @@
       <input type="checkbox" id="onlyCurrentCb"> רק הריצה הנוכחית</label>
     <label id="onlyFlagged" title="הצגת המקרים שסומנו לגילי בלבד">
       <input type="checkbox" id="onlyFlaggedCb"> <span id="flaggedLbl">🚩 רק לגילי</span></label>
-    <a href="/export.csv" title="ייצוא ההחלטות לקובץ CSV">⬇ דוח</a>
+    <label id="onlyNli" title="הצגת המקרים שסומנו לספרייה בלבד">
+      <input type="checkbox" id="onlyNliCb"> <span id="nliLbl">🏛 רק לספרייה</span></label>
+    <a href="/export.csv" title="כל ההחלטות">⬇ הכול</a>
+    <a href="/export/nli-report.csv" title="שורות המסומנות לספרייה">⬇ לספרייה</a>
+    <a href="/export/kima-apply.csv" title="עריכות לכימה">⬇ לכימה</a>
     <button id="firstUndecided" title="קפיצה למקרה הראשון בקטגוריה שעדיין ללא החלטה">⏭ לראשון שטרם הוחלט</button>
     <button id="prev">→ הקודם</button>
     <span id="pos"><input id="jump" type="number" min="1" dir="ltr"> <span id="total">/ 0</span></span>
@@ -164,52 +197,110 @@ const CAT_LABELS = {
   'bad-geography': 'קואורדינטות פגומות', 'other': 'אחר', 'all': 'הכול'
 };
 const ACT_LABELS = {
-  'nli-duplicate': 'כפילות ב־NLI', 'rename-suggestion': 'הצעת שינוי שם',
-  'merge': 'מיזוג (החלפת NLI-ID בכימה)', 'data-problem': 'בעיה בנתונים — לדווח',
-  'keep-existing': 'המיקום הקיים נכון — דיווח לספרייה', 'apply-new': 'המיקום החדש נכון',
+  'nli-duplicate': 'כפילות ב־NLI → לדוח', 'rename-suggestion': 'הצעת הבחנה עברית → לספרייה',
+  'merge': 'הפניה — החלפת NLI-ID במקום כימה', 'data-problem': 'בעיה בנתונים → לדווח לספרייה',
+  'keep-existing': 'הקיים (כימה) נכון → לדווח לספרייה', 'apply-new': 'החדש (NLI) נכון — להחיל',
   'neither': 'זה מורכב', 'manual-coords': 'ערך ידני',
   'region': 'אזור — להחלטה בהמשך', 'river': 'נהר — להחלטה בהמשך',
-  'research': 'דורש דיסאמביגואציה',
+  'research': '🔍 מחקר / דיסאמביגואציה',
+  'update-kima-heading': 'לעדכן כותרת כימה ל־NLI (הישנה → וריאנט)',
+  'rename-kima-heading': 'לשנות כותרות בכימה לפי טבלת הדרגות',
+  'keep-kima-heading': 'להשאיר כותרת כימה; NLI → וריאנט',
+  'create-place': 'ליצור מקום חדש בכימה בכותרת מדורגת',
+  'keep-both': 'להשאיר שתי רשומות',
+  'tier-case': 'מקרה דרגה → לערימת ההבחנה',
+  'runner-bug': 'באג ברצה → לגילי',
+  'dismiss': 'לבטל — אין מה לעשות',
   'skip': 'דילוג'
 };
-let cases = [], cats = {}, idx = 0, cat = 'location-move', detailCache = {}, map = null;
+const BULK_LABEL = {
+  'update-kima-heading': 'עדכון כותרת', 'apply-new': 'החלת NLI', 'keep-existing': 'שמירת כימה + דיווח',
+  'dismiss': 'ביטול', 'merge': 'הפניה'
+};
+// which decisions need which extra fields
+const NEEDS_RENAME = new Set(['rename-suggestion', 'rename-kima-heading', 'create-place', 'update-kima-heading']);
+let cases = [], tasks = {}, taskInfo = {}, idx = 0, cat = localStorage.getItem('task') || 'B2', detailCache = {}, map = null;
 
 let onlyCurrent = localStorage.getItem('onlyCurrent') === '1';
 let onlyFlagged = localStorage.getItem('onlyFlagged') === '1';
+let onlyNli = localStorage.getItem('onlyNli') === '1';
 let rawCases = [];
 
 async function loadList() {
-  const r = await fetch('/api/cases?category=' + cat + (onlyCurrent ? '&current=1' : ''));
+  const r = await fetch('/api/cases?task=' + cat + (onlyCurrent ? '&current=1' : ''));
   const d = await r.json();
-  rawCases = d.cases; cats = d.categories;
-  if (!cats[cat] && cat !== 'all') { cat = 'all'; return loadList(); }
+  rawCases = d.cases; tasks = d.tasks; taskInfo = d.taskInfo;
+  if (cat !== 'all' && !(tasks[cat] || {}).n) { cat = 'all'; return loadList(); }
+  localStorage.setItem('task', cat);
   applyFilters();
 }
-// the flag filter is client-side: the list payload already carries forGili
+// the flag filters are client-side: the list payload already carries the flags
 function applyFilters() {
-  cases = onlyFlagged ? rawCases.filter(x => x.forGili) : rawCases;
+  cases = rawCases.filter(x => (!onlyFlagged || x.forGili) && (!onlyNli || x.forNli));
   idx = Math.min(idx, Math.max(0, cases.length - 1));
-  renderTabs(); renderFlagFilter(); render();
+  renderTabs(); renderFlagFilter(); renderTaskHead(); render();
 }
 function renderFlagFilter() {
-  const n = rawCases.filter(x => x.forGili).length;
-  const lbl = document.getElementById('flaggedLbl');
-  if (lbl) lbl.textContent = `🚩 רק לגילי (${n})`;
-  document.getElementById('onlyFlagged').classList.toggle('on', onlyFlagged);
+  const n = rawCases.filter(x => x.forGili).length, m = rawCases.filter(x => x.forNli).length;
+  document.getElementById('flaggedLbl').textContent = `🚩 רק לגילי (${n})`;
+  document.getElementById('nliLbl').textContent = `🏛 רק לספרייה (${m})`;
 }
 function renderTabs() {
   const t = document.getElementById('tabs');
-  const total = Object.values(cats).reduce((a, b) => a + b, 0);
+  const total = Object.values(tasks).reduce((a, b) => a + b.n, 0);
+  const und = Object.values(tasks).reduce((a, b) => a + b.undecided, 0);
   t.innerHTML = '';
-  for (const key of ['all', ...Object.keys(cats)]) {
-    const n = key === 'all' ? total : cats[key];
+  const mk = (key, label, n, u) => {
     const b = document.createElement('button');
-    b.className = 'tab' + (key === cat ? ' active' : '')
-                        + (key === 'dup-places-diff' ? ' catbad' : '');
-    b.textContent = `${CAT_LABELS[key] || key} (${n})`;
+    b.className = 'tab' + (key === cat ? ' active' : '') + (n && !u ? ' done' : '');
+    b.innerHTML = `${label} ${n}${u ? ` <span class="und">(${u})</span>` : ' ✔'}`;
+    b.title = (taskInfo[key] || {}).title || '';
     b.onclick = () => { cat = key; idx = 0; loadList(); };
     t.appendChild(b);
+  };
+  mk('all', 'הכול', total, und);
+  let grp = null;
+  for (const key of Object.keys(tasks)) {
+    if (!tasks[key].n) continue;
+    const g = taskInfo[key].group;
+    if (g !== grp) { grp = g; const sp = document.createElement('span'); sp.className = 'grp'; sp.textContent = g ? g + '.' : ''; t.appendChild(sp); }
+    mk(key, key, tasks[key].n, tasks[key].undecided);
   }
+}
+function renderTaskHead() {
+  let el = document.getElementById('taskhead');
+  if (!el) { el = document.createElement('div'); el.id = 'taskhead'; document.getElementById('main').before(el); }
+  if (cat === 'all' || !taskInfo[cat]) { el.innerHTML = ''; return; }
+  const ti = taskInfo[cat], st = tasks[cat] || {};
+  const pending = rawCases.filter(x => !x.decision);
+  const bulkable = ti.bulk ? pending.filter(x => !ti.bulkConf || (x.proposal || {}).confidence === ti.bulkConf) : [];
+  const unchecked = ti.oai ? rawCases.filter(x => !x.oai) : [];
+  const live = ti.oai ? rawCases.filter(x => x.oai === 'live').length : 0;
+  el.className = 'taskhead';
+  el.innerHTML = `<h2>${cat} · ${ti.title} <span style="font-weight:normal;color:var(--muted)">— ${st.n} מקרים, ${st.undecided} טרם הוחלטו</span></h2>
+    <div>${ti.desc}</div>
+    <div class="who">${ti.nli ? `<b>בקשה מהספרייה</b><span>${ti.nli}</span>` : ''}${ti.gil ? `<b>גילי / הרצה</b><span>${ti.gil}</span>` : ''}</div>
+    <div class="bulk">
+      ${ti.bulk ? `<button id="bulkApply" ${bulkable.length ? '' : 'disabled'}>⚡ ${BULK_LABEL[ti.bulk] || ti.bulk} לכל ${bulkable.length} המקרים שטרם הוחלטו${ti.bulkConf ? ' (ביטחון ' + ti.bulkConf + ')' : ''}</button>` : ''}
+      ${ti.oai ? `<button id="oaiBulk" ${unchecked.length ? '' : 'disabled'}>🔎 בדיקת OAI לכל ${unchecked.length} שטרם נבדקו</button><span>${live ? `חיות ב־OAI: ${live}` : ''}</span>` : ''}
+    </div>`;
+  const ba = document.getElementById('bulkApply');
+  if (ba) ba.onclick = async () => {
+    if (!confirm(`להחיל "${ACT_LABELS[ti.bulk]}" על ${bulkable.length} מקרים?`)) return;
+    ba.disabled = true; ba.textContent = 'מחיל…';
+    const r = await fetch('/api/decisions-bulk', { method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ recordIds: bulkable.map(x => x.recordId), decision: ti.bulk, note: 'bulk: ' + cat }) });
+    const res = await r.json();
+    detailCache = {}; await loadList();
+    document.getElementById('total').textContent += ` · הוחלו ${res.applied}`;
+  };
+  const ob = document.getElementById('oaiBulk');
+  if (ob) ob.onclick = async () => {
+    ob.disabled = true; ob.textContent = `בודק ${unchecked.length}…`;
+    await fetch('/api/oai-bulk', { method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ recordIds: unchecked.map(x => x.recordId) }) });
+    detailCache = {}; await loadList();
+  };
 }
 const idLink = (label, url, value, cls) =>
   value ? `<dt>${label}</dt><dd${cls ? ` class="${cls}"` : ''}><a href="${url}" target="_blank" dir="ltr">${value}</a></dd>` : '';
@@ -326,23 +417,82 @@ function researchPanel(c) {
   </details>`;
 }
 
+function proposalPanel(c) {
+  const p = c.proposal;
+  const drift = (c.nameMismatch || []).length ? `<div style="margin-top:.5rem"><b>סחיפת שם (כימה ↔ 151 של NLI):</b>
+      <table><tr><th>שדה</th><th>כימה</th><th>NLI</th></tr>
+      ${c.nameMismatch.map(m => `<tr><td>${m.field}</td><td dir="auto">${m.kima || ''}</td><td dir="auto">${m.nli || ''}</td></tr>`).join('')}</table></div>` : '';
+  const earlier = (c.earlierHeadings || []).length ? `<div style="margin-top:.4rem"><b>כותרות קודמות (551 $w a):</b> ${c.earlierHeadings.map(x => typeof x === 'string' ? x : JSON.stringify(x)).join(' · ')}</div>` : '';
+  const oai = c.oai ? `<span class="badge oai-${c.oai.status}">OAI: ${c.oai.status}</span>` : '';
+  if (!p) return (drift || earlier) ? `<div class="proposal"><h3>מידע נוסף</h3>${drift}${earlier}</div>` : '';
+  const conf = `<span class="conf-${p.confidence}">${p.confidence}</span>`;
+  let body = '';
+  if (p.kind === 'move') {
+    const row = (l, v) => v ? `<tr><th>${l}</th><td dir="ltr">${v}</td></tr>` : '';
+    body = `<table>
+      ${row('ישות NLI (WD)', p.nliWd ? `<a href="https://www.wikidata.org/wiki/${p.nliWd}" target="_blank">${p.nliWd}</a> ${p.nliWdLabel || ''} · ${p.nliWdCoord || ''} · מנקודת NLI ${p.dNliWd_Nli || '?'} ק״מ · מכימה ${p.dNliWd_Kima || '?'} ק״מ` : '')}
+      ${row('ישות כימה (WD)', p.kimaWd ? `<a href="https://www.wikidata.org/wiki/${p.kimaWd}" target="_blank">${p.kimaWd}</a> ${p.kimaWdLabel || ''} · ${p.kimaWdCoord || ''} · מנקודת כימה ${p.dKimaWd_Kima || '?'} ק״מ · מ־NLI ${p.dKimaWd_Nli || '?'} ק״מ` : '')}
+      ${row('סוג ישות', p.featureType ? `${p.featureType} ${p.featureEvidence || ''} ${p.extentKm ? '· היקף ' + p.extentKm + ' ק״מ' : ''}` : '')}
+      ${row('034', p.n034 > 1 ? p.n034 + ' שדות' : '')}
+      ${row('תיקון 034 מוצע', p.fix034)}
+      ${row('נקודה מתוקנת', p.fixedNliCoords)}
+    </table>`;
+  } else {
+    const row = (l, v) => v ? `<tr><th>${l}</th><td dir="auto">${v}</td></tr>` : '';
+    body = `<table>
+      ${row('A (נכנס)', [p.aRoman, p.aHeb, p.aWd ? `<a href="https://www.wikidata.org/wiki/${p.aWd}" target="_blank">${p.aWd}</a> ${p.aWdLabel || ''}` : '', p.aP31].filter(Boolean).join(' · '))}
+      ${row('B (בכימה)', p.bId ? [`<a href="https://www.nli.org.il/he/authorities/${p.bId}" target="_blank" dir="ltr">${p.bId}</a>`, p.bRoman, p.bHeb, p.bWd ? `<a href="https://www.wikidata.org/wiki/${p.bWd}" target="_blank">${p.bWd}</a> ${p.bWdLabel || ''}` : '', p.bP31, p.bStatus ? 'סטטוס: ' + p.bStatus : ''].filter(Boolean).join(' · ') : '')}
+      ${row('מרחק A–B', p.distanceKm ? p.distanceKm + ' ק״מ' : '')}
+      ${row('שניהם בכימה', p.bothInKima ? 'כן' : '')}
+      ${row('כותרת מוצעת ל־A', p.suggestA)}
+      ${row('כותרת מוצעת ל־B', p.suggestB)}
+      ${row('כותרות קודמות', p.earlierHeadings)}
+    </table>`;
+  }
+  const mapped = PROPOSAL_TO_DECISION[p.action] || null;
+  return `<div class="proposal"><h3>הצעת הסיווג · ${p.bucket} · ביטחון ${conf} ${oai}</h3>
+    <div><b>פעולה מוצעת:</b> ${ACT_LABELS[mapped] || p.action}</div>
+    <div style="margin-top:.3rem">${(p.note || '').replace(/</g, '&lt;')}</div>
+    ${body}${drift}${earlier}
+    ${mapped ? `<button class="accept" id="acceptProposal" data-act="${mapped}">✔ לקבל את ההצעה</button>` : ''}
+  </div>`;
+}
+const PROPOSAL_TO_DECISION = {
+  'apply-new': 'apply-new', 'keep-existing+report': 'keep-existing', 'research': 'research',
+  'runner-bug': 'runner-bug', 'update-kima-heading': 'update-kima-heading',
+  'keep-kima-headings+variant': 'rename-kima-heading', 'repoint-kima-to-incoming': 'merge',
+  'report-nli-duplicate': 'nli-duplicate', 'disambiguate-hebrew-tier': 'create-place',
+  'disambiguate-hebrew-region': 'rename-suggestion', 'disambiguate-hebrew-spelling': 'rename-suggestion'
+};
+
 function actionBar(c) {
   const d = c.decision || {};
-  const p = (c.newCard || {}).primary || {};
+  const pr = (c.newCard || {}).primary || {};
   const kheb = (c.kimaCard || {}).primary_heb_full || '';
-  const selNew = d.suggestedNewName || p.heb || '';
-  const selExisting = d.suggestedExistingName || kheb;
-  if (c.category === 'location-move') {
-    return `
+  const ti = taskInfo[c.task] || {};
+  const buttons = ti.buttons || ['apply-new', 'keep-existing', 'research', 'skip'];
+  const p = c.proposal || {};
+  // prefill suggested headings: saved decision > classifier suggestion > current
+  const selNewPre = d.suggestedNewName || p.suggestA || pr.heb || '';
+  const selExistPre = d.suggestedExistingName || p.suggestB || kheb;
+  const saved = d.decision ? 'נשמר: ' + (ACT_LABELS[d.decision] || d.decision) + ' (' + (d.timestampUtc || '') + ')' : '';
+  return `
   <div class="actions">
-    <h3>איזה מיקום נכון?</h3>
+    <h3>${ti.title || 'החלטה'}</h3>
     <div class="actbtns">
-      <button data-act="keep-existing" ${d.decision === 'keep-existing' ? 'class="sel"' : ''} title="הנתון הנכנס שגוי — המקרה ייכלל בדוח לספרייה">הקיים (כימה) נכון — דיווח לספרייה</button>
-      <button data-act="apply-new" ${d.decision === 'apply-new' ? 'class="sel"' : ''}>החדש (NLI) נכון — לאשר את ההזזה</button>
-      <button data-act="neither" ${d.decision === 'neither' ? 'class="sel"' : ''}>זה מורכב</button>
-      <button data-act="manual-coords" ${d.decision === 'manual-coords' ? 'class="sel"' : ''}>הזנת ערך ידני</button>
-      <button data-act="research" class="act-research ${d.decision === 'research' ? 'sel' : ''}">🔍 דורש דיסאמביגואציה</button>
-      <button data-act="skip" ${d.decision === 'skip' ? 'class="sel"' : ''}>דלג</button>
+      ${buttons.map(a => `<button data-act="${a}" class="${a === 'research' ? 'act-research ' : ''}${d.decision === a ? 'sel' : ''}"
+          ${a === 'merge' && !(c.kimaCard && c.kimaCard.Id) ? 'disabled title="לא אותר מקום כימה"' : ''}>${ACT_LABELS[a] || a}</button>`).join('')}
+    </div>
+    <div class="rename" id="renameFields" ${NEEDS_RENAME.has(d.decision) ? '' : 'hidden'}>
+      <label>כותרת לרשומה הנכנסת (A):</label>
+      <input id="sugNew" dir="rtl" value="${selNewPre.replace(/"/g, '&quot;')}">
+      <label>כותרת לרשומה הקיימת בכימה (B):</label>
+      <input id="sugExisting" dir="rtl" value="${selExistPre.replace(/"/g, '&quot;')}">
+    </div>
+    <div class="mergeinfo" id="mergeInfo" ${d.decision === 'merge' ? '' : 'hidden'}>
+      במקום כימה <b dir="ltr">${(c.kimaCard || {}).Id || '—'}</b> יוחלף מזהה ה־NLI
+      <b dir="ltr">${(c.kimaCard || {}).MAZAL_ID || '—'}</b> במזהה הנכנס <b dir="ltr">${c.recordId}</b>.
+      שמות הרשומה הישנה נשמרים כווריאנטים; שאר המידע בכימה נשמר.
     </div>
     <div class="rename" id="coordFields" ${d.decision === 'manual-coords' ? '' : 'hidden'}>
       <label>Latitude (רוחב):</label>
@@ -355,39 +505,7 @@ function actionBar(c) {
     <div class="savebar">
       <button id="save">שמור והמשך</button>
       <button class="clear" id="clearDec">נקה החלטה</button>
-      <span class="saved" id="savedMsg">${d.decision ? 'נשמר: ' + (ACT_LABELS[d.decision] || d.decision) + ' (' + (d.timestampUtc || '') + ')' : ''}</span>
-    </div>
-  </div>`;
-  }
-  return `
-  <div class="actions">
-    <h3>החלטה על הזוג</h3>
-    <div class="actbtns">
-      <button data-act="nli-duplicate" ${d.decision === 'nli-duplicate' ? 'class="sel"' : ''}>כפילות ב־NLI → לדוח</button>
-      <button data-act="rename-suggestion" ${d.decision === 'rename-suggestion' ? 'class="sel"' : ''}>הצעת שינוי שם (הבחנה)</button>
-      <button data-act="merge" ${d.decision === 'merge' ? 'class="sel"' : ''} ${c.kimaCard && c.kimaCard.Id ? '' : 'disabled title="לא אותר מקום כימה"'}>מיזוג — החלפת NLI-ID</button>
-      <button data-act="data-problem" ${d.decision === 'data-problem' ? 'class="sel"' : ''}>בעיה בנתונים — לדווח</button>
-      <button data-act="research" class="act-research ${d.decision === 'research' ? 'sel' : ''}">🔍 דורש דיסאמביגואציה</button>
-      <button data-act="skip" ${d.decision === 'skip' ? 'class="sel"' : ''}>דלג</button>
-    </div>
-    <div class="rename" id="renameFields" ${d.decision === 'rename-suggestion' ? '' : 'hidden'}>
-      <label>שם מוצע לרשומה הנכנסת:</label>
-      <input id="sugNew" dir="rtl" value="${selNew.replace(/"/g, '&quot;')}">
-      <label>שם מוצע לרשומה הקיימת:</label>
-      <input id="sugExisting" dir="rtl" value="${selExisting.replace(/"/g, '&quot;')}">
-    </div>
-    <div class="mergeinfo" id="mergeInfo" ${d.decision === 'merge' ? '' : 'hidden'}>
-      במקום כימה <b dir="ltr">${(c.kimaCard || {}).Id || '—'}</b> יוחלף מזהה ה־NLI
-      <b dir="ltr">${(c.kimaCard || {}).MAZAL_ID || '—'}</b> (שאינו תקף עוד)
-      במזהה הנכנס <b dir="ltr">${c.recordId}</b>.
-      כל שאר המידע בכימה נשמר כפי שהוא.
-    </div>
-    ${wdBlock(c, d)}
-    <textarea id="note" placeholder="הערה (לא חובה)">${d.note || ''}</textarea>
-    <div class="savebar">
-      <button id="save">שמור והמשך</button>
-      <button class="clear" id="clearDec">נקה החלטה</button>
-      <span class="saved" id="savedMsg">${d.decision ? 'נשמר: ' + (ACT_LABELS[d.decision] || d.decision) + ' (' + (d.timestampUtc || '') + ')' : ''}</span>
+      <span class="saved" id="savedMsg">${saved}</span>
     </div>
   </div>`;
 }
@@ -404,12 +522,13 @@ async function saveDecision(c, decision) {
   const body = {
     recordId: c.recordId,
     decision,
-    suggestedNewName: decision === 'rename-suggestion' ? document.getElementById('sugNew').value.trim() : '',
-    suggestedExistingName: decision === 'rename-suggestion' ? document.getElementById('sugExisting').value.trim() : '',
+    suggestedNewName: NEEDS_RENAME.has(decision) ? document.getElementById('sugNew').value.trim() : '',
+    suggestedExistingName: NEEDS_RENAME.has(decision) ? document.getElementById('sugExisting').value.trim() : '',
     manualLat: decision === 'manual-coords' ? document.getElementById('manLat').value.trim() : '',
     manualLon: decision === 'manual-coords' ? document.getElementById('manLon').value.trim() : '',
     correctWd: currentWd(),
     forGili: !!((c.decision || {}).forGili),
+    forNli: !!((c.decision || {}).forNli),
     note: document.getElementById('note').value.trim(),
   };
   if (body.correctWd && !/^Q\d+$/.test(body.correctWd)) {
@@ -428,7 +547,9 @@ async function saveDecision(c, decision) {
   const res = await r.json();
   c.decision = res.decision;
   const row = cases.find(x => x.recordId === c.recordId);
-  if (row) row.decision = decision;
+  if (row) { row.decision = decision; row.forNli = !!(res.decision || {}).forNli; row.forGili = !!(res.decision || {}).forGili; }
+  if (tasks[c.task]) tasks[c.task].undecided = rawCases.filter(x => x.task === c.task && !x.decision).length;
+  renderTabs(); renderFlagFilter();
   return true;
 }
 
@@ -465,11 +586,15 @@ async function render() {
 
   // a different NLI id owning the heading in Kima is the alarming case — red
   const catCls = c.category === 'dup-places-diff' ? 'badge cat catbad' : 'badge cat';
-  let metaBadges = `<span class="${catCls}">${CAT_LABELS[c.category] || c.category}</span>
+  let metaBadges = `<span class="badge cat" title="${(taskInfo[c.task] || {}).title || ''}">${c.task}</span>
+    <span class="${catCls}">${CAT_LABELS[c.category] || c.category}</span>
     <span class="badge">${c.period}</span>
     <span class="badge">${c.isNew ? 'רשומה חדשה' : 'עדכון רשומה'}</span>`;
   if (c.distanceKm != null) metaBadges += `<span class="badge dist">מרחק: ${c.distanceKm} ק״מ</span>`;
-  if (c.stale) metaBadges += `<span class="badge stale" title="הרשומה אינה מופיעה בדוח הריצה הנוכחית; שוחזרה מ־${c.sourceFile || 'backup/'}">↺ לא בריצה הנוכחית</span>`;
+  if (c.stale) metaBadges += `<span class="badge stale" title="הרשומה אינה מופיעה בדוחות הנוכחיים; מקור: ${c.sourceFile || ''}">↺ לא בדוחות הנוכחיים</span>`;
+  if (c.oai) metaBadges += `<span class="badge oai-${c.oai.status}" title="${c.oai.checkedUtc || ''}">Alma OAI: ${c.oai.status}</span>`
+    + (c.oai.bId ? `<span class="badge oai-${c.oai.bStatus || 'error'}">OAI של B (${c.oai.bId}): ${c.oai.bStatus || '?'}</span>` : '');
+  if (c.decision && c.decision.forNli) metaBadges += `<span class="badge warn">🏛 לספרייה</span>`;
   if (c.blockingMazal) metaBadges += `<span class="badge stale">חוסם: <a href="https://www.nli.org.il/he/authorities/${c.blockingMazal}" target="_blank" dir="ltr">${c.blockingMazal}</a></span>`;
   if (c.category === 'dup-places-diff' && c.kimaMazal)
     metaBadges += `<span class="badge warn">מזהה NLI בכימה: <a href="https://www.nli.org.il/he/authorities/${c.kimaMazal}" target="_blank" dir="ltr">${c.kimaMazal}</a></span>`;
@@ -483,7 +608,7 @@ async function render() {
   {
     const dec = (c.decision || {}).decision;
     const flagged = !!(c.decision || {}).forGili;
-    const rr = (c.category === 'location-move' || c.category === 'multi-034') ? `
+    const rr = (c.task || '').startsWith('B') ? `
       <button class="qt-region ${dec === 'region' ? 'sel' : ''}" data-qt="region" title="תיוג כאזור ומעבר למקרה הבא">
         <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M2.5 19 L9 6.5 L12.6 13 L15.5 8.5 L21.5 19 Z"/><circle cx="17.5" cy="5.5" r="1.7"/></svg>
         אזור</button>
@@ -494,6 +619,8 @@ async function render() {
       <button class="qt-flag ${flagged ? 'sel' : ''}" id="flagGili" title="סימון לתשומת ליבו של גילי — נשמר מיד">
         <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M5 3 L5 21 M5 3 h11 l-2.5 4 L16 11 H5" stroke="currentColor" stroke-width="2" fill="none" stroke-linejoin="round"/></svg>
         לגילי</button>
+      <button class="qt-nli ${(c.decision || {}).forNli ? 'sel' : ''}" id="flagNli" title="סימון לדוח לספרייה — נשמר מיד">🏛 לספרייה</button>
+      <button class="qt-oai" id="oaiCheck" title="בדיקה חיה מול Alma OAI-PMH">🔎 OAI</button>
     </span>`;
   }
 
@@ -558,6 +685,7 @@ async function render() {
     ${hasMap ? '<div id="map"></div><div class="maplegend">NLI נכנס<span class="dotnew"></span> · כימה כעת<span class="dotkima"></span>' +
       (c.category === 'location-move' ? ' · לחיצה על המפה מציבה סיכת מיקום ידני 📍' : '') + '</div>' : ''}
     <div class="pair">${newCard}${kimaCard}</div>
+    ${proposalPanel(c)}
     ${researchPanel(c)}
     ${actionBar(c)}
     <div class="msg">${c.messages.map(m => m.replace(/</g, '&lt;')).join('<br>')}</div>`;
@@ -567,26 +695,40 @@ async function render() {
   if (hasMap) renderMap(n.coords || null, (k && k.lat != null) ? [k.lat, k.lon] : null,
     { manual: savedManual, enablePin: c.category === 'location-move' });
 
-  // "for Gili" flag: toggles and saves immediately, stays on the case
-  const flagBtn = document.getElementById('flagGili');
-  if (flagBtn) flagBtn.onclick = async () => {
+  // flags: toggle and save immediately, stay on the case (no full re-render —
+  // that would reset scroll and map)
+  const toggleFlag = async (key) => {
     const d = c.decision || {};
     const body = { recordId: c.recordId, decision: d.decision || '',
       suggestedNewName: d.suggestedNewName || '', suggestedExistingName: d.suggestedExistingName || '',
       manualLat: d.manualLat || '', manualLon: d.manualLon || '', correctWd: d.correctWd || '',
-      note: d.note || '', forGili: !d.forGili };
+      note: d.note || '', forGili: !!d.forGili, forNli: !!d.forNli };
+    body[key] = !d[key];
     const r = await fetch('/api/decision', { method: 'POST',
       headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) });
     c.decision = (await r.json()).decision;
-    const on = !!(c.decision || {}).forGili;
     const row = cases.find(x => x.recordId === c.recordId);
-    if (row) row.forGili = on;
-    // update in place — a full render() would rebuild the card and reset scroll,
-    // and unlike אזור/נהר this tag must not move off the current case
-    flagBtn.classList.toggle('sel', on);
+    if (row) { row.forGili = !!(c.decision || {}).forGili; row.forNli = !!(c.decision || {}).forNli; }
+    document.getElementById('flagGili').classList.toggle('sel', !!(c.decision || {}).forGili);
+    document.getElementById('flagNli').classList.toggle('sel', !!(c.decision || {}).forNli);
     const badge = document.getElementById('giliBadge');
-    if (badge) badge.hidden = !on;
+    if (badge) badge.hidden = !(c.decision || {}).forGili;
     renderFlagFilter();
+  };
+  document.getElementById('flagGili').onclick = () => toggleFlag('forGili');
+  document.getElementById('flagNli').onclick = () => toggleFlag('forNli');
+  document.getElementById('oaiCheck').onclick = async (e) => {
+    e.target.textContent = '…';
+    const res = await (await fetch('/api/oai/' + c.recordId + '?force=1')).json();
+    c.oai = res;
+    const row = cases.find(x => x.recordId === c.recordId);
+    if (row) row.oai = res.status;
+    delete detailCache[c.recordId]; render();
+  };
+  const acc = document.getElementById('acceptProposal');
+  if (acc) acc.onclick = () => {
+    const b = main.querySelector(`.actbtns button[data-act="${acc.dataset.act}"]`);
+    if (b) { b.click(); b.scrollIntoView({ block: 'center', behavior: 'smooth' }); }
   };
 
   // quick-tag buttons: save and advance in one click
@@ -616,7 +758,8 @@ async function render() {
       const el = document.getElementById(id);
       if (el) el.hidden = pendingAct !== act;
     };
-    toggle('renameFields', 'rename-suggestion');
+    const rf = document.getElementById('renameFields');
+    if (rf) rf.hidden = !NEEDS_RENAME.has(pendingAct);
     toggle('mergeInfo', 'merge');
     toggle('coordFields', 'manual-coords');
   });
@@ -653,6 +796,15 @@ document.getElementById('firstUndecided').onclick = () => {
   cb.onchange = () => {
     onlyFlagged = cb.checked;
     localStorage.setItem('onlyFlagged', onlyFlagged ? '1' : '0');
+    idx = 0; applyFilters();
+  };
+}
+{
+  const cb = document.getElementById('onlyNliCb');
+  cb.checked = onlyNli;
+  cb.onchange = () => {
+    onlyNli = cb.checked;
+    localStorage.setItem('onlyNli', onlyNli ? '1' : '0');
     idx = 0; applyFilters();
   };
 }

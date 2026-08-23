@@ -1,0 +1,75 @@
+# Issue categories — who does what
+
+Written 2026-08-23. Consolidates `app/dup-classification.md` (68 duplicate-heading cases),
+`app/move-analysis.md` (525 coordinate-change cases), `REVIEW-PLAN.md`, `app/tier-vocabulary.md`
+and `nli-malformed-coordinates-report_20260822.md`. Issue numbers refer to
+DigitalHDev/NLI-Update-Reports.
+
+Columns: **Problem** — what is actually wrong · **Ask from NLI** — the library-facing request (— if none) ·
+**Gil / runner** — change to the pipeline or mechanical Kima action (— if none) ·
+**Sinai — manual / to explore** — what still needs my hand or further digging.
+
+## A. Duplicate-heading pile (`dup-places-diff`, `dup-variants`)
+
+| # | Title | n | Problem | Ask from NLI | Gil / runner | Sinai — manual / to explore |
+|---|---|---:|---|---|---|---|
+| A1 | Same-record variant collision (`same-id`) | 145 | The "duplicate variant" is inside one record: Kima already points at that NLI id, and the importer tried to *insert* a variant that is already there. Pure reporting artefact. | — | **#5** — upsert variants instead of insert; never report a same-id collision. | Dismiss all 145 in the app (bulk). Nothing to explore. |
+| A2 | Heading drift (self-collision after rename) | 25 | Kima holds A's id; only the Hebrew heading spelling changed upstream (שוודיה/שבדיה, ראוניון/ריוניון). No second record exists. | — | Mechanical: adopt NLI's heading, keep Kima's old one as a Hebrew variant. Also falls under #5/#6 — runner should apply a heading rename as an update, not raise a duplicate. | Verify the self-collision reading on a sample (the runner never said *which* place collided). |
+| A3 | Suppressed ids Kima still holds (`kima-id-suppressed`) | 7 | NLI merged/withdrew the record (IIIF HTTP 500); Kima is bound to the dead id while the feed announced the successor. **Confirmed 2026-08-23: Alma OAI answers all 7 with `<header status="deleted">`** — OAI *does* expose deletions. | **A1 ask, narrowed:** IIIF's HTTP 500 is a bug; successor linkage (`682`/redirect) would still help. The deletion channel itself exists in OAI. | **#3/#9** — check ids via OAI; treat `deleted` as suppressed → successor search; `ListRecords from=` enumerates weekly deletions. Mechanical now: repoint the 7 (דרום סודאן pattern), keep old names as variants. | Done (all 7 `deleted`, all successors `live`). Press "repoint" on each in the app. |
+| A4 | Administrative-tier collisions — already disambiguated in Kima | 14 | NLI's Hebrew `151` for the oblast/kraj/voivodeship is identical to the town's, because Hebrew flattens 45 Roman tiers into מחוז/פרובינציה (231 headings carry no tier at all). Kima already created tier-qualified headings, but the runner re-copies NLI's flat Hebrew every week → reported again every run. | **A2 ask:** apply the Roman uniqueness constraint to the Hebrew `151` too; adopt one fixed tier vocabulary (proposed table in `tier-vocabulary.md` §3a: מחוז / נפה / עיר-נפה / פלך / מחוז ממשל), qualifier form `X (country : tier)` not prefix `מחוז X`. These 14 are the worked examples. | **Runner rule:** if Kima's `PrimaryHebFull` differs from NLI's only by a `( … : tier)` qualifier, keep Kima's heading, store NLI's as a variant, don't raise a duplicate. | **Decide the Hebrew tier vocabulary** (curatorial call — the table is my proposal). Then normalise the 14 Kima headings to it (פרובינציה→מחוז, מחוז משנה→נפה, אובלסט→מחוז, עיריה→עירייה …). |
+| A5 | Tier pairs not yet in Kima (`tier-pair`) | 3 | Cottbus, Bydgoszcz, Potsdam — only one side exists in Kima; the incoming record needs a new place with a tiered heading. | Same as A4. | — | Create the 3 places with headings from the table (`suggestA`/`suggestB` columns). |
+| A6 | Pseudo-disambiguated in Kima | 2 | Weimar (Landkreis vs Stadtkreis separated by a yod), Suwałki (powiat vs gubernia separated by `,` vs `:`). Still ambiguous to a reader. | Same as A4. | — | Rename per table: ויימאר (גרמניה : נפה) / (עיר-נפה); סובאלק (פולין : נפה) / (פלך). |
+| A7 | Tier ambiguity leaking from the coordinate pile | ~5 | Mandya / Manica / Aisén / Zaporizhia / Far East: one heading, Kima's Wikidata is the district and NLI's is the town (or vice versa). Filed as `location-move` but really A4. | Same as A4 (additional examples). | — | Re-file these with the disambiguation pile; decide which entity the heading means; Far East needs `מחוז פדרלי`. |
+| A8 | Genuine Hebrew homographs (`distinct-homonym`) | 7 | Different places whose Hebrew transliteration coincides: Kaba/Káva, Ehningen/Eningen, Osterwieck/Osterwick, Hochstätten/Hochstetten, Lüben/Lübben, Cherniïv/Chernihiv, Ishigaki-shi/Island. | **A2 ask (second kind):** add a finer qualifier or distinct spelling on the Hebrew side. | — | Case by case: propose the Hebrew distinction for each; Osterwick is a hamlet — decide whether to merge in Kima and report. |
+| A9 | NLI heading error — Trabzon | 1 | Record is `Ardeşen (Turkey)` but its Hebrew heading is טרבזון, a different town 108 km away. | **A3 errata:** correct the Hebrew heading. | — | — |
+| A10 | NLI internal duplicates (`same-entity`) | 3 (+~3) | Two authorities carry the same QID: El Albaicín/Albaicín, Moshavah ha-Yevanit/Greek Colony (transliteration vs translation), Dobrich/Tolbukhin (1949–90 name). Possibly also Vlorë/Bashkia e Vlorës, Tulkarem/Sub-District. | **A3 errata:** flag as *possible* duplicates; ask whether Tolbukhin is intended as a historical heading (`551`). | Kima keeps one id, stores the other's names as variants. | Check `551` on Dobrich; decide which id Kima keeps. Bobigny/Bouvignies is *not* a duplicate — report as coordinate error instead (B3). |
+| A11 | Unresolved collisions | 6 | Planes, Kharkiv raion, Dalian Shi, Bohemia (Kingdom), Trzebicz, Chernivtsi oblast — no Kima place owns the heading or holds the id; the collision partner is probably under a Hebrew form the lookup didn't try. | — | **#6** — duplicate reports must name both sides (incoming id, colliding heading, owning Kima place, its MAZAL_ID, script). Would have made these trivial. | Look up by hand in Kima. |
+| A12 | Same-script name drift (Kima stale copy) | 64 | Kima's stored form differs from NLI's current `151` in the same script (ביסטראןןיץ vs ביסטרוביץ). Mostly Kima holding an older authority file, sometimes an NLI typo. | Only the cases where NLI's *current* form is malformed → A3 errata. | Runner should compare like script with like (heb↔heb, rom↔lat, ara↔ara) — cross-script comparison is what generates false drift hits. | Attribute each case (Kima stale vs NLI error) before anything goes out. |
+| A13 | Repoint blocked by another MAZAL_ID | 12 | Incoming record wants a Kima place that another NLI id already owns. | — | Report both ids (#6). | Manual: decide which id the place belongs to; the other may be an NLI duplicate (→ A10). |
+
+## B. Coordinate-change pile (`location-move`, `multi-034`, `bad-geography`)
+
+| # | Title | n | Problem | Ask from NLI | Gil / runner | Sinai — manual / to explore |
+|---|---|---:|---|---|---|---|
+| B1 | Multi-034 false move | 335 | Record has ≥2 coordinate sets; one already matches Kima within 1 km, but the runner compared only the first. | — | **#4** — compare Kima's point against *all* `034` sets before reporting a move. | Dismiss all 335 in bulk. Open question for Gil: is 1 km the right tolerance? |
+| B2 | Extended feature (river / region / range) | 256 | Two legitimate points for a feature with extent; NLI's lies within the feature's Wikidata extent or its own bounding box. | — | Apply NLI's point (decided 2026-08-22). Runner could suppress moves where the record's `034` is a box and Kima's point lies inside it. | Eyeball the 56 medium/low-confidence ones. |
+| B3 | NLI coordinates wrong | 106 | Wikidata agrees with Kima; NLI's point stands alone — often NLI picked the wrong homonym itself (Phoenicia NY, Goraj, Kassel 1° south, Bobigny/Bouvignies). | **A3 errata (coordinates):** list of ids with NLI's point, Wikidata's point, and distance. High-confidence 60 only at first. | Keep Kima's point. | Review the 46 medium ones (NLI's point is alone but unrefuted) before including them in the report. |
+| B4 | `034` fraction lost a leading zero | 45 | `gooearth` boxes where one subfield's fraction is one digit short (`051.2005175`/`051.836979`); centre lands far off. Mechanical NLI data bug. | **A3 errata:** send the list with corrected values (`fix034` column). | Keep Kima's point; detector exists in `classify_moves.py` and could run in the runner. | — |
+| B5 | Box crosses the antimeridian | 1 | `$d 057.13 $e -168.99` → runner's `(d+e)/2` gives −56°, 6,376 km off. | — | Runner bug: wrap longitudes before averaging. | — |
+| B6 | Kima bound to wrong homonym (`homonym → apply-new`, `kima-geonames-wrong`, `kima-wd-wrong`) | 46 | Kima holds a same-named place from another continent (Linden NJ → Linden, Guyana; Geneva NY; Boston Harbor). NLI's WD sits on NLI's point, heading has a qualifier, move ≥500 km. | — | Apply NLI's coordinates and fix Kima's GeoNames/WD ids. Runner rule: >500 km + external-id mismatch = **link error, not move** → relink. | 5-minute eyeball of the TSV; the 7 `kima-wd-wrong` near-synonyms (Stanislav→Ivano-Frankivsk, Azerbaijan→Atropatene) need a look. |
+| B7 | Kima coordinates simply wrong | 9 | Kima's point disagrees with both NLI and Kima's own Wikidata entity. | — | Apply NLI (auto). | — |
+| B8 | Homonym — both legitimate, which did NLI mean? | 23 | Both entities match the name and sit on their own point (Falkenberg, Channel Islands Calif., Thousand Islands). | Possibly a clarifying question per case, if the heading is ambiguous on NLI's side. | — | **Research**, with both QIDs side by side in `move-analysis.tsv`. |
+| B9 | No Wikidata witness (`no-wd`) | 34 | Nothing to arbitrate with (Schopfloch, Berguent, Bököny 8,126 km). The >1,000 km ones are almost certainly wrong Kima points. | — | — | **Research** by hand; for >1,000 km default to NLI unless a source says otherwise. |
+| B10 | Wikidata disagrees with both / NLI's WD wrong | 3 + 2 | `wd-disagrees` (3): three different points. `nli-wd-wrong` (2): NLI's `024` Wikidata id points at the wrong entity. | **A3 errata:** the 2 wrong `024` QIDs. | — | Look at the 3. |
+| B11 | Malformed `034` across the authority file | 957 | Live NLI MARC: DMS missing leading zero (~730), incomplete point (~300), spaces (~125), decimal degrees in DMS slot (~35), hemisphere-only templates (7), hemisphere after digits (4). Not batch-specific (BEB 202509, css 202507/08 largest). | **Separate errata report** (already drafted: `nli-malformed-coordinates-report_20260822.md/.csv`) with `suggested_034` where mechanical. | Runner's parser should accept the 18 valid-per-MARC forms it currently rejects (`W77.4874899`), and pad short DMS itself rather than fail. | Decide whether to send as one list or only the ~730 mechanical ones first. |
+| B12 | Broken geography (`bad-geography`) | 3 | Malformed geometry rejected by the DB (e.g. Saint Privat `01256.88 / 451335.04`). Subset of B11. | Included in B11. | Same as B11. | — |
+
+## C. Record-availability pile (`nli-gone-*`, `missing-marc`)
+
+| # | Title | n | Problem | Ask from NLI | Gil / runner | Sinai — manual / to explore |
+|---|---|---:|---|---|---|---|
+| C1 | Ids "not served" — IIIF coverage gap | 93 (+16) | The IIIF MARC endpoint never carried 77 of these records and returned transient 520s for 16; all 93 fetch fine via Alma OAI-PMH. **Not** deletions; Kima must not unlink. | (Optional) tell NLI that `iiif.nli.org.il/.../marc/authority` has incomplete coverage and reports missing records as "does not exist". | **#9** — fetch MARC via Alma OAI (`metadataPrefix=marc21`); retry 520s (#8). Never infer deletion from an IIIF miss. | Dismiss all 93 in the app (pending my confirmation — `decisions.json` untouched). Check whether any `missing-marc` (18) remain after OAI. |
+| C2 | Real deletions/merges are invisible | ? | The feed announces new/updated ids only; merges and suppressions are never announced. Only A3's 7 are known; the true count is unknown. | **A1 ask** (same as A3). | #3 — live/absent/suppressed states. | Once OAI is in place, sweep all Kima NLI ids through OAI to find the real suppressed set. |
+
+## D. Runner / report-shape issues (not data)
+
+| # | Title | Problem | Ask from NLI | Gil / runner | Sinai — manual / to explore |
+|---|---|---|---|---|---|
+| D1 | Reprocessing loop | After the main pass the runner re-executes the first-completed batch repeatedly; 20260727 wasted 51,888 entries / ~6.5 h. `numModified`/`numNew` counters inflated in 6 periods. | — | **#8** — find the non-converging post-pass (log: `Fetched 515 items but expected 516`) or Durable-Functions redelivery; needs App Insights log for instance `12d0827c…`. | Always dedupe by recordId before quoting counts; ask Gili for the log. |
+| D2 | Prose rows, no stable keys | `categorize()` regexes English phrases and a raw SQL duplicate-key string; re-runs overwrite files so rows vanish and decisions orphan; ~20% run-to-run churn. | — | **#6** structured fields; **#7** stable `(recordId, kimaPlaceId, category)` keys with `firstSeenRun`/`lastSeenRun`; a versioned `REPORT-SPEC.md`. | Ask Gil whether the 20% churn is NLI change or non-determinism. Raise REPORT-SPEC as a way-of-working question. |
+| D3 | No proposed action / confidence per row | The report states problems; a reviewer needs proposals to accept or reject. | — | Add `suggestedAction` + `confidence` (the classifiers in `app/classify_*.py` show the rules). | Decide whether classification lives in the runner or stays in my app. |
+| D4 | Hebrew-heading gate limits coverage | ~32,000 candidates rejected for "034 valid but no Hebrew heading", ~13,000 for "no 034". Structural, not a bug. | Possibly: ask how many place authorities lack a Hebrew `151` by design. | — | Decide whether Kima wants Roman-only places. |
+| D5 | Review app shape | Flat category list, one card at a time, misleading `stale` flag, single decisions file. | — | — | Redesign (REVIEW-PLAN §d): Auto / Review / Outbound queues, bulk actions with rule preview, `lastSeenRun` + `beyondRerunCutoff`, three exports (`kima-apply.tsv`, `nli-report.tsv`, `runner-bugs.md`). |
+
+## E. Positive deliverable
+
+| # | Title | Problem | Ask from NLI | Gil / runner | Sinai — manual / to explore |
+|---|---|---|---|---|---|
+| E1 | Earlier headings (`551 $w a`) as Kima variants | Transjordan→ירדן, Dutch East Indies→אינדונזיה, Ruanda-Urundi→רואנדה+בורונדי — free historical variants that `server.py` currently drops. | — | Import `551 $w a` as dated variants. | Harvest across the corpus (`analyze_dups.py` already parses 551); decide the variant typing. |
+
+## Order of outbound messages to NLI
+
+1. **A1** deletion/succession channel + HTTP 500 (A3, C2) — independent, stops recurrence.
+2. **A2** Hebrew uniqueness + tier vocabulary (A4–A8), after I settle the vocabulary.
+3. **A3** errata, high-confidence only: Trabzon (A9), same-entity (A10), wrong coordinates (B3 high, B4, B10).
+4. **B11** malformed-`034` list, as its own report.
