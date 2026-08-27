@@ -113,6 +113,7 @@
                      padding: .7rem 1.2rem; margin-top: 1rem; }
   details.research summary { cursor: pointer; font-size: .9rem; color: var(--muted); font-weight: 600; }
   .tab.auto { opacity: .6; font-style: italic; }
+  .badge.home { background: #6b4ea8; color: #fff; }
   .research .rgroup { margin: .6rem 0 .2rem; font-size: .78rem; color: var(--muted); }
   .research a { display: inline-block; font-size: .84rem; border: 1px solid var(--line);
                 border-radius: 8px; padding: .22rem .6rem; margin: .15rem;
@@ -556,7 +557,21 @@ async function saveDecision(c, decision) {
   c.decision = res.decision;
   const row = cases.find(x => x.recordId === c.recordId);
   if (row) { row.decision = decision; row.forNli = !!(res.decision || {}).forNli; row.forGili = !!(res.decision || {}).forGili; }
-  if (tasks[c.task]) tasks[c.task].undecided = rawCases.filter(x => x.task === c.task && !x.decision).length;
+  // "research" moves the case out of the queue it was found in and into R,
+  // keeping homeTask as the record of where it came from.
+  const wasTask = c.task;
+  const newTask = decision === 'research' ? 'R' : (c.homeTask || c.task);
+  if (newTask !== c.task) {
+    [c, row].forEach(x => { if (x) x.task = newTask; });
+    const raw = rawCases.find(x => x.recordId === c.recordId);
+    if (raw) raw.task = newTask;
+  }
+  [wasTask, newTask].forEach(k => {
+    if (tasks[k]) {
+      tasks[k].n = rawCases.filter(x => x.task === k).length;
+      tasks[k].undecided = rawCases.filter(x => x.task === k && !x.decision).length;
+    }
+  });
   renderTabs(); renderFlagFilter();
   return true;
 }
@@ -594,7 +609,10 @@ async function render() {
 
   // a different NLI id owning the heading in Kima is the alarming case — red
   const catCls = c.category === 'dup-places-diff' ? 'badge cat catbad' : 'badge cat';
-  let metaBadges = `<span class="badge cat" title="${(taskInfo[c.task] || {}).title || ''}">${c.task}</span>
+  const homeBadge = (c.task === 'R' && c.homeTask && c.homeTask !== 'R')
+    ? `<span class="badge home" title="הקטגוריה שממנה נפתח: ${(taskInfo[c.homeTask] || {}).title || ''}">↩ ${c.homeTask}</span>`
+    : '';
+  let metaBadges = `<span class="badge cat" title="${(taskInfo[c.task] || {}).title || ''}">${c.task}</span>${homeBadge}
     <span class="${catCls}">${CAT_LABELS[c.category] || c.category}</span>
     <span class="badge">${c.period}</span>
     <span class="badge">${c.isNew ? 'רשומה חדשה' : 'עדכון רשומה'}</span>`;

@@ -138,6 +138,14 @@ TASKS = {
              bulk='dismiss', bulkConf=None, oai=True,
              desc='נקודת הקצה IIIF מעולם לא נשאה 77 מהרשומות ו־16 היו 520 חולפים; כולן נמשכות מ־Alma OAI. לא מחיקות — אין לנתק בכימה. לבדוק ב־OAI ולבטל.',
              gil='#9 — למשוך MARC מ־OAI; לנסות שוב 520 (#8).', nli='(אופציונלי) IIIF מדווח "לא קיים" על רשומות חיות.'),
+  'R': dict(group='ר', title='למחקר — נפתח מקטגוריה אחרת', buttons=['research', 'skip'],
+            bulk=None, bulkConf=None, research=True,
+            desc='מקרים שסומנו "למחקר" בעת סקירת קטגוריה אחרת. הם יצאו מהתור המקורי כדי שלא '
+                 'ייספרו שם כטרם־הוכרעו, והתג שלצד כל מקרה מראה מאיזו קטגוריה הגיע. '
+                 'ברוב המקרים הבעיה שנמצאה אינה הבעיה שהקטגוריה עוסקת בה — למשל קואורדינטות '
+                 'שגויות שהתגלו תוך כדי בדיקת סחיפת כותרת. אחרי ההכרעה יש להעביר את המקרה '
+                 'ליעד הנכון (רשימת שגיאות ל־NLI, תיקון בכימה וכו\').',
+            gil='', nli=''),
   'D5': dict(group='ד', title='סוננו אוטומטית — רעש של ההרצה', buttons=[], bulk=None, bulkConf=None,
              auto=True,
              desc='התנגשות וריאנט בתוך אותה רשומה (same-id): כימה כבר מצביעה על מזהה ה־NLI הזה, '
@@ -174,10 +182,15 @@ def tier_normalize(h):
     return h
 
 
-def task_of(case, proposal, dupinfo=None):
+def task_of(case, proposal, dupinfo=None, decision=None):
     cat = case['category']
     if cat == 'orphan-decision':
         return 'Z'
+    # A "research" verdict means: the problem found here is not the problem this
+    # queue is about. Move it out so it stops counting as undecided where it was
+    # first seen; `homeTask` remembers where it came from.
+    if decision == 'research':
+        return 'R'
     # A1 / issue #5: a variant colliding with its own earlier import. Pipeline
     # noise, never a review task — auto-filtered into D5 rather than queued.
     if dupinfo and dupinfo.get('verdict') == 'same-id':
@@ -383,8 +396,11 @@ class Data:
 
     def _assign_tasks(self):
         for c in self.cases:
-            c['task'] = task_of(c, self.proposal_of(c['recordId']),
-                                self.dupinfo.get(c['recordId']))
+            rid = c['recordId']
+            prop, di = self.proposal_of(rid), self.dupinfo.get(rid)
+            c['homeTask'] = task_of(c, prop, di)
+            c['task'] = task_of(c, prop, di,
+                                (self.decisions.get(rid) or {}).get('decision'))
 
     # -- MARC from the analyze_dups disk cache for cases no report carries ---
     def _load_marc_cache(self):
@@ -1002,7 +1018,7 @@ class Handler(BaseHTTPRequestHandler):
                           for k in TASKS},
                 'taskInfo': TASKS,
                 'cases': [{**{k: c[k] for k in ('recordId', 'period', 'category',
-                                                'isNew', 'dupKey', 'manualAction', 'task')},
+                                                'isNew', 'dupKey', 'manualAction', 'task', 'homeTask')},
                            'stale': c.get('stale', False),
                            'decision': dec(c).get('decision'),
                            'forGili': dec(c).get('forGili', False),
