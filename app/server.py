@@ -138,6 +138,15 @@ TASKS = {
              bulk='dismiss', bulkConf=None, oai=True,
              desc='נקודת הקצה IIIF מעולם לא נשאה 77 מהרשומות ו־16 היו 520 חולפים; כולן נמשכות מ־Alma OAI. לא מחיקות — אין לנתק בכימה. לבדוק ב־OAI ולבטל.',
              gil='#9 — למשוך MARC מ־OAI; לנסות שוב 520 (#8).', nli='(אופציונלי) IIIF מדווח "לא קיים" על רשומות חיות.'),
+  'D5': dict(group='ד', title='סוננו אוטומטית — רעש של ההרצה', buttons=[], bulk=None, bulkConf=None,
+             auto=True,
+             desc='התנגשות וריאנט בתוך אותה רשומה (same-id): כימה כבר מצביעה על מזהה ה־NLI הזה, '
+                  'וההרצה ניסתה להוסיף וריאנט שכבר קיים. אין כאן בעיית נתונים — זהו רעש שההרצה '
+                  'מייצרת על עצמה, ולכן השורות האלה אינן נכנסות לתור לביקורת ואין להכריע בהן. '
+                  'גיל ענה ב־#5 (13.8.2026) "Using merge instead of insert" — התיקון הנכון. '
+                  'הקטגוריה נשארת כאן כמד פריסה: כל עוד המספר גדל מדוח לדוח, התיקון טרם עלה לאוויר; '
+                  'כשהוא מתייצב — הוא עלה, ואפשר להסיר את הסינון הזה לגמרי.',
+             gil='#5 — merge במקום insert. פתוח; לא אושר שנפרס.', nli=''),
   'Z': dict(group='', title='הוחלט — לא בדוח הנוכחי', buttons=['research', 'skip'], bulk=None, bulkConf=None,
             desc='ההחלטה נשמרה בריצה קודמת; הרשומה אינה מופיעה עוד באף דוח.', gil='', nli=''),
 }
@@ -165,10 +174,14 @@ def tier_normalize(h):
     return h
 
 
-def task_of(case, proposal):
+def task_of(case, proposal, dupinfo=None):
     cat = case['category']
     if cat == 'orphan-decision':
         return 'Z'
+    # A1 / issue #5: a variant colliding with its own earlier import. Pipeline
+    # noise, never a review task — auto-filtered into D5 rather than queued.
+    if dupinfo and dupinfo.get('verdict') == 'same-id':
+        return 'D5'
     if cat in NLI_GONE or cat in ('missing-marc', 'other'):
         return 'C1'
     if cat == 'repoint-blocked':
@@ -370,7 +383,8 @@ class Data:
 
     def _assign_tasks(self):
         for c in self.cases:
-            c['task'] = task_of(c, self.proposal_of(c['recordId']))
+            c['task'] = task_of(c, self.proposal_of(c['recordId']),
+                                self.dupinfo.get(c['recordId']))
 
     # -- MARC from the analyze_dups disk cache for cases no report carries ---
     def _load_marc_cache(self):

@@ -112,6 +112,7 @@
   details.research { background: var(--card); border: 1px solid var(--line); border-radius: 12px;
                      padding: .7rem 1.2rem; margin-top: 1rem; }
   details.research summary { cursor: pointer; font-size: .9rem; color: var(--muted); font-weight: 600; }
+  .tab.auto { opacity: .6; font-style: italic; }
   .research .rgroup { margin: .6rem 0 .2rem; font-size: .78rem; color: var(--muted); }
   .research a { display: inline-block; font-size: .84rem; border: 1px solid var(--line);
                 border-radius: 8px; padding: .22rem .6rem; margin: .15rem;
@@ -248,12 +249,16 @@ function renderFlagFilter() {
 function renderTabs() {
   const t = document.getElementById('tabs');
   const total = Object.values(tasks).reduce((a, b) => a + b.n, 0);
-  const und = Object.values(tasks).reduce((a, b) => a + b.undecided, 0);
+  const und = Object.keys(tasks).reduce(
+    (a, k) => a + ((taskInfo[k] || {}).auto ? 0 : tasks[k].undecided), 0);
   t.innerHTML = '';
   const mk = (key, label, n, u) => {
+    const auto = (taskInfo[key] || {}).auto;
     const b = document.createElement('button');
-    b.className = 'tab' + (key === cat ? ' active' : '') + (n && !u ? ' done' : '');
-    b.innerHTML = `${label} ${n}${u ? ` <span class="und">(${u})</span>` : ' ✔'}`;
+    b.className = 'tab' + (key === cat ? ' active' : '') + (n && !u && !auto ? ' done' : '')
+                + (auto ? ' auto' : '');
+    b.innerHTML = auto ? `${label} ${n} ⓘ`
+                       : `${label} ${n}${u ? ` <span class="und">(${u})</span>` : ' ✔'}`;
     b.title = (taskInfo[key] || {}).title || '';
     b.onclick = () => { cat = key; idx = 0; loadList(); };
     t.appendChild(b);
@@ -277,7 +282,10 @@ function renderTaskHead() {
   const unchecked = ti.oai ? rawCases.filter(x => !x.oai) : [];
   const live = ti.oai ? rawCases.filter(x => x.oai === 'live').length : 0;
   el.className = 'taskhead';
-  el.innerHTML = `<h2>${cat} · ${ti.title} <span style="font-weight:normal;color:var(--muted)">— ${st.n} מקרים, ${st.undecided} טרם הוחלטו</span></h2>
+  const headCount = ti.auto
+    ? `— ${st.n} שורות סוננו, אין מה להכריע`
+    : `— ${st.n} מקרים, ${st.undecided} טרם הוחלטו`;
+  el.innerHTML = `<h2>${cat} · ${ti.title} <span style="font-weight:normal;color:var(--muted)">${headCount}</span></h2>
     <div>${ti.desc}</div>
     <div class="who">${ti.nli ? `<b>בקשה מהספרייה</b><span>${ti.nli}</span>` : ''}${ti.gil ? `<b>גילי / הרצה</b><span>${ti.gil}</span>` : ''}</div>
     <div class="bulk">
