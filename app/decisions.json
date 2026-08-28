@@ -73,7 +73,7 @@
   "manualLon": "",
   "correctWd": "",
   "note": "למזג",
-  "timestampUtc": "2026-08-28T07:42:40Z"
+  "timestampUtc": "2026-08-28T11:37:03Z"
  },
  "987013010638405171": {
   "decision": "skip",
@@ -96,7 +96,7 @@
   "manualLon": "",
   "correctWd": "",
   "note": "לדאוג שהצורה הפגומה ביסטראןןיץ לא נשמרת כווריאנט",
-  "timestampUtc": "2026-08-28T07:46:11Z"
+  "timestampUtc": "2026-08-28T11:36:54Z"
  },
  "987007507581905171": {
   "decision": "keep-existing",
@@ -1033,7 +1033,7 @@
   "manualLon": "",
   "correctWd": "",
   "note": "",
-  "timestampUtc": "2026-08-28T07:41:53Z"
+  "timestampUtc": "2026-08-28T11:36:34Z"
  },
  "987013405241405171": {
   "decision": "nli-duplicate",
@@ -1355,7 +1355,7 @@
   "manualLon": "",
   "correctWd": "",
   "note": "",
-  "timestampUtc": "2026-08-28T07:42:02Z"
+  "timestampUtc": "2026-08-28T11:36:41Z"
  },
  "987014197239905171": {
   "decision": "merge",
@@ -1367,7 +1367,7 @@
   "manualLon": "",
   "correctWd": "",
   "note": "",
-  "timestampUtc": "2026-08-28T07:42:20Z"
+  "timestampUtc": "2026-08-28T11:36:44Z"
  },
  "987012969512605171": {
   "decision": "merge",
@@ -2460,5 +2460,17 @@
   "correctWd": "",
   "note": "",
   "timestampUtc": "2026-08-28T11:29:59Z"
+ },
+ "987007553952905171": {
+  "decision": "merge",
+  "forGili": false,
+  "forNli": false,
+  "suggestedNewName": "",
+  "suggestedExistingName": "",
+  "manualLat": "",
+  "manualLon": "",
+  "correctWd": "",
+  "note": "",
+  "timestampUtc": "2026-08-28T11:42:32Z"
  }
 }
