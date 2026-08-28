@@ -933,15 +933,53 @@ def build_case(case):
 KIMA_DECISIONS = {'apply-new', 'merge', 'update-kima-heading', 'rename-kima-heading',
                   'create-place', 'manual-coords', 'dismiss'}
 
+# Every id-bearing column is paired with words; the same applies to a bucket code.
+BUCKET_WHY = {
+    'homonym': 'Kima is bound to a same-named place elsewhere — a link error, not a move',
+    'kima-wd-wrong': "Kima's Wikidata id points at the wrong entity",
+    'kima-geonames-wrong': "Kima's GeoNames id points at the wrong entity",
+    'kima-coords-wrong': "Kima's point disagrees with NLI and with Kima's own Wikidata",
+    'extended-feature': 'river/region/range — both points lie on the feature, no real move',
+    'nli-coords-wrong': "Wikidata backs Kima's point; NLI's stands alone",
+    'nli-034-dropped-zero': "NLI's 034 lost a leading zero in the fraction",
+    'nli-034-antimeridian': 'the 034 box crosses the antimeridian; the runner averaged it wrong',
+    'no-wd': 'no Wikidata entity to arbitrate with',
+    'wd-disagrees': 'Wikidata agrees with neither point',
+    'nli-wd-wrong': "NLI's own 024 Wikidata id points at the wrong entity",
+    'heading-drift': 'only the Hebrew spelling changed upstream; no second record',
+    'kima-id-suppressed': 'NLI withdrew the id Kima holds; the incoming record is its successor',
+    'already-disambiguated-in-kima': 'Kima already made a tier distinction NLI does not make',
+    'tier-pair': 'only one side of the tier pair exists in Kima',
+    'pseudo-disambiguated-in-kima': 'Kima distinguishes only by spelling or punctuation',
+    'distinct-homonym': 'genuinely different places whose Hebrew transliteration coincides',
+    'same-entity': 'two NLI records carrying the same Wikidata id',
+    'unresolved': 'the automatic lookup did not find the other side — it may still exist',
+    'same-id': 'a variant colliding with its own earlier import — pipeline noise',
+}
+
+
+def _is_kima_edit(r):
+    """A row is a Kima edit if its decision is one, or if it carries a concrete
+    correction to apply — a Wikidata id or manual coordinates. `keep-existing`
+    means "Kima's point is right, report NLI", but a correctWd on the same row is
+    still a Kima fix and must not be lost because the decision routed elsewhere."""
+    if r['decision'] in KIMA_DECISIONS:
+        return True
+    return bool((r.get('correct_wd') or '').strip()
+                or (r.get('manual_lat') or '').strip()
+                or (r.get('suggested_existing_name') or '').strip())
+
 
 def export_filtered(which):
-    """nli: rows flagged for the library; kima: rows that are Kima edits."""
+    """nli: rows flagged for the library; kima: rows that are Kima edits.
+
+    The two are not exclusive — a row can appear in both."""
     full = export_csv()
     rows = list(csv.DictReader(io.StringIO(full.lstrip('\ufeff'))))
     if which == 'nli':
         rows = [r for r in rows if r['for_nli'] == 'yes']
     else:
-        rows = [r for r in rows if r['decision'] in KIMA_DECISIONS]
+        rows = [r for r in rows if _is_kima_edit(r)]
     buf = io.StringIO()
     w = csv.DictWriter(buf, fieldnames=list(rows[0].keys()) if rows else ['decision'])
     w.writeheader()
@@ -951,6 +989,8 @@ def export_filtered(which):
 
 def export_csv():
     cols = ['decision', 'task', 'for_gili', 'for_nli', 'suggested_new_name', 'suggested_existing_name',
+            'classifier_bucket', 'classifier_reason', 'classifier_action',
+            'classifier_confidence', 'classifier_note', 'existing_geonames',
             'manual_lat', 'manual_lon', 'correct_wd', 'note',
             'decided_at', 'period', 'category', 'stale', 'source_file',
             'new_id', 'new_url', 'new_heb', 'new_rom', 'new_ara',
@@ -968,6 +1008,7 @@ def export_csv():
         c = build_case(case)
         n, k = c.get('newCard') or {}, c.get('kimaCard') or {}
         p, ids = n.get('primary') or {}, n.get('ids') or {}
+        pr = DATA.proposal_of(case['recordId']) or {}
         w.writerow({
             'decision': d['decision'], 'task': case.get('task', ''),
             'for_gili': 'yes' if d.get('forGili') else '',
@@ -994,6 +1035,14 @@ def export_csv():
             'existing_lat_lon': ('%s,%s' % (k['lat'], k['lon']))
                                 if k.get('lat') is not None else '',
             'kima_place_id': k.get('Id', ''), 'distance_km': c.get('distanceKm') or '',
+            'existing_geonames': str(k.get('Geoname_ID') or '').strip(),
+            # why the classifier put this row where it did — so an applier can see the
+            # reasoning without opening the app
+            'classifier_bucket': pr.get('bucket', ''),
+            'classifier_reason': BUCKET_WHY.get(pr.get('bucket', ''), ''),
+            'classifier_action': pr.get('action', ''),
+            'classifier_confidence': pr.get('confidence', ''),
+            'classifier_note': pr.get('note', ''),
         })
     return '\ufeff' + buf.getvalue()
 
