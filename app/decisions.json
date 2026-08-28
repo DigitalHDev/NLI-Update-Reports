@@ -1844,5 +1844,17 @@
   "correctWd": "",
   "note": "",
   "timestampUtc": "2026-08-28T10:17:42Z"
+ },
+ "987007560146505171": {
+  "decision": "research",
+  "forGili": false,
+  "forNli": false,
+  "suggestedNewName": "",
+  "suggestedExistingName": "",
+  "manualLat": "",
+  "manualLon": "",
+  "correctWd": "",
+  "note": "wrong wikidata for the location",
+  "timestampUtc": "2026-08-28T10:21:06Z"
  }
 }

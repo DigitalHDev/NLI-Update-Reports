@@ -33,8 +33,8 @@ extended features in the current reports:
 
 * **212** already carry a Hebrew type word — `הים הלבן`, `מיצרי מגלן`,
   `נהר סנט מרי'ס`, `אוהיו (נהר)`
-* **44** do not, and we think should
-* **65** we are not asking about (see below)
+* **42** do not, and we think should
+* **67** we are not asking about (see below)
 
 So the practice exists and is well established. The ask is to extend it to the
 records that were missed, not to adopt something new.
@@ -68,13 +68,12 @@ Type words already in use, by frequency:
 | איים | 4 |
 | גן לאומי | 3 |
 | עמק | 2 |
-| הרי | 2 |
 | חוף | 2 |
-| רמה | 1 |
 | חצי האי | 1 |
 | יער | 1 |
 | מישור | 1 |
 | מיצר | 1 |
+| הרי | 1 |
 | מדבר | 1 |
 | הר | 1 |
 | שמורה | 1 |
@@ -88,7 +87,6 @@ First rows for orientation:
 
 | NLI id | Hebrew now | Roman | Wikidata type | proposed Hebrew |
 |---|---|---|---|---|
-| 987007555593705171 | מאסיף סנטרל (צרפת) | Massif Central (France) | non-geologically related mountain range / upland / mountain range | רמה מאסיף סנטרל (צרפת) |
 | 987007548212005171 | הודו-סין | Indochina | peninsula / region | חצי האי הודו-סין |
 | 987007558385105171 | פודהייל (פולין) | Podhale (Poland) | valley | עמק פודהייל (פולין) |
 | 987007558563405171 | גאלווי (סקוטלנד) | Galloway (Scotland) | region | אזור גאלווי (סקוטלנד) |
@@ -100,27 +98,31 @@ First rows for orientation:
 | 987007554286305171 | קומאטי | Komati River | river | נהר קומאטי |
 | 987007553768505171 | פרוט | Prut River | river | נהר פרוט |
 | 987007562835605171 | דראווה | Drava River | river / transboundary river / border river | נהר דראווה |
+| 987007533595705171 | לאנואסטקדו | Llano Estacado | mesa / plain | מישור לאנואסטקדו |
 
 ### What we are deliberately not asking about
 
-**`qualifiers-not-suggested.csv`** (65 records) — kept in the report so
+**`qualifiers-not-suggested.csv`** (67 records) — kept in the report so
 the exclusions are auditable rather than invisible:
 
 * types where a qualifier would be wrong — `אירופה`, `אוקיאניה`: you do not qualify a
   continent
+* types where a qualifier would be right but we have no Hebrew word we trust —
+  *upland*, *plateau*, *massif*. `מאסיף סנטרל (צרפת)` sits here. **If NLI has an
+  established usage for these we would adopt it**; we would rather ask than guess
 * records whose Wikidata type is too vague to act on (`geographical feature`)
 * records with no usable Wikidata type at all
 
 ### Honest limitations
 
 1. **The proposals are machine-generated from Wikidata `P31` and need a cataloguer's
-   eye.** In testing, roughly one in six was wrong before filtering. One survives in
-   the list knowingly: `מאסיף סנטרל (צרפת)`, where Wikidata says
-   *non-geologically related mountain range* and the suggestion `רמה` is questionable —
-   it is a massif. Treat every row as a proposal, not a finding.
-2. **The word choice is ours, not authoritative.** `אזור` for *region* and `נהר` for
-   *river* are uncontroversial; `חוף` for *coast* and `רמה` for *upland* are our
-   reading and we would defer to NLI's own usage.
+   eye.** In testing, roughly one in six was wrong before filtering. Treat every row as
+   a proposal, not a finding. Where no Hebrew word could be proposed with confidence the
+   record was excluded rather than guessed at — `upland`, `plateau` and `massif` are
+   left out for this reason, so `מאסיף סנטרל (צרפת)` does not appear below.
+2. **The word choice is ours, not authoritative.** `אזור` for *region*, `נהר` for
+   *river* and `חוף` for *coast* we are confident in; anywhere else we would defer to
+   NLI's own usage.
 3. **This is a sample, not the whole authority file.** These are only the records that
    surfaced in weekly update reports between 2024-06 and 2026-08 — records that
    changed. The same gap almost certainly exists across records that did not change.
@@ -249,9 +251,9 @@ not an oversight — but it is exactly the kind of decision worth making togethe
 
 | file | rows | what it is |
 |---|---|---|
-| `qualifiers-suggested.csv` | 44 | extended features we suggest adding a type word to |
+| `qualifiers-suggested.csv` | 42 | extended features we suggest adding a type word to |
 | `qualifiers-already-present.csv` | 212 | extended features whose Hebrew already names the type — the precedent |
-| `qualifiers-not-suggested.csv` | 65 | deliberately excluded, with the reason per row |
+| `qualifiers-not-suggested.csv` | 67 | deliberately excluded, with the reason per row |
 | `tier-suggested.csv` | 19 | administrative-tier collisions with a proposed Hebrew heading |
 
 Every column naming an identifier is paired with a column stating in words what it

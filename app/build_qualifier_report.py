@@ -32,8 +32,8 @@ P31_HE = {
     'river': 'נהר', 'main stem': 'נהר', 'watercourse': 'נהר', 'border river': 'נהר',
     'lake': 'אגם', 'endorheic lake': 'אגם', 'aeolian lake': 'אגם', 'reservoir': 'מאגר',
     'sea': 'ים', 'marginal sea': 'ים', 'adjacent sea': 'ים', 'ocean': 'אוקיינוס',
-    'mountain range': 'הרי', 'mountain': 'הר', 'massif': 'מסיף', 'upland': 'רמה',
-    'plateau': 'רמה', 'valley': 'עמק', 'plain': 'מישור', 'canyon': 'קניון',
+    'mountain range': 'הרי', 'mountain': 'הר',
+    'valley': 'עמק', 'plain': 'מישור', 'canyon': 'קניון',
     'region': 'אזור', 'historical region': 'אזור', 'cultural region': 'אזור',
     'geographic region': 'אזור', 'natural region': 'אזור',
     'peninsula': 'חצי האי', 'strait': 'מיצר', 'bay': 'מפרץ', 'gulf': 'מפרץ',
@@ -50,6 +50,10 @@ P31_SKIP = {
     'geographical feature', 'geographical object', 'physico-geographical object',
     'terrain', 'location', 'area',
 }
+# Types where a qualifier would be right but we have no Hebrew word we trust.
+# רמה was proposed for these and rejected as doubtful for a massif (Massif Central).
+# Listed separately from P31_SKIP because NLI may well have a usage to offer.
+P31_NO_WORD = {'upland', 'plateau', 'massif', 'non-geologically related mountain range'}
 # Hebrew type words already in use — if the heading has one, nothing to suggest.
 HE_TYPES = ['נהר', 'נחל', 'אגם', 'ים', 'אוקיינוס', 'מפרץ', 'מיצר', 'מיצרי', 'הר געש',
             'הרי', 'הרים', 'הר', 'רמת', 'רמה', 'עמק', 'מישור', 'מדבר', 'יער', 'ביצות',
@@ -140,7 +144,12 @@ for r in moves:
         continue
     if any(l in P31_SKIP for l in labs):
         rows_skip.append(base | {'why_skipped':
-                                 'type is one where a qualifier would be wrong (%s)' % lab_txt})
+                                 'a type word would be wrong for this kind of entity (%s)' % lab_txt})
+        continue
+    if any(l in P31_NO_WORD for l in labs):
+        rows_skip.append(base | {'why_skipped':
+                                 'a type word would be right, but we have no Hebrew word we trust '
+                                 'for this type (%s) — NLI may have an established usage' % lab_txt})
         continue
     hit = next((P31_HE[l] for l in labs if l in P31_HE), None)
     if not hit:
@@ -326,19 +335,22 @@ the exclusions are auditable rather than invisible:
 
 * types where a qualifier would be wrong — `אירופה`, `אוקיאניה`: you do not qualify a
   continent
+* types where a qualifier would be right but we have no Hebrew word we trust —
+  *upland*, *plateau*, *massif*. `מאסיף סנטרל (צרפת)` sits here. **If NLI has an
+  established usage for these we would adopt it**; we would rather ask than guess
 * records whose Wikidata type is too vague to act on (`geographical feature`)
 * records with no usable Wikidata type at all
 
 ### Honest limitations
 
 1. **The proposals are machine-generated from Wikidata `P31` and need a cataloguer's
-   eye.** In testing, roughly one in six was wrong before filtering. One survives in
-   the list knowingly: `מאסיף סנטרל (צרפת)`, where Wikidata says
-   *non-geologically related mountain range* and the suggestion `רמה` is questionable —
-   it is a massif. Treat every row as a proposal, not a finding.
-2. **The word choice is ours, not authoritative.** `אזור` for *region* and `נהר` for
-   *river* are uncontroversial; `חוף` for *coast* and `רמה` for *upland* are our
-   reading and we would defer to NLI's own usage.
+   eye.** In testing, roughly one in six was wrong before filtering. Treat every row as
+   a proposal, not a finding. Where no Hebrew word could be proposed with confidence the
+   record was excluded rather than guessed at — `upland`, `plateau` and `massif` are
+   left out for this reason, so `מאסיף סנטרל (צרפת)` does not appear below.
+2. **The word choice is ours, not authoritative.** `אזור` for *region*, `נהר` for
+   *river* and `חוף` for *coast* we are confident in; anywhere else we would defer to
+   NLI's own usage.
 3. **This is a sample, not the whole authority file.** These are only the records that
    surfaced in weekly update reports between 2024-06 and 2026-08 — records that
    changed. The same gap almost certainly exists across records that did not change.
