@@ -28,13 +28,13 @@ difference as an error to be reconciled rather than a property of the entity.
 
 ### NLI already does this — inconsistently
 
-This is the heart of the request. Of **321**
+This is the heart of the request. Of **283**
 extended features in the current reports:
 
 * **212** already carry a Hebrew type word — `הים הלבן`, `מיצרי מגלן`,
   `נהר סנט מרי'ס`, `אוהיו (נהר)`
-* **42** do not, and we think should
-* **67** we are not asking about (see below)
+* **41** do not, and we think should
+* **30** we are not asking about (see below)
 
 So the practice exists and is well established. The ask is to extend it to the
 records that were missed, not to adopt something new.
@@ -64,7 +64,7 @@ Type words already in use, by frequency:
 | proposed word | records |
 |---|---|
 | אזור | 12 |
-| נהר | 10 |
+| נהר | 9 |
 | איים | 4 |
 | גן לאומי | 3 |
 | עמק | 2 |
@@ -102,7 +102,7 @@ First rows for orientation:
 
 ### What we are deliberately not asking about
 
-**`qualifiers-not-suggested.csv`** (67 records) — kept in the report so
+**`qualifiers-not-suggested.csv`** (30 records) — kept in the report so
 the exclusions are auditable rather than invisible:
 
 * types where a qualifier would be wrong — `אירופה`, `אוקיאניה`: you do not qualify a
@@ -144,17 +144,17 @@ This is a poorer outcome — the distinction would live only in Kima and stay in
 to every other consumer of NLI's authority data — but it is workable.
 
 **A finding on our own side, recorded here so it is not lost.** Looking up Kima's
-stored type for all 321 extended features shows the field is mostly wrong or unset:
+stored type for all 283 extended features shows the field is mostly wrong or unset:
 
 | Kima's stored type | records |
 |---|---|
-| settlement / point feature | 180 |
-| no type recorded in Kima | 85 |
-| region / extended feature | 56 |
+| settlement / point feature | 159 |
+| no type recorded in Kima | 77 |
+| region / extended feature | 47 |
 
-Only 56 of 321 are typed as regions. **180 extended features — rivers,
+Only 47 of 283 are typed as regions. **159 extended features — rivers,
 mountain ranges, seas — are typed in Kima as settlements or point features**, and
-85 have no type at all. So the fallback above is not simply a matter of writing a
+77 have no type at all. So the fallback above is not simply a matter of writing a
 value we already hold: the existing values would have to be corrected first. This is
 Kima's problem, not NLI's, and it is being tracked separately.
 
@@ -207,6 +207,43 @@ form `מחוז X`, which sorts badly and reads as part of the name.
 
 Full list with the Kima side: **`tier-suggested.csv`**.
 
+### A further 38 of the same kind, found in the coordinate reports
+
+These did not arrive as heading collisions — they surfaced because NLI's coordinate
+and ours disagreed. But the underlying problem is identical: Wikidata calls each one
+an administrative division, the Roman heading names the tier, and the Hebrew does not.
+
+| NLI id | Hebrew now | Roman | Wikidata type | proposed Hebrew |
+|---|---|---|---|---|
+| 987007550542405171 | מחוז אפאצ'י (אריזונה) | Apache County (Ariz.) | county of Arizona | אפאצ'י (אריזונה : נפה) |
+| 987007557268205171 | אספיריטו סנטו (ברזיל : מדינה) | Espírito Santo (Brazil : State) | federative unit of Brazil | אספיריטו סנטו (ברזיל : מדינה) |
+| 987007529816305171 | מרכז יוון ואביה (יוון) | Central Greece and Euboea (Greece) | administrative region of Greece | מרכז יוון ואביה (יוון : מחוז) |
+| 987007566799105171 | מרה ורומסדל (נורווגיה) | Møre og Romsdal fylke (Norway) | county of Norway | מרה ורומסדל (נורווגיה : מחוז) |
+| 987007560014405171 | חלב (סוריה : פרובינציה) | Aleppo (Syria : Province) | governorate of Syria / city / big city / populated place in Syria | חלב (סוריה : מחוז) |
+| 987007561914205171 | צ'יוואווה (מקסיקו : מדינה) | Chihuahua (Mexico : State) | state of Mexico | צ'יוואווה (מקסיקו : מדינה) |
+| 987007581532005171 | בני וואניף (אלג'יריה) | Banī Wanīf (Algeria) | district of Algeria | בני וואניף (אלג'יריה : נפה) |
+| 987007564562205171 | יונאן שנג (סין) | Yunnan Sheng (China) | province of China | יונאן שנג (סין : מחוז) |
+| 987007564339005171 | בוליבר (קולומביה : מחוז) | Bolívar (Colombia : Department) | department of Colombia | בוליבר (קולומביה : מחוז) |
+| 987007560017005171 | לוגאר (אפגניסטן) | Lowgar (Afghanistan) | province of Afghanistan / river | לוגאר (אפגניסטן : מחוז) |
+| 987007567022305171 | הטריטוריות הצפון-מערביות (קנדה) | Northwest Territories | territory of Canada | הטריטוריות הצפון-מערביות (קנדה : טריטוריה) |
+| 987007564587605171 | פרובינציה צפון מערב (קמרון) | North-West Province (Cameroon) | region of Cameroon / electoral unit | פרובינציה צפון מערב (קמרון : מחוז) |
+| 987007562308905171 | פרובינציה מילן ביי (פפואה גינאה החדשה) | Milne Bay Province (Papua New Guinea) | province of Papua New Guinea | פרובינציה מילן ביי (פפואה גינאה החדשה : מחוז) |
+| 987007562000805171 | מחוז דונה אנה (ניו מקסיקו) | Doña Ana County (N.M.) | county of New Mexico | דונה אנה (ניו מקסיקו : נפה) |
+
+Full list: **`tier-from-coordinate-pile.csv`**. 34 of the 38 have a
+proposed heading; the remaining 4 are cases where no tier word could be read
+from the Roman heading — `Brazil, Northeast`, `Grampian (Scotland)`, and two Chinese
+autonomous divisions whose tier has no settled Hebrew form.
+
+Records the classifier flagged as homonyms are excluded here even when Wikidata calls
+them administrative divisions, because in those the Wikidata entity may not be the
+record's entity at all: `אזור הצפון (גאנה)` / `Northern Region (Ghana)` carries a
+Wikidata id for the Northern Region **of Uganda**, 3,710 km away. That is a linking
+error on our side, not a tier problem, and it is handled with the coordinate cases.
+
+Counting both sources, the tier question covers **57 records** and is the
+larger of the two asks in this document.
+
 ### The vocabulary is not settled
 
 ⚠️ **The Hebrew tier words above are a working assumption**, taken from our internal
@@ -251,10 +288,11 @@ not an oversight — but it is exactly the kind of decision worth making togethe
 
 | file | rows | what it is |
 |---|---|---|
-| `qualifiers-suggested.csv` | 42 | extended features we suggest adding a type word to |
+| `qualifiers-suggested.csv` | 41 | extended features we suggest adding a type word to |
 | `qualifiers-already-present.csv` | 212 | extended features whose Hebrew already names the type — the precedent |
-| `qualifiers-not-suggested.csv` | 67 | deliberately excluded, with the reason per row |
+| `qualifiers-not-suggested.csv` | 30 | deliberately excluded, with the reason per row |
 | `tier-suggested.csv` | 19 | administrative-tier collisions with a proposed Hebrew heading |
+| `tier-from-coordinate-pile.csv` | 38 | administrative divisions found via the coordinate reports — same tier problem |
 
 Every column naming an identifier is paired with a column stating in words what it
 means, so no row requires resolving an id to be read.

@@ -54,6 +54,31 @@ P31_SKIP = {
 # רמה was proposed for these and rejected as doubtful for a massif (Massif Central).
 # Listed separately from P31_SKIP because NLI may well have a usage to offer.
 P31_NO_WORD = {'upland', 'plateau', 'massif', 'non-geologically related mountain range'}
+
+# Administrative divisions belong to Part 2 (tiers), not Part 1 (extended features):
+# the Roman heading names a tier the Hebrew drops, which is the Pardubice pattern.
+# A bare "region" is NOT included — that is Cilicia or Siberia, a Part 1 case.
+ADMIN_RE = re.compile(
+    r'\b(?:'
+    r'(?:province|county|district|state|region|department|governorate|territory|'
+    r'prefecture|oblast|krai|voivodeship|okres|kraj|raion|powiat|gubernia|comarca|'
+    r'municipality|federative unit|federal subject|autonomous \w+)\s+of\b'
+    r'|federative unit|federal subject|administrative region|autonomous (?:county|'
+    r'prefecture|oblast|okrug)|Scottish region|governorate|voivodeship|okres|kraj|'
+    r'raion|powiat|gubernia|comarca'
+    r')', re.I)
+
+# Roman tier word -> Hebrew, extending TIER_HE with the English forms that appear in
+# these headings. Same working assumption as tier-vocabulary.md 3a.
+ADMIN_TIER_HE = {
+    'county': 'נפה', 'district': 'נפה', 'province': 'מחוז', 'state': 'מדינה',
+    'region': 'מחוז', 'department': 'מחוז', 'governorate': 'מחוז',
+    'territory': 'טריטוריה', 'prefecture': 'מחוז', 'oblast': 'מחוז',
+    'krai': 'מחוז', 'voivodeship': 'מחוז', 'okres': 'נפה', 'kraj': 'מחוז',
+    'raion': 'נפה', 'powiat': 'נפה', 'gubernia': 'פלך', 'comarca': 'נפה',
+    'municipality': 'עיר', 'fylke': 'מחוז', 'shi': 'עיר', 'landkreis': 'נפה',
+    'stadtkreis': 'עיר-נפה', 'regierungsbezirk': 'מחוז ממשל', 'voblasts': 'מחוז',
+}
 # Hebrew type words already in use — if the heading has one, nothing to suggest.
 HE_TYPES = ['נהר', 'נחל', 'אגם', 'ים', 'אוקיינוס', 'מפרץ', 'מיצר', 'מיצרי', 'הר געש',
             'הרי', 'הרים', 'הר', 'רמת', 'רמה', 'עמק', 'מישור', 'מדבר', 'יער', 'ביצות',
@@ -105,7 +130,7 @@ def nli_url(i):
 
 
 # ---------------------------------------------------------------- family 1
-rows_sugg, rows_have, rows_skip = [], [], []
+rows_sugg, rows_have, rows_skip, rows_admin = [], [], [], []
 for r in moves:
     if r.get('featureType') != 'extended':
         continue
@@ -141,6 +166,11 @@ for r in moves:
             'why': 'Hebrew heading already names the feature type — NLI does do this, '
                    'just not consistently',
         })
+        continue
+    if ADMIN_RE.search(lab_txt) and r.get('bucket') != 'homonym':
+        rows_admin.append(base | {
+            'why': 'Wikidata calls this an administrative division (%s); the Roman heading '
+                   'names the tier and the Hebrew does not — same pattern as Part 2' % lab_txt})
         continue
     if any(l in P31_SKIP for l in labs):
         rows_skip.append(base | {'why_skipped':
@@ -223,6 +253,33 @@ for c in dups:
     ))
 
 
+# ---- Part 2b: proposed tier heading for the administrative divisions -------
+for r in rows_admin:
+    rom, heb = r.get('rom_heading') or '', r.get('heb_heading') or ''
+    word = ''
+    m = re.search(r':\s*([^:()]+?)\s*\)\s*$', rom)          # "X (Country : Tier)"
+    if m:
+        word = m.group(1).strip().lower()
+    if not word:                                              # "Møre og Romsdal fylke (Norway)"
+        for tok in reversed(re.findall(r"[A-Za-zÀ-ſĀ-ſ'ʹ]+", re.split(r'\s*\(', rom)[0])):
+            if tok.rstrip("'ʹ").lower() in ADMIN_TIER_HE:
+                word = tok.lower(); break
+    if not word:                                              # else take it from Wikidata
+        m2 = re.search(r'\b(\w+)\s+of\b', r.get('wikidata_says') or '')
+        if m2:
+            word = m2.group(1).lower()
+    tier_he = ADMIN_TIER_HE.get(word.rstrip("'ʹ"), '')
+    country = (re.findall(r'\(([^:)]+)', heb) or [''])[0].strip()
+    base_he = re.sub(r'^(מחוז|נפה|פלך|מדינה)\s+', '', heb.split(' (')[0])
+    r['roman_tier_word'] = word
+    r['roman_tier_meaning'] = ('the Roman heading names the administrative tier; '
+                               'the Hebrew does not' if word else 'no tier word found')
+    r['proposed_he_tier'] = tier_he
+    r['proposed_heb_heading'] = ('%s (%s : %s)' % (base_he, country, tier_he)
+                                 if tier_he and country else '')
+    r['vocabulary_status'] = 'WORKING ASSUMPTION — tier-vocabulary.md 3a, not yet settled'
+
+
 def write(name, rows):
     p = os.path.join(OUT, name)
     if not rows:
@@ -236,11 +293,13 @@ def write(name, rows):
 for n, rs in [('qualifiers-suggested.csv', rows_sugg),
               ('qualifiers-already-present.csv', rows_have),
               ('qualifiers-not-suggested.csv', rows_skip),
-              ('tier-suggested.csv', rows_tier)]:
+              ('tier-suggested.csv', rows_tier),
+              ('tier-from-coordinate-pile.csv', rows_admin)]:
     p, k = write(n, rs)
     print('%-34s %4d rows' % (n, k))
 
-json.dump({'sugg': rows_sugg, 'have': rows_have, 'skip': rows_skip, 'tier': rows_tier},
+json.dump({'sugg': rows_sugg, 'have': rows_have, 'skip': rows_skip, 'tier': rows_tier,
+           'admin': rows_admin},
           open(os.path.join(OUT, '_data.json'), 'w'), ensure_ascii=False)
 
 # ---------------------------------------------------------------- the document
@@ -262,6 +321,15 @@ n_region = _ltc.get('region / extended feature', 0)
 n_none = _ltc.get('no type recorded in Kima', 0)
 loctable = md_table([{'m': k, 'n': v} for k, v in _ltc.most_common()],
                     [('m', "Kima's stored type"), ('n', 'records')])
+
+n_admin = len(rows_admin)
+n_admin_ok = sum(1 for r in rows_admin if r['proposed_heb_heading'])
+n_admin_no = n_admin - n_admin_ok
+n_tier_total = len(rows_tier) + n_admin
+admin_tbl = md_table([r for r in rows_admin if r['proposed_heb_heading']],
+                     [('nli_id', 'NLI id'), ('heb_heading', 'Hebrew now'),
+                      ('rom_heading', 'Roman'), ('wikidata_says', 'Wikidata type'),
+                      ('proposed_heb_heading', 'proposed Hebrew')], limit=14)
 
 sugg_by_type = collections.Counter(r['proposed_he_type'] for r in rows_sugg)
 have_by_type = collections.Counter(r['existing_he_type'] for r in rows_have if r['existing_he_type'])
@@ -415,6 +483,28 @@ form `מחוז X`, which sorts badly and reads as part of the name.
 
 Full list with the Kima side: **`tier-suggested.csv`**.
 
+### A further {n_admin} of the same kind, found in the coordinate reports
+
+These did not arrive as heading collisions — they surfaced because NLI's coordinate
+and ours disagreed. But the underlying problem is identical: Wikidata calls each one
+an administrative division, the Roman heading names the tier, and the Hebrew does not.
+
+{admin_tbl}
+
+Full list: **`tier-from-coordinate-pile.csv`**. {n_admin_ok} of the {n_admin} have a
+proposed heading; the remaining {n_admin_no} are cases where no tier word could be read
+from the Roman heading — `Brazil, Northeast`, `Grampian (Scotland)`, and two Chinese
+autonomous divisions whose tier has no settled Hebrew form.
+
+Records the classifier flagged as homonyms are excluded here even when Wikidata calls
+them administrative divisions, because in those the Wikidata entity may not be the
+record's entity at all: `אזור הצפון (גאנה)` / `Northern Region (Ghana)` carries a
+Wikidata id for the Northern Region **of Uganda**, 3,710 km away. That is a linking
+error on our side, not a tier problem, and it is handled with the coordinate cases.
+
+Counting both sources, the tier question covers **{n_tier_total} records** and is the
+larger of the two asks in this document.
+
 ### The vocabulary is not settled
 
 ⚠️ **The Hebrew tier words above are a working assumption**, taken from our internal
@@ -438,6 +528,7 @@ not an oversight — but it is exactly the kind of decision worth making togethe
 | `qualifiers-already-present.csv` | {len(rows_have)} | extended features whose Hebrew already names the type — the precedent |
 | `qualifiers-not-suggested.csv` | {len(rows_skip)} | deliberately excluded, with the reason per row |
 | `tier-suggested.csv` | {len(rows_tier)} | administrative-tier collisions with a proposed Hebrew heading |
+| `tier-from-coordinate-pile.csv` | {len(rows_admin)} | administrative divisions found via the coordinate reports — same tier problem |
 
 Every column naming an identifier is paired with a column stating in words what it
 means, so no row requires resolving an id to be read.

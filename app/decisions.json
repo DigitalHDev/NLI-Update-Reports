@@ -1856,5 +1856,29 @@
   "correctWd": "",
   "note": "wrong wikidata for the location",
   "timestampUtc": "2026-08-28T10:21:06Z"
+ },
+ "987007564660405171": {
+  "decision": "keep-existing",
+  "forGili": false,
+  "forNli": true,
+  "suggestedNewName": "",
+  "suggestedExistingName": "",
+  "manualLat": "",
+  "manualLon": "",
+  "correctWd": "",
+  "note": "",
+  "timestampUtc": "2026-08-28T10:46:17Z"
+ },
+ "987007600144505171": {
+  "decision": "keep-existing",
+  "forGili": false,
+  "forNli": true,
+  "suggestedNewName": "",
+  "suggestedExistingName": "",
+  "manualLat": "",
+  "manualLon": "",
+  "correctWd": "",
+  "note": "",
+  "timestampUtc": "2026-08-28T10:46:47Z"
  }
 }
