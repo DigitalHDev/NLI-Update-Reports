@@ -174,6 +174,14 @@
       <input type="checkbox" id="onlyFlaggedCb"> <span id="flaggedLbl">🚩 רק לגילי</span></label>
     <label id="onlyNli" title="הצגת המקרים שסומנו לספרייה בלבד">
       <input type="checkbox" id="onlyNliCb"> <span id="nliLbl">🏛 רק לספרייה</span></label>
+    <label id="confFilter" title="סינון לפי ביטחון ההצעה של המסווג">
+      ביטחון: <select id="confSel">
+        <option value="">הכול</option>
+        <option value="high">high</option>
+        <option value="medium">medium</option>
+        <option value="low">low</option>
+        <option value="none">ללא הצעה</option>
+      </select><span id="confLbl"></span></label>
     <a href="/export.csv" title="כל ההחלטות">⬇ הכול</a>
     <a href="/export/nli-report.csv" title="שורות המסומנות לספרייה">⬇ לספרייה</a>
     <a href="/export/kima-apply.csv" title="עריכות לכימה">⬇ לכימה</a>
@@ -227,6 +235,7 @@ let onlyCurrent = localStorage.getItem('onlyCurrent') === '1';
 let onlyFlagged = localStorage.getItem('onlyFlagged') === '1';
 let onlyNli = localStorage.getItem('onlyNli') === '1';
 let rawCases = [];
+let confFilter = localStorage.getItem('confFilter') || '';
 
 async function loadList() {
   const r = await fetch('/api/cases?task=' + cat + (onlyCurrent ? '&current=1' : ''));
@@ -238,7 +247,10 @@ async function loadList() {
 }
 // the flag filters are client-side: the list payload already carries the flags
 function applyFilters() {
-  cases = rawCases.filter(x => (!onlyFlagged || x.forGili) && (!onlyNli || x.forNli));
+  cases = rawCases.filter(x => (!onlyFlagged || x.forGili) && (!onlyNli || x.forNli)
+    && (!confFilter || (confFilter === 'none'
+          ? !x.proposal
+          : (x.proposal || {}).confidence === confFilter)));
   idx = Math.min(idx, Math.max(0, cases.length - 1));
   renderTabs(); renderFlagFilter(); renderTaskHead(); render();
 }
@@ -246,6 +258,14 @@ function renderFlagFilter() {
   const n = rawCases.filter(x => x.forGili).length, m = rawCases.filter(x => x.forNli).length;
   document.getElementById('flaggedLbl').textContent = `🚩 רק לגילי (${n})`;
   document.getElementById('nliLbl').textContent = `🏛 רק לספרייה (${m})`;
+  const cnt = c => rawCases.filter(x => c === 'none' ? !x.proposal
+                                     : (x.proposal || {}).confidence === c).length;
+  const parts = ['high', 'medium', 'low', 'none'].map(c => [c, cnt(c)]).filter(p => p[1]);
+  const lbl = document.getElementById('confLbl');
+  if (lbl) lbl.textContent = parts.length > 1
+    ? ' (' + parts.map(p => `${p[0]==='none'?'ללא':p[0]}: ${p[1]}`).join(', ') + ')' : '';
+  const sel = document.getElementById('confSel');
+  if (sel && sel.value !== confFilter) sel.value = confFilter;
 }
 function renderTabs() {
   const t = document.getElementById('tabs');
@@ -822,6 +842,15 @@ document.getElementById('firstUndecided').onclick = () => {
   cb.onchange = () => {
     onlyFlagged = cb.checked;
     localStorage.setItem('onlyFlagged', onlyFlagged ? '1' : '0');
+    idx = 0; applyFilters();
+  };
+}
+{
+  const sel = document.getElementById('confSel');
+  sel.value = confFilter;
+  sel.onchange = () => {
+    confFilter = sel.value;
+    localStorage.setItem('confFilter', confFilter);
     idx = 0; applyFilters();
   };
 }
