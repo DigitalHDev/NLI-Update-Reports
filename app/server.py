@@ -93,12 +93,25 @@ TASKS = {
   'A10': dict(group='א', title='כפילות פנימית ב־NLI (אותו QID)', buttons=['nli-duplicate', 'keep-both', 'research', 'skip'],
              bulk=None, bulkConf=None,
              desc='שתי רשויות NLI עם אותו מזהה ויקינתונים (אלבאיסין, המושבה היוונית, דוברי׳ץ/טולבוחין). לדווח כ"כפילות אפשרית"; כימה שומרת מזהה אחד.', gil='', nli='A3 — רשימת שגיאות'),
-  'A11': dict(group='א', title='התנגשות שלא אותרה', buttons=['update-kima-heading', 'merge', 'rename-kima-heading', 'research', 'skip'],
+  'A11': dict(group='א', title='התנגשות — הצד השני לא אותר אוטומטית',
+             buttons=['nli-duplicate', 'update-kima-heading', 'merge', 'rename-kima-heading',
+                      'tier-case', 'create-place', 'research', 'skip'],
              bulk=None, bulkConf=None,
-             desc='אף מקום כימה לא מחזיק בכותרת או במזהה — כנראה בן הזוג נמצא תחת צורה עברית אחרת. חיפוש ידני בכימה.', gil='#6 — לדווח את שני הצדדים.', nli=''),
-  'A13': dict(group='א', title='הפניה נחסמה — MAZAL_ID אחר', buttons=['merge', 'nli-duplicate', 'research', 'skip'],
+             desc='החיפוש האוטומטי לא מצא את הצד השני של ההתנגשות — אבל זה לא אומר שאין כזה. '
+                  'החיפוש משווה רק כותרת ראשית זהה, ולכן הוא מחמיץ התאמות תחת תעתיק אחר, '
+                  'מבחין דרגה, או צורת פיסוק שונה. בבדיקה ידנית (28.8.2026) התברר ש־4 מתוך 6 '
+                  'המקרים כן קיימים בכימה, ואחד אף כלל את שני המזהים בהודעת הדוח. '
+                  'לכן: לפני שמניחים שהמקום חסר בכימה — לחפש ידנית לפי וריאנט, תעתיק חלופי '
+                  'ושם לטיני. הקטגוריה מערבבת כמה מצבים שונים, ולרוב המקרה שייך למעשה '
+                  'ל־A4 (דרגה), A13 (הפניה נחסמה) או ליצירת מקום חדש.',
+             gil='#6 — לדווח את שני הצדדים. סומן wontfix; זו הסיבה שהקטגוריה עמומה.', nli=''),
+  'A13': dict(group='א', title='הפניה נחסמה — MAZAL_ID אחר',
+             buttons=['merge', 'nli-duplicate', 'update-kima-heading', 'research', 'skip'],
              bulk=None, bulkConf=None,
-             desc='הרשומה הנכנסת רוצה מקום כימה שמזהה NLI אחר כבר מחזיק. להכריע למי המקום; האחר עשוי להיות כפילות ב־NLI.', gil='#6', nli=''),
+             desc='הרשומה הנכנסת רוצה מקום כימה שמזהה NLI אחר כבר מחזיק. בניגוד ל־A11, '
+                  'הודעת הדוח כאן כן נוקבת בשני המזהים — כדאי לקרוא אותה. '
+                  'לבדוק ב־OAI אם המזהה הישן עדיין חי: אם כן, כנראה כפילות ב־NLI (לדווח לספרייה '
+                  'ולהחליט איזה מזהה כימה שומרת); אם לא — זו הפניה פשוטה.', gil='#6 (wontfix)', nli=''),
   'A0': dict(group='א', title='כפילות — לא סווג', buttons=['nli-duplicate', 'rename-suggestion', 'merge', 'update-kima-heading', 'data-problem', 'research', 'skip'],
              bulk=None, bulkConf=None, desc='מקרה כפילות ללא סיווג אוטומטי.', gil='', nli=''),
   'B0': dict(group='ב', title='הזזת מיקום — לא סווג', buttons=['apply-new', 'keep-existing', 'neither', 'manual-coords', 'tier-case', 'research', 'skip'],

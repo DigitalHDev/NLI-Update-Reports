@@ -64,15 +64,16 @@
   "timestampUtc": "2026-08-02T18:02:06Z"
  },
  "987012803472805171": {
-  "decision": "skip",
+  "decision": "merge",
   "forGili": true,
+  "forNli": false,
   "suggestedNewName": "",
   "suggestedExistingName": "",
   "manualLat": "",
   "manualLon": "",
   "correctWd": "",
   "note": "למזג",
-  "timestampUtc": "2026-08-11T13:08:18Z"
+  "timestampUtc": "2026-08-28T07:42:40Z"
  },
  "987013010638405171": {
   "decision": "skip",
@@ -88,13 +89,14 @@
  "987007528337405171": {
   "decision": "merge",
   "forGili": true,
+  "forNli": false,
   "suggestedNewName": "",
   "suggestedExistingName": "",
   "manualLat": "",
   "manualLon": "",
   "correctWd": "",
-  "note": "",
-  "timestampUtc": "2026-08-11T12:43:21Z"
+  "note": "לדאוג שהצורה הפגומה ביסטראןןיץ לא נשמרת כווריאנט",
+  "timestampUtc": "2026-08-28T07:46:11Z"
  },
  "987007507581905171": {
   "decision": "keep-existing",
@@ -1015,26 +1017,28 @@
   "timestampUtc": "2026-08-11T06:22:08Z"
  },
  "987013170285005171": {
-  "decision": "",
+  "decision": "merge",
   "forGili": true,
+  "forNli": false,
   "suggestedNewName": "",
   "suggestedExistingName": "",
   "manualLat": "",
   "manualLon": "",
   "correctWd": "",
   "note": "",
-  "timestampUtc": "2026-08-11T13:14:55Z"
+  "timestampUtc": "2026-08-28T07:41:53Z"
  },
  "987013405241405171": {
-  "decision": "",
+  "decision": "nli-duplicate",
   "forGili": true,
-  "suggestedNewName": "",
-  "suggestedExistingName": "",
+  "forNli": true,
+  "suggestedNewName": "פלאנס (ספרד)",
+  "suggestedExistingName": "פליינס, ספרד",
   "manualLat": "",
   "manualLon": "",
-  "correctWd": "",
-  "note": "",
-  "timestampUtc": "2026-08-11T13:52:21Z"
+  "correctWd": "Q1983306",
+  "note": "כפילות ב־NLI: שתי רשומות חיות לאותו כפר — 987007547821005171 (Planes, Spain) ו־987013405241405171 (Planes (Spain)). שתיהן נושאות פלאנס (ספרד) בעברית. לדווח לספרייה. בכימה: לתקן את כותרת 76207 מ־'פליינס, ספרד' ל־'פלאנס (ספרד)' — פליינס היא שגיאת קריאה (Plains האנגלי במקום Planes הספרדי; ההשראה כנראה פליינס (ג'ורג'יה)/Plains (Ga.)). להפנות ל־987013405241405171 ולהוסיף Q1983306. פליינס אינה וריאנט לגיטימי — לכל היותר צורה מוקצית, לא שם חלופי.",
+  "timestampUtc": "2026-08-28T08:33:59Z"
  },
  "987007565040405171": {
   "decision": "skip",
@@ -1333,5 +1337,41 @@
   "correctWd": "",
   "note": "",
   "timestampUtc": "2026-08-27T18:16:31Z"
+ },
+ "987013290993605171": {
+  "decision": "merge",
+  "forGili": false,
+  "forNli": false,
+  "suggestedNewName": "",
+  "suggestedExistingName": "",
+  "manualLat": "",
+  "manualLon": "",
+  "correctWd": "",
+  "note": "",
+  "timestampUtc": "2026-08-28T07:42:02Z"
+ },
+ "987014197239905171": {
+  "decision": "merge",
+  "forGili": false,
+  "forNli": false,
+  "suggestedNewName": "",
+  "suggestedExistingName": "",
+  "manualLat": "",
+  "manualLon": "",
+  "correctWd": "",
+  "note": "",
+  "timestampUtc": "2026-08-28T07:42:20Z"
+ },
+ "987012969512605171": {
+  "decision": "merge",
+  "forGili": false,
+  "forNli": false,
+  "suggestedNewName": "",
+  "suggestedExistingName": "",
+  "manualLat": "",
+  "manualLon": "",
+  "correctWd": "",
+  "note": "",
+  "timestampUtc": "2026-08-28T07:43:22Z"
  }
 }
