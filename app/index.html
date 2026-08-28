@@ -113,6 +113,13 @@
                      padding: .7rem 1.2rem; margin-top: 1rem; }
   details.research summary { cursor: pointer; font-size: .9rem; color: var(--muted); font-weight: 600; }
   .tab.auto { opacity: .6; font-style: italic; }
+  #mechstrip { display: flex; flex-wrap: wrap; align-items: center; gap: .3rem;
+    padding: .35rem .6rem; margin: .2rem 0 .4rem; border-radius: 6px;
+    background: var(--mechbg, #ecebe8); border: 1px solid var(--mechbd, #d8d6d1); }
+  #mechstrip:empty { display: none; }
+  .mechlabel { font-size: .76rem; color: var(--muted); margin-inline-end: .3rem; }
+  .tab.mech { opacity: .72; font-size: .82rem; }
+  .tab.mech.active { opacity: 1; }
   .badge.home { background: #6b4ea8; color: #fff; }
   .research .rgroup { margin: .6rem 0 .2rem; font-size: .78rem; color: var(--muted); }
   .research a { display: inline-block; font-size: .84rem; border: 1px solid var(--line);
@@ -167,6 +174,7 @@
 <header>
   <h1>NLI ↔ Kima · סקירת כשלים</h1>
   <div class="tabs" id="tabs"></div>
+  <div id="mechstrip"></div>
   <div class="nav">
     <label id="onlyCurrent" title="הסתרת מקרים שאינם מופיעים בדוח הריצה הנוכחית (משוחזרים מ־backup/)">
       <input type="checkbox" id="onlyCurrentCb"> רק הריצה הנוכחית</label>
@@ -285,12 +293,37 @@ function renderTabs() {
     t.appendChild(b);
   };
   mk('all', 'הכול', total, und);
+  // Queues split by whether they need judgment. `mech` (and `auto`) queues have a
+  // settled rule that is the same for every row — they belong out of the way, not
+  // interleaved with the categories that have to be read case by case.
+  const keys = Object.keys(tasks).filter(k => tasks[k].n);
+  const judge = keys.filter(k => !(taskInfo[k] || {}).mech && !(taskInfo[k] || {}).auto);
+  const mech = keys.filter(k => (taskInfo[k] || {}).mech || (taskInfo[k] || {}).auto);
   let grp = null;
-  for (const key of Object.keys(tasks)) {
-    if (!tasks[key].n) continue;
+  for (const key of judge) {
     const g = taskInfo[key].group;
     if (g !== grp) { grp = g; const sp = document.createElement('span'); sp.className = 'grp'; sp.textContent = g ? g + '.' : ''; t.appendChild(sp); }
     mk(key, key, tasks[key].n, tasks[key].undecided);
+  }
+  const strip = document.getElementById('mechstrip');
+  strip.innerHTML = '';
+  if (mech.length) {
+    const lab = document.createElement('span');
+    lab.className = 'mechlabel';
+    const mu = mech.reduce((a, k) => a + tasks[k].undecided, 0);
+    lab.textContent = `כלל ידוע — לא דורש שיקול דעת (${mu} טרם נלחצו):`;
+    strip.appendChild(lab);
+    const save = t;
+    for (const key of mech) {
+      const auto = (taskInfo[key] || {}).auto;
+      const b = document.createElement('button');
+      b.className = 'tab mech' + (key === cat ? ' active' : '') + (auto ? ' auto' : '');
+      b.innerHTML = auto ? `${key} ${tasks[key].n} ⓘ`
+        : `${key} ${tasks[key].n}${tasks[key].undecided ? ` <span class="und">(${tasks[key].undecided})</span>` : ' ✔'}`;
+      b.title = (taskInfo[key] || {}).title || '';
+      b.onclick = () => { cat = key; idx = 0; loadList(); };
+      strip.appendChild(b);
+    }
   }
 }
 function renderTaskHead() {
@@ -305,7 +338,8 @@ function renderTaskHead() {
   el.className = 'taskhead';
   const headCount = ti.auto
     ? `— ${st.n} שורות סוננו, אין מה להכריע`
-    : `— ${st.n} מקרים, ${st.undecided} טרם הוחלטו`;
+    : `— ${st.n} מקרים, ${st.undecided} טרם הוחלטו`
+      + (ti.mech ? ' · כלל ידוע, זהה לכל השורות — אישור ולא הכרעה' : '');
   el.innerHTML = `<h2>${cat} · ${ti.title} <span style="font-weight:normal;color:var(--muted)">${headCount}</span></h2>
     <div>${ti.desc}</div>
     <div class="who">${ti.nli ? `<b>בקשה מהספרייה</b><span>${ti.nli}</span>` : ''}${ti.gil ? `<b>גילי / הרצה</b><span>${ti.gil}</span>` : ''}</div>

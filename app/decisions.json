@@ -1988,5 +1988,77 @@
   "correctWd": "",
   "note": "",
   "timestampUtc": "2026-08-28T11:04:35Z"
+ },
+ "987007549075105171": {
+  "decision": "region",
+  "forGili": false,
+  "forNli": false,
+  "suggestedNewName": "",
+  "suggestedExistingName": "",
+  "manualLat": "",
+  "manualLon": "",
+  "correctWd": "",
+  "note": "",
+  "timestampUtc": "2026-08-28T11:04:50Z"
+ },
+ "987007539196605171": {
+  "decision": "region",
+  "forGili": false,
+  "forNli": false,
+  "suggestedNewName": "",
+  "suggestedExistingName": "",
+  "manualLat": "",
+  "manualLon": "",
+  "correctWd": "",
+  "note": "",
+  "timestampUtc": "2026-08-28T11:04:52Z"
+ },
+ "987007529918305171": {
+  "decision": "region",
+  "forGili": false,
+  "forNli": false,
+  "suggestedNewName": "",
+  "suggestedExistingName": "",
+  "manualLat": "",
+  "manualLon": "",
+  "correctWd": "",
+  "note": "",
+  "timestampUtc": "2026-08-28T11:04:54Z"
+ },
+ "987007539061705171": {
+  "decision": "region",
+  "forGili": false,
+  "forNli": false,
+  "suggestedNewName": "",
+  "suggestedExistingName": "",
+  "manualLat": "",
+  "manualLon": "",
+  "correctWd": "",
+  "note": "",
+  "timestampUtc": "2026-08-28T11:04:55Z"
+ },
+ "987007565863705171": {
+  "decision": "apply-new",
+  "forGili": false,
+  "forNli": false,
+  "suggestedNewName": "",
+  "suggestedExistingName": "",
+  "manualLat": "",
+  "manualLon": "",
+  "correctWd": "",
+  "note": "",
+  "timestampUtc": "2026-08-28T11:05:51Z"
+ },
+ "987007552895605171": {
+  "decision": "apply-new",
+  "forGili": false,
+  "forNli": false,
+  "suggestedNewName": "",
+  "suggestedExistingName": "",
+  "manualLat": "",
+  "manualLon": "",
+  "correctWd": "",
+  "note": "",
+  "timestampUtc": "2026-08-28T11:06:09Z"
  }
 }
