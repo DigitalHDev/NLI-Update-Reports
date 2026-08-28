@@ -352,13 +352,15 @@
  },
  "987007549254705171": {
   "decision": "apply-new",
+  "forGili": false,
+  "forNli": false,
   "suggestedNewName": "",
   "suggestedExistingName": "",
   "manualLat": "",
   "manualLon": "",
   "correctWd": "",
   "note": "",
-  "timestampUtc": "2026-08-09T15:06:19Z"
+  "timestampUtc": "2026-08-28T11:30:32Z"
  },
  "987007556188205171": {
   "decision": "apply-new",
@@ -394,13 +396,14 @@
  "987007517241905171": {
   "decision": "apply-new",
   "forGili": false,
+  "forNli": false,
   "suggestedNewName": "",
   "suggestedExistingName": "",
   "manualLat": "",
   "manualLon": "",
   "correctWd": "",
   "note": "ב-candidates כרגע מופיעות הקואורדינטות השגויות - אולי בגלל הויקידאטה השגוי? צריך להחליף ל Q1794734",
-  "timestampUtc": "2026-08-09T16:49:20Z"
+  "timestampUtc": "2026-08-28T11:30:39Z"
  },
  "987007558563405171": {
   "decision": "region",
@@ -438,13 +441,14 @@
  "987007555965405171": {
   "decision": "apply-new",
   "forGili": false,
+  "forNli": false,
   "suggestedNewName": "",
   "suggestedExistingName": "",
   "manualLat": "",
   "manualLon": "",
   "correctWd": "Q2343949",
   "note": "",
-  "timestampUtc": "2026-08-09T16:52:14Z"
+  "timestampUtc": "2026-08-28T11:30:45Z"
  },
  "987007541357205171": {
   "decision": "keep-existing",
@@ -2444,5 +2448,17 @@
   "correctWd": "",
   "note": "",
   "timestampUtc": "2026-08-28T11:18:45Z"
+ },
+ "987007282407005171": {
+  "decision": "river",
+  "forGili": false,
+  "forNli": false,
+  "suggestedNewName": "",
+  "suggestedExistingName": "",
+  "manualLat": "",
+  "manualLon": "",
+  "correctWd": "",
+  "note": "",
+  "timestampUtc": "2026-08-28T11:29:59Z"
  }
 }

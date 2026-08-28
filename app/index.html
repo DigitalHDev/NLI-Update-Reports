@@ -286,8 +286,9 @@ function renderTabs() {
     const b = document.createElement('button');
     b.className = 'tab' + (key === cat ? ' active' : '') + (n && !u && !auto ? ' done' : '')
                 + (auto ? ' auto' : '');
+    // remaining out of total — the remaining count is the one being worked from
     b.innerHTML = auto ? `${label} ${n} ⓘ`
-                       : `${label} ${n}${u ? ` <span class="und">(${u})</span>` : ' ✔'}`;
+                       : `${label} ${u ? `<span class="und">${u}</span>/${n}` : `${n} ✔`}`;
     b.title = (taskInfo[key] || {}).title || '';
     b.onclick = () => { cat = key; idx = 0; loadList(); };
     t.appendChild(b);
@@ -319,7 +320,9 @@ function renderTabs() {
       const b = document.createElement('button');
       b.className = 'tab mech' + (key === cat ? ' active' : '') + (auto ? ' auto' : '');
       b.innerHTML = auto ? `${key} ${tasks[key].n} ⓘ`
-        : `${key} ${tasks[key].n}${tasks[key].undecided ? ` <span class="und">(${tasks[key].undecided})</span>` : ' ✔'}`;
+        : `${key} ${tasks[key].undecided
+              ? `<span class="und">${tasks[key].undecided}</span>/${tasks[key].n}`
+              : `${tasks[key].n} ✔`}`;
       b.title = (taskInfo[key] || {}).title || '';
       b.onclick = () => { cat = key; idx = 0; loadList(); };
       strip.appendChild(b);
@@ -331,20 +334,20 @@ function renderTaskHead() {
   if (!el) { el = document.createElement('div'); el.id = 'taskhead'; document.getElementById('main').before(el); }
   if (cat === 'all' || !taskInfo[cat]) { el.innerHTML = ''; return; }
   const ti = taskInfo[cat], st = tasks[cat] || {};
-  const pending = rawCases.filter(x => !x.decision);
+  const pending = rawCases.filter(x => !x.decision);   // whole queue, not the filtered view
   const bulkable = ti.bulk ? pending.filter(x => !ti.bulkConf || (x.proposal || {}).confidence === ti.bulkConf) : [];
   const unchecked = ti.oai ? rawCases.filter(x => !x.oai) : [];
   const live = ti.oai ? rawCases.filter(x => x.oai === 'live').length : 0;
   el.className = 'taskhead';
   const headCount = ti.auto
     ? `— ${st.n} שורות סוננו, אין מה להכריע`
-    : `— ${st.n} מקרים, ${st.undecided} טרם הוחלטו`
+    : `— ${st.undecided} טרם הוכרעו מתוך ${st.n}`
       + (ti.mech ? ' · כלל ידוע, זהה לכל השורות — אישור ולא הכרעה' : '');
   el.innerHTML = `<h2>${cat} · ${ti.title} <span style="font-weight:normal;color:var(--muted)">${headCount}</span></h2>
     <div>${ti.desc}</div>
     <div class="who">${ti.nli ? `<b>בקשה מהספרייה</b><span>${ti.nli}</span>` : ''}${ti.gil ? `<b>גילי / הרצה</b><span>${ti.gil}</span>` : ''}</div>
     <div class="bulk">
-      ${ti.bulk ? `<button id="bulkApply" ${bulkable.length ? '' : 'disabled'}>⚡ ${BULK_LABEL[ti.bulk] || ti.bulk} לכל ${bulkable.length} המקרים שטרם הוחלטו${ti.bulkConf ? ' (ביטחון ' + ti.bulkConf + ')' : ''}</button>` : ''}
+      ${ti.bulk ? `<button id="bulkApply" ${bulkable.length ? '' : 'disabled'}>⚡ ${BULK_LABEL[ti.bulk] || ti.bulk} — ${bulkable.length} מתוך ${pending.length} שטרם הוכרעו${ti.bulkConf ? ' (ביטחון ' + ti.bulkConf + ' בלבד)' : ''}${confFilter ? ' · מסונן לפי ביטחון ' + confFilter : ''}</button>` : ''}
       ${ti.oai ? `<button id="oaiBulk" ${unchecked.length ? '' : 'disabled'}>🔎 בדיקת OAI לכל ${unchecked.length} שטרם נבדקו</button><span>${live ? `חיות ב־OAI: ${live}` : ''}</span>` : ''}
     </div>`;
   const ba = document.getElementById('bulkApply');
