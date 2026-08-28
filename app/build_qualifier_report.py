@@ -188,10 +188,17 @@ for r in moves:
         continue
     heb = r.get('headingHeb') or ''
     b, rest = he_base(heb), heb[len(he_base(heb)):]
+    country = (re.findall(r'\(([^:)]+)', heb) or [''])[0].strip()
     rows_sugg.append(base | {
         'proposed_he_type': hit,
-        'proposed_heb_heading': ('%s %s%s' % (hit, b, rest)) if hit not in ('אזור',)
-                                else ('%s %s%s' % (hit, b, rest)),
+        # NLI's own dominant practice: 214 of 234 Hebrew headings that name a
+        # feature type use the prefix form (נהר הירדן, מפרץ אילת, איי גלפגוס).
+        'proposed_heb_heading': '%s %s%s' % (hit, b, rest),
+        'alt_form_parenthetical': '%s (%s)' % (b, hit) if not country else
+                                  '%s (%s : %s)' % (b, country, hit),
+        'alt_form_comma': '%s, %s%s' % (b, hit, rest),
+        'form_note': 'prefix form proposed — it is NLI\'s dominant practice '
+                     '(214 of 234 headings); the alternatives are shown for comparison',
         'kima_fallback_location_type_id': 2,
         'kima_fallback_meaning': LOCTYPE_NOTE[2],
         'why': 'Roman heading and Wikidata both say this is a %s; the Hebrew heading '
@@ -327,211 +334,248 @@ n_admin_ok = sum(1 for r in rows_admin if r['proposed_heb_heading'])
 n_admin_no = n_admin - n_admin_ok
 n_tier_total = len(rows_tier) + n_admin
 admin_tbl = md_table([r for r in rows_admin if r['proposed_heb_heading']],
-                     [('nli_id', 'NLI id'), ('heb_heading', 'Hebrew now'),
-                      ('rom_heading', 'Roman'), ('wikidata_says', 'Wikidata type'),
-                      ('proposed_heb_heading', 'proposed Hebrew')], limit=14)
+                     [('nli_id', 'מזהה NLI'), ('heb_heading', 'עברית כיום'),
+                      ('rom_heading', 'לטינית'), ('wikidata_says', 'סוג בוויקינתונים'),
+                      ('proposed_heb_heading', 'עברית מוצעת')], limit=14)
+
+have_tbl = md_table([{'w': w, 'n': n} for w, n in
+                     collections.Counter(r['existing_he_type'] for r in rows_have
+                                         if r['existing_he_type']).most_common(15)],
+                    [('w', 'מילת סוג'), ('n', 'רשומות')])
+loc_tbl = md_table([{'i': k, 'h': LOCTYPE[k], 'm': LOCTYPE_NOTE[k]} for k in sorted(LOCTYPE)],
+                   [('i', 'LocationTypeId'), ('h', 'עברית'), ('m', 'משמעות')])
+sugg_tbl = md_table(rows_sugg, [('nli_id', 'מזהה NLI'), ('heb_heading', 'עברית כיום'),
+                                ('rom_heading', 'לטינית'), ('wikidata_says', 'סוג בוויקינתונים'),
+                                ('proposed_heb_heading', 'עברית מוצעת')], limit=12)
+tier_tbl = md_table([r for r in rows_tier if r['proposed_he_tier']],
+                    [('nli_id', 'מזהה NLI'), ('heb_heading', 'עברית כיום'),
+                     ('rom_heading', 'לטינית'), ('roman_tier_word', 'דרגה בלטינית'),
+                     ('proposed_heb_heading', 'עברית מוצעת')])
+tier_map_tbl = md_table([{'r': k, 'h': v} for k, v in
+                         sorted(TIER_HE.items(), key=lambda x: x[1])],
+                        [('r', 'מילת דרגה לטינית'), ('h', 'עברית מוצעת')])
 
 sugg_by_type = collections.Counter(r['proposed_he_type'] for r in rows_sugg)
+sugg_tbl_types = md_table([{'t': t, 'n': n} for t, n in sugg_by_type.most_common()],
+                          [('t', 'מילה מוצעת'), ('n', 'רשומות')])
 have_by_type = collections.Counter(r['existing_he_type'] for r in rows_have if r['existing_he_type'])
 tier_ok = [r for r in rows_tier if r['proposed_he_tier']]
 
-doc = f"""# Hebrew headings that do not say what kind of place the record is
+doc = f"""# כותרות עבריות שאינן אומרות מאיזה סוג המקום
 
-Draft for discussion — generated {os.environ.get('REPORT_DATE', '2026-08-28')} from the
-NLI weekly update reports. **Not yet sent to the library.**
+טיוטה לדיון — הופקה {os.environ.get('REPORT_DATE', '2026-08-28')} מתוך דוחות העדכון
+השבועיים של הספרייה. **טרם נשלחה.**
 
-Two requests, both the same shape: NLI's Roman `151` states what kind of entity a
-record describes, and the Hebrew `151` frequently does not. Kima consumes the Hebrew
-heading, so the distinction is lost on our side and two different places end up
-competing for one Hebrew string.
+שתי בקשות מאותו סוג: הכותרת הלטינית (`151`) ברשומות NLI אומרת מאיזה סוג הישות —
+נהר, מחוז, אזור — והכותרת העברית לרוב אינה אומרת זאת. כימה צורכת את הכותרת העברית,
+ולכן ההבחנה אובדת אצלנו, ושני מקומות שונים מתחרים על אותה מחרוזת עברית.
 
-Nothing here asks NLI to change a coordinate or merge a record. Both asks are about
-the heading only.
+אין כאן בקשה לשנות קואורדינטות או למזג רשומות. שתי הבקשות נוגעות לכותרת בלבד.
+
+## למה זה חשוב — לא רק לנו
+
+**דיסאמביגואציה.** כשהכותרת העברית אינה אומרת מה סוג הישות, שתי רשומות שונות נושאות
+מחרוזת זהה ואי אפשר להבחין ביניהן:
+
+* `גנגס (צרפת)` — עיירה בדרום צרפת. בעברית היא בלתי ניתנת להבחנה מהנהר גנגס, ואצלנו
+  הפער בין הנקודות הוא 8,104 ק"מ. `נהר גנגס` לעומת `גנגס (צרפת)` פותר זאת מיידית.
+* `פרדוביצה (צ'כיה : מחוז)` — אותה כותרת עברית משמשת גם את המחוז וגם את הנפה שבתוכו,
+  שני מקומות במרחק 38 ק"מ. הלטינית מבחינה (`Okres` מול `kraj`), העברית לא.
+* `ליברץ (צ'כיה)` — העיר והמחוז נושאים כותרת עברית זהה; 8 ק"מ מפרידים ביניהם.
+* `אישיגאקי (יפן)` — האי והעיר. הלטינית אומרת `Ishigaki-shi` מול `Ishigaki Island`.
+
+**מידע.** מעבר לפתרון ההתנגשויות, כותרת שאומרת `נהר בוס` במקום `בוס (צרפת)` היא פשוט
+אינפורמטיבית יותר לקורא, לקטלוגר ולכל מי שצורך את קובץ הרשויות.
 
 ---
 
-## Part 1 — Extended features (river, region, range, island group …)
+## חלק 1 — ישויות מורחבות (נהר, אזור, רכס, קבוצת איים …)
 
-### The pattern
+### התופעה
 
-`Beauce (France)` is a river. Its Hebrew heading is `בוס (צרפת)` — a name and a
-country, with nothing saying it is a river. A cataloguer or a downstream consumer
-reading only the Hebrew cannot tell it from a town called Beauce.
+`Beauce (France)` הוא נהר. הכותרת העברית שלו היא `בוס (צרפת)` — שם ומדינה, בלי שום
+רמז לכך שמדובר בנהר.
 
-This matters to us concretely: an extended feature has no single correct point, so
-NLI's coordinate and ours can differ by tens of kilometres while both being right.
-When the Hebrew heading does not say the record is a river, our pipeline treats that
-difference as an error to be reconciled rather than a property of the entity.
+לנו זה משנה באופן מעשי: לישות מורחבת אין נקודה אחת נכונה, ולכן הקואורדינטה של NLI
+ושלנו יכולות להתרחק זו מזו בעשרות קילומטרים בעוד שתיהן נכונות. כשהכותרת העברית אינה
+אומרת שמדובר בנהר, הצינור שלנו מתייחס להפרש כאל שגיאה שיש ליישב.
 
-### NLI already does this — inconsistently
+### הספרייה כבר עושה זאת — לא בעקביות
 
-This is the heart of the request. Of **{len(rows_sugg) + len(rows_have) + len(rows_skip)}**
-extended features in the current reports:
+זה לב הבקשה. מתוך **{n_all}** ישויות מורחבות בדוחות הנוכחיים:
 
-* **{len(rows_have)}** already carry a Hebrew type word — `הים הלבן`, `מיצרי מגלן`,
-  `נהר סנט מרי'ס`, `אוהיו (נהר)`
-* **{len(rows_sugg)}** do not, and we think should
-* **{len(rows_skip)}** we are not asking about (see below)
+* **{len(rows_have)}** כבר נושאות מילת סוג בעברית — `הים הלבן`, `מיצרי מגלן`, `נהר הירדן`
+* **{len(rows_sugg)}** אינן, ולדעתנו כדאי שיישאו
+* **{len(rows_skip)}** איננו מבקשים לגביהן דבר (ראו להלן)
 
-So the practice exists and is well established. The ask is to extend it to the
-records that were missed, not to adopt something new.
+הנוהג קיים ומבוסס. הבקשה היא להרחיב אותו לרשומות שנפלו בין הכיסאות, לא לאמץ משהו חדש.
 
-Type words already in use, by frequency:
+מילות הסוג שכבר בשימוש, לפי שכיחות:
 
-{md_table([{'w': w, 'n': n} for w, n in have_by_type.most_common(15)],
-          [('w', 'Hebrew type word'), ('n', 'records')])}
+{have_tbl}
 
-### What we would suggest
+### צורת הכותרת המוצעת
 
-{md_table([{'t': t, 'n': n} for t, n in sugg_by_type.most_common()],
-          [('t', 'proposed word'), ('n', 'records')])}
+בדקנו את הנוהג בפועל על פני **2,255 מחרוזות עבריות שונות** מתוך קובץ הרשויות. התוצאה
+חד־משמעית: **צורת הקידומת היא הנוהג המקובל** — `נהר הירדן`, `מפרץ אילת`, `איי גלפגוס`.
 
-Full list: **`qualifiers-suggested.csv`**. Every row carries the NLI id, both
-headings, the Wikidata entity **and its plain-language type**, the distance between
-NLI's point and ours, and the proposed Hebrew heading.
+| צורה | מופעים |
+|---|---|
+| `נהר X` — קידומת | 214 |
+| `X, נהר` — פסיק | 5 |
+| `X (נהר)` — סוגריים | 4 |
+| `X (מדינה : נהר)` | 1 |
 
-First rows for orientation:
+לכן ההצעות בקובץ נוקטות בצורת הקידומת. **הצורות האחרות הן חלופה לגיטימית** — הן
+מופיעות בעמודות `alt_form_parenthetical` ו־`alt_form_comma` בקובץ — ואם הספרייה מעדיפה
+צורה אחרת, נשמח לדעת ונתאים את ההצעה.
 
-{md_table(rows_sugg, [('nli_id', 'NLI id'), ('heb_heading', 'Hebrew now'),
-                      ('rom_heading', 'Roman'), ('wikidata_says', 'Wikidata type'),
-                      ('proposed_heb_heading', 'proposed Hebrew')], limit=12)}
+⚠️ שימו לב: בקטגוריית הדרגות המנהליות (חלק 2) הנוהג **הפוך** — שם צורת הסוגריים
+`X (מדינה : דרגה)` שכיחה יותר. פירוט שם.
 
-### What we are deliberately not asking about
+### מה נציע
 
-**`qualifiers-not-suggested.csv`** ({len(rows_skip)} records) — kept in the report so
-the exclusions are auditable rather than invisible:
+{sugg_tbl_types}
 
-* types where a qualifier would be wrong — `אירופה`, `אוקיאניה`: you do not qualify a
-  continent
-* types where a qualifier would be right but we have no Hebrew word we trust —
-  *upland*, *plateau*, *massif*. `מאסיף סנטרל (צרפת)` sits here. **If NLI has an
-  established usage for these we would adopt it**; we would rather ask than guess
-* records whose Wikidata type is too vague to act on (`geographical feature`)
-* records with no usable Wikidata type at all
+הרשימה המלאה: **`qualifiers-suggested.csv`**. כל שורה נושאת את מזהה NLI, שתי הכותרות,
+ישות הוויקינתונים **והסוג שלה במילים**, המרחק בין הנקודה של NLI לשלנו, והכותרת המוצעת.
 
-### Honest limitations
+שורות ראשונות להתמצאות:
 
-1. **The proposals are machine-generated from Wikidata `P31` and need a cataloguer's
-   eye.** In testing, roughly one in six was wrong before filtering. Treat every row as
-   a proposal, not a finding. Where no Hebrew word could be proposed with confidence the
-   record was excluded rather than guessed at — `upland`, `plateau` and `massif` are
-   left out for this reason, so `מאסיף סנטרל (צרפת)` does not appear below.
-2. **The word choice is ours, not authoritative.** `אזור` for *region*, `נהר` for
-   *river* and `חוף` for *coast* we are confident in; anywhere else we would defer to
-   NLI's own usage.
-3. **This is a sample, not the whole authority file.** These are only the records that
-   surfaced in weekly update reports between 2024-06 and 2026-08 — records that
-   changed. The same gap almost certainly exists across records that did not change.
+{sugg_tbl}
 
-### If NLI declines
+### מה איננו מבקשים
 
-We would record the feature type on our side instead, in Kima's `LocationTypeId`
-field. The column `kima_fallback_location_type_id` in the CSV carries the value we
-would set, with `kima_fallback_meaning` spelling it out in words. Values observed in
-Kima today:
+**`qualifiers-not-suggested.csv`** ({len(rows_skip)} רשומות) — נשמר בדוח כדי שההחרגות
+יהיו גלויות ולא בלתי־נראות:
 
-{md_table([{'i': k, 'm': LOCTYPE_NOTE[k], 'h': LOCTYPE[k]} for k in sorted(LOCTYPE)],
-          [('i', 'LocationTypeId'), ('h', 'Hebrew'), ('m', 'meaning')])}
+* סוגים שבהם מילת סוג תהיה שגויה — `אירופה`, `אוקיאניה`: אין מכנים יבשת
+* סוגים שבהם מילת סוג נכונה אך אין בידינו מילה עברית שאנו סומכים עליה — *upland*,
+  *plateau*, *massif*. `מאסיף סנטרל (צרפת)` נמצא כאן. **אם לספרייה יש נוהג מקובל
+  לסוגים אלה נאמץ אותו** — עדיף לשאול מלנחש
+* רשומות שסוג הוויקינתונים שלהן מעורפל מכדי לפעול לפיו (`geographical feature`)
+* רשומות בלי סוג ויקינתונים שמיש
 
-This is a poorer outcome — the distinction would live only in Kima and stay invisible
-to every other consumer of NLI's authority data — but it is workable.
+### מגבלות, בגילוי לב
 
-**A finding on our own side, recorded here so it is not lost.** Looking up Kima's
-stored type for all {n_all} extended features shows the field is mostly wrong or unset:
+1. **ההצעות הופקו אוטומטית מ־`P31` בוויקינתונים וזקוקות לעין של קטלוגר.** בבדיקה,
+   כאחת מכל שש היתה שגויה לפני הסינון. יש להתייחס לכל שורה כהצעה, לא כממצא. במקום
+   שבו לא יכולנו להציע מילה בביטחון, הוחרגה הרשומה ולא נוחשה.
+2. **בחירת המילים היא שלנו ואינה סמכותית.** ב־`אזור`, `נהר` ו־`חוף` אנו בטוחים;
+   בכל השאר נעדיף את הנוהג של הספרייה.
+3. **זהו מדגם ולא קובץ הרשויות כולו.** אלה רק רשומות שהופיעו בדוחות שבועיים בין
+   2024-06 ל־2026-08 — כלומר רשומות שהשתנו. סביר שאותו פער קיים גם ברשומות שלא השתנו.
+
+### אם הספרייה תעדיף שלא
+
+נרשום את סוג הישות אצלנו, בשדה `LocationTypeId` של כימה. העמודה
+`kima_fallback_location_type_id` נושאת את הערך שנציב, ו־`kima_fallback_meaning` מסבירה
+אותו במילים. הערכים הקיימים בכימה:
+
+{loc_tbl}
+
+זו תוצאה פחות טובה — ההבחנה תחיה רק בכימה ותישאר בלתי נראית לכל שאר צרכני קובץ
+הרשויות — אך היא בת ביצוע.
+
+**ממצא בצד שלנו, נרשם כאן כדי שלא יאבד.** בדיקת הסוג השמור בכימה לכל {n_all} הישויות
+המורחבות מראה שהשדה שגוי או ריק ברובו:
 
 {loctable}
 
-Only {n_region} of {n_all} are typed as regions. **{n_point} extended features — rivers,
-mountain ranges, seas — are typed in Kima as settlements or point features**, and
-{n_none} have no type at all. So the fallback above is not simply a matter of writing a
-value we already hold: the existing values would have to be corrected first. This is
-Kima's problem, not NLI's, and it is being tracked separately.
+רק {n_region} מתוך {n_all} מסומנות כאזור. **{n_point} ישויות מורחבות — נהרות, רכסים,
+ימים — מסומנות בכימה כיישובים**, ול־{n_none} אין סוג כלל. כלומר החלופה שלעיל אינה
+עניין של כתיבת ערך שכבר בידינו: יש לתקן קודם את הקיים. זו בעיה של כימה, לא של
+הספרייה, והיא מטופלת בנפרד.
 
 ---
 
-## Part 2 — Administrative tiers
+## חלק 2 — דרגות מנהליות
 
-### The pattern
+### התופעה
 
-`Pardubice (Czech Republic : Okres)` is a district. `Pardubický kraj` is the region
-containing it. Both carry the Hebrew heading `פרדוביצה (צ'כיה : מחוז)`, because Hebrew
-flattens roughly 45 distinct Roman tier words into `מחוז` / `פרובינציה`, and 231 place
-headings carry no tier word at all.
+`Pardubice (Czech Republic : Okres)` היא נפה. `Pardubický kraj` הוא המחוז שמכיל אותה.
+שתיהן נושאות בעברית `פרדוביצה (צ'כיה : מחוז)`, משום שהעברית מכווצת כ־45 מילות דרגה
+לטיניות שונות ל־`מחוז` / `פרובינציה`, ו־231 כותרות מקום אינן נושאות מילת דרגה כלל.
 
-The Roman `151` is unique. The Hebrew `151` is not. Where NLI's own uniqueness
-constraint applies to the Roman heading, the same two records collide in Hebrew.
+הכותרת הלטינית ייחודית. העברית אינה. במקום שבו אילוץ הייחודיות של הספרייה חל על
+הכותרת הלטינית, אותן שתי רשומות מתנגשות בעברית.
 
-### What this costs us
+### מה זה עולה לנו
 
-Kima has already made the distinction by hand for **{len(rows_tier)}** of these,
-creating tier-qualified Hebrew headings. Because NLI's flat Hebrew is re-sent on every
-update, our pipeline reads it as a competing heading and reports a collision.
+כימה כבר ביצעה את ההבחנה ידנית ב־**{len(rows_tier)}** מהמקרים, ויצרה כותרות עבריות
+עם מבחין דרגה. מכיוון שהעברית השטוחה של NLI נשלחת מחדש בכל עדכון, הצינור שלנו קורא
+אותה ככותרת מתחרה ומדווח על התנגשות.
 
-Four further cases were reported to us as *"no Kima place owns this heading"* when in
-fact the place existed — under a tier-qualified form our automatic lookup could not
-match: Kharkiv raion, Chernivtsi oblast, Dalian Shi, Bohemia Kingdom.
+ארבעה מקרים נוספים דווחו לנו כ*"אין מקום בכימה שמחזיק בכותרת"* בעוד שהמקום קיים —
+תחת צורה עם מבחין דרגה שהחיפוש האוטומטי שלנו לא ידע להתאים: חרקיב, צ'רנוביץ,
+דאליין, בוהמיה.
 
-### The ask
+### הבקשה
 
-Apply the same uniqueness constraint to the Hebrew `151` as to the Roman, using a
-fixed tier vocabulary and the qualifier form `X (country : tier)` — not the prefix
-form `מחוז X`, which sorts badly and reads as part of the name.
+להחיל על הכותרת העברית (`151`) את אותו אילוץ ייחודיות החל על הלטינית, באמצעות אוצר
+מילים קבוע לדרגות ובצורת המבחין `X (מדינה : דרגה)`.
 
-{md_table(tier_ok, [('nli_id', 'NLI id'), ('heb_heading', 'Hebrew now'),
-                    ('rom_heading', 'Roman'), ('roman_tier_word', 'tier in Roman'),
-                    ('proposed_heb_heading', 'proposed Hebrew')])}
+**כאן הנוהג הפוך מחלק 1.** בבדיקת אותן 2,255 מחרוזות:
 
-Full list with the Kima side: **`tier-suggested.csv`**.
+| צורה | מופעים |
+|---|---|
+| `X (מדינה : דרגה)` | 44 |
+| `מחוז X` — קידומת | 29 |
+| `X (דרגה)` | 8 |
 
-### A further {n_admin} of the same kind, found in the coordinate reports
+צורת הסוגריים מובילה, ולכן היא המוצעת. היא גם עדיפה לדעתנו מסיבה מעשית: הצורה
+`מחוז X` נקראת כחלק מהשם עצמו וממיינת גרוע — כל המחוזות מתקבצים תחת האות מ'.
 
-These did not arrive as heading collisions — they surfaced because NLI's coordinate
-and ours disagreed. But the underlying problem is identical: Wikidata calls each one
-an administrative division, the Roman heading names the tier, and the Hebrew does not.
+{tier_tbl}
+
+הרשימה המלאה עם צד כימה: **`tier-suggested.csv`**.
+
+### עוד {n_admin} מאותו סוג, מתוך דוחות הקואורדינטות
+
+אלה לא הגיעו כהתנגשות כותרות — הם צפו משום שהקואורדינטה של NLI ושלנו נחלקו. אך
+הבעיה זהה: ויקינתונים מגדירה כל אחד מהם כחלוקה מנהלית, הכותרת הלטינית נוקבת בדרגה,
+והעברית לא.
 
 {admin_tbl}
 
-Full list: **`tier-from-coordinate-pile.csv`**. {n_admin_ok} of the {n_admin} have a
-proposed heading; the remaining {n_admin_no} are cases where no tier word could be read
-from the Roman heading — `Brazil, Northeast`, `Grampian (Scotland)`, and two Chinese
-autonomous divisions whose tier has no settled Hebrew form.
+הרשימה המלאה: **`tier-from-coordinate-pile.csv`**. ל־{n_admin_ok} מתוך {n_admin} יש
+כותרת מוצעת; ב־{n_admin_no} הנותרות לא ניתן היה לקרוא מילת דרגה מהכותרת הלטינית —
+`Brazil, Northeast`, `Grampian (Scotland)`, ושתי חלוקות אוטונומיות סיניות שלדרגתן
+אין צורה עברית מקובלת.
 
-Records the classifier flagged as homonyms are excluded here even when Wikidata calls
-them administrative divisions, because in those the Wikidata entity may not be the
-record's entity at all: `אזור הצפון (גאנה)` / `Northern Region (Ghana)` carries a
-Wikidata id for the Northern Region **of Uganda**, 3,710 km away. That is a linking
-error on our side, not a tier problem, and it is handled with the coordinate cases.
+רשומות שסווגו אצלנו כהומונים הוחרגו כאן גם כשוויקינתונים מגדירה אותן כחלוקה מנהלית,
+משום שבהן ייתכן שישות הוויקינתונים אינה של הרשומה כלל: `אזור הצפון (גאנה)` נושאת
+מזהה ויקינתונים של האזור הצפוני **של אוגנדה**, במרחק 3,710 ק"מ. זו שגיאת קישור אצלנו,
+לא בעיית דרגה.
 
-Counting both sources, the tier question covers **{n_tier_total} records** and is the
-larger of the two asks in this document.
+בספירת שני המקורות, שאלת הדרגות מכסה **{n_tier_total} רשומות** והיא הגדולה מבין שתי
+הבקשות במסמך זה.
 
-### The vocabulary is not settled
+### אוצר המילים אינו סופי
 
-⚠️ **The Hebrew tier words above are a working assumption**, taken from our internal
-`tier-vocabulary.md` §3a: `מחוז` / `נפה` / `עיר-נפה` / `פלך` / `מחוז ממשל`. We have not
-finalised it, and would rather agree it with NLI than impose it. The mapping used to
-generate this draft:
+⚠️ **מילות הדרגה העבריות שלעיל הן הנחת עבודה**, מתוך `tier-vocabulary.md` §3a:
+`מחוז` / `נפה` / `עיר-נפה` / `פלך` / `מחוז ממשל`. טרם סגרנו אותו, ונעדיף לסכם אותו
+עם הספרייה מאשר לכפות אותו. המיפוי ששימש להפקת הטיוטה:
 
-{md_table([{'r': k, 'h': v} for k, v in sorted(TIER_HE.items(), key=lambda x: x[1])],
-          [('r', 'Roman tier word'), ('h', 'proposed Hebrew')])}
+{tier_map_tbl}
 
-Where the same Hebrew word serves several Roman tiers, that is a deliberate collapse,
-not an oversight — but it is exactly the kind of decision worth making together.
+במקום שבו אותה מילה עברית משמשת כמה דרגות לטיניות — זהו כיווץ מכוון, לא פליטה — אך
+זו בדיוק ההחלטה שכדאי לקבל יחד.
 
 ---
 
-## Files
+## קבצים
 
-| file | rows | what it is |
+| קובץ | שורות | מה זה |
 |---|---|---|
-| `qualifiers-suggested.csv` | {len(rows_sugg)} | extended features we suggest adding a type word to |
-| `qualifiers-already-present.csv` | {len(rows_have)} | extended features whose Hebrew already names the type — the precedent |
-| `qualifiers-not-suggested.csv` | {len(rows_skip)} | deliberately excluded, with the reason per row |
-| `tier-suggested.csv` | {len(rows_tier)} | administrative-tier collisions with a proposed Hebrew heading |
-| `tier-from-coordinate-pile.csv` | {len(rows_admin)} | administrative divisions found via the coordinate reports — same tier problem |
+| `qualifiers-suggested.csv` | {len(rows_sugg)} | ישויות מורחבות שנציע להוסיף להן מילת סוג |
+| `qualifiers-already-present.csv` | {len(rows_have)} | ישויות מורחבות שהעברית שלהן כבר נוקבת בסוג — התקדים |
+| `qualifiers-not-suggested.csv` | {len(rows_skip)} | הוחרגו במכוון, עם הנימוק לכל שורה |
+| `tier-suggested.csv` | {len(rows_tier)} | התנגשויות דרגה מנהלית עם כותרת עברית מוצעת |
+| `tier-from-coordinate-pile.csv` | {len(rows_admin)} | חלוקות מנהליות שצפו מדוחות הקואורדינטות — אותה בעיית דרגה |
 
-Every column naming an identifier is paired with a column stating in words what it
-means, so no row requires resolving an id to be read.
+בכל קובץ, כל עמודה הנושאת מזהה מלווה בעמודה המסבירה במילים מה הוא — כדי ששורה לא
+תדרוש פענוח מזהה כדי להיקרא.
 """
 
 open(os.path.join(OUT, 'nli-heading-qualifiers.md'), 'w', encoding='utf-8').write(doc)

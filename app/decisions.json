@@ -1879,6 +1879,114 @@
   "manualLon": "",
   "correctWd": "",
   "note": "",
-  "timestampUtc": "2026-08-28T10:46:47Z"
+  "timestampUtc": "2026-08-28T11:01:17Z"
+ },
+ "987007283269205171": {
+  "decision": "region",
+  "forGili": false,
+  "forNli": false,
+  "suggestedNewName": "",
+  "suggestedExistingName": "",
+  "manualLat": "",
+  "manualLon": "",
+  "correctWd": "",
+  "note": "",
+  "timestampUtc": "2026-08-28T11:04:11Z"
+ },
+ "987007560417705171": {
+  "decision": "region",
+  "forGili": false,
+  "forNli": false,
+  "suggestedNewName": "",
+  "suggestedExistingName": "",
+  "manualLat": "",
+  "manualLon": "",
+  "correctWd": "",
+  "note": "",
+  "timestampUtc": "2026-08-28T11:04:12Z"
+ },
+ "987007291071505171": {
+  "decision": "region",
+  "forGili": false,
+  "forNli": false,
+  "suggestedNewName": "",
+  "suggestedExistingName": "",
+  "manualLat": "",
+  "manualLon": "",
+  "correctWd": "",
+  "note": "",
+  "timestampUtc": "2026-08-28T11:04:16Z"
+ },
+ "987007283467705171": {
+  "decision": "region",
+  "forGili": false,
+  "forNli": false,
+  "suggestedNewName": "",
+  "suggestedExistingName": "",
+  "manualLat": "",
+  "manualLon": "",
+  "correctWd": "",
+  "note": "",
+  "timestampUtc": "2026-08-28T11:04:18Z"
+ },
+ "987007539648705171": {
+  "decision": "region",
+  "forGili": false,
+  "forNli": false,
+  "suggestedNewName": "",
+  "suggestedExistingName": "",
+  "manualLat": "",
+  "manualLon": "",
+  "correctWd": "",
+  "note": "",
+  "timestampUtc": "2026-08-28T11:04:21Z"
+ },
+ "987007550753005171": {
+  "decision": "region",
+  "forGili": false,
+  "forNli": false,
+  "suggestedNewName": "",
+  "suggestedExistingName": "",
+  "manualLat": "",
+  "manualLon": "",
+  "correctWd": "",
+  "note": "",
+  "timestampUtc": "2026-08-28T11:04:24Z"
+ },
+ "987007292985305171": {
+  "decision": "river",
+  "forGili": false,
+  "forNli": false,
+  "suggestedNewName": "",
+  "suggestedExistingName": "",
+  "manualLat": "",
+  "manualLon": "",
+  "correctWd": "",
+  "note": "",
+  "timestampUtc": "2026-08-28T11:04:30Z"
+ },
+ "987007529894805171": {
+  "decision": "region",
+  "forGili": false,
+  "forNli": false,
+  "suggestedNewName": "",
+  "suggestedExistingName": "",
+  "manualLat": "",
+  "manualLon": "",
+  "correctWd": "",
+  "note": "",
+  "timestampUtc": "2026-08-28T11:04:33Z"
+ },
+ "987007536566805171": {
+  "decision": "region",
+  "forGili": false,
+  "forNli": false,
+  "suggestedNewName": "",
+  "suggestedExistingName": "",
+  "manualLat": "",
+  "manualLon": "",
+  "correctWd": "",
+  "note": "",
+  "timestampUtc": "2026-08-28T11:04:35Z"
  }
 }
