@@ -112,7 +112,7 @@
   .tab {
     flex: 0 0 auto; border: 0; border-bottom: 3px solid transparent;
     background: none; color: var(--muted); cursor: pointer;
-    font-family: inherit; font-size: .9rem; padding: .8rem .85rem .65rem;
+    font-family: inherit; font-size: .9rem; padding: .8rem .5rem .65rem .85rem;
     display: flex; align-items: baseline; gap: .45rem; white-space: nowrap;
   }
   .tab:hover { color: var(--ink); }
@@ -125,13 +125,23 @@
   }
   .tab[aria-selected="true"] .n { background: var(--accent); border-color: var(--accent);
                                   color: #fff; }
-  .tab .info {
-    font-size: .7rem; width: 1.15em; height: 1.15em; line-height: 1.15em;
-    text-align: center; border-radius: 50%; border: 1px solid var(--line-2);
-    color: var(--faint); align-self: center;
+  /* the "i" is a button in its own right: the explanation opens only on a
+     deliberate click, so it must be separately clickable and focusable */
+  .tabpair { flex: 0 0 auto; display: flex; align-items: center; gap: .1rem; }
+  button.info {
+    flex: 0 0 auto; font-family: inherit; font-size: .72rem; font-weight: 700;
+    width: 1.45rem; height: 1.45rem; padding: 0; cursor: pointer;
+    border-radius: 50%; border: 1px solid var(--line-2);
+    background: var(--card); color: var(--faint);
   }
-  .tab:hover .info, .tab[aria-selected="true"] .info { border-color: var(--accent);
-                                                       color: var(--accent); }
+  button.info:hover { border-color: var(--accent); color: var(--accent);
+                      background: var(--accent-soft); }
+  button.info:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  button.info[aria-expanded="true"] { background: var(--accent); border-color: var(--accent);
+                                      color: #fff; }
+  .tabpair:has(.tab[aria-selected="true"]) button.info { border-color: var(--accent);
+                                                         color: var(--accent); }
+  .tabpair:has(.tab[aria-selected="true"]) button.info[aria-expanded="true"] { color: #fff; }
 
   /* ---------------------------------------------------------- main */
   main { max-width: 74rem; margin: 0 auto; padding: 1.5rem 1.5rem 4rem; }
@@ -335,7 +345,7 @@ const COLS = {
 const KIND = { mechanical: 'תיקון מכני', judgment: 'דורש בדיקה עורכית' };
 const NLI_URL = id => 'https://www.nli.org.il/he/authorities/' + id;
 
-let DATA = null, active = null, pinned = false;
+let DATA = null, active = null, openFor = null;
 const $ = s => document.querySelector(s);
 
 function esc(s) {
@@ -394,18 +404,17 @@ function renderTab(key) {
     + esc(KIND[tab.kind]) + '</span></h2>'
     + '<p>' + tab.why + '</p>'
     + '<button class="explain-open" id="explain-open">הסבר מלא — מה מבוקש ואיך נמצא ←</button>';
-  $('#explain-open').addEventListener('click', () => openPanel(key, true));
+  $('#explain-open').addEventListener('click', () => openPanel(key));
 
   $('#thead').innerHTML = cols.map(c => '<th>' + esc(c[1]) + '</th>').join('');
   $('#tbody').innerHTML = rows.map(r =>
     '<tr>' + cols.map(c => cell(r, c[0], c[2])).join('') + '</tr>').join('');
 }
 
-function openPanel(key, pin) {
+function openPanel(key) {
   const tab = DATA.tabs.find(t => t.key === key);
   if (!tab) return;
-  if (pinned && !pin) return;          // a pinned panel is not stolen by hover
-  if (pin) pinned = true;
+  openFor = key;
   $('#panel-kind').textContent = KIND[tab.kind];
   $('#panel-title').textContent = tab.title;
   $('#panel-count').innerHTML = tab.n.toLocaleString('he-IL') + ' שורות · '
@@ -416,13 +425,21 @@ function openPanel(key, pin) {
     + '<section><h4>איך נמצא</h4><p>' + tab.how + '</p></section>'
     + '<section><h4>העדות בטבלה</h4><p>' + tab.evidence + '</p></section>';
   $('#panel').classList.add('on');
-  if (pin) $('#scrim').classList.add('on');
+  $('#scrim').classList.add('on');
+  document.querySelectorAll('.info').forEach(b =>
+    b.setAttribute('aria-expanded', String(b.dataset.key === key)));
+  $('#panel-close').focus();
 }
-function closePanel(force) {
-  if (pinned && !force) return;
-  pinned = false;
+
+function closePanel() {
+  const was = openFor;
+  openFor = null;
   $('#panel').classList.remove('on');
   $('#scrim').classList.remove('on');
+  document.querySelectorAll('.info').forEach(b => b.setAttribute('aria-expanded', 'false'));
+  // return focus to the "i" that opened it, so keyboard users don't lose their place
+  const src = document.querySelector('.info[data-key="' + was + '"]');
+  if (src) src.focus();
 }
 
 fetch('data.json').then(r => r.json()).then(d => {
@@ -440,28 +457,37 @@ fetch('data.json').then(r => r.json()).then(d => {
     + 'הערך הנכון נגזר מן הערך הקיים. השאר דורשות בדיקה עורכית, ולכל שורה כזאת '
     + 'צורפו הנקודה שלדעתנו נכונה, המרחק, וההערה שנרשמה בעת הסקירה.';
 
+  // The explanation is opened deliberately, by clicking the "i", and never by
+  // hovering: a panel that appears under the pointer while someone is reading
+  // the tab row jumps the page out from under them.
   $('#tabs').innerHTML = d.tabs.map((t, i) =>
-    '<button class="tab" role="tab" data-key="' + t.key + '" id="tab-' + t.key + '"'
+    '<span class="tabpair">'
+    + '<button class="tab" role="tab" data-key="' + t.key + '" id="tab-' + t.key + '"'
     + ' aria-selected="' + (i === 0) + '">'
     + '<span>' + esc(t.short) + '</span>'
-    + '<span class="n">' + t.n + '</span>'
-    + '<span class="info" aria-hidden="true">i</span></button>').join('');
+    + '<span class="n">' + t.n + '</span></button>'
+    + '<button class="info" data-key="' + t.key + '" aria-expanded="false"'
+    + ' title="הסבר על סוג התיקון" aria-label="הסבר על ' + esc(t.short) + '">i</button>'
+    + '</span>').join('');
 
-  document.querySelectorAll('.tab').forEach(b => {
-    b.addEventListener('click', () => { renderTab(b.dataset.key); openPanel(b.dataset.key, false); });
-    b.addEventListener('mouseenter', () => openPanel(b.dataset.key, false));
-    b.addEventListener('focus', () => openPanel(b.dataset.key, false));
-    b.addEventListener('mouseleave', () => closePanel(false));
-    b.addEventListener('blur', () => closePanel(false));
-  });
-  $('#tabs').addEventListener('mouseleave', () => closePanel(false));
+  document.querySelectorAll('.tab').forEach(b =>
+    b.addEventListener('click', () => renderTab(b.dataset.key)));
+  document.querySelectorAll('.info').forEach(b =>
+    b.addEventListener('click', () => {
+      // clicking the "i" of a tab you are not on switches to it as well, so the
+      // explanation always describes the rows on screen
+      if (b.dataset.key !== active) renderTab(b.dataset.key);
+      openPanel(b.dataset.key);
+    }));
 
   renderTab(d.tabs[0].key);
 });
 
-$('#panel-close').addEventListener('click', () => closePanel(true));
-$('#scrim').addEventListener('click', () => closePanel(true));
-document.addEventListener('keydown', e => { if (e.key === 'Escape') closePanel(true); });
+$('#panel-close').addEventListener('click', closePanel);
+$('#scrim').addEventListener('click', closePanel);
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape' && openFor) closePanel();
+});
 </script>
 </body>
 </html>
