@@ -22,6 +22,7 @@ import io
 import json
 import math
 import os
+import re
 import sys
 import datetime
 import urllib.request
@@ -185,6 +186,29 @@ def fetch_full():
     return body
 
 
+# `note` is the reviewer's column in the app, and it holds two kinds of text:
+# real prose about the record, and audit strings the bulk-apply button writes
+# ("bulk: B3"). Only the prose belongs in a report to the library — the audit
+# strings would put our internal queue codes in a column labelled "reviewer's
+# note", 95 of 106 notes' worth.
+MACHINE_NOTE = re.compile(r'^\s*bulk:\s*\w+\s*$')
+
+# One note mixes a question to ourselves with a genuine finding. Sending it
+# whole would open the line with "why was this reported?", which reads to the
+# library as though we doubt our own report. The finding is kept; the question
+# stays in decisions.json where it was asked.
+NOTE_OVERRIDE = {
+    '987007562247105171': 'הסוגר הסופי חסר בכותרת.',
+}
+
+
+def clean_note(rid, note):
+    if rid in NOTE_OVERRIDE:
+        return NOTE_OVERRIDE[rid]
+    note = (note or '').strip()
+    return '' if MACHINE_NOTE.match(note) else note
+
+
 def split_ll(s):
     if not s or ',' not in s:
         return None
@@ -266,7 +290,7 @@ def build_rows():
             'bucketWhy': r['classifier_reason'],
             'confidence': r['classifier_confidence'],
             'fix034': (extra or {}).get('fix034') or '',
-            'note': r['note'],
+            'note': clean_note(r['new_id'], r['note']),
             'decision': r['decision'],
             'period': r['period'],
             'recovered': bool(extra and extra.get('heb')),
