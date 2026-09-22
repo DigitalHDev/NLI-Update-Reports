@@ -192,6 +192,16 @@ NAME_DRAFTS = {
 # review recorded `keep-existing` on it.
 OUR_BUG_TASKS = {'B5'}
 
+# Buckets where the classifier named *Kima* as the faulty side. The review's
+# `keep-existing` verdict normally means "Kima's point is right, NLI's is
+# wrong" (B3: Wikidata backs Kima, NLI is the outlier) — but in these two it
+# means only "do not overwrite Kima from this record", and NLI's value is the
+# one that matches Wikidata. Reporting them told the library to replace a
+# correct coordinate with a wrong one: Yiftahel (NLI = Q4228288 Yiftahel, the
+# Galilee; Kima = Q7428276 Hierapolis, Turkey, 798 km off) and Podhale
+# (NLI = Q115155 exactly; Kima 150 km off). Ours to fix, not NLI's.
+OUR_BUG_BUCKETS = {'kima-wd-wrong', 'kima-coords-wrong'}
+
 
 # ---------------------------------------------------------------- tabs
 # One tab per action the library has to take. `task` lists the review queues
@@ -448,7 +458,7 @@ def build_rows():
                             or r['decision'] == 'rename-suggestion'):
             skipped_heb += 1
             continue
-        if r['task'] in OUR_BUG_TASKS:
+        if r['task'] in OUR_BUG_TASKS or r['classifier_bucket'] in OUR_BUG_BUCKETS:
             skipped_ours += 1
             continue
         tab = (heb_tab or (Z_TAB_OF_DECISION.get(r['decision']) if r['task'] == 'Z'
@@ -643,6 +653,11 @@ def attach_fix034(rows):
 # Columns that stay in the workbook (hidden) but never render on the page.
 HIDDEN_COLUMNS = {'bucketWhy', 'confidence'}
 
+# Appended to every tab below rather than written into each: the report is
+# cumulative, so every row states when it first appeared, and a tab added
+# later should not have to remember to carry the column.
+REPORTED_COLUMN = ('reported', 'נכלל בדוח מיום')
+
 # Column order per tab. Every id column is paired with a words column — the
 # convention from the review app's exports: a report the library has to act on
 # must never make a reader resolve an id by hand.
@@ -706,6 +721,9 @@ COLUMNS = {
     ],
 }
 
+for _cols in COLUMNS.values():
+    _cols.append(REPORTED_COLUMN)
+
 
 def cell(r, key):
     v = r.get(key)
@@ -714,6 +732,50 @@ def cell(r, key):
     if key.endswith('LatLon') and isinstance(v, list):
         return '%.5f, %.5f' % (v[0], v[1])
     return v
+
+
+# ------------------------------------------------------------ first reported
+# The report is cumulative: later updates add rows to it. So each row states
+# the date it FIRST appeared, which means the date cannot be recomputed from
+# the build — it has to be remembered. This ledger is that memory, keyed by
+# NLI record id, and it is committed with the report. A row already in it
+# keeps its original date no matter how often the report is rebuilt; only a
+# genuinely new finding gets today's.
+REPORTED_LEDGER = os.path.join(REPO, 'reports-ledger.json')
+
+
+def attach_reported(rows, today):
+    """Stamp each row with the date it first entered a report."""
+    try:
+        with open(REPORTED_LEDGER, encoding='utf-8') as fh:
+            ledger = json.load(fh)
+    except FileNotFoundError:
+        ledger = {}
+    new = 0
+    for r in rows:
+        rid = r['id']
+        if rid not in ledger:
+            ledger[rid] = today
+            new += 1
+        r['reported'] = ledger[rid]
+    with open(REPORTED_LEDGER, 'w', encoding='utf-8') as fh:
+        json.dump(ledger, fh, ensure_ascii=False, indent=1, sort_keys=True)
+        fh.write('\n')
+    print('reported: %d row(s) new today, %d in the ledger' % (new, len(ledger)))
+    return new
+
+
+def live_columns(cols, rows):
+    """`cols` minus the ones no row in this tab fills.
+
+    A column that is empty down its whole length is a question the library
+    cannot answer — it reads as missing data rather than as "not applicable
+    here". Which columns those are shifts with the rows: dropping the two
+    Kima-fault rows emptied "מזהה ויקינתונים נכון" in the coordinates tab, so
+    this is computed per build rather than declared.
+    """
+    return [(k, label) for k, label in cols
+            if any(str(r.get(k, '') or '').strip() for r in rows)]
 
 
 def write_xlsx(payload, path):
@@ -729,7 +791,8 @@ def write_xlsx(payload, path):
     head_fill = PatternFill('solid', fgColor='1F3A5F')
     head_font = Font(color='FFFFFF', bold=True, size=11)
     for tab in payload['tabs']:
-        cols = COLUMNS[tab['key']]
+        tab_rows = [x for x in payload['rows'] if x['tab'] == tab['key']]
+        cols = live_columns(COLUMNS[tab['key']], tab_rows)
         ws = wb.create_sheet(tab['short'][:31])
         ws.sheet_view.rightToLeft = True
         ws.append([label for _, label in cols])
@@ -737,7 +800,7 @@ def write_xlsx(payload, path):
             cl = ws.cell(row=1, column=c)
             cl.fill, cl.font = head_fill, head_font
             cl.alignment = Alignment(vertical='center', wrap_text=True)
-        for r in [x for x in payload['rows'] if x['tab'] == tab['key']]:
+        for r in tab_rows:
             ws.append([cell(r, k) for k, _ in cols])
         widths = {'heb': 30, 'rom': 30, 'id': 20, 'fix034': 46, 'note': 52,
                   'suggestNew': 34, 'suggestExisting': 34, 'suggestWhy': 60,
@@ -882,7 +945,10 @@ def apply_edits(payload, edited, prose):
     derived from Kima and Wikidata, not from the reviewer's judgment, so the
     generated value always wins. To correct a point, fix it in the review app.
     """
-    READ_ONLY = {'nliLatLon', 'kimaLatLon', 'fixedLatLon', 'manualLatLon', 'dist'}
+    # `reported` joins them: it is the ledger's record of when a row first went
+    # out, not a judgement anyone makes in the sheet.
+    READ_ONLY = {'nliLatLon', 'kimaLatLon', 'fixedLatLon', 'manualLatLon', 'dist',
+                 'reported'}
     changed = touched = 0
     for r in payload['rows']:
         e = edited.get(r['id'])
@@ -942,6 +1008,7 @@ def main():
     rows = build_rows()
     attach_fix034(rows)
     today = datetime.date.today().isoformat()
+    attach_reported(rows, today)
     counts = {}
     for r in rows:
         counts[r['tab']] = counts.get(r['tab'], 0) + 1

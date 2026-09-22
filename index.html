@@ -193,6 +193,9 @@
   td.ltr { direction: ltr; text-align: left; unicode-bidi: embed; }
   td.mono { font-family: ui-monospace, Menlo, Consolas, monospace; font-size: .8rem;
             direction: ltr; text-align: left; white-space: nowrap; }
+  /* when a row first entered the report: context, not a finding — kept quiet */
+  td.date { font-variant-numeric: tabular-nums; white-space: nowrap;
+            direction: ltr; text-align: left; color: var(--faint); font-size: .84rem; }
   td.heb { font-weight: 500; min-width: 11rem; }
   td.note { color: var(--muted); font-size: .82rem; min-width: 14rem; max-width: 26rem; }
   td a { color: var(--accent); }
@@ -393,6 +396,15 @@ const COLS = {
     ['nliLatLon','נקודת NLI','num ltr'], ['kimaLatLon','נקודת כימה','num ltr'],
   ],
 };
+// The report is cumulative — later updates add rows — so every row says when it
+// first appeared. Appended here rather than written into each tab above, the
+// same way the builder appends REPORTED_COLUMN.
+Object.values(COLS).forEach(c => c.push(['reported','נכלל בדוח מיום','date']));
+// A column no row in the tab fills reads as missing data rather than as "not
+// applicable here", so it is dropped. Which ones those are depends on the rows,
+// so it is computed per render, matching live_columns() in the builder.
+const liveCols = (cols, rows) =>
+  cols.filter(c => rows.some(r => String(r[c[0]] ?? '').trim() !== ''));
 const KIND = { mechanical: 'תיקון מכני', judgment: 'להחלטת מחלקת הקטלוג' };
 const NLI_URL = id => 'https://www.nli.org.il/he/authorities/' + id;
 
@@ -457,7 +469,7 @@ function renderTab(key) {
   // rows dropped from the edited spreadsheet are kept in data.json for the
   // record but never shown to the library
   const rows = DATA.rows.filter(r => r.tab === key && !r.removed);
-  const cols = COLS[key];
+  const cols = liveCols(COLS[key], rows);
 
   document.querySelectorAll('.tab').forEach(b =>
     b.setAttribute('aria-selected', String(b.dataset.key === key)));

@@ -24,7 +24,7 @@
    "ask": "לבדוק את הקואורדינטות בכל שורה מול הכותרת, ולתקן את 034. העמודות \"נקודת ויקינתונים\" ו\"מרחק\" מראות מה לדעתנו הנקודה הנכונה ועד כמה הרשומה רחוקה ממנה.",
    "how": "ההשוואה נעשתה בין שלוש נקודות: זו שברשומת NLI, זו שכימה מחזיקה, וזו של ישות הוויקינתונים שהרשומה עצמה מפנה אליה בשדה 024. כשכימה וויקינתונים מסכימות זו עם זו ונקודת NLI לבדה — ייחסנו את הטעות לרשומה. הסיווג האוטומטי עבר אחר כך סקירה ידנית, שורה שורה.",
    "evidence": "עמודת \"הנקודה שלדעתנו נכונה\" היא הנקודה שכימה מחזיקה, אלא אם הסוקר רשם נקודה משלו — במקרים שבהם גם נקודת כימה שגויה. עמודת \"מרחק\" היא המרחק בין נקודת הרשומה לנקודה הזאת.",
-   "n": 108,
+   "n": 106,
    "tasks": [
     "B2",
     "B3",
@@ -176,7 +176,8 @@
    "otherHeb": "",
    "otherRom": "",
    "correctLatLon": null,
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "wikidata-id",
@@ -235,7 +236,8 @@
     33.26517113091
    ],
    "correctSource": "kima",
-   "fromTab": "other"
+   "fromTab": "other",
+   "reported": "2026-09-22"
   },
   {
    "tab": "wikidata-id",
@@ -294,7 +296,8 @@
     139.3671
    ],
    "correctSource": "kima",
-   "fromTab": "nli-coords"
+   "fromTab": "nli-coords",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -352,7 +355,8 @@
     49.9433,
     10.1478
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "wikidata-id",
@@ -411,7 +415,8 @@
     10.583333333333
    ],
    "correctSource": "kima",
-   "fromTab": "nli-coords"
+   "fromTab": "nli-coords",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -473,65 +478,8 @@
    "fixedLatLon": [
     53.9659,
     19.05916
-   ]
-  },
-  {
-   "tab": "nli-coords",
-   "task": "B7",
-   "id": "987007558385105171",
-   "url": "https://www.nli.org.il/he/authorities/987007558385105171",
-   "heb": "פודהייל (פולין)",
-   "rom": "Podhale (Poland)",
-   "ara": "بودالي (بولندا)",
-   "nliLatLon": [
-    49.4793,
-    20.0291
    ],
-   "kimaLatLon": [
-    50.84401,
-    20.64039
-   ],
-   "dist": 157.9,
-   "nliWd": "Q115155",
-   "kimaWd": "",
-   "correctWd": "",
-   "manualLatLon": null,
-   "viaf": "",
-   "lccn": "sh 85103665",
-   "geonames": "8426167",
-   "kimaId": "2224",
-   "kimaHeb": "פודהייל (פולין)",
-   "kimaRom": "Podhale (Poland)",
-   "otherNliId": "987007558385105171",
-   "otherNliUrl": "https://www.nli.org.il/he/authorities/987007558385105171",
-   "bucket": "kima-coords-wrong",
-   "bucketWhy": "Kima's point disagrees with NLI and with Kima's own Wikidata",
-   "confidence": "high",
-   "fix034": "",
-   "note": "",
-   "decision": "keep-existing",
-   "period": "20250115-20250121",
-   "recovered": false,
-   "wdKind": "",
-   "wdKindHe": "",
-   "suggestNew": "",
-   "suggestExisting": "",
-   "suggestWhy": "",
-   "suggestWarn": "",
-   "second": "",
-   "secondDetail": "",
-   "isDraft": false,
-   "draftHe": "",
-   "spellWas": "",
-   "spellNow": "",
-   "spellWhy": "",
-   "otherHeb": "פודהייל (פולין)",
-   "otherRom": "Podhale (Poland)",
-   "correctLatLon": [
-    50.84401,
-    20.64039
-   ],
-   "correctSource": "kima"
+   "reported": "2026-09-22"
   },
   {
    "tab": "heb-spelling",
@@ -583,7 +531,8 @@
    "otherHeb": "שטרסבורג (גרמניה)",
    "otherRom": "Strasburg (Germany)",
    "correctLatLon": null,
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -641,7 +590,8 @@
     -5.6629,
     106.5683
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "dropped-zero",
@@ -703,7 +653,8 @@
    "fixedLatLon": [
     48.56266,
     16.07395
-   ]
+   ],
+   "reported": "2026-09-22"
   },
   {
    "tab": "wikidata-id",
@@ -762,7 +713,8 @@
     -74.8897
    ],
    "correctSource": "kima",
-   "fromTab": "nli-coords"
+   "fromTab": "nli-coords",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -820,7 +772,8 @@
     30.5475,
     -94.34
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -878,7 +831,8 @@
     37.970555,
     13.822206
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -936,7 +890,8 @@
     40.49,
     -111.69611111111111
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -994,65 +949,8 @@
     32.590338888889,
     34.970638888889
    ],
-   "correctSource": "kima"
-  },
-  {
-   "tab": "nli-coords",
-   "task": "B6",
-   "id": "987007549317505171",
-   "url": "https://www.nli.org.il/he/authorities/987007549317505171",
-   "heb": "אתר יפתחאל (ישראל)",
-   "rom": "Yiftahel Site (Israel)",
-   "ara": "موقع يفتاح (إسرائيل)",
-   "nliLatLon": [
-    32.7554,
-    35.2277
-   ],
-   "kimaLatLon": [
-    37.925,
-    29.125833333333
-   ],
-   "dist": 797.6,
-   "nliWd": "Q4228288",
-   "kimaWd": "Q7428276",
-   "correctWd": "",
-   "manualLatLon": null,
-   "viaf": "",
-   "lccn": "sh 99006003",
-   "geonames": "",
-   "kimaId": "5176",
-   "kimaHeb": "אתר יפתחאל (ישראל)",
-   "kimaRom": "Yiftahel Site (Israel)",
-   "otherNliId": "987007549317505171",
-   "otherNliUrl": "https://www.nli.org.il/he/authorities/987007549317505171",
-   "bucket": "kima-wd-wrong",
-   "bucketWhy": "Kima's Wikidata id points at the wrong entity",
-   "confidence": "high",
-   "fix034": "",
-   "note": "",
-   "decision": "keep-existing",
-   "period": "20250129-20250204",
-   "recovered": false,
-   "wdKind": "",
-   "wdKindHe": "",
-   "suggestNew": "",
-   "suggestExisting": "",
-   "suggestWhy": "",
-   "suggestWarn": "",
-   "second": "",
-   "secondDetail": "",
-   "isDraft": false,
-   "draftHe": "",
-   "spellWas": "",
-   "spellNow": "",
-   "spellWhy": "",
-   "otherHeb": "אתר יפתחאל (ישראל)",
-   "otherRom": "Yiftahel Site (Israel)",
-   "correctLatLon": [
-    37.925,
-    29.125833333333
-   ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -1110,7 +1008,8 @@
     45.707,
     126.617
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "dropped-zero",
@@ -1172,7 +1071,8 @@
    "fixedLatLon": [
     48.80387,
     2.11918
-   ]
+   ],
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -1230,7 +1130,8 @@
     51.315777777778,
     9.4979166666667
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -1288,7 +1189,8 @@
     13.099263031281719,
     14.504634512569485
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -1346,7 +1248,8 @@
     45.9583526,
     -83.8972268
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -1404,7 +1307,8 @@
     34.116667,
     35.65
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -1462,7 +1366,8 @@
     -22.343888888889,
     40.367222222222
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -1520,7 +1425,8 @@
     40.0,
     -100.0
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "duplicate-records",
@@ -1578,7 +1484,8 @@
     42.3875,
     -71.1
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "dropped-zero",
@@ -1640,7 +1547,8 @@
    "fixedLatLon": [
     53.35597,
     32.04965
-   ]
+   ],
+   "reported": "2026-09-22"
   },
   {
    "tab": "dropped-zero",
@@ -1702,7 +1610,8 @@
    "fixedLatLon": [
     49.08313,
     19.61614
-   ]
+   ],
+   "reported": "2026-09-22"
   },
   {
    "tab": "dropped-zero",
@@ -1764,7 +1673,8 @@
    "fixedLatLon": [
     50.02965,
     12.63264
-   ]
+   ],
+   "reported": "2026-09-22"
   },
   {
    "tab": "dropped-zero",
@@ -1826,7 +1736,8 @@
    "fixedLatLon": [
     47.1005,
     24.19703
-   ]
+   ],
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -1884,7 +1795,8 @@
     55.593188589918,
     13.021423031021
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "dropped-zero",
@@ -1946,7 +1858,8 @@
    "fixedLatLon": [
     47.01813,
     16.61346
-   ]
+   ],
+   "reported": "2026-09-22"
   },
   {
    "tab": "dropped-zero",
@@ -2008,7 +1921,8 @@
    "fixedLatLon": [
     46.08333,
     33.75
-   ]
+   ],
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -2066,7 +1980,8 @@
     51.94119609,
     -7.83599854
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "dropped-zero",
@@ -2128,7 +2043,8 @@
    "fixedLatLon": [
     50.09849,
     9.23886
-   ]
+   ],
+   "reported": "2026-09-22"
   },
   {
    "tab": "dropped-zero",
@@ -2190,7 +2106,8 @@
    "fixedLatLon": [
     49.033,
     27.23356
-   ]
+   ],
+   "reported": "2026-09-22"
   },
   {
    "tab": "heb-spelling",
@@ -2248,7 +2165,8 @@
     48.763611111111,
     11.426111111111
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -2306,7 +2224,8 @@
     34.816666666667,
     67.816666666667
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -2364,7 +2283,8 @@
     32.98722778,
     35.49155
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -2426,7 +2346,8 @@
    "fixedLatLon": [
     50.9432,
     7.08464
-   ]
+   ],
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -2484,7 +2405,8 @@
     31.0043,
     47.4421
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "dropped-zero",
@@ -2546,7 +2468,8 @@
    "fixedLatLon": [
     35.21319,
     4.183
-   ]
+   ],
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -2604,7 +2527,8 @@
     38.4892,
     29.8972
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "dropped-zero",
@@ -2666,7 +2590,8 @@
    "fixedLatLon": [
     50.24353,
     25.08701
-   ]
+   ],
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -2724,7 +2649,8 @@
     -27.119444444444,
     -109.35472222222
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -2782,7 +2708,8 @@
     49.0,
     31.0
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "duplicate-records",
@@ -2840,7 +2767,8 @@
     37.1817,
     -3.5983
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "heb-homonym",
@@ -2892,7 +2820,8 @@
    "otherHeb": "הוכשטטן (גרמניה)",
    "otherRom": "Hochstetten (Germany)",
    "correctLatLon": null,
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "heb-identity",
@@ -2950,7 +2879,8 @@
     38.785277777778,
     -0.345
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "wikidata-id",
@@ -3009,7 +2939,8 @@
     -0.84042
    ],
    "correctSource": "kima",
-   "fromTab": "nli-coords"
+   "fromTab": "nli-coords",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -3067,7 +2998,8 @@
     44.8,
     6.5
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -3125,7 +3057,8 @@
     42.116666666667,
     15.5
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -3183,7 +3116,8 @@
     45.236944444444,
     -50.989222222222
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -3241,7 +3175,8 @@
     37.72807,
     38.86933
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -3299,7 +3234,8 @@
     41.90392,
     -87.65394
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -3357,7 +3293,8 @@
     44.42031,
     8.98444
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -3415,7 +3352,8 @@
     50.35289,
     3.40389
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -3473,7 +3411,8 @@
     51.101111111111,
     6.5016666666667
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -3531,7 +3470,8 @@
     41.667222222222,
     -93.360277777778
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -3589,7 +3529,8 @@
     34.1167,
     43.9
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -3647,7 +3588,8 @@
     30.111642965833333,
     -90.99372172972222
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -3705,7 +3647,8 @@
     54.30771,
     -57.68097
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -3763,7 +3706,8 @@
     49.574277777778,
     11.198472222222
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -3821,7 +3765,8 @@
     21.466666666667,
     103.06666666667
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -3879,7 +3824,8 @@
     44.5749,
     -114.496
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -3937,7 +3883,8 @@
     27.931388888889,
     30.875280555556
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -3995,7 +3942,8 @@
     43.211388888889,
     -7.2811111111111
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -4053,7 +4001,8 @@
     45.72222,
     11.65762
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -4111,7 +4060,8 @@
     48.783333,
     9.933333
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -4169,7 +4119,8 @@
     19.0,
     -71.0
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -4227,7 +4178,8 @@
     68.00097,
     -83.99891
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -4285,7 +4237,8 @@
     33.248611111111,
     35.694444444444
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -4343,7 +4296,8 @@
     48.0,
     26.0
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -4401,7 +4355,8 @@
     48.783333333333,
     132.93333333333
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "dropped-zero",
@@ -4463,7 +4418,8 @@
    "fixedLatLon": [
     49.10819,
     29.2058
-   ]
+   ],
+   "reported": "2026-09-22"
   },
   {
    "tab": "dropped-zero",
@@ -4525,7 +4481,8 @@
    "fixedLatLon": [
     48.0957,
     39.65831
-   ]
+   ],
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -4583,7 +4540,8 @@
     42.533333333333,
     12.033333333333
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -4641,7 +4599,8 @@
     36.985,
     35.12
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -4699,7 +4658,8 @@
     40.055556,
     17.991667
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -4757,7 +4717,8 @@
     16.7,
     145.78
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -4815,7 +4776,8 @@
     51.7667,
     17.35
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -4873,7 +4835,8 @@
     53.20583333,
     8.14805556
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "dropped-zero",
@@ -4935,7 +4898,8 @@
    "fixedLatLon": [
     50.02614,
     20.97691
-   ]
+   ],
+   "reported": "2026-09-22"
   },
   {
    "tab": "dropped-zero",
@@ -4997,7 +4961,8 @@
    "fixedLatLon": [
     49.79166,
     11.12376
-   ]
+   ],
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -5055,7 +5020,8 @@
     -9.592704760875714,
     118.98559226784154
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "dropped-zero",
@@ -5117,7 +5083,8 @@
    "fixedLatLon": [
     50.32188,
     7.19684
-   ]
+   ],
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -5175,7 +5142,8 @@
     48.39675,
     7.9028
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "dropped-zero",
@@ -5237,7 +5205,8 @@
    "fixedLatLon": [
     35.50755,
     24.02474
-   ]
+   ],
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -5295,7 +5264,8 @@
     57.26667,
     -3.16667
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "dropped-zero",
@@ -5357,7 +5327,8 @@
    "fixedLatLon": [
     47.94138,
     16.11169
-   ]
+   ],
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -5415,7 +5386,8 @@
     25.049444444444443,
     102.7088888888889
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -5473,7 +5445,8 @@
     39.166666666667,
     16.083333333333
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "dropped-zero",
@@ -5535,7 +5508,8 @@
    "fixedLatLon": [
     37.01781,
     -7.92471
-   ]
+   ],
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -5593,7 +5567,8 @@
     50.71469,
     4.3991
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -5655,7 +5630,8 @@
    "fixedLatLon": [
     50.00543,
     21.98846
-   ]
+   ],
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -5713,7 +5689,8 @@
     8.883333333333333,
     -74.31666666666666
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "dropped-zero",
@@ -5775,7 +5752,8 @@
    "fixedLatLon": [
     39.07858,
     17.11557
-   ]
+   ],
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -5837,7 +5815,8 @@
     -43.91583
    ],
    "correctSource": "manual",
-   "fromTab": "wikidata-id"
+   "fromTab": "wikidata-id",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -5895,7 +5874,8 @@
     47.83333,
     2.0
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -5953,7 +5933,8 @@
     47.72317,
     16.62178
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "dropped-zero",
@@ -6015,7 +5996,8 @@
    "fixedLatLon": [
     46.93306,
     31.94712
-   ]
+   ],
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -6073,7 +6055,8 @@
     16.153055555556,
     43.186666666667
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "wikidata-id",
@@ -6132,7 +6115,8 @@
     20.091944444444
    ],
    "correctSource": "kima",
-   "fromTab": "nli-coords"
+   "fromTab": "nli-coords",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -6190,7 +6174,8 @@
     40.93061111111111,
     25.369138888888887
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -6248,7 +6233,8 @@
     36.733333333333,
     29.9
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -6306,7 +6292,8 @@
     41.03972222,
     28.94972222
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -6364,7 +6351,8 @@
     36.645833333333,
     33.4375
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "duplicate-records",
@@ -6416,7 +6404,8 @@
    "otherHeb": "רנדולף (ורמונט)",
    "otherRom": "Randolph (Vt. : Town)",
    "correctLatLon": null,
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -6478,7 +6467,8 @@
    "fixedLatLon": [
     52.24667,
     21.1017
-   ]
+   ],
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -6536,7 +6526,8 @@
     57.19083,
     83.92639
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -6594,7 +6585,8 @@
     -4.61283,
     151.88775
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -6656,7 +6648,8 @@
    "fixedLatLon": [
     52.02915,
     23.13828
-   ]
+   ],
+   "reported": "2026-09-22"
   },
   {
    "tab": "dropped-zero",
@@ -6718,7 +6711,8 @@
    "fixedLatLon": [
     52.11625,
     21.29046
-   ]
+   ],
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -6776,7 +6770,8 @@
     50.88333,
     24.03333
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -6834,7 +6829,8 @@
     31.633333333333,
     -2.2
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -6892,7 +6888,8 @@
     36.191111111111,
     44.009444444444
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "dropped-zero",
@@ -6954,7 +6951,8 @@
    "fixedLatLon": [
     41.08659,
     23.54805
-   ]
+   ],
+   "reported": "2026-09-22"
   },
   {
    "tab": "dropped-zero",
@@ -7016,7 +7014,8 @@
    "fixedLatLon": [
     52.0169,
     22.77771
-   ]
+   ],
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -7074,7 +7073,8 @@
     51.86833333,
     21.74555556
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -7132,7 +7132,8 @@
     -16.59055556,
     -39.09583333
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -7190,7 +7191,8 @@
     49.30471,
     8.12527
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "dropped-zero",
@@ -7252,7 +7254,8 @@
    "fixedLatLon": [
     47.39325,
     18.18978
-   ]
+   ],
+   "reported": "2026-09-22"
   },
   {
    "tab": "dropped-zero",
@@ -7314,7 +7317,8 @@
    "fixedLatLon": [
     52.05853,
     29.24803
-   ]
+   ],
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -7372,7 +7376,8 @@
     37.8,
     20.7
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -7430,7 +7435,8 @@
     -6.99,
     110.4225
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -7488,7 +7494,8 @@
     -9.41667,
     34.75
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -7546,7 +7553,8 @@
     33.2342,
     -8.5228
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -7604,7 +7612,8 @@
     47.466666666667,
     -0.55
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -7662,7 +7671,8 @@
     -19.5,
     33.25
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -7720,7 +7730,8 @@
     10.833333333333,
     50.183333333333
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -7778,7 +7789,8 @@
     50.3621,
     9.64677
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "dropped-zero",
@@ -7840,7 +7852,8 @@
    "fixedLatLon": [
     25.32076,
     82.99111
-   ]
+   ],
+   "reported": "2026-09-22"
   },
   {
    "tab": "dropped-zero",
@@ -7902,7 +7915,8 @@
    "fixedLatLon": [
     8.96318,
     38.77814
-   ]
+   ],
+   "reported": "2026-09-22"
   },
   {
    "tab": "dropped-zero",
@@ -7964,7 +7978,8 @@
    "fixedLatLon": [
     39.01537,
     -0.52181
-   ]
+   ],
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -8022,7 +8037,8 @@
     43.934166666667,
     3.7083333333333
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -8080,7 +8096,8 @@
     41.93465,
     25.55556
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -8138,7 +8155,8 @@
     23.38642,
     87.51565
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "dropped-zero",
@@ -8200,7 +8218,8 @@
    "fixedLatLon": [
     46.40149,
     18.15937
-   ]
+   ],
+   "reported": "2026-09-22"
   },
   {
    "tab": "dropped-zero",
@@ -8262,7 +8281,8 @@
    "fixedLatLon": [
     47.9966,
     22.51599
-   ]
+   ],
+   "reported": "2026-09-22"
   },
   {
    "tab": "dropped-zero",
@@ -8324,7 +8344,8 @@
    "fixedLatLon": [
     43.13831,
     13.06909
-   ]
+   ],
+   "reported": "2026-09-22"
   },
   {
    "tab": "dropped-zero",
@@ -8386,7 +8407,8 @@
    "fixedLatLon": [
     51.14211,
     9.278
-   ]
+   ],
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -8444,7 +8466,8 @@
     51.775,
     16.983333333333334
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "dropped-zero",
@@ -8506,7 +8529,8 @@
    "fixedLatLon": [
     44.03302,
     4.98618
-   ]
+   ],
+   "reported": "2026-09-22"
   },
   {
    "tab": "dropped-zero",
@@ -8568,7 +8592,8 @@
    "fixedLatLon": [
     53.02247,
     27.54504
-   ]
+   ],
+   "reported": "2026-09-22"
   },
   {
    "tab": "dropped-zero",
@@ -8630,7 +8655,8 @@
    "fixedLatLon": [
     50.07805,
     25.15408
-   ]
+   ],
+   "reported": "2026-09-22"
   },
   {
    "tab": "dropped-zero",
@@ -8692,7 +8718,8 @@
    "fixedLatLon": [
     43.67802,
     4.1329
-   ]
+   ],
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -8750,7 +8777,8 @@
     54.05305555555555,
     24.997777777777777
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "dropped-zero",
@@ -8812,7 +8840,8 @@
    "fixedLatLon": [
     50.02758,
     8.37156
-   ]
+   ],
+   "reported": "2026-09-22"
   },
   {
    "tab": "dropped-zero",
@@ -8874,7 +8903,8 @@
    "fixedLatLon": [
     48.02262,
     7.6268
-   ]
+   ],
+   "reported": "2026-09-22"
   },
   {
    "tab": "dropped-zero",
@@ -8936,7 +8966,8 @@
    "fixedLatLon": [
     44.73113,
     5.02114
-   ]
+   ],
+   "reported": "2026-09-22"
   },
   {
    "tab": "dropped-zero",
@@ -8998,7 +9029,8 @@
    "fixedLatLon": [
     50.02916,
     8.96434
-   ]
+   ],
+   "reported": "2026-09-22"
   },
   {
    "tab": "heb-homonym",
@@ -9056,7 +9088,8 @@
     47.35,
     19.583333
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -9114,7 +9147,8 @@
     52.00639,
     106.86472
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -9172,7 +9206,8 @@
     -44.916666666667,
     -73.583333333333
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "dropped-zero",
@@ -9234,7 +9269,8 @@
    "fixedLatLon": [
     49.13259,
     10.05571
-   ]
+   ],
+   "reported": "2026-09-22"
   },
   {
    "tab": "dropped-zero",
@@ -9296,7 +9332,8 @@
    "fixedLatLon": [
     49.98618,
     10.11947
-   ]
+   ],
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -9354,7 +9391,8 @@
     43.03475,
     13.29818
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "wikidata-id",
@@ -9412,7 +9450,8 @@
     36.118463888889,
     5.5299861111111
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -9470,7 +9509,8 @@
     50.2411,
     19.1497
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -9528,7 +9568,8 @@
     57.2256031,
     -2.731956727
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -9586,7 +9627,8 @@
     31.835555555556,
     34.980277777778
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -9644,7 +9686,8 @@
     32.94588207,
     35.29633105
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "heb-identity",
@@ -9696,7 +9739,8 @@
    "otherHeb": "אוסטרוויק (גרמניה)",
    "otherRom": "Osterwick (Germany)",
    "correctLatLon": null,
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "heb-identity",
@@ -9754,7 +9798,8 @@
     41.005,
     39.7225
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "duplicate-records",
@@ -9806,7 +9851,8 @@
    "otherHeb": "מושבה היוונית (ירושלים, ישראל)",
    "otherRom": "",
    "correctLatLon": null,
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "heb-homonym",
@@ -9864,7 +9910,8 @@
     48.483055555556,
     9.2522222222222
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "heb-homonym",
@@ -9922,7 +9969,8 @@
     51.50551,
     31.28487
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "heb-homonym",
@@ -9980,7 +10028,8 @@
     51.95,
     13.9
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "heb-identity",
@@ -10032,7 +10081,8 @@
    "otherHeb": "המזרח הרחוק הרוסי (רוסיה)",
    "otherRom": "Russian Far East (Russia)",
    "correctLatLon": null,
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "duplicate-records",
@@ -10090,7 +10140,8 @@
     43.562212,
     27.83189
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "duplicate-records",
@@ -10142,7 +10193,8 @@
    "otherHeb": "",
    "otherRom": "",
    "correctLatLon": null,
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "heb-homonym",
@@ -10194,7 +10246,8 @@
    "otherHeb": "",
    "otherRom": "",
    "correctLatLon": null,
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "heb-homonym",
@@ -10246,7 +10299,8 @@
    "otherHeb": "",
    "otherRom": "",
    "correctLatLon": null,
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "heb-homonym",
@@ -10298,7 +10352,8 @@
    "otherHeb": "",
    "otherRom": "",
    "correctLatLon": null,
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -10356,7 +10411,8 @@
     48.073055555556,
     7.29
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -10414,7 +10470,8 @@
     51.512861111111,
     -0.164
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "wikidata-id",
@@ -10473,7 +10530,8 @@
     24.856944444444
    ],
    "correctSource": "kima",
-   "fromTab": "nli-coords"
+   "fromTab": "nli-coords",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -10531,7 +10589,8 @@
     46.06666667,
     11.11666667
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -10589,7 +10648,8 @@
     42.50136,
     123.40838
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -10647,7 +10707,8 @@
     12.0167,
     75.2833
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -10705,7 +10766,8 @@
     31.75425,
     116.50778
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "nli-coords",
@@ -10763,7 +10825,8 @@
     45.04636,
     23.28278
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "heb-spelling",
@@ -10821,7 +10884,8 @@
     36.685833,
     27.375
    ],
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   },
   {
    "tab": "heb-spelling",
@@ -10870,7 +10934,8 @@
    "otherHeb": "",
    "otherRom": "",
    "correctLatLon": null,
-   "correctSource": "kima"
+   "correctSource": "kima",
+   "reported": "2026-09-22"
   }
  ],
  "xlsx": "nli-report.xlsx"
