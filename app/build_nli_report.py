@@ -86,6 +86,7 @@ HEBREW_SPELLING_ROWS = {
     '987007559626405171',   # אינגולשטדט → איגולשטדט
     '987007284075505171',   # רנידוס → קנידוס (plus a stray parenthesis)
     '987007552593705171',   # שטרסבורג — a German Strasbourg distinct from the French
+    '987007562247105171',   # North Huntingdon — the heading's closing bracket is missing
 }
 
 # Which of the three Hebrew tabs each admitted row belongs to. Explicit rather
@@ -104,6 +105,7 @@ HEB_TAB_OF_ROW = {
     '987007559626405171': 'heb-spelling',
     '987007284075505171': 'heb-spelling',
     '987007552593705171': 'heb-spelling',
+    '987007562247105171': 'heb-spelling',   # North Huntingdon — כותרת חסרת סוגר
 }
 
 # Spelling corrections stated plainly, so the library reads the ask in a column
@@ -116,6 +118,9 @@ SPELLING_FIX = {
                                why='Cnidus — התעתיק המקובל הוא בקו״ף. כמו כן הסוגר '
                                    'הסופי חסר בכותרת, והרמיזות כוללות את הסוגריים '
                                    'שלא כבדרך כלל.'),
+    '987007562247105171': dict(was='North Huntingdon (Pa. : Township',
+                               now='North Huntingdon (Pa. : Township)',
+                               why='הסוגר הסופי חסר בכותרת.'),
     '987007552593705171': dict(was='שטרסבורג (גרמניה)', now='',
                                why='אין כאן שגיאת איות אלא שאלת זהות: יש שטרסבורג '
                                    'גרמנית (Q565624) השונה מזו הצרפתית של היום. '
@@ -132,6 +137,21 @@ SUGGEST_WARNING = {
     # Pulligny (Q1099419) exactly, which is in Meurthe-et-Moselle, not Jura.
     # Sinai confirmed the swap and the two values were exchanged in
     # decisions.json, so the warning no longer applies.
+}
+
+# A row can carry a second, unrelated finding — the tab it lands in is named
+# for its primary one. Stating the extra finding in its own column keeps it
+# visible instead of buried in a free-text note.
+SECOND_FINDING = {
+    '987007562429505171': dict(
+        what='שם ערבי משובש',
+        detail='הכותרת הערבית ברשומה היא '
+               '"لوخفيت︠س︡ي︠ي︠ي︠ي︠ي︠ي (أوكرانيا)" — האות ي חוזרת שמונה פעמים. '
+               'מקור התקלה בתעתיק: הצורה הלטינית Lokhvyt︠s︡i︠a︡ משתמשת בסימני '
+               'חיבור (U+FE20/U+FE21) כדי לקשור t͡s ו־i͡a, וההמרה לערבית התייחסה '
+               'לכל חצי סימן כאל אות ולכן שכפלה את ي. '
+               'הצורה המוצעת: "لوخفيتسيا (أوكرانيا)". '
+               'זו תקלה בודדת — אחת מתוך 1,188 כותרות ערביות שנבדקו.'),
 }
 
 # Drafted disambiguation proposals for the rows where the review recorded the
@@ -286,13 +306,13 @@ TABS = [
     dict(
         key='heb-spelling',
         tasks={'R', 'Z'},
-        title='שגיאה באיות הכותרת העברית',
-        short='איות הכותרת',
+        title='שגיאה בכותרת עצמה',
+        short='תיקון הכותרת',
         kind='judgment',
-        why='כאן אין עמימות ואין שני מקומות — פשוט האיות העברי של הכותרת שגוי, '
-            'או שהכותרת מעלה שאלה של זהות. אלה ממצאים שעלו אגב בדיקות אחרות '
-            'ונרשמו במהלך הסקירה.',
-        ask='לתקן את האיות לפי העמודה "האיות המוצע", או — במקרה של שטרסבורג — '
+        why='כאן אין עמימות ואין שני מקומות — הכותרת עצמה פגומה: איות עברי שגוי, '
+            'סוגר שלא נסגר, או שאלה של זהות. אלה ממצאים שעלו אגב בדיקות אחרות '
+            'ונרשמו במהלך הסקירה, ולכל אחד מהם תיקון קונקרטי.',
+        ask='לתקן את הכותרת לפי העמודה "הצורה המוצעת", או — במקרה של שטרסבורג — '
             'להכריע בשאלה שבעמודת ההסבר.',
         how='כל מקרה נבדק מול השם הלטיני ברשומה ומול ויקינתונים. אלה מקרים '
             'בודדים שנרשמו ידנית, לא תוצר של סיווג אוטומטי.',
@@ -493,6 +513,8 @@ def build_rows():
                                or r['suggested_existing_name'],
             'suggestWhy': (NAME_DRAFTS.get(r['new_id']) or {}).get('why', ''),
             'suggestWarn': SUGGEST_WARNING.get(r['new_id'], ''),
+            'second': (SECOND_FINDING.get(r['new_id']) or {}).get('what', ''),
+            'secondDetail': (SECOND_FINDING.get(r['new_id']) or {}).get('detail', ''),
             'isDraft': r['new_id'] in NAME_DRAFTS,
             'draftHe': 'טיוטה' if r['new_id'] in NAME_DRAFTS else '',
             'spellWas': (SPELLING_FIX.get(r['new_id']) or {}).get('was', ''),
@@ -649,6 +671,7 @@ COLUMNS = {
         ('wdKindHe', 'סוג הפנייה'),
         ('nliWd', 'המזהה שברשומה'), ('correctWd', 'המזהה הנכון / המוצע'),
         ('nliLatLon', 'נקודת NLI'), ('kimaLatLon', 'נקודת כימה'), ('dist', 'מרחק (ק״מ)'),
+        ('second', 'ממצא נוסף'), ('secondDetail', 'פירוט הממצא הנוסף'),
         ('note', 'הערת הסוקר'), ('url', 'קישור לרשומה'),
     ],
     'duplicate-records': [
@@ -669,7 +692,7 @@ COLUMNS = {
     ],
     'heb-spelling': [
         ('heb', 'כותרת עברית'), ('rom', 'כותרת לטינית'), ('id', 'מזהה NLI'),
-        ('spellWas', 'האיות ברשומה'), ('spellNow', 'האיות המוצע'),
+        ('spellWas', 'הצורה ברשומה'), ('spellNow', 'הצורה המוצעת'),
         ('spellWhy', 'הסבר'), ('url', 'קישור לרשומה'),
     ],
     'heb-identity': [
@@ -720,7 +743,7 @@ def write_xlsx(payload, path):
         widths = {'heb': 30, 'rom': 30, 'id': 20, 'fix034': 46, 'note': 52,
                   'suggestNew': 34, 'suggestExisting': 34, 'suggestWhy': 60,
                   'spellWas': 26, 'spellNow': 26, 'spellWhy': 60, 'otherHeb': 28,
-                  'otherRom': 30, 'draftHe': 12,
+                  'otherRom': 30, 'draftHe': 12, 'second': 18, 'secondDetail': 70,
                   'url': 34, 'otherNliUrl': 34, 'bucketWhy': 34, 'kimaHeb': 28}
         for i, (k, _) in enumerate(cols, start=1):
             ws.column_dimensions[get_column_letter(i)].width = widths.get(k, 16)

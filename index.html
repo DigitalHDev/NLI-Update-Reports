@@ -197,6 +197,10 @@
            border: 1px dashed var(--ochre); color: var(--ochre);
            border-radius: 4px; padding: .02rem .45rem; }
   td.warn { color: var(--bad); font-size: .8rem; max-width: 22rem; }
+  /* a second, unrelated finding on a row filed under its primary one */
+  .second { display: inline-block; white-space: nowrap; font-size: .74rem; font-weight: 700;
+            background: var(--bad-soft); color: var(--bad);
+            border-radius: 4px; padding: .06rem .45rem; }
   .fix { direction: ltr; text-align: left; font-family: ui-monospace, Menlo, monospace;
          font-size: .78rem; white-space: nowrap; }
   .fix .was { color: var(--bad); text-decoration: line-through; }
@@ -342,7 +346,8 @@ const COLS = {
     ['wdKindHe','סוג הפנייה','kind'],
     ['nliWd','המזהה שברשומה','mono'], ['correctWd','המזהה הנכון / המוצע','mono'],
     ['nliLatLon','נקודת NLI','num ltr'], ['kimaLatLon','נקודת כימה','num ltr'],
-    ['dist','מרחק','dist'], ['note','הערת הסוקר','note'],
+    ['dist','מרחק','dist'], ['second','ממצא נוסף','second'],
+    ['secondDetail','פירוט','note'], ['note','הערת הסוקר','note'],
   ],
   'duplicate-records': [
     ['heb','כותרת עברית','heb'], ['rom','כותרת לטינית','ltr'], ['id','מזהה NLI','rid'],
@@ -358,7 +363,7 @@ const COLS = {
   ],
   'heb-spelling': [
     ['heb','כותרת עברית','heb'], ['rom','כותרת לטינית','ltr'], ['id','מזהה NLI','rid'],
-    ['spellWas','האיות ברשומה','heb'], ['spellNow','האיות המוצע','heb'],
+    ['spellWas','הצורה ברשומה','heb'], ['spellNow','הצורה המוצעת','heb'],
     ['spellWhy','הסבר','note'],
   ],
   'heb-identity': [
@@ -404,6 +409,8 @@ function cell(row, key, cls) {
     return '<td class="num' + (far ? ' far' : '') + '">' +
            row.dist.toLocaleString('he-IL') + ' ק״מ</td>';
   }
+  if (key === 'second')
+    return '<td>' + (row.second ? '<span class="second">+ ' + esc(row.second) + '</span>' : '') + '</td>';
   if (key === 'draftHe')
     return '<td>' + (row.draftHe ? '<span class="draft">' + esc(row.draftHe) + '</span>' : '') + '</td>';
   if (key === 'suggestWarn')
