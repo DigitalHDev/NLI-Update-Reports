@@ -8,7 +8,7 @@ fix* rather than by our internal queue code, and writes:
 
     docs/index.html              the tabbed report (GitHub Pages)
     docs/data.json               the rows the page renders
-    docs/nli-report-<date>.xlsx  one sheet per tab
+    docs/nli-report.xlsx         one sheet per tab (stable name)
 
 Structural errors (coordinates, external ids, duplicate records) plus the
 individual Hebrew headings that need a correction or a disambiguation — the
@@ -760,8 +760,12 @@ def write_xlsx(payload, path):
         'נוצר: %s' % payload['generated'],
         'סך השורות: %d' % len(payload['rows']),
         '',
-        'הדוח הזה עוסק רק בשגיאות שאינן שאלות של שמות בעברית.',
-        'שאלות הכותרת העברית והדרגות המנהליות נמסרות בדוח נפרד.',
+        'הדוח כולל שגיאות מבניות — קואורדינטות, מזהים חיצוניים וכפילות רשומות —',
+        'וכן כותרות עבריות בודדות הדורשות תיקון או הבחנה.',
+        'שאלת אוצר המילים של הדרגות המנהליות תיידון בנפרד.',
+        '',
+        'בגיליון "כותרת לשני מקומות": הצעות המסומנות "טיוטה" הן הצעות שלנו',
+        'ולא הכרעה, ומבוססות על החלוקה המנהלית בוויקינתונים.',
         '',
         'גיליון לכל סוג תיקון:',
     ]
@@ -943,8 +947,11 @@ def main():
     print('wrote docs/data.json — %d rows in %d tabs' % (live, len(payload['tabs'])))
     # Rewriting the workbook from an edited workbook would fight the editor, so
     # the .xlsx is only regenerated on a normal build.
-    xl = (None if src else
-          write_xlsx(payload, os.path.join(DOCS, 'nli-report-%s.xlsx' % today.replace('-', ''))))
+    # One stable filename, rebuilt in place: the Drive copy keeps its id and
+    # link, so a rebuild is re-uploaded over the same file instead of leaving
+    # the old one to be edited by mistake. The build date lives on the אודות
+    # sheet and in the page header, not in the name.
+    xl = (None if src else write_xlsx(payload, os.path.join(DOCS, 'nli-report.xlsx')))
     if xl:
         payload['xlsx'] = os.path.basename(xl)
         json.dump(payload, open(os.path.join(DOCS, 'data.json'), 'w'),
