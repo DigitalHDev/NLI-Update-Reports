@@ -672,7 +672,12 @@ def attach_fix034(rows):
 
 # ---------------------------------------------------------------- spreadsheet
 # Columns that stay in the workbook (hidden) but never render on the page.
-HIDDEN_COLUMNS = {'bucketWhy', 'confidence'}
+# Nothing is merely hidden any more: the columns that showed our internal
+# working (classifier bucket and confidence, the second-finding chip, the
+# draft marker) are out of the report altogether — Sinai removed them from
+# the reviewed workbook on 2026-09-22 as noise that would only confuse the
+# library. The values stay in data.json for our own checking.
+HIDDEN_COLUMNS = set()
 
 # Appended to every tab below rather than written into each: the report is
 # cumulative, so every row states when it first appeared, and a tab added
@@ -693,7 +698,7 @@ COLUMNS = {
     'nli-coords': [
         ('heb', 'כותרת עברית'), ('rom', 'כותרת לטינית'), ('id', 'מזהה NLI'),
         ('nliLatLon', 'נקודת NLI'), ('correctLatLon', 'הנקודה שלדעתנו נכונה'),
-        ('dist', 'מרחק (ק״מ)'), ('bucketWhy', 'סוג הממצא'), ('confidence', 'ביטחון'),
+        ('dist', 'מרחק (ק״מ)'),
         ('nliWd', 'ויקינתונים ברשומה'), ('correctWd', 'מזהה ויקינתונים נכון'),
         ('geonames', 'GeoNames'), ('note', 'הערת הסוקר'), ('url', 'קישור לרשומה'),
     ],
@@ -706,7 +711,6 @@ COLUMNS = {
         ('wdKindHe', 'סוג הפנייה'),
         ('nliWd', 'המזהה שברשומה'), ('correctWd', 'המזהה הנכון / המוצע'),
         ('nliLatLon', 'נקודת NLI'), ('kimaLatLon', 'נקודת כימה'), ('dist', 'מרחק (ק״מ)'),
-        ('second', 'ממצא נוסף'),
         ('note', 'הערת הסוקר'), ('url', 'קישור לרשומה'),
     ],
     'duplicate-records': [
@@ -716,7 +720,7 @@ COLUMNS = {
         ('note', 'הערת הסוקר'), ('url', 'קישור לרשומה'), ('otherNliUrl', 'קישור לשנייה'),
     ],
     'heb-homonym': [
-        ('heb', 'הכותרת העברית המשותפת'), ('draftHe', 'מעמד ההצעה'),
+        ('heb', 'הכותרת העברית המשותפת'),
         ('rom', 'הרשומה הנכנסת (לטינית)'), ('id', 'מזהה NLI'),
         ('suggestNew', 'הצעה לרשומה הנכנסת'),
         ('otherRom', 'הרשומה הקיימת (לטינית)'), ('otherNliId', 'מזהה הרשומה הקיימת'),
@@ -968,8 +972,12 @@ def apply_edits(payload, edited, prose):
     """
     # `reported` joins them: it is the ledger's record of when a row first went
     # out, not a judgement anyone makes in the sheet.
-    READ_ONLY = {'nliLatLon', 'kimaLatLon', 'fixedLatLon', 'manualLatLon', 'dist',
-                 'reported'}
+    # `correctLatLon` is the one the sheet actually prints — at 5 decimals,
+    # against the ~11 Kima holds — so reading it back turned 106 coordinate
+    # pairs into rounded strings on the first edited build. Every derived
+    # point column belongs here, not only the ones stored under a raw name.
+    READ_ONLY = {'nliLatLon', 'kimaLatLon', 'fixedLatLon', 'manualLatLon',
+                 'correctLatLon', 'dist', 'reported'}
     changed = touched = 0
     for r in payload['rows']:
         e = edited.get(r['id'])

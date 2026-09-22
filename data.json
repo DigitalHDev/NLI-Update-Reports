@@ -114,7 +114,7 @@
    "short": "כותרת לשני מקומות",
    "kind": "judgment",
    "why": "שתי רשומות זהות־מקום נפרדות — שני מקומות ממשיים ושונים — נושאות בדיוק את אותה כותרת בעברית, אף שהשם הלטיני מבדיל ביניהן. התעתיק לעברית מאבד את ההבחנה: Ehningen ו־Eningen unter Achalm נעשים שניהם \"אנינגן (גרמניה)\", Lüben ו־Lübben שניהם \"לובן (גרמניה)\".",
-   "ask": "להוסיף מבחין לכותרת העברית של כל אחד מן הצדדים. העמודות \"הצעה לרשומה הנכנסת\" ו\"הצעה לרשומה הקיימת\" נושאות הצעה קונקרטית לכל צד. ההצעות המסומנות \"טיוטה\" הן הצעות שלנו ולא הכרעה — הן נסמכות על החלוקה המנהלית בוויקינתונים, ואנו מבקשים את דעתכם עליהן.",
+   "ask": "להוסיף מבחין לכותרת העברית של כל אחד מן הצדדים. העמודות \"הצעה לרשומה הנכנסת\" ו\"הצעה לרשומה הקיימת\" נושאות הצעה קונקרטית לכל צד. ההצעות הן הצעות שלנו ולא הכרעה — הן נסמכות על החלוקה המנהלית בוויקינתונים, ואנו מבקשים את דעתכם עליהן.",
    "how": "המקרים אותרו בהשוואת הכותרות העבריות בין הרשומה הנכנסת ובין הרשומה שכבר מחזיקה את אותה כותרת. לכל זוג בדקנו את השם הלטיני, את מזהה הוויקינתונים ואת הקואורדינטות, כדי לוודא שמדובר בשני מקומות ולא בכפילות. שמות המחוזות בהצעות לקוחים מתוויות ויקינתונים בעברית, לא מתעתיק שלנו.",
    "evidence": "עמודת \"מרחק\" מראה כמה רחוקים המקומות זה מזה — עדות לכך שאינם אותו מקום. עמודת \"נימוק ההצעה\" מסבירה על מה נשענת כל טיוטה.",
    "n": 8,
@@ -176,7 +176,8 @@
    "otherRom": "",
    "correctLatLon": null,
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "wikidata-id",
@@ -235,7 +236,8 @@
    ],
    "correctSource": "kima",
    "fromTab": "other",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "wikidata-id",
@@ -294,7 +296,8 @@
    ],
    "correctSource": "kima",
    "fromTab": "nli-coords",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -352,7 +355,8 @@
     10.1478
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "wikidata-id",
@@ -411,7 +415,8 @@
    ],
    "correctSource": "kima",
    "fromTab": "nli-coords",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -473,7 +478,8 @@
     53.9659,
     19.05916
    ],
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "heb-spelling",
@@ -520,12 +526,13 @@
    "draftHe": "",
    "spellWas": "שטרסבורג (גרמניה)",
    "spellNow": "",
-   "spellWhy": "אין כאן שגיאת איות אלא שאלת זהות: יש שטרסבורג גרמנית (Q565624) השונה מזו הצרפתית של היום. האם יש צורך לשמר את הזהות הזו? אם כן, מוטב להוסיף 1871-1918 לכותרת הראשית.",
+   "spellWhy": "אין כאן שגיאת איות אלא שאלת זהות: יש מקום בגרמניה העכשווית בשם שטרסבורג (Q565624) והוא שונה מזו הצרפתית של היום. אם הכוונה אליו, יש להוריד את ההערה הקושרת בין השניים ומומלץ להוסיף מבחין (אוקרמארק, גרמניה) שיבהיר זאת. אם הכוונה לשטרסבורג שכיום בצרפת, מוטב להוסיף 1871-1918 לכותרת הראשית.",
    "otherHeb": "שטרסבורג (גרמניה)",
    "otherRom": "Strasburg (Germany)",
    "correctLatLon": null,
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -583,7 +590,8 @@
     106.5683
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "dropped-zero",
@@ -645,7 +653,8 @@
     48.56266,
     16.07395
    ],
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "wikidata-id",
@@ -704,7 +713,8 @@
    ],
    "correctSource": "kima",
    "fromTab": "nli-coords",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -762,7 +772,8 @@
     -94.34
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -820,7 +831,8 @@
     13.822206
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -878,7 +890,8 @@
     -111.69611111111111
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -936,7 +949,8 @@
     34.970638888889
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -994,7 +1008,8 @@
     126.617
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "dropped-zero",
@@ -1056,7 +1071,8 @@
     48.80387,
     2.11918
    ],
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -1114,7 +1130,8 @@
     9.4979166666667
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -1172,7 +1189,8 @@
     14.504634512569485
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -1230,7 +1248,8 @@
     -83.8972268
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -1288,7 +1307,8 @@
     35.65
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -1346,7 +1366,8 @@
     40.367222222222
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -1404,7 +1425,8 @@
     -100.0
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "duplicate-records",
@@ -1439,7 +1461,7 @@
    "bucketWhy": "",
    "confidence": "",
    "fix034": "",
-   "note": "sommerville  is wrong. Should be 1 m only.",
+   "note": "נכתב ב-m אחת. השני נראה טעות.",
    "decision": "nli-duplicate",
    "period": "20250416-20250422",
    "recovered": false,
@@ -1462,7 +1484,8 @@
     -71.1
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "dropped-zero",
@@ -1524,7 +1547,8 @@
     53.35597,
     32.04965
    ],
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "dropped-zero",
@@ -1586,7 +1610,8 @@
     49.08313,
     19.61614
    ],
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "dropped-zero",
@@ -1648,7 +1673,8 @@
     50.02965,
     12.63264
    ],
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "dropped-zero",
@@ -1710,7 +1736,8 @@
     47.1005,
     24.19703
    ],
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -1768,7 +1795,8 @@
     13.021423031021
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "dropped-zero",
@@ -1830,7 +1858,8 @@
     47.01813,
     16.61346
    ],
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "dropped-zero",
@@ -1892,7 +1921,8 @@
     46.08333,
     33.75
    ],
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -1950,7 +1980,8 @@
     -7.83599854
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "dropped-zero",
@@ -2012,7 +2043,8 @@
     50.09849,
     9.23886
    ],
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "dropped-zero",
@@ -2074,7 +2106,8 @@
     49.033,
     27.23356
    ],
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "heb-spelling",
@@ -2124,7 +2157,7 @@
    "draftHe": "",
    "spellWas": "אינגולשטדט (גרמניה)",
    "spellNow": "איגולשטדט (גרמניה)",
-   "spellWhy": "האיות העברי אינו תואם את Ingolstadt.",
+   "spellWhy": "האיות העברי אינו תואם את Ingolstadt. חסרה נ׳.",
    "otherHeb": "איגולשטדט (גרמניה)",
    "otherRom": "Ingolstadt (Germany)",
    "correctLatLon": [
@@ -2132,7 +2165,8 @@
     11.426111111111
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -2190,7 +2224,8 @@
     67.816666666667
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -2248,7 +2283,8 @@
     35.49155
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -2310,7 +2346,8 @@
     50.9432,
     7.08464
    ],
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -2368,7 +2405,8 @@
     47.4421
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "dropped-zero",
@@ -2430,7 +2468,8 @@
     35.21319,
     4.183
    ],
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -2488,7 +2527,8 @@
     29.8972
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "dropped-zero",
@@ -2550,7 +2590,8 @@
     50.24353,
     25.08701
    ],
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -2608,7 +2649,8 @@
     -109.35472222222
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -2666,7 +2708,8 @@
     31.0
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "duplicate-records",
@@ -2724,7 +2767,8 @@
     -3.5983
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "heb-homonym",
@@ -2762,8 +2806,8 @@
    "recovered": false,
    "wdKind": "",
    "wdKindHe": "",
-   "suggestNew": "הוכשטטן (מחוז באד קרויצנאך, גרמניה)",
-   "suggestExisting": "הוכשטטן (גרמניה)",
+   "suggestNew": "הוכשטטן (באד קרויצנאך, גרמניה)",
+   "suggestExisting": "",
    "suggestWhy": "שתי רשומות שונות: Hochstätten שבמחוז באד קרויצנאך, ו־Hochstetten באיות אחר. ההצעה מוסיפה את המחוז לרשומה הנכנסת; יש לאשר מהי הרשומה השנייה לפני שמציעים לה מבחין.",
    "suggestWarn": "",
    "second": "",
@@ -2776,7 +2820,8 @@
    "otherRom": "Hochstetten (Germany)",
    "correctLatLon": null,
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "heb-identity",
@@ -2811,7 +2856,7 @@
    "bucketWhy": "the automatic lookup did not find the other side — it may still exist",
    "confidence": "low",
    "fix034": "",
-   "note": "כפילות ב־NLI: שתי רשומות חיות לאותו כפר — 987007547821005171 (Planes, Spain) ו־987013405241405171 (Planes (Spain)). שתיהן נושאות פלאנס (ספרד) בעברית. לדווח לספרייה. בכימה: לתקן את כותרת 76207 מ־'פליינס, ספרד' ל־'פלאנס (ספרד)' — פליינס היא שגיאת קריאה (Plains האנגלי במקום Planes הספרדי; ההשראה כנראה פליינס (ג'ורג'יה)/Plains (Ga.)). להפנות ל־987013405241405171 ולהוסיף Q1983306. פליינס אינה וריאנט לגיטימי — לכל היותר צורה מוקצית, לא שם חלופי.",
+   "note": "כפילות ב־NLI: שתי רשומות קיימות לאותו הכפר — 987007547821005171 (Planes, Spain) ו־987013405241405171 (Planes (Spain)). שתיהן נושאות פלאנס (ספרד) בעברית.  פליינס היא שגיאת קריאה (Plains האנגלי במקום Planes הספרדי; ההשראה כנראה פליינס (ג'ורג'יה)/Plains (Ga.)). להפנות ל־987013405241405171 ולהוסיף Q1983306. פליינס אינה אפילו וריאנט לגיטימי.",
    "decision": "nli-duplicate",
    "period": "20260212-20260218",
    "recovered": false,
@@ -2834,7 +2879,8 @@
     -0.345
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "wikidata-id",
@@ -2893,7 +2939,8 @@
    ],
    "correctSource": "kima",
    "fromTab": "nli-coords",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -2951,7 +2998,8 @@
     6.5
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -3009,7 +3057,8 @@
     15.5
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -3067,7 +3116,8 @@
     -50.989222222222
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -3125,7 +3175,8 @@
     38.86933
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -3183,7 +3234,8 @@
     -87.65394
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -3241,7 +3293,8 @@
     8.98444
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -3299,7 +3352,8 @@
     3.40389
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -3357,7 +3411,8 @@
     6.5016666666667
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -3415,7 +3470,8 @@
     -93.360277777778
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -3473,7 +3529,8 @@
     43.9
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -3531,7 +3588,8 @@
     -90.99372172972222
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -3589,7 +3647,8 @@
     -57.68097
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -3647,7 +3706,8 @@
     11.198472222222
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -3705,7 +3765,8 @@
     103.06666666667
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -3763,7 +3824,8 @@
     -114.496
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -3821,7 +3883,8 @@
     30.875280555556
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -3879,7 +3942,8 @@
     -7.2811111111111
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -3937,7 +4001,8 @@
     11.65762
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -3995,7 +4060,8 @@
     9.933333
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -4053,7 +4119,8 @@
     -71.0
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -4111,7 +4178,8 @@
     -83.99891
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -4169,7 +4237,8 @@
     35.694444444444
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -4227,7 +4296,8 @@
     26.0
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -4285,7 +4355,8 @@
     132.93333333333
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "dropped-zero",
@@ -4347,7 +4418,8 @@
     49.10819,
     29.2058
    ],
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "dropped-zero",
@@ -4409,7 +4481,8 @@
     48.0957,
     39.65831
    ],
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -4467,7 +4540,8 @@
     12.033333333333
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -4525,7 +4599,8 @@
     35.12
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -4583,7 +4658,8 @@
     17.991667
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -4641,7 +4717,8 @@
     145.78
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -4699,7 +4776,8 @@
     17.35
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -4757,7 +4835,8 @@
     8.14805556
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "dropped-zero",
@@ -4819,7 +4898,8 @@
     50.02614,
     20.97691
    ],
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "dropped-zero",
@@ -4881,7 +4961,8 @@
     49.79166,
     11.12376
    ],
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -4939,7 +5020,8 @@
     118.98559226784154
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "dropped-zero",
@@ -5001,7 +5083,8 @@
     50.32188,
     7.19684
    ],
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -5059,7 +5142,8 @@
     7.9028
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "dropped-zero",
@@ -5121,7 +5205,8 @@
     35.50755,
     24.02474
    ],
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -5179,7 +5264,8 @@
     -3.16667
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "dropped-zero",
@@ -5241,7 +5327,8 @@
     47.94138,
     16.11169
    ],
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -5299,7 +5386,8 @@
     102.7088888888889
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -5357,7 +5445,8 @@
     16.083333333333
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "dropped-zero",
@@ -5419,7 +5508,8 @@
     37.01781,
     -7.92471
    ],
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -5477,7 +5567,8 @@
     4.3991
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -5539,7 +5630,8 @@
     50.00543,
     21.98846
    ],
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -5597,7 +5689,8 @@
     -74.31666666666666
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "dropped-zero",
@@ -5659,7 +5752,8 @@
     39.07858,
     17.11557
    ],
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -5697,7 +5791,7 @@
    "bucketWhy": "Wikidata agrees with neither point",
    "confidence": "low",
    "fix034": "",
-   "note": "-3.54306, -43.91583 הן הקואורדינטות הנכון (ראו ויקידאטה)",
+   "note": "-3.54306, -43.91583 הן הקואורדינטות הנכונות (ראו ויקידאטה)",
    "decision": "data-problem",
    "period": "20260727-20260727",
    "recovered": false,
@@ -5721,7 +5815,8 @@
    ],
    "correctSource": "manual",
    "fromTab": "wikidata-id",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -5756,7 +5851,7 @@
    "bucketWhy": "no Wikidata entity to arbitrate with",
    "confidence": "low",
    "fix034": "",
-   "note": "הסולן הוא מדרום ללואר",
+   "note": "אזור הסולון מוגדר כאזור שמדרום ללואר",
    "decision": "keep-existing",
    "period": "20260727-20260727",
    "recovered": false,
@@ -5779,7 +5874,8 @@
     2.0
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -5837,7 +5933,8 @@
     16.62178
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "dropped-zero",
@@ -5899,7 +5996,8 @@
     46.93306,
     31.94712
    ],
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -5957,7 +6055,8 @@
     43.186666666667
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "wikidata-id",
@@ -6016,7 +6115,8 @@
    ],
    "correctSource": "kima",
    "fromTab": "nli-coords",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -6074,7 +6174,8 @@
     25.369138888888887
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -6132,7 +6233,8 @@
     29.9
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -6190,7 +6292,8 @@
     28.94972222
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -6248,7 +6351,8 @@
     33.4375
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "duplicate-records",
@@ -6300,7 +6404,8 @@
    "otherRom": "Randolph (Vt. : Town)",
    "correctLatLon": null,
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -6362,7 +6467,8 @@
     52.24667,
     21.1017
    ],
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -6420,7 +6526,8 @@
     83.92639
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -6478,7 +6585,8 @@
     151.88775
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -6540,7 +6648,8 @@
     52.02915,
     23.13828
    ],
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "dropped-zero",
@@ -6602,7 +6711,8 @@
     52.11625,
     21.29046
    ],
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -6660,7 +6770,8 @@
     24.03333
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -6718,7 +6829,8 @@
     -2.2
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -6776,7 +6888,8 @@
     44.009444444444
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "dropped-zero",
@@ -6838,7 +6951,8 @@
     41.08659,
     23.54805
    ],
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "dropped-zero",
@@ -6900,7 +7014,8 @@
     52.0169,
     22.77771
    ],
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -6958,7 +7073,8 @@
     21.74555556
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -7016,7 +7132,8 @@
     -39.09583333
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -7074,7 +7191,8 @@
     8.12527
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "dropped-zero",
@@ -7136,7 +7254,8 @@
     47.39325,
     18.18978
    ],
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "dropped-zero",
@@ -7198,7 +7317,8 @@
     52.05853,
     29.24803
    ],
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -7256,7 +7376,8 @@
     20.7
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -7314,7 +7435,8 @@
     110.4225
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -7372,7 +7494,8 @@
     34.75
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -7430,7 +7553,8 @@
     -8.5228
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -7488,7 +7612,8 @@
     -0.55
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -7546,7 +7671,8 @@
     33.25
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -7604,7 +7730,8 @@
     50.183333333333
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -7662,7 +7789,8 @@
     9.64677
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "dropped-zero",
@@ -7724,7 +7852,8 @@
     25.32076,
     82.99111
    ],
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "dropped-zero",
@@ -7786,7 +7915,8 @@
     8.96318,
     38.77814
    ],
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "dropped-zero",
@@ -7848,7 +7978,8 @@
     39.01537,
     -0.52181
    ],
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -7906,7 +8037,8 @@
     3.7083333333333
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -7964,7 +8096,8 @@
     25.55556
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -8022,7 +8155,8 @@
     87.51565
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "dropped-zero",
@@ -8084,7 +8218,8 @@
     46.40149,
     18.15937
    ],
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "dropped-zero",
@@ -8146,7 +8281,8 @@
     47.9966,
     22.51599
    ],
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "dropped-zero",
@@ -8208,7 +8344,8 @@
     43.13831,
     13.06909
    ],
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "dropped-zero",
@@ -8270,7 +8407,8 @@
     51.14211,
     9.278
    ],
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -8328,7 +8466,8 @@
     16.983333333333334
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "dropped-zero",
@@ -8390,7 +8529,8 @@
     44.03302,
     4.98618
    ],
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "dropped-zero",
@@ -8452,7 +8592,8 @@
     53.02247,
     27.54504
    ],
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "dropped-zero",
@@ -8514,7 +8655,8 @@
     50.07805,
     25.15408
    ],
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "dropped-zero",
@@ -8576,7 +8718,8 @@
     43.67802,
     4.1329
    ],
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -8634,7 +8777,8 @@
     24.997777777777777
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "dropped-zero",
@@ -8696,7 +8840,8 @@
     50.02758,
     8.37156
    ],
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "dropped-zero",
@@ -8758,7 +8903,8 @@
     48.02262,
     7.6268
    ],
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "dropped-zero",
@@ -8820,7 +8966,8 @@
     44.73113,
     5.02114
    ],
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "dropped-zero",
@@ -8882,7 +9029,8 @@
     50.02916,
     8.96434
    ],
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "heb-homonym",
@@ -8940,7 +9088,8 @@
     19.583333
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -8998,7 +9147,8 @@
     106.86472
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -9056,7 +9206,8 @@
     -73.583333333333
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "dropped-zero",
@@ -9118,7 +9269,8 @@
     49.13259,
     10.05571
    ],
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "dropped-zero",
@@ -9180,7 +9332,8 @@
     49.98618,
     10.11947
    ],
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -9238,7 +9391,8 @@
     13.29818
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "wikidata-id",
@@ -9296,7 +9450,8 @@
     5.5299861111111
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -9354,7 +9509,8 @@
     19.1497
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -9412,7 +9568,8 @@
     -2.731956727
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -9470,7 +9627,8 @@
     34.980277777778
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -9528,7 +9686,8 @@
     35.29633105
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "heb-identity",
@@ -9560,7 +9719,7 @@
    "bucketWhy": "genuinely different places whose Hebrew transliteration coincides",
    "confidence": "medium",
    "fix034": "",
-   "note": "Osterwick הוא רובע ביישוב קטן, לא סביר שאליו הכוונה. הכיתוב הנכון הוא Osterwieck ולכן כדאי לאחד (בכימה) ולדווח כפילות ל-nli",
+   "note": "Osterwick הוא רובע ביישוב קטן, לא סביר שאליו הכוונה. הכיתוב הנכון הוא Osterwieck ולכן כדאי לאחד את השניים (או לשמור אותם נפרדים ולהוסיף מבחין מחוזי).",
    "decision": "nli-duplicate",
    "period": "20250219-20250225",
    "recovered": false,
@@ -9580,7 +9739,8 @@
    "otherRom": "Osterwick (Germany)",
    "correctLatLon": null,
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "heb-identity",
@@ -9615,7 +9775,7 @@
    "bucketWhy": "genuinely different places whose Hebrew transliteration coincides",
    "confidence": "high",
    "fix034": "",
-   "note": "השם העברי של רשומה 987007469750605171",
+   "note": "טרבזון ניתן בטעות כשם העברי של Ardeşen (Turkey) - רשומת המקום טרבזון כבר קיימת.",
    "decision": "data-problem",
    "period": "20260212-20260218",
    "recovered": false,
@@ -9638,7 +9798,8 @@
     39.7225
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "duplicate-records",
@@ -9690,7 +9851,8 @@
    "otherRom": "",
    "correctLatLon": null,
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "heb-homonym",
@@ -9731,8 +9893,8 @@
    "recovered": false,
    "wdKind": "",
    "wdKindHe": "",
-   "suggestNew": "אנינגן (מחוז בבלינגן, גרמניה)",
-   "suggestExisting": "אנינגן אונטר אכלם (מחוז רויטלינגן, גרמניה)",
+   "suggestNew": "אנינגן (בלינגן, גרמניה)",
+   "suggestExisting": "אנינגן אונטר אכלם (רויטלינגן, גרמניה)",
    "suggestWhy": "שני יישובים שונים במרחק 31 ק״מ: Ehningen שבמחוז בבלינגן (Q314758) ו־Eningen unter Achalm שבמחוז רויטלינגן (Q81423). שמות המחוזות לקוחים מתוויות ויקינתונים בעברית.",
    "suggestWarn": "",
    "second": "",
@@ -9748,7 +9910,8 @@
     9.2522222222222
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "heb-homonym",
@@ -9789,7 +9952,7 @@
    "recovered": false,
    "wdKind": "",
    "wdKindHe": "",
-   "suggestNew": "צ'רנייב (מחוז איוונו-פרנקיבסק, אוקראינה)",
+   "suggestNew": "צ'רנייב (איוונו-פרנקיבסק, אוקראינה)",
    "suggestExisting": "צ'רניהיב (אוקראינה)",
    "suggestWhy": "כאן לא די במבחין: המרחק 553 ק״מ, והרשומה השנייה היא צ׳רניהיב — בירת המחוז (Q157053), שהתעתיק העברי המקובל לה בוויקינתונים הוא \"צ׳רניהיב\" ולא \"צ׳רנייב\". כלומר אחת הכותרות שגויה ולא רק עמומה.",
    "suggestWarn": "",
@@ -9806,7 +9969,8 @@
     31.28487
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "heb-homonym",
@@ -9841,15 +10005,15 @@
    "bucketWhy": "genuinely different places whose Hebrew transliteration coincides",
    "confidence": "medium",
    "fix034": "",
-   "note": "צריך להיות Lubin (Dolnośląskie, Poland)  - השם העכשווי. luben כמו גם Lueben צריכים להיות וריאנטים.",
+   "note": "",
    "decision": "rename-suggestion",
    "period": "20260430-20260506",
    "recovered": false,
    "wdKind": "",
    "wdKindHe": "",
-   "suggestNew": "לובין (מחוז דולנוסלונסקיה, פולין)",
-   "suggestExisting": "לובן (מחוז דאמה-שפרוואלד, גרמניה)",
-   "suggestWhy": "לפי הערת הסוקר, הרשומה הנכנסת היא Lubin שבפולין — השם העכשווי — ו־Lüben/Lueben הם וריאנטים היסטוריים שלה. הרשומה השנייה היא Lübben שבברנדנבורג (Q584815). שני מקומות שונים ב־170 ק״מ.",
+   "suggestNew": "לובין (דולנוסלונסקיה, פולין)",
+   "suggestExisting": "לובן (דאמה-שפרוואלד, גרמניה)",
+   "suggestWhy": "צריך להיות Lubin (Dolnośląskie, Poland)  - השם העכשווי. luben כמו גם Lueben צריכים להיות וריאנטים. הרשומה השנייה היא Lübben שבברנדנבורג (Q584815).",
    "suggestWarn": "",
    "second": "",
    "isDraft": true,
@@ -9864,7 +10028,8 @@
     13.9
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "heb-identity",
@@ -9916,7 +10081,8 @@
    "otherRom": "Russian Far East (Russia)",
    "correctLatLon": null,
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "duplicate-records",
@@ -9951,7 +10117,7 @@
    "bucketWhy": "two NLI records carrying the same Wikidata id",
    "confidence": "medium",
    "fix034": "",
-   "note": "טולבוחין הוא שם היסטורי של דובריץ׳",
+   "note": "טולבוחין הוא שם היסטורי של דובריץ׳ וצריך להצטרף כרמיזה.",
    "decision": "nli-duplicate",
    "period": "20260618-20260624",
    "recovered": false,
@@ -9974,7 +10140,8 @@
     27.83189
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "duplicate-records",
@@ -10026,7 +10193,8 @@
    "otherRom": "",
    "correctLatLon": null,
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "heb-homonym",
@@ -10058,7 +10226,7 @@
    "bucketWhy": "",
    "confidence": "",
    "fix034": "",
-   "note": "לצורך דיסאמביגואציה של השם בעברית. לחלופין, אפשר להוסיף מחוזות (מונטגומרי, פרנקלין), אם כי מריון סטיישן הוא השם המוכר יותר.",
+   "note": "",
    "decision": "rename-suggestion",
    "period": "—",
    "recovered": true,
@@ -10066,7 +10234,7 @@
    "wdKindHe": "",
    "suggestNew": "מריון סטיישן (פנסילבניה)",
    "suggestExisting": "מריון (פנסילבניה)",
-   "suggestWhy": "",
+   "suggestWhy": "לחלופין, אפשר להוסיף לצורך ההבחנה את שמות המחוזות (מונטגומרי, פרנקלין), בכל מקרה מריון סטיישן הוא השם המוכר יותר.",
    "suggestWarn": "",
    "second": "",
    "isDraft": false,
@@ -10078,7 +10246,8 @@
    "otherRom": "",
    "correctLatLon": null,
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "heb-homonym",
@@ -10116,8 +10285,8 @@
    "recovered": true,
    "wdKind": "",
    "wdKindHe": "",
-   "suggestNew": "פוליני (מחוז מרת ומוזל, צרפת)",
-   "suggestExisting": "פוליני (מחוז יורה, צרפת)",
+   "suggestNew": "פוליני (מרת ומוזל, צרפת)",
+   "suggestExisting": "פוליני (יורה, צרפת)",
    "suggestWhy": "",
    "suggestWarn": "",
    "second": "",
@@ -10130,7 +10299,8 @@
    "otherRom": "",
    "correctLatLon": null,
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "heb-homonym",
@@ -10182,7 +10352,8 @@
    "otherRom": "",
    "correctLatLon": null,
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -10240,7 +10411,8 @@
     7.29
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -10298,7 +10470,8 @@
     -0.164
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "wikidata-id",
@@ -10357,7 +10530,8 @@
    ],
    "correctSource": "kima",
    "fromTab": "nli-coords",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -10415,7 +10589,8 @@
     11.11666667
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -10473,7 +10648,8 @@
     123.40838
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -10531,7 +10707,8 @@
     75.2833
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -10589,7 +10766,8 @@
     116.50778
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "nli-coords",
@@ -10647,7 +10825,8 @@
     23.28278
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "heb-spelling",
@@ -10697,7 +10876,7 @@
    "draftHe": "",
    "spellWas": "רנידוס (טורקיה : עיר קדומה)",
    "spellNow": "קנידוס (טורקיה : עיר קדומה)",
-   "spellWhy": "Cnidus — התעתיק המקובל הוא בקו״ף. כמו כן הסוגר הסופי חסר בכותרת, והרמיזות כוללות את הסוגריים שלא כבדרך כלל.",
+   "spellWhy": "Cnidus — התעתיק המקובל הוא בקו״ף. ר הוא כנראה טעות כתיב. כמו כן הסוגר הסופי חסר בכותרת.",
    "otherHeb": "רנידוס (טורקיה : עיר קדומה)",
    "otherRom": "Cnidus (Turkey : Extinct city)",
    "correctLatLon": [
@@ -10705,7 +10884,8 @@
     27.375
    ],
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   },
   {
    "tab": "heb-spelling",
@@ -10754,7 +10934,8 @@
    "otherRom": "",
    "correctLatLon": null,
    "correctSource": "kima",
-   "reported": "2026-09-22"
+   "reported": "2026-09-22",
+   "removed": false
   }
  ],
  "xlsx": "nli-report.xlsx"
