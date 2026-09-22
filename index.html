@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>שגיאות ברשומות מקומות</title>
+<title>שגיאות ברשומות זהות מקום</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500;700&family=Heebo:wght@400;500;700&display=swap">
@@ -82,14 +82,24 @@
     padding: 1.6rem 1.5rem 1.2rem;
   }
   .masthead-in { max-width: 74rem; margin: 0 auto; }
-  .eyebrow {
-    font-size: .72rem; letter-spacing: .14em; text-transform: uppercase;
-    color: var(--accent); font-weight: 700; margin: 0 0 .35rem;
+  /* Title and standfirst run as one column, with the logo set against them on
+     the far (physical left) edge — the page is RTL, so that is where the text
+     block ends rather than where it begins. */
+  .brandline { display: flex; align-items: center; gap: 2rem; }
+  .brandtext { flex: 1 1 auto; min-width: 0; }
+  /* The logo is a JPEG on white, so it gets its own white plate: on the dark
+     theme a raw paste would show as a bright rectangle with ragged edges. */
+  .logo {
+    flex: 0 0 auto; width: 9rem; height: auto; display: block;
+    background: #fff; border: 1px solid var(--line-2); border-radius: 6px;
+    padding: .35rem .45rem;
   }
   h1 { margin: 0 0 .5rem; font-size: 1.85rem; font-weight: 700; text-wrap: balance;
        letter-spacing: -.01em; }
-  .standfirst { margin: 0; max-width: 62ch; color: var(--muted); font-size: .97rem; }
+  .standfirst { margin: 0; color: var(--muted); font-size: .97rem; }
   .standfirst strong { color: var(--ink); font-weight: 500; }
+  .standfirst a { color: var(--accent); text-decoration: underline;
+                  text-underline-offset: .15em; }
   .facts {
     display: flex; flex-wrap: wrap; gap: .4rem 1.6rem; margin: 1.1rem 0 0;
     padding: .8rem 0 0; border-top: 1px solid var(--line);
@@ -260,6 +270,9 @@
     h1 { font-size: 1.45rem; }
     .masthead { padding: 1.2rem 1rem 1rem; }
     .tabs, main { padding-inline: 1rem; }
+    /* no room for two columns: the logo goes back above the title */
+    .brandline { flex-direction: column-reverse; align-items: flex-start; gap: .9rem; }
+    .logo { width: 7rem; }
   }
 </style>
 </head>
@@ -267,21 +280,24 @@
 
 <header class="masthead">
   <div class="masthead-in">
-    <p class="eyebrow">אוסף כימה · הגזטיר ההיסטורי · דוח ראשון</p>
-    <h1>שגיאות ברשומות רשות של מקומות</h1>
-    <p class="standfirst">
-      הדוח הזה נובע מהשוואה שבועית בין רשומות הרשות של מקומות בקטלוג הספרייה הלאומית
-      ובין הגזטיר ההיסטורי כימה. כל שורה כאן <strong>עברה סקירה ידנית</strong> והוכרעה
-      כשגיאה ברשומה עצמה — ולא כאי־התאמה בין שני מקורות לגיטימיים.
-      הדוח כולל שגיאות מבניות — קואורדינטות, מזהים חיצוניים וכפילות רשומות — וכן
-      כותרות עבריות בודדות הדורשות תיקון או הבחנה, עם הצעה קונקרטית לכל צד.
-      <strong>שאלת אוצר המילים של הדרגות המנהליות אינה כאן</strong> ותיידון בנפרד:
-      היא שאלה אחת רוחבית ולא רשימת תיקונים.
-    </p>
+    <div class="brandline">
+      <div class="brandtext">
+        <h1>שגיאות ברשומות זהות מקום</h1>
+        <p class="standfirst">
+          הדוח מיוצר תוך כדי קליטת רשומות זהויות המקום המתעדכנות בקטלוג הספרייה
+          אל הגזטיר ההיסטורי <a href="https://data.geo-kima.org" target="_blank"
+          rel="noopener">כימה</a>. כל שורה כאן <strong>עברה סקירה ידנית</strong>
+          והוכרעה כשגיאה, גם אם זוהתה על ידי תהליך חישובי או מודל שפה.
+          הדוח כולל שגיאות מבניות — קואורדינטות, מזהים חיצוניים וכפילות רשומות — וכן
+          כותרות עבריות בודדות הדורשות תיקון או הבחנה.
+        </p>
+      </div>
+      <img class="logo" src="assets/dh-dev-logo.jpeg" alt="DHDEV — Digital Humanities Development">
+    </div>
     <div class="facts">
       <span><b id="f-rows">—</b> שורות</span>
       <span><b id="f-tabs">—</b> סוגי תיקון</span>
-      <span>נוצר <b id="f-date">—</b></span>
+      <span>עודכן לאחרונה <b id="f-date">—</b></span>
       <a class="dl" id="dl" href="#" download>הורדת גיליון אלקטרוני (xlsx)</a>
     </div>
   </div>
@@ -377,7 +393,7 @@ const COLS = {
     ['nliLatLon','נקודת NLI','num ltr'], ['kimaLatLon','נקודת כימה','num ltr'],
   ],
 };
-const KIND = { mechanical: 'תיקון מכני', judgment: 'דורש בדיקה עורכית' };
+const KIND = { mechanical: 'תיקון מכני', judgment: 'להחלטת מחלקת הקטלוג' };
 const NLI_URL = id => 'https://www.nli.org.il/he/authorities/' + id;
 
 let DATA = null, active = null, openFor = null;
@@ -502,7 +518,7 @@ fetch('data.json').then(r => r.json()).then(d => {
   const mech = d.tabs.filter(t => t.kind === 'mechanical').reduce((a, t) => a + t.n, 0);
   $('#foot-method').textContent =
     'מתוך ' + liveRows.length + ' השורות, ' + mech + ' הן תיקון מכני שאינו דורש הכרעה — '
-    + 'הערך הנכון נגזר מן הערך הקיים. השאר דורשות בדיקה עורכית, ולכל שורה כזאת '
+    + 'הערך הנכון נגזר מן הערך הקיים. השאר מובאות להחלטת מחלקת הקטלוג, ולכל שורה כזאת '
     + 'צורפו הנקודה שלדעתנו נכונה, המרחק, וההערה שנרשמה בעת הסקירה.';
 
   // The explanation is opened deliberately, by clicking the "i", and never by
