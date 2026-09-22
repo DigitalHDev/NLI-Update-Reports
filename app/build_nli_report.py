@@ -123,19 +123,24 @@ TABS = [
     dict(
         key='wikidata-id',
         tasks={'B10'},
-        title='מזהה ויקינתונים בשדה 024 מצביע על ישות שגויה',
+        title='מזהה ויקינתונים בשדה 024',
         short='מזהה ויקינתונים',
         kind='judgment',
-        why='הרשומה מפנה בשדה 024 לישות ויקינתונים שאינה המקום שבכותרת — ישות '
-            'בעלת שם דומה, או מקום אחר לגמרי. זו תקלה חמורה יותר מקואורדינטה שגויה, '
-            'משום שהיא מתפשטת: כל מי שמסתמך על המזהה הזה כדי לקשר את הרשומה למקורות '
-            'חיצוניים יורש את הטעות.',
-        ask='לתקן את המזהה בשדה 024. עמודת "המזהה הנכון" נושאת את הישות שלדעתנו '
+        why='שני מצבים, ועמודת "סוג הפנייה" מבדילה ביניהם. <b>מזהה שגוי:</b> הרשומה '
+            'מפנה בשדה 024 לישות ויקינתונים שאינה המקום שבכותרת — ישות בעלת שם דומה, '
+            'או מקום אחר לגמרי. זו תקלה חמורה יותר מקואורדינטה שגויה, משום שהיא '
+            'מתפשטת: כל מי שמסתמך על המזהה הזה כדי לקשר את הרשומה למקורות חיצוניים '
+            'יורש את הטעות. <b>מזהה מוצע:</b> אין ברשומה 024 כלל, ואיתרנו את הישות '
+            'המתאימה — הצעה, לא דיווח על שגיאה.',
+        ask='במקרים של מזהה שגוי — לתקן את שדה 024. במקרים של מזהה מוצע — לשקול '
+            'להוסיף אותו. עמודת "המזהה הנכון / המוצע" נושאת את הישות שלדעתנו '
             'הכותרת מתארת.',
         how='לכל שורה הוצאנו את הישות שהמזהה מפנה אליה, את תווית השם שלה ואת '
             'הקואורדינטות שלה, והשווינו לכותרת הרשומה ולנקודה שבה. כשהתווית והנקודה '
-            'שתיהן אינן מתאימות — המזהה שגוי.',
-        evidence='עמודות "תווית הישות" ו"נקודת הישות" מראות מה המזהה הקיים מתאר.',
+            'שתיהן אינן מתאימות — המזהה שגוי. חלק מן השורות כאן התגלו תוך כדי בדיקת '
+            'הקואורדינטות, ולכן יש בהן גם אי־התאמה במיקום; היא מופיעה בעמודת המרחק.',
+        evidence='עמודת "סוג הפנייה" אומרת אם מדובר בתיקון או בהצעה, ועמודת '
+            '"המזהה שברשומה" מראה מה קיים היום.',
     ),
     dict(
         key='duplicate-records',
@@ -303,10 +308,65 @@ def build_rows():
             'decision': r['decision'],
             'period': r['period'],
             'recovered': bool(extra and extra.get('heb')),
+            'wdKind': '', 'wdKindHe': '',
         })
+    reroute_wikidata(out)
     print('rows: %d  (Hebrew-naming held back for report #2: %d; our own bugs dropped: %d)'
           % (len(out), skipped_heb, skipped_ours))
     return out
+
+
+# ------------------------------------------------------- wikidata rerouting
+WD_KIND_HE = {'wrong': 'מזהה שגוי', 'suggested': 'מזהה מוצע'}
+
+
+def reroute_wikidata(rows):
+    """Route a row by the correction it carries, not by the queue it was
+    reviewed in.
+
+    A Wikidata correction entered while working a coordinate queue was staying
+    in the coordinate tab, so the library had to hunt for id errors in two
+    places. Any row whose `correctWd` differs from its `nliWd` is an 024
+    finding and belongs in the Wikidata tab.
+
+    Two cases are deliberately excluded:
+
+    * `correctWd == nliWd` — NLI's id is already right and the correction was
+      recorded for *Kima's* id (the classifier bucket says so). There is
+      nothing here for the library to change, so the value is cleared rather
+      than shown: leaving it invites a "fix" to an id that is correct.
+    * a row with no `correctWd` at all.
+
+    `wdKind` then separates a defect from an offer: `wrong` where NLI holds an
+    id that points elsewhere, `suggested` where NLI holds none and we found one.
+    """
+    moved = cleared = out = 0
+    for r in rows:
+        cw = (r.get('correctWd') or '').strip()
+        nw = (r.get('nliWd') or '').strip()
+        if not cw:
+            # The rule cuts both ways: a B10 row carrying no id correction is
+            # not an 024 finding either. Vargem Grande is a coordinate case
+            # ("Wikidata agrees with neither point", the note gives the right
+            # point) that only landed here because queue B10 feeds this tab.
+            if r['tab'] == 'wikidata-id':
+                r['tab'] = 'nli-coords'
+                r['fromTab'] = 'wikidata-id'
+                out += 1
+            continue
+        if cw == nw:
+            r['correctWd'] = ''          # Kima-side fix — not the library's
+            cleared += 1
+            continue
+        r['wdKind'] = 'wrong' if nw else 'suggested'
+        r['wdKindHe'] = WD_KIND_HE[r['wdKind']]
+        if r['tab'] != 'wikidata-id':
+            r['fromTab'] = r['tab']
+            r['tab'] = 'wikidata-id'
+            moved += 1
+    if moved or cleared or out:
+        print('wikidata: %d row(s) rerouted into the 024 tab, %d out of it, '
+              '%d Kima-side value(s) cleared' % (moved, out, cleared))
 
 
 # ---------------------------------------------------------------- fix034
@@ -360,7 +420,8 @@ COLUMNS = {
     ],
     'wikidata-id': [
         ('heb', 'כותרת עברית'), ('rom', 'כותרת לטינית'), ('id', 'מזהה NLI'),
-        ('nliWd', 'המזהה שברשומה'), ('correctWd', 'המזהה הנכון'),
+        ('wdKindHe', 'סוג הפנייה'),
+        ('nliWd', 'המזהה שברשומה'), ('correctWd', 'המזהה הנכון / המוצע'),
         ('nliLatLon', 'נקודת NLI'), ('kimaLatLon', 'נקודת כימה'), ('dist', 'מרחק (ק״מ)'),
         ('note', 'הערת הסוקר'), ('url', 'קישור לרשומה'),
     ],

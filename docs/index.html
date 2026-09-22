@@ -187,6 +187,11 @@
   td.note { color: var(--muted); font-size: .82rem; min-width: 14rem; max-width: 26rem; }
   td a { color: var(--accent); }
   .far { color: var(--bad); font-weight: 700; }
+  /* a defect in the record vs. an id we are offering — different asks */
+  .wdchip { display: inline-block; white-space: nowrap; font-size: .76rem;
+            font-weight: 700; border-radius: 4px; padding: .08rem .5rem;
+            background: var(--bad-soft); color: var(--bad); }
+  .wdchip.sug { background: var(--accent-soft); color: var(--accent); }
   .fix { direction: ltr; text-align: left; font-family: ui-monospace, Menlo, monospace;
          font-size: .78rem; white-space: nowrap; }
   .fix .was { color: var(--bad); text-decoration: line-through; }
@@ -327,7 +332,8 @@ const COLS = {
   ],
   'wikidata-id': [
     ['heb','כותרת עברית','heb'], ['rom','כותרת לטינית','ltr'], ['id','מזהה NLI','rid'],
-    ['nliWd','המזהה שברשומה','mono'], ['correctWd','המזהה הנכון','mono'],
+    ['wdKindHe','סוג הפנייה','kind'],
+    ['nliWd','המזהה שברשומה','mono'], ['correctWd','המזהה הנכון / המוצע','mono'],
     ['nliLatLon','נקודת NLI','num ltr'], ['kimaLatLon','נקודת כימה','num ltr'],
     ['dist','מרחק','dist'], ['note','הערת הסוקר','note'],
   ],
@@ -373,6 +379,10 @@ function cell(row, key, cls) {
     const far = row.dist >= 500;
     return '<td class="num' + (far ? ' far' : '') + '">' +
            row.dist.toLocaleString('he-IL') + ' ק״מ</td>';
+  }
+  if (key === 'wdKindHe') {
+    const w = row.wdKind === 'suggested';
+    return '<td><span class="wdchip' + (w ? ' sug' : '') + '">' + esc(row.wdKindHe) + '</span></td>';
   }
   if (key === 'fix034') return '<td class="fix">' + fixCell(row.fix034) + '</td>';
   if (key === 'id' || key === 'otherNliId') {

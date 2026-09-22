@@ -24,7 +24,7 @@
    "ask": "לבדוק את הקואורדינטות בכל שורה מול הכותרת, ולתקן את 034. העמודות \"נקודת ויקינתונים\" ו\"מרחק\" מראות מה לדעתנו הנקודה הנכונה ועד כמה הרשומה רחוקה ממנה.",
    "how": "ההשוואה נעשתה בין שלוש נקודות: זו שברשומת NLI, זו שכימה מחזיקה, וזו של ישות הוויקינתונים שהרשומה עצמה מפנה אליה בשדה 024. כשכימה וויקינתונים מסכימות זו עם זו ונקודת NLI לבדה — ייחסנו את הטעות לרשומה. הסיווג האוטומטי עבר אחר כך סקירה ידנית, שורה שורה.",
    "evidence": "עמודת \"ביטחון\" היא ביטחון הסיווג האוטומטי; כל השורות כאן עברו גם אישור ידני.",
-   "n": 113,
+   "n": 108,
    "tasks": [
     "B2",
     "B3",
@@ -50,14 +50,14 @@
   },
   {
    "key": "wikidata-id",
-   "title": "מזהה ויקינתונים בשדה 024 מצביע על ישות שגויה",
+   "title": "מזהה ויקינתונים בשדה 024",
    "short": "מזהה ויקינתונים",
    "kind": "judgment",
-   "why": "הרשומה מפנה בשדה 024 לישות ויקינתונים שאינה המקום שבכותרת — ישות בעלת שם דומה, או מקום אחר לגמרי. זו תקלה חמורה יותר מקואורדינטה שגויה, משום שהיא מתפשטת: כל מי שמסתמך על המזהה הזה כדי לקשר את הרשומה למקורות חיצוניים יורש את הטעות.",
-   "ask": "לתקן את המזהה בשדה 024. עמודת \"המזהה הנכון\" נושאת את הישות שלדעתנו הכותרת מתארת.",
-   "how": "לכל שורה הוצאנו את הישות שהמזהה מפנה אליה, את תווית השם שלה ואת הקואורדינטות שלה, והשווינו לכותרת הרשומה ולנקודה שבה. כשהתווית והנקודה שתיהן אינן מתאימות — המזהה שגוי.",
-   "evidence": "עמודות \"תווית הישות\" ו\"נקודת הישות\" מראות מה המזהה הקיים מתאר.",
-   "n": 2,
+   "why": "שני מצבים, ועמודת \"סוג הפנייה\" מבדילה ביניהם. <b>מזהה שגוי:</b> הרשומה מפנה בשדה 024 לישות ויקינתונים שאינה המקום שבכותרת — ישות בעלת שם דומה, או מקום אחר לגמרי. זו תקלה חמורה יותר מקואורדינטה שגויה, משום שהיא מתפשטת: כל מי שמסתמך על המזהה הזה כדי לקשר את הרשומה למקורות חיצוניים יורש את הטעות. <b>מזהה מוצע:</b> אין ברשומה 024 כלל, ואיתרנו את הישות המתאימה — הצעה, לא דיווח על שגיאה.",
+   "ask": "במקרים של מזהה שגוי — לתקן את שדה 024. במקרים של מזהה מוצע — לשקול להוסיף אותו. עמודת \"המזהה הנכון / המוצע\" נושאת את הישות שלדעתנו הכותרת מתארת.",
+   "how": "לכל שורה הוצאנו את הישות שהמזהה מפנה אליה, את תווית השם שלה ואת הקואורדינטות שלה, והשווינו לכותרת הרשומה ולנקודה שבה. כשהתווית והנקודה שתיהן אינן מתאימות — המזהה שגוי. חלק מן השורות כאן התגלו תוך כדי בדיקת הקואורדינטות, ולכן יש בהן גם אי־התאמה במיקום; היא מופיעה בעמודת המרחק.",
+   "evidence": "עמודת \"סוג הפנייה\" אומרת אם מדובר בתיקון או בהצעה, ועמודת \"המזהה שברשומה\" מראה מה קיים היום.",
+   "n": 8,
    "tasks": [
     "B10"
    ]
@@ -86,7 +86,7 @@
    "ask": "לקרוא את ההערה בכל שורה ולתקן בהתאם.",
    "how": "אלה מקרים שעלו במהלך סקירת קטגוריות אחרות. חלקם הוכרעו בהרצה מוקדמת יותר, והנתונים שלהם נשלפו מחדש מ־Alma OAI לצורך הדוח הזה.",
    "evidence": "עמודת \"הערה\" היא הממצא עצמו.",
-   "n": 3,
+   "n": 2,
    "tasks": [
     "D5"
    ]
@@ -126,10 +126,12 @@
    "note": "",
    "decision": "data-problem",
    "period": "20260212-20260218",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
-   "tab": "other",
+   "tab": "wikidata-id",
    "task": "D5",
    "id": "987007562429505171",
    "url": "https://www.nli.org.il/he/authorities/987007562429505171",
@@ -164,10 +166,13 @@
    "note": "בעיה בשם הערבי",
    "decision": "data-problem",
    "period": "20260727-20260727",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "wrong",
+   "wdKindHe": "מזהה שגוי",
+   "fromTab": "other"
   },
   {
-   "tab": "nli-coords",
+   "tab": "wikidata-id",
    "task": "B2",
    "id": "987007543674705171",
    "url": "https://www.nli.org.il/he/authorities/987007543674705171",
@@ -202,7 +207,10 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20241028-20241103",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "wrong",
+   "wdKindHe": "מזהה שגוי",
+   "fromTab": "nli-coords"
   },
   {
    "tab": "nli-coords",
@@ -240,10 +248,12 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20250115-20250121",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
-   "tab": "nli-coords",
+   "tab": "wikidata-id",
    "task": "B8",
    "id": "987007561549805171",
    "url": "https://www.nli.org.il/he/authorities/987007561549805171",
@@ -278,7 +288,10 @@
    "note": "אלה הם שני מקומות שונים: העיר וההר. אם הכוונה לעיר, הויקידאטה הוא Q651583 והשם: הויקידאטה והקואורדינטות הנוכחיות ב-nli הן לא של etters-berg אלא של ettersburg הישוב. אם הכוונה היא להר, ממליצה לשנות את השם לאטרס-ברג (גרמניה: הר) והויקידאטה הוא  Q31547753",
    "decision": "keep-existing",
    "period": "20250115-20250121",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "wrong",
+   "wdKindHe": "מזהה שגוי",
+   "fromTab": "nli-coords"
   },
   {
    "tab": "nli-coords",
@@ -317,6 +330,8 @@
    "decision": "keep-existing",
    "period": "20250115-20250121",
    "recovered": false,
+   "wdKind": "",
+   "wdKindHe": "",
    "fixedLatLon": [
     53.9659,
     19.05916
@@ -358,7 +373,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20250115-20250121",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -396,7 +413,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20250122-20250128",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "dropped-zero",
@@ -435,13 +454,15 @@
    "decision": "keep-existing",
    "period": "20250122-20250128",
    "recovered": false,
+   "wdKind": "",
+   "wdKindHe": "",
    "fixedLatLon": [
     48.56266,
     16.07395
    ]
   },
   {
-   "tab": "nli-coords",
+   "tab": "wikidata-id",
    "task": "B2",
    "id": "987007546333605171",
    "url": "https://www.nli.org.il/he/authorities/987007546333605171",
@@ -476,7 +497,10 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20250129-20250204",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "wrong",
+   "wdKindHe": "מזהה שגוי",
+   "fromTab": "nli-coords"
   },
   {
    "tab": "nli-coords",
@@ -514,7 +538,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20250129-20250204",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -552,7 +578,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20250129-20250204",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -590,7 +618,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20250129-20250204",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -628,7 +658,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20250129-20250204",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -649,7 +681,7 @@
    "dist": 797.6,
    "nliWd": "Q4228288",
    "kimaWd": "Q7428276",
-   "correctWd": "Q4228288",
+   "correctWd": "",
    "manualLatLon": null,
    "viaf": "",
    "lccn": "sh 99006003",
@@ -666,7 +698,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20250129-20250204",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -704,7 +738,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20250129-20250204",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "dropped-zero",
@@ -743,6 +779,8 @@
    "decision": "keep-existing",
    "period": "20250129-20250204",
    "recovered": false,
+   "wdKind": "",
+   "wdKindHe": "",
    "fixedLatLon": [
     48.80387,
     2.11918
@@ -784,7 +822,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20250129-20250204",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -822,7 +862,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20250212-20250218",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -860,7 +902,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20250212-20250218",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -898,7 +942,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20250212-20250218",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -936,7 +982,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20250212-20250218",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -974,7 +1022,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20250212-20250218",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "duplicate-records",
@@ -1012,7 +1062,9 @@
    "note": "sommerville  is wrong. Should be 1 m only.",
    "decision": "nli-duplicate",
    "period": "20250416-20250422",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "dropped-zero",
@@ -1051,6 +1103,8 @@
    "decision": "keep-existing",
    "period": "20251216-20251222",
    "recovered": false,
+   "wdKind": "",
+   "wdKindHe": "",
    "fixedLatLon": [
     53.35597,
     32.04965
@@ -1093,6 +1147,8 @@
    "decision": "keep-existing",
    "period": "20260115-20260121",
    "recovered": false,
+   "wdKind": "",
+   "wdKindHe": "",
    "fixedLatLon": [
     49.08313,
     19.61614
@@ -1135,6 +1191,8 @@
    "decision": "keep-existing",
    "period": "20260115-20260121",
    "recovered": false,
+   "wdKind": "",
+   "wdKindHe": "",
    "fixedLatLon": [
     50.02965,
     12.63264
@@ -1177,6 +1235,8 @@
    "decision": "keep-existing",
    "period": "20260115-20260121",
    "recovered": false,
+   "wdKind": "",
+   "wdKindHe": "",
    "fixedLatLon": [
     47.1005,
     24.19703
@@ -1218,7 +1278,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260115-20260121",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "dropped-zero",
@@ -1257,6 +1319,8 @@
    "decision": "keep-existing",
    "period": "20260205-20260211",
    "recovered": false,
+   "wdKind": "",
+   "wdKindHe": "",
    "fixedLatLon": [
     47.01813,
     16.61346
@@ -1299,6 +1363,8 @@
    "decision": "keep-existing",
    "period": "20260212-20260218",
    "recovered": false,
+   "wdKind": "",
+   "wdKindHe": "",
    "fixedLatLon": [
     46.08333,
     33.75
@@ -1340,7 +1406,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260212-20260218",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "dropped-zero",
@@ -1379,6 +1447,8 @@
    "decision": "keep-existing",
    "period": "20260212-20260218",
    "recovered": false,
+   "wdKind": "",
+   "wdKindHe": "",
    "fixedLatLon": [
     50.09849,
     9.23886
@@ -1421,6 +1491,8 @@
    "decision": "keep-existing",
    "period": "20260212-20260218",
    "recovered": false,
+   "wdKind": "",
+   "wdKindHe": "",
    "fixedLatLon": [
     49.033,
     27.23356
@@ -1462,7 +1534,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260212-20260218",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -1500,7 +1574,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260212-20260218",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -1539,6 +1615,8 @@
    "decision": "keep-existing",
    "period": "20260212-20260218",
    "recovered": false,
+   "wdKind": "",
+   "wdKindHe": "",
    "fixedLatLon": [
     50.9432,
     7.08464
@@ -1580,7 +1658,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260212-20260218",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "dropped-zero",
@@ -1619,6 +1699,8 @@
    "decision": "keep-existing",
    "period": "20260212-20260218",
    "recovered": false,
+   "wdKind": "",
+   "wdKindHe": "",
    "fixedLatLon": [
     35.21319,
     4.183
@@ -1660,7 +1742,9 @@
    "note": "יש הרבה מקומות בשם זה בטורקיה - במקרה הזה מזהה הויקידאטה לא תואם את הקואורדינטות.",
    "decision": "keep-existing",
    "period": "20260212-20260218",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "dropped-zero",
@@ -1699,6 +1783,8 @@
    "decision": "keep-existing",
    "period": "20260212-20260218",
    "recovered": false,
+   "wdKind": "",
+   "wdKindHe": "",
    "fixedLatLon": [
     50.24353,
     25.08701
@@ -1740,7 +1826,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260212-20260218",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -1778,7 +1866,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260212-20260218",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "duplicate-records",
@@ -1816,10 +1906,12 @@
    "note": "",
    "decision": "nli-duplicate",
    "period": "20260212-20260218",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
-   "tab": "nli-coords",
+   "tab": "wikidata-id",
    "task": "B3",
    "id": "987007284646705171",
    "url": "https://www.nli.org.il/he/authorities/987007284646705171",
@@ -1854,7 +1946,10 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260219-20260225",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "suggested",
+   "wdKindHe": "מזהה מוצע",
+   "fromTab": "nli-coords"
   },
   {
    "tab": "nli-coords",
@@ -1892,7 +1987,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260219-20260225",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -1930,7 +2027,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260219-20260225",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -1968,7 +2067,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260219-20260225",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -2006,7 +2107,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260219-20260225",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -2044,7 +2147,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260219-20260225",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -2082,7 +2187,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260219-20260225",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -2120,7 +2227,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260219-20260225",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -2158,7 +2267,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260219-20260225",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -2196,7 +2307,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260219-20260225",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -2234,7 +2347,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260219-20260225",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -2272,7 +2387,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260219-20260225",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -2310,7 +2427,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260219-20260225",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -2348,7 +2467,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260219-20260225",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -2386,7 +2507,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260219-20260225",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -2424,7 +2547,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260219-20260225",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -2462,7 +2587,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260219-20260225",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -2500,7 +2627,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260219-20260225",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -2538,7 +2667,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260219-20260225",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -2576,7 +2707,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260219-20260225",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -2614,7 +2747,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260219-20260225",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -2652,7 +2787,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260219-20260225",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -2690,7 +2827,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260305-20260311",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -2728,7 +2867,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260319-20260325",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -2766,7 +2907,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260618-20260624",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "dropped-zero",
@@ -2805,6 +2948,8 @@
    "decision": "keep-existing",
    "period": "20260727-20260727",
    "recovered": false,
+   "wdKind": "",
+   "wdKindHe": "",
    "fixedLatLon": [
     49.10819,
     29.2058
@@ -2847,6 +2992,8 @@
    "decision": "keep-existing",
    "period": "20260727-20260727",
    "recovered": false,
+   "wdKind": "",
+   "wdKindHe": "",
    "fixedLatLon": [
     48.0957,
     39.65831
@@ -2888,7 +3035,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260727-20260727",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -2926,7 +3075,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260727-20260727",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -2964,7 +3115,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260727-20260727",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -3002,7 +3155,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260727-20260727",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -3040,7 +3195,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260727-20260727",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -3078,7 +3235,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260727-20260727",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "dropped-zero",
@@ -3117,6 +3276,8 @@
    "decision": "keep-existing",
    "period": "20260727-20260727",
    "recovered": false,
+   "wdKind": "",
+   "wdKindHe": "",
    "fixedLatLon": [
     50.02614,
     20.97691
@@ -3159,6 +3320,8 @@
    "decision": "keep-existing",
    "period": "20260727-20260727",
    "recovered": false,
+   "wdKind": "",
+   "wdKindHe": "",
    "fixedLatLon": [
     49.79166,
     11.12376
@@ -3200,7 +3363,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260727-20260727",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "dropped-zero",
@@ -3239,6 +3404,8 @@
    "decision": "keep-existing",
    "period": "20260727-20260727",
    "recovered": false,
+   "wdKind": "",
+   "wdKindHe": "",
    "fixedLatLon": [
     50.32188,
     7.19684
@@ -3280,7 +3447,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260727-20260727",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "dropped-zero",
@@ -3319,6 +3488,8 @@
    "decision": "keep-existing",
    "period": "20260727-20260727",
    "recovered": false,
+   "wdKind": "",
+   "wdKindHe": "",
    "fixedLatLon": [
     35.50755,
     24.02474
@@ -3360,7 +3531,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260727-20260727",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "dropped-zero",
@@ -3399,6 +3572,8 @@
    "decision": "keep-existing",
    "period": "20260727-20260727",
    "recovered": false,
+   "wdKind": "",
+   "wdKindHe": "",
    "fixedLatLon": [
     47.94138,
     16.11169
@@ -3440,7 +3615,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260727-20260727",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -3478,7 +3655,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260727-20260727",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "dropped-zero",
@@ -3517,6 +3696,8 @@
    "decision": "keep-existing",
    "period": "20260727-20260727",
    "recovered": false,
+   "wdKind": "",
+   "wdKindHe": "",
    "fixedLatLon": [
     37.01781,
     -7.92471
@@ -3558,7 +3739,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260727-20260727",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -3597,6 +3780,8 @@
    "decision": "keep-existing",
    "period": "20260727-20260727",
    "recovered": false,
+   "wdKind": "",
+   "wdKindHe": "",
    "fixedLatLon": [
     50.00543,
     21.98846
@@ -3638,7 +3823,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260727-20260727",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "dropped-zero",
@@ -3677,13 +3864,15 @@
    "decision": "keep-existing",
    "period": "20260727-20260727",
    "recovered": false,
+   "wdKind": "",
+   "wdKindHe": "",
    "fixedLatLon": [
     39.07858,
     17.11557
    ]
   },
   {
-   "tab": "wikidata-id",
+   "tab": "nli-coords",
    "task": "B10",
    "id": "987007564873205171",
    "url": "https://www.nli.org.il/he/authorities/987007564873205171",
@@ -3718,7 +3907,10 @@
    "note": "-3.54306, -43.91583 הן הקואורדינטות הנכון (ראו ויקידאטה)",
    "decision": "data-problem",
    "period": "20260727-20260727",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": "",
+   "fromTab": "wikidata-id"
   },
   {
    "tab": "nli-coords",
@@ -3756,7 +3948,9 @@
    "note": "הסולן הוא מדרום ללואר",
    "decision": "keep-existing",
    "period": "20260727-20260727",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -3794,7 +3988,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260727-20260727",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "dropped-zero",
@@ -3833,6 +4029,8 @@
    "decision": "keep-existing",
    "period": "20260727-20260727",
    "recovered": false,
+   "wdKind": "",
+   "wdKindHe": "",
    "fixedLatLon": [
     46.93306,
     31.94712
@@ -3874,10 +4072,12 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260727-20260727",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
-   "tab": "nli-coords",
+   "tab": "wikidata-id",
    "task": "B6",
    "id": "987007564769205171",
    "url": "https://www.nli.org.il/he/authorities/987007564769205171",
@@ -3912,7 +4112,10 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260727-20260727",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "wrong",
+   "wdKindHe": "מזהה שגוי",
+   "fromTab": "nli-coords"
   },
   {
    "tab": "nli-coords",
@@ -3950,7 +4153,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260727-20260727",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -3988,7 +4193,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260727-20260727",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -4026,7 +4233,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260727-20260727",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -4064,7 +4273,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260727-20260727",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "duplicate-records",
@@ -4099,7 +4310,9 @@
    "note": "",
    "decision": "nli-duplicate",
    "period": "20260727-20260727",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -4138,6 +4351,8 @@
    "decision": "keep-existing",
    "period": "20260727-20260727",
    "recovered": false,
+   "wdKind": "",
+   "wdKindHe": "",
    "fixedLatLon": [
     52.24667,
     21.1017
@@ -4179,7 +4394,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260727-20260727",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -4217,7 +4434,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260727-20260727",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -4256,6 +4475,8 @@
    "decision": "keep-existing",
    "period": "20260727-20260727",
    "recovered": false,
+   "wdKind": "",
+   "wdKindHe": "",
    "fixedLatLon": [
     52.02915,
     23.13828
@@ -4298,6 +4519,8 @@
    "decision": "keep-existing",
    "period": "20260727-20260727",
    "recovered": false,
+   "wdKind": "",
+   "wdKindHe": "",
    "fixedLatLon": [
     52.11625,
     21.29046
@@ -4339,7 +4562,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260727-20260727",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -4377,7 +4602,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260727-20260727",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -4415,7 +4642,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260727-20260727",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "dropped-zero",
@@ -4454,6 +4683,8 @@
    "decision": "keep-existing",
    "period": "20260727-20260727",
    "recovered": false,
+   "wdKind": "",
+   "wdKindHe": "",
    "fixedLatLon": [
     41.08659,
     23.54805
@@ -4496,6 +4727,8 @@
    "decision": "keep-existing",
    "period": "20260727-20260727",
    "recovered": false,
+   "wdKind": "",
+   "wdKindHe": "",
    "fixedLatLon": [
     52.0169,
     22.77771
@@ -4537,7 +4770,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260727-20260727",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -4575,7 +4810,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260727-20260727",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -4613,7 +4850,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260727-20260727",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "dropped-zero",
@@ -4652,6 +4891,8 @@
    "decision": "keep-existing",
    "period": "20260727-20260727",
    "recovered": false,
+   "wdKind": "",
+   "wdKindHe": "",
    "fixedLatLon": [
     47.39325,
     18.18978
@@ -4694,6 +4935,8 @@
    "decision": "keep-existing",
    "period": "20260727-20260727",
    "recovered": false,
+   "wdKind": "",
+   "wdKindHe": "",
    "fixedLatLon": [
     52.05853,
     29.24803
@@ -4735,7 +4978,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260727-20260727",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -4773,7 +5018,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260727-20260727",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -4811,7 +5058,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260727-20260727",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -4849,7 +5098,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260727-20260727",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -4887,7 +5138,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260727-20260727",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -4925,7 +5178,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260727-20260727",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -4963,7 +5218,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260727-20260727",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -5001,7 +5258,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260727-20260727",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "dropped-zero",
@@ -5040,6 +5299,8 @@
    "decision": "keep-existing",
    "period": "20260727-20260727",
    "recovered": false,
+   "wdKind": "",
+   "wdKindHe": "",
    "fixedLatLon": [
     25.32076,
     82.99111
@@ -5082,6 +5343,8 @@
    "decision": "keep-existing",
    "period": "20260727-20260727",
    "recovered": false,
+   "wdKind": "",
+   "wdKindHe": "",
    "fixedLatLon": [
     8.96318,
     38.77814
@@ -5124,6 +5387,8 @@
    "decision": "keep-existing",
    "period": "20260727-20260727",
    "recovered": false,
+   "wdKind": "",
+   "wdKindHe": "",
    "fixedLatLon": [
     39.01537,
     -0.52181
@@ -5165,7 +5430,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260728-20260803",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -5203,7 +5470,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260728-20260803",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -5241,7 +5510,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260728-20260803",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "dropped-zero",
@@ -5280,6 +5551,8 @@
    "decision": "keep-existing",
    "period": "20260728-20260803",
    "recovered": false,
+   "wdKind": "",
+   "wdKindHe": "",
    "fixedLatLon": [
     46.40149,
     18.15937
@@ -5322,6 +5595,8 @@
    "decision": "keep-existing",
    "period": "20260728-20260803",
    "recovered": false,
+   "wdKind": "",
+   "wdKindHe": "",
    "fixedLatLon": [
     47.9966,
     22.51599
@@ -5364,6 +5639,8 @@
    "decision": "keep-existing",
    "period": "20260728-20260803",
    "recovered": false,
+   "wdKind": "",
+   "wdKindHe": "",
    "fixedLatLon": [
     43.13831,
     13.06909
@@ -5406,6 +5683,8 @@
    "decision": "keep-existing",
    "period": "20260728-20260803",
    "recovered": false,
+   "wdKind": "",
+   "wdKindHe": "",
    "fixedLatLon": [
     51.14211,
     9.278
@@ -5447,7 +5726,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260728-20260803",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "dropped-zero",
@@ -5486,6 +5767,8 @@
    "decision": "keep-existing",
    "period": "20260728-20260803",
    "recovered": false,
+   "wdKind": "",
+   "wdKindHe": "",
    "fixedLatLon": [
     44.03302,
     4.98618
@@ -5528,6 +5811,8 @@
    "decision": "keep-existing",
    "period": "20260728-20260803",
    "recovered": false,
+   "wdKind": "",
+   "wdKindHe": "",
    "fixedLatLon": [
     53.02247,
     27.54504
@@ -5570,6 +5855,8 @@
    "decision": "keep-existing",
    "period": "20260728-20260803",
    "recovered": false,
+   "wdKind": "",
+   "wdKindHe": "",
    "fixedLatLon": [
     50.07805,
     25.15408
@@ -5612,6 +5899,8 @@
    "decision": "keep-existing",
    "period": "20260728-20260803",
    "recovered": false,
+   "wdKind": "",
+   "wdKindHe": "",
    "fixedLatLon": [
     43.67802,
     4.1329
@@ -5653,7 +5942,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260728-20260803",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "dropped-zero",
@@ -5692,6 +5983,8 @@
    "decision": "keep-existing",
    "period": "20260728-20260803",
    "recovered": false,
+   "wdKind": "",
+   "wdKindHe": "",
    "fixedLatLon": [
     50.02758,
     8.37156
@@ -5734,6 +6027,8 @@
    "decision": "keep-existing",
    "period": "20260728-20260803",
    "recovered": false,
+   "wdKind": "",
+   "wdKindHe": "",
    "fixedLatLon": [
     48.02262,
     7.6268
@@ -5776,6 +6071,8 @@
    "decision": "keep-existing",
    "period": "20260728-20260803",
    "recovered": false,
+   "wdKind": "",
+   "wdKindHe": "",
    "fixedLatLon": [
     44.73113,
     5.02114
@@ -5818,6 +6115,8 @@
    "decision": "keep-existing",
    "period": "20260728-20260803",
    "recovered": false,
+   "wdKind": "",
+   "wdKindHe": "",
    "fixedLatLon": [
     50.02916,
     8.96434
@@ -5859,7 +6158,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260728-20260803",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -5897,7 +6198,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260728-20260803",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "dropped-zero",
@@ -5936,6 +6239,8 @@
    "decision": "keep-existing",
    "period": "20260728-20260803",
    "recovered": false,
+   "wdKind": "",
+   "wdKindHe": "",
    "fixedLatLon": [
     49.13259,
     10.05571
@@ -5978,6 +6283,8 @@
    "decision": "keep-existing",
    "period": "20260728-20260803",
    "recovered": false,
+   "wdKind": "",
+   "wdKindHe": "",
    "fixedLatLon": [
     49.98618,
     10.11947
@@ -6019,7 +6326,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260728-20260803",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "wikidata-id",
@@ -6057,7 +6366,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260728-20260803",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "wrong",
+   "wdKindHe": "מזהה שגוי"
   },
   {
    "tab": "nli-coords",
@@ -6095,7 +6406,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260728-20260803",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -6133,7 +6446,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260804-20260810",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -6171,7 +6486,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260804-20260810",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -6209,7 +6526,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "20260804-20260810",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "duplicate-records",
@@ -6244,7 +6563,9 @@
    "note": "",
    "decision": "nli-duplicate",
    "period": "20260212-20260218",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "duplicate-records",
@@ -6282,7 +6603,9 @@
    "note": "טולבוחין הוא שם היסטורי של דובריץ׳",
    "decision": "nli-duplicate",
    "period": "20260618-20260624",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "duplicate-records",
@@ -6317,7 +6640,9 @@
    "note": "",
    "decision": "nli-duplicate",
    "period": "—",
-   "recovered": true
+   "recovered": true,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -6355,7 +6680,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "—",
-   "recovered": true
+   "recovered": true,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -6393,10 +6720,12 @@
    "note": "",
    "decision": "keep-existing",
    "period": "—",
-   "recovered": true
+   "recovered": true,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
-   "tab": "nli-coords",
+   "tab": "wikidata-id",
    "task": "Z",
    "id": "987007545173905171",
    "url": "https://www.nli.org.il/he/authorities/987007545173905171",
@@ -6431,7 +6760,10 @@
    "note": "",
    "decision": "keep-existing",
    "period": "—",
-   "recovered": true
+   "recovered": true,
+   "wdKind": "suggested",
+   "wdKindHe": "מזהה מוצע",
+   "fromTab": "nli-coords"
   },
   {
    "tab": "nli-coords",
@@ -6469,7 +6801,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "—",
-   "recovered": true
+   "recovered": true,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -6507,7 +6841,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "—",
-   "recovered": true
+   "recovered": true,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -6545,7 +6881,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "—",
-   "recovered": true
+   "recovered": true,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -6583,7 +6921,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "—",
-   "recovered": true
+   "recovered": true,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "nli-coords",
@@ -6621,7 +6961,9 @@
    "note": "",
    "decision": "keep-existing",
    "period": "—",
-   "recovered": true
+   "recovered": true,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "other",
@@ -6659,7 +7001,9 @@
    "note": "הרמיזות כוללות את הסוגריים, שלא כבדרך כלל.  כמו כן, רנידוס נראה לי כטעות, צ״ל קנידוס.",
    "decision": "data-problem",
    "period": "20250416-20250422",
-   "recovered": true
+   "recovered": true,
+   "wdKind": "",
+   "wdKindHe": ""
   },
   {
    "tab": "other",
@@ -6691,7 +7035,9 @@
    "note": "הסוגר הסופי חסר בכותרת.",
    "decision": "data-problem",
    "period": "—",
-   "recovered": false
+   "recovered": false,
+   "wdKind": "",
+   "wdKindHe": ""
   }
  ],
  "xlsx": "nli-report-20260922.xlsx"
