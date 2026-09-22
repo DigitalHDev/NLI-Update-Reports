@@ -393,7 +393,9 @@ function cell(row, key, cls) {
 function renderTab(key) {
   active = key;
   const tab = DATA.tabs.find(t => t.key === key);
-  const rows = DATA.rows.filter(r => r.tab === key);
+  // rows dropped from the edited spreadsheet are kept in data.json for the
+  // record but never shown to the library
+  const rows = DATA.rows.filter(r => r.tab === key && !r.removed);
   const cols = COLS[key];
 
   document.querySelectorAll('.tab').forEach(b =>
@@ -444,7 +446,8 @@ function closePanel() {
 
 fetch('data.json').then(r => r.json()).then(d => {
   DATA = d;
-  $('#f-rows').textContent = d.rows.length.toLocaleString('he-IL');
+  const liveRows = d.rows.filter(r => !r.removed);
+  $('#f-rows').textContent = liveRows.length.toLocaleString('he-IL');
   $('#f-tabs').textContent = d.tabs.length;
   $('#f-date').textContent = new Date(d.generated + 'T00:00:00')
     .toLocaleDateString('he-IL', { day: 'numeric', month: 'long', year: 'numeric' });
@@ -453,7 +456,7 @@ fetch('data.json').then(r => r.json()).then(d => {
 
   const mech = d.tabs.filter(t => t.kind === 'mechanical').reduce((a, t) => a + t.n, 0);
   $('#foot-method').textContent =
-    'מתוך ' + d.rows.length + ' השורות, ' + mech + ' הן תיקון מכני שאינו דורש הכרעה — '
+    'מתוך ' + liveRows.length + ' השורות, ' + mech + ' הן תיקון מכני שאינו דורש הכרעה — '
     + 'הערך הנכון נגזר מן הערך הקיים. השאר דורשות בדיקה עורכית, ולכל שורה כזאת '
     + 'צורפו הנקודה שלדעתנו נכונה, המרחק, וההערה שנרשמה בעת הסקירה.';
 

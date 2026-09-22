@@ -14,8 +14,17 @@ The Hebrew-naming queues (A2 A4 A5 A6 A8 A11, and rename-suggestion anywhere)
 are deliberately excluded: they are one argument about Hebrew heading form and
 tier vocabulary, and they go in a second report of their own.
 
-Run: python3 app/build_nli_report.py            (app server must be running)
-     python3 app/build_nli_report.py --offline  (use a cached full.csv)
+Editing the report (option A, chosen 2026-09-22): the spreadsheet in Drive is
+the source of truth for the *report*. Edit it there, then rebuild from it — the
+page is regenerated to match. Coordinates are read-only on that path (the sheet
+prints 5 decimals; Kima holds ~11) and a row removed from the sheet is kept in
+data.json flagged `removed`, hidden from the page and listed on every build, so
+a deletion can never silently drop a finding.
+
+Run: python3 app/build_nli_report.py                  (from decisions.json)
+     python3 app/build_nli_report.py --offline        (cached full.csv)
+     python3 app/build_nli_report.py --from-xlsx F    (from an edited workbook)
+     python3 app/build_nli_report.py --from-drive     (download it first)
 """
 import csv
 import io
@@ -407,6 +416,30 @@ def write_xlsx(payload, path):
             ws.column_dimensions[get_column_letter(i)].width = widths.get(k, 16)
         ws.freeze_panes = 'A2'
         ws.auto_filter.ref = 'A1:%s%d' % (get_column_letter(len(cols)), ws.max_row)
+    # The side-panel prose, editable. Read back by read_xlsx() — the `key`
+    # column is the join and must not be edited; everything right of it is
+    # yours. Keep the column order: the reader matches on these headers.
+    exp = wb.create_sheet('הסברים')
+    exp.sheet_view.rightToLeft = True
+    exp_cols = [('key', 'מפתח (לא לערוך)'), ('short', 'שם הלשונית'),
+                ('title', 'כותרת'), ('why', 'מה קרה'),
+                ('ask', 'מה מבוקש מן הספרייה'), ('how', 'איך נמצא'),
+                ('evidence', 'העדות בטבלה')]
+    exp.append([label for _, label in exp_cols])
+    for c in range(1, len(exp_cols) + 1):
+        cl = exp.cell(row=1, column=c)
+        cl.fill, cl.font = head_fill, head_font
+        cl.alignment = Alignment(vertical='center', wrap_text=True)
+    for t in payload['tabs']:
+        exp.append([t.get(k, '') for k, _ in exp_cols])
+    for i, (k, _) in enumerate(exp_cols, start=1):
+        exp.column_dimensions[get_column_letter(i)].width = \
+            {'key': 18, 'short': 20, 'title': 40}.get(k, 62)
+    for row in exp.iter_rows(min_row=2):
+        for cl in row:
+            cl.alignment = Alignment(vertical='top', wrap_text=True)
+    exp.freeze_panes = 'B2'
+
     # a first sheet that says what the workbook is
     intro = wb.create_sheet('אודות', 0)
     intro.sheet_view.rightToLeft = True
@@ -434,6 +467,134 @@ def write_xlsx(payload, path):
     return path
 
 
+
+# ---------------------------------------------------------------- read back
+# Option A: the edited spreadsheet is the source of truth for the report.
+# `--from-drive` (or `--from-xlsx <path>`) regenerates docs/ from the workbook
+# instead of from decisions.json, so edits made in Drive reach the page.
+#
+# Rows are matched on the NLI record id, the one column that must never be
+# edited. A row that has left the sheet is NOT deleted: it is kept in
+# data.json with removed=True and hidden from the page, so an accidental
+# deletion in Drive can never silently drop a finding from the report.
+
+DRIVE_FILE_ID = '12urSRrUoT8BU6Kz4W6iEWakgUGEgnXa9'
+ID_HEADER = 'מזהה NLI'
+
+
+def _norm_header(s):
+    return re.sub(r'\s+', ' ', str(s or '')).strip()
+
+
+def read_xlsx(path):
+    """Parse an edited workbook back into (rows_by_id, tab_prose)."""
+    from openpyxl import load_workbook
+    wb = load_workbook(path, data_only=True)
+    label_to_key = {label: key for cols in COLUMNS.values() for key, label in cols}
+
+    prose = {}
+    if 'הסברים' in wb.sheetnames:
+        ws = wb['הסברים']
+        head = [_norm_header(c.value) for c in ws[1]]
+        want = {'מפתח (לא לערוך)': 'key', 'שם הלשונית': 'short', 'כותרת': 'title',
+                'מה קרה': 'why', 'מה מבוקש מן הספרייה': 'ask', 'איך נמצא': 'how',
+                'העדות בטבלה': 'evidence'}
+        idx = {want[h]: i for i, h in enumerate(head) if h in want}
+        for row in ws.iter_rows(min_row=2, values_only=True):
+            if not row or not row[idx.get('key', 0)]:
+                continue
+            prose[str(row[idx['key']]).strip()] = {
+                f: (str(row[i]).strip() if row[i] is not None else '')
+                for f, i in idx.items() if f != 'key'}
+
+    edited = {}
+    for name in wb.sheetnames:
+        if name in ('אודות', 'הסברים'):
+            continue
+        ws = wb[name]
+        head = [_norm_header(c.value) for c in ws[1]]
+        if ID_HEADER not in head:
+            print('  ! sheet %r has no %r column — skipped' % (name, ID_HEADER))
+            continue
+        i_id = head.index(ID_HEADER)
+        for row in ws.iter_rows(min_row=2, values_only=True):
+            if not row or row[i_id] in (None, ''):
+                continue
+            rid = str(row[i_id]).strip()
+            vals = {}
+            for i, h in enumerate(head):
+                key = label_to_key.get(h)
+                if key and key != 'id':
+                    v = row[i]
+                    vals[key] = '' if v is None else str(v).strip()
+            edited[rid] = vals
+    return edited, prose
+
+
+def apply_edits(payload, edited, prose):
+    """Fold the spreadsheet's values back over the generated payload.
+
+    Coordinate columns are read-only on this path. The sheet prints them at 5
+    decimals, so reading them back would silently round the stored precision
+    (Kima holds ~11) and every build would report 100 phantom "edits". They are
+    derived from Kima and Wikidata, not from the reviewer's judgment, so the
+    generated value always wins. To correct a point, fix it in the review app.
+    """
+    READ_ONLY = {'nliLatLon', 'kimaLatLon', 'fixedLatLon', 'manualLatLon', 'dist'}
+    changed = touched = 0
+    for r in payload['rows']:
+        e = edited.get(r['id'])
+        if e is None:
+            r['removed'] = True          # left the sheet — kept, hidden, listed
+            continue
+        r['removed'] = False
+        hit = False
+        for key, v in e.items():
+            if key in READ_ONLY:
+                continue
+            new = v
+            if new != r.get(key) and not (new in ('', None) and r.get(key) in ('', None)):
+                r[key] = new
+                hit = True
+                changed += 1
+        touched += hit
+    for t in payload['tabs']:
+        p = prose.get(t['key'])
+        if p:
+            t.update({k: v for k, v in p.items() if v})
+    live = [r for r in payload['rows'] if not r.get('removed')]
+    gone = [r for r in payload['rows'] if r.get('removed')]
+    counts = {}
+    for r in live:
+        counts[r['tab']] = counts.get(r['tab'], 0) + 1
+    for t in payload['tabs']:
+        t['n'] = counts.get(t['key'], 0)
+    payload['tabs'] = [t for t in payload['tabs'] if t['n']]
+    print('spreadsheet applied: %d values changed across %d rows' % (changed, touched))
+    if gone:
+        print('  %d row(s) no longer in the sheet — kept as removed, hidden from the page:'
+              % len(gone))
+        for r in gone:
+            print('     %s  %s' % (r['id'], r['heb'] or r['rom'] or '—'))
+    return payload
+
+
+def fetch_drive(dest):
+    """Download the edited workbook. Needs a Drive credential; the Claude Drive
+    connector can also save it here by hand — see docs in the module header."""
+    url = ('https://www.googleapis.com/drive/v3/files/%s?alt=media' % DRIVE_FILE_ID)
+    tok = os.environ.get('GOOGLE_OAUTH_TOKEN', '')
+    if not tok:
+        raise SystemExit(
+            'No GOOGLE_OAUTH_TOKEN set.\n'
+            'Either export one, or download the sheet yourself and run:\n'
+            '    python3 app/build_nli_report.py --from-xlsx <path-to.xlsx>')
+    req = urllib.request.Request(url, headers={'Authorization': 'Bearer ' + tok})
+    with urllib.request.urlopen(req, timeout=120) as fh, open(dest, 'wb') as out:
+        out.write(fh.read())
+    return dest
+
+
 def main():
     os.makedirs(DOCS, exist_ok=True)
     rows = build_rows()
@@ -449,10 +610,31 @@ def main():
                  for t in TABS if counts.get(t['key'])],
         'rows': rows,
     }
+    # Option A: when an edited workbook is given, it wins. The generated rows
+    # above become the scaffold; the sheet supplies the values.
+    src = None
+    if '--from-xlsx' in sys.argv:
+        src = sys.argv[sys.argv.index('--from-xlsx') + 1]
+    elif '--from-drive' in sys.argv:
+        src = fetch_drive(os.path.join(APP_DIR, '.cache', 'edited-report.xlsx'))
+    if src:
+        print('reading edits from %s' % src)
+        # keep the download link the existing page already advertises
+        old = os.path.join(DOCS, 'data.json')
+        if os.path.exists(old):
+            payload['xlsx'] = json.load(open(old)).get('xlsx', '')
+        edited, prose = read_xlsx(src)
+        payload = apply_edits(payload, edited, prose)
+        rows = payload['rows']
+
     json.dump(payload, open(os.path.join(DOCS, 'data.json'), 'w'),
               ensure_ascii=False, indent=1)
-    print('wrote docs/data.json — %d rows in %d tabs' % (len(rows), len(payload['tabs'])))
-    xl = write_xlsx(payload, os.path.join(DOCS, 'nli-report-%s.xlsx' % today.replace('-', '')))
+    live = sum(1 for r in rows if not r.get('removed'))
+    print('wrote docs/data.json — %d rows in %d tabs' % (live, len(payload['tabs'])))
+    # Rewriting the workbook from an edited workbook would fight the editor, so
+    # the .xlsx is only regenerated on a normal build.
+    xl = (None if src else
+          write_xlsx(payload, os.path.join(DOCS, 'nli-report-%s.xlsx' % today.replace('-', ''))))
     if xl:
         payload['xlsx'] = os.path.basename(xl)
         json.dump(payload, open(os.path.join(DOCS, 'data.json'), 'w'),
@@ -461,7 +643,6 @@ def main():
     for t in payload['tabs']:
         print('  %-20s %4d  %s' % (t['key'], t['n'], t['title']))
     return payload
-
 
 if __name__ == '__main__':
     main()
