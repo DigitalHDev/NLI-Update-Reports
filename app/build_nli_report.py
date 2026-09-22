@@ -127,10 +127,11 @@ SPELLING_FIX = {
 # Raised as a flag on the row, never by silently rewriting Sinai's own words:
 # the reviewer may know something the check does not.
 SUGGEST_WARNING = {
-    '987010489292905171':
-        'לבדיקה: הרשומה הנכנסת היא Pulligny, ולפי ויקינתונים (Q1099419) היא '
-        'במחוז מרת ומוזל — ואילו ההצעה מייחסת אותה ליורה. ייתכן ששני הצדדים '
-        'הוחלפו. יש לאשר לפני שליחה.',
+    # Pulligny: resolved 2026-09-22. The check found the two sides swapped —
+    # the incoming record's own coordinates (48.54194, 6.14139) match Wikidata's
+    # Pulligny (Q1099419) exactly, which is in Meurthe-et-Moselle, not Jura.
+    # Sinai confirmed the swap and the two values were exchanged in
+    # decisions.json, so the warning no longer applies.
 }
 
 # Drafted disambiguation proposals for the rows where the review recorded the
