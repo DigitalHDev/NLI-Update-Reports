@@ -6,9 +6,10 @@ shape stays the single one defined by server.export_csv), drops the
 Hebrew-naming queues, groups what remains by *the error the library has to
 fix* rather than by our internal queue code, and writes:
 
-    docs/index.html              the tabbed report (GitHub Pages)
-    docs/data.json               the rows the page renders
-    docs/nli-report.xlsx         one sheet per tab (stable name)
+    index.html                   the tabbed report (GitHub Pages, served
+                                 from the repo root — see DOCS below)
+    data.json                    the rows the page renders
+    nli-report.xlsx              one sheet per tab (stable name)
 
 Structural errors (coordinates, external ids, duplicate records) plus the
 individual Hebrew headings that need a correction or a disambiguation — the
@@ -40,7 +41,11 @@ import urllib.request
 
 APP_DIR = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(APP_DIR)
-DOCS = os.path.join(REPO, 'docs')
+# GitHub Pages on this repo is configured (by the org admin) to deploy from
+# main / root, and changing that needs admin rights we do not have. So the
+# report is written to the repo root rather than to docs/ — the three files
+# below are the only web assets here; everything else in the root is data.
+DOCS = REPO
 APP_URL = os.environ.get('APP_URL', 'http://localhost:8765')
 
 # Decisions that are by nature a report to the library. Mirrors
@@ -944,7 +949,7 @@ def main():
     json.dump(payload, open(os.path.join(DOCS, 'data.json'), 'w'),
               ensure_ascii=False, indent=1)
     live = sum(1 for r in rows if not r.get('removed'))
-    print('wrote docs/data.json — %d rows in %d tabs' % (live, len(payload['tabs'])))
+    print('wrote data.json — %d rows in %d tabs' % (live, len(payload['tabs'])))
     # Rewriting the workbook from an edited workbook would fight the editor, so
     # the .xlsx is only regenerated on a normal build.
     # One stable filename, rebuilt in place: the Drive copy keeps its id and
