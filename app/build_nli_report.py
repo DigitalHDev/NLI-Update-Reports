@@ -101,8 +101,9 @@ TABS = [
             'וזו של ישות הוויקינתונים שהרשומה עצמה מפנה אליה בשדה 024. כשכימה '
             'וויקינתונים מסכימות זו עם זו ונקודת NLI לבדה — ייחסנו את הטעות לרשומה. '
             'הסיווג האוטומטי עבר אחר כך סקירה ידנית, שורה שורה.',
-        evidence='עמודת "ביטחון" היא ביטחון הסיווג האוטומטי; כל השורות כאן עברו '
-                 'גם אישור ידני.',
+        evidence='עמודת "הנקודה שלדעתנו נכונה" היא הנקודה שכימה מחזיקה, אלא אם '
+                 'הסוקר רשם נקודה משלו — במקרים שבהם גם נקודת כימה שגויה. '
+                 'עמודת "מרחק" היא המרחק בין נקודת הרשומה לנקודה הזאת.',
     ),
     dict(
         key='malformed-034',
@@ -310,10 +311,38 @@ def build_rows():
             'recovered': bool(extra and extra.get('heb')),
             'wdKind': '', 'wdKindHe': '',
         })
+    resolve_correct_point(out)
     reroute_wikidata(out)
     print('rows: %d  (Hebrew-naming held back for report #2: %d; our own bugs dropped: %d)'
           % (len(out), skipped_heb, skipped_ours))
     return out
+
+
+# --------------------------------------------------------- the correct point
+def resolve_correct_point(rows):
+    """Which point the report offers as correct.
+
+    Usually Kima's — the review's `keep-existing` verdict means exactly "Kima's
+    point is right, NLI's is wrong". But in the `wd-disagrees` cases Wikidata
+    backs neither side, so Kima's point is wrong too, and printing it under a
+    header that says "the point we believe is correct" would hand the library a
+    coordinate we do not believe in. Where the reviewer recorded a point by
+    hand, that one wins.
+    """
+    manual = 0
+    for r in rows:
+        r['correctLatLon'] = r.get('manualLatLon') or r.get('kimaLatLon')
+        if r.get('manualLatLon'):
+            r['correctSource'] = 'manual'
+            manual += 1
+            # the distance has to measure to the point the column actually
+            # shows, or the row states an error it does not demonstrate
+            if r.get('nliLatLon'):
+                r['dist'] = haversine(r['nliLatLon'], r['correctLatLon'])
+        else:
+            r['correctSource'] = 'kima'
+    if manual:
+        print('correct point: %d row(s) use the reviewer\'s own coordinates' % manual)
 
 
 # ------------------------------------------------------- wikidata rerouting
@@ -396,6 +425,9 @@ def attach_fix034(rows):
 
 
 # ---------------------------------------------------------------- spreadsheet
+# Columns that stay in the workbook (hidden) but never render on the page.
+HIDDEN_COLUMNS = {'bucketWhy', 'confidence'}
+
 # Column order per tab. Every id column is paired with a words column — the
 # convention from the review app's exports: a report the library has to act on
 # must never make a reader resolve an id by hand.
@@ -409,7 +441,7 @@ COLUMNS = {
     ],
     'nli-coords': [
         ('heb', 'כותרת עברית'), ('rom', 'כותרת לטינית'), ('id', 'מזהה NLI'),
-        ('nliLatLon', 'נקודת NLI'), ('kimaLatLon', 'הנקודה שלדעתנו נכונה'),
+        ('nliLatLon', 'נקודת NLI'), ('correctLatLon', 'הנקודה שלדעתנו נכונה'),
         ('dist', 'מרחק (ק״מ)'), ('bucketWhy', 'סוג הממצא'), ('confidence', 'ביטחון'),
         ('nliWd', 'ויקינתונים ברשומה'), ('correctWd', 'מזהה ויקינתונים נכון'),
         ('geonames', 'GeoNames'), ('note', 'הערת הסוקר'), ('url', 'קישור לרשומה'),
@@ -475,6 +507,12 @@ def write_xlsx(payload, path):
                   'url': 34, 'otherNliUrl': 34, 'bucketWhy': 34, 'kimaHeb': 28}
         for i, (k, _) in enumerate(cols, start=1):
             ws.column_dimensions[get_column_letter(i)].width = widths.get(k, 16)
+        # Internal working, kept for our own checking but hidden: the library
+        # is told what the tab is in the side panel, and per-row classifier
+        # reasoning only invites the question "what is a bucket?".
+        for i, (k, _) in enumerate(cols, start=1):
+            if k in HIDDEN_COLUMNS:
+                ws.column_dimensions[get_column_letter(i)].hidden = True
         ws.freeze_panes = 'A2'
         ws.auto_filter.ref = 'A1:%s%d' % (get_column_letter(len(cols)), ws.max_row)
     # The side-panel prose, editable. Read back by read_xlsx() — the `key`
