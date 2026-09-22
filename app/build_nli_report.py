@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the first NLI report — everything that is *not* a Hebrew-naming ask.
+"""Build the first NLI report to the library.
 
 Reads the review decisions through the running app's full export (so the row
 shape stays the single one defined by server.export_csv), drops the
@@ -10,9 +10,11 @@ fix* rather than by our internal queue code, and writes:
     docs/data.json               the rows the page renders
     docs/nli-report-<date>.xlsx  one sheet per tab
 
-The Hebrew-naming queues (A2 A4 A5 A6 A8 A11, and rename-suggestion anywhere)
-are deliberately excluded: they are one argument about Hebrew heading form and
-tier vocabulary, and they go in a second report of their own.
+Structural errors (coordinates, external ids, duplicate records) plus the
+individual Hebrew headings that need a correction or a disambiguation — the
+latter added 2026-09-22 at Sinai's request, with a concrete proposal for each
+side. What still goes to report #2 is the *tier vocabulary*: one cross-cutting
+argument about qualifier form, not a list of per-record fixes.
 
 Editing the report (option A, chosen 2026-09-22): the spreadsheet in Drive is
 the source of truth for the *report*. Edit it there, then rebuild from it — the
@@ -48,6 +50,115 @@ NLI_DECISIONS = {'keep-existing', 'nli-duplicate', 'data-problem', 'rename-sugge
 
 # Queues that are the Hebrew-naming argument. Excluded from report #1.
 HEBREW_NAMING_TASKS = {'A2', 'A4', 'A5', 'A6', 'A8', 'A11'}
+
+# ...except the ones the library must act on record by record, which Sinai
+# asked to include here (2026-09-22). These are not the tier-vocabulary
+# argument — they are individual headings where one Hebrew string is doing the
+# work of two places. The wider question of qualifier form still goes in #2.
+HEBREW_ROWS_INCLUDED = {
+    # two places, one Hebrew heading — a qualifier is needed on each side
+    '987011060395805171',   # הוכשטטן   Hochstätten / Hochstetten
+    '987007494092005171',   # אנינגן    Ehningen / Eningen unter Achalm
+    '987007545176905171',   # צ'רנייב   Cherniïv / Chernihiv
+    '987007494367505171',   # לובן      Lüben / Lübben
+    '987007562214205171',   # קאבה      Hajdú-Bihar / Pest
+    '987007559599105171',   # מריון     Marion Station / Marion
+    '987010489292905171',   # פוליני    Jura / Meurthe-et-Moselle
+    '987011252608705171',   # אופנהיים  Bavaria / Rheinland-Pfalz
+    '987013405241405171',   # פלאנס     two live NLI records, one village
+    # the heading is wrong, not ambiguous
+    '987007567653605171',   # אוסטרוויק Osterwick vs Osterwieck
+    '987007469750605171',   # טרבזון    Hebrew name of a different record
+    '987007496754305171',   # המזרח הרחוק הרוסי
+}
+
+# Spelling corrections to NLI's Hebrew heading that are not about a collision
+# at all. Two sat in the R research queue — recorded, marked "report to the
+# library" in the note, and then with nowhere to go (the open R-queue question
+# in the 2026-08-28 hand-off). Sinai confirmed 2026-09-22 these belong here.
+# ברוקין/בירקין was considered and dropped: בירקין is a legitimate form.
+HEBREW_SPELLING_ROWS = {
+    '987007559626405171',   # אינגולשטדט → איגולשטדט
+    '987007284075505171',   # רנידוס → קנידוס (plus a stray parenthesis)
+    '987007552593705171',   # שטרסבורג — a German Strasbourg distinct from the French
+}
+
+# Which of the three Hebrew tabs each admitted row belongs to. Explicit rather
+# than derived: these twelve rows were classified one by one, and the queue code
+# they carry (A8, A11, R, Z) does not distinguish a collision from a misspelling
+# from a wrong attribution.
+HEB_TAB_OF_ROW = {
+    **{rid: 'heb-homonym' for rid in (
+        '987011060395805171', '987007494092005171', '987007545176905171',
+        '987007494367505171', '987007562214205171', '987007559599105171',
+        '987010489292905171', '987011252608705171')},
+    '987013405241405171': 'heb-identity',   # פלאנס — two live NLI records
+    '987007567653605171': 'heb-identity',   # אוסטרוויק — merge
+    '987007469750605171': 'heb-identity',   # טרבזון — name of another record
+    '987007496754305171': 'heb-identity',   # המזרח הרחוק הרוסי
+    '987007559626405171': 'heb-spelling',
+    '987007284075505171': 'heb-spelling',
+    '987007552593705171': 'heb-spelling',
+}
+
+# Spelling corrections stated plainly, so the library reads the ask in a column
+# rather than digging it out of a free-text note.
+SPELLING_FIX = {
+    '987007559626405171': dict(was='אינגולשטדט (גרמניה)', now='איגולשטדט (גרמניה)',
+                               why='האיות העברי אינו תואם את Ingolstadt.'),
+    '987007284075505171': dict(was='רנידוס (טורקיה : עיר קדומה)',
+                               now='קנידוס (טורקיה : עיר קדומה)',
+                               why='Cnidus — התעתיק המקובל הוא בקו״ף. כמו כן הסוגר '
+                                   'הסופי חסר בכותרת, והרמיזות כוללות את הסוגריים '
+                                   'שלא כבדרך כלל.'),
+    '987007552593705171': dict(was='שטרסבורג (גרמניה)', now='',
+                               why='אין כאן שגיאת איות אלא שאלת זהות: יש שטרסבורג '
+                                   'גרמנית (Q565624) השונה מזו הצרפתית של היום. '
+                                   'האם יש צורך לשמר את הזהות הזו? אם כן, מוטב '
+                                   'להוסיף 1871-1918 לכותרת הראשית.'),
+}
+
+# Checks against Wikidata that contradict a suggestion recorded in the review.
+# Raised as a flag on the row, never by silently rewriting Sinai's own words:
+# the reviewer may know something the check does not.
+SUGGEST_WARNING = {
+    '987010489292905171':
+        'לבדיקה: הרשומה הנכנסת היא Pulligny, ולפי ויקינתונים (Q1099419) היא '
+        'במחוז מרת ומוזל — ואילו ההצעה מייחסת אותה ליורה. ייתכן ששני הצדדים '
+        'הוחלפו. יש לאשר לפני שליחה.',
+}
+
+# Drafted disambiguation proposals for the rows where the review recorded the
+# collision but no distinguishing name. Grounded on the administrative parent
+# in Wikidata (P131), using ITS OWN Hebrew label where one exists rather than a
+# transliteration of mine. Marked `draft` in the report so the library — and
+# Sinai — can see these are proposals awaiting approval, not review verdicts.
+NAME_DRAFTS = {
+    '987011060395805171': dict(
+        new='הוכשטטן (מחוז באד קרויצנאך, גרמניה)',
+        existing='הוכשטטן (גרמניה)',
+        why='שתי רשומות שונות: Hochstätten שבמחוז באד קרויצנאך, ו־Hochstetten '
+            'באיות אחר. ההצעה מוסיפה את המחוז לרשומה הנכנסת; יש לאשר מהי הרשומה '
+            'השנייה לפני שמציעים לה מבחין.'),
+    '987007494092005171': dict(
+        new='אנינגן (מחוז בבלינגן, גרמניה)',
+        existing='אנינגן אונטר אכלם (מחוז רויטלינגן, גרמניה)',
+        why='שני יישובים שונים במרחק 31 ק״מ: Ehningen שבמחוז בבלינגן (Q314758) '
+            'ו־Eningen unter Achalm שבמחוז רויטלינגן (Q81423). שמות המחוזות '
+            'לקוחים מתוויות ויקינתונים בעברית.'),
+    '987007545176905171': dict(
+        new="צ'רנייב (מחוז איוונו-פרנקיבסק, אוקראינה)",
+        existing="צ'רניהיב (אוקראינה)",
+        why='כאן לא די במבחין: המרחק 553 ק״מ, והרשומה השנייה היא צ׳רניהיב — '
+            'בירת המחוז (Q157053), שהתעתיק העברי המקובל לה בוויקינתונים הוא '
+            '"צ׳רניהיב" ולא "צ׳רנייב". כלומר אחת הכותרות שגויה ולא רק עמומה.'),
+    '987007494367505171': dict(
+        new='לובין (מחוז דולנוסלונסקיה, פולין)',
+        existing='לובן (מחוז דאמה-שפרוואלד, גרמניה)',
+        why='לפי הערת הסוקר, הרשומה הנכנסת היא Lubin שבפולין — השם העכשווי — '
+            'ו־Lüben/Lueben הם וריאנטים היסטוריים שלה. הרשומה השנייה היא '
+            'Lübben שבברנדנבורג (Q584815). שני מקומות שונים ב־170 ק״מ.'),
+}
 
 # B5 is *our* bug, not NLI's: (d+e)/2 on a box that crosses the antimeridian
 # gives -56 instead of 124E. issue-categories.md calls it "באג ברצה". A row
@@ -142,6 +253,58 @@ TABS = [
             'הקואורדינטות, ולכן יש בהן גם אי־התאמה במיקום; היא מופיעה בעמודת המרחק.',
         evidence='עמודת "סוג הפנייה" אומרת אם מדובר בתיקון או בהצעה, ועמודת '
             '"המזהה שברשומה" מראה מה קיים היום.',
+    ),
+    dict(
+        key='heb-homonym',
+        tasks={'A8', 'A11', 'Z'},
+        title='כותרת עברית אחת לשני מקומות',
+        short='כותרת לשני מקומות',
+        kind='judgment',
+        why='שתי רשומות רשות נפרדות — שני מקומות ממשיים ושונים — נושאות בדיוק את '
+            'אותה כותרת בעברית, אף שהשם הלטיני מבדיל ביניהן. התעתיק לעברית מאבד את '
+            'ההבחנה: Ehningen ו־Eningen unter Achalm נעשים שניהם "אנינגן (גרמניה)", '
+            'Lüben ו־Lübben שניהם "לובן (גרמניה)". התוצאה היא שאי אפשר להפנות לאחת '
+            'מהן בעברית בלי להפנות גם לשנייה.',
+        ask='להוסיף מבחין לכותרת העברית של כל אחד מן הצדדים. העמודות "הצעה לרשומה '
+            'הנכנסת" ו"הצעה לרשומה הקיימת" נושאות הצעה קונקרטית לכל צד. '
+            'ההצעות המסומנות "טיוטה" הן הצעות שלנו ולא הכרעה — הן נסמכות על '
+            'החלוקה המנהלית בוויקינתונים, ואנו מבקשים את דעתכם עליהן.',
+        how='המקרים אותרו בהשוואת הכותרות העבריות בין הרשומה הנכנסת ובין הרשומה '
+            'שכבר מחזיקה את אותה כותרת. לכל זוג בדקנו את השם הלטיני, את מזהה '
+            'הוויקינתונים ואת הקואורדינטות, כדי לוודא שמדובר בשני מקומות ולא '
+            'בכפילות. שמות המחוזות בהצעות לקוחים מתוויות ויקינתונים בעברית, '
+            'לא מתעתיק שלנו.',
+        evidence='עמודת "מרחק" מראה כמה רחוקים המקומות זה מזה — עדות לכך שאינם '
+                 'אותו מקום. עמודת "נימוק ההצעה" מסבירה על מה נשענת כל טיוטה.',
+    ),
+    dict(
+        key='heb-spelling',
+        tasks={'R', 'Z'},
+        title='שגיאה באיות הכותרת העברית',
+        short='איות הכותרת',
+        kind='judgment',
+        why='כאן אין עמימות ואין שני מקומות — פשוט האיות העברי של הכותרת שגוי, '
+            'או שהכותרת מעלה שאלה של זהות. אלה ממצאים שעלו אגב בדיקות אחרות '
+            'ונרשמו במהלך הסקירה.',
+        ask='לתקן את האיות לפי העמודה "האיות המוצע", או — במקרה של שטרסבורג — '
+            'להכריע בשאלה שבעמודת ההסבר.',
+        how='כל מקרה נבדק מול השם הלטיני ברשומה ומול ויקינתונים. אלה מקרים '
+            'בודדים שנרשמו ידנית, לא תוצר של סיווג אוטומטי.',
+        evidence='עמודת "האיות ברשומה" מול "האיות המוצע", וההסבר שלצדן.',
+    ),
+    dict(
+        key='heb-identity',
+        tasks={'A8', 'A10', 'A11'},
+        title='הכותרת העברית שייכת לרשומה אחרת',
+        short='זהות הכותרת',
+        kind='judgment',
+        why='מקרים שבהם הבעיה אינה באיות אלא בשיוך: כותרת עברית שיושבת על הרשומה '
+            'הלא נכונה, או שתי רשומות שהן למעשה מקום אחד ויש לאחדן. '
+            'אלה אינם מקרים שדורשים מבחין — הם דורשים הכרעה מה הרשומה מתארת.',
+        ask='לבדוק כל מקרה לגופו לפי ההערה שלצדו: לאחד את הרשומות, או להעביר את '
+            'הכותרת העברית לרשומה שאליה היא שייכת.',
+        how='אותרו במהלך סקירת הכפילויות ואומתו מול MARC מ־Alma OAI.',
+        evidence='עמודת "הערת הסוקר" נושאת את הממצא המלא לכל שורה.',
     ),
     dict(
         key='duplicate-records',
@@ -247,18 +410,24 @@ def build_rows():
     out = []
     skipped_heb = skipped_ours = 0
     for r in rows:
-        if not (r['for_nli'] == 'yes' or r['decision'] in NLI_DECISIONS):
+        # The three spelling rows were never flagged for the library — two sat
+        # in the R research queue with "report to the library" written in the
+        # note and no route out. Admit them explicitly.
+        if not (r['for_nli'] == 'yes' or r['decision'] in NLI_DECISIONS
+                or r['new_id'] in HEB_TAB_OF_ROW):
             continue
         # The Hebrew-naming argument goes in report #2 — both the queues that are
         # about heading form, and any rename-suggestion wherever it was recorded.
-        if r['task'] in HEBREW_NAMING_TASKS or r['decision'] == 'rename-suggestion':
+        heb_tab = HEB_TAB_OF_ROW.get(r['new_id'])
+        if not heb_tab and (r['task'] in HEBREW_NAMING_TASKS
+                            or r['decision'] == 'rename-suggestion'):
             skipped_heb += 1
             continue
         if r['task'] in OUR_BUG_TASKS:
             skipped_ours += 1
             continue
-        tab = (Z_TAB_OF_DECISION.get(r['decision']) if r['task'] == 'Z'
-               else TAB_OF_TASK.get(r['task']))
+        tab = (heb_tab or (Z_TAB_OF_DECISION.get(r['decision']) if r['task'] == 'Z'
+                           else TAB_OF_TASK.get(r['task'])))
         if not tab:
             print('  ! no tab for task %s (%s) — skipped' % (r['task'], r['new_id']))
             continue
@@ -310,6 +479,20 @@ def build_rows():
             'period': r['period'],
             'recovered': bool(extra and extra.get('heb')),
             'wdKind': '', 'wdKindHe': '',
+            # Hebrew-naming fields: a drafted proposal is marked as such so
+            # nobody mistakes our suggestion for the review's verdict.
+            'suggestNew': (NAME_DRAFTS.get(r['new_id']) or {}).get('new')
+                          or r['suggested_new_name'],
+            'suggestExisting': (NAME_DRAFTS.get(r['new_id']) or {}).get('existing')
+                               or r['suggested_existing_name'],
+            'suggestWhy': (NAME_DRAFTS.get(r['new_id']) or {}).get('why', ''),
+            'suggestWarn': SUGGEST_WARNING.get(r['new_id'], ''),
+            'isDraft': r['new_id'] in NAME_DRAFTS,
+            'draftHe': 'טיוטה' if r['new_id'] in NAME_DRAFTS else '',
+            'spellWas': (SPELLING_FIX.get(r['new_id']) or {}).get('was', ''),
+            'spellNow': (SPELLING_FIX.get(r['new_id']) or {}).get('now', ''),
+            'spellWhy': (SPELLING_FIX.get(r['new_id']) or {}).get('why', ''),
+            'otherHeb': r['existing_heb'], 'otherRom': r['existing_rom'],
         })
     resolve_correct_point(out)
     reroute_wikidata(out)
@@ -387,6 +570,11 @@ def reroute_wikidata(rows):
             r['correctWd'] = ''          # Kima-side fix — not the library's
             cleared += 1
             continue
+        # An explicit Hebrew-tab assignment wins: פלאנס carries a correctWd, but
+        # its finding is that two live NLI records describe one village. The id
+        # is incidental; moving it would file a duplicate under "wrong id".
+        if HEB_TAB_OF_ROW.get(r['id']):
+            continue
         r['wdKind'] = 'wrong' if nw else 'suggested'
         r['wdKindHe'] = WD_KIND_HE[r['wdKind']]
         if r['tab'] != 'wikidata-id':
@@ -463,6 +651,26 @@ COLUMNS = {
         ('nliWd', 'ויקינתונים משותף'), ('dist', 'מרחק בין הנקודות (ק״מ)'),
         ('note', 'הערת הסוקר'), ('url', 'קישור לרשומה'), ('otherNliUrl', 'קישור לשנייה'),
     ],
+    'heb-homonym': [
+        ('heb', 'הכותרת העברית המשותפת'), ('draftHe', 'מעמד ההצעה'),
+        ('rom', 'הרשומה הנכנסת (לטינית)'), ('id', 'מזהה NLI'),
+        ('suggestNew', 'הצעה לרשומה הנכנסת'),
+        ('otherRom', 'הרשומה הקיימת (לטינית)'), ('otherNliId', 'מזהה הרשומה הקיימת'),
+        ('suggestExisting', 'הצעה לרשומה הקיימת'),
+        ('dist', 'מרחק (ק״מ)'), ('suggestWhy', 'נימוק ההצעה'),
+        ('suggestWarn', 'לבדיקה לפני שליחה'),
+        ('note', 'הערת הסוקר'), ('url', 'קישור לרשומה'),
+    ],
+    'heb-spelling': [
+        ('heb', 'כותרת עברית'), ('rom', 'כותרת לטינית'), ('id', 'מזהה NLI'),
+        ('spellWas', 'האיות ברשומה'), ('spellNow', 'האיות המוצע'),
+        ('spellWhy', 'הסבר'), ('url', 'קישור לרשומה'),
+    ],
+    'heb-identity': [
+        ('heb', 'כותרת עברית'), ('rom', 'כותרת לטינית'), ('id', 'מזהה NLI'),
+        ('otherNliId', 'הרשומה השנייה'), ('otherHeb', 'כותרת הרשומה השנייה'),
+        ('note', 'הערת הסוקר'), ('url', 'קישור לרשומה'),
+    ],
     'other': [
         ('heb', 'כותרת עברית'), ('rom', 'כותרת לטינית'), ('id', 'מזהה NLI'),
         ('note', 'הערת הסוקר'), ('nliLatLon', 'נקודת NLI'), ('kimaLatLon', 'נקודת כימה'),
@@ -504,6 +712,9 @@ def write_xlsx(payload, path):
         for r in [x for x in payload['rows'] if x['tab'] == tab['key']]:
             ws.append([cell(r, k) for k, _ in cols])
         widths = {'heb': 30, 'rom': 30, 'id': 20, 'fix034': 46, 'note': 52,
+                  'suggestNew': 34, 'suggestExisting': 34, 'suggestWhy': 60,
+                  'spellWas': 26, 'spellNow': 26, 'spellWhy': 60, 'otherHeb': 28,
+                  'otherRom': 30, 'draftHe': 12,
                   'url': 34, 'otherNliUrl': 34, 'bucketWhy': 34, 'kimaHeb': 28}
         for i, (k, _) in enumerate(cols, start=1):
             ws.column_dimensions[get_column_letter(i)].width = widths.get(k, 16)

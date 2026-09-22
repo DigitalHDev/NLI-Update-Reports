@@ -192,6 +192,11 @@
             font-weight: 700; border-radius: 4px; padding: .08rem .5rem;
             background: var(--bad-soft); color: var(--bad); }
   .wdchip.sug { background: var(--accent-soft); color: var(--accent); }
+  /* a proposal of ours awaiting approval, not a review verdict */
+  .draft { display: inline-block; white-space: nowrap; font-size: .72rem; font-weight: 700;
+           border: 1px dashed var(--ochre); color: var(--ochre);
+           border-radius: 4px; padding: .02rem .45rem; }
+  td.warn { color: var(--bad); font-size: .8rem; max-width: 22rem; }
   .fix { direction: ltr; text-align: left; font-family: ui-monospace, Menlo, monospace;
          font-size: .78rem; white-space: nowrap; }
   .fix .was { color: var(--bad); text-decoration: line-through; }
@@ -264,8 +269,10 @@
       הדוח הזה נובע מהשוואה שבועית בין רשומות הרשות של מקומות בקטלוג הספרייה הלאומית
       ובין הגזטיר ההיסטורי כימה. כל שורה כאן <strong>עברה סקירה ידנית</strong> והוכרעה
       כשגיאה ברשומה עצמה — ולא כאי־התאמה בין שני מקורות לגיטימיים.
-      הדוח עוסק בשגיאות מבניות בלבד: קואורדינטות, מזהים חיצוניים וכפילות רשומות.
-      <strong>שאלות של כותרות בעברית ושל דרגות מנהליות אינן כאן</strong> ויימסרו בדוח נפרד.
+      הדוח כולל שגיאות מבניות — קואורדינטות, מזהים חיצוניים וכפילות רשומות — וכן
+      כותרות עבריות בודדות הדורשות תיקון או הבחנה, עם הצעה קונקרטית לכל צד.
+      <strong>שאלת אוצר המילים של הדרגות המנהליות אינה כאן</strong> ותיידון בנפרד:
+      היא שאלה אחת רוחבית ולא רשימת תיקונים.
     </p>
     <div class="facts">
       <span><b id="f-rows">—</b> שורות</span>
@@ -342,6 +349,23 @@ const COLS = {
     ['otherNliId','מזהה הרשומה השנייה','rid'], ['nliWd','ויקינתונים משותף','mono'],
     ['dist','מרחק בין הנקודות','dist'], ['note','הערת הסוקר','note'],
   ],
+  'heb-homonym': [
+    ['heb','הכותרת המשותפת','heb'], ['draftHe','','draft'],
+    ['rom','הרשומה הנכנסת','ltr'], ['suggestNew','הצעה לנכנסת','heb'],
+    ['otherRom','הרשומה הקיימת','ltr'], ['suggestExisting','הצעה לקיימת','heb'],
+    ['dist','מרחק','dist'], ['suggestWhy','נימוק','note'],
+    ['suggestWarn','לבדיקה','warn'],
+  ],
+  'heb-spelling': [
+    ['heb','כותרת עברית','heb'], ['rom','כותרת לטינית','ltr'], ['id','מזהה NLI','rid'],
+    ['spellWas','האיות ברשומה','heb'], ['spellNow','האיות המוצע','heb'],
+    ['spellWhy','הסבר','note'],
+  ],
+  'heb-identity': [
+    ['heb','כותרת עברית','heb'], ['rom','כותרת לטינית','ltr'], ['id','מזהה NLI','rid'],
+    ['otherNliId','הרשומה השנייה','rid'], ['otherHeb','כותרת השנייה','heb'],
+    ['note','הערת הסוקר','note'],
+  ],
   'other': [
     ['heb','כותרת עברית','heb'], ['rom','כותרת לטינית','ltr'], ['id','מזהה NLI','rid'],
     ['note','הערת הסוקר','note'],
@@ -380,6 +404,10 @@ function cell(row, key, cls) {
     return '<td class="num' + (far ? ' far' : '') + '">' +
            row.dist.toLocaleString('he-IL') + ' ק״מ</td>';
   }
+  if (key === 'draftHe')
+    return '<td>' + (row.draftHe ? '<span class="draft">' + esc(row.draftHe) + '</span>' : '') + '</td>';
+  if (key === 'suggestWarn')
+    return '<td class="warn">' + (row.suggestWarn ? '⚑ ' + esc(row.suggestWarn) : '') + '</td>';
   if (key === 'wdKindHe') {
     const w = row.wdKind === 'suggested';
     return '<td><span class="wdchip' + (w ? ' sug' : '') + '">' + esc(row.wdKindHe) + '</span></td>';
