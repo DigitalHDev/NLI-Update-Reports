@@ -8,7 +8,10 @@ weekly `places_*.json` MARC (843 records with a Roman `: tier` qualifier), and t
 ## 1. What NLI does
 
 The Roman `151` is built on the LC pattern `Name (Country : Tier)` and is precise —
-45 distinct tier words in the dump (Province 512, Landkreis 181, District 170, Town 109,
+102 distinct *administrative* tier words in the dump, 49 of them recurring 3+ times
+(re-verified 2026-09-22; an earlier draft said 45, which was a partial count — the raw
+figure is 177 qualifier strings, the rest being feature types, date ranges and one-offs)
+(Province 512, Landkreis 181, District 170, Town 109,
 Region 71, Okres 64, State 61, Powiat 60, County 52, Voivodeship 45, Dept. 42, Township 37,
 Kreis 35, Canton 29, Județ 21, Politischer Bezirk 17, Regierungsbezirk 16, Raion, Oblast,
 Bezirk, Stadtkreis, Shahristān, Amphoe, Rrethi, Obshtina, Kabupaten …).
@@ -25,16 +28,19 @@ The Hebrew `151` collapses that into **two words**:
 
 Three further irregularities, all NLI's:
 
-1. **No tier at all** in 231 of 1,978 Hebrew headings whose Roman has one — `Stanisławów
+1. **No tier at all** in 89 of 1,978 Hebrew headings whose Roman has one (re-verified
+   2026-09-22; an earlier draft said 231, which no reading of the data reproduces) — `Stanisławów
    (Poland : Voivodeship)` → `סטניסלבוב (פולין)`; `Edison (N.J. : Township)` → `אדיסון (ניו
    ג'רזי)`. These are the ones that collide *exactly* with the town heading.
-2. **Prefix vs qualifier form.** `מחוז X (country)` in ~2,700 headings (Landkreis 77, Okres 33,
-   Powiat 24 …) versus `X (country : מחוז)` in ~890. Both for the same Roman tiers. A prefix
+2. **Prefix vs qualifier form.** `מחוז X (country)` in 2,808 headings — and 154 headings
+   carry the word *twice*, `מחוז דמין (גרמניה : מחוז)` — (Landkreis 77, Okres 33,
+   Powiat 24 …) versus `X (country : מחוז)` in 889. Both for the same Roman tiers. A prefix
    heading and a qualifier heading for the same name do not collide as strings but are the
    same ambiguity to a reader (`מחוז מינסק (בלארוס)` = raion, `מינסק (בלארוס:אובלסט)` = oblast).
 3. **Same word across levels inside one country.** Poland: Voivodeship → מחוז *and* Powiat →
-   מחוז. Germany: Regierungsbezirk, Landkreis, Kreis, Bezirk, Stadtkreis → all מחוז. Czechia:
-   Kraj → מחוז, Okres → מחוז. That is the direct cause of the `tier-pair` collisions
+   מחוז. Germany: seven distinct Roman tiers → all מחוז (Regierungsbezirk, Landkreis, Kreis,
+   Stadtkreis, Bezirk, Amt, Landesbezirk), and ten countries collapse 3+ tiers this way. Czechia: Okres → מחוז
+   (but Kraj → אזור, not מחוז — an earlier draft had this wrong). That is the direct cause of the `tier-pair` collisions
    (Bydgoszcz, Koszalin, Piotrków, Aachen, Cottbus, Potsdam, Weimar, Pardubice, Liberec, Zlín).
 
 Root cause, restated: **NLI enforces uniqueness on the Roman heading only**, so nothing
