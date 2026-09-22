@@ -412,6 +412,9 @@ MACHINE_NOTE = re.compile(r'^\s*bulk:\s*\w+\s*$')
 # stays in decisions.json where it was asked.
 NOTE_OVERRIDE = {
     '987007562247105171': 'הסוגר הסופי חסר בכותרת.',
+    # "בעיה בשם הערבי" — the headline is already in "ממצא נוסף" and the whole
+    # account is in the detail that merge_note() now folds into this column.
+    '987007562429505171': '',
 }
 
 
@@ -420,6 +423,25 @@ def clean_note(rid, note):
         return NOTE_OVERRIDE[rid]
     note = (note or '').strip()
     return '' if MACHINE_NOTE.match(note) else note
+
+
+def merge_note(rid, note):
+    """The reviewer's note and the second finding's detail, in one column.
+
+    They were two columns saying one thing: where a row carries a second
+    finding, its detail is the full account and the note tends to restate the
+    headline already shown in "ממצא נוסף" (Lokhvytsia: "בעיה בשם הערבי"
+    against a detail that explains the whole transliteration defect). The
+    detail leads; the note follows only when it adds something the detail
+    does not already say.
+    """
+    note = clean_note(rid, note)
+    detail = (SECOND_FINDING.get(rid) or {}).get('detail', '').strip()
+    if not detail:
+        return note
+    if not note or note in detail:
+        return detail
+    return detail + ' — ' + note
 
 
 def split_ll(s):
@@ -509,7 +531,7 @@ def build_rows():
             'bucketWhy': r['classifier_reason'],
             'confidence': r['classifier_confidence'],
             'fix034': (extra or {}).get('fix034') or '',
-            'note': clean_note(r['new_id'], r['note']),
+            'note': merge_note(r['new_id'], r['note']),
             'decision': r['decision'],
             'period': r['period'],
             'recovered': bool(extra and extra.get('heb')),
@@ -523,7 +545,6 @@ def build_rows():
             'suggestWhy': (NAME_DRAFTS.get(r['new_id']) or {}).get('why', ''),
             'suggestWarn': SUGGEST_WARNING.get(r['new_id'], ''),
             'second': (SECOND_FINDING.get(r['new_id']) or {}).get('what', ''),
-            'secondDetail': (SECOND_FINDING.get(r['new_id']) or {}).get('detail', ''),
             'isDraft': r['new_id'] in NAME_DRAFTS,
             'draftHe': 'טיוטה' if r['new_id'] in NAME_DRAFTS else '',
             'spellWas': (SPELLING_FIX.get(r['new_id']) or {}).get('was', ''),
@@ -685,7 +706,7 @@ COLUMNS = {
         ('wdKindHe', 'סוג הפנייה'),
         ('nliWd', 'המזהה שברשומה'), ('correctWd', 'המזהה הנכון / המוצע'),
         ('nliLatLon', 'נקודת NLI'), ('kimaLatLon', 'נקודת כימה'), ('dist', 'מרחק (ק״מ)'),
-        ('second', 'ממצא נוסף'), ('secondDetail', 'פירוט הממצא הנוסף'),
+        ('second', 'ממצא נוסף'),
         ('note', 'הערת הסוקר'), ('url', 'קישור לרשומה'),
     ],
     'duplicate-records': [
@@ -805,7 +826,7 @@ def write_xlsx(payload, path):
         widths = {'heb': 30, 'rom': 30, 'id': 20, 'fix034': 46, 'note': 52,
                   'suggestNew': 34, 'suggestExisting': 34, 'suggestWhy': 60,
                   'spellWas': 26, 'spellNow': 26, 'spellWhy': 60, 'otherHeb': 28,
-                  'otherRom': 30, 'draftHe': 12, 'second': 18, 'secondDetail': 70,
+                  'otherRom': 30, 'draftHe': 12, 'second': 18,
                   'url': 34, 'otherNliUrl': 34, 'bucketWhy': 34, 'kimaHeb': 28}
         for i, (k, _) in enumerate(cols, start=1):
             ws.column_dimensions[get_column_letter(i)].width = widths.get(k, 16)
